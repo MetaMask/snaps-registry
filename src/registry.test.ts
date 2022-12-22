@@ -7,7 +7,6 @@ import {
   string,
   union,
   optional,
-  intersection,
   assert,
 } from 'superstruct';
 
@@ -27,15 +26,13 @@ const BlockReasonStruct = object({
   url: optional(string()),
 });
 
-const BlockedSnapStruct = intersection([
-  union([
-    object({
-      id: string(),
-      versionRange: VersionRangeStruct,
-      reason: optional(BlockReasonStruct),
-    }),
-    object({ checksum: string(), reason: optional(BlockReasonStruct) }),
-  ]),
+const BlockedSnapStruct = union([
+  object({
+    id: string(),
+    versionRange: VersionRangeStruct,
+    reason: optional(BlockReasonStruct),
+  }),
+  object({ checksum: string(), reason: optional(BlockReasonStruct) }),
 ]);
 
 // TODO: Import these structs from @metamask/snaps-utils
