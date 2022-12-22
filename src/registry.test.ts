@@ -43,7 +43,8 @@ const JsonSnapRegistryDatabaseStruct = object({
 
 describe('Snap Registry', () => {
   it('has valid format', () => {
-    assert(registry, JsonSnapRegistryDatabaseStruct);
-    expect(is(registry, JsonSnapRegistryDatabaseStruct)).toBe(true);
+    expect(() =>
+      assert(registry, JsonSnapRegistryDatabaseStruct),
+    ).not.toThrow();
   });
 });
