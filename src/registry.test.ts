@@ -2,7 +2,6 @@ import { VersionStruct, VersionRangeStruct } from '@metamask/snaps-utils';
 import {
   object,
   array,
-  is,
   record,
   string,
   union,
