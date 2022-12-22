@@ -10,7 +10,8 @@
     "noErrorTruncation": true,
     "noUncheckedIndexedAccess": true,
     "strict": true,
-    "target": "es2017"
+    "target": "es2017",
+    "resolveJsonModule": true
   },
   "exclude": ["./dist/**/*"]
 }
