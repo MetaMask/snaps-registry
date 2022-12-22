@@ -22,16 +22,20 @@ const VerifiedSnapStruct = object({
   versions: record(VersionStruct, VerifiedSnapVersionStruct),
 });
 
+const BlockReasonStruct = object({
+  explanation: optional(string()),
+  url: optional(string()),
+});
+
 const BlockedSnapStruct = intersection([
   union([
-    object({ id: string(), versionRange: VersionRangeStruct }),
-    object({ checksum: string() }),
+    object({
+      id: string(),
+      versionRange: VersionRangeStruct,
+      reason: optional(BlockReasonStruct),
+    }),
+    object({ checksum: string(), reason: optional(BlockReasonStruct) }),
   ]),
-  object({
-    reason: optional(
-      object({ explanation: optional(string()), url: optional(string()) }),
-    ),
-  }),
 ]);
 
 // TODO: Import these structs from @metamask/snaps-utils
