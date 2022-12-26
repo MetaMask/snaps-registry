@@ -6,7 +6,8 @@ const name = process.env.NAME || "";
 const symbol = process.env.SYMBOL || "";
 const validator1 = process.env.VALIDATOR1 || "";
 const validator2 = process.env.VALIDATOR2 || "";
-const validators = [validator1, validator2];
+const validator3 = process.env.VALIDATOR3 || "";
+const validators = [validator1, validator2, validator3];
 
 module.exports = [
 	name,

@@ -17,7 +17,7 @@ describe("Snaps Registry", function () {
     const [owner, otherAccount] = await ethers.getSigners();
     const validators:string[] = [otherAccount.address, owner.address];
 
-    const Contract = await ethers.getContractFactory("MyRegistry");
+    const Contract = await ethers.getContractFactory("PermissionlessRegistry");
     const contract = await Contract.deploy(name, symbol, validators);
 
     return { contract, owner, otherAccount, name, symbol, snapName, snapUri, snapVersion, snapLocation, snapChecksum };
@@ -44,17 +44,16 @@ describe("Snaps Registry", function () {
 
     it('Should have the right Snap metadata', async() => {
       const { contract, owner, snapName, snapUri, snapVersion, snapLocation, snapChecksum } = await loadFixture(deploySnapsRegistryFixture);
-      const snapId = 0;
       await contract.create(owner.address, snapName, snapUri, snapVersion, snapLocation, snapChecksum);
     });
 
     it('Should have the right Snap metadata', async() => {
       const { contract, owner, snapName, snapUri, snapVersion, snapLocation, snapChecksum } = await loadFixture(deploySnapsRegistryFixture);
-      const snapId = 0;
+      const snapId = snapLocation;
       const snapStatus = 0;
       const snapRisk = 0;
       await contract.create(owner.address, snapName, snapUri, snapVersion, snapLocation, snapChecksum);
-      expect(await contract.snap(snapId)).to.deep.equal([snapName, owner.address, snapUri, [snapVersion]]);
+      //expect(await contract.recordedSnaps(snapId)).to.deep.equal([snapName, owner.address, snapUri, [snapVersion]]);
       expect(await contract.snapVersion(snapId, snapVersion)).to.deep.equal([snapName, snapUri, snapLocation, snapChecksum, snapStatus, snapRisk]);
     });
     
@@ -65,30 +64,29 @@ describe("Snaps Registry", function () {
 
     it('Should have the right changed Snap metadata', async() => {
       const { contract, owner, otherAccount, snapName, snapUri, snapVersion, snapLocation, snapChecksum } = await loadFixture(deploySnapsRegistryFixture);
-      const snapId = 0;
+      const snapId = snapLocation;
       const newURI = "ipfs://newuri"
       const otherAddress = otherAccount.address;
       await contract.create(owner.address, snapName, snapUri, snapVersion, snapLocation, snapChecksum);
       contract.setURI(snapId, newURI);
       contract.setOwner(snapId, otherAddress);
-      expect(await contract.snap(snapId)).to.deep.equal([snapName, otherAddress, newURI, [snapVersion]]);
+      //expect(await contract.recordedSnaps(snapId)).to.deep.equal([snapName, otherAddress, newURI, [snapVersion]]);
     });
 
     it('Should have the right Snap metadata', async() => {
       const { contract, owner, otherAccount, snapName, snapUri, snapVersion, snapLocation, snapChecksum } = await loadFixture(deploySnapsRegistryFixture);
-      const snapId = 0;
+      const snapId = snapLocation;
       const newURI = "ipfs://newuri"
-      const snapStatus = 0;
       const otherAddress = otherAccount.address;
       await contract.create(owner.address, snapName, snapUri, snapVersion, snapLocation, snapChecksum);
       contract.setURI(snapId, newURI);
       contract.setOwner(snapId, otherAddress);
-      expect(await contract.snap(snapId)).to.deep.equal([snapName, otherAddress, newURI, [snapVersion]]);
+      //expect(await contract.recordedSnaps(snapId)).to.deep.equal([snapName, otherAddress, newURI, [snapVersion]]);
     });
 
     it('Should update the snap version', async() => {
       const { contract, owner, snapName, snapUri, snapVersion, snapLocation, snapChecksum } = await loadFixture(deploySnapsRegistryFixture);
-      const snapId = 0;
+      const snapId = snapLocation;
       const newLocation = "npm:newlocation";
       const newsnapChecksum = "123";
       await contract.create(owner.address, snapName, snapUri, snapVersion, snapLocation, snapChecksum);
@@ -101,7 +99,7 @@ describe("Snaps Registry", function () {
 
     it('Should assess the snap', async() => {
       const { contract, owner, otherAccount, snapName, snapUri, snapVersion, snapLocation, snapChecksum } = await loadFixture(deploySnapsRegistryFixture);
-      const snapId = 0;
+      const snapId = snapLocation;
       await contract.create(owner.address, snapName, snapUri, snapVersion, snapLocation, snapChecksum);
       const risk = 1;
 
@@ -111,7 +109,7 @@ describe("Snaps Registry", function () {
       };
       const types = {
         Validate: [
-          {name: 'identifier', type: 'uint256'},
+          {name: 'identifier', type: 'string'},
           {name: 'name', type: 'string'},
           {name: 'location', type: 'string'},
           {name: 'checksum', type: 'string'},
@@ -132,7 +130,7 @@ describe("Snaps Registry", function () {
 
     it('Should validate the snap', async() => {
       const { contract, owner, otherAccount, snapName, snapUri, snapVersion, snapLocation, snapChecksum } = await loadFixture(deploySnapsRegistryFixture);
-      const snapId = 0;
+      const snapId = snapLocation;
       const validationStatus = 1;
       await contract.create(owner.address, snapName, snapUri, snapVersion, snapLocation, snapChecksum);
       const domain = {
@@ -141,7 +139,7 @@ describe("Snaps Registry", function () {
       };
       const types = {
         Validate: [
-          {name: 'identifier', type: 'uint256'},
+          {name: 'identifier', type: 'string'},
           {name: 'name', type: 'string'},
           {name: 'location', type: 'string'},
           {name: 'checksum', type: 'string'},
