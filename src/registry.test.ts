@@ -1,12 +1,10 @@
 import { assert } from 'superstruct';
 
-import { JsonSnapRegistryDatabaseStruct } from '.';
+import { SnapsRegistryDatabaseStruct } from '.';
 import registry from './registry.json';
 
-describe('Snap Registry', () => {
+describe('Snaps Registry', () => {
   it('has valid format', () => {
-    expect(() =>
-      assert(registry, JsonSnapRegistryDatabaseStruct),
-    ).not.toThrow();
+    expect(() => assert(registry, SnapsRegistryDatabaseStruct)).not.toThrow();
   });
 });
