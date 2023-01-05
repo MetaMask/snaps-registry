@@ -38,11 +38,9 @@ export const BlockedSnapStruct = union([
   object({ checksum: ChecksumStruct, reason: optional(BlockReasonStruct) }),
 ]);
 
-export const JsonSnapRegistryDatabaseStruct = object({
+export const SnapsRegistryDatabaseStruct = object({
   verifiedSnaps: record(string(), VerifiedSnapStruct),
   blockedSnaps: array(BlockedSnapStruct),
 });
 
-export type JsonSnapRegistryDatabase = Infer<
-  typeof JsonSnapRegistryDatabaseStruct
->;
+export type SnapsRegistryDatabase = Infer<typeof SnapsRegistryDatabaseStruct>;
