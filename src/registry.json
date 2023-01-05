@@ -1,0 +1,12 @@
+{
+  "verifiedSnaps": {},
+  "blockedSnaps": [
+    {
+      "id": "npm:@consensys/starknet-snap",
+      "versionRange": "<0.1.11"
+    },
+    {
+      "checksum": "A83r5/ZIcKuKwuAnQHHByVFCuofj7jGK5hOStmHY6A0="
+    }
+  ]
+}

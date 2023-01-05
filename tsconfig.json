@@ -3,14 +3,15 @@
     "esModuleInterop": true,
     "exactOptionalPropertyTypes": true,
     "forceConsistentCasingInFileNames": true,
-    "lib": ["ES2020"],
+    "lib": ["ES2020", "DOM"],
     "module": "CommonJS",
     "moduleResolution": "node",
     "noEmit": true,
     "noErrorTruncation": true,
     "noUncheckedIndexedAccess": true,
     "strict": true,
-    "target": "es2017"
+    "target": "es2017",
+    "resolveJsonModule": true
   },
   "exclude": ["./dist/**/*"]
 }
