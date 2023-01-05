@@ -1,7 +1,7 @@
 {
   "name": "@metamask/snaps-registry",
   "version": "0.0.0",
-  "description": "The MetaMask Node module template.",
+  "description": "A registry containing metadata about verified and blocked Snaps.",
   "repository": {
     "type": "git",
     "url": "https://github.com/MetaMask/snaps-registry.git"

@@ -1,38 +1,14 @@
-# MetaMask Module Template
+# snaps-registry
 
-This TypeScript module is maintained in the style of the MetaMask team.
-
-## Template Instructions
-
-Follow these instructions when using this template.
-
-- Update the package name
-  - The package name is referenced in the following places:
-    - The `name` field of `package.json`
-    - The README title
-    - The README "Usage" section
-- Update the package description
-  - The package description is referenced at the beginning of the README, and in the `description` field of `package.json`.
-- Update the `repository` field of `package.json` to point at the new repository URL.
-- Update the pull request template (`.github/pull_request_template.md`) to remove the `Examples` section that is specific to this template.
-- Update the README "Usage" and "API" sections, removing them if they aren't needed.
-- Delete these instructions.
+A registry containing metadata about verified and blocked Snaps.
 
 ## Installation
 
-`yarn add @metamask/this-module`
+`yarn add @metamask/snaps-registry`
 
 or
 
-`npm install @metamask/this-module`
-
-## Usage
-
-_Add examples here_
-
-## API
-
-_Add examples here_
+`npm install @metamask/snaps-registry`
 
 ## Contributing
 
