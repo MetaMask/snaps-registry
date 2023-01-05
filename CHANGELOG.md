@@ -7,9 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [1.0.0]
-### Uncategorized
-- Initial setup ([#5](https://github.com/MetaMask/snaps-registry/pull/5))
-- Initial commit
+### Added
+- Initial release
 
 [Unreleased]: https://github.com/MetaMask/snaps-registry/compare/v1.0.0...HEAD
 [1.0.0]: https://github.com/MetaMask/snaps-registry/releases/tag/v1.0.0
