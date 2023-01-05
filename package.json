@@ -23,7 +23,7 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
-    "@metamask/snaps-utils": "^0.27.1",
+    "@metamask/utils": "^3.4.0",
     "superstruct": "^1.0.3"
   },
   "devDependencies": {

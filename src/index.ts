@@ -1,8 +1,8 @@
 import {
   VersionStruct,
   VersionRangeStruct,
-  base64,
-} from '@metamask/snaps-utils';
+  ChecksumStruct,
+} from '@metamask/utils';
 import {
   object,
   array,
@@ -11,17 +11,9 @@ import {
   union,
   optional,
   Infer,
-  size,
 } from 'superstruct';
 
-// TODO: Export this in 'snaps-utils' instead
-const ChecksumStruct = size(
-  base64(string(), { paddingRequired: true }),
-  44,
-  44,
-);
-
-export const VerifiedSnapVersionStruct = object({
+const VerifiedSnapVersionStruct = object({
   checksum: ChecksumStruct,
 });
 
@@ -35,7 +27,7 @@ export const BlockReasonStruct = object({
   url: optional(string()),
 });
 
-export type SnapRegistryBlockReason = Infer<typeof BlockReasonStruct>;
+export type BlockReason = Infer<typeof BlockReasonStruct>;
 
 export const BlockedSnapStruct = union([
   object({
