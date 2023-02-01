@@ -19,6 +19,7 @@ const VerifiedSnapVersionStruct = object({
 
 export const VerifiedSnapStruct = object({
   id: string(),
+  name: string(),
   versions: record(VersionStruct, VerifiedSnapVersionStruct),
 });
 
