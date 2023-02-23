@@ -89,7 +89,7 @@ contract PermissionlessRegistry is Context, Ownable {
   /// Get specific snap version information
   /// @param snapId identifier of the snap
   /// @param version version of the snap
-  function snapVersion(string memory snapId, string memory version) public view returns(string memory, string memory, string memory, string memory, Status, Risk) {
+  function snapVersion(string memory snapId, string memory version) public view returns(string memory snapName, string memory uri, string memory location, string memory checksum, Status, Risk) {
     return (recordedSnaps[snapId].name, recordedSnaps[snapId].uri, recordedSnaps[snapId].versions[version].location, recordedSnaps[snapId].versions[version].checksum, recordedSnaps[snapId].versions[version].status, recordedSnaps[snapId].versions[version].risk);
   }
 
