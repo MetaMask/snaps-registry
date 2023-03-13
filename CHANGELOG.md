@@ -8,8 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.1.1]
 ### Uncategorized
-- Bump @metamask/utils to 5.0.0 ([#16](https://github.com/MetaMask/snaps-registry/pull/16))
-- Bump @metamask/utils from 3.4.1 to 3.5.0 ([#10](https://github.com/MetaMask/snaps-registry/pull/10))
+- Bump `@metamask/utils` to `5.0.0` ([#16](https://github.com/MetaMask/snaps-registry/pull/16))
 
 ## [1.1.0]
 ### Added
