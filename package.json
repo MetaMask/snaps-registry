@@ -23,7 +23,7 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
-    "@metamask/utils": "^3.4.0",
+    "@metamask/utils": "^5.0.0",
     "superstruct": "^1.0.3"
   },
   "devDependencies": {
