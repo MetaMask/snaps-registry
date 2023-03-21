@@ -1,8 +1,12 @@
 name: Publish Registry
 
 on:
-  push:
-    branches: [main]
+  workflow_call:
+    secrets:
+      REGISTRY_PRIVATE_KEY:
+        required: true
+      METAMASKBOT_TOKEN:
+        required: true
 
 jobs:
   check-updated:
