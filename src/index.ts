@@ -2,7 +2,6 @@ import {
   VersionStruct,
   VersionRangeStruct,
   ChecksumStruct,
-  StrictHexStruct,
 } from '@metamask/utils';
 import {
   object,
