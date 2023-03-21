@@ -1,0 +1,49 @@
+name: Publish Registry
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  check-updated:
+    name: Check if registry file was updated
+    runs-on: ubuntu-latest
+    outputs:
+      EXIT_CODE: ${{ steps.exit-code.outputs.EXIT_CODE }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check if registry file was updated
+        id: exit-code
+        run: |
+          git diff --name-only HEAD^ HEAD | grep -q src/registry.json
+          echo "EXIT_CODE=$?" >> "$GITHUB_OUTPUT"
+
+  publish-registry:
+    name: Deploy registry to `gh-pages` branch
+    environment: npm-publish
+    needs: check-updated
+    if: ${{ needs.check-updated.outputs.EXIT_CODE == 0 }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'yarn'
+      - name: Install Yarn dependencies
+        run: yarn --immutable
+      - name: Sign registry
+        run: yarn sign
+        env:
+          PRIVATE_KEY: ${{ secrets.REGISTRY_PRIVATE_KEY }}
+      - run: |
+          mkdir -p dist
+          cp src/registry.json dist/registry.json
+          cp src/signature.json dist/signature.json
+      - name: Deploy registry
+        uses: peaceiris/actions-gh-pages@de7ea6f8efb354206b205ef54722213d99067935
+        with:
+          personal_token: ${{ secrets.METAMASKBOT_TOKEN }}
+          publish_dir: ./dist
+          destination_dir: latest
