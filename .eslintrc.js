@@ -10,11 +10,14 @@ module.exports = {
     },
 
     {
-      files: ['*.js'],
+      files: ['*.js', 'scripts/*.ts'],
       parserOptions: {
         sourceType: 'script',
       },
       extends: ['@metamask/eslint-config-nodejs'],
+      rules: {
+        'node/no-process-env': 'off',
+      },
     },
 
     {
