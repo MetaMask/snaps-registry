@@ -9,20 +9,25 @@ jobs:
     name: Check if registry file was updated
     runs-on: ubuntu-latest
     outputs:
-      EXIT_CODE: ${{ steps.exit-code.outputs.EXIT_CODE }}
+      UPDATED: ${{ steps.updated.outputs.UPDATED }}
     steps:
       - uses: actions/checkout@v3
       - name: Check if registry file was updated
-        id: exit-code
+        id: updated
         run: |
-          git diff --name-only HEAD^ HEAD | grep -q src/registry.json
-          echo "EXIT_CODE=$?" >> "$GITHUB_OUTPUT"
+          git fetch --prune --unshallow
+          if git diff --name-only HEAD^ HEAD | grep src/registry.json
+          then
+            echo "UPDATED=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "UPDATED=false" >> "$GITHUB_OUTPUT"
+          fi
 
   publish-registry:
     name: Deploy registry to `gh-pages` branch
     environment: npm-publish
     needs: check-updated
-    if: ${{ needs.check-updated.outputs.EXIT_CODE == 0 }}
+    if: ${{ needs.check-updated.outputs.UPDATED == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
