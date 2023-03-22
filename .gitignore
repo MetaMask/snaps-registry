@@ -79,3 +79,5 @@ node_modules/
 
 # Signature file
 src/signature.json
+
+secp256k1_key

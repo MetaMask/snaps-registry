@@ -1,57 +1,53 @@
-import {
-  assert,
-  hexToBytes,
-  isHexString,
-  remove0x,
-  stringToBytes,
-} from '@metamask/utils';
-import { Signature, utils, verify } from '@noble/secp256k1';
-import jsonStringify from 'fast-json-stable-stringify';
+import { assert, isHexString } from '@metamask/utils';
+import * as dotenv from 'dotenv';
 import { promises as fs } from 'fs';
-import { resolve } from 'path';
+import { assert as superstructAssert } from 'superstruct';
 
-import { SnapsRegistryDatabase } from '../src';
+import { SignatureStruct, verify } from '../src';
 
-const REGISTRY_PATH = resolve(__dirname, '../src/registry.json');
-const SIGNATURE_PATH = resolve(__dirname, '../src/signature.json');
-
+dotenv.config();
 /**
  * Verify the signature of the registry.
- *
- * The `PUBLIC_KEY` environment variable must be set to the public key of the
- * private key that was used to sign the registry.
  */
 async function main() {
-  const publicKey = process.env.PUBLIC_KEY;
-  assert(publicKey, 'PUBLIC_KEY environment variable must be set.');
+  const registryPath = process.env.REGISTRY_PATH;
+  const signaturePath = process.env.SIGNATURE_PATH;
+  const publicKeyPath = process.env.PUBLIC_KEY_PATH;
+  const publicKeyEnv = process.env.REGISTRY_PUBLIC_KEY;
+  assert(
+    registryPath !== undefined,
+    'REGISTRY_PATH environment variable must be set.',
+  );
+  assert(
+    signaturePath !== undefined,
+    'SIGNATURE_PATH environment variable must be set.',
+  );
+  assert(
+    publicKeyPath !== undefined || publicKeyEnv !== undefined,
+    'Either PUBLIC_KEY_PATH or REGISTRY_PUBLIC_KEY environment variable must be set.',
+  );
+
+  let publicKey: string;
+  if (publicKeyEnv === undefined) {
+    assert(publicKeyPath !== undefined);
+    console.log('Loading key from PUBLIC_KEY_PATH file...');
+    publicKey = (await fs.readFile(publicKeyPath, { encoding: 'utf8' })).trim();
+  } else {
+    console.log('Loading key from PUBLIC_KEY variable.');
+    publicKey = publicKeyEnv;
+  }
   assert(isHexString(publicKey), 'PUBLIC_KEY must be a hex string.');
 
-  const publicKeyBytes = hexToBytes(publicKey);
-  assert(publicKeyBytes.length === 33, 'PUBLIC_KEY must be 33 bytes.');
+  const signature = JSON.parse(await fs.readFile(signaturePath, 'utf-8'));
+  superstructAssert(signature, SignatureStruct);
+  const registry = await fs.readFile(registryPath, 'utf-8');
 
-  const { signature, publicKey: signaturePublicKey } = await fs
-    .readFile(SIGNATURE_PATH, 'utf-8')
-    .then(JSON.parse);
-  const registry: SnapsRegistryDatabase = await fs
-    .readFile(REGISTRY_PATH, 'utf-8')
-    .then(JSON.parse);
-
-  assert(
-    signaturePublicKey === publicKey,
-    'Signature public key does not match provided public key.',
-  );
-
-  // We're using `fast-json-stable-stringify` to ensure that the registry is
-  // serialized deterministically.
-  const jsonBytes = stringToBytes(jsonStringify(registry));
-
-  const valid = verify(
-    Signature.fromHex(remove0x(signature)),
-    await utils.sha256(jsonBytes),
-    publicKeyBytes,
-  );
-
-  assert(valid, 'Signature is invalid.');
+  const isValid = await verify({ registry, signature, publicKey });
+  if (!isValid) {
+    console.error('Signature invalid');
+    // eslint-disable-next-line node/no-process-exit
+    process.exit(1);
+  }
   console.log('Signature is valid.');
 }
 

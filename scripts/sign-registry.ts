@@ -1,57 +1,69 @@
-import {
-  assert,
-  bytesToHex,
-  hexToBytes,
-  isHexString,
-  stringToBytes,
-} from '@metamask/utils';
-import { getPublicKey, sign, utils } from '@noble/secp256k1';
-import jsonStringify from 'fast-json-stable-stringify';
+import { assert, bytesToHex, hexToBytes, isHexString } from '@metamask/utils';
+import { secp256k1 } from '@noble/curves/secp256k1';
+import { sha256 } from '@noble/hashes/sha256';
+import * as dotenv from 'dotenv';
 import { promises as fs } from 'fs';
-import { resolve } from 'path';
+import path from 'path';
+import { format } from 'prettier';
 
-import { SnapsRegistryDatabase } from '../src';
-
-const REGISTRY_PATH = resolve(__dirname, '../src/registry.json');
-const SIGNATURE_PATH = resolve(__dirname, '../src/signature.json');
+dotenv.config();
 
 /**
  * Signs the registry with the given private key.
- *
- * The `PRIVATE_KEY` environment variable must be set to the private key to use
- * for signing the registry.
  */
 async function main() {
-  const privateKey = process.env.PRIVATE_KEY;
-  assert(privateKey, 'PRIVATE_KEY environment variable must be set.');
-  assert(isHexString(privateKey), 'PRIVATE_KEY must be a hex string.');
-
-  const privateKeyBytes = hexToBytes(privateKey);
-  assert(privateKeyBytes.length === 32, 'PRIVATE_KEY must be 32 bytes.');
-
-  const publicKey = bytesToHex(getPublicKey(privateKeyBytes, true));
-
-  const registry: SnapsRegistryDatabase = await fs
-    .readFile(REGISTRY_PATH, 'utf-8')
-    .then(JSON.parse);
-
-  // We're using `fast-json-stable-stringify` to ensure that the registry is
-  // serialized deterministically.
-  const jsonBytes = stringToBytes(jsonStringify(registry));
-
-  const signature = await sign(await utils.sha256(jsonBytes), privateKeyBytes);
-  const json = JSON.stringify(
-    {
-      signature: bytesToHex(signature),
-      publicKey,
-    },
-    null,
-    2,
+  const registryPath = process.env.REGISTRY_PATH;
+  const signaturePath = process.env.SIGNATURE_PATH;
+  const privateKeyPath = process.env.PRIVATE_KEY_PATH;
+  const privateKeyEnv = process.env.REGISTRY_PRIVATE_KEY;
+  assert(
+    registryPath !== undefined,
+    'REGISTRY_PATH environment variable must be set.',
+  );
+  assert(
+    signaturePath !== undefined,
+    'SIGNATURE_PATH environment variable must be set.',
+  );
+  assert(
+    privateKeyPath !== undefined || privateKeyEnv !== undefined,
+    'Either PRIVATE_KEY_PATH or REGISTRY_PRIVATE_KEY environment variable must be set.',
   );
 
-  await fs.writeFile(SIGNATURE_PATH, `${json}\n`, 'utf-8');
+  let privateKey: string;
+  if (privateKeyEnv === undefined) {
+    assert(privateKeyPath !== undefined);
+    console.log('Loading key from PRIVATE_KEY_PATH file...');
+    privateKey = (
+      await fs.readFile(privateKeyPath, { encoding: 'utf8' })
+    ).trim();
+  } else {
+    console.log('Loading key from PRIVATE_KEY variable.');
+    privateKey = privateKeyEnv;
+  }
+
+  assert(isHexString(privateKey), 'Private key must be a hex string.');
+  const privateKeyBytes = hexToBytes(privateKey);
+  assert(privateKeyBytes.length === 32, 'Private key must be 32 bytes');
+  const publicKey = bytesToHex(secp256k1.getPublicKey(privateKeyBytes));
+
+  const registry = await fs.readFile(registryPath);
+
+  const signature = `0x${secp256k1
+    .sign(sha256(registry), privateKeyBytes)
+    .toDERHex()}`;
+
+  const signatureObject = format(
+    JSON.stringify({
+      signature,
+      curve: 'secp256k1',
+      format: 'DER',
+    }),
+    { filepath: path.resolve(process.cwd(), signaturePath) },
+  );
+
+  await fs.writeFile(signaturePath, signatureObject, 'utf-8');
   console.log(
-    `Signature signed with private key of "${publicKey}" and written to "${SIGNATURE_PATH}".`,
+    `Signature signed using "${publicKey}" and written to "${signaturePath}".`,
   );
 }
 

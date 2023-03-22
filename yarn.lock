@@ -1232,11 +1232,14 @@ __metadata:
     "@metamask/eslint-config-nodejs": ^11.1.0
     "@metamask/eslint-config-typescript": ^11.1.0
     "@metamask/utils": ^5.0.0
+    "@noble/curves": ^0.8.3
+    "@noble/hashes": ^1.3.0
     "@noble/secp256k1": ^1.7.1
     "@types/jest": ^28.1.6
     "@types/node": ^17.0.23
     "@typescript-eslint/eslint-plugin": ^5.43.0
     "@typescript-eslint/parser": ^5.43.0
+    dotenv: ^16.0.3
     eslint: ^8.27.0
     eslint-config-prettier: ^8.5.0
     eslint-plugin-import: ^2.26.0
@@ -1244,7 +1247,6 @@ __metadata:
     eslint-plugin-jsdoc: ^39.6.2
     eslint-plugin-node: ^11.1.0
     eslint-plugin-prettier: ^4.2.1
-    fast-json-stable-stringify: ^2.1.0
     jest: ^28.1.3
     jest-it-up: ^2.0.2
     prettier: ^2.7.1
@@ -1270,10 +1272,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@noble/curves@npm:^0.8.3":
+  version: 0.8.3
+  resolution: "@noble/curves@npm:0.8.3"
+  dependencies:
+    "@noble/hashes": 1.3.0
+  checksum: caab73fbd0335e26249db26f2dbfa7eb7413814c62d1b94d688f19474b8c2dad7f6afe193a59ff45ae8a8516a473d8e86e9060aac806a1018d124a9e1307562b
+  languageName: node
+  linkType: hard
+
 "@noble/hashes@npm:1.2.0, @noble/hashes@npm:~1.2.0":
   version: 1.2.0
   resolution: "@noble/hashes@npm:1.2.0"
   checksum: 8ca080ce557b8f40fb2f78d3aedffd95825a415ac8e13d7ffe3643f8626a8c2d99a3e5975b555027ac24316d8b3c02a35b8358567c0c23af681e6573602aa434
+  languageName: node
+  linkType: hard
+
+"@noble/hashes@npm:1.3.0, @noble/hashes@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "@noble/hashes@npm:1.3.0"
+  checksum: d7ddb6d7c60f1ce1f87facbbef5b724cdea536fc9e7f59ae96e0fc9de96c8f1a2ae2bdedbce10f7dcc621338dfef8533daa73c873f2b5c87fa1a4e05a95c2e2e
   languageName: node
   linkType: hard
 
@@ -2658,6 +2676,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dotenv@npm:^16.0.3":
+  version: 16.0.3
+  resolution: "dotenv@npm:16.0.3"
+  checksum: afcf03f373d7a6d62c7e9afea6328e62851d627a4e73f2e12d0a8deae1cd375892004f3021883f8aec85932cd2834b091f568ced92b4774625b321db83b827f8
+  languageName: node
+  linkType: hard
+
 "ecc-jsbn@npm:~0.1.1":
   version: 0.1.2
   resolution: "ecc-jsbn@npm:0.1.2"
@@ -3215,7 +3240,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-json-stable-stringify@npm:2.x, fast-json-stable-stringify@npm:^2.0.0, fast-json-stable-stringify@npm:^2.1.0":
+"fast-json-stable-stringify@npm:2.x, fast-json-stable-stringify@npm:^2.0.0":
   version: 2.1.0
   resolution: "fast-json-stable-stringify@npm:2.1.0"
   checksum: b191531e36c607977e5b1c47811158733c34ccb3bfde92c44798929e9b4154884378536d26ad90dfecd32e1ffc09c545d23535ad91b3161a27ddbb8ebe0cbecb
