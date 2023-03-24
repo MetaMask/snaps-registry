@@ -29,7 +29,7 @@ jobs:
 
   publish-registry:
     name: Deploy registry to `gh-pages` branch
-    environment: npm-publish
+    environment: registry-publish
     needs: check-updated
     if: ${{ needs.check-updated.outputs.UPDATED == 'true' }}
     runs-on: ubuntu-latest
