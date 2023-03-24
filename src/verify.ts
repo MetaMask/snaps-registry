@@ -1,11 +1,9 @@
 import {
-  assert,
   remove0x,
   stringToBytes,
-  createBytes,
-  isStrictHexString,
   Hex,
   assertStruct,
+  hexToBytes,
 } from '@metamask/utils';
 import {
   verify as nobleVerify,
@@ -25,7 +23,7 @@ type Signature = Infer<typeof SignatureStruct>;
 type VerifyArgs = {
   registry: string;
   signature: Signature;
-  publicKey: Hex | Uint8Array;
+  publicKey: Hex;
 };
 
 /**
@@ -36,16 +34,16 @@ type VerifyArgs = {
  * @param options.signature - Hex-encoded encoded signature.
  * @param options.publicKey - Hex-encoded or Uint8Array public key to compare
  * the signature to.
+ * @returns Whether the signature is valid.
  */
 export async function verify({
   registry,
   signature,
   publicKey,
 }: VerifyArgs): Promise<boolean> {
-  assertStruct(signature, SignatureStruct, 'Invalid signature');
-  assert(isStrictHexString(publicKey) || publicKey instanceof Uint8Array);
+  assertStruct(signature, SignatureStruct, 'Invalid signature object');
 
-  const publicKeyBytes = createBytes(publicKey);
+  const publicKeyBytes = hexToBytes(publicKey);
 
   return nobleVerify(
     NobleSignature.fromHex(remove0x(signature.signature)),
