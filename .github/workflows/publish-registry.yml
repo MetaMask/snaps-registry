@@ -26,7 +26,7 @@ jobs:
           fi
 
   publish-registry:
-    name: Deploy registry to `gh-pages` branch
+    name: Deploy registry to remote storage
     environment: registry-publish
     needs: check-updated
     if: ${{ needs.check-updated.outputs.UPDATED == 'true' }}
@@ -48,10 +48,12 @@ jobs:
           mkdir -p dist
           cp src/registry.json dist/registry.json
           cp src/signature.json dist/signature.json
-
-#      - name: Deploy registry
-#        uses: peaceiris/actions-gh-pages@de7ea6f8efb354206b205ef54722213d99067935
-#        with:
-#          personal_token: ${{ secrets.METAMASKBOT_TOKEN }}
-#          publish_dir: ./dist
-#          destination_dir: latest
+      - name: configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          role-to-assume: ${{ vars.AWS_ROLE_ARN }}
+          role-session-name: ghactionssession
+          aws-region: ${{ vars.AWS_REGION }}
+      - name: Deploy registry
+        run: |
+          aws s3 cp ./dist s3://${{ vars.AWS_BUCKET_NAME }}/latest --recursive --acl private
