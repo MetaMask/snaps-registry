@@ -1,9 +1,11 @@
 import {
   assert,
-  hexToBytes,
-  isHexString,
   remove0x,
   stringToBytes,
+  createBytes,
+  isStrictHexString,
+  Hex,
+  assertStruct,
 } from '@metamask/utils';
 import {
   verify as nobleVerify,
@@ -12,36 +14,38 @@ import {
 } from '@noble/secp256k1';
 import { Infer, literal, object, pattern, string } from 'superstruct';
 
-type Hex = string | Uint8Array;
-
 export const SignatureStruct = object({
   signature: pattern(string(), /0x[0-9a-f]{140}/u),
   curve: literal('secp256k1'),
   format: literal('DER'),
 });
+
 type Signature = Infer<typeof SignatureStruct>;
+
+type VerifyArgs = {
+  registry: string;
+  signature: Signature;
+  publicKey: Hex | Uint8Array;
+};
 
 /**
  * Verifies that the Snap Registry is properly signed using a cryptographic key.
  *
  * @param options - Parameters for signing.
  * @param options.registry - Raw text of the registry.json file.
- * @param options.signature - 0x hex encoded signature.
- * @param options.publicKey - 0x hex encoded public key to compare the signature to.
+ * @param options.signature - Hex-encoded encoded signature.
+ * @param options.publicKey - Hex-encoded or Uint8Array public key to compare
+ * the signature to.
  */
 export async function verify({
   registry,
   signature,
   publicKey,
-}: {
-  registry: string;
-  signature: Signature;
-  publicKey: Hex;
-}): Promise<boolean> {
-  assert(isHexString(publicKey) || publicKey instanceof Uint8Array);
+}: VerifyArgs): Promise<boolean> {
+  assertStruct(signature, SignatureStruct, 'Invalid signature');
+  assert(isStrictHexString(publicKey) || publicKey instanceof Uint8Array);
 
-  const publicKeyBytes =
-    publicKey instanceof Uint8Array ? publicKey : hexToBytes(publicKey);
+  const publicKeyBytes = createBytes(publicKey);
 
   return nobleVerify(
     NobleSignature.fromHex(remove0x(signature.signature)),

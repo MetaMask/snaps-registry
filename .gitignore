@@ -80,4 +80,4 @@ node_modules/
 # Signature file
 src/signature.json
 
-secp256k1_key
+secp256k1-key
