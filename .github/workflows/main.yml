@@ -56,7 +56,6 @@ jobs:
     uses: ./.github/workflows/publish-registry.yml
     secrets:
       REGISTRY_PRIVATE_KEY: ${{ secrets.REGISTRY_PRIVATE_KEY }}
-      METAMASKBOT_TOKEN: ${{ secrets.METAMASKBOT_TOKEN }}
 
   is-release:
     # Filtering by `push` events ensures that we only release from the `main` branch, which is a

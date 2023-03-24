@@ -5,8 +5,6 @@ on:
     secrets:
       REGISTRY_PRIVATE_KEY:
         required: true
-      METAMASKBOT_TOKEN:
-        required: true
 
 jobs:
   check-updated:
@@ -50,9 +48,10 @@ jobs:
           mkdir -p dist
           cp src/registry.json dist/registry.json
           cp src/signature.json dist/signature.json
-      - name: Deploy registry
-        uses: peaceiris/actions-gh-pages@de7ea6f8efb354206b205ef54722213d99067935
-        with:
-          personal_token: ${{ secrets.METAMASKBOT_TOKEN }}
-          publish_dir: ./dist
-          destination_dir: latest
+
+#      - name: Deploy registry
+#        uses: peaceiris/actions-gh-pages@de7ea6f8efb354206b205ef54722213d99067935
+#        with:
+#          personal_token: ${{ secrets.METAMASKBOT_TOKEN }}
+#          publish_dir: ./dist
+#          destination_dir: latest
