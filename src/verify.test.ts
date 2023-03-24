@@ -1,5 +1,3 @@
-import { bytesToHex } from '@metamask/utils';
-
 import { verify } from './verify';
 
 const MOCK_REGISTRY = `test\n`;
