@@ -47,3 +47,5 @@ export const SnapsRegistryDatabaseStruct = object({
 });
 
 export type SnapsRegistryDatabase = Infer<typeof SnapsRegistryDatabaseStruct>;
+
+export * from './verify';

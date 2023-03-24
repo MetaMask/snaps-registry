@@ -1,0 +1,58 @@
+name: Publish Registry
+
+on:
+  workflow_call:
+    secrets:
+      REGISTRY_PRIVATE_KEY:
+        required: true
+      METAMASKBOT_TOKEN:
+        required: true
+
+jobs:
+  check-updated:
+    name: Check if registry file was updated
+    runs-on: ubuntu-latest
+    outputs:
+      UPDATED: ${{ steps.updated.outputs.UPDATED }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check if registry file was updated
+        id: updated
+        run: |
+          git fetch --prune --unshallow
+          if git diff --name-only HEAD^ HEAD | grep src/registry.json
+          then
+            echo "UPDATED=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "UPDATED=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  publish-registry:
+    name: Deploy registry to `gh-pages` branch
+    environment: registry-publish
+    needs: check-updated
+    if: ${{ needs.check-updated.outputs.UPDATED == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'yarn'
+      - name: Install Yarn dependencies
+        run: yarn --immutable
+      - name: Sign registry
+        run: yarn sign
+        env:
+          PRIVATE_KEY: ${{ secrets.REGISTRY_PRIVATE_KEY }}
+      - run: |
+          mkdir -p dist
+          cp src/registry.json dist/registry.json
+          cp src/signature.json dist/signature.json
+      - name: Deploy registry
+        uses: peaceiris/actions-gh-pages@de7ea6f8efb354206b205ef54722213d99067935
+        with:
+          personal_token: ${{ secrets.METAMASKBOT_TOKEN }}
+          publish_dir: ./dist
+          destination_dir: latest

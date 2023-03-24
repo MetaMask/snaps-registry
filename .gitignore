@@ -76,3 +76,8 @@ node_modules/
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Signature file
+src/signature.json
+
+secp256k1-key
