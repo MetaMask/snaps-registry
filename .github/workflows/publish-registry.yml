@@ -57,4 +57,4 @@ jobs:
       - name: Deploy registry
         run: |
           aws s3 cp ./dist s3://${{ vars.AWS_BUCKET_NAME }}/latest --recursive --acl private
-          # TODO: CF invalidation
+          aws cloudfront create-invalidation --distribution-id ${{ vars.AWS_CF_DISTRIBUTION_ID }} --paths "/latest"
