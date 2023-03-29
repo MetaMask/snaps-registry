@@ -18,14 +18,14 @@ async function getPublicKey() {
   const publicKeyPath = process.env.PUBLIC_KEY_PATH;
   const registryPublicKey = process.env.REGISTRY_PUBLIC_KEY;
 
-  if (publicKeyPath) {
-    console.log('Using key from PUBLIC_KEY_PATH file.');
-    return await fs.readFile(publicKeyPath, 'utf-8').then((key) => key.trim());
-  }
-
   if (registryPublicKey) {
     console.log('Using key from REGISTRY_PUBLIC_KEY variable.');
     return registryPublicKey;
+  }
+
+  if (publicKeyPath) {
+    console.log('Using key from PUBLIC_KEY_PATH file.');
+    return await fs.readFile(publicKeyPath, 'utf-8').then((key) => key.trim());
   }
 
   throw new Error(
