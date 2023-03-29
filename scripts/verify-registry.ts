@@ -1,4 +1,4 @@
-import { assert, assertStruct, isHexString } from '@metamask/utils';
+import { assert, assertStruct, Hex, isHexString } from '@metamask/utils';
 import * as dotenv from 'dotenv';
 import { promises as fs } from 'fs';
 
@@ -34,6 +34,19 @@ async function getPublicKey() {
 }
 
 /**
+ * Asserts that the provided value is a string starting with 0x.
+ *
+ * @param value - The value under test.
+ * @param errorMessage - The error message to throw if it's not a hex string.
+ */
+function assertHexString(
+  value: unknown,
+  errorMessage = 'Value must be a hex string',
+): asserts value is Hex {
+  assert(isHexString(value), errorMessage);
+}
+
+/**
  * Verify the signature of the registry.
  */
 async function main() {
@@ -50,7 +63,7 @@ async function main() {
   );
 
   const publicKey = await getPublicKey();
-  assert(isHexString(publicKey), 'Public key must be a hex string.');
+  assertHexString(publicKey, 'Public key must be a hex string.');
 
   const signature = JSON.parse(await fs.readFile(signaturePath, 'utf-8'));
   assertStruct(signature, SignatureStruct);
