@@ -2,10 +2,12 @@ name: Publish Registry
 
 on:
   workflow_call:
+    inputs:
+      publish-environment:
+        required: true
+        type: string
     secrets:
       REGISTRY_PRIVATE_KEY:
-        required: true
-      METAMASKBOT_TOKEN:
         required: true
 
 jobs:
@@ -28,8 +30,8 @@ jobs:
           fi
 
   publish-registry:
-    name: Deploy registry to `gh-pages` branch
-    environment: registry-publish
+    name: Deploy registry to remote storage
+    environment: $({ inputs.publish-environment })
     needs: check-updated
     if: ${{ needs.check-updated.outputs.UPDATED == 'true' }}
     runs-on: ubuntu-latest
@@ -50,9 +52,13 @@ jobs:
           mkdir -p dist
           cp src/registry.json dist/registry.json
           cp src/signature.json dist/signature.json
-      - name: Deploy registry
-        uses: peaceiris/actions-gh-pages@de7ea6f8efb354206b205ef54722213d99067935
+      - name: configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@e1e17a757e536f70e52b5a12b2e8d1d1c60e04ef
         with:
-          personal_token: ${{ secrets.METAMASKBOT_TOKEN }}
-          publish_dir: ./dist
-          destination_dir: latest
+          role-to-assume: ${{ vars.AWS_ROLE_ARN }}
+          role-session-name: ghactionssession
+          aws-region: ${{ vars.AWS_REGION }}
+      - name: Deploy registry
+        run: |
+          aws s3 cp ./dist s3://${{ vars.AWS_BUCKET_NAME }}/latest --recursive --acl private
+          aws cloudfront create-invalidation --distribution-id ${{ vars.AWS_CF_DISTRIBUTION_ID }} --paths "/latest"

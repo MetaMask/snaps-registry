@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: Download actionlint
         id: download-actionlint
-        run: bash <(curl https://raw.githubusercontent.com/rhysd/actionlint/7fdc9630cc360ea1a469eed64ac6d78caeda1234/scripts/download-actionlint.bash) 1.6.22
+        run: bash <(curl https://raw.githubusercontent.com/rhysd/actionlint/7fdc9630cc360ea1a469eed64ac6d78caeda1234/scripts/download-actionlint.bash) 1.6.23
         shell: bash
       - name: Check workflow files
         run: ${{ steps.download-actionlint.outputs.executable }} -color
@@ -53,10 +53,14 @@ jobs:
     # Filtering by `push` events ensures that we only release from the `main` branch.
     if: github.event_name == 'push'
     needs: all-jobs-pass
+    permissions:
+      contents: read
+      id-token: write # Required for requesting the OIDC JWT for cloud access token
     uses: ./.github/workflows/publish-registry.yml
+    with:
+      publish-environment: deploy-prod # Use prod for now until we split into nightlies, flask and stable
     secrets:
       REGISTRY_PRIVATE_KEY: ${{ secrets.REGISTRY_PRIVATE_KEY }}
-      METAMASKBOT_TOKEN: ${{ secrets.METAMASKBOT_TOKEN }}
 
   is-release:
     # Filtering by `push` events ensures that we only release from the `main` branch, which is a
