@@ -1,4 +1,5 @@
 {
+  "verifiedSnaps": {},
   "blockedSnaps": [
     {
       "id": "npm:@consensys/starknet-snap",
@@ -7,6 +8,5 @@
     {
       "checksum": "A83r5/ZIcKuKwuAnQHHByVFCuofj7jGK5hOStmHY6A0="
     }
-  ],
-  "verifiedSnaps": {}
+  ]
 }
