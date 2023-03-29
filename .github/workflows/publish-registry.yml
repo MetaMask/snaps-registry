@@ -45,7 +45,7 @@ jobs:
       - name: Sign registry
         run: yarn sign
         env:
-          PRIVATE_KEY: ${{ secrets.REGISTRY_PRIVATE_KEY }}
+          REGISTRY_PRIVATE_KEY: ${{ secrets.REGISTRY_PRIVATE_KEY }}
       - run: |
           mkdir -p dist
           cp src/registry.json dist/registry.json
