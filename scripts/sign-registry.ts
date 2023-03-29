@@ -26,14 +26,14 @@ async function getPrivateKey() {
   const privateKeyPath = process.env.PRIVATE_KEY_PATH;
   const privateKeyEnv = process.env.REGISTRY_PRIVATE_KEY;
 
-  if (privateKeyPath) {
-    console.log('Using key from PRIVATE_KEY_PATH file.');
-    return await fs.readFile(privateKeyPath, 'utf-8').then((key) => key.trim());
-  }
-
   if (privateKeyEnv) {
     console.log('Using key from REGISTRY_PRIVATE_KEY variable.');
     return privateKeyEnv;
+  }
+
+  if (privateKeyPath) {
+    console.log('Using key from PRIVATE_KEY_PATH file.');
+    return await fs.readFile(privateKeyPath, 'utf-8').then((key) => key.trim());
   }
 
   throw new Error(
