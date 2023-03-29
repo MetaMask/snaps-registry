@@ -2,6 +2,10 @@ name: Publish Registry
 
 on:
   workflow_call:
+    inputs:
+      publish-environment:
+        required: true
+        type: string
     secrets:
       REGISTRY_PRIVATE_KEY:
         required: true
@@ -27,7 +31,7 @@ jobs:
 
   publish-registry:
     name: Deploy registry to remote storage
-    environment: registry-publish
+    environment: $({ inputs.publish-environment })
     needs: check-updated
     if: ${{ needs.check-updated.outputs.UPDATED == 'true' }}
     runs-on: ubuntu-latest

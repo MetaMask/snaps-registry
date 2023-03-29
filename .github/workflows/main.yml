@@ -57,6 +57,8 @@ jobs:
       contents: read
       id-token: write # Required for requesting the OIDC JWT for cloud access token
     uses: ./.github/workflows/publish-registry.yml
+    with:
+      publish-environment: deploy-prod # Use prod for now until we split into nightlies, flask and stable
     secrets:
       REGISTRY_PRIVATE_KEY: ${{ secrets.REGISTRY_PRIVATE_KEY }}
 
