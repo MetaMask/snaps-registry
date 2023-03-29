@@ -2,10 +2,6 @@ name: Publish Registry
 
 on:
   workflow_call:
-    inputs:
-      publish-environment:
-        required: true
-        type: string
     secrets:
       REGISTRY_PRIVATE_KEY:
         required: true
@@ -31,7 +27,9 @@ jobs:
 
   publish-registry:
     name: Deploy registry to remote storage
-    environment: $({ inputs.publish-environment })
+    # It's not possible to set the env using input variables - https://github.com/actions/runner/issues/998
+    # Hardcoded for now
+    environment: deploy-prod
     needs: check-updated
     if: ${{ needs.check-updated.outputs.UPDATED == 'true' }}
     runs-on: ubuntu-latest
