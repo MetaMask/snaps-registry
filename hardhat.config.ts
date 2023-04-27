@@ -19,6 +19,10 @@ const config: HardhatUserConfig = {
       url: process.env.GOERLI_ENDPOINT,
       accounts: [`0x${process.env.TEST_PRIVATE_KEY}`]
     },
+    linea: {
+      url: process.env.LINEA_ENDPOINT,
+      accounts: [`0x${process.env.TEST_PRIVATE_KEY}`]
+    },
   },
   etherscan: {
     apiKey: process.env.ETHERSCAN_API_KEY
