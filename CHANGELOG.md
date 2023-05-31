@@ -9,7 +9,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.2.1]
 ### Changed
 - Bump `@metamask/utils` to `6.0.0` ([#32](https://github.com/MetaMask/snaps-registry/pull/32))
-- Refactor assertHexString function to use isStrictHexString ([#27](https://github.com/MetaMask/snaps-registry/pull/27))
 
 ## [1.2.0]
 ### Added
