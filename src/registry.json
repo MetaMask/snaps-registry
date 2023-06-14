@@ -1,5 +1,28 @@
 {
-  "verifiedSnaps": {},
+  "verifiedSnaps": {
+    "npm:mobymask-snap": {
+      "id": "npm:mobymask-snap",
+      "metadata": {
+        "name": "MobyMask Anti-Phishing"
+      },
+      "versions": {
+        "0.9.7": {
+          "checksum": "5kc/FUBJAEcZwFu0+y4p9H8fD0ZXokJ/JAS0STIPREA="
+        }
+      }
+    },
+    "npm:algorand": {
+      "id": "npm:algorand",
+      "metadata": {
+        "name": "Algorand Wallet"
+      },
+      "versions": {
+        "10.0.0": {
+          "checksum": "LpGf8y92FHQfuZXp+JM3/1CKJANZhPWLUwyYIfZ5W+I="
+        }
+      }
+    }
+  },
   "blockedSnaps": [
     {
       "id": "npm:@consensys/starknet-snap",
