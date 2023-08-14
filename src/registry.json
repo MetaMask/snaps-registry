@@ -21,6 +21,160 @@
           "checksum": "LpGf8y92FHQfuZXp+JM3/1CKJANZhPWLUwyYIfZ5W+I="
         }
       }
+    },
+    "npm:@metamask/bip32-example-snap": {
+      "id": "npm:@metamask/bip32-example-snap",
+      "metadata": {
+        "name": "BIP-32 Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "UWS774A057OPPbfbF560vMKxWamt+1/oxxtaKyw6Ygk="
+        }
+      }
+    },
+    "npm:@metamask/bip44-example-snap": {
+      "id": "npm:@metamask/bip44-example-snap",
+      "metadata": {
+        "name": "BIP-44 Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "1wPZsEPMVO88H3Lt1XBqz9BiKT3QV1ruIcqJQN9bLNY="
+        }
+      }
+    },
+    "npm:@metamask/cronjob-example-snap": {
+      "id": "npm:@metamask/cronjob-example-snap",
+      "metadata": {
+        "name": "Cronjob Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "M8rlf48QIGa4Dk8X/EM9OgQUwrhvCpQyrJkv8FMVYkM="
+        }
+      }
+    },
+    "npm:@metamask/dialog-example-snap": {
+      "id": "npm:@metamask/dialog-example-snap",
+      "metadata": {
+        "name": "Dialog Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "JTisnR3icqN8BSTKQEhgx3unm8JbSHeyJ2nM29arcrE="
+        }
+      }
+    },
+    "npm:@metamask/error-example-snap": {
+      "id": "npm:@metamask/error-example-snap",
+      "metadata": {
+        "name": "Error Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "bO6Nz4mmWwLZodzNJIzt9Fw9V4IV5luD/vFjMA9bNZQ="
+        }
+      }
+    },
+    "npm:@metamask/ethereum-provider-example-snap": {
+      "id": "npm:@metamask/ethereum-provider-example-snap",
+      "metadata": {
+        "name": "Ethereum Provider Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "iqnHsz3ns+0TpnqmZOkVen+ySQxXDhb7LU6SWWpksB8="
+        }
+      }
+    },
+    "npm:@metamask/ethers-js-example-snap": {
+      "id": "npm:@metamask/ethers-js-example-snap",
+      "metadata": {
+        "name": "Ethers.js Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "C3XZa2lDh8LWVZNQmn3Ns/ZByyZTFz7zznClGMen4Yg="
+        }
+      }
+    },
+    "npm:@metamask/get-entropy-example-snap": {
+      "id": "npm:@metamask/get-entropy-example-snap",
+      "metadata": {
+        "name": "Get Entropy Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "3ngy5lgb166/id89vLEsA10MjtHAbyWoCM/y2foLyMs="
+        }
+      }
+    },
+    "npm:@metamask/json-rpc-example-snap": {
+      "id": "npm:@metamask/json-rpc-example-snap",
+      "metadata": {
+        "name": "JSON-RPC Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "wMGE+zthQo8NHhhFulqYOOrdxtCQkveQt8MgZIAQSUA="
+        }
+      }
+    },
+    "npm:@metamask/manage-state-example-snap": {
+      "id": "npm:@metamask/manage-state-example-snap",
+      "metadata": {
+        "name": "Manage State Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "RcjOYLrBT5ZBOqHxXr/+g2L6hgqRALFCco+P/z9HvIs="
+        }
+      }
+    },
+    "npm:@metamask/network-example-snap": {
+      "id": "npm:@metamask/network-example-snap",
+      "metadata": {
+        "name": "Network Access Test Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "WA9XsjYi5NlQGz19iXBL0R7QVfUna3GAPZmUpb81gHM="
+        }
+      }
+    },
+    "npm:@metamask/notification-example-snap": {
+      "id": "npm:@metamask/notification-example-snap",
+      "metadata": {
+        "name": "Notifications Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "C3zDF0V9lFhFymAc3UJEryLY8uJw5eR5zSHUvQCAjGY="
+        }
+      }
+    },
+    "npm:@metamask/insights-example-snap": {
+      "id": "npm:@metamask/insights-example-snap",
+      "metadata": {
+        "name": "Insights Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "jGSkiBXrmxd2lWtUtYQUni7gl2bGL4Dsep8pLbmJfzM="
+        }
+      }
+    },
+    "npm:@metamask/wasm-example-snap": {
+      "id": "npm:@metamask/wasm-example-snap",
+      "metadata": {
+        "name": "WebAssembly Example Snap"
+      },
+      "versions": {
+        "0.37.2-flask.1": {
+          "checksum": "I3d7noxypEv9Szc1/MD7AIAmrgcX9YEpx1EtFoTCoWM="
+        }
+      }
     }
   },
   "blockedSnaps": [
