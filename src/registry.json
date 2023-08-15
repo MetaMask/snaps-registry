@@ -28,8 +28,14 @@
         "name": "BIP-32 Example Snap"
       },
       "versions": {
+        "0.35.0-flask.1": {
+          "checksum": "nSL22rF7OWVCYzaj9B+7tUgRWCw8oMfi2r0utoJH6rg="
+        },
+        "0.35.2-flask.1": {
+          "checksum": "cOJYxa17Mn160j/YH8887WOpGFVl0N0c2TK4WBfpdh0="
+        },
         "0.37.2-flask.1": {
-          "checksum": "UWS774A057OPPbfbF560vMKxWamt+1/oxxtaKyw6Ygk="
+          "checksum": "9zlU1HnaCKIKeIYLWAZMpKKGhniZz3uCfL6lMi6HxmU="
         }
       }
     },
