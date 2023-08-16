@@ -47,6 +47,9 @@
       "versions": {
         "0.37.2-flask.1": {
           "checksum": "1wPZsEPMVO88H3Lt1XBqz9BiKT3QV1ruIcqJQN9bLNY="
+        },
+        "0.38.0-flask.1": {
+          "checksum": "greQKnNTgVqeKdtbMiyIdng09Jy/u6bK2ctZkzy0hdY="
         }
       }
     },
@@ -58,6 +61,9 @@
       "versions": {
         "0.37.2-flask.1": {
           "checksum": "M8rlf48QIGa4Dk8X/EM9OgQUwrhvCpQyrJkv8FMVYkM="
+        },
+        "0.38.0-flask.1": {
+          "checksum": "2X5dKpZLlpO/b3sL2FLCLAjGvsamMh4jP/HRkwWeknI="
         }
       }
     },
@@ -69,6 +75,9 @@
       "versions": {
         "0.37.2-flask.1": {
           "checksum": "JTisnR3icqN8BSTKQEhgx3unm8JbSHeyJ2nM29arcrE="
+        },
+        "0.38.0-flask.1": {
+          "checksum": "ovAw6BvnbeNMcF3DwmhqKzYSEBOo1sxYRi6kDDv3WdQ="
         }
       }
     },
@@ -80,6 +89,9 @@
       "versions": {
         "0.37.2-flask.1": {
           "checksum": "bO6Nz4mmWwLZodzNJIzt9Fw9V4IV5luD/vFjMA9bNZQ="
+        },
+        "0.38.0-flask.1": {
+          "checksum": "WXWIhv3YhG8JuPwZ1SnTgFv9ZaBNAKOermQ5bWU8a1Q="
         }
       }
     },
@@ -91,6 +103,9 @@
       "versions": {
         "0.37.2-flask.1": {
           "checksum": "iqnHsz3ns+0TpnqmZOkVen+ySQxXDhb7LU6SWWpksB8="
+        },
+        "0.38.0-flask.1": {
+          "checksum": "02i/AryMkfxh6jeOXWKjyaBCLCzaKXADhRc/dWfsmEg="
         }
       }
     },
@@ -102,6 +117,9 @@
       "versions": {
         "0.37.2-flask.1": {
           "checksum": "C3XZa2lDh8LWVZNQmn3Ns/ZByyZTFz7zznClGMen4Yg="
+        },
+        "0.38.0-flask.1": {
+          "checksum": "P6Tvtbs6qn77XI7xQVbBNmd1Sp8WRdAfFrGpLQODabA="
         }
       }
     },
@@ -113,6 +131,9 @@
       "versions": {
         "0.37.2-flask.1": {
           "checksum": "3ngy5lgb166/id89vLEsA10MjtHAbyWoCM/y2foLyMs="
+        },
+        "0.38.0-flask.1": {
+          "checksum": "mtAscMuF0zF1TIVUBmoSc/Vc1xP2vQR7GCw+fIx08vE="
         }
       }
     },
@@ -135,6 +156,9 @@
       "versions": {
         "0.37.2-flask.1": {
           "checksum": "RcjOYLrBT5ZBOqHxXr/+g2L6hgqRALFCco+P/z9HvIs="
+        },
+        "0.38.0-flask.1": {
+          "checksum": "d4qYxIOdz869tdC5v6C8JzkS2fHRyJ33OeH3sqoUUEw="
         }
       }
     },
@@ -146,6 +170,9 @@
       "versions": {
         "0.37.2-flask.1": {
           "checksum": "WA9XsjYi5NlQGz19iXBL0R7QVfUna3GAPZmUpb81gHM="
+        },
+        "0.38.0-flask.1": {
+          "checksum": "/xrzK+LNyXfupec9dDNUM6AGROGkJzIzrnnn5++j/Z0="
         }
       }
     },
@@ -157,6 +184,9 @@
       "versions": {
         "0.37.2-flask.1": {
           "checksum": "C3zDF0V9lFhFymAc3UJEryLY8uJw5eR5zSHUvQCAjGY="
+        },
+        "0.38.0-flask.1": {
+          "checksum": "ATRtqsBVScH5op0YokHjsg0Sj5WjggEIJ2I1cs6OI3k="
         }
       }
     },
@@ -168,6 +198,9 @@
       "versions": {
         "0.37.2-flask.1": {
           "checksum": "jGSkiBXrmxd2lWtUtYQUni7gl2bGL4Dsep8pLbmJfzM="
+        },
+        "0.38.0-flask.1": {
+          "checksum": "7GvuWK7PaCWGnZx9MCrE2xttCOFsDzzIV2B4SPYCSDQ="
         }
       }
     },
