@@ -11,14 +11,80 @@
         }
       }
     },
-    "npm:algorand": {
-      "id": "npm:algorand",
+    "npm:@algorandfoundation/algorand-metamask-snap": {
+      "id": "npm:@algorandfoundation/algorand-metamask-snap",
       "metadata": {
         "name": "Algorand Wallet"
       },
       "versions": {
-        "10.0.0": {
-          "checksum": "LpGf8y92FHQfuZXp+JM3/1CKJANZhPWLUwyYIfZ5W+I="
+        "10.0.1": {
+          "checksum": "Pyhm1ySicfZ1c6dk+6e3U3rLtTDlyqGWHQXlxN85cu8="
+        }
+      }
+    },
+    "npm:walletchat-metamask-snap": {
+      "id": "npm:walletchat-metamask-snap",
+      "metadata": {
+        "name": "app.walletchat.fun"
+      },
+      "versions": {
+        "0.2.1": {
+          "checksum": "IV0FlbWNvx5HJUxqNWVXizRVwmib/aVmi7jjZhVAuXw="
+        }
+      }
+    },
+    "npm:casper-manager": {
+      "id": "npm:casper-manager",
+      "metadata": {
+        "name": "Casper Manager"
+      },
+      "versions": {
+        "1.0.3": {
+          "checksum": "QrcMLvXc2lTNWdgzWeMp83YUAk3XIUs27Ivm7iizD60="
+        }
+      }
+    },
+    "npm:wallet-guard-snap": {
+      "id": "npm:wallet-guard-snap",
+      "metadata": {
+        "name": "Wallet Guard"
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "mv4xJVdaBEdavHcluuEkD5BzFdjT9CzyjtKFAWxP28s="
+        }
+      }
+    },
+    "npm:push-v1": {
+      "id": "npm:push-v1",
+      "metadata": {
+        "name": "Push"
+      },
+      "versions": {
+        "0.1.1": {
+          "checksum": "l0EP1t1F/rY6A8O09U3AQBK7qSb50UyTTPbzoTeoU5s="
+        }
+      }
+    },
+    "npm:@tuum-tech/identify": {
+      "id": "npm:@tuum-tech/identify",
+      "metadata": {
+        "name": "Identify"
+      },
+      "versions": {
+        "1.4.2": {
+          "checksum": "qSwGU4febad/0NYOJqxdO8oqmdBD8xgh8+0wOrItO8k="
+        }
+      }
+    },
+    "npm:blockfence-insights": {
+      "id": "npm:blockfence-insights",
+      "metadata": {
+        "name": "Blockfence"
+      },
+      "versions": {
+        "0.1.0": {
+          "checksum": "bBo4QhSk9CI4qjYbMEfbcCyVULPpvXgD+8oPLEl9EdA="
         }
       }
     },
