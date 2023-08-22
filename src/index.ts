@@ -11,6 +11,7 @@ import {
   union,
   optional,
   Infer,
+  enums,
 } from 'superstruct';
 
 const VerifiedSnapVersionStruct = object({
@@ -21,6 +22,13 @@ export const VerifiedSnapStruct = object({
   id: string(),
   metadata: object({
     name: string(),
+    type: optional(enums(['account'])),
+    author: optional(string()),
+    website: optional(string()),
+    summary: optional(string()),
+    description: optional(string()),
+    reports: optional(array(string())),
+    tags: optional(array(string())),
   }),
   versions: record(VersionStruct, VerifiedSnapVersionStruct),
 });
