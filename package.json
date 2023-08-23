@@ -27,7 +27,7 @@
     "verify": "ts-node scripts/verify-registry.ts"
   },
   "dependencies": {
-    "@metamask/utils": "^6.0.0",
+    "@metamask/utils": "^7.1.0",
     "@noble/secp256k1": "^1.7.1",
     "superstruct": "^1.0.3"
   },
