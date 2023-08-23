@@ -74,6 +74,9 @@
       "versions": {
         "1.4.2": {
           "checksum": "qSwGU4febad/0NYOJqxdO8oqmdBD8xgh8+0wOrItO8k="
+        },
+        "1.5.0": {
+          "checksum": "ECg9tSmTGnEohIna/s0ECP3nGSyo1r3sue3QUU8xwlE="
         }
       }
     },
@@ -278,6 +281,72 @@
       "versions": {
         "0.37.2-flask.1": {
           "checksum": "I3d7noxypEv9Szc1/MD7AIAmrgcX9YEpx1EtFoTCoWM="
+        }
+      }
+    },
+    "npm:@kleros/scout-snap": {
+      "id": "npm:@kleros/scout-snap",
+      "metadata": {
+        "name": "Kleros Scout"
+      },
+      "versions": {
+        "0.5.2": {
+          "checksum": "wZ6uKGPtEzRJWfiy8+NrwcynAblDv34d+7Q5/B8EIkg="
+        }
+      }
+    },
+    "npm:tezos-metamask-snap": {
+      "id": "npm:tezos-metamask-snap",
+      "metadata": {
+        "name": "Tezos"
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "U3pVkLc5j9HljoV77fGsWbHmjupzFcBqMDu99NKJcyI="
+        }
+      }
+    },
+    "npm:mina-snap": {
+      "id": "npm:mina-snap",
+      "metadata": {
+        "name": "Mina"
+      },
+      "versions": {
+        "0.0.3": {
+          "checksum": "J08iLuu3jAlgzQnDOvQ3N799hGcWRvZ34a9Pxkff+VE="
+        }
+      }
+    },
+    "npm:@pianity/arsnap": {
+      "id": "npm:@pianity/arsnap",
+      "metadata": {
+        "name": "Arweave"
+      },
+      "versions": {
+        "0.2.0": {
+          "checksum": "twOowMkxiRnUHVF4YjGF9Q5w8F19Vl9mu5ULAgZHo2Y="
+        }
+      }
+    },
+    "npm:btcsnap": {
+      "id": "npm:btcsnap",
+      "metadata": {
+        "name": "Bitcoin"
+      },
+      "versions": {
+        "2.0.0": {
+          "checksum": "EDrxEcqqRyMCVcgn6Y9BpxRHqFjCfqXahKDC8jqiwuI="
+        }
+      }
+    },
+    "npm:@consensys/starknet-snap": {
+      "id": "npm:@consensys/starknet-snap",
+      "metadata": {
+        "name": "StarkNet"
+      },
+      "versions": {
+        "2.0.1": {
+          "checksum": "Vu0qdZC7rqOId+8QzBNLR3/XdJkdl72183eTR8qT4zE="
         }
       }
     }
