@@ -2,9 +2,27 @@ name: Publish Registry
 
 on:
   workflow_call:
+    inputs:
+      slack-channel:
+        required: false
+        type: string
+        default: 'metamask-dev'
+      slack-icon-url:
+        required: false
+        type: string
+        default: 'https://raw.githubusercontent.com/MetaMask/action-npm-publish/main/robo.png'
+      slack-subteam:
+        required: false
+        type: string
+      slack-username:
+        required: false
+        type: string
+        default: 'MetaMask bot'
     secrets:
       REGISTRY_PRIVATE_KEY:
         required: true
+      SLACK_WEBHOOK_URL:
+        required: false
 
 jobs:
   check-updated:
@@ -25,12 +43,57 @@ jobs:
             echo "UPDATED=false" >> "$GITHUB_OUTPUT"
           fi
 
+  announce-publish-registry:
+    name: Announce registry publish
+    needs: check-updated
+    if: ${{ needs.check-updated.outputs.UPDATED == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - id: name-hash
+        name: Get Slack name and hash
+        shell: bash
+        if: inputs.slack-subteam != ''
+        run: |
+          NAME_TEXT=$(jq --raw-output '.name' package.json)
+          NAME_TEXT_STRIPPED="${NAME_TEXT#@}"
+          NAME_TEXT_WITH_HASH="$NAME_TEXT_STRIPPED@${GITHUB_SHA:0:7}"
+          echo "NAME_HASH=$NAME_TEXT_WITH_HASH" >> "$GITHUB_OUTPUT"
+      - id: final-text
+        name: Get Slack final text
+        shell: bash
+        if: inputs.slack-subteam != ''
+        run: |
+          DEFAULT_TEXT="\`${{ steps.name-hash.outputs.NAME_HASH }}\` is awaiting \`registry.json\` deployment :rocket: \n <https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}/|→ Click here to review deployment>"
+          SUBTEAM_TEXT="${{ inputs.slack-subteam }}"
+          FINAL_TEXT="$DEFAULT_TEXT"
+          if [[ ! "$SUBTEAM_TEXT" == "" ]]; then
+            FINAL_TEXT="<!subteam^$SUBTEAM_TEXT> $DEFAULT_TEXT"
+          fi
+          echo "FINAL_TEXT=$FINAL_TEXT" >> "$GITHUB_OUTPUT"
+      - name: Post to a Slack channel
+        if: inputs.slack-subteam != ''
+        uses: slackapi/slack-github-action@007b2c3c751a190b6f0f040e47ed024deaa72844
+        with:
+          payload: |
+            {
+              "text": "${{ steps.final-text.outputs.FINAL_TEXT }}",
+              "icon_url": "${{ inputs.slack-icon-url }}",
+              "username": "${{ inputs.slack-username }}",
+              "channel": "#${{ inputs.slack-channel }}"
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
+
   publish-registry:
     name: Deploy registry to remote storage
     # It's not possible to set the env using input variables - https://github.com/actions/runner/issues/998
     # Hardcoded for now
     environment: deploy-prod
-    needs: check-updated
+    needs:
+      - announce-publish-registry
+      - check-updated
     if: ${{ needs.check-updated.outputs.UPDATED == 'true' }}
     runs-on: ubuntu-latest
     steps:
