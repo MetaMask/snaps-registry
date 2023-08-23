@@ -72,9 +72,6 @@
         "name": "Identify"
       },
       "versions": {
-        "1.4.2": {
-          "checksum": "qSwGU4febad/0NYOJqxdO8oqmdBD8xgh8+0wOrItO8k="
-        },
         "1.5.0": {
           "checksum": "ECg9tSmTGnEohIna/s0ECP3nGSyo1r3sue3QUU8xwlE="
         }
