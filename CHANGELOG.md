@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.2]
+### Changed
+- Bump `@metamask/utils` to `7.1.0` ([#51](https://github.com/MetaMask/snaps-registry/pull/51))
+
 ## [1.2.1]
 ### Changed
 - Bump `@metamask/utils` to `6.0.0` ([#32](https://github.com/MetaMask/snaps-registry/pull/32))
@@ -27,7 +31,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/MetaMask/snaps-registry/compare/v1.2.1...HEAD
+[Unreleased]: https://github.com/MetaMask/snaps-registry/compare/v1.2.2...HEAD
+[1.2.2]: https://github.com/MetaMask/snaps-registry/compare/v1.2.1...v1.2.2
 [1.2.1]: https://github.com/MetaMask/snaps-registry/compare/v1.2.0...v1.2.1
 [1.2.0]: https://github.com/MetaMask/snaps-registry/compare/v1.1.1...v1.2.0
 [1.1.1]: https://github.com/MetaMask/snaps-registry/compare/v1.1.0...v1.1.1
