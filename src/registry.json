@@ -102,6 +102,9 @@
         },
         "0.37.2-flask.1": {
           "checksum": "9zlU1HnaCKIKeIYLWAZMpKKGhniZz3uCfL6lMi6HxmU="
+        },
+        "0.37.3-flask.1": {
+          "checksum": "q09kHX1Yh6y5o3ttFwB+ZVM6FOElyy3qqvoyYCWHiSQ="
         }
       }
     },
@@ -116,6 +119,9 @@
         },
         "0.38.0-flask.1": {
           "checksum": "greQKnNTgVqeKdtbMiyIdng09Jy/u6bK2ctZkzy0hdY="
+        },
+        "0.38.1-flask.1": {
+          "checksum": "w3Sp0Y7HB+uqHgv1L6S+V+Q7TW10/mUD7+jbbMUgz0g="
         }
       }
     },
@@ -130,6 +136,9 @@
         },
         "0.38.0-flask.1": {
           "checksum": "2X5dKpZLlpO/b3sL2FLCLAjGvsamMh4jP/HRkwWeknI="
+        },
+        "0.38.1-flask.1": {
+          "checksum": "uMXNv7TEb5zPsMIS8kfcX5HbvPdjIiUdj3zP05DuV+w="
         }
       }
     },
@@ -144,6 +153,9 @@
         },
         "0.38.0-flask.1": {
           "checksum": "ovAw6BvnbeNMcF3DwmhqKzYSEBOo1sxYRi6kDDv3WdQ="
+        },
+        "0.38.1-flask.1": {
+          "checksum": "slwFtkG5J8ldBG0JUL3EvAW5+0NGKERXcXdlIyCImqM="
         }
       }
     },
@@ -158,6 +170,9 @@
         },
         "0.38.0-flask.1": {
           "checksum": "WXWIhv3YhG8JuPwZ1SnTgFv9ZaBNAKOermQ5bWU8a1Q="
+        },
+        "0.38.1-flask.1": {
+          "checksum": "fRj3eRk7NIBp3Bd/Ji3rCIcMQy65psytCBFIQFo2G6s="
         }
       }
     },
@@ -172,6 +187,9 @@
         },
         "0.38.0-flask.1": {
           "checksum": "02i/AryMkfxh6jeOXWKjyaBCLCzaKXADhRc/dWfsmEg="
+        },
+        "0.38.1-flask.1": {
+          "checksum": "+C2UG75icr02O2XPKLPaYAba1KsKg12qQDOMWmJ1li0="
         }
       }
     },
@@ -186,6 +204,9 @@
         },
         "0.38.0-flask.1": {
           "checksum": "P6Tvtbs6qn77XI7xQVbBNmd1Sp8WRdAfFrGpLQODabA="
+        },
+        "0.38.1-flask.1": {
+          "checksum": "ydfyZetMKS1Z6iJEgaC51yZ2kPdCAwnciuM0TC9oDBs="
         }
       }
     },
@@ -200,6 +221,9 @@
         },
         "0.38.0-flask.1": {
           "checksum": "mtAscMuF0zF1TIVUBmoSc/Vc1xP2vQR7GCw+fIx08vE="
+        },
+        "0.38.1-flask.1": {
+          "checksum": "RftaRiY4VJewuY8jTQPrtxJ4oqBK9h2E4bTMiNQJkgE="
         }
       }
     },
@@ -211,6 +235,9 @@
       "versions": {
         "0.37.2-flask.1": {
           "checksum": "wMGE+zthQo8NHhhFulqYOOrdxtCQkveQt8MgZIAQSUA="
+        },
+        "0.37.3-flask.1": {
+          "checksum": "Vjp8paYaHuaEZzNA1KmLTSEHNvO5BxO5g8m58+92gDY="
         }
       }
     },
@@ -225,6 +252,9 @@
         },
         "0.38.0-flask.1": {
           "checksum": "d4qYxIOdz869tdC5v6C8JzkS2fHRyJ33OeH3sqoUUEw="
+        },
+        "0.38.1-flask.1": {
+          "checksum": "mK8k9cUJX4aMrC0wnljGS7H9kDXY5h8atsu+Av3QyYI="
         }
       }
     },
@@ -239,6 +269,9 @@
         },
         "0.38.0-flask.1": {
           "checksum": "/xrzK+LNyXfupec9dDNUM6AGROGkJzIzrnnn5++j/Z0="
+        },
+        "0.38.1-flask.1": {
+          "checksum": "YXxtxjP6SbPiDHzskryvh0QA6Hvv/FurI+GwNN8WF0U="
         }
       }
     },
@@ -253,6 +286,9 @@
         },
         "0.38.0-flask.1": {
           "checksum": "ATRtqsBVScH5op0YokHjsg0Sj5WjggEIJ2I1cs6OI3k="
+        },
+        "0.38.1-flask.1": {
+          "checksum": "yVIjEtJtZA6UXqh9auF2KfI2kBS3TU1kXTPKNUX+7Ms="
         }
       }
     },
@@ -267,6 +303,9 @@
         },
         "0.38.0-flask.1": {
           "checksum": "7GvuWK7PaCWGnZx9MCrE2xttCOFsDzzIV2B4SPYCSDQ="
+        },
+        "0.38.1-flask.1": {
+          "checksum": "9leaWB2VbcMzyGfUSwOlBRnz0m94AwAE74011uLthfY="
         }
       }
     },
@@ -278,6 +317,9 @@
       "versions": {
         "0.37.2-flask.1": {
           "checksum": "I3d7noxypEv9Szc1/MD7AIAmrgcX9YEpx1EtFoTCoWM="
+        },
+        "0.37.3-flask.1": {
+          "checksum": "mYgoreKol2M0vXCADK74P5y76F2ik5+/6WNiuYUmTug="
         }
       }
     },
@@ -366,6 +408,28 @@
       "versions": {
         "0.1.0": {
           "checksum": "05BVCqjYGzej4aRdRFGWWSu2t1K3h8Nwi+kzrx2S9Qc="
+        }
+      }
+    },
+    "npm:@metamask/get-locale-example-snap": {
+      "id": "npm:@metamask/get-locale-example-snap",
+      "metadata": {
+        "name": "Get Locale Example Snap"
+      },
+      "versions": {
+        "0.38.1-flask.1": {
+          "checksum": "7u3+H0DxS/50QglAzBGJptTwr1axVoUErCiXeL4eevY="
+        }
+      }
+    },
+    "npm:@metamask/lifecycle-hooks-example-snap": {
+      "id": "npm:@metamask/lifecycle-hooks-example-snap",
+      "metadata": {
+        "name": "Lifecycle Hooks Example Snap"
+      },
+      "versions": {
+        "0.38.0-flask.1": {
+          "checksum": "4DHXPu5lFAka46ohpDpyfwcSjT73s+nnZnO8PrVEr18="
         }
       }
     }
