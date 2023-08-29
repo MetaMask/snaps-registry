@@ -337,11 +337,11 @@
     "npm:tezos-metamask-snap": {
       "id": "npm:tezos-metamask-snap",
       "metadata": {
-        "name": "Tezos"
+        "name": "Tezos Wallet"
       },
       "versions": {
-        "1.0.0": {
-          "checksum": "U3pVkLc5j9HljoV77fGsWbHmjupzFcBqMDu99NKJcyI="
+        "1.0.1": {
+          "checksum": "gZ8KD6mLrT9pHe/Lw3RBxFGg5d3ilAUFmEgAenZ5F/s="
         }
       }
     },
