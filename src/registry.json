@@ -346,6 +346,28 @@
           "checksum": "Vu0qdZC7rqOId+8QzBNLR3/XdJkdl72183eTR8qT4zE="
         }
       }
+    },
+    "npm:@unipasswallet/unipass-snap": {
+      "id": "npm:@unipasswallet/unipass-snap",
+      "metadata": {
+        "name": "UniPass Smart Wallet"
+      },
+      "versions": {
+        "0.1.0-alpha.4": {
+          "checksum": "gCB5p0NYRSpQOeh5TErz3j2vkmXR/lXNGghVEhgB9R0="
+        }
+      }
+    },
+    "npm:threat-intel-snap": {
+      "id": "npm:threat-intel-snap",
+      "metadata": {
+        "name": "Threat Intel"
+      },
+      "versions": {
+        "0.1.0": {
+          "checksum": "05BVCqjYGzej4aRdRFGWWSu2t1K3h8Nwi+kzrx2S9Qc="
+        }
+      }
     }
   },
   "blockedSnaps": [
