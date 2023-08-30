@@ -370,11 +370,11 @@
     "npm:btcsnap": {
       "id": "npm:btcsnap",
       "metadata": {
-        "name": "Bitcoin"
+        "name": "Zion"
       },
       "versions": {
-        "2.0.0": {
-          "checksum": "EDrxEcqqRyMCVcgn6Y9BpxRHqFjCfqXahKDC8jqiwuI="
+        "2.0.2": {
+          "checksum": "sKt+22zwvRdzjQuKUN2JSm+9a49jANAmeAa7E6u0I5I="
         }
       }
     },
