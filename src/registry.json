@@ -392,11 +392,11 @@
     "npm:@unipasswallet/unipass-snap": {
       "id": "npm:@unipasswallet/unipass-snap",
       "metadata": {
-        "name": "UniPass Smart Wallet"
+        "name": "UniPass"
       },
       "versions": {
-        "0.1.0-alpha.4": {
-          "checksum": "gCB5p0NYRSpQOeh5TErz3j2vkmXR/lXNGghVEhgB9R0="
+        "0.1.1": {
+          "checksum": "ShI025dlcw6qUy79VxlSuy+eWmVkNTfZp4K00sZlQRU="
         }
       }
     },
