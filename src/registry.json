@@ -370,11 +370,11 @@
     "npm:btcsnap": {
       "id": "npm:btcsnap",
       "metadata": {
-        "name": "Bitcoin"
+        "name": "Zion"
       },
       "versions": {
-        "2.0.0": {
-          "checksum": "EDrxEcqqRyMCVcgn6Y9BpxRHqFjCfqXahKDC8jqiwuI="
+        "2.0.2": {
+          "checksum": "sKt+22zwvRdzjQuKUN2JSm+9a49jANAmeAa7E6u0I5I="
         }
       }
     },
@@ -392,11 +392,11 @@
     "npm:@unipasswallet/unipass-snap": {
       "id": "npm:@unipasswallet/unipass-snap",
       "metadata": {
-        "name": "UniPass Smart Wallet"
+        "name": "UniPass"
       },
       "versions": {
-        "0.1.0-alpha.4": {
-          "checksum": "gCB5p0NYRSpQOeh5TErz3j2vkmXR/lXNGghVEhgB9R0="
+        "0.1.1": {
+          "checksum": "ShI025dlcw6qUy79VxlSuy+eWmVkNTfZp4K00sZlQRU="
         }
       }
     },
