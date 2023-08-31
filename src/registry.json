@@ -83,8 +83,8 @@
         "name": "Blockfence"
       },
       "versions": {
-        "0.1.0": {
-          "checksum": "bBo4QhSk9CI4qjYbMEfbcCyVULPpvXgD+8oPLEl9EdA="
+        "0.1.1": {
+          "checksum": "VB8xXeH/AJuteWg6tfyjO+WHQ+L9lVKke1H34c41DuY="
         }
       }
     },
@@ -362,8 +362,8 @@
         "name": "Arweave"
       },
       "versions": {
-        "0.2.0": {
-          "checksum": "twOowMkxiRnUHVF4YjGF9Q5w8F19Vl9mu5ULAgZHo2Y="
+        "0.2.1": {
+          "checksum": "5QhJ/Ojl+ArgAwok95ia+dNCMb9rjmCR0NmwDK8NnPc="
         }
       }
     },
