@@ -432,6 +432,17 @@
           "checksum": "4DHXPu5lFAka46ohpDpyfwcSjT73s+nnZnO8PrVEr18="
         }
       }
+    }, 
+    "npm:@chainsafe/aleo-snap": {
+      "id": "npm:@chainsafe/aleo-snap", 
+      "metadata": { 
+        "name": "Aleo"
+      }, 
+      "versions": { 
+        "1.1.1": { 
+          "checksum": "XP8HG7E2qjOQoT3gbbZYQ4UyLBjVXwPU/o2SV5ZciKY"
+        }
+      }
     }
   },
   "blockedSnaps": [
