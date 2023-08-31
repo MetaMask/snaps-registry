@@ -411,6 +411,17 @@
         }
       }
     },
+    "npm:@forta-network/metamask-snap": {
+      "id": "npm:@forta-network/metamask-snap",
+      "metadata": {
+        "name": "Forta"
+      },
+      "versions": {
+        "0.1.1": {
+          "checksum": "SLsF7kkhJrdzXcJ+DRtQd9GEWC0UqGA8L5x3Wdfeh6Q="
+        }
+      }
+    },
     "npm:@metamask/get-locale-example-snap": {
       "id": "npm:@metamask/get-locale-example-snap",
       "metadata": {
