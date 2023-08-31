@@ -348,7 +348,7 @@
     "npm:mina-snap": {
       "id": "npm:mina-snap",
       "metadata": {
-        "name": "Mina"
+        "name": "MinaPortal"
       },
       "versions": {
         "0.0.3": {
