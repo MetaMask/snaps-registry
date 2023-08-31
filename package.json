@@ -16,7 +16,7 @@
     "build": "tsc --project tsconfig.build.json",
     "build:clean": "rimraf dist && yarn build",
     "create-key": "ts-node scripts/create-key.ts",
-    "lint": "yarn lint:eslint && yarn lint:misc --check",
+    "lint": "yarn lint:eslint && yarn lint:misc --check && yarn verify-snaps",
     "lint:eslint": "eslint . --cache --ext js,ts",
     "lint:fix": "yarn lint:eslint --fix && yarn lint:misc --write",
     "lint:misc": "prettier '**/*.json' '**/*.md' '!CHANGELOG.md' '**/*.yml' '!.yarnrc.yml' --ignore-path .gitignore --no-error-on-unmatched-pattern",
@@ -24,7 +24,8 @@
     "sign": "ts-node scripts/sign-registry.ts",
     "test": "jest && jest-it-up",
     "test:watch": "jest --watch",
-    "verify": "ts-node scripts/verify-registry.ts"
+    "verify": "ts-node scripts/verify-registry.ts",
+    "verify-snaps": "ts-node scripts/verify-snaps.ts"
   },
   "dependencies": {
     "@metamask/utils": "^8.1.0",
@@ -58,6 +59,7 @@
     "prettier": "^2.7.1",
     "prettier-plugin-packagejson": "^2.3.0",
     "rimraf": "^3.0.2",
+    "semver": "^7.5.4",
     "ts-jest": "^28.0.7",
     "ts-node": "^10.7.0",
     "typescript": "~4.8.4"
