@@ -36,7 +36,7 @@ async function verifySnapVersion(
   if (latest && snap.metadata.name !== manifest.proposedName) {
     throw new Error(
       // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
-      `Proposed name for "${snap.id}@${version}" does not match the metadata name in the registry. Expected "${manifest.proposedName}" (proposed name), got "${manifest.proposedName}" (registry metadata name).`,
+      `Proposed name for "${snap.id}@${version}" does not match the metadata name in the registry. Expected "${manifest.proposedName}" (proposed name), got "${snap.metadata.name}" (registry metadata name).`,
     );
   }
 
