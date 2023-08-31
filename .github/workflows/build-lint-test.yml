@@ -112,4 +112,4 @@ jobs:
           cache: 'yarn'
       - run: yarn --immutable --immutable-cache
       - run: yarn build
-      - run: yarn verify-snaps
+      - run: yarn verify-snaps --diff

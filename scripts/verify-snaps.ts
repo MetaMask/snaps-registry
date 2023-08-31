@@ -1,5 +1,6 @@
 import { detectSnapLocation } from '@metamask/snaps-controllers';
 import { assertIsSemVerRange } from '@metamask/utils';
+import deepEqual from 'fast-deep-equal';
 import semver from 'semver/preload';
 import { Infer } from 'superstruct';
 
@@ -77,9 +78,29 @@ async function verifySnap(snap: VerifiedSnap) {
 }
 
 /**
+ * Verify all snaps that are different from the main registry.
+ */
+async function diff() {
+  const mainRegistry = await fetch(
+    'https://raw.githubusercontent.com/MetaMask/snaps-registry/main/src/registry.json',
+  ).then(async (response) => response.json());
+
+  for (const snap of Object.values(registry.verifiedSnaps)) {
+    if (!deepEqual(mainRegistry.verifiedSnaps[snap.id], snap)) {
+      await verifySnap(snap);
+    }
+  }
+}
+
+/**
  * Verify all snaps.
  */
 async function main() {
+  if (process.argv.includes('--diff')) {
+    await diff();
+    return;
+  }
+
   for (const snap of Object.values(registry.verifiedSnaps)) {
     await verifySnap(snap);
   }
