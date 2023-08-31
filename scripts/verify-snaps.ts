@@ -1,5 +1,5 @@
 import { detectSnapLocation } from '@metamask/snaps-controllers/dist/snaps/location';
-import { assertIsSemVerRange } from '@metamask/utils';
+import { assertIsSemVerVersion } from '@metamask/utils';
 import deepEqual from 'fast-deep-equal';
 import semver from 'semver/preload';
 import { Infer } from 'superstruct';
@@ -24,7 +24,7 @@ async function verifySnapVersion(
   checksum: string,
   latest?: boolean,
 ) {
-  assertIsSemVerRange(version);
+  assertIsSemVerVersion(version);
 
   // TODO: The version of `@metamask/utils` does not match with the version used
   // by `@metamask/snaps-controllers`, so the `versionRange` property cannot be
