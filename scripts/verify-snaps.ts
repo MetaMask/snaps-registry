@@ -1,4 +1,4 @@
-import { detectSnapLocation } from '@metamask/snaps-controllers';
+import { detectSnapLocation } from '@metamask/snaps-controllers/dist/snaps/location';
 import { assertIsSemVerRange } from '@metamask/utils';
 import deepEqual from 'fast-deep-equal';
 import semver from 'semver/preload';
