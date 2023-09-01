@@ -27,7 +27,7 @@ export const VerifiedSnapStruct = object({
     website: optional(string()),
     summary: optional(string()),
     description: optional(string()),
-    reports: optional(array(string())),
+    audits: optional(array(string())),
     tags: optional(array(string())),
   }),
   versions: record(VersionStruct, VerifiedSnapVersionStruct),
