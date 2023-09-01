@@ -1,16 +1,5 @@
 {
   "verifiedSnaps": {
-    "npm:mobymask-snap": {
-      "id": "npm:mobymask-snap",
-      "metadata": {
-        "name": "MobyMask Anti-Phishing"
-      },
-      "versions": {
-        "0.9.7": {
-          "checksum": "5kc/FUBJAEcZwFu0+y4p9H8fD0ZXokJ/JAS0STIPREA="
-        }
-      }
-    },
     "npm:@algorandfoundation/algorand-metamask-snap": {
       "id": "npm:@algorandfoundation/algorand-metamask-snap",
       "metadata": {
