@@ -443,14 +443,14 @@
           "checksum": "XP8HG7E2qjOQoT3gbbZYQ4UyLBjVXwPU/o2SV5ZciKY="
         }
       }
-    }, 
-    "npm:@tenderly/metamask-snap": { 
-      "id": "@tenderly/metamask-snap", 
-      "metadata": { 
+    },
+    "npm:@tenderly/metamask-snap": {
+      "id": "@tenderly/metamask-snap",
+      "metadata": {
         "name": "Tenderly Tx Preview"
-      }, 
-      "versions": { 
-        "1.1.0": { 
+      },
+      "versions": {
+        "1.1.0": {
           "checksum": "rJPQVETMQ5nKH85ThwyqHkneEywg7bIuZqSkGCzpBmc="
         }
       }
