@@ -454,6 +454,17 @@
           "checksum": "rJPQVETMQ5nKH85ThwyqHkneEywg7bIuZqSkGCzpBmc="
         }
       }
+    },
+    "npm:@goplus/riskdetect-snap": {
+      "id": "@goplus/riskdetect-snap",
+      "metadata": {
+        "name": "Assets Risk Detection"
+      },
+      "versions": {
+        "0.1.8": {
+          "checksum": "T71m8iWOll6TqZuk9zqeV+JxvhBZSn4SbMBkifAKPgU="
+        }
+      }
     }
   },
   "blockedSnaps": [
