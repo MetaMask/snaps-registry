@@ -395,8 +395,8 @@
         "name": "Threat Intel"
       },
       "versions": {
-        "0.1.0": {
-          "checksum": "05BVCqjYGzej4aRdRFGWWSu2t1K3h8Nwi+kzrx2S9Qc="
+        "0.1.2": {
+          "checksum": "rOOroVYIn0m/Ep2SsSB49YK3V7NDUzpuz7wj7wjFdqQ="
         }
       }
     },
