@@ -433,17 +433,6 @@
         }
       }
     },
-    "npm:@chainsafe/aleo-snap": {
-      "id": "npm:@chainsafe/aleo-snap",
-      "metadata": {
-        "name": "Aleo"
-      },
-      "versions": {
-        "1.1.1": {
-          "checksum": "XP8HG7E2qjOQoT3gbbZYQ4UyLBjVXwPU/o2SV5ZciKY="
-        }
-      }
-    },
     "npm:@tenderly/metamask-snap": {
       "id": "@tenderly/metamask-snap",
       "metadata": {
