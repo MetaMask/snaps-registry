@@ -12,14 +12,20 @@ import {
   union,
   optional,
   enums,
+  refine,
 } from 'superstruct';
+
+// For now, validate that each snap is using an NPM id.
+const NpmIdStruct = refine(string(), 'Npm ID', (value) =>
+  value.startsWith('npm:'),
+);
 
 const VerifiedSnapVersionStruct = object({
   checksum: ChecksumStruct,
 });
 
 export const VerifiedSnapStruct = object({
-  id: string(),
+  id: NpmIdStruct,
   metadata: object({
     name: string(),
     type: optional(enums(['account'])),
@@ -44,7 +50,7 @@ export type BlockReason = Infer<typeof BlockReasonStruct>;
 
 export const BlockedSnapStruct = union([
   object({
-    id: string(),
+    id: NpmIdStruct,
     versionRange: VersionRangeStruct,
     reason: optional(BlockReasonStruct),
   }),
@@ -52,7 +58,7 @@ export const BlockedSnapStruct = union([
 ]);
 
 export const SnapsRegistryDatabaseStruct = object({
-  verifiedSnaps: record(string(), VerifiedSnapStruct),
+  verifiedSnaps: record(NpmIdStruct, VerifiedSnapStruct),
   blockedSnaps: array(BlockedSnapStruct),
 });
 
