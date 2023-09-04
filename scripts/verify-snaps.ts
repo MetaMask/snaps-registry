@@ -2,9 +2,9 @@ import { detectSnapLocation } from '@metamask/snaps-controllers/dist/snaps/locat
 import { assertIsSemVerVersion } from '@metamask/utils';
 import deepEqual from 'fast-deep-equal';
 import semver from 'semver/preload';
-import { Infer } from 'superstruct';
+import type { Infer } from 'superstruct';
 
-import { VerifiedSnapStruct } from '../src';
+import type { VerifiedSnapStruct } from '../src';
 import registry from '../src/registry.json';
 
 type VerifiedSnap = Infer<typeof VerifiedSnapStruct>;
