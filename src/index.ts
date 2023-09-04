@@ -3,6 +3,7 @@ import {
   VersionRangeStruct,
   ChecksumStruct,
 } from '@metamask/utils';
+import type { Infer } from 'superstruct';
 import {
   object,
   array,
@@ -10,7 +11,6 @@ import {
   string,
   union,
   optional,
-  Infer,
   enums,
 } from 'superstruct';
 

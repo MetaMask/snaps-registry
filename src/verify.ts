@@ -1,7 +1,7 @@
+import type { Hex } from '@metamask/utils';
 import {
   remove0x,
   stringToBytes,
-  Hex,
   assertStruct,
   hexToBytes,
 } from '@metamask/utils';
@@ -10,7 +10,8 @@ import {
   utils,
   Signature as NobleSignature,
 } from '@noble/secp256k1';
-import { Infer, literal, object, pattern, string } from 'superstruct';
+import type { Infer } from 'superstruct';
+import { literal, object, pattern, string } from 'superstruct';
 
 export const SignatureStruct = object({
   signature: pattern(string(), /0x[0-9a-f]{140}/u),
