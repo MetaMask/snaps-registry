@@ -454,6 +454,39 @@
           "checksum": "T71m8iWOll6TqZuk9zqeV+JxvhBZSn4SbMBkifAKPgU="
         }
       }
+    },
+    "npm:@solflare-wallet/solana-snap": {
+      "id": "npm:@solflare-wallet/solana-snap",
+      "metadata": {
+        "name": "Solana Manager"
+      },
+      "versions": {
+        "1.0.2": {
+          "checksum": "7xISWLpxpU215O0L/5kRPYj+EDSbxfW/Jj+l7ux6IQA="
+        }
+      }
+    },
+    "npm:@rise-wallet/aptos-snap": {
+      "id": "npm:@rise-wallet/aptos-snap",
+      "metadata": {
+        "name": "Aptos Manager"
+      },
+      "versions": {
+        "1.0.2": {
+          "checksum": "MV9u2kjaHf6UFJsvfA+IWmr5NvX/KhTSTM81yEy9y/c="
+        }
+      }
+    },
+    "npm:@elli-wallet/sui-snap": {
+      "id": "npm:@elli-wallet/sui-snap",
+      "metadata": {
+        "name": "Sui Manager"
+      },
+      "versions": {
+        "1.0.2": {
+          "checksum": "/6gQS72bsflSrrc75Dv87K3PYn/VBd7osujB4aLi1Uo="
+        }
+      }
     }
   },
   "blockedSnaps": [
