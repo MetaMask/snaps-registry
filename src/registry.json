@@ -334,14 +334,14 @@
         }
       }
     },
-    "npm:mina-snap": {
-      "id": "npm:mina-snap",
+    "npm:mina-portal": {
+      "id": "npm:mina-portal",
       "metadata": {
         "name": "MinaPortal"
       },
       "versions": {
-        "0.0.3": {
-          "checksum": "J08iLuu3jAlgzQnDOvQ3N799hGcWRvZ34a9Pxkff+VE="
+        "0.1.0": {
+          "checksum": "PXAFCD+unlv8O9DOd0ZpBxcVW5ktGUPVlCmbsI2BR98="
         }
       }
     },
