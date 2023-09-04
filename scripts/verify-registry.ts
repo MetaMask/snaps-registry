@@ -59,7 +59,7 @@ async function main() {
   const isValid = await verify({ registry, signature, publicKey });
   if (!isValid) {
     console.error('Signature is invalid.');
-    // eslint-disable-next-line node/no-process-exit
+    // eslint-disable-next-line n/no-process-exit
     process.exit(1);
   }
   console.log('Signature is valid.');

@@ -50,7 +50,7 @@ async function main() {
         } already exists. Use --force to overwrite.`,
       );
 
-      // eslint-disable-next-line node/no-process-exit
+      // eslint-disable-next-line n/no-process-exit
       process.exit(1);
     }
     throw error;
