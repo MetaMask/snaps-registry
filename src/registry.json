@@ -1,16 +1,5 @@
 {
   "verifiedSnaps": {
-    "npm:mobymask-snap": {
-      "id": "npm:mobymask-snap",
-      "metadata": {
-        "name": "MobyMask Anti-Phishing"
-      },
-      "versions": {
-        "0.9.7": {
-          "checksum": "5kc/FUBJAEcZwFu0+y4p9H8fD0ZXokJ/JAS0STIPREA="
-        }
-      }
-    },
     "npm:@algorandfoundation/algorand-metamask-snap": {
       "id": "npm:@algorandfoundation/algorand-metamask-snap",
       "metadata": {
@@ -329,8 +318,8 @@
         "name": "Kleros Scout"
       },
       "versions": {
-        "0.5.2": {
-          "checksum": "wZ6uKGPtEzRJWfiy8+NrwcynAblDv34d+7Q5/B8EIkg="
+        "1.1.0": {
+          "checksum": "z/7MIS7rM2gG7vjtY54Sv3pnvzItMnhooR22Svk6QkI="
         }
       }
     },
@@ -345,14 +334,14 @@
         }
       }
     },
-    "npm:mina-snap": {
-      "id": "npm:mina-snap",
+    "npm:mina-portal": {
+      "id": "npm:mina-portal",
       "metadata": {
-        "name": "Mina"
+        "name": "MinaPortal"
       },
       "versions": {
-        "0.0.3": {
-          "checksum": "J08iLuu3jAlgzQnDOvQ3N799hGcWRvZ34a9Pxkff+VE="
+        "0.1.0": {
+          "checksum": "PXAFCD+unlv8O9DOd0ZpBxcVW5ktGUPVlCmbsI2BR98="
         }
       }
     },
@@ -406,8 +395,19 @@
         "name": "Threat Intel"
       },
       "versions": {
-        "0.1.0": {
-          "checksum": "05BVCqjYGzej4aRdRFGWWSu2t1K3h8Nwi+kzrx2S9Qc="
+        "0.1.2": {
+          "checksum": "rOOroVYIn0m/Ep2SsSB49YK3V7NDUzpuz7wj7wjFdqQ="
+        }
+      }
+    },
+    "npm:@forta-network/metamask-snap": {
+      "id": "npm:@forta-network/metamask-snap",
+      "metadata": {
+        "name": "Forta"
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "FTwRj3N+NpVeq0WO7zmRY9tXjWZBoEcOANgnQ8i+Y38="
         }
       }
     },
@@ -430,6 +430,28 @@
       "versions": {
         "0.38.0-flask.1": {
           "checksum": "4DHXPu5lFAka46ohpDpyfwcSjT73s+nnZnO8PrVEr18="
+        }
+      }
+    },
+    "npm:@tenderly/metamask-snap": {
+      "id": "@tenderly/metamask-snap",
+      "metadata": {
+        "name": "Tenderly Tx Preview"
+      },
+      "versions": {
+        "1.1.0": {
+          "checksum": "rJPQVETMQ5nKH85ThwyqHkneEywg7bIuZqSkGCzpBmc="
+        }
+      }
+    },
+    "npm:@goplus/riskdetect-snap": {
+      "id": "@goplus/riskdetect-snap",
+      "metadata": {
+        "name": "Assets Risk Detection"
+      },
+      "versions": {
+        "0.1.8": {
+          "checksum": "T71m8iWOll6TqZuk9zqeV+JxvhBZSn4SbMBkifAKPgU="
         }
       }
     }
