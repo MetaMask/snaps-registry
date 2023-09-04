@@ -434,7 +434,7 @@
       }
     },
     "npm:@tenderly/metamask-snap": {
-      "id": "@tenderly/metamask-snap",
+      "id": "npm:@tenderly/metamask-snap",
       "metadata": {
         "name": "Tenderly Tx Preview"
       },
@@ -445,7 +445,7 @@
       }
     },
     "npm:@goplus/riskdetect-snap": {
-      "id": "@goplus/riskdetect-snap",
+      "id": "npm:@goplus/riskdetect-snap",
       "metadata": {
         "name": "Assets Risk Detection"
       },
