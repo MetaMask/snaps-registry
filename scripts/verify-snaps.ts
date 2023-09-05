@@ -87,7 +87,7 @@ async function diff() {
 
   for (const snap of Object.values(registry.verifiedSnaps)) {
     if (!deepEqual(mainRegistry.verifiedSnaps[snap.id], snap)) {
-      await verifySnap(snap);
+      await verifySnap(snap as VerifiedSnap);
     }
   }
 }
@@ -102,7 +102,7 @@ async function main() {
   }
 
   for (const snap of Object.values(registry.verifiedSnaps)) {
-    await verifySnap(snap);
+    await verifySnap(snap as VerifiedSnap);
   }
 }
 
