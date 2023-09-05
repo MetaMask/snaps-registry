@@ -498,6 +498,17 @@
           "checksum": "/VwEwLqeprvwWlfYuNc2HLWbZbUd7ljk4ZVQjR19+qs="
         }
       }
+    },
+    "npm:@blockchain-lab-um/masca": {
+      "id": "npm:@blockchain-lab-um/masca",
+      "metadata": {
+        "name": "Masca"
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "nVKFpAn6RCNMM8UOH344F+tQUP6pxGjzisRXGBYf550="
+        }
+      }
     }
   },
   "blockedSnaps": [
