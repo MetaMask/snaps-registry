@@ -373,6 +373,9 @@
         "name": "StarkNet"
       },
       "versions": {
+        "2.0.2-dev-5eff492-20230901": {
+          "checksum": "7+Nv+tXpfxaA9y7Sh5JslzbhVbZDpMtGr/ueqgw3lw8="
+        },
         "2.0.1": {
           "checksum": "Vu0qdZC7rqOId+8QzBNLR3/XdJkdl72183eTR8qT4zE="
         }
