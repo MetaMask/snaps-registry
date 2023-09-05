@@ -3,7 +3,22 @@
     "npm:@algorandfoundation/algorand-metamask-snap": {
       "id": "npm:@algorandfoundation/algorand-metamask-snap",
       "metadata": {
-        "name": "Algorand Wallet"
+        "name": "Algorand Wallet",
+        "author": {
+          "name": "Algorand Foundation",
+          "website": "https://www.algorand.foundation/"
+        },
+        "summary": "Algorand wallet for MetaMask",
+        "description": "Manage Algorand accounts with MetaMask, transfer, swap, and interact with Algorand dapps.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://ottersec.notion.site/Sampled-Public-Audit-Reports-a296e98838aa4fdb8f3b192663400772?p=b25b9f3a52ab4821914f379ff0d3ec62&pm=s"
+          }
+        ],
+        "tags": ["interoperability", "algorand"],
+        "support": "mailto:snap-algo@algorand.foundation",
+        "sourceCode": "https://github.com/algorandfoundation/algo-metamask"
       },
       "versions": {
         "10.0.1": {
@@ -14,7 +29,27 @@
     "npm:walletchat-metamask-snap": {
       "id": "npm:walletchat-metamask-snap",
       "metadata": {
-        "name": "app.walletchat.fun"
+        "name": "app.walletchat.fun",
+        "author": {
+          "name": "WalletChat",
+          "website": "https://www.walletchat.fun/"
+        },
+        "website": "https://app.walletchat.fun/",
+        "summary": "Receive WalletChat notifications in MetaMask",
+        "description": "Wallet-to-wallet chat notifications via WalletChat.fun - log in to https://app.walletchat.fun to read and respond!",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://drive.google.com/file/d/1pNhN43mMOLiA2jWUF5IbJA-5kmfAod1f/view?usp=drive_link"
+          },
+          {
+            "auditor": "Cure53",
+            "report": "https://drive.google.com/file/d/1dixJw4G4ekcO40GpbH7VmizLTINS5gUL/view?usp=drive_link"
+          }
+        ],
+        "tags": ["notifications", "chat"],
+        "support": "https://docs.walletchat.fun/metamask-integration/walletchat-metamask-snap-faq",
+        "sourceCode": "https://github.com/Wallet-Chat/walletchat-metamask-snap"
       },
       "versions": {
         "0.2.1": {
