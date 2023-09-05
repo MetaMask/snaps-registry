@@ -509,6 +509,17 @@
           "checksum": "nVKFpAn6RCNMM8UOH344F+tQUP6pxGjzisRXGBYf550="
         }
       }
+    },
+    "npm:@leapwallet/metamask-cosmos-snap": {
+      "id": "npm:@leapwallet/metamask-cosmos-snap",
+      "metadata": {
+        "name": "Leap Cosmos Wallet"
+      },
+      "versions": {
+        "0.0.15": {
+          "checksum": "HW90uDnubBA16WB9T7/DFmuBNbGB2c4MGwlrgTkVURE="
+        }
+      }
     }
   },
   "blockedSnaps": [
