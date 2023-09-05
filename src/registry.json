@@ -519,7 +519,7 @@
         "name": "Leap Cosmos Wallet"
       },
       "versions": {
-        "0.0.15": {
+        "0.1.15": {
           "checksum": "HW90uDnubBA16WB9T7/DFmuBNbGB2c4MGwlrgTkVURE="
         }
       }
