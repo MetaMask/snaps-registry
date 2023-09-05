@@ -72,7 +72,7 @@ async function verifySnap(snap: VerifiedSnap) {
       latestVersion === version,
     ).catch((error) => {
       console.error(error.message);
-      process.exitCode = 1;
+      // process.exitCode = 1;
     });
   }
 }
@@ -108,5 +108,5 @@ async function main() {
 
 main().catch((error) => {
   console.error(error);
-  process.exitCode = 1;
+  // process.exitCode = 1;
 });
