@@ -487,6 +487,17 @@
           "checksum": "/6gQS72bsflSrrc75Dv87K3PYn/VBd7osujB4aLi1Uo="
         }
       }
+    },
+    "npm:@vegaprotocol/snap": {
+      "id": "npm:@vegaprotocol/snap",
+      "metadata": {
+        "name": "Vega Protocol"
+      },
+      "versions": {
+        "0.2.0": {
+          "checksum": "/VwEwLqeprvwWlfYuNc2HLWbZbUd7ljk4ZVQjR19+qs="
+        }
+      }
     }
   },
   "blockedSnaps": [
