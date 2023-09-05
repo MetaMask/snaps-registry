@@ -48,6 +48,9 @@ export const VerifiedSnapStruct = object({
     summary: optional(string()),
     description: optional(string()),
     audits: optional(array(AuditStruct)),
+    category: optional(
+      enums(['interoperability', 'notifications', 'transaction insights']),
+    ),
     tags: optional(array(string())),
     support: optional(string()),
     sourceCode: optional(string()),
