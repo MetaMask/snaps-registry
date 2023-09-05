@@ -24,16 +24,30 @@ const VerifiedSnapVersionStruct = object({
   checksum: ChecksumStruct,
 });
 
+export const AuthorStruct = object({
+  name: string(),
+  website: string(),
+});
+
+export type Author = Infer<typeof AuthorStruct>;
+
+export const AuditStruct = object({
+  auditor: string(),
+  report: string(),
+});
+
+export type Audit = Infer<typeof AuditStruct>;
+
 export const VerifiedSnapStruct = object({
   id: NpmIdStruct,
   metadata: object({
     name: string(),
     type: optional(enums(['account'])),
-    author: optional(string()),
+    author: optional(AuthorStruct),
     website: optional(string()),
     summary: optional(string()),
     description: optional(string()),
-    audits: optional(array(string())),
+    audits: optional(array(AuditStruct)),
     tags: optional(array(string())),
     support: optional(string()),
     sourceCode: optional(string()),
