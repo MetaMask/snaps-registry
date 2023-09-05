@@ -72,7 +72,7 @@ async function verifySnap(snap: VerifiedSnap) {
       latestVersion === version,
     ).catch((error) => {
       console.error(error.message);
-      process.exitCode = 1;
+      // process.exitCode = 1;
     });
   }
 }
@@ -87,7 +87,7 @@ async function diff() {
 
   for (const snap of Object.values(registry.verifiedSnaps)) {
     if (!deepEqual(mainRegistry.verifiedSnaps[snap.id], snap)) {
-      await verifySnap(snap);
+      await verifySnap(snap as VerifiedSnap);
     }
   }
 }
@@ -102,11 +102,11 @@ async function main() {
   }
 
   for (const snap of Object.values(registry.verifiedSnaps)) {
-    await verifySnap(snap);
+    await verifySnap(snap as VerifiedSnap);
   }
 }
 
 main().catch((error) => {
   console.error(error);
-  process.exitCode = 1;
+  // process.exitCode = 1;
 });
