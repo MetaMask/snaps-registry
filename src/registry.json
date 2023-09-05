@@ -520,6 +520,17 @@
           "checksum": "HW90uDnubBA16WB9T7/DFmuBNbGB2c4MGwlrgTkVURE="
         }
       }
+    },
+    "npm:web3-security-snap": {
+      "id": "npm:web3-security-snap",
+      "metadata": {
+        "name": "Web3 Security"
+      },
+      "versions": {
+        "1.0.2": {
+          "checksum": "hWHPH9JldbbLDgIYWj0i4rUs2BSwNbYANYivMI30fqA="
+        }
+      }
     }
   },
   "blockedSnaps": [
