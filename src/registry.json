@@ -408,6 +408,9 @@
         "name": "StarkNet"
       },
       "versions": {
+        "2.0.2-dev-5eff492-20230901": {
+          "checksum": "7+Nv+tXpfxaA9y7Sh5JslzbhVbZDpMtGr/ueqgw3lw8="
+        },
         "2.0.1": {
           "checksum": "Vu0qdZC7rqOId+8QzBNLR3/XdJkdl72183eTR8qT4zE="
         }
@@ -520,6 +523,50 @@
       "versions": {
         "1.0.2": {
           "checksum": "/6gQS72bsflSrrc75Dv87K3PYn/VBd7osujB4aLi1Uo="
+        }
+      }
+    },
+    "npm:@vegaprotocol/snap": {
+      "id": "npm:@vegaprotocol/snap",
+      "metadata": {
+        "name": "Vega Protocol"
+      },
+      "versions": {
+        "0.2.0": {
+          "checksum": "/VwEwLqeprvwWlfYuNc2HLWbZbUd7ljk4ZVQjR19+qs="
+        }
+      }
+    },
+    "npm:@blockchain-lab-um/masca": {
+      "id": "npm:@blockchain-lab-um/masca",
+      "metadata": {
+        "name": "Masca"
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "nVKFpAn6RCNMM8UOH344F+tQUP6pxGjzisRXGBYf550="
+        }
+      }
+    },
+    "npm:@leapwallet/metamask-cosmos-snap": {
+      "id": "npm:@leapwallet/metamask-cosmos-snap",
+      "metadata": {
+        "name": "Leap Cosmos Wallet"
+      },
+      "versions": {
+        "0.1.15": {
+          "checksum": "HW90uDnubBA16WB9T7/DFmuBNbGB2c4MGwlrgTkVURE="
+        }
+      }
+    },
+    "npm:web3-security-snap": {
+      "id": "npm:web3-security-snap",
+      "metadata": {
+        "name": "Web3 Security"
+      },
+      "versions": {
+        "1.0.2": {
+          "checksum": "hWHPH9JldbbLDgIYWj0i4rUs2BSwNbYANYivMI30fqA="
         }
       }
     }
