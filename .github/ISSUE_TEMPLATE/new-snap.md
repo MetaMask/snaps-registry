@@ -2,7 +2,7 @@
 name: New Snap
 about: Required for every new Snap
 title: "[New Snap] Name of Snap here"
-labels: allowlist-new-snap, allowlist-review-needed
+labels: allowlist,allowlist-new-snap, allowlist-review-needed
 assignees: ''
 
 ---
