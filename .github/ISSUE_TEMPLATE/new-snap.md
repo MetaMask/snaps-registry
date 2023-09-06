@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-All items in the list below needs to be satisifed, with 1 approval from someone on the MetaMask Snaps team.
+All items in the list below needs to be satisfied, with 1 approval from someone on the MetaMask Snaps team.
 
 - [ ] Is the Snap repository publicly accessible and linked in this ticket?
 - [ ] Is the Snap distributed on [npm](https://www.npmjs.com/) and linked in this ticket?
