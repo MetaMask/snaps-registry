@@ -4,7 +4,6 @@ about: Required for blocking an existing Snap (still listed in the registry but 
 title: "[Block Snap] Name of Snap here"
 labels: allowlist,allowlist-block-snap
 assignees: ''
-
 ---
 
 ## Description

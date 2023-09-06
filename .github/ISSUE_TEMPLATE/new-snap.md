@@ -4,7 +4,6 @@ about: Required for every new Snap
 title: "[New Snap] Name of Snap here"
 labels: allowlist,allowlist-new-snap
 assignees: ''
-
 ---
 
 ## Description
