@@ -7,7 +7,11 @@ assignees: ''
 
 ---
 
-All items in the list below needs to be satisfied, with 1 approval from someone on the MetaMask Snaps team.
+## Description
+
+All items in the list below needs to be satisfied.
+
+## Checklist
 
 - [ ] Is the Snap repository publicly accessible and linked in this ticket?
 - [ ] Is the Snap distributed on [npm](https://www.npmjs.com/) and linked in this ticket?
@@ -15,3 +19,4 @@ All items in the list below needs to be satisfied, with 1 approval from someone 
 - [ ] Is a complete list of discovered vulnerabilities from the audit documented in this issue?
 - [ ] For vulnerabilities that have been deemed necessary to be addressed, are the links to the fixes attached to this issue?
 - [ ] For vulnerabilities that have been deemed not necessary to be addressed, is a reason for each of them documented in this issue?
+- [ ] The corresponding pull request in this repo has been merged.
