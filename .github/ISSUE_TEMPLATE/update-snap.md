@@ -6,11 +6,9 @@ labels: allowlist,allowlist-update-snap
 assignees: ''
 ---
 
-## Description
+## Checklist
 
 All items in the list below needs to be satisfied.
-
-## Checklist
 
 - [ ] Is the summary of the change documented in this ticket?
 - [ ] Has a MetaMask Snaps team member reviewed whether the changes need to be vetted?

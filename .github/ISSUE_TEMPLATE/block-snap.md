@@ -10,9 +10,9 @@ assignees: ''
 
 Note: Blocking a Snap means that both new and existing users cannot use the Snap.
 
-All items in the list below needs to be satisfied.
-
 ## Checklist
+
+All items in the list below needs to be satisfied.
 
 - [ ] Is the reason for the block documented in this issue?
 - [ ] The corresponding pull request in this repo has been merged.

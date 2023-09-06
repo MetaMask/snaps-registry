@@ -6,11 +6,9 @@ labels: allowlist,allowlist-new-snap
 assignees: ''
 ---
 
-## Description
+## Checklist
 
 All items in the list below needs to be satisfied.
-
-## Checklist
 
 - [ ] Is the Snap repository publicly accessible and linked in this ticket?
 - [ ] Is the Snap distributed on [npm](https://www.npmjs.com/) and linked in this ticket?
