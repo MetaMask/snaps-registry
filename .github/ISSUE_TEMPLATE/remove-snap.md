@@ -7,6 +7,8 @@ assignees: ''
 
 ---
 
+Note: Removing a Snap from the registry means that users who have installed the Snap may continue to use it. New users will not be able to install the Snap.
+
 All items in the list below needs to be satisifed, with 1 approval from someone on the MetaMask Snaps team.
 
 - [ ] Is the reason for the removal documented in this issue?

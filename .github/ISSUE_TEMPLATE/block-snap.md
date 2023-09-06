@@ -7,6 +7,8 @@ assignees: ''
 
 ---
 
+Note: Blocking a Snap means that both new and existing users cannot use the Snap.
+
 All items in the list below needs to be satisifed, with 1 approval from someone on the MetaMask Snaps team.
 
 - [ ] Is the reason for the block documented in this issue?
