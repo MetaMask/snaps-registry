@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-All items in the list below needs to be satisifed, with 1 approval from someone on the MetaMask Snaps team.
+All items in the list below needs to be satisfied, with 1 approval from someone on the MetaMask Snaps team.
 
 - [ ] Is the summary of the change documented in this ticket?
 - [ ] Has a MetaMask Snaps team member reviewed whether the changes need to be vetted?
