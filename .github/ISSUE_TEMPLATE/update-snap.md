@@ -1,7 +1,7 @@
 ---
 name: Update a Snap
 about: Required for every update for a Snap
-title: "[Update Snap] Name of Snap here"
+title: '[Update Snap] Name of Snap here'
 labels: allowlist,allowlist-update-snap
 assignees: ''
 ---

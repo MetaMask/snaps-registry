@@ -1,7 +1,7 @@
 ---
 name: Block a Snap
 about: Required for blocking an existing Snap (still listed in the registry but not accessible)
-title: "[Block Snap] Name of Snap here"
+title: '[Block Snap] Name of Snap here'
 labels: allowlist,allowlist-block-snap
 assignees: ''
 ---

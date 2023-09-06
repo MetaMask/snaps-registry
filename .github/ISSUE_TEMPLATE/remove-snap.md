@@ -1,7 +1,7 @@
 ---
 name: Remove a Snap
 about: Required for removing an existing Snap from the registry
-title: "[Remove Snap] Name of Snap here"
+title: '[Remove Snap] Name of Snap here'
 labels: allowlist,allowlist-remove-snap
 assignees: ''
 ---
