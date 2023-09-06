@@ -4,7 +4,6 @@ about: Required for every update for a Snap
 title: "[Update Snap] Name of Snap here"
 labels: allowlist,allowlist-update-snap
 assignees: ''
-
 ---
 
 All items in the list below needs to be satisfied, with 1 approval from someone on the MetaMask Snaps team.
