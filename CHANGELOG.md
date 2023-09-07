@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.0.0]
 ### Changed
-- **BREAKING**: snaps `id` is now required to start with the prefix `npm:` ([#75](https://github.com/MetaMask/snaps-registry/pull/75))
+- **BREAKING**: Snap IDs are now required to start with the prefix `npm:` ([#75](https://github.com/MetaMask/snaps-registry/pull/75))
 - Bump `@metamask/utils` to `^8.1.0` ([#72](https://github.com/MetaMask/snaps-registry/pull/72))
 
 ### Fixed
