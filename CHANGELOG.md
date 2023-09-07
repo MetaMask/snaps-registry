@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0]
+### Changed
+- **BREAKING**: Snap IDs are now required to start with the prefix `npm:` ([#75](https://github.com/MetaMask/snaps-registry/pull/75))
+- Bump `@metamask/utils` to `^8.1.0` ([#72](https://github.com/MetaMask/snaps-registry/pull/72))
+
+### Fixed
+- Bump `semver` to `6.3.1` ([#70](https://github.com/MetaMask/snaps-registry/pull/70))
+
 ## [1.2.2]
 ### Changed
 - Bump `@metamask/utils` to `7.1.0` ([#51](https://github.com/MetaMask/snaps-registry/pull/51))
@@ -31,7 +39,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/MetaMask/snaps-registry/compare/v1.2.2...HEAD
+[Unreleased]: https://github.com/MetaMask/snaps-registry/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/MetaMask/snaps-registry/compare/v1.2.2...v2.0.0
 [1.2.2]: https://github.com/MetaMask/snaps-registry/compare/v1.2.1...v1.2.2
 [1.2.1]: https://github.com/MetaMask/snaps-registry/compare/v1.2.0...v1.2.1
 [1.2.0]: https://github.com/MetaMask/snaps-registry/compare/v1.1.1...v1.2.0
