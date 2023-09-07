@@ -586,6 +586,33 @@
         }
       }
     },
+    "npm:@rarimo/rarime": {
+      "id": "npm:@rarimo/rarime",
+      "metadata": {
+        "name": "Rarime",
+        "author": {
+          "name": "Rarimo",
+          "website": "https://rarimo.com/"
+        },
+        "website": "https://github.com/rarimo/rarime/tree/main/packages/snap#readme",
+        "summary": "Safely hold any of your credentials and prove your identity without revealing any personal data",
+        "description": "Rarime is a MetaMask Snap that safely holds any of your credentials and allows you to prove your identity without revealing any personal data. Powered by Rarimo Protocol and Zero-Knowledge Proof technology.",
+        "audits": [
+          {
+            "auditor": "Halborn",
+            "report": "https://github.com/rarimo/rarime/blob/main/audits/halborn_2023-08-28.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": "https://discord.gg/Bzjm5MDXrU",
+        "sourceCode": "https://github.com/rarimo/rarime"
+      },
+      "versions": {
+        "0.2.0": {
+          "checksum": "L6iwhom7sUfeiQi0rdUM0UYFe0x9CX8VUv8cntoSXn0="
+        }
+      }
+    },
     "npm:@partisiablockchain/snap": {
       "id": "npm:@partisiablockchain/snap",
       "metadata": {
