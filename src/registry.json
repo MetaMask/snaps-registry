@@ -104,22 +104,22 @@
     "npm:blockfence-insights": {
       "id": "npm:blockfence-insights",
       "metadata": {
-        "name": "Blockfence", 
-        "author": { 
-          "name": "Blockfence", 
+        "name": "Blockfence",
+        "author": {
+          "name": "Blockfence",
           "website": "https://blockfence.io/"
-        }, 
-        "website": "https://blockfence.io/snap/", 
-        "summary": "Blockfence transaction insights", 
+        },
+        "website": "https://blockfence.io/snap/",
+        "summary": "Blockfence transaction insights",
         "description": "Metamask Snap that enhances blockchain wallet security by providing insightful transaction analysis.",
         "audits": [
           {
-            "auditor": "Least Authority", 
+            "auditor": "Least Authority",
             "report": "https://github.com/MetaMask/snaps-registry/files/12543588/Least.Authority-.Blockfence.Metamask.Snap.Final.Audit.Report.pdf"
           }
-        ], 
-        "category": "transaction insights", 
-        "support": "https://blockfence.io/snap/", 
+        ],
+        "category": "transaction insights",
+        "support": "https://blockfence.io/snap/",
         "sourceCode": "https://github.com/blockfence-io/snap-insights"
       },
       "versions": {
