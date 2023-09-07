@@ -7,29 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [2.0.0]
-### Uncategorized
-- Add Snap allowlist process issue templates ([#83](https://github.com/MetaMask/snaps-registry/pull/83))
-- Even more snaps ([#77](https://github.com/MetaMask/snaps-registry/pull/77))
-- Add metadata for two snaps ([#79](https://github.com/MetaMask/snaps-registry/pull/79))
-- Add category enum to metadata ([#82](https://github.com/MetaMask/snaps-registry/pull/82))
-- Make verify snaps exit with code 0 ([#80](https://github.com/MetaMask/snaps-registry/pull/80))
-- Update author and audits fields ([#78](https://github.com/MetaMask/snaps-registry/pull/78))
-- Add Solana, Aptos, and Sui snap by Solflare ([#76](https://github.com/MetaMask/snaps-registry/pull/76))
+### Changed
+- **BREAKING**: snaps `id` is now required to start with the prefix `npm:` ([#75](https://github.com/MetaMask/snaps-registry/pull/75))
 - Verify snaps in the registry ([#67](https://github.com/MetaMask/snaps-registry/pull/67))
-- Validate snap ids ([#75](https://github.com/MetaMask/snaps-registry/pull/75))
-- Add missing npm: prefix ([#74](https://github.com/MetaMask/snaps-registry/pull/74))
-- deps: @metamask/utils@^7.1.0->^8.1.0 ([#72](https://github.com/MetaMask/snaps-registry/pull/72))
-- Update registry ([#65](https://github.com/MetaMask/snaps-registry/pull/65))
-- devDeps: @metamask/eslint*@^11.1.0->^12.1.0 ([#69](https://github.com/MetaMask/snaps-registry/pull/69))
-- devDeps: bump @noble/curves, @noble/hashes ([#71](https://github.com/MetaMask/snaps-registry/pull/71))
-- deps: semver@6.3.0->6.3.1 ([#70](https://github.com/MetaMask/snaps-registry/pull/70))
-- devDeps: lavamoat-allow-scripts@^2.0.3->^2.3.1 ([#68](https://github.com/MetaMask/snaps-registry/pull/68))
-- Add new snap metadata ([#49](https://github.com/MetaMask/snaps-registry/pull/49))
-- Update registry ([#66](https://github.com/MetaMask/snaps-registry/pull/66))
-- Bump version and name for npm:@unipasswallet/unipass-snap ([#59](https://github.com/MetaMask/snaps-registry/pull/59))
-- Tezos snap name and version change ([#57](https://github.com/MetaMask/snaps-registry/pull/57))
-- Update example snaps ([#56](https://github.com/MetaMask/snaps-registry/pull/56))
-- Update registry ([#55](https://github.com/MetaMask/snaps-registry/pull/55))
+- Make verify snaps exit with code 0 ([#80](https://github.com/MetaMask/snaps-registry/pull/80))
+- Bump `@metamask/utils` to `^8.1.0` ([#72](https://github.com/MetaMask/snaps-registry/pull/72))
+
+### Fixed
+- Bump `semver` to `6.3.1` ([#70](https://github.com/MetaMask/snaps-registry/pull/70))
 
 ## [1.2.2]
 ### Changed
