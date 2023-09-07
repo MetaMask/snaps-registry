@@ -7,10 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [2.0.0]
+### Added
+- Add `verify-snaps` script to verify snaps in the registry ([#67](https://github.com/MetaMask/snaps-registry/pull/67)) ([#80](https://github.com/MetaMask/snaps-registry/pull/80))
+
 ### Changed
 - **BREAKING**: snaps `id` is now required to start with the prefix `npm:` ([#75](https://github.com/MetaMask/snaps-registry/pull/75))
-- Verify snaps in the registry ([#67](https://github.com/MetaMask/snaps-registry/pull/67))
-- Make verify snaps exit with code 0 ([#80](https://github.com/MetaMask/snaps-registry/pull/80))
 - Bump `@metamask/utils` to `^8.1.0` ([#72](https://github.com/MetaMask/snaps-registry/pull/72))
 
 ### Fixed
