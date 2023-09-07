@@ -586,6 +586,33 @@
         }
       }
     },
+    "npm:@partisiablockchain/snap": {
+      "id": "npm:@partisiablockchain/snap",
+      "metadata": {
+        "name": "Partisia Blockchain",
+        "author": {
+          "name": "Partisia Blockchain",
+          "website": "https://partisiablockchain.com/"
+        },
+        "website": "https://partisiablockchain.gitlab.io/documentation/smart-contracts/integration/metamask-snap-integration.html",
+        "summary": "Snap to interact with Partisia Blockchain",
+        "description": "The Partisia Blockchain MetaMask snap allows dapp developers to use MetaMask for signing transactions towards Partisia Blockchain.",
+        "audits": [
+          {
+            "auditor": "Veridise",
+            "report": "https://f8t2x8b2.rocketcdn.me/wp-content/uploads/2023/09/VAR-Partisia-Blockchain-Snap.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": "https://partisiablockchain.gitlab.io/documentation/get-support-from-pbc-community.html",
+        "sourceCode": "https://gitlab.com/partisiablockchain/tools/snap"
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "xrF1SkRRiUN/iuuxTO3lzF/gTciYRVVSzRap5soRhnA="
+        }
+      }
+    },
     "npm:keychain-snap": {
       "id": "npm:keychain-snap",
       "metadata": {
