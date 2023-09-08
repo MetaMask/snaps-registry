@@ -837,7 +837,23 @@
     "npm:web3-security-snap": {
       "id": "npm:web3-security-snap",
       "metadata": {
-        "name": "Web3 Security"
+        "name": "Web3 Security",
+        "author": {
+          "name": "AnChain.AI",
+          "website": "https://www.anchain.ai/"
+        },
+        "website": "https://snap.anchainai.com/",
+        "summary": "Integrates BEI Risk Scores into MetaMask",
+        "description": "By seamlessly integrating AnChain.AI's revolutionary AI-powered Blockchain Ecosystem Intelligence (BEI) into your MetaMask wallet, Web3 Security Snap empowers you to make informed decisions and engage fearlessly with the digital economy.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://github.com/MetaMask/snaps-registry/files/12544383/Sayfer.-.2023-08.Penetration.Testing.Report.for.AnChain.Snap.pdf"
+          }
+        ],
+        "category": "transaction insights",
+        "support": "https://discord.gg/RZ84RUNuNF",
+        "sourceCode": "https://github.com/AnChainAI/web3-security-snap"
       },
       "versions": {
         "1.0.2": {
