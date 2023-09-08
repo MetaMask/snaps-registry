@@ -929,7 +929,21 @@
     "npm:keychain-snap": {
       "id": "npm:keychain-snap",
       "metadata": {
-        "name": "EthSign Keychain"
+        "name": "EthSign Keychain",
+        "author": {
+          "name": "EthSign",
+          "website": "https://www.ethsign.xyz/"
+        },
+        "summary": "Encrypted password manager",
+        "description": "EthSign Keychain is an encrypted password manager. State-keeping outside of MetaMask is optional and delegated to Arweave or AWS to enable decentralized cross-device synchronization.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://ottersec.notion.site/EthSign-keychain-snap-acf38810de8544f9b07beadae5014675"
+          }
+        ],
+        "category": "interoperability",
+        "sourceCode": "https://github.com/EthSign/keychain-snap"
       },
       "versions": {
         "0.3.6": {
