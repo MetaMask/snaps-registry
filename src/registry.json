@@ -489,8 +489,8 @@
           "name": "Mina Protocol",
           "website": "https://minaprotocol.com/"
         },
-        "summary": "Interact with Mina protocol using Metamask",
-        "description": "Interact with Mina protocol using Metamask.",
+        "summary": "Interact with Mina protocol using MetaMask",
+        "description": "Interact with Mina protocol using MetaMask.",
         "audits": [
           {
             "auditor": "Veridise",
@@ -516,7 +516,7 @@
           "website": "https://pianity.com/"
         },
         "website": "https://arsnap.org/",
-        "summary": "Access Arweave through Metamask",
+        "summary": "Access Arweave through MetaMask",
         "description": "A MetaMask Snap allowing interaction with Arweave dapps.",
         "audits": [
           {
