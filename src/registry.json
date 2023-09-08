@@ -537,11 +537,27 @@
     "npm:btcsnap": {
       "id": "npm:btcsnap",
       "metadata": {
-        "name": "Zion"
+        "name": "Zion",
+        "author": {
+          "name": "Account Labs",
+          "website": "https://www.accountlabs.com/"
+        },
+        "website": "https://btc.justsnap.io/",
+        "summary": "Manage your Bitcoin with MetaMask",
+        "description": "Zion is the world's first application allowing users to directly manage Bitcoin within the MetaMask interface, without having to wrap tokens.",
+        "audits": [
+          {
+            "auditor": "SlowMist",
+            "report": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/blockchain-application/SlowMist%20Audit%20Report%20-%20BTCSnap_en-us.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": "mailto:snap@accountlabs.com",
+        "sourceCode": "https://github.com/snapdao/btcsnap"
       },
       "versions": {
-        "2.0.2": {
-          "checksum": "sKt+22zwvRdzjQuKUN2JSm+9a49jANAmeAa7E6u0I5I="
+        "2.0.3": {
+          "checksum": "Ci79gfFXP8eVY9fnvOFuOHycz7QairyYhbzbcuCKrNY="
         }
       }
     },
