@@ -141,7 +141,23 @@
     "npm:@tuum-tech/identify": {
       "id": "npm:@tuum-tech/identify",
       "metadata": {
-        "name": "Identify"
+        "name": "Identify",
+        "author": {
+          "name": "Tuum Technologies",
+          "website": "https://www.tuum.tech/"
+        },
+        "website": "https://www.tuum.tech/identify",
+        "summary": "A Snap for managing Decentralized Identifiers(DIDs)",
+        "description": "Our open source solution extends the functionality of the most popular crypto wallet by adding Decentralized Identity.",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://github.com/tuum-tech/identify/blob/main/SNAP_AUDIT_REPORT_BY_CURE53.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": "mailto:developer@tuum.tech",
+        "sourceCode": "https://github.com/tuum-tech/identify"
       },
       "versions": {
         "1.5.0": {
