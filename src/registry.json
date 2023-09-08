@@ -640,6 +640,33 @@
         }
       }
     },
+    "npm:saferoot-metamask-snap": {
+      "id": "npm:saferoot-metamask-snap",
+      "metadata": {
+        "name": "Saferoot",
+        "author": {
+          "name": "Saferoot",
+          "website": "https://www.saferoot.io/"
+        },
+        "website": "https://www.saferoot.io/metamask-snaps-knowledge-base",
+        "summary": "Safeguard your crypto and NFTs",
+        "description": "Saferoot is a pioneering threat mitigation layer, providing real-time protection for vulnerable digital assets. Our non-custodial solution intercepts dangerous transactions before being committed onchain, redirecting pre-authorized assets to a secure backup wallet.",
+        "audits": [
+          {
+            "auditor": "Least Authority",
+            "report": "https://drive.google.com/file/d/1COWN71JE2JVOwjw6nlWjZqu2SjS-ewD2/view?usp=drive_link"
+          }
+        ],
+        "category": "transaction insights",
+        "support": "mailto:support@saferoot.io",
+        "sourceCode": "https://github.com/Staging-Labs/Saferoot-Snap"
+      },
+      "versions": {
+        "0.1.0": {
+          "checksum": "oojLxkBTSGsFI1zc3/ipS/a8GMWG4fnWy9cphIf5LAs="
+        }
+      }
+    },
     "npm:keychain-snap": {
       "id": "npm:keychain-snap",
       "metadata": {
