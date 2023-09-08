@@ -60,7 +60,23 @@
     "npm:casper-manager": {
       "id": "npm:casper-manager",
       "metadata": {
-        "name": "Casper Manager"
+        "name": "Casper Manager",
+        "author": {
+          "name": "Div3",
+          "website": "https://casperholders.io/"
+        },
+        "website": "https://testnet.casperholders.io/",
+        "summary": "Sign deploys and messages for the Casper Blockchain with your Casper account(s)",
+        "description": "Sign deploys and messages for the Casper Blockchain with your Casper account(s).",
+        "audits": [
+          {
+            "auditor": "Halborn",
+            "report": "https://github.com/casper-ecosystem/casper-manager/blob/main/audits/20_06_2023_Casper_Management_Snap_App_WebApp_Pentest_Report_Halborn_Final.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": "https://discord.com/invite/casperblockchain",
+        "sourceCode": "https://github.com/casper-ecosystem/casper-manager"
       },
       "versions": {
         "1.0.3": {
