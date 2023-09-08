@@ -430,7 +430,23 @@
     "npm:@kleros/scout-snap": {
       "id": "npm:@kleros/scout-snap",
       "metadata": {
-        "name": "Kleros Scout"
+        "name": "Kleros Scout",
+        "author": {
+          "name": "Kleros",
+          "website": "https://kleros.io/"
+        },
+        "website": "https://docs.kleros.io/products/curate/kleros-scout-metamask-snaps",
+        "summary": "A Snap that retrieves contract metadata from the Kleros Curate registries",
+        "description": "This Snap pulls contract metadata from Kleros's decentralized token curated registries to provide insights to the contract you are interacting with.",
+        "audits": [
+          {
+            "auditor": "Veridise",
+            "report": "https://f8t2x8b2.rocketcdn.me/wp-content/uploads/2023/06/VAR-Kleros-Scout.pdf"
+          }
+        ],
+        "category": "transaction insights",
+        "support": "https://t.me/KlerosCurate",
+        "sourceCode": "https://github.com/kleros/scout-snap"
       },
       "versions": {
         "1.1.0": {
