@@ -625,11 +625,27 @@
     "npm:threat-intel-snap": {
       "id": "npm:threat-intel-snap",
       "metadata": {
-        "name": "Threat Intel"
+        "name": "Threat Intel",
+        "author": {
+          "name": "Demystify.Network",
+          "website": "https://demystify.network/"
+        },
+        "website": "https://github.com/demystify-network/ThreatIntelligence#readme",
+        "summary": "Protect yourself from hacking, spamming, and phishing",
+        "description": "Threat Intel Snap by Demystify Network protects MetaMask users by providing timely risk intelligence right before you approve the transaction in MetaMask.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://demystify.network/images/2023-08-Metamask-Snap-Demystify-Network.pdf"
+          }
+        ],
+        "category": "transaction insights",
+        "support": "mailto:support@demystify.network",
+        "sourceCode": "https://github.com/demystify-network/ThreatIntelligence"
       },
       "versions": {
-        "0.1.2": {
-          "checksum": "rOOroVYIn0m/Ep2SsSB49YK3V7NDUzpuz7wj7wjFdqQ="
+        "0.1.4": {
+          "checksum": "fSYoxcUAJrXDojueuozAf2ZhFg3hgiKItFe7ibDoBF8="
         }
       }
     },
