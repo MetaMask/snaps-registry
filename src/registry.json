@@ -598,7 +598,23 @@
     "npm:@unipasswallet/unipass-snap": {
       "id": "npm:@unipasswallet/unipass-snap",
       "metadata": {
-        "name": "UniPass"
+        "name": "UniPass",
+        "author": {
+          "name": "Account Labs",
+          "website": "https://www.accountlabs.com/"
+        },
+        "website": "https://snap.unipass.xyz/",
+        "summary": "A Snap for stablecoin payment",
+        "description": "UniPass is a stablecoin payment product designed to enhance your MetaMask experience by harnessing the power of smart contract wallet capabilities.",
+        "audits": [
+          {
+            "auditor": "SlowMist",
+            "report": "https://github.com/UniPassID/UniPass-Snap/blob/main/audits/2023-07-SlowMist%20Audit%20Report.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": "mailto:unipass-snap-support@accountlabs.com",
+        "sourceCode": "https://github.com/UniPassID/UniPass-Snap/"
       },
       "versions": {
         "0.1.1": {
