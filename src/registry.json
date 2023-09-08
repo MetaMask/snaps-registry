@@ -652,7 +652,23 @@
     "npm:@forta-network/metamask-snap": {
       "id": "npm:@forta-network/metamask-snap",
       "metadata": {
-        "name": "Forta"
+        "name": "Forta",
+        "author": {
+          "name": "Forta Network",
+          "website": "https://forta.org/"
+        },
+        "website": "https://docs.forta.network/en/latest/Forta-for-Metamask/",
+        "summary": "Transaction insights from Forta's database of known scammers",
+        "description": "The Forta Snap for MetaMask automatically scans the addresses in a user's pre-signed transaction against Forta's database of known scammers. Based on the results, the Snap will display a “high-risk” or “low-risk” warning message to the user.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://ottersec.notion.site/Forta-Metamask-Snap-7e6e171e836b40adb1465cf2ae090e4d"
+          }
+        ],
+        "category": "transaction insights",
+        "support": "https://discord.gg/gN8YTfr9",
+        "sourceCode": "https://github.com/forta-network/metamask-snap"
       },
       "versions": {
         "0.1.2": {
