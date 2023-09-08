@@ -87,7 +87,23 @@
     "npm:wallet-guard-snap": {
       "id": "npm:wallet-guard-snap",
       "metadata": {
-        "name": "Wallet Guard"
+        "name": "Wallet Guard",
+        "author": {
+          "name": "Wallet Guard",
+          "website": "https://www.walletguard.app/"
+        },
+        "website": "https://www.walletguard.app/snap",
+        "summary": "Protect your crypto with transaction insights and proactive security alerts",
+        "description": "Protect your crypto. This Snap supports transaction simulation and automated approval revoking reminders for the user. Stop guessing about your transactions when performing swaps, claims, and mints!",
+        "audits": [
+          {
+            "auditor": "Consensys Diligence",
+            "report": "https://consensys.io/diligence/audits/2023/07/wallet-guard/"
+          }
+        ],
+        "category": "transaction insights",
+        "support": "https://discord.com/invite/mvbtaJzXDP",
+        "sourceCode": "https://github.com/wallet-guard/wallet-guard-snap"
       },
       "versions": {
         "1.0.1": {
