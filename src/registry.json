@@ -788,7 +788,22 @@
     "npm:@vegaprotocol/snap": {
       "id": "npm:@vegaprotocol/snap",
       "metadata": {
-        "name": "Vega Protocol"
+        "name": "Vega Protocol",
+        "author": {
+          "name": "Vega",
+          "website": "https://vega.xyz/"
+        },
+        "summary": "MetaMask Snap for interacting with the Vega Protocol",
+        "description": "MetaMask Snap for interacting with the Vega Protocol.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://ottersec.notion.site/Vega-Snap-7545db216bee4e128cfcac16d41896b6"
+          }
+        ],
+        "category": "interoperability",
+        "support": "https://discord.com/channels/720571334798737489/1111311863213473843/1111313848788602981",
+        "sourceCode": "https://github.com/vegaprotocol/vega-snap"
       },
       "versions": {
         "0.2.0": {
