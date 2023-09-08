@@ -36,7 +36,11 @@ describe('Snaps Registry', () => {
                 report: 'https://metamask.io/example/report-2.pdf',
               },
             ],
-            support: 'https://metamask.io/example/support',
+            support: {
+              knowledgeBase: 'https://metamask.io/example/support/kb',
+              faq: 'https://metamask.io/example/support/faq',
+              contact: 'https://metamask.io/example/support/contact',
+            },
             sourceCode: 'https://metamask.io/example/source-code',
             category: 'interoperability',
             tags: ['accounts', 'example'],

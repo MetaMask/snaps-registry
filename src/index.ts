@@ -38,6 +38,14 @@ export const AuditStruct = object({
 
 export type Audit = Infer<typeof AuditStruct>;
 
+export const SupportStruct = object({
+  knowledgeBase: optional(string()),
+  faq: optional(string()),
+  contact: optional(string()),
+});
+
+export type Support = Infer<typeof SupportStruct>;
+
 export const VerifiedSnapStruct = object({
   id: NpmIdStruct,
   metadata: object({
@@ -52,7 +60,7 @@ export const VerifiedSnapStruct = object({
       enums(['interoperability', 'notifications', 'transaction insights']),
     ),
     tags: optional(array(string())),
-    support: optional(string()),
+    support: optional(SupportStruct),
     sourceCode: optional(string()),
   }),
   versions: record(VersionStruct, VerifiedSnapVersionStruct),
