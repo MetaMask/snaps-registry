@@ -981,6 +981,7 @@
           "name": "EthSign",
           "website": "https://www.ethsign.xyz/"
         },
+        "website": "https://docs.ethsign.xyz/ethsign-keychain/",
         "summary": "Encrypted password manager",
         "description": "EthSign Keychain is an encrypted password manager. State-keeping outside of MetaMask is optional and delegated to Arweave or AWS to enable decentralized cross-device synchronization.",
         "audits": [
@@ -990,6 +991,7 @@
           }
         ],
         "category": "interoperability",
+        "support": "https://discord.gg/Wvhp9dWdSg",
         "sourceCode": "https://github.com/EthSign/keychain-snap"
       },
       "versions": {
