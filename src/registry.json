@@ -510,7 +510,23 @@
     "npm:@pianity/arsnap": {
       "id": "npm:@pianity/arsnap",
       "metadata": {
-        "name": "Arweave"
+        "name": "Arweave Wallet",
+        "author": {
+          "name": "Pianity",
+          "website": "https://pianity.com/"
+        },
+        "website": "https://arsnap.org/",
+        "summary": "Access Arweave through Metamask",
+        "description": "A MetaMask Snap allowing interaction with Arweave dapps.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://github.com/MetaMask/snaps-registry/files/12544135/2023-08.Metamask.Snap.PT.for.Pianity.-2.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": "https://discord.gg/uDdgpzGT",
+        "sourceCode": "https://github.com/pianity/arsnap"
       },
       "versions": {
         "0.2.1": {
