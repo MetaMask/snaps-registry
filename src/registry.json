@@ -728,7 +728,23 @@
     "npm:@goplus/riskdetect-snap": {
       "id": "npm:@goplus/riskdetect-snap",
       "metadata": {
-        "name": "Assets Risk Detection"
+        "name": "Assets Risk Detection",
+        "author": {
+          "name": "GoPlus Security",
+          "website": "https://gopluslabs.io/"
+        },
+        "website": "https://snaps.gopluslabs.io/",
+        "summary": "Detect risks of user assets with GoPlus Security",
+        "description": "A MetaMask Snap that can detect risks of user assets, supported by GoPlus Security.",
+        "audits": [
+          {
+            "auditor": "SlowMist",
+            "report": "https://github.com/MetaMask/snaps-registry/files/12554521/SlowMist.Audit.Report.-.Riskdetect-snap.1.pdf"
+          }
+        ],
+        "category": "transaction insights",
+        "support": "mailto:service@gopluslabs.io",
+        "sourceCode": "https://github.com/GoPlusSecurity/riskdetect-snap"
       },
       "versions": {
         "0.1.8": {
