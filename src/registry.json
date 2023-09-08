@@ -826,7 +826,23 @@
     "npm:@leapwallet/metamask-cosmos-snap": {
       "id": "npm:@leapwallet/metamask-cosmos-snap",
       "metadata": {
-        "name": "Leap Cosmos Wallet"
+        "name": "Leap Cosmos Wallet",
+        "author": {
+          "name": "Leap",
+          "website": "https://www.leapwallet.io/"
+        },
+        "website": "https://cosmos.leapwallet.io/",
+        "summary": "Securely manage keys, connect to Cosmos dapps, and sign transactions",
+        "description": "Securely manage keys, connect to Cosmos dapps, and sign transactions.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://github.com/MetaMask/snaps-registry/files/12544468/Sayfer.-.2023-08.Penetration.Testing.Report.for.LeapWallet.Snap.-.Updated.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": "https://leapwallet.notion.site/Leap-Cosmos-Wallet-Support-ba1da3c05d3341eaa44a1850ed3260ee",
+        "sourceCode": "https://github.com/leapwallet/cosmos-metamask-snap"
       },
       "versions": {
         "0.1.15": {
