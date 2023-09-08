@@ -17,7 +17,9 @@
           }
         ],
         "category": "interoperability",
-        "support": "mailto:snap-algo@algorand.foundation",
+        "support": {
+          "contact": "mailto:snap-algo@algorand.foundation"
+        },
         "sourceCode": "https://github.com/algorandfoundation/algo-metamask"
       },
       "versions": {
@@ -48,7 +50,9 @@
           }
         ],
         "category": "notifications",
-        "support": "https://docs.walletchat.fun/metamask-integration/walletchat-metamask-snap-faq",
+        "support": {
+          "faq": "https://docs.walletchat.fun/metamask-integration/walletchat-metamask-snap-faq"
+        },
         "sourceCode": "https://github.com/Wallet-Chat/walletchat-metamask-snap"
       },
       "versions": {
@@ -75,7 +79,9 @@
           }
         ],
         "category": "interoperability",
-        "support": "https://discord.com/invite/casperblockchain",
+        "support": {
+          "contact": "https://discord.com/invite/casperblockchain"
+        },
         "sourceCode": "https://github.com/casper-ecosystem/casper-manager"
       },
       "versions": {
@@ -102,7 +108,9 @@
           }
         ],
         "category": "transaction insights",
-        "support": "https://discord.com/invite/mvbtaJzXDP",
+        "support": {
+          "contact": "https://discord.com/invite/mvbtaJzXDP"
+        },
         "sourceCode": "https://github.com/wallet-guard/wallet-guard-snap"
       },
       "versions": {
@@ -129,7 +137,9 @@
           }
         ],
         "category": "notifications",
-        "support": "https://discord.com/invite/pushprotocol",
+        "support": {
+          "contact": "https://discord.com/invite/pushprotocol"
+        },
         "sourceCode": "https://github.com/ethereum-push-notification-service/push-protocol-snaps"
       },
       "versions": {
@@ -156,7 +166,7 @@
           }
         ],
         "category": "interoperability",
-        "support": "mailto:developer@tuum.tech",
+        "support": { "contact": "mailto:developer@tuum.tech" },
         "sourceCode": "https://github.com/tuum-tech/identify"
       },
       "versions": {
@@ -183,7 +193,7 @@
           }
         ],
         "category": "transaction insights",
-        "support": "https://blockfence.io/snap/",
+        "support": { "faq": "https://blockfence.io/snap/" },
         "sourceCode": "https://github.com/blockfence-io/snap-insights"
       },
       "versions": {
@@ -445,7 +455,7 @@
           }
         ],
         "category": "transaction insights",
-        "support": "https://t.me/KlerosCurate",
+        "support": { "contact": "https://t.me/KlerosCurate" },
         "sourceCode": "https://github.com/kleros/scout-snap"
       },
       "versions": {
@@ -472,7 +482,7 @@
           }
         ],
         "category": "interoperability",
-        "support": "mailto:metamask-snap@trili.tech",
+        "support": { "contact": "mailto:metamask-snap@trili.tech" },
         "sourceCode": "https://github.com/airgap-it/tezos-metamask-snap"
       },
       "versions": {
@@ -498,7 +508,9 @@
           }
         ],
         "category": "interoperability",
-        "support": "https://discord.com/channels/484437221055922177/1145999516558958592",
+        "support": {
+          "contact": "https://discord.com/channels/484437221055922177/1145999516558958592"
+        },
         "sourceCode": "https://github.com/sotatek-dev/mina-snap"
       },
       "versions": {
@@ -525,7 +537,7 @@
           }
         ],
         "category": "interoperability",
-        "support": "https://discord.gg/uDdgpzGT",
+        "support": { "contact": "https://discord.gg/uDdgpzGT" },
         "sourceCode": "https://github.com/pianity/arsnap"
       },
       "versions": {
@@ -552,7 +564,7 @@
           }
         ],
         "category": "interoperability",
-        "support": "mailto:snap@accountlabs.com",
+        "support": { "contact": "mailto:snap@accountlabs.com" },
         "sourceCode": "https://github.com/snapdao/btcsnap"
       },
       "versions": {
@@ -583,7 +595,7 @@
           }
         ],
         "category": "interoperability",
-        "support": "https://discord.gg/hYpHRjK",
+        "support": { "contact": "https://discord.gg/hYpHRjK" },
         "sourceCode": "https://github.com/Consensys/starknet-snap"
       },
       "versions": {
@@ -613,7 +625,7 @@
           }
         ],
         "category": "interoperability",
-        "support": "mailto:unipass-snap-support@accountlabs.com",
+        "support": { "contact": "mailto:unipass-snap-support@accountlabs.com" },
         "sourceCode": "https://github.com/UniPassID/UniPass-Snap/"
       },
       "versions": {
@@ -640,7 +652,7 @@
           }
         ],
         "category": "transaction insights",
-        "support": "mailto:support@demystify.network",
+        "support": { "contact": "mailto:support@demystify.network" },
         "sourceCode": "https://github.com/demystify-network/ThreatIntelligence"
       },
       "versions": {
@@ -667,7 +679,7 @@
           }
         ],
         "category": "transaction insights",
-        "support": "https://discord.gg/gN8YTfr9",
+        "support": { "contact": "https://discord.gg/gN8YTfr9" },
         "sourceCode": "https://github.com/forta-network/metamask-snap"
       },
       "versions": {
@@ -716,7 +728,7 @@
           }
         ],
         "category": "transaction insights",
-        "support": "mailto:support@tenderly.co",
+        "support": { "contact": "mailto:support@tenderly.co" },
         "sourceCode": "https://github.com/Tenderly/tenderly-snap"
       },
       "versions": {
@@ -743,7 +755,7 @@
           }
         ],
         "category": "transaction insights",
-        "support": "mailto:service@gopluslabs.io",
+        "support": { "contact": "mailto:service@gopluslabs.io" },
         "sourceCode": "https://github.com/GoPlusSecurity/riskdetect-snap"
       },
       "versions": {
@@ -802,7 +814,9 @@
           }
         ],
         "category": "interoperability",
-        "support": "https://discord.com/channels/720571334798737489/1111311863213473843/1111313848788602981",
+        "support": {
+          "contact": "https://discord.com/channels/720571334798737489/1111311863213473843/1111313848788602981"
+        },
         "sourceCode": "https://github.com/vegaprotocol/vega-snap"
       },
       "versions": {
@@ -829,7 +843,7 @@
           }
         ],
         "category": "interoperability",
-        "support": "https://discord.gg/M5xgNz7TTF",
+        "support": { "contact": "https://discord.gg/M5xgNz7TTF" },
         "sourceCode": "https://github.com/blockchain-lab-um/masca"
       },
       "versions": {
@@ -856,7 +870,9 @@
           }
         ],
         "category": "interoperability",
-        "support": "https://leapwallet.notion.site/Leap-Cosmos-Wallet-Support-ba1da3c05d3341eaa44a1850ed3260ee",
+        "support": {
+          "faq": "https://leapwallet.notion.site/Leap-Cosmos-Wallet-Support-ba1da3c05d3341eaa44a1850ed3260ee"
+        },
         "sourceCode": "https://github.com/leapwallet/cosmos-metamask-snap"
       },
       "versions": {
@@ -883,7 +899,7 @@
           }
         ],
         "category": "transaction insights",
-        "support": "https://discord.gg/RZ84RUNuNF",
+        "support": { "contact": "https://discord.gg/RZ84RUNuNF" },
         "sourceCode": "https://github.com/AnChainAI/web3-security-snap"
       },
       "versions": {
@@ -910,7 +926,7 @@
           }
         ],
         "category": "interoperability",
-        "support": "https://discord.gg/Bzjm5MDXrU",
+        "support": { "contact": "https://discord.gg/Bzjm5MDXrU" },
         "sourceCode": "https://github.com/rarimo/rarime"
       },
       "versions": {
@@ -937,7 +953,9 @@
           }
         ],
         "category": "interoperability",
-        "support": "https://partisiablockchain.gitlab.io/documentation/get-support-from-pbc-community.html",
+        "support": {
+          "contact": "https://partisiablockchain.gitlab.io/documentation/get-support-from-pbc-community.html"
+        },
         "sourceCode": "https://gitlab.com/partisiablockchain/tools/snap"
       },
       "versions": {
@@ -964,7 +982,7 @@
           }
         ],
         "category": "transaction insights",
-        "support": "mailto:support@saferoot.io",
+        "support": { "contact": "mailto:support@saferoot.io" },
         "sourceCode": "https://github.com/Staging-Labs/Saferoot-Snap"
       },
       "versions": {
@@ -991,7 +1009,7 @@
           }
         ],
         "category": "interoperability",
-        "support": "https://discord.gg/Wvhp9dWdSg",
+        "support": { "contact": "https://discord.gg/Wvhp9dWdSg" },
         "sourceCode": "https://github.com/EthSign/keychain-snap"
       },
       "versions": {
