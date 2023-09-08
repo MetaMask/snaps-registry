@@ -564,7 +564,27 @@
     "npm:@consensys/starknet-snap": {
       "id": "npm:@consensys/starknet-snap",
       "metadata": {
-        "name": "StarkNet"
+        "name": "StarkNet",
+        "author": {
+          "name": "Consensys",
+          "website": "https://consensys.io/"
+        },
+        "website": "https://snaps.consensys.io/starknet",
+        "summary": "The MetaMask Snap for StarkNet",
+        "description": "The StarkNet snap allows users to deploy StarkNet accounts, make transactions on StarkNet, and interact with StarkNet smart contracts.",
+        "audits": [
+          {
+            "auditor": "Cobalt",
+            "report": "https://drive.google.com/file/d/1Q-Ee7QewVUoAx--x7w_T7WQcvc5MHqVr/view"
+          },
+          {
+            "auditor": "Consensys Diligence",
+            "report": "https://github.com/MetaMask/snaps-registry/files/12555017/consensys-starknet-snap-audit-2023-06.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": "https://discord.gg/hYpHRjK",
+        "sourceCode": "https://github.com/Consensys/starknet-snap"
       },
       "versions": {
         "2.0.2-dev-5eff492-20230901": {
