@@ -484,7 +484,22 @@
     "npm:mina-portal": {
       "id": "npm:mina-portal",
       "metadata": {
-        "name": "MinaPortal"
+        "name": "MinaPortal",
+        "author": {
+          "name": "Mina Protocol",
+          "website": "https://minaprotocol.com/"
+        },
+        "summary": "Interact with Mina protocol using Metamask",
+        "description": "Interact with Mina protocol using Metamask.",
+        "audits": [
+          {
+            "auditor": "Veridise",
+            "report": "https://f8t2x8b2.rocketcdn.me/wp-content/uploads/2023/08/VAR-Mina-Snap-V101.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": "https://discord.com/channels/484437221055922177/1145999516558958592",
+        "sourceCode": "https://github.com/sotatek-dev/mina-snap"
       },
       "versions": {
         "0.1.0": {
