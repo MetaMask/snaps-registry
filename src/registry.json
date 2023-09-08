@@ -114,7 +114,23 @@
     "npm:push-v1": {
       "id": "npm:push-v1",
       "metadata": {
-        "name": "Push"
+        "name": "Push V1",
+        "author": {
+          "name": "Push Protocol",
+          "website": "https://push.org/"
+        },
+        "website": "https://pushprotocol.notion.site/Push-Snap-Documentation-7ac53ec38ad648fca3e8aada589a4943",
+        "summary": "Get Push notifications directly in your MetaMask wallet",
+        "description": "Push Snap is a powerful tool that allows any wallet address to receive notifications directly in the Metamask wallet. With Push Snap, one can now seamlessly receive notifications powered by Push Protocol directly in their wallet, ensuring you never miss out on important updates from the channels that they subscribe to.",
+        "audits": [
+          {
+            "auditor": "Consensys Diligence",
+            "report": "https://consensys.io/diligence/audits/2023/07/push-protocol-snap-for-metamask/"
+          }
+        ],
+        "category": "notifications",
+        "support": "https://discord.com/invite/pushprotocol",
+        "sourceCode": "https://github.com/ethereum-push-notification-service/push-protocol-snaps"
       },
       "versions": {
         "0.1.1": {
