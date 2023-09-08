@@ -556,7 +556,23 @@
     "npm:@blockchain-lab-um/masca": {
       "id": "npm:@blockchain-lab-um/masca",
       "metadata": {
-        "name": "Masca"
+        "name": "Masca",
+        "author": {
+          "name": "Blockchain Lab:UM",
+          "website": "https://blockchain-lab.um.si/"
+        },
+        "website": "https://masca.io/app",
+        "summary": "Snap for managing DIDs, VCs, and VPs in MetaMask",
+        "description": "Masca enables everyone to build their decentralized and self-sovereign identity by enhancing MetaMask with functionalities to manage DIDs, VCs, and VPs. Any website can connect to it to access identity data, and dapp developers can already start with the integration!",
+        "audits": [
+          {
+            "auditor": "Least Authority",
+            "report": "https://github.com/blockchain-lab-um/masca/blob/develop/technical-documents/Least%20Authority%20-%20Audit%20Report.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": "https://discord.gg/M5xgNz7TTF",
+        "sourceCode": "https://github.com/blockchain-lab-um/masca"
       },
       "versions": {
         "1.0.0": {
