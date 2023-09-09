@@ -713,14 +713,14 @@
     "npm:@tenderly/metamask-snap": {
       "id": "npm:@tenderly/metamask-snap",
       "metadata": {
-        "name": "Tenderly Tx Preview",
+        "name": "Tenderly TX Preview",
         "author": {
           "name": "Tenderly",
           "website": "https://tenderly.co/"
         },
         "website": "https://docs.tenderly.co/how-to-install-tenderly-tx-preview-snap",
-        "summary": "Transaction preview powered by Tenderly Simulation API",
-        "description": "Preview transactions before sending them on-chain to get valuable insights, avoid failed transactions, and save funds.",
+        "summary": "Preview transactions before sending them on-chain to get valuable insights, avoid failed transactions, and save funds. Get human-readable information on transferred assets with corresponding dollar values for ERC-20 tokens and NFTs.",
+        "description": "Preview transactions before sending them on-chain to get valuable insights, avoid failed transactions, and save funds. Get human-readable information on transferred assets with corresponding dollar values for ERC-20 tokens and NFTs.\n\nThe Tenderly TX Preview insight will be displayed in the transaction confirmation flow. Before you can see the insight, you must configure the Snap with your Tenderly account. Visit the website to learn more.",
         "audits": [
           {
             "auditor": "Sayfer",
@@ -728,12 +728,15 @@
           }
         ],
         "category": "transaction insights",
-        "support": { "contact": "mailto:support@tenderly.co" },
+        "support": {
+          "contact": "mailto:metamask.snap@tenderly.co",
+          "faq": "https://docs.tenderly.co/how-to-install-tenderly-tx-preview-snap"
+        },
         "sourceCode": "https://github.com/Tenderly/tenderly-snap"
       },
       "versions": {
-        "1.1.0": {
-          "checksum": "rJPQVETMQ5nKH85ThwyqHkneEywg7bIuZqSkGCzpBmc="
+        "1.2.0": {
+          "checksum": "OLZtG0WTFYJ+WwX+dAcZ8UGyMdN+M5Ewu9ypNohFiRg="
         }
       }
     },
