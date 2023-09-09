@@ -189,7 +189,7 @@
         "audits": [
           {
             "auditor": "Least Authority",
-            "report": "https://github.com/MetaMask/snaps-registry/files/12543588/Least.Authority-.Blockfence.Metamask.Snap.Final.Audit.Report.pdf"
+            "report": "https://leastauthority.com/blog/audits/audit-of-blockfence-metamask-snap/"
           }
         ],
         "category": "transaction insights",
@@ -842,7 +842,7 @@
         "audits": [
           {
             "auditor": "Least Authority",
-            "report": "https://github.com/blockchain-lab-um/masca/blob/develop/technical-documents/Least%20Authority%20-%20Audit%20Report.pdf"
+            "report": "https://leastauthority.com/blog/audits/audit-of-masca-metamask-snap/"
           }
         ],
         "category": "interoperability",
@@ -981,7 +981,7 @@
         "audits": [
           {
             "auditor": "Least Authority",
-            "report": "https://drive.google.com/file/d/1COWN71JE2JVOwjw6nlWjZqu2SjS-ewD2/view?usp=drive_link"
+            "report": "https://leastauthority.com/blog/audits/audit-of-saferoot-metamask-snap/"
           }
         ],
         "category": "transaction insights",
