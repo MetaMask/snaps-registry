@@ -1074,7 +1074,9 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "mailto:help@mysticlabs.xyz"
+          "contact": "mailto:help@mysticlabs.xyz",
+          "knowledgeBase": "https://metamask.mysticlabs.xyz/general",
+          "faq": "https://metamask.mysticlabs.xyz/faq"
         },
         "sourceCode": "https://github.com/cosmos/snap"
       },
