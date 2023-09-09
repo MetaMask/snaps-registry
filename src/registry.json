@@ -73,7 +73,7 @@
         },
         "website": "https://testnet.casperholders.io/",
         "summary": "Sign deploys and messages for the Casper Blockchain with your Casper account(s)",
-        "description": "Sign deploys and messages for the Casper Blockchain with your Casper account(s).",
+        "description": "Sign deploys and messages for the Casper Blockchain with your Casper account(s).\n\nAfter installing, visit the website to interact with the Casper Blockchain. You can also connect to the block explorer at https://div3.in",
         "audits": [
           {
             "auditor": "Halborn",
@@ -82,7 +82,8 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "https://discord.com/invite/casperblockchain"
+          "contact": "https://discord.com/invite/casperblockchain",
+          "faq": "https://github.com/casper-ecosystem/casper-manager/blob/main/FAQ.md"
         },
         "sourceCode": "https://github.com/casper-ecosystem/casper-manager"
       },
