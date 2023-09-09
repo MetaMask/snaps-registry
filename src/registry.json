@@ -8,8 +8,8 @@
           "name": "Algorand Foundation",
           "website": "https://www.algorand.foundation/"
         },
-        "summary": "Algorand wallet for MetaMask",
-        "description": "Manage Algorand accounts with MetaMask, transfer, swap, and interact with Algorand dapps.",
+        "summary": "Manage Algorand accounts with MetaMask, transfer, swap, and interact with Algorand dapps.",
+        "description": "Manage Algorand accounts with MetaMask, transfer, swap, and interact with Algorand dapps.\n\nAlgorand is a scalable layer-1 blockchain powered by the Pure Proof-of-Stake consensus mechanism with quick block times and instant finality.",
         "audits": [
           {
             "auditor": "OtterSec",
@@ -23,8 +23,8 @@
         "sourceCode": "https://github.com/algorandfoundation/algo-metamask"
       },
       "versions": {
-        "10.0.1": {
-          "checksum": "Pyhm1ySicfZ1c6dk+6e3U3rLtTDlyqGWHQXlxN85cu8="
+        "10.0.2": {
+          "checksum": "Ac+HbVc2OlKU9zIGvp7JzHfuyNh4u1hiE3EC/tHIER0="
         }
       }
     },
@@ -37,8 +37,8 @@
           "website": "https://www.walletchat.fun/"
         },
         "website": "https://app.walletchat.fun/",
-        "summary": "Receive WalletChat notifications in MetaMask",
-        "description": "Wallet-to-wallet chat notifications via WalletChat.fun - log in to https://app.walletchat.fun to read and respond!",
+        "summary": "Wallet-to-wallet chat notifications via WalletChat.fun.",
+        "description": "Wallet-to-wallet chat notifications via WalletChat.fun.\n\nAfter signing in to the WalletChat website, you will receive chat notifications directly in MetaMask.",
         "audits": [
           {
             "auditor": "Cure53",
@@ -51,7 +51,9 @@
         ],
         "category": "notifications",
         "support": {
-          "faq": "https://docs.walletchat.fun/metamask-integration/walletchat-metamask-snap-faq"
+          "faq": "https://docs.walletchat.fun/metamask-integration/walletchat-metamask-snap-faq",
+          "knowledgeBase": "https://docs.walletchat.fun/metamask-integration",
+          "contact": "contact@walletchat.fun"
         },
         "sourceCode": "https://github.com/Wallet-Chat/walletchat-metamask-snap"
       },
@@ -71,7 +73,7 @@
         },
         "website": "https://testnet.casperholders.io/",
         "summary": "Sign deploys and messages for the Casper Blockchain with your Casper account(s)",
-        "description": "Sign deploys and messages for the Casper Blockchain with your Casper account(s).",
+        "description": "Sign deploys and messages for the Casper Blockchain with your Casper account(s).\n\nAfter installing, visit the website to interact with the Casper Blockchain. You can also connect to the block explorer at https://div3.in",
         "audits": [
           {
             "auditor": "Halborn",
@@ -80,7 +82,8 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "https://discord.com/invite/casperblockchain"
+          "contact": "https://discord.com/invite/casperblockchain",
+          "faq": "https://github.com/casper-ecosystem/casper-manager/blob/main/FAQ.md"
         },
         "sourceCode": "https://github.com/casper-ecosystem/casper-manager"
       },
@@ -127,9 +130,9 @@
           "name": "Push Protocol",
           "website": "https://push.org/"
         },
-        "website": "https://pushprotocol.notion.site/Push-Snap-Documentation-7ac53ec38ad648fca3e8aada589a4943",
-        "summary": "Get Push notifications directly in your MetaMask wallet",
-        "description": "Push Snap is a powerful tool that allows any wallet address to receive notifications directly in the Metamask wallet. With Push Snap, one can now seamlessly receive notifications powered by Push Protocol directly in their wallet, ensuring you never miss out on important updates from the channels that they subscribe to.",
+        "website": "https://www.notion.so/Push-Snap-Documentation-7ac53ec38ad648fca3e8aada589a4943?pvs=4#1d89038ff20d4cd6855a3e893870cef4",
+        "summary": "Push Snap is a powerful tool that allows any wallet address to receive notifications directly in MetaMask.",
+        "description": "Push Snap is a powerful tool that allows any wallet address to receive notifications directly in MetaMask. With Push Snap, you can now seamlessly receive notifications powered by Push Protocol directly in your wallet, ensuring you never miss out on important updates from the channels that you subscribe to.",
         "audits": [
           {
             "auditor": "Consensys Diligence",
@@ -138,7 +141,9 @@
         ],
         "category": "notifications",
         "support": {
-          "contact": "https://discord.com/invite/pushprotocol"
+          "contact": "https://discord.com/invite/pushprotocol",
+          "faq": "https://www.notion.so/Push-Snap-FAQs-c034d65ab01240bdb5acdfb4ea4b8320",
+          "knowledgeBase": "https://pushprotocol.notion.site/Push-Snap-Documentation-7ac53ec38ad648fca3e8aada589a4943"
         },
         "sourceCode": "https://github.com/ethereum-push-notification-service/push-protocol-snaps"
       },
@@ -1022,6 +1027,35 @@
       "versions": {
         "0.3.6": {
           "checksum": "REl6dY3tSDpChyXGJZjfDuKVrFNCt86ZPfs+jNRmIPU="
+        }
+      }
+    },
+    "npm:@drift-labs/snap-solana": {
+      "id": "npm:@drift-labs/snap-solana",
+      "metadata": {
+        "name": "Connect by Drift",
+        "author": {
+          "name": "Drift Protocol",
+          "website": "https://www.drift.trade/"
+        },
+        "website": "https://www.drift.trade/",
+        "summary": "An open-sourced Solana Snap that allows Metamask users to natively interact with Solana applications.",
+        "description": "Connect by Drift allows MetaMask to seamlessly connect to Drift and function as a Solana wallet. Users of the Snap can connect to Drift, bridge their Ethereum assets to Solana, and trade on Drift all from within MetaMask.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://ottersec.notion.site/Drift-Snap-8575cd9031ae466d87d3b6a1c0afa028"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.com/invite/fMcZBH8ErM"
+        },
+        "sourceCode": "https://github.com/drift-labs/snap-solana"
+      },
+      "versions": {
+        "0.2.1": {
+          "checksum": "YUVSrvkkDIlTTdFwuWB+5SrY4OETUQefAt9oyt5pYag="
         }
       }
     },
