@@ -189,7 +189,7 @@
         "audits": [
           {
             "auditor": "Least Authority",
-            "report": "https://github.com/MetaMask/snaps-registry/files/12543588/Least.Authority-.Blockfence.Metamask.Snap.Final.Audit.Report.pdf"
+            "report": "https://leastauthority.com/blog/audits/audit-of-blockfence-metamask-snap/"
           }
         ],
         "category": "transaction insights",
@@ -842,7 +842,7 @@
         "audits": [
           {
             "auditor": "Least Authority",
-            "report": "https://github.com/blockchain-lab-um/masca/blob/develop/technical-documents/Least%20Authority%20-%20Audit%20Report.pdf"
+            "report": "https://leastauthority.com/blog/audits/audit-of-masca-metamask-snap/"
           }
         ],
         "category": "interoperability",
@@ -981,7 +981,7 @@
         "audits": [
           {
             "auditor": "Least Authority",
-            "report": "https://drive.google.com/file/d/1COWN71JE2JVOwjw6nlWjZqu2SjS-ewD2/view?usp=drive_link"
+            "report": "https://leastauthority.com/blog/audits/audit-of-saferoot-metamask-snap/"
           }
         ],
         "category": "transaction insights",
@@ -1018,6 +1018,36 @@
       "versions": {
         "0.3.6": {
           "checksum": "REl6dY3tSDpChyXGJZjfDuKVrFNCt86ZPfs+jNRmIPU="
+        }
+      }
+    },
+    "npm:@xmtp/snap": {
+      "id": "npm:@xmtp/snap",
+      "metadata": {
+        "name": "Sign in with XMTP",
+        "author": {
+          "name": "XMTP",
+          "website": "https://xmtp.org/"
+        },
+        "website": "https://xmtp.org/docs/tutorials/other/xmtp-metamask-snap",
+        "summary": "Use the “Sign in with XMTP” MetaMask Snap to securely and conveniently sign in to any web app built with XMTP.",
+        "description": "Use the “Sign in with XMTP” MetaMask Snap to securely and conveniently sign in to any web app built with XMTP.\n\nWhen you install the Snap, you give it permission to store your XMTP user keys in MetaMask secure storage. From then on, when you use an app you've authorized to work with Sign in with XMTP, the Snap seamlessly and securely allows the app to use those keys without accessing the key material directly, enabling you to start messaging without needing to provide a signature.",
+        "audits": [
+          {
+            "auditor": "Least Authority",
+            "report": "https://leastauthority.com/blog/audits/audit-of-xmtp-metamask-snap/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.com/channels/831836269558235136/1149024081874784356",
+          "knowledgeBase": "https://xmtp.org/docs/tutorials/other/xmtp-metamask-snap"
+        },
+        "sourceCode": "https://github.com/xmtp/snap"
+      },
+      "versions": {
+        "1.2.2": {
+          "checksum": "pHhTGrqjGkNoK/2wb64Zqxpo3TFnE2a5smfVt45VCRM="
         }
       }
     }
