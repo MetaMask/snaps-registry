@@ -8,8 +8,8 @@
           "name": "Algorand Foundation",
           "website": "https://www.algorand.foundation/"
         },
-        "summary": "Algorand wallet for MetaMask",
-        "description": "Manage Algorand accounts with MetaMask, transfer, swap, and interact with Algorand dapps.",
+        "summary": "Manage Algorand accounts with MetaMask, transfer, swap, and interact with Algorand dapps.",
+        "description": "Manage Algorand accounts with MetaMask, transfer, swap, and interact with Algorand dapps.\n\nAlgorand is a scalable layer-1 blockchain powered by the Pure Proof-of-Stake consensus mechanism with quick block times and instant finality.",
         "audits": [
           {
             "auditor": "OtterSec",
@@ -23,8 +23,8 @@
         "sourceCode": "https://github.com/algorandfoundation/algo-metamask"
       },
       "versions": {
-        "10.0.1": {
-          "checksum": "Pyhm1ySicfZ1c6dk+6e3U3rLtTDlyqGWHQXlxN85cu8="
+        "10.0.2": {
+          "checksum": "Ac+HbVc2OlKU9zIGvp7JzHfuyNh4u1hiE3EC/tHIER0="
         }
       }
     },
