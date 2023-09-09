@@ -929,7 +929,7 @@
           }
         ],
         "category": "interoperability",
-        "support": { 
+        "support": {
           "contact": "https://discord.gg/Bzjm5MDXrU",
           "knowledgeBase": "https://rarimo.notion.site/RariMe-Knowledge-Doc-bf401216ae604f0faa490265f2ccd86f",
           "faq": "https://rarimo.notion.site/rariME-FAQ-19ebf31d8eaf4475aa8e64a1cc558800"
@@ -1052,6 +1052,34 @@
       "versions": {
         "1.2.2": {
           "checksum": "pHhTGrqjGkNoK/2wb64Zqxpo3TFnE2a5smfVt45VCRM="
+        }
+      }
+    },
+    "npm:@cosmsnap/snap": {
+      "id": "npm:@cosmsnap/snap",
+      "metadata": {
+        "name": "Cosmos Extension",
+        "author": {
+          "name": "Mystic Labs",
+          "website": "https://www.mysticlabs.xyz/"
+        },
+        "summary": "Cosmos Extension that adds Cosmos support to MetaMask",
+        "description": "Cosmos Extension aims to add full support of MetaMask, a highly popular Ethereum wallet, to all Cosmos SDK blockchains, potentially opening the door to over 30 million Ethereum users and stimulating growth for every project in the Cosmos ecosystem.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://ottersec.notion.site/Cosmos-Snap-ef7a8ccde39948e7bece99e86239ae6b"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:help@mysticlabs.xyz"
+        },
+        "sourceCode": "https://github.com/cosmos/snap"
+      },
+      "versions": {
+        "0.1.8": {
+          "checksum": "KNST9WGZQuCvwWjJ/CJ4LcwpRIurasP4f6muX+8Sugk="
         }
       }
     }
