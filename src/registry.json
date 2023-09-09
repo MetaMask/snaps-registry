@@ -920,8 +920,8 @@
           "website": "https://rarimo.com/"
         },
         "website": "https://github.com/rarimo/rarime/tree/main/packages/snap#readme",
-        "summary": "Safely hold any of your credentials and prove your identity without revealing any personal data",
-        "description": "Rarime is a MetaMask Snap that safely holds any of your credentials and allows you to prove your identity without revealing any personal data. Powered by Rarimo Protocol and Zero-Knowledge Proof technology.",
+        "summary": "Safely holds any of your credentials and allows you to prove your identity without revealing any personal data. Powered by Rarimo Protocol and Zero-Knowledge Proof technology.",
+        "description": "Rarime is a MetaMask Snap that safely holds any of your credentials and allows you to prove your identity without revealing any personal data. Powered by Rarimo Protocol and Zero-Knowledge Proof technology.\n\nThis Snap allows you to 1) receive credentials 2) create Zero Knowledge Proofs of your credentials and 3) submit proofs to dapps. For each of these steps, you will be automatically prompted by the identity providers and the dapps that have integrated with RariMe.",
         "audits": [
           {
             "auditor": "Halborn",
@@ -929,7 +929,11 @@
           }
         ],
         "category": "interoperability",
-        "support": { "contact": "https://discord.gg/Bzjm5MDXrU" },
+        "support": {
+          "contact": "https://discord.gg/Bzjm5MDXrU",
+          "knowledgeBase": "https://rarimo.notion.site/RariMe-Knowledge-Doc-bf401216ae604f0faa490265f2ccd86f",
+          "faq": "https://rarimo.notion.site/rariME-FAQ-19ebf31d8eaf4475aa8e64a1cc558800"
+        },
         "sourceCode": "https://github.com/rarimo/rarime"
       },
       "versions": {
@@ -1048,6 +1052,37 @@
       "versions": {
         "1.2.2": {
           "checksum": "pHhTGrqjGkNoK/2wb64Zqxpo3TFnE2a5smfVt45VCRM="
+        }
+      }
+    },
+    "npm:@cosmsnap/snap": {
+      "id": "npm:@cosmsnap/snap",
+      "metadata": {
+        "name": "Cosmos Extension",
+        "author": {
+          "name": "Mystic Labs",
+          "website": "https://www.mysticlabs.xyz/"
+        },
+        "website": "http://metamask.mysticlabs.xyz/",
+        "summary": "Cosmos Extension that adds Cosmos support to MetaMask",
+        "description": "Cosmos Extension aims to add full support of MetaMask, a highly popular Ethereum wallet, to all Cosmos SDK blockchains, potentially opening the door to over 30 million Ethereum users and stimulating growth for every project in the Cosmos ecosystem.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://ottersec.notion.site/Cosmos-Snap-ef7a8ccde39948e7bece99e86239ae6b"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:help@mysticlabs.xyz",
+          "knowledgeBase": "https://metamask.mysticlabs.xyz/general",
+          "faq": "https://metamask.mysticlabs.xyz/faq"
+        },
+        "sourceCode": "https://github.com/cosmos/snap"
+      },
+      "versions": {
+        "0.1.8": {
+          "checksum": "KNST9WGZQuCvwWjJ/CJ4LcwpRIurasP4f6muX+8Sugk="
         }
       }
     }
