@@ -37,8 +37,8 @@
           "website": "https://www.walletchat.fun/"
         },
         "website": "https://app.walletchat.fun/",
-        "summary": "Receive WalletChat notifications in MetaMask",
-        "description": "Wallet-to-wallet chat notifications via WalletChat.fun - log in to https://app.walletchat.fun to read and respond!",
+        "summary": "Wallet-to-wallet chat notifications via WalletChat.fun.",
+        "description": "Wallet-to-wallet chat notifications via WalletChat.fun.\n\nAfter signing in to the WalletChat website, you will receive chat notifications directly in MetaMask.",
         "audits": [
           {
             "auditor": "Cure53",
@@ -51,7 +51,9 @@
         ],
         "category": "notifications",
         "support": {
-          "faq": "https://docs.walletchat.fun/metamask-integration/walletchat-metamask-snap-faq"
+          "faq": "https://docs.walletchat.fun/metamask-integration/walletchat-metamask-snap-faq",
+          "knowledgeBase": "https://docs.walletchat.fun/metamask-integration",
+          "contact": "contact@walletchat.fun"
         },
         "sourceCode": "https://github.com/Wallet-Chat/walletchat-metamask-snap"
       },
