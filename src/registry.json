@@ -775,11 +775,30 @@
     "npm:@solflare-wallet/solana-snap": {
       "id": "npm:@solflare-wallet/solana-snap",
       "metadata": {
-        "name": "Solana Manager"
+        "name": "Solana Manager",
+        "author": {
+          "name": "Solflare",
+          "website": "https://solflare.com/"
+        },
+        "website": "https://solflare.com/metamask",
+        "summary": "Manage Solana-based tokens and NFTs, swap, stake, bridge from EVM to SOL, and connect to Solana apps with MetaMask.",
+        "description": "Manage Solana-based tokens and NFTs, swap, stake, bridge from EVM to SOL, and connect to Solana apps with MetaMask.\n\nVisit the Solflare website to connect and manage your Solana accounts.",
+        "audits": [
+          {
+            "auditor": "Consensys Diligence",
+            "report": "https://drive.google.com/file/d/13BJBZgP8Un6449gwsSKB46KIaXRq0Von/view?usp=sharing"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://solflare.com/support",
+          "faq": "https://docs.google.com/document/d/1xNwij9JMWgm7nXMZDOvtgYsTN5qo_iSbGlIWnDxjAc4/edit#heading=h.na5y1iw8nwep"
+        },
+        "sourceCode": "https://github.com/solflare-wallet/solflare-snap"
       },
       "versions": {
-        "1.0.2": {
-          "checksum": "7xISWLpxpU215O0L/5kRPYj+EDSbxfW/Jj+l7ux6IQA="
+        "1.0.3": {
+          "checksum": "hyw8D7jdrDe4FGohp7hjn7miXCk5JVo7yohV5Q3I2io="
         }
       }
     },
