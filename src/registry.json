@@ -834,11 +834,29 @@
     "npm:@elli-wallet/sui-snap": {
       "id": "npm:@elli-wallet/sui-snap",
       "metadata": {
-        "name": "Sui Manager"
+        "name": "Sui Wallet",
+        "author": {
+          "name": "Elli Wallet",
+          "website": "https://elliwallet.com/"
+        },
+        "website": "https://elliwallet.com/",
+        "summary": "Manage Sui-based tokens and NFTs, stake and connect to Sui apps with MetaMask.",
+        "description": "Manage Sui-based tokens and NFTs, stake and connect to Sui apps with MetaMask.",
+        "audits": [
+          {
+            "auditor": "Consensys Diligence",
+            "report": "https://drive.google.com/file/d/13BJBZgP8Un6449gwsSKB46KIaXRq0Von/view?usp=sharing"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://help.elliwallet.com/"
+        },
+        "sourceCode": "https://github.com/solflare-wallet/sui-snap"
       },
       "versions": {
-        "1.0.2": {
-          "checksum": "/6gQS72bsflSrrc75Dv87K3PYn/VBd7osujB4aLi1Uo="
+        "1.0.3": {
+          "checksum": "ABz7nLrozZ2ac3pXG6wbyW6qJcWoOOC6QxGdn16TF+k="
         }
       }
     },
