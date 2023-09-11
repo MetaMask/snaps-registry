@@ -23,6 +23,8 @@ on:
         required: true
       SLACK_WEBHOOK_URL:
         required: false
+      REPUBLISH_DIRECTORY_TOKEN:
+        required: true
 
 jobs:
   check-updated:
