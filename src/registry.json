@@ -504,7 +504,7 @@
           "name": "Mina Protocol",
           "website": "https://minaprotocol.com/"
         },
-        "summary": "Interact with Mina protocol using MetaMask",
+        "summary": "Interact with Mina protocol using MetaMask.",
         "description": "Interact with Mina protocol using MetaMask.",
         "audits": [
           {
@@ -1179,8 +1179,8 @@
         "sourceCode": "https://github.com/shapeshift/metamask-snaps"
       },
       "versions": {
-        "1.0.0-alpha.32": {
-          "checksum": "yl0tuzpDsk1+GvdxiI+esI6MCXeMgWiMEp4LOZPzky0="
+        "1.0.0": {
+          "checksum": "sALq4aMfg09UKOAcC8f/P0EC36vihVjLxkQX2y3BP3c="
         }
       }
     }
