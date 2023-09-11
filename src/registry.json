@@ -791,8 +791,8 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "https://solflare.com/support",
-          "faq": "https://docs.google.com/document/d/1xNwij9JMWgm7nXMZDOvtgYsTN5qo_iSbGlIWnDxjAc4/edit#heading=h.na5y1iw8nwep"
+          "contact": "https://academy.solflare.com/guides",
+          "faq": "https://solflare.com/metamask"
         },
         "sourceCode": "https://github.com/solflare-wallet/solflare-snap"
       },
@@ -939,8 +939,8 @@
         "sourceCode": "https://github.com/leapwallet/cosmos-metamask-snap"
       },
       "versions": {
-        "0.1.15": {
-          "checksum": "HW90uDnubBA16WB9T7/DFmuBNbGB2c4MGwlrgTkVURE="
+        "0.1.16": {
+          "checksum": "diCk3Ht/3Fhbn089viNkY9N6dr41wCMm1KR0wJhLzm0="
         }
       }
     },
