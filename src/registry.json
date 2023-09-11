@@ -1174,6 +1174,18 @@
           "checksum": "KNST9WGZQuCvwWjJ/CJ4LcwpRIurasP4f6muX+8Sugk="
         }
       }
+    },
+    "npm:@shapeshiftoss/metamask-snaps": {
+      "id": "npm:@shapeshiftoss/metamask-snaps",
+      "metadata": {
+        "name": "ShapeShift Multichain",
+        "sourceCode": "https://github.com/shapeshift/metamask-snaps"
+      },
+      "versions": {
+        "1.0.0-alpha.27": {
+          "checksum": "RA2TPd464/ydZe7undpnxkQ8uywdcHU7Q3bsXoKxcog="
+        }
+      }
     }
   },
   "blockedSnaps": [
