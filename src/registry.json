@@ -775,33 +775,88 @@
     "npm:@solflare-wallet/solana-snap": {
       "id": "npm:@solflare-wallet/solana-snap",
       "metadata": {
-        "name": "Solana Manager"
+        "name": "Solana Wallet",
+        "author": {
+          "name": "Solflare",
+          "website": "https://solflare.com/"
+        },
+        "website": "https://solflare.com/metamask",
+        "summary": "Manage Solana-based tokens and NFTs, swap, stake, bridge from EVM to SOL, and connect to Solana apps with MetaMask.",
+        "description": "Manage Solana-based tokens and NFTs, swap, stake, bridge from EVM to SOL, and connect to Solana apps with MetaMask.\n\nVisit the Solflare website to connect and manage your Solana accounts.",
+        "audits": [
+          {
+            "auditor": "Consensys Diligence",
+            "report": "https://drive.google.com/file/d/13BJBZgP8Un6449gwsSKB46KIaXRq0Von/view?usp=sharing"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://solflare.com/support",
+          "faq": "https://docs.google.com/document/d/1xNwij9JMWgm7nXMZDOvtgYsTN5qo_iSbGlIWnDxjAc4/edit#heading=h.na5y1iw8nwep"
+        },
+        "sourceCode": "https://github.com/solflare-wallet/solflare-snap"
       },
       "versions": {
-        "1.0.2": {
-          "checksum": "7xISWLpxpU215O0L/5kRPYj+EDSbxfW/Jj+l7ux6IQA="
+        "1.0.3": {
+          "checksum": "hyw8D7jdrDe4FGohp7hjn7miXCk5JVo7yohV5Q3I2io="
         }
       }
     },
     "npm:@rise-wallet/aptos-snap": {
       "id": "npm:@rise-wallet/aptos-snap",
       "metadata": {
-        "name": "Aptos Manager"
+        "name": "Aptos Wallet",
+        "author": {
+          "name": "Rise Wallet",
+          "website": "https://risewallet.io/"
+        },
+        "website": "https://risewallet.io/",
+        "summary": "Manage Aptos-based tokens and NFTs, swap, stake and connect to Aptos apps with MetaMask.",
+        "description": "Manage Aptos-based tokens and NFTs, swap, stake and connect to Aptos apps with MetaMask.",
+        "audits": [
+          {
+            "auditor": "Consensys Diligence",
+            "report": "https://drive.google.com/file/d/13BJBZgP8Un6449gwsSKB46KIaXRq0Von/view?usp=sharing"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://help.risewallet.io/"
+        },
+        "sourceCode": "https://github.com/solflare-wallet/aptos-snap"
       },
       "versions": {
-        "1.0.2": {
-          "checksum": "MV9u2kjaHf6UFJsvfA+IWmr5NvX/KhTSTM81yEy9y/c="
+        "1.0.3": {
+          "checksum": "UIzV+8niJT7uw4bUlBp1wa0uNqnPjzgMMPLLlXeh9Ts="
         }
       }
     },
     "npm:@elli-wallet/sui-snap": {
       "id": "npm:@elli-wallet/sui-snap",
       "metadata": {
-        "name": "Sui Manager"
+        "name": "Sui Wallet",
+        "author": {
+          "name": "Elli Wallet",
+          "website": "https://elliwallet.com/"
+        },
+        "website": "https://elliwallet.com/",
+        "summary": "Manage Sui-based tokens and NFTs, stake and connect to Sui apps with MetaMask.",
+        "description": "Manage Sui-based tokens and NFTs, stake and connect to Sui apps with MetaMask.",
+        "audits": [
+          {
+            "auditor": "Consensys Diligence",
+            "report": "https://drive.google.com/file/d/13BJBZgP8Un6449gwsSKB46KIaXRq0Von/view?usp=sharing"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://help.elliwallet.com/"
+        },
+        "sourceCode": "https://github.com/solflare-wallet/sui-snap"
       },
       "versions": {
-        "1.0.2": {
-          "checksum": "/6gQS72bsflSrrc75Dv87K3PYn/VBd7osujB4aLi1Uo="
+        "1.0.3": {
+          "checksum": "ABz7nLrozZ2ac3pXG6wbyW6qJcWoOOC6QxGdn16TF+k="
         }
       }
     },
