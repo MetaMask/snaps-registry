@@ -786,7 +786,7 @@
         "audits": [
           {
             "auditor": "Consensys Diligence",
-            "report": "https://drive.google.com/file/d/13BJBZgP8Un6449gwsSKB46KIaXRq0Von/view?usp=sharing"
+            "report": "https://consensys.io/diligence/audits/2023/08/solflare-metamask-snaps-solflare-sui-aptos/"
           }
         ],
         "category": "interoperability",
@@ -816,7 +816,7 @@
         "audits": [
           {
             "auditor": "Consensys Diligence",
-            "report": "https://drive.google.com/file/d/13BJBZgP8Un6449gwsSKB46KIaXRq0Von/view?usp=sharing"
+            "report": "https://consensys.io/diligence/audits/2023/08/solflare-metamask-snaps-solflare-sui-aptos/"
           }
         ],
         "category": "interoperability",
@@ -845,7 +845,7 @@
         "audits": [
           {
             "auditor": "Consensys Diligence",
-            "report": "https://drive.google.com/file/d/13BJBZgP8Un6449gwsSKB46KIaXRq0Von/view?usp=sharing"
+            "report": "https://consensys.io/diligence/audits/2023/08/solflare-metamask-snaps-solflare-sui-aptos/"
           }
         ],
         "category": "interoperability",
@@ -1172,6 +1172,18 @@
       "versions": {
         "0.1.8": {
           "checksum": "KNST9WGZQuCvwWjJ/CJ4LcwpRIurasP4f6muX+8Sugk="
+        }
+      }
+    },
+    "npm:@shapeshiftoss/metamask-snaps": {
+      "id": "npm:@shapeshiftoss/metamask-snaps",
+      "metadata": {
+        "name": "ShapeShift Multichain",
+        "sourceCode": "https://github.com/shapeshift/metamask-snaps"
+      },
+      "versions": {
+        "1.0.0-alpha.27": {
+          "checksum": "RA2TPd464/ydZe7undpnxkQ8uywdcHU7Q3bsXoKxcog="
         }
       }
     }
