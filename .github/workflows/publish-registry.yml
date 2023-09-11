@@ -6,7 +6,7 @@ on:
       slack-channel:
         required: false
         type: string
-        default: 'metamask-dev'
+        default: 'metamask-snaps'
       slack-icon-url:
         required: false
         type: string

@@ -58,7 +58,7 @@ jobs:
       id-token: write # Required for requesting the OIDC JWT for cloud access token
     uses: ./.github/workflows/publish-registry.yml
     with:
-      slack-subteam: S042S7RE4AE # @metamask-npm-publishers
+      slack-subteam: S05RL9W7H54 # @metamask-snaps-publishers
     secrets:
       REGISTRY_PRIVATE_KEY: ${{ secrets.REGISTRY_PRIVATE_KEY }}
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
@@ -87,3 +87,4 @@ jobs:
     uses: ./.github/workflows/publish-release.yml
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
