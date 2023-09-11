@@ -53,7 +53,7 @@
         "support": {
           "faq": "https://docs.walletchat.fun/metamask-integration/walletchat-metamask-snap-faq",
           "knowledgeBase": "https://docs.walletchat.fun/metamask-integration",
-          "contact": "contact@walletchat.fun"
+          "contact": "mailto:contact@walletchat.fun"
         },
         "sourceCode": "https://github.com/Wallet-Chat/walletchat-metamask-snap"
       },
