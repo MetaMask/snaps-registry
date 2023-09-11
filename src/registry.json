@@ -530,15 +530,18 @@
           "website": "https://pianity.com/"
         },
         "website": "https://arsnap.org/",
-        "summary": "Access Arweave through MetaMask",
-        "description": "A MetaMask Snap allowing interaction with Arweave dapps.",
+        "summary": "Access Arweave through MetaMask and interact with Arweave dapps.",
+        "description": "Access Arweave through MetaMask and interact with Arweave dapps.\n\nAfter installing the Snap, visit the website to manage your Arweave account.",
         "audits": [
           {
             "auditor": "Sayfer",
-            "report": "https://github.com/MetaMask/snaps-registry/files/12544135/2023-08.Metamask.Snap.PT.for.Pianity.-2.pdf"
+            "report": "https://sayfer.io/audits/pianity-snap"
           }
         ],
         "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/NW5RqQP338"
+        },
         "sourceCode": "https://github.com/pianity/arsnap"
       },
       "versions": {
