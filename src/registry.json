@@ -513,6 +513,9 @@
           }
         ],
         "category": "interoperability",
+        "support": {
+          "contact": "https://github.com/sotatek-dev/mina-snap/wiki/FAQ#how-do-i-reach-out-for-mina-snap-support"
+        },
         "sourceCode": "https://github.com/sotatek-dev/mina-snap"
       },
       "versions": {
