@@ -13,6 +13,7 @@ import {
   optional,
   enums,
   refine,
+  boolean,
 } from 'superstruct';
 
 // For now, validate that each snap is using an NPM id.
@@ -53,6 +54,7 @@ export const VerifiedSnapStruct = object({
     type: optional(enums(['account'])),
     author: optional(AuthorStruct),
     website: optional(string()),
+    onboard: optional(boolean()),
     summary: optional(string()),
     description: optional(string()),
     audits: optional(array(AuditStruct)),

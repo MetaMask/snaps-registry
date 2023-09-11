@@ -24,6 +24,7 @@ describe('Snaps Registry', () => {
               website: 'https://metamask.io',
             },
             website: 'https://metamask.io',
+            onboard: true,
             summary: 'Example Snap',
             description: 'Longer Example Snap description.',
             audits: [
