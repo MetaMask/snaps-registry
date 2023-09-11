@@ -137,7 +137,7 @@ jobs:
         with:
           github-token: ${{ secrets.REPUBLISH_DIRECTORY_TOKEN }}
           script: |
-            await github.rest.repos.createDispatchEvent({
+            await github.rest.actions.createWorkflowDispatch({
               owner: context.repo.owner,
               repo: 'snaps-directory',
               workflow_id: 'republish-release.yml',
