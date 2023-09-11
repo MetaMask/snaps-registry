@@ -513,9 +513,6 @@
           }
         ],
         "category": "interoperability",
-        "support": {
-          "contact": "https://discord.com/channels/484437221055922177/1145999516558958592"
-        },
         "sourceCode": "https://github.com/sotatek-dev/mina-snap"
       },
       "versions": {
@@ -542,7 +539,6 @@
           }
         ],
         "category": "interoperability",
-        "support": { "contact": "https://discord.gg/uDdgpzGT" },
         "sourceCode": "https://github.com/pianity/arsnap"
       },
       "versions": {
@@ -684,7 +680,6 @@
           }
         ],
         "category": "transaction insights",
-        "support": { "contact": "https://discord.gg/gN8YTfr9" },
         "sourceCode": "https://github.com/forta-network/metamask-snap"
       },
       "versions": {
@@ -877,9 +872,6 @@
           }
         ],
         "category": "interoperability",
-        "support": {
-          "contact": "https://discord.com/channels/720571334798737489/1111311863213473843/1111313848788602981"
-        },
         "sourceCode": "https://github.com/vegaprotocol/vega-snap"
       },
       "versions": {
@@ -1133,7 +1125,6 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "https://discord.com/channels/831836269558235136/1149024081874784356",
           "knowledgeBase": "https://xmtp.org/docs/tutorials/other/xmtp-metamask-snap"
         },
         "sourceCode": "https://github.com/xmtp/snap"
