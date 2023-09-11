@@ -1134,6 +1134,7 @@
         ],
         "category": "interoperability",
         "support": {
+          "contact": "mailto:support@xmtp.com",
           "knowledgeBase": "https://xmtp.org/docs/tutorials/other/xmtp-metamask-snap"
         },
         "sourceCode": "https://github.com/xmtp/snap"
