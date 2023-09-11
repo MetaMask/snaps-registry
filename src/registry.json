@@ -872,6 +872,9 @@
           }
         ],
         "category": "interoperability",
+        "support": {
+          "contact": "https://vega.xyz/discord"
+        },
         "sourceCode": "https://github.com/vegaprotocol/vega-snap"
       },
       "versions": {
