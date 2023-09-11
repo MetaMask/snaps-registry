@@ -111,9 +111,6 @@
           }
         ],
         "category": "transaction insights",
-        "support": {
-          "contact": "https://discord.com/invite/mvbtaJzXDP"
-        },
         "sourceCode": "https://github.com/wallet-guard/wallet-guard-snap"
       },
       "versions": {
@@ -596,7 +593,6 @@
           }
         ],
         "category": "interoperability",
-        "support": { "contact": "https://discord.gg/hYpHRjK" },
         "sourceCode": "https://github.com/Consensys/starknet-snap"
       },
       "versions": {
@@ -898,7 +894,6 @@
           }
         ],
         "category": "interoperability",
-        "support": { "contact": "https://discord.gg/M5xgNz7TTF" },
         "sourceCode": "https://github.com/blockchain-lab-um/masca"
       },
       "versions": {
@@ -954,7 +949,6 @@
           }
         ],
         "category": "transaction insights",
-        "support": { "contact": "https://discord.gg/RZ84RUNuNF" },
         "sourceCode": "https://github.com/AnChainAI/web3-security-snap"
       },
       "versions": {
@@ -982,7 +976,6 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "https://discord.gg/Bzjm5MDXrU",
           "knowledgeBase": "https://rarimo.notion.site/RariMe-Knowledge-Doc-bf401216ae604f0faa490265f2ccd86f",
           "faq": "https://rarimo.notion.site/rariME-FAQ-19ebf31d8eaf4475aa8e64a1cc558800"
         },
@@ -1068,7 +1061,6 @@
           }
         ],
         "category": "interoperability",
-        "support": { "contact": "https://discord.gg/Wvhp9dWdSg" },
         "sourceCode": "https://github.com/EthSign/keychain-snap"
       },
       "versions": {
@@ -1095,9 +1087,6 @@
           }
         ],
         "category": "interoperability",
-        "support": {
-          "contact": "https://discord.com/invite/fMcZBH8ErM"
-        },
         "sourceCode": "https://github.com/drift-labs/snap-solana"
       },
       "versions": {
