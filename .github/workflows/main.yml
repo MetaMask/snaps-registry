@@ -62,6 +62,7 @@ jobs:
     secrets:
       REGISTRY_PRIVATE_KEY: ${{ secrets.REGISTRY_PRIVATE_KEY }}
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+      REPUBLISH_DIRECTORY_TOKEN: ${{ secrets.REPUBLISH_DIRECTORY_TOKEN }}
 
   is-release:
     # Filtering by `push` events ensures that we only release from the `main` branch, which is a
