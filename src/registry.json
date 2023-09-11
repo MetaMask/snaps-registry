@@ -504,7 +504,7 @@
           "name": "Mina Protocol",
           "website": "https://minaprotocol.com/"
         },
-        "summary": "Interact with Mina protocol using MetaMask",
+        "summary": "Interact with Mina protocol using MetaMask.",
         "description": "Interact with Mina protocol using MetaMask.",
         "audits": [
           {
@@ -513,6 +513,9 @@
           }
         ],
         "category": "interoperability",
+        "support": {
+          "contact": "https://github.com/sotatek-dev/mina-snap/wiki/FAQ#how-do-i-reach-out-for-mina-snap-support"
+        },
         "sourceCode": "https://github.com/sotatek-dev/mina-snap"
       },
       "versions": {
@@ -530,15 +533,18 @@
           "website": "https://pianity.com/"
         },
         "website": "https://arsnap.org/",
-        "summary": "Access Arweave through MetaMask",
-        "description": "A MetaMask Snap allowing interaction with Arweave dapps.",
+        "summary": "Access Arweave through MetaMask and interact with Arweave dapps.",
+        "description": "Access Arweave through MetaMask and interact with Arweave dapps.\n\nAfter installing the Snap, visit the website to manage your Arweave account.",
         "audits": [
           {
             "auditor": "Sayfer",
-            "report": "https://github.com/MetaMask/snaps-registry/files/12544135/2023-08.Metamask.Snap.PT.for.Pianity.-2.pdf"
+            "report": "https://sayfer.io/audits/pianity-snap"
           }
         ],
         "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/NW5RqQP338"
+        },
         "sourceCode": "https://github.com/pianity/arsnap"
       },
       "versions": {
@@ -680,6 +686,9 @@
           }
         ],
         "category": "transaction insights",
+        "support": {
+          "contact": "https://discord.gg/nFAqfz4SH7"
+        },
         "sourceCode": "https://github.com/forta-network/metamask-snap"
       },
       "versions": {
@@ -872,6 +881,9 @@
           }
         ],
         "category": "interoperability",
+        "support": {
+          "contact": "https://vega.xyz/discord"
+        },
         "sourceCode": "https://github.com/vegaprotocol/vega-snap"
       },
       "versions": {
@@ -1125,6 +1137,7 @@
         ],
         "category": "interoperability",
         "support": {
+          "contact": "mailto:support@xmtp.com",
           "knowledgeBase": "https://xmtp.org/docs/tutorials/other/xmtp-metamask-snap"
         },
         "sourceCode": "https://github.com/xmtp/snap"
@@ -1170,11 +1183,28 @@
       "id": "npm:@shapeshiftoss/metamask-snaps",
       "metadata": {
         "name": "ShapeShift Multichain",
+        "author": {
+          "name": "ShapeShift",
+          "website": "https://shapeshift.com/"
+        },
+        "summary": "The ShapeShift Multichain snap evolves your wallet to support 11 chains in one snap, including Bitcoin, Dogecoin, Litecoin, Cosmos, Binance Chain, Bitcoin Cash, THORChain, Osmosis, and Secret Network.",
+        "description": "The ShapeShift Multichain snap evolves your wallet to support 11 chains in one snap, including Bitcoin, Dogecoin, Litecoin, Cosmos, Binance Chain, Bitcoin Cash, THORChain, Osmosis, and Secret Network.",
+        "audits": [
+          {
+            "auditor": "Consensys Diligence",
+            "report": "https://consensys.io/diligence/audits/2023/07/metamask/partner-snaps-shapeshift-snap/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/shapeshift",
+          "knowledgeBase": "https://docs.shapeshift.com/faq/protocols/metamask-snaps"
+        },
         "sourceCode": "https://github.com/shapeshift/metamask-snaps"
       },
       "versions": {
-        "1.0.0-alpha.32": {
-          "checksum": "yl0tuzpDsk1+GvdxiI+esI6MCXeMgWiMEp4LOZPzky0="
+        "1.0.0": {
+          "checksum": "sALq4aMfg09UKOAcC8f/P0EC36vihVjLxkQX2y3BP3c="
         }
       }
     }
