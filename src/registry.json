@@ -38,7 +38,7 @@
         },
         "website": "https://app.walletchat.fun/",
         "summary": "Wallet-to-wallet chat notifications via WalletChat.fun.",
-        "description": "Wallet-to-wallet chat notifications via WalletChat.fun.\n\nAfter signing in to the WalletChat website, you will receive chat notifications directly in MetaMask.",
+        "description": "Get WalletChat.fun message notifications directly in your MetaMask!\n\nAfter installing the Snap, visit the website to start using WalletChat.",
         "audits": [
           {
             "auditor": "Cure53",
@@ -58,6 +58,9 @@
         "sourceCode": "https://github.com/Wallet-Chat/walletchat-metamask-snap"
       },
       "versions": {
+        "0.2.2": {
+          "checksum": "3A61a9PBllUtH9B0HVh7aHVoSBwouuM7eNMJga0p/q0="
+        },
         "0.2.1": {
           "checksum": "IV0FlbWNvx5HJUxqNWVXizRVwmib/aVmi7jjZhVAuXw="
         }
