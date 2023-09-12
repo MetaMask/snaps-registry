@@ -834,7 +834,7 @@
         },
         "website": "https://risewallet.io/",
         "summary": "Manage Aptos-based tokens and NFTs, swap, stake and connect to Aptos apps with MetaMask.",
-        "description": "Manage Aptos-based tokens and NFTs, swap, stake and connect to Aptos apps with MetaMask.",
+        "description": "Manage Aptos-based tokens and NFTs, swap, stake and connect to Aptos apps with MetaMask. Website coming soon.",
         "audits": [
           {
             "auditor": "Consensys Diligence",
@@ -863,7 +863,7 @@
         },
         "website": "https://elliwallet.com/",
         "summary": "Manage Sui-based tokens and NFTs, stake and connect to Sui apps with MetaMask.",
-        "description": "Manage Sui-based tokens and NFTs, stake and connect to Sui apps with MetaMask.",
+        "description": "Manage Sui-based tokens and NFTs, stake and connect to Sui apps with MetaMask. Website coming soon.",
         "audits": [
           {
             "auditor": "Consensys Diligence",
