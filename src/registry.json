@@ -1091,8 +1091,8 @@
           "website": "https://www.ethsign.xyz/"
         },
         "website": "https://docs.ethsign.xyz/ethsign-keychain/",
-        "summary": "Encrypted password manager",
-        "description": "EthSign Keychain is an encrypted password manager. State-keeping outside of MetaMask is optional and delegated to Arweave or AWS to enable decentralized cross-device synchronization.",
+        "summary": "EthSign Keychain is an encrypted password manager. State-keeping outside of MetaMask is optional and delegated to Arweave or AWS to enable decentralized cross-device synchronization.",
+        "description": "EthSign Keychain is an encrypted password manager. State-keeping outside of MetaMask is optional and delegated to Arweave or AWS to enable decentralized cross-device synchronization.\n\nThis Snap is designed to work with a companion extension or with dapps that have implemented the EthSign Keychain API. After installing the Snap, visit the website to learn more.",
         "audits": [
           {
             "auditor": "OtterSec",
@@ -1100,7 +1100,9 @@
           }
         ],
         "category": "interoperability",
-        "support": { "contact": "https://discord.gg/Wvhp9dWdSg" },
+        "support": {
+          "contact": "https://discord.gg/Wvhp9dWdSg"
+        },
         "sourceCode": "https://github.com/EthSign/keychain-snap"
       },
       "versions": {
