@@ -919,8 +919,8 @@
           "website": "https://blockchain-lab.um.si/"
         },
         "website": "https://masca.io/app",
-        "summary": "Snap for managing DIDs, VCs, and VPs in MetaMask",
-        "description": "Masca enables everyone to build their decentralized and self-sovereign identity by enhancing MetaMask with functionalities to manage DIDs, VCs, and VPs. Any website can connect to it to access identity data, and dapp developers can already start with the integration!",
+        "summary": "Masca enables everyone to build their decentralized and self-sovereign identity by enhancing MetaMask with functionalities to manage DIDs, VCs, and VPs.",
+        "description": "Masca enables everyone to build their decentralized and self-sovereign identity by enhancing MetaMask with functionalities to manage DIDs, VCs, and VPs. Any website can connect to it to access identity data, and dapp developers can already start with the integration!\n\nAfter installing the Snap, visit the website to manage your decentralized identity.",
         "audits": [
           {
             "auditor": "Least Authority",
@@ -928,7 +928,10 @@
           }
         ],
         "category": "interoperability",
-        "support": { "contact": "https://discord.gg/M5xgNz7TTF" },
+        "support": {
+          "contact": "https://discord.gg/M5xgNz7TTF",
+          "knowledgeBase": "https://docs.masca.io/"
+        },
         "sourceCode": "https://github.com/blockchain-lab-um/masca"
       },
       "versions": {
