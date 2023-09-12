@@ -135,9 +135,9 @@
           "name": "Push Protocol",
           "website": "https://push.org/"
         },
-        "website": "https://www.notion.so/Push-Snap-Documentation-7ac53ec38ad648fca3e8aada589a4943?pvs=4#1d89038ff20d4cd6855a3e893870cef4",
+        "website": "https://app.push.org/receive",
         "summary": "Push Snap is a powerful tool that allows any wallet address to receive notifications directly in MetaMask.",
-        "description": "Push Snap is a powerful tool that allows any wallet address to receive notifications directly in MetaMask. With Push Snap, you can now seamlessly receive notifications powered by Push Protocol directly in your wallet, ensuring you never miss out on important updates from the channels that you subscribe to.",
+        "description": "Push Snap is a powerful tool that allows any wallet address to receive notifications directly in MetaMask. With Push Snap, you can now seamlessly receive notifications powered by Push Protocol directly in your wallet, ensuring you never miss out on important updates from the channels that you subscribe to.\n\nAfter installing the Snap, visit the website to connect the Snap with the Push dashboard and start receiving notifications in MetaMask. You can manage your subscriptions from the dashboard. Steps:\n\n1) Once successfully connected / installed the Snap will redirect to Push Channels Dapp\n\n2) Here you can opt-in to your favourite channels to receive notifications\n\n3) Once done, you can go back to the Snap Settings Page\n\n4) With the connected wallet, click on Add Address (this allows you to add an address for which you prefer to receive notifications), then sign the message to complete the process\n\n5) Now you are all set. You will receive notifications directly in MetaMask for that address thanks to the Push V1 Snap.",
         "audits": [
           {
             "auditor": "Consensys Diligence",
