@@ -903,8 +903,9 @@
           "name": "Vega",
           "website": "https://vega.xyz/"
         },
-        "summary": "MetaMask Snap for interacting with the Vega Protocol",
-        "description": "MetaMask Snap for interacting with the Vega Protocol. Website coming soon.",
+        "website": "https://vegaprotocol.eth.limo/",
+        "summary": "Vega is an order book based derivatives DEX with no gas fees for trading. Deposit ERC20s and trade on the Vega appchain.",
+        "description": "Vega is an order book based derivatives DEX with no gas fees for trading. Deposit ERC20s and trade on the Vega appchain. Vega markets are created and controlled by the Vega community and any trader operating as a market maker can commit to provide liquidity and share fee revenue.\n\nThe Vega Snap adds support for the Vega blockchain to MetaMask. You can access the Vega network through the Vega Metamask Snap.",
         "audits": [
           {
             "auditor": "OtterSec",
