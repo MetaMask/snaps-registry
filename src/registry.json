@@ -1147,6 +1147,36 @@
         }
       }
     },
+    "npm:@cubist-labs/cubesigner-snap": {
+      "id": "npm:@cubist-labs/cubesigner-snap",
+      "metadata": {
+        "name": "CubeSigner",
+        "author": {
+          "name": "Cubist",
+          "website": "https://cubist.dev/"
+        },
+        "website": "https://github.com/cubist-labs/CubeSigner-Snap/tree/main#readme",
+        "summary": "CubeSigner is a hardware-backed, non-custodial platform for securely managing cryptographic keys. The CubeSigner Snap uses the CubeSigner TypeScript SDK to let your MetaMask users sign transactions on EVM-based chains like Ethereum, Avalanche, and Polygon, and on non-EVM chains like Bitcoin and Solana.",
+        "description": "CubeSigner is a hardware-backed, non-custodial platform for securely managing cryptographic keys. The CubeSigner Snap uses the CubeSigner TypeScript SDK to let your MetaMask users sign transactions on EVM-based chains like Ethereum, Avalanche, and Polygon, and on non-EVM chains like Bitcoin and Solana.\n\nTo use the snap you need a CubeSigner account; contact Cubist to get started.",
+        "audits": [
+          {
+            "auditor": "Veridise",
+            "report": "https://f8t2x8b2.rocketcdn.me/wp-content/uploads/2023/09/VAR-Cubist-Snap4.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/Aw46GsGSy7",
+          "faq": "https://github.com/cubist-labs/CubeSigner-Snap/discussions/2"
+        },
+        "sourceCode": "https://github.com/cubist-labs/CubeSigner-Snap"
+      },
+      "versions": {
+        "0.2.13": {
+          "checksum": "AvyU4UjF8b56fVe5TuVg2OowAV7j3YwwRJ5tuz/Qpr8="
+        }
+      }
+    },
     "npm:@cosmsnap/snap": {
       "id": "npm:@cosmsnap/snap",
       "metadata": {
