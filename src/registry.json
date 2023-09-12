@@ -589,8 +589,8 @@
           "website": "https://consensys.io/"
         },
         "website": "https://snaps.consensys.io/starknet",
-        "summary": "The MetaMask Snap for StarkNet",
-        "description": "The StarkNet snap allows users to deploy StarkNet accounts, make transactions on StarkNet, and interact with StarkNet smart contracts.",
+        "summary": "The StarkNet snap allows users to deploy StarkNet accounts, make transactions on StarkNet, and interact with StarkNet smart contracts.",
+        "description": "The StarkNet snap allows users to deploy StarkNet accounts, make transactions on StarkNet, and interact with StarkNet smart contracts.\n\nAfter installing the Snap, visit the website to set up your StarkNet account.",
         "audits": [
           {
             "auditor": "Cobalt",
@@ -602,15 +602,14 @@
           }
         ],
         "category": "interoperability",
-        "support": { "contact": "https://discord.gg/hYpHRjK" },
+        "support": {
+          "contact": "https://discord.gg/hYpHRjK"
+        },
         "sourceCode": "https://github.com/Consensys/starknet-snap"
       },
       "versions": {
-        "2.0.2-dev-5eff492-20230901": {
-          "checksum": "7+Nv+tXpfxaA9y7Sh5JslzbhVbZDpMtGr/ueqgw3lw8="
-        },
-        "2.0.1": {
-          "checksum": "Vu0qdZC7rqOId+8QzBNLR3/XdJkdl72183eTR8qT4zE="
+        "2.0.2": {
+          "checksum": "C9popDqOlPOUtzbqlKRujqS5nI4dQGU6R2y03RrP01s="
         }
       }
     },
