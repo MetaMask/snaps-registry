@@ -1053,8 +1053,9 @@
           "name": "Partisia Blockchain",
           "website": "https://partisiablockchain.com/"
         },
+        "website": "https://browser.partisiablockchain.com/",
         "summary": "The Partisia Blockchain Snap allows dapp developers to use MetaMask for signing transactions towards Partisia Blockchain.",
-        "description": "The Partisia Blockchain Snap allows dapp developers to use MetaMask for signing transactions towards Partisia Blockchain. Website coming soon.",
+        "description": "The Partisia Blockchain Snap allows dapp developers to use MetaMask for signing transactions towards Partisia Blockchain.\n\nAfter installing the Snap, visit the website to Sign in with MetaMask and manage your Partisia account.",
         "audits": [
           {
             "auditor": "Veridise",
