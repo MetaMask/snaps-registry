@@ -589,8 +589,8 @@
           "website": "https://consensys.io/"
         },
         "website": "https://snaps.consensys.io/starknet",
-        "summary": "The StarkNet snap allows users to deploy StarkNet accounts, make transactions on StarkNet, and interact with StarkNet smart contracts.",
-        "description": "The StarkNet snap allows users to deploy StarkNet accounts, make transactions on StarkNet, and interact with StarkNet smart contracts.\n\nAfter installing the Snap, visit the website to set up your StarkNet account.",
+        "summary": "The Starknet snap allows users to deploy Starknet accounts, make transactions on Starknet, and interact with Starknet smart contracts.",
+        "description": "The Starknet snap allows users to deploy Starknet accounts, make transactions on Starknet, and interact with Starknet smart contracts.\n\nAfter installing the snap, visit the website to set up your Starknet account.",
         "audits": [
           {
             "auditor": "Cobalt",
