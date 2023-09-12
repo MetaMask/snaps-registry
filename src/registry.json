@@ -485,8 +485,8 @@
           "website": "https://www.trili.tech/"
         },
         "website": "https://metamask.tezos.com/",
-        "summary": "Tezos Wallet for MetaMask",
-        "description": "This Snaps allows the user to use their MetaMask wallet to interact with Tezos dApps, specifically for signing payloads and operations.",
+        "summary": "Tezos Wallet allows you to use your MetaMask wallet to interact with Tezos dapps, specifically for signing payloads and operations.",
+        "description": "Tezos Wallet allows you to use your MetaMask wallet to interact with Tezos dapps, specifically for signing payloads and operations.",
         "audits": [
           {
             "auditor": "Sayfer",
@@ -494,7 +494,10 @@
           }
         ],
         "category": "interoperability",
-        "support": { "contact": "mailto:metamask-snap@trili.tech" },
+        "support": {
+          "contact": "mailto:metamask-snap@trili.tech",
+          "faq": "https://github.com/airgap-it/tezos-metamask-snap/wiki/FAQs"
+        },
         "sourceCode": "https://github.com/airgap-it/tezos-metamask-snap"
       },
       "versions": {
