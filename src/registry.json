@@ -901,7 +901,6 @@
           "name": "Vega",
           "website": "https://vega.xyz/"
         },
-        "website": "https://vegaprotocol.eth.limo/",
         "summary": "Vega is an order book based derivatives DEX with no gas fees for trading. Deposit ERC20s and trade on the Vega appchain.",
         "description": "Vega is an order book based derivatives DEX with no gas fees for trading. Deposit ERC20s and trade on the Vega appchain. Vega markets are created and controlled by the Vega community and any trader operating as a market maker can commit to provide liquidity and share fee revenue.\n\nThe Vega Snap adds support for the Vega blockchain to MetaMask. You can access the Vega network through the Vega Metamask Snap.",
         "audits": [
@@ -1136,7 +1135,6 @@
           "name": "Drift Protocol",
           "website": "https://www.drift.trade/"
         },
-        "website": "https://www.drift.trade/",
         "summary": "An open-sourced Solana Snap that allows Metamask users to natively interact with Solana applications.",
         "description": "Connect by Drift allows MetaMask to seamlessly connect to Drift and function as a Solana wallet. Users of the Snap can connect to Drift, bridge their Ethereum assets to Solana, and trade on Drift all from within MetaMask.\n\nAfter installing the Snap, visit the website and click Launch App to try it. Please note: Drift may not be available in your region.",
         "audits": [
