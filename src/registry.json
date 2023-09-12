@@ -562,7 +562,8 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "https://discord.gg/NW5RqQP338"
+          "contact": "https://discord.gg/NW5RqQP338",
+          "faq": "https://github.com/pianity/arsnap/blob/main/packages/arsnap/FAQ.md"
         },
         "sourceCode": "https://github.com/pianity/arsnap"
       },
