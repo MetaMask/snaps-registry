@@ -102,8 +102,8 @@
           "website": "https://www.walletguard.app/"
         },
         "website": "https://www.walletguard.app/snap",
-        "summary": "Protect your crypto with transaction insights and proactive security alerts",
-        "description": "Protect your crypto. This Snap supports transaction simulation and automated approval revoking reminders for the user. Stop guessing about your transactions when performing swaps, claims, and mints!",
+        "summary": "Protect your crypto with transaction insights and proactive security alerts.",
+        "description": "Protect your crypto. Wallet Guard supports transaction simulation and automated approval revoking reminders for you. Stop guessing about your transactions when performing swaps, claims, and mints!",
         "audits": [
           {
             "auditor": "Consensys Diligence",
@@ -112,7 +112,9 @@
         ],
         "category": "transaction insights",
         "support": {
-          "contact": "https://discord.com/invite/mvbtaJzXDP"
+          "contact": "https://discord.com/invite/mvbtaJzXDP",
+          "faq": "https://walletguard.notion.site/Wallet-Guard-Snap-Frequently-Asked-Questions-FAQ-4e732cf0892846368048ed6e5f53a51a",
+          "knowledgeBase": "https://walletguard.notion.site/Wallet-Guard-Snap-Knowledge-Base-8839534090e444d792e1b3aa86e0a762"
         },
         "sourceCode": "https://github.com/wallet-guard/wallet-guard-snap"
       },
