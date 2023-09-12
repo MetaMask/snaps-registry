@@ -520,11 +520,12 @@
       "metadata": {
         "name": "MinaPortal",
         "author": {
-          "name": "Mina Protocol",
-          "website": "https://minaprotocol.com/"
+          "name": "SotaTek",
+          "website": "https://www.sotatek.com/"
         },
+        "website": "https://minaportal.sotatek.works/",
         "summary": "Interact with Mina protocol using MetaMask.",
-        "description": "Interact with Mina protocol using MetaMask. Website coming soon.",
+        "description": "Interact with Mina protocol using MetaMask. After installing the Snap, visit the website to manage your Mina account.",
         "audits": [
           {
             "auditor": "Veridise",
