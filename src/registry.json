@@ -1131,7 +1131,7 @@
         },
         "website": "https://www.drift.trade/",
         "summary": "An open-sourced Solana Snap that allows Metamask users to natively interact with Solana applications.",
-        "description": "Connect by Drift allows MetaMask to seamlessly connect to Drift and function as a Solana wallet. Users of the Snap can connect to Drift, bridge their Ethereum assets to Solana, and trade on Drift all from within MetaMask.",
+        "description": "Connect by Drift allows MetaMask to seamlessly connect to Drift and function as a Solana wallet. Users of the Snap can connect to Drift, bridge their Ethereum assets to Solana, and trade on Drift all from within MetaMask.\n\nAfter installing the Snap, visit the website and click Launch App to try it. Please note: Drift may not be available in your region.",
         "audits": [
           {
             "auditor": "OtterSec",
