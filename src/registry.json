@@ -167,8 +167,8 @@
           "website": "https://www.tuum.tech/"
         },
         "website": "https://www.tuum.tech/identify",
-        "summary": "A Snap for managing Decentralized Identifiers(DIDs)",
-        "description": "Our open source solution extends the functionality of the most popular crypto wallet by adding Decentralized Identity.",
+        "summary": "Extends the functionality of the most popular crypto wallet by adding Decentralized Identity.",
+        "description": "Extends the functionality of the most popular crypto wallet by adding Decentralized Identity.\n\nVisit the website to learn how to integrate Identify into your dapps.",
         "audits": [
           {
             "auditor": "Cure53",
@@ -176,7 +176,11 @@
           }
         ],
         "category": "interoperability",
-        "support": { "contact": "mailto:developer@tuum.tech" },
+        "support": {
+          "contact": "mailto:developer@tuum.tech",
+          "faq": "https://docs.tuum.tech/identify/basics/faqs",
+          "knowledgeBase": "https://docs.tuum.tech/identify"
+        },
         "sourceCode": "https://github.com/tuum-tech/identify"
       },
       "versions": {
