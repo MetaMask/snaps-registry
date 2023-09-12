@@ -638,8 +638,8 @@
           "website": "https://www.accountlabs.com/"
         },
         "website": "https://snap.unipass.xyz/",
-        "summary": "A Snap for stablecoin payment",
-        "description": "UniPass is a stablecoin payment product designed to enhance your MetaMask experience by harnessing the power of smart contract wallet capabilities.",
+        "summary": "UniPass is a stablecoin payment product designed to enhance your MetaMask experience by harnessing the power of smart contract wallet capabilities.",
+        "description": "UniPass is a stablecoin payment product designed to enhance your MetaMask experience by harnessing the power of smart contract wallet capabilities.\n\nAfter installing the Snap, visit the website to connect and explore all the available features.",
         "audits": [
           {
             "auditor": "SlowMist",
@@ -647,7 +647,11 @@
           }
         ],
         "category": "interoperability",
-        "support": { "contact": "mailto:unipass-snap-support@accountlabs.com" },
+        "support": {
+          "contact": "mailto:unipass-snap-support@accountlabs.com",
+          "faq": "https://accountlabs.notion.site/UniPass-FAQ-f14aee595f694f71812588309e62c5be",
+          "knowledgeBase": "https://accountlabs.notion.site/UniPass-Document-90ee049fb60b4601a2e3b43e3c5a7e1d"
+        },
         "sourceCode": "https://github.com/UniPassID/UniPass-Snap/"
       },
       "versions": {
