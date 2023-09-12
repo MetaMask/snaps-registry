@@ -962,8 +962,9 @@
           "name": "Leap",
           "website": "https://www.leapwallet.io/"
         },
+        "website": "https://cosmos.leapwallet.io/snaps",
         "summary": "Securely manage keys, connect to Cosmos dapps, and sign transactions",
-        "description": "Securely manage keys, connect to Cosmos dapps, and sign transactions.\n\nWebsite coming soon.",
+        "description": "Securely manage keys, connect to Cosmos dapps, and sign transactions.\n\nAfter installing the Snap, visit the website to connect with MetaMask and start using the Snap.",
         "audits": [
           {
             "auditor": "Sayfer",
