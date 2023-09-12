@@ -568,6 +568,9 @@
         "sourceCode": "https://github.com/pianity/arsnap"
       },
       "versions": {
+        "0.2.2": {
+          "checksum": "zyeeE8ml0+Y29G8TiTp9oIpJFraGWetutzkHt7i8b78="
+        },
         "0.2.1": {
           "checksum": "5QhJ/Ojl+ArgAwok95ia+dNCMb9rjmCR0NmwDK8NnPc="
         }
