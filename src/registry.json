@@ -9,7 +9,7 @@
           "website": "https://www.algorand.foundation/"
         },
         "summary": "Manage Algorand accounts with MetaMask, transfer, swap, and interact with Algorand dapps.",
-        "description": "Manage Algorand accounts with MetaMask, transfer, swap, and interact with Algorand dapps.\n\nAlgorand is a scalable layer-1 blockchain powered by the Pure Proof-of-Stake consensus mechanism with quick block times and instant finality.",
+        "description": "Manage Algorand accounts with MetaMask, transfer, swap, and interact with Algorand dapps.\n\nAlgorand is a scalable layer-1 blockchain powered by the Pure Proof-of-Stake consensus mechanism with quick block times and instant finality.\n\nWebsite coming soon.",
         "audits": [
           {
             "auditor": "OtterSec",
