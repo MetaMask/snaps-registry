@@ -574,8 +574,8 @@
           "website": "https://www.accountlabs.com/"
         },
         "website": "https://btc.justsnap.io/",
-        "summary": "Manage your Bitcoin with MetaMask",
-        "description": "Zion is the world's first application allowing users to directly manage Bitcoin within the MetaMask interface, without having to wrap tokens.",
+        "summary": "The world's first application allowing users to directly manage Bitcoin within the MetaMask interface, without having to wrap tokens.",
+        "description": "Zion is the world's first application allowing users to directly manage Bitcoin within the MetaMask interface, without having to wrap tokens.\n\nAfter installing the Snap, visit the website to manage your Bitcoin accounts.",
         "audits": [
           {
             "auditor": "SlowMist",
@@ -583,7 +583,11 @@
           }
         ],
         "category": "interoperability",
-        "support": { "contact": "mailto:snap@accountlabs.com" },
+        "support": {
+          "contact": "mailto:snap@accountlabs.com",
+          "faq": "https://btc.justsnap.io/faq",
+          "knowledgeBase": "https://btc.justsnap.io/base-knowledge"
+        },
         "sourceCode": "https://github.com/snapdao/btcsnap"
       },
       "versions": {
