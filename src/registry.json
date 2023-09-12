@@ -699,8 +699,8 @@
           "website": "https://forta.org/"
         },
         "website": "https://docs.forta.network/en/latest/Forta-for-Metamask/",
-        "summary": "Transaction insights from Forta's database of known scammers",
-        "description": "The Forta Snap for MetaMask automatically scans the addresses in a user's pre-signed transaction against Forta's database of known scammers. Based on the results, the Snap will display a “high-risk” or “low-risk” warning message to the user.",
+        "summary": "Automatically scans the addresses in your pre-signed transaction against Forta's database of known scammers. Based on the results, the Snap will display a “high-risk” or “low-risk” warning message to the user.",
+        "description": "The Forta Snap for MetaMask automatically scans the addresses in your pre-signed transaction against Forta's database of known scammers. Based on the results, the Snap will display a “high-risk” or “low-risk” warning message to the user.\n\nAfter installing the Snap, you will see it in the transaction confirmation window.",
         "audits": [
           {
             "auditor": "OtterSec",
@@ -709,7 +709,8 @@
         ],
         "category": "transaction insights",
         "support": {
-          "contact": "https://discord.gg/nFAqfz4SH7"
+          "contact": "https://discord.gg/nFAqfz4SH7",
+          "knowledgeBase": "https://docs.forta.network/en/latest/Forta-for-Metamask/"
         },
         "sourceCode": "https://github.com/forta-network/metamask-snap"
       },
