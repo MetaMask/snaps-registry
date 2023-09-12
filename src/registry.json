@@ -804,7 +804,7 @@
         },
         "website": "https://solflare.com/metamask",
         "summary": "Manage Solana-based tokens and NFTs, swap, stake, bridge from EVM to SOL, and connect to Solana apps with MetaMask.",
-        "description": "Manage Solana-based tokens and NFTs, swap, stake, bridge from EVM to SOL, and connect to Solana apps with MetaMask.\n\nVisit the Solflare website to connect and manage your Solana accounts.",
+        "description": "Manage Solana-based tokens and NFTs, swap, stake, bridge from EVM to SOL, and connect to Solana apps with MetaMask.\n\nAfter installing the Snap, visit the website to connect and manage your Solana accounts.",
         "audits": [
           {
             "auditor": "Consensys Diligence",
