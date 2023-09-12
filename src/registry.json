@@ -991,7 +991,7 @@
         },
         "website": "https://snap.anchainai.com/",
         "summary": "Integrates BEI Risk Scores into MetaMask",
-        "description": "By seamlessly integrating AnChain.AI's revolutionary AI-powered Blockchain Ecosystem Intelligence (BEI) into your MetaMask wallet, Web3 Security Snap empowers you to make informed decisions and engage fearlessly with the digital economy.",
+        "description": "By seamlessly integrating AnChain.AI's revolutionary AI-powered Blockchain Ecosystem Intelligence (BEI) into your MetaMask wallet, Web3 Security Snap empowers you to make informed decisions and engage fearlessly with the digital economy.\n\nAfter installing the Snap, you will see it in the transaction confirmation window. You can also visit the website to learn more about how to use it.",
         "audits": [
           {
             "auditor": "Sayfer",
@@ -999,7 +999,10 @@
           }
         ],
         "category": "transaction insights",
-        "support": { "contact": "https://discord.gg/RZ84RUNuNF" },
+        "support": {
+          "contact": "https://discord.gg/RZ84RUNuNF",
+          "faq": "https://snap.anchainai.com/#faq"
+        },
         "sourceCode": "https://github.com/AnChainAI/web3-security-snap"
       },
       "versions": {
