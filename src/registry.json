@@ -961,9 +961,8 @@
           "name": "Leap",
           "website": "https://www.leapwallet.io/"
         },
-        "website": "https://cosmos.leapwallet.io/",
         "summary": "Securely manage keys, connect to Cosmos dapps, and sign transactions",
-        "description": "Securely manage keys, connect to Cosmos dapps, and sign transactions.",
+        "description": "Securely manage keys, connect to Cosmos dapps, and sign transactions.\n\nWebsite coming soon.",
         "audits": [
           {
             "auditor": "Sayfer",
@@ -1197,9 +1196,9 @@
           "name": "Cubist",
           "website": "https://cubist.dev/"
         },
-        "website": "https://github.com/cubist-labs/CubeSigner-Snap/tree/main#readme",
-        "summary": "CubeSigner is a hardware-backed, non-custodial platform for securely managing cryptographic keys. The CubeSigner Snap uses the CubeSigner TypeScript SDK to let your MetaMask users sign transactions on EVM-based chains like Ethereum, Avalanche, and Polygon, and on non-EVM chains like Bitcoin and Solana.",
-        "description": "CubeSigner is a hardware-backed, non-custodial platform for securely managing cryptographic keys. The CubeSigner Snap uses the CubeSigner TypeScript SDK to let your MetaMask users sign transactions on EVM-based chains like Ethereum, Avalanche, and Polygon, and on non-EVM chains like Bitcoin and Solana.\n\nTo use the snap you need a CubeSigner account; contact Cubist to get started.",
+        "website": "https://cubist.dev/cubesigner-snap",
+        "summary": "An API for developers to manage MetaMask users' EVM/non-EVM keys in secure hardware.",
+        "description": "A Snap for Snap- and dapp-developers to safely manage EVM, Bitcoin, Solana, and other keys on behalf of MetaMask end users. Use the CubeSigner API to generate keys and sign transactions completely within server-side secure hardware. Your users' keys are never exposed in memory to attackers, and there's no risk of accidentally leaking keys. Visit https://cubist.dev/cubesigner-snap to get started.",
         "audits": [
           {
             "auditor": "Veridise",
