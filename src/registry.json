@@ -962,6 +962,7 @@
           "name": "Leap",
           "website": "https://www.leapwallet.io/"
         },
+        "website": "https://cosmos.leapwallet.io/snaps",
         "summary": "Securely manage keys, connect to Cosmos dapps, and sign transactions",
         "description": "Securely manage keys, connect to Cosmos dapps, and sign transactions.\n\nWebsite coming soon.",
         "audits": [
