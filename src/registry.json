@@ -1025,9 +1025,8 @@
           "name": "Partisia Blockchain",
           "website": "https://partisiablockchain.com/"
         },
-        "website": "https://partisiablockchain.gitlab.io/documentation/smart-contracts/integration/metamask-snap-integration.html",
-        "summary": "Snap to interact with Partisia Blockchain",
-        "description": "The Partisia Blockchain MetaMask snap allows dapp developers to use MetaMask for signing transactions towards Partisia Blockchain.",
+        "summary": "The Partisia Blockchain Snap allows dapp developers to use MetaMask for signing transactions towards Partisia Blockchain.",
+        "description": "The Partisia Blockchain Snap allows dapp developers to use MetaMask for signing transactions towards Partisia Blockchain. Website coming soon.",
         "audits": [
           {
             "auditor": "Veridise",
