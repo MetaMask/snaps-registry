@@ -608,39 +608,6 @@
         }
       }
     },
-    "npm:@consensys/starknet-snap": {
-      "id": "npm:@consensys/starknet-snap",
-      "metadata": {
-        "name": "StarkNet",
-        "author": {
-          "name": "Consensys",
-          "website": "https://consensys.io/"
-        },
-        "website": "https://snaps.consensys.io/starknet",
-        "summary": "The Starknet Snap allows users to deploy Starknet accounts, make transactions on Starknet, and interact with Starknet smart contracts.",
-        "description": "The Starknet Snap allows users to deploy Starknet accounts, make transactions on Starknet, and interact with Starknet smart contracts.\n\nAfter installing the Snap, visit the website to set up your Starknet account.",
-        "audits": [
-          {
-            "auditor": "Cobalt",
-            "report": "https://drive.google.com/file/d/1Q-Ee7QewVUoAx--x7w_T7WQcvc5MHqVr/view"
-          },
-          {
-            "auditor": "Consensys Diligence",
-            "report": "https://github.com/MetaMask/snaps-registry/files/12555017/consensys-starknet-snap-audit-2023-06.pdf"
-          }
-        ],
-        "category": "interoperability",
-        "support": {
-          "contact": "https://discord.gg/hYpHRjK"
-        },
-        "sourceCode": "https://github.com/Consensys/starknet-snap"
-      },
-      "versions": {
-        "2.0.2": {
-          "checksum": "C9popDqOlPOUtzbqlKRujqS5nI4dQGU6R2y03RrP01s="
-        }
-      }
-    },
     "npm:@unipasswallet/unipass-snap": {
       "id": "npm:@unipasswallet/unipass-snap",
       "metadata": {
