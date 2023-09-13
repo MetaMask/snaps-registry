@@ -1289,10 +1289,10 @@
   "blockedSnaps": [
     {
       "id": "npm:@consensys/starknet-snap",
-      "versionRange": "<2.1.0"
+      "versionRange": "<0.1.11"
     },
     {
-      "checksum": "C9popDqOlPOUtzbqlKRujqS5nI4dQGU6R2y03RrP01s="
+      "checksum": "A83r5/ZIcKuKwuAnQHHByVFCuofj7jGK5hOStmHY6A0="
     }
   ]
 }
