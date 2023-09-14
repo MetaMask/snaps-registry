@@ -1284,6 +1284,35 @@
           "checksum": "9HHio79u5s9b9e5isxf1dNZmdQ7JhPu/mC+Mf6IfzaE="
         }
       }
+    },
+    "npm:@web3mq/snap": {
+      "id": "npm:@web3mq/snap",
+      "metadata": {
+        "name": "Web3MQ",
+        "author": {
+          "name": "Web3MQ",
+          "website": "https://www.web3mq.com/"
+        },
+        "website": "https://web3mq-snap-demo.pages.dev/",
+        "summary": "Web3-native decentralized communication protocol. Encrypted, efficient and borderless.",
+        "description": "Web3-native decentralized communication protocol. Encrypted, efficient and borderless.\n\nWeb3MQ Snap provides more possibilities for building web3 social dapps. The website shows you an example of how it works. Read the documentation on GitHub to learn how to integrate the Snap with your dapp.",
+        "audits": [
+          {
+            "auditor": "Least Authority",
+            "report": "https://github.com/MetaMask/snaps-registry/files/12604989/Least_Authority_Generative_Labs_MetaMask_Snap_Updated_Final_Audit.pdf"
+          }
+        ],
+        "category": "notifications",
+        "support": {
+          "faq": "https://s3labs.notion.site/Web3MQ-Snap-Frequently-Asked-Questions-c705bcf4a0604b85830cca2283d0ab7b"
+        },
+        "sourceCode": "https://github.com/Generative-Labs/Web3MQ-Snap"
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "YeL3PfCT8hjTTHED2AD0BvsbkjNEjmC3pLxzjgXLFqE="
+        }
+      }
     }
   },
   "blockedSnaps": [
