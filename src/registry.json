@@ -1053,8 +1053,8 @@
           "website": "https://www.saferoot.io/"
         },
         "website": "https://app.saferoot.io/",
-        "summary": "Saferoot is a pioneering threat mitigation layer, providing real-time protection for vulnerable digital assets. Our non-custodial solution intercepts dangerous transactions before being committed onchain, redirecting pre-authorized assets to a secure backup wallet.",
-        "description": "Saferoot is a pioneering threat mitigation layer, providing real-time protection for vulnerable digital assets. Our non-custodial solution intercepts dangerous transactions before being committed onchain, redirecting pre-authorized assets to a secure backup wallet.\n\nAfter installing the Snap, visit the website to configure it.",
+        "summary": "Saferoot intercepts dangerous transactions in real-time and instantly moves your assets to safety.",
+        "description": "Saferoot intercepts dangerous transactions in real-time and instantly moves your assets to safety.\n\nAfter installing the Snap, visit Saferoot's website to customize your security settings.",
         "audits": [
           {
             "auditor": "Least Authority",
@@ -1200,8 +1200,8 @@
           "website": "https://www.mysticlabs.xyz/"
         },
         "website": "http://metamask.mysticlabs.xyz/",
-        "summary": "Cosmos Extension that adds Cosmos support to MetaMask",
-        "description": "Cosmos Extension aims to add full support of MetaMask, a highly popular Ethereum wallet, to all Cosmos SDK blockchains, potentially opening the door to over 30 million Ethereum users and stimulating growth for every project in the Cosmos ecosystem.",
+        "summary": "Cosmos Extension that adds Cosmos support to MetaMask.",
+        "description": "Cosmos Extension aims to add full support of MetaMask, a highly popular Ethereum wallet, to all Cosmos SDK blockchains, potentially opening the door to over 30 million Ethereum users and stimulating growth for every project in the Cosmos ecosystem.\n\nAfter installing the Snap, visit the website to manage your Cosmos account.",
         "audits": [
           {
             "auditor": "OtterSec",
@@ -1217,8 +1217,8 @@
         "sourceCode": "https://github.com/cosmos/snap"
       },
       "versions": {
-        "0.1.14": {
-          "checksum": "OrlMarbyPhlqsFVD5Zm58D+uckRBrKujDszSqKIeAiE="
+        "0.1.15": {
+          "checksum": "9eVSJzLe5ny92sbfnBNnsq4Tgus0iU01NVTgpCDjeSo="
         }
       }
     },
@@ -1231,8 +1231,8 @@
           "website": "https://shapeshift.com/"
         },
         "website": "https://app.shapeshift.com/",
-        "summary": "The ShapeShift Multichain snap evolves your wallet to support 11 chains in one snap, including Bitcoin, Dogecoin, Litecoin, Cosmos, Binance Chain, Bitcoin Cash, THORChain, Osmosis, and Secret Network.",
-        "description": "The ShapeShift Multichain snap evolves your wallet to support 11 chains in one snap, including Bitcoin, Dogecoin, Litecoin, Cosmos, Binance Chain, Bitcoin Cash, THORChain, Osmosis, and Secret Network.\n\nAfter installing the Snap, visit the website and connect with MetaMask to add the Snap and start using all the chains supported. Please note: you must connect Account 1 to the ShapeShift website to use all the chains supported by the Snap. Hardware wallets or imported private keys are not supported with this feature.",
+        "summary": "Support 11 chains including Bitcoin, Dogecoin, Cosmos, Litecoin, Binance Chain, THORChain, Bitcoin Cash and more in one Snap.",
+        "description": "Support 11 chains including Bitcoin, Dogecoin, Cosmos, Litecoin, Binance Chain, THORChain, Bitcoin Cash and more in one Snap.\n\nAdd the Snap to your MetaMask, visit https://app.shapeshift.com, and connect with MetaMask to start using all the chains supported.\n\nPlease note: you must connect Account 1 to the ShapeShift website to use all the chains supported by the Snap. Hardware wallets or imported private keys are not supported with this feature.",
         "audits": [
           {
             "auditor": "Consensys Diligence",
