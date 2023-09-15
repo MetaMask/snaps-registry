@@ -1200,7 +1200,7 @@
           "website": "https://www.mysticlabs.xyz/"
         },
         "website": "http://metamask.mysticlabs.xyz/",
-        "summary": "Cosmos Extension that adds Cosmos support to Metamask.",
+        "summary": "Cosmos Extension that adds Cosmos support to MetaMask.",
         "description": "Cosmos Extension aims to add full support of MetaMask, a highly popular Ethereum wallet, to all Cosmos SDK blockchains, potentially opening the door to over 30 million Ethereum users and stimulating growth for every project in the Cosmos ecosystem.\n\nAfter installing the Snap, visit the website to manage your Cosmos account.",
         "audits": [
           {
