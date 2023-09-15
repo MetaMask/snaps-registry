@@ -1231,8 +1231,8 @@
           "website": "https://shapeshift.com/"
         },
         "website": "https://app.shapeshift.com/",
-        "summary": "The ShapeShift Multichain snap evolves your wallet to support 11 chains in one snap, including Bitcoin, Dogecoin, Litecoin, Cosmos, Binance Chain, Bitcoin Cash, THORChain, Osmosis, and Secret Network.",
-        "description": "The ShapeShift Multichain snap evolves your wallet to support 11 chains in one snap, including Bitcoin, Dogecoin, Litecoin, Cosmos, Binance Chain, Bitcoin Cash, THORChain, Osmosis, and Secret Network.\n\nAfter installing the Snap, visit the website and connect with MetaMask to add the Snap and start using all the chains supported. Please note: you must connect Account 1 to the ShapeShift website to use all the chains supported by the Snap. Hardware wallets or imported private keys are not supported with this feature.",
+        "summary": "Support 11 chains including Bitcoin, Dogecoin, Cosmos, Litecoin, Binance Chain, THORChain, Bitcoin Cash and more in one Snap.",
+        "description": "Support 11 chains including Bitcoin, Dogecoin, Cosmos, Litecoin, Binance Chain, THORChain, Bitcoin Cash and more in one Snap.\n\nAdd the Snap to your MetaMask, visit https://app.shapeshift.com, and connect with MetaMask to start using all the chains supported.\n\nPlease note: you must connect Account 1 to the ShapeShift website to use all the chains supported by the Snap. Hardware wallets or imported private keys are not supported with this feature.",
         "audits": [
           {
             "auditor": "Consensys Diligence",
