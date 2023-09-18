@@ -1,5 +1,33 @@
 {
   "verifiedSnaps": {
+    "npm:@chainsafe/aleo-snap": {
+      "id": "npm:@chainsafe/aleo-snap",
+      "metadata": {
+        "name": "Aleo",
+        "author": {
+          "name": "ChainSafe",
+          "website": "https://chainsafe.io/"
+        },
+        "summary": "Enables MetaMask users to interact with Aleo blockchain.",
+        "description": "Enables MetaMask users to interact with Aleo blockchain.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-aleo/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/xSAwrnCWcg"
+        },
+        "sourceCode": "https://github.com/ChainSafe/aleo-snap"
+      },
+      "versions": {
+        "1.2.0": {
+          "checksum": "DB8uCN9I0YY19mPwwsYrRyHoJbRXDNrs5cf/ZJX+Wmc="
+        }
+      }
+    },
     "npm:@algorandfoundation/algorand-metamask-snap": {
       "id": "npm:@algorandfoundation/algorand-metamask-snap",
       "metadata": {
