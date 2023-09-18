@@ -1,5 +1,33 @@
 {
   "verifiedSnaps": {
+    "npm:@chainsafe/aleo-snap": {
+      "id": "npm:@chainsafe/aleo-snap",
+      "metadata": {
+        "name": "Aleo",
+        "author": {
+          "name": "ChainSafe",
+          "website": "https://chainsafe.io/"
+        },
+        "summary": "Enables MetaMask users to interact with Aleo blockchain.",
+        "description": "Enables MetaMask users to interact with Aleo blockchain.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-aleo/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/xSAwrnCWcg"
+        },
+        "sourceCode": "https://github.com/ChainSafe/aleo-snap"
+      },
+      "versions": {
+        "1.2.0": {
+          "checksum": "DB8uCN9I0YY19mPwwsYrRyHoJbRXDNrs5cf/ZJX+Wmc="
+        }
+      }
+    },
     "npm:@algorandfoundation/algorand-metamask-snap": {
       "id": "npm:@algorandfoundation/algorand-metamask-snap",
       "metadata": {
@@ -749,6 +777,9 @@
         "sourceCode": "https://github.com/Tenderly/tenderly-snap"
       },
       "versions": {
+        "1.2.1": {
+          "checksum": "vNrNCKPLLktsGjVi1vgs3YKLy4zdPJZ4yMueXNGvWTA="
+        },
         "1.2.0": {
           "checksum": "OLZtG0WTFYJ+WwX+dAcZ8UGyMdN+M5Ewu9ypNohFiRg="
         }
@@ -763,8 +794,8 @@
           "website": "https://gopluslabs.io/"
         },
         "website": "https://snaps.gopluslabs.io/",
-        "summary": "Detect risks of user assets with GoPlus Security",
-        "description": "A MetaMask Snap that can detect risks of user assets, supported by GoPlus Security.",
+        "summary": "Detect risks of user assets with GoPlus Security.",
+        "description": "A MetaMask Snap that can detect risks of user assets, supported by GoPlus Security.\n\nAfter installing the Snap, visit the website to connect your account and run the detection.",
         "audits": [
           {
             "auditor": "SlowMist",
@@ -772,7 +803,10 @@
           }
         ],
         "category": "transaction insights",
-        "support": { "contact": "mailto:service@gopluslabs.io" },
+        "support": {
+          "contact": "mailto:service@gopluslabs.io",
+          "faq": "https://snaps.gopluslabs.io/faq/"
+        },
         "sourceCode": "https://github.com/GoPlusSecurity/riskdetect-snap"
       },
       "versions": {
