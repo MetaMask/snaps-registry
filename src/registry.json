@@ -766,8 +766,8 @@
           "website": "https://gopluslabs.io/"
         },
         "website": "https://snaps.gopluslabs.io/",
-        "summary": "Detect risks of user assets with GoPlus Security",
-        "description": "A MetaMask Snap that can detect risks of user assets, supported by GoPlus Security.",
+        "summary": "Detect risks of user assets with GoPlus Security.",
+        "description": "A MetaMask Snap that can detect risks of user assets, supported by GoPlus Security.\n\nAfter installing the Snap, visit the website to connect your account and run the detection.",
         "audits": [
           {
             "auditor": "SlowMist",
@@ -775,7 +775,10 @@
           }
         ],
         "category": "transaction insights",
-        "support": { "contact": "mailto:service@gopluslabs.io" },
+        "support": {
+          "contact": "mailto:service@gopluslabs.io",
+          "faq": "https://snaps.gopluslabs.io/faq/"
+        },
         "sourceCode": "https://github.com/GoPlusSecurity/riskdetect-snap"
       },
       "versions": {
