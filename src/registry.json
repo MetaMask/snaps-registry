@@ -508,6 +508,9 @@
         "sourceCode": "https://github.com/kleros/scout-snap"
       },
       "versions": {
+        "1.2.0": {
+          "checksum": "GQiH7jqEvK8jElnpB2j65lKt9bKIWJoQAudcKfX0Hvs="
+        },
         "1.1.0": {
           "checksum": "z/7MIS7rM2gG7vjtY54Sv3pnvzItMnhooR22Svk6QkI="
         }
@@ -909,8 +912,9 @@
           "name": "Vega",
           "website": "https://vega.xyz/"
         },
+        "website": "https://vegaprotocol.eth.limo/",
         "summary": "Vega is an order book based derivatives DEX with no gas fees for trading. Deposit ERC20s and trade on the Vega appchain.",
-        "description": "Vega is an order book based derivatives DEX with no gas fees for trading. Deposit ERC20s and trade on the Vega appchain. Vega markets are created and controlled by the Vega community and any trader operating as a market maker can commit to provide liquidity and share fee revenue.\n\nThe Vega Snap adds support for the Vega blockchain to MetaMask. You can access the Vega network through the Vega Metamask Snap.",
+        "description": "Vega is an order book based derivatives DEX with no gas fees for trading. Deposit ERC20s and trade on the Vega appchain. Vega markets are created and controlled by the Vega community and any trader operating as a market maker can commit to provide liquidity and share fee revenue.\n\nThe Vega Snap adds support for the Vega blockchain to MetaMask. After installing the Snap, visit the website and click 'Get Started', then 'Connect via Vega MetaMask Snap.'",
         "audits": [
           {
             "auditor": "OtterSec",
@@ -1028,7 +1032,7 @@
           "website": "https://rarimo.com/"
         },
         "summary": "Safely holds any of your credentials and allows you to prove your identity without revealing any personal data. Powered by Rarimo Protocol and Zero-Knowledge Proof technology.",
-        "description": "Rarime is a MetaMask Snap that safely holds any of your credentials and allows you to prove your identity without revealing any personal data. Powered by Rarimo Protocol and Zero-Knowledge Proof technology.\n\nThis Snap allows you to 1) receive credentials 2) create Zero Knowledge Proofs of your credentials and 3) submit proofs to dapps. For each of these steps, you will be automatically prompted by the identity providers and the dapps that have integrated with RariMe.\n\nWebsite coming soon.",
+        "description": "RariMe is a MetaMask Snap that safely holds any of your credentials and allows you to prove your identity without revealing any personal data. Powered by Rarimo Protocol and Zero-Knowledge Proof technology.\n\nThis Snap allows you to 1) receive credentials 2) create Zero Knowledge Proofs of your credentials and 3) submit proofs to dapps. For each of these steps, you will be automatically prompted by the identity providers and the dapps that have integrated with RariMe.\n\nWebsite coming soon.",
         "audits": [
           {
             "auditor": "Halborn",
@@ -1145,7 +1149,7 @@
           "name": "Drift Protocol",
           "website": "https://www.drift.trade/"
         },
-        "summary": "An open-sourced Solana Snap that allows Metamask users to natively interact with Solana applications.",
+        "summary": "An open-sourced Solana Snap that allows MetaMask users to natively interact with Solana applications.",
         "description": "Connect by Drift allows MetaMask to seamlessly connect to Drift and function as a Solana wallet. Users of the Snap can connect to Drift, bridge their Ethereum assets to Solana, and trade on Drift all from within MetaMask.\n\nAfter installing the Snap, visit the website and click Launch App to try it. Please note: Drift may not be available in your region.",
         "audits": [
           {
