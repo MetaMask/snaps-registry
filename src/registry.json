@@ -508,9 +508,6 @@
         "sourceCode": "https://github.com/kleros/scout-snap"
       },
       "versions": {
-        "1.2.0": {
-          "checksum": "GQiH7jqEvK8jElnpB2j65lKt9bKIWJoQAudcKfX0Hvs="
-        },
         "1.1.0": {
           "checksum": "z/7MIS7rM2gG7vjtY54Sv3pnvzItMnhooR22Svk6QkI="
         }
