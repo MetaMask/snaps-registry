@@ -431,6 +431,9 @@
         },
         "0.38.1-flask.1": {
           "checksum": "YXxtxjP6SbPiDHzskryvh0QA6Hvv/FurI+GwNN8WF0U="
+        },
+        "0.38.2-flask.1": {
+          "checksum": "gietRn5VTciRfESWtWnTLKykNCZbTuIY7sRFhyTYkJI="
         }
       }
     },
