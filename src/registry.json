@@ -530,7 +530,7 @@
         "audits": [
           {
             "auditor": "Sayfer",
-            "report": "https://github.com/MetaMask/snaps-registry/files/12543946/Sayfer.-.2023-06.Penetration.Testing.Report.for.Tezos.Metamask.Snap.Application.pdf"
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-tezos/"
           }
         ],
         "category": "interoperability",
@@ -592,7 +592,7 @@
         "audits": [
           {
             "auditor": "Sayfer",
-            "report": "https://sayfer.io/audits/pianity-snap"
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-pianity/"
           }
         ],
         "category": "interoperability",
@@ -687,7 +687,7 @@
         "audits": [
           {
             "auditor": "Sayfer",
-            "report": "https://demystify.network/images/2023-08-Metamask-Snap-Demystify-Network.pdf"
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-demystify/"
           }
         ],
         "category": "transaction insights",
@@ -772,7 +772,7 @@
         "audits": [
           {
             "auditor": "Sayfer",
-            "report": "https://github.com/Tenderly/tenderly-snap/blob/main/audits/2023-08-Metamask-Snap-PT-for-Tenderly.pdf"
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-tenderly/"
           }
         ],
         "category": "transaction insights",
@@ -981,7 +981,7 @@
         "audits": [
           {
             "auditor": "Sayfer",
-            "report": "https://github.com/MetaMask/snaps-registry/files/12544468/Sayfer.-.2023-08.Penetration.Testing.Report.for.LeapWallet.Snap.-.Updated.pdf"
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-leapwallet/"
           }
         ],
         "category": "interoperability",
@@ -1011,7 +1011,7 @@
         "audits": [
           {
             "auditor": "Sayfer",
-            "report": "https://github.com/MetaMask/snaps-registry/files/12544383/Sayfer.-.2023-08.Penetration.Testing.Report.for.AnChain.Snap.pdf"
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-anchain-ai/"
           }
         ],
         "category": "transaction insights",
