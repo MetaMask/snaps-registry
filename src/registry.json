@@ -267,6 +267,9 @@
         },
         "0.37.3-flask.1": {
           "checksum": "q09kHX1Yh6y5o3ttFwB+ZVM6FOElyy3qqvoyYCWHiSQ="
+        },
+        "1.0.0": {
+          "checksum": "8g+RyiujKTblt/Lcetra+JaTWWS45Imi9rVtAdymplA="
         }
       }
     },
@@ -284,6 +287,9 @@
         },
         "0.38.1-flask.1": {
           "checksum": "w3Sp0Y7HB+uqHgv1L6S+V+Q7TW10/mUD7+jbbMUgz0g="
+        },
+        "1.0.0": {
+          "checksum": "o+3riRlkjanvz909rwJzWRxakUHudVke7ORmOHxMnpc="
         }
       }
     },
@@ -301,6 +307,9 @@
         },
         "0.38.1-flask.1": {
           "checksum": "uMXNv7TEb5zPsMIS8kfcX5HbvPdjIiUdj3zP05DuV+w="
+        },
+        "1.0.0": {
+          "checksum": "rvezXlgNZfZl22VCm9paR8ZQBkEW6MMhsjHJsZ88mgU="
         }
       }
     },
@@ -318,6 +327,9 @@
         },
         "0.38.1-flask.1": {
           "checksum": "slwFtkG5J8ldBG0JUL3EvAW5+0NGKERXcXdlIyCImqM="
+        },
+        "1.0.0": {
+          "checksum": "lMS0gzypSXkoR6qEfJ4NyPRmncBBnuf6venMWh961XM="
         }
       }
     },
@@ -335,6 +347,9 @@
         },
         "0.38.1-flask.1": {
           "checksum": "fRj3eRk7NIBp3Bd/Ji3rCIcMQy65psytCBFIQFo2G6s="
+        },
+        "1.0.0": {
+          "checksum": "Wa5LuPosJ5nAXu55PlzY9nk41VRuVmo3LcOdLaIbjq0="
         }
       }
     },
@@ -352,6 +367,9 @@
         },
         "0.38.1-flask.1": {
           "checksum": "+C2UG75icr02O2XPKLPaYAba1KsKg12qQDOMWmJ1li0="
+        },
+        "1.0.0": {
+          "checksum": "CwJGR0Jll1DjOt3kpxD6l4utazQFokN95bqWCOToFKI="
         }
       }
     },
@@ -369,6 +387,9 @@
         },
         "0.38.1-flask.1": {
           "checksum": "ydfyZetMKS1Z6iJEgaC51yZ2kPdCAwnciuM0TC9oDBs="
+        },
+        "1.0.0": {
+          "checksum": "QY3seNbkU81kQ25hpBICjcMUK41iI0tYUlwqsiWbVCo="
         }
       }
     },
@@ -386,6 +407,9 @@
         },
         "0.38.1-flask.1": {
           "checksum": "RftaRiY4VJewuY8jTQPrtxJ4oqBK9h2E4bTMiNQJkgE="
+        },
+        "1.0.0": {
+          "checksum": "xbeuKOOTkQjnJ7iB6BnLOMS6QXToEco2zeSUgk8zRUQ="
         }
       }
     },
@@ -400,6 +424,9 @@
         },
         "0.37.3-flask.1": {
           "checksum": "Vjp8paYaHuaEZzNA1KmLTSEHNvO5BxO5g8m58+92gDY="
+        },
+        "1.0.0": {
+          "checksum": "gKdBa0h+SZKNu6WFHFps5W1ly7WNTU2lrrOsyy7Z7VU="
         }
       }
     },
@@ -417,6 +444,9 @@
         },
         "0.38.1-flask.1": {
           "checksum": "mK8k9cUJX4aMrC0wnljGS7H9kDXY5h8atsu+Av3QyYI="
+        },
+        "1.0.0": {
+          "checksum": "SZ4XFuoRgScgbNGcoiwC88XZPB0khpVlxmBeLZe/36Y="
         }
       }
     },
@@ -437,6 +467,9 @@
         },
         "0.38.2-flask.1": {
           "checksum": "gietRn5VTciRfESWtWnTLKykNCZbTuIY7sRFhyTYkJI="
+        },
+        "1.0.0": {
+          "checksum": "6yhB3CDYFp1NILq/F8Y25mKCDRNdn1DjPYl8hUqd/Js="
         }
       }
     },
@@ -454,6 +487,9 @@
         },
         "0.38.1-flask.1": {
           "checksum": "yVIjEtJtZA6UXqh9auF2KfI2kBS3TU1kXTPKNUX+7Ms="
+        },
+        "1.0.0": {
+          "checksum": "uEiT70LbM6FvOChX6yz4VjOqAFHyrEhBRlRN+N93kec="
         }
       }
     },
@@ -471,6 +507,9 @@
         },
         "0.38.1-flask.1": {
           "checksum": "9leaWB2VbcMzyGfUSwOlBRnz0m94AwAE74011uLthfY="
+        },
+        "1.0.0": {
+          "checksum": "8V8IDFAjnJro0x76n9qcAEHMQiWJXGEB33R8PzICy3E="
         }
       }
     },
@@ -485,6 +524,9 @@
         },
         "0.37.3-flask.1": {
           "checksum": "mYgoreKol2M0vXCADK74P5y76F2ik5+/6WNiuYUmTug="
+        },
+        "1.0.0": {
+          "checksum": "dbAcz7LgrYbcKyQ/mmLD6xFyfNTPCAeLiOXh9Yq922k="
         }
       }
     },
@@ -747,6 +789,9 @@
       "versions": {
         "0.38.1-flask.1": {
           "checksum": "7u3+H0DxS/50QglAzBGJptTwr1axVoUErCiXeL4eevY="
+        },
+        "1.0.0": {
+          "checksum": "2baG/yUkEX0WSmShjAn2whb7U/RQh8OjSSpw3U6+vWI="
         }
       }
     },
@@ -758,6 +803,9 @@
       "versions": {
         "0.38.0-flask.1": {
           "checksum": "4DHXPu5lFAka46ohpDpyfwcSjT73s+nnZnO8PrVEr18="
+        },
+        "1.0.0": {
+          "checksum": "TszJ60KeknYWFD5tY/w/PMOk+cA5eeeaAkzyYbPqwYw="
         }
       }
     },
