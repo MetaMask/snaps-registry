@@ -1123,8 +1123,8 @@ __metadata:
   linkType: hard
 
 "@metamask/snaps-controllers@npm:^2.0.0":
-  version: 2.0.1
-  resolution: "@metamask/snaps-controllers@npm:2.0.1"
+  version: 2.0.2
+  resolution: "@metamask/snaps-controllers@npm:2.0.2"
   dependencies:
     "@metamask/approval-controller": ^3.5.0
     "@metamask/base-controller": ^3.2.0
@@ -1146,7 +1146,7 @@ __metadata:
     nanoid: ^3.1.31
     readable-web-to-node-stream: ^3.0.2
     tar-stream: ^2.2.0
-  checksum: effd478fd3ea93678cb289c214820b52219ce05aab1a4bad3dac77193ccc7af4103e8e8a359fc3062215d4b65a6087aebea7ed181f39045b04efeb10f598728f
+  checksum: b044c03bda2c381b3bf4f7698578e7c87203b1dbce281d04fd594b062a937fb712c8daa0aa80d936c83629627bf3bfdb75253e23b1052f6f878342694ae50fc2
   languageName: node
   linkType: hard
 
