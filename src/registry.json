@@ -743,6 +743,9 @@
         "sourceCode": "https://github.com/demystify-network/ThreatIntelligence"
       },
       "versions": {
+        "0.1.5": {
+          "checksum": "aG7zXvhqoRgIygI8uuF/qA2G35sWv7p1CqTVMgIcz5M="
+        },
         "0.1.4": {
           "checksum": "fSYoxcUAJrXDojueuozAf2ZhFg3hgiKItFe7ibDoBF8="
         }
