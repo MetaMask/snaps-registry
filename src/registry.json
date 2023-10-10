@@ -1423,7 +1423,6 @@
           "name": "ChainSafe",
           "website": "https://chainsafe.io/"
         },
-        "website": "https://metamask-snap-polkadot.pages.dev/",
         "summary": "Adds support for Polkadot to MetaMask.",
         "description": "Adds support for Polkadot to MetaMask. After installing the Snap, visit the website to manage your Polkadot account and assets.",
         "audits": [
