@@ -1462,7 +1462,7 @@
     "npm:filsnap": {
       "id": "npm:filsnap",
       "metadata": {
-        "name": "Filsnap",
+        "name": "Filecoin Wallet",
         "author": {
           "name": "Protocol Labs",
           "website": "https://protocol.ai/"
