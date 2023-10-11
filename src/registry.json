@@ -1470,7 +1470,7 @@
         },
         "website": "https://filsnap.fission.app/",
         "summary": "Adds support for Filecoin to MetaMask.",
-        "description": "Connect to Filecoin dapps using Metamask. Manage Filecoin accounts, send FIL to Native and FEVM accounts and enable FEVM transaction insights.",
+        "description": "Connect to Filecoin dapps using MetaMask. Manage Filecoin accounts, send FIL to Native and FEVM accounts and enable FEVM transaction insights.",
         "audits": [
           {
             "auditor": "Consensys Diligence",
