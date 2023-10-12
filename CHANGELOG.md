@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.0]
+### Added
+- Add hidden field to metadata ([#226](https://github.com/MetaMask/snaps-registry/pull/226))
+
 ## [2.0.0]
 ### Changed
 - **BREAKING**: Snap IDs are now required to start with the prefix `npm:` ([#75](https://github.com/MetaMask/snaps-registry/pull/75))
@@ -39,7 +43,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/MetaMask/snaps-registry/compare/v2.0.0...HEAD
+[Unreleased]: https://github.com/MetaMask/snaps-registry/compare/v2.1.0...HEAD
+[2.1.0]: https://github.com/MetaMask/snaps-registry/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/MetaMask/snaps-registry/compare/v1.2.2...v2.0.0
 [1.2.2]: https://github.com/MetaMask/snaps-registry/compare/v1.2.1...v1.2.2
 [1.2.1]: https://github.com/MetaMask/snaps-registry/compare/v1.2.0...v1.2.1
