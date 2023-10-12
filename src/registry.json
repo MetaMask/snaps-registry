@@ -253,7 +253,8 @@
     "npm:@metamask/bip32-example-snap": {
       "id": "npm:@metamask/bip32-example-snap",
       "metadata": {
-        "name": "BIP-32 Example Snap"
+        "name": "BIP-32 Example Snap",
+        "hidden": true
       },
       "versions": {
         "0.35.0-flask.1": {
@@ -276,7 +277,8 @@
     "npm:@metamask/bip44-example-snap": {
       "id": "npm:@metamask/bip44-example-snap",
       "metadata": {
-        "name": "BIP-44 Example Snap"
+        "name": "BIP-44 Example Snap",
+        "hidden": true
       },
       "versions": {
         "0.37.2-flask.1": {
@@ -296,7 +298,8 @@
     "npm:@metamask/cronjob-example-snap": {
       "id": "npm:@metamask/cronjob-example-snap",
       "metadata": {
-        "name": "Cronjob Example Snap"
+        "name": "Cronjob Example Snap",
+        "hidden": true
       },
       "versions": {
         "0.37.2-flask.1": {
@@ -316,7 +319,8 @@
     "npm:@metamask/dialog-example-snap": {
       "id": "npm:@metamask/dialog-example-snap",
       "metadata": {
-        "name": "Dialog Example Snap"
+        "name": "Dialog Example Snap",
+        "hidden": true
       },
       "versions": {
         "0.37.2-flask.1": {
@@ -336,7 +340,8 @@
     "npm:@metamask/error-example-snap": {
       "id": "npm:@metamask/error-example-snap",
       "metadata": {
-        "name": "Error Example Snap"
+        "name": "Error Example Snap",
+        "hidden": true
       },
       "versions": {
         "0.37.2-flask.1": {
@@ -356,7 +361,8 @@
     "npm:@metamask/ethereum-provider-example-snap": {
       "id": "npm:@metamask/ethereum-provider-example-snap",
       "metadata": {
-        "name": "Ethereum Provider Example Snap"
+        "name": "Ethereum Provider Example Snap",
+        "hidden": true
       },
       "versions": {
         "0.37.2-flask.1": {
@@ -376,7 +382,8 @@
     "npm:@metamask/ethers-js-example-snap": {
       "id": "npm:@metamask/ethers-js-example-snap",
       "metadata": {
-        "name": "Ethers.js Example Snap"
+        "name": "Ethers.js Example Snap",
+        "hidden": true
       },
       "versions": {
         "0.37.2-flask.1": {
@@ -396,7 +403,8 @@
     "npm:@metamask/get-entropy-example-snap": {
       "id": "npm:@metamask/get-entropy-example-snap",
       "metadata": {
-        "name": "Get Entropy Example Snap"
+        "name": "Get Entropy Example Snap",
+        "hidden": true
       },
       "versions": {
         "0.37.2-flask.1": {
@@ -416,7 +424,8 @@
     "npm:@metamask/json-rpc-example-snap": {
       "id": "npm:@metamask/json-rpc-example-snap",
       "metadata": {
-        "name": "JSON-RPC Example Snap"
+        "name": "JSON-RPC Example Snap",
+        "hidden": true
       },
       "versions": {
         "0.37.2-flask.1": {
@@ -433,7 +442,8 @@
     "npm:@metamask/manage-state-example-snap": {
       "id": "npm:@metamask/manage-state-example-snap",
       "metadata": {
-        "name": "Manage State Example Snap"
+        "name": "Manage State Example Snap",
+        "hidden": true
       },
       "versions": {
         "0.37.2-flask.1": {
@@ -453,7 +463,8 @@
     "npm:@metamask/network-example-snap": {
       "id": "npm:@metamask/network-example-snap",
       "metadata": {
-        "name": "Network Access Test Snap"
+        "name": "Network Access Test Snap",
+        "hidden": true
       },
       "versions": {
         "0.37.2-flask.1": {
@@ -476,7 +487,8 @@
     "npm:@metamask/notification-example-snap": {
       "id": "npm:@metamask/notification-example-snap",
       "metadata": {
-        "name": "Notifications Example Snap"
+        "name": "Notifications Example Snap",
+        "hidden": true
       },
       "versions": {
         "0.37.2-flask.1": {
@@ -496,7 +508,8 @@
     "npm:@metamask/insights-example-snap": {
       "id": "npm:@metamask/insights-example-snap",
       "metadata": {
-        "name": "Insights Example Snap"
+        "name": "Insights Example Snap",
+        "hidden": true
       },
       "versions": {
         "0.37.2-flask.1": {
@@ -516,7 +529,8 @@
     "npm:@metamask/wasm-example-snap": {
       "id": "npm:@metamask/wasm-example-snap",
       "metadata": {
-        "name": "WebAssembly Example Snap"
+        "name": "WebAssembly Example Snap",
+        "hidden": true
       },
       "versions": {
         "0.37.2-flask.1": {
@@ -787,7 +801,8 @@
     "npm:@metamask/get-locale-example-snap": {
       "id": "npm:@metamask/get-locale-example-snap",
       "metadata": {
-        "name": "Get Locale Example Snap"
+        "name": "Get Locale Example Snap",
+        "hidden": true
       },
       "versions": {
         "0.38.1-flask.1": {
@@ -801,7 +816,8 @@
     "npm:@metamask/lifecycle-hooks-example-snap": {
       "id": "npm:@metamask/lifecycle-hooks-example-snap",
       "metadata": {
-        "name": "Lifecycle Hooks Example Snap"
+        "name": "Lifecycle Hooks Example Snap",
+        "hidden": true
       },
       "versions": {
         "0.38.0-flask.1": {
