@@ -64,9 +64,12 @@ export const VerifiedSnapStruct = object({
     tags: optional(array(string())),
     support: optional(SupportStruct),
     sourceCode: optional(string()),
+    hidden: optional(boolean()),
   }),
   versions: record(VersionStruct, VerifiedSnapVersionStruct),
 });
+
+export type VerifiedSnap = Infer<typeof VerifiedSnapStruct>;
 
 export const BlockReasonStruct = object({
   explanation: optional(string()),
