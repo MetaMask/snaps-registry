@@ -1449,7 +1449,8 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "https://discord.gg/xSAwrnCWcg"
+          "contact": "https://discord.gg/xSAwrnCWcg",
+          "faq": "https://github.com/ChainSafe/metamask-snap-polkadot/wiki/Example-dApp-Usage"
         },
         "sourceCode": "https://github.com/ChainSafe/metamask-snap-polkadot"
       },
