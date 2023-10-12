@@ -1517,6 +1517,18 @@
           "checksum": "JeAHhMjDDsJ21FuyOA+AVNTkn0FQrk6ksL8DqbBWx7w="
         }
       }
+    },
+    "npm:@metamask/snap-simple-keyring-snap": {
+      "id": "npm:@metamask/snap-simple-keyring-snap",
+      "metadata": {
+        "name": "MetaMask Simple Snap Keyring",
+        "hidden": true
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "rBefvbSfjNsvzlhzUTNwlqk9lAecu/X7cP1ZOC/Wa2A="
+        }
+      }
     }
   },
   "blockedSnaps": [
