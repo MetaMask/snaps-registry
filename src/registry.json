@@ -1479,7 +1479,7 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "filsnap-support@protocol.ai"
+          "contact": "mailto:filecoin-snap@fil.org"
         },
         "sourceCode": "https://github.com/filecoin-project/filsnap/"
       },
