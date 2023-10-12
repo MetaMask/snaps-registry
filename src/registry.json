@@ -994,7 +994,6 @@
             "report": "https://ottersec.notion.site/Vega-Snap-7545db216bee4e128cfcac16d41896b6"
           }
         ],
-        "category": "interoperability",
         "support": {
           "contact": "https://vega.xyz/discord"
         },
@@ -1439,6 +1438,7 @@
           "name": "ChainSafe",
           "website": "https://chainsafe.io/"
         },
+        "website": "https://polkadot.snap.chainsafe.io/",
         "summary": "Adds support for Polkadot to MetaMask.",
         "description": "Adds support for Polkadot to MetaMask. After installing the Snap, visit the website to manage your Polkadot account and assets.",
         "audits": [
@@ -1449,13 +1449,72 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "https://discord.gg/xSAwrnCWcg"
+          "contact": "https://discord.gg/xSAwrnCWcg",
+          "faq": "https://github.com/ChainSafe/metamask-snap-polkadot/wiki/Example-dApp-Usage"
         },
         "sourceCode": "https://github.com/ChainSafe/metamask-snap-polkadot"
       },
       "versions": {
         "0.7.7": {
           "checksum": "GwKusydp1vpDXY7B98s0zjVphX1d16ZnkGG3xfPqXHM="
+        }
+      }
+    },
+    "npm:filsnap": {
+      "id": "npm:filsnap",
+      "metadata": {
+        "name": "Filecoin Wallet",
+        "author": {
+          "name": "Protocol Labs",
+          "website": "https://protocol.ai/"
+        },
+        "website": "https://filsnap.fission.app/",
+        "summary": "Adds support for Filecoin to MetaMask.",
+        "description": "Connect to Filecoin dapps using MetaMask. Manage Filecoin accounts, send FIL to Native and FEVM accounts and enable FEVM transaction insights.",
+        "audits": [
+          {
+            "auditor": "Consensys Diligence",
+            "report": "https://consensys.io/diligence/audits/2023/08/metamask/partner-snaps-filsnap/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "filsnap-support@protocol.ai"
+        },
+        "sourceCode": "https://github.com/filecoin-project/filsnap/"
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "IAuCBc12H1qeknSu+6KjaW0DXSVyPwXrc+urlykkLdg="
+        }
+      }
+    },
+    "npm:@kunalabs-io/sui-metamask-snap": {
+      "id": "npm:@kunalabs-io/sui-metamask-snap",
+      "metadata": {
+        "name": "Sui",
+        "author": {
+          "name": "Kuna Labs",
+          "website": "https://kunalabs.io/"
+        },
+        "website": "https://suisnap.com/",
+        "summary": "A Snap for making transactions on the Sui blockchain.",
+        "description": "A Snap for making transactions on the Sui blockchain. After installing the Snap, visit the website to manage your Sui accounts.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-kunalabs/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.com/invite/nTth43SUxJ"
+        },
+        "sourceCode": "https://github.com/kunalabs-io/sui-snap"
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "JeAHhMjDDsJ21FuyOA+AVNTkn0FQrk6ksL8DqbBWx7w="
         }
       }
     }
