@@ -1487,6 +1487,35 @@
           "checksum": "IAuCBc12H1qeknSu+6KjaW0DXSVyPwXrc+urlykkLdg="
         }
       }
+    },
+    "npm:@kunalabs-io/sui-metamask-snap": {
+      "id": "npm:@kunalabs-io/sui-metamask-snap",
+      "metadata": {
+        "name": "Sui",
+        "author": {
+          "name": "Kuna Labs",
+          "website": "https://kunalabs.io/"
+        },
+        "website": "https://suisnap.com/",
+        "summary": "A Snap for making transactions on the Sui blockchain.",
+        "description": "A Snap for making transactions on the Sui blockchain. After installing the Snap, visit the website to manage your Sui accounts.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-kunalabs/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.com/invite/nTth43SUxJ"
+        },
+        "sourceCode": "https://github.com/kunalabs-io/sui-snap"
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "JeAHhMjDDsJ21FuyOA+AVNTkn0FQrk6ksL8DqbBWx7w="
+        }
+      }
     }
   },
   "blockedSnaps": [
