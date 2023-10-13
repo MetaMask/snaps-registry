@@ -150,6 +150,9 @@
         "sourceCode": "https://github.com/wallet-guard/wallet-guard-snap"
       },
       "versions": {
+        "1.1.0": {
+          "checksum": "pB87tpEB7Z+iMXWUuSpGEq5cAswLcAOJEDaxQq9Tcz0="
+        },
         "1.0.2": {
           "checksum": "2yoyqVvqwRxZSasmeFXqWd2+BZNiIBr1CFM9ZQR2EsM="
         },
