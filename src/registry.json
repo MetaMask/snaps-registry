@@ -187,6 +187,9 @@
         "sourceCode": "https://github.com/ethereum-push-notification-service/push-protocol-snaps"
       },
       "versions": {
+        "1.0.9": {
+          "checksum": "ylC/n+yOn+ugzZTNsxSBsN/0e+T+SShklvBsIqPDoNA="
+        },
         "1.0.7": {
           "checksum": "qifjW8nfLF3XNux2spj0eEk1u3ViEIMawjz1lREGc14="
         }
