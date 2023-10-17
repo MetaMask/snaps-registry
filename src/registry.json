@@ -1527,6 +1527,35 @@
         }
       }
     },
+    "npm:@near-snap/plugin": {
+      "id": "npm:@near-snap/plugin",
+      "metadata": {
+        "name": "NEAR Protocol",
+        "author": {
+          "name": "HERE Wallet",
+          "website": "https://www.herewallet.app/"
+        },
+        "website": "https://near-snap.surge.sh/",
+        "summary": "View and sign transactions for NEAR Protocol blockchain",
+        "description": "View and sign transactions for NEAR Protocol blockchain.\n\nFeatures:\n1. You can create an account on NEAR Protocol with ed25519 key\n2. You can sign transactions on NEAR Protocol\n3. FT token transfers and token additions are visualized\n4. You can export keys to a third-party wallet\n5. Meta-transactions on NEAR Protocol are supported",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://github.com/here-wallet/near-snap/blob/main/ottersec.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": ""
+        },
+        "sourceCode": "https://github.com/here-wallet/near-snap"
+      },
+      "versions": {
+        "0.6.1": {
+          "checksum": "77c7l1DmnhV9Ja1LdYHefYaYESZoFw7BTMO3PX52VX8="
+        }
+      }
+    },
     "npm:@metamask/snap-simple-keyring-snap": {
       "id": "npm:@metamask/snap-simple-keyring-snap",
       "metadata": {
