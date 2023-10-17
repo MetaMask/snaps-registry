@@ -170,8 +170,8 @@
           "website": "https://push.org/"
         },
         "website": "https://app.push.org/snap",
-        "summary": "Push Snap is a powerful tool that allows any wallet address to receive notifications directly in MetaMask.",
-        "description": "Push Snap is a powerful tool that allows any wallet address to receive notifications directly in MetaMask. With Push Snap, you can now seamlessly receive notifications powered by Push Protocol directly in your wallet, ensuring you never miss out on important updates from the channels that you subscribe to.\n\nAfter installing the Snap, visit the website to connect the Snap with the Push dashboard and start receiving notifications in MetaMask. You can manage your subscriptions from the dashboard. Steps:\n\n1) Once successfully connected / installed the Snap will redirect to Push Channels Dapp\n\n2) Here you can opt-in to your favourite channels to receive notifications\n\n3) Once done, you can go back to the Snap Settings Page\n\n4) With the connected wallet, click on Add Address (this allows you to add an address for which you prefer to receive notifications), then sign the message to complete the process\n\n5) Now you are all set. You will receive notifications directly in MetaMask for that address thanks to the Push V1 Snap.",
+        "summary": "Push Snap is a powerful tool that allows any wallet address to seamlessly receive and manage notifications directly in MetaMask.",
+        "description": "Push Snap is a powerful tool that allows any wallet address to seamlessly receive and manage notifications directly in MetaMask.\n\n1. Get started by Installing Push Snap.\n2. Once Push Snap has been successfully installed, visit https://app.push.org/snap and connect your wallet using MetaMask.\n3. After connecting your address, Manage Snap Settings or Get Started by visiting https://app.push.org/channels\n4. You're all set! Once on https://app.push.org/channels, opt-in channels you like and receive notifications directly in MetaMask.\n\nExtra Features:\nAdd/remove wallets in Settings.\nAbility to snooze notification pop-ups",
         "audits": [
           {
             "auditor": "Consensys Diligence",
@@ -1129,11 +1129,11 @@
         "sourceCode": "https://github.com/rarimo/rarime"
       },
       "versions": {
+        "0.5.0": {
+          "checksum": "dZLJw4DpoiXgAjwOHLIbhjOhBw1riUDGcjvzVaJu/oE="
+        },
         "0.4.0": {
           "checksum": "lv/PkqOxGt10NAk8owemNQppfyP01GEDI8X5WMy2xFM="
-        },
-        "0.3.2": {
-          "checksum": "ARaGpxTRetiQNbBx3xvH9u8460FSGwg+LduL1fGQqjs="
         }
       }
     },
@@ -1524,6 +1524,36 @@
       "versions": {
         "1.0.1": {
           "checksum": "JeAHhMjDDsJ21FuyOA+AVNTkn0FQrk6ksL8DqbBWx7w="
+        }
+      }
+    },
+    "npm:@near-snap/plugin": {
+      "id": "npm:@near-snap/plugin",
+      "metadata": {
+        "name": "NEAR Protocol",
+        "author": {
+          "name": "HERE Wallet",
+          "website": "https://www.herewallet.app/"
+        },
+        "website": "https://near-snap.surge.sh/",
+        "summary": "View and sign transactions for NEAR Protocol blockchain",
+        "description": "View and sign transactions for NEAR Protocol blockchain.\n\nFeatures:\n1. You can create an account on NEAR Protocol with ed25519 key\n2. You can sign transactions on NEAR Protocol\n3. FT token transfers and token additions are visualized\n4. You can export keys to a third-party wallet\n5. Meta-transactions on NEAR Protocol are supported",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://github.com/here-wallet/near-snap/blob/main/ottersec.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/vhDSpqbmFj",
+          "knowledgeBase": "https://github.com/here-wallet/near-snap#readme"
+        },
+        "sourceCode": "https://github.com/here-wallet/near-snap"
+      },
+      "versions": {
+        "0.6.1": {
+          "checksum": "77c7l1DmnhV9Ja1LdYHefYaYESZoFw7BTMO3PX52VX8="
         }
       }
     },
