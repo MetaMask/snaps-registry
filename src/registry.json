@@ -1129,7 +1129,7 @@
         "sourceCode": "https://github.com/rarimo/rarime"
       },
       "versions": {
-        "0.5.0": { 
+        "0.5.0": {
           "checksum": "dZLJw4DpoiXgAjwOHLIbhjOhBw1riUDGcjvzVaJu/oE="
         },
         "0.4.0": {
@@ -1546,7 +1546,8 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": ""
+          "contact": "https://discord.gg/vhDSpqbmFj",
+          "knowledgeBase": "https://github.com/here-wallet/near-snap#readme"
         },
         "sourceCode": "https://github.com/here-wallet/near-snap"
       },
