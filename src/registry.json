@@ -23,6 +23,9 @@
         "sourceCode": "https://github.com/ChainSafe/aleo-snap"
       },
       "versions": {
+        "1.2.2": {
+          "checksum": "CaO1hCMftzS8NR608xuMe/kjXG7k+YtG6eq1Q6jAx7Q="
+        },
         "1.2.0": {
           "checksum": "DB8uCN9I0YY19mPwwsYrRyHoJbRXDNrs5cf/ZJX+Wmc="
         }
@@ -1129,6 +1132,9 @@
         "sourceCode": "https://github.com/rarimo/rarime"
       },
       "versions": {
+        "0.6.0": {
+          "checksum": "qwGl3IBgzNUUd5bsWem1tyy3cSNIBqyFNtTV+29xsdY="
+        },
         "0.5.0": {
           "checksum": "dZLJw4DpoiXgAjwOHLIbhjOhBw1riUDGcjvzVaJu/oE="
         },
@@ -1478,8 +1484,8 @@
           "website": "https://protocol.ai/"
         },
         "website": "https://filsnap.fission.app/",
-        "summary": "Adds support for Filecoin to MetaMask.",
-        "description": "Connect to Filecoin dapps using MetaMask. Manage Filecoin accounts, send FIL to Native and FEVM accounts and enable FEVM transaction insights.",
+        "summary": "Connect to Filecoin dapps using MetaMask. Manage Filecoin accounts, send FIL to Native and FEVM accounts and enable FEVM transaction insights.",
+        "description": "Connect to Filecoin dapps using MetaMask. Manage Filecoin accounts, send FIL to Native and FEVM accounts and enable FEVM transaction insights.\n\nEnhances MetaMask with native Filecoin address support (e.g. f1 addresses). (Not needed for the Filecoin EVM.)\n\nAfter installing the Snap, visit the website to connect with MetaMask and start using the Snap.",
         "audits": [
           {
             "auditor": "Consensys Diligence",
