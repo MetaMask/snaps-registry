@@ -1132,11 +1132,11 @@
         "sourceCode": "https://github.com/rarimo/rarime"
       },
       "versions": {
+        "0.8.0": {
+          "checksum": "y+9O7z7mlNe85T/RCp32jySBwGoJ9tf0NrKlLrpgNdw="
+        },
         "0.7.2": {
           "checksum": "pb5EtoA4WA6RSkX16SF3P9C/TutpYKnS1sS80yTBCgo="
-        },
-        "0.6.0": {
-          "checksum": "qwGl3IBgzNUUd5bsWem1tyy3cSNIBqyFNtTV+29xsdY="
         }
       }
     },
