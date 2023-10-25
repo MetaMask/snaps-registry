@@ -1210,13 +1210,13 @@ __metadata:
   linkType: soft
 
 "@metamask/snaps-ui@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@metamask/snaps-ui@npm:3.0.0"
+  version: 3.0.1
+  resolution: "@metamask/snaps-ui@npm:3.0.1"
   dependencies:
     "@metamask/utils": ^8.1.0
     is-svg: ^4.4.0
     superstruct: ^1.0.3
-  checksum: b683fbc3d4bec071abe0cdd4399a0d99f03c024bbacd1284822e7df66da82053f37a81fb3455ce852cf847033710eb08eef343c2fbc885f4ebdd5cf94880d68a
+  checksum: de4cdf1a589c0af429860a7e15610d8e8f15b0c37fbd1919d2b7f770cf778ed97af0a158257657ca611abaa0ab10f8569c728775dd7f5c72f189ac33b15c05f0
   languageName: node
   linkType: hard
 
