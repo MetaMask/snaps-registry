@@ -1100,8 +1100,8 @@ __metadata:
   linkType: hard
 
 "@metamask/snaps-controllers@npm:^3.0.0":
-  version: 3.1.0
-  resolution: "@metamask/snaps-controllers@npm:3.1.0"
+  version: 3.1.1
+  resolution: "@metamask/snaps-controllers@npm:3.1.1"
   dependencies:
     "@metamask/approval-controller": ^4.0.0
     "@metamask/base-controller": ^3.2.0
@@ -1128,7 +1128,7 @@ __metadata:
   peerDependenciesMeta:
     "@metamask/snaps-execution-environments":
       optional: true
-  checksum: addd531ad282f684cc9ed7aeb13c5082213c5584fb073ecbeed74b5e6a09ed2b9390a207f77bc7bab3aa2a67b175ffbc49456239e28fdd65d004ed349fb4e6c5
+  checksum: a4fb339916481111c8c68c043e0633141583ae3128ccb78dc08b824791a1de394e293b5c2909b0d18af2858e8cc1963e4afc3f43abd75b62ed43845f2c0ece3f
   languageName: node
   linkType: hard
 
