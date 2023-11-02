@@ -1075,6 +1075,9 @@
         "sourceCode": "https://github.com/leapwallet/cosmos-metamask-snap"
       },
       "versions": {
+        "0.1.25": {
+          "checksum": ""
+        },
         "0.1.17": {
           "checksum": "CLwZocaUEbDErtQAsybaudZDJq65a8AwlEFgkGUpmAQ="
         },
