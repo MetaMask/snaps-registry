@@ -68,8 +68,8 @@
           "website": "https://www.walletchat.fun/"
         },
         "website": "https://app.walletchat.fun/",
-        "summary": "Wallet-to-wallet chat notifications via WalletChat.fun.",
-        "description": "Get WalletChat.fun message notifications directly in your MetaMask!\n\nAfter installing the Snap, visit the website to start using WalletChat.",
+        "summary": "Send and receive DMs inside MetaMask, with WalletChat",
+        "description": "Send and receive DMs from any wallet address or ENS inside MetaMask, with WalletChat.\n\nAfter enabling this Snap, you will need to set up a WalletChat account, in 3 simple steps. Then all set!\nFrom now on, you will get a pop up notification displaying each DM you receive. You can respond to the DM from the same pop up.\nTo initiate new messages, for now, you will need to use https://app.walletchat.fun/. In the near future, this wlll also be possible from within the Snap.\n\nDitch Telegram and turn your MetaMask into a web3-native messenger!\nVideo tutorial: https://docs.walletchat.fun/metamask-integration\n\nWalletChat is the leading web3 messaging ecosystem, available across multiple blockchains and embedded inside dapps ranging from NFTfi, games, and wallets like Ledger Live. Learn more at https://www.walletchat.fun/",
         "audits": [
           {
             "auditor": "Cure53",
