@@ -1635,7 +1635,7 @@
         ],
         "category": "interoperability",
         "support": {
-          "knowledgeBase": "https://docs.astar.network/docs/build/astar-beta-labs/metamask-snaps/"
+          "knowledgeBase": "https://docs.astar.network/docs/use/manage-wallets/wallet-providers/metamask-astar-snap/"
         },
         "sourceCode": "https://github.com/AstarNetwork/metamask-snap-astar"
       },
