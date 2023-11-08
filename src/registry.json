@@ -1600,12 +1600,13 @@
           "name": "Astar Network",
           "website": "https://astar.network/"
         },
+        "website": "https://portal.astar.network/shibuya-testnet/assets",
         "summary": "Adds support for Astar to MetaMask",
         "description": "Adds support for Astar, an interoperable blockchain platform for Polkadot and Ethereum ecosystems supporting both Wasm and EVM smart contracts.",
         "audits": [
           {
             "auditor": "Sayfer",
-            "report": "https://github.com/MetaMask/snaps-registry/files/13243950/2023-10.Metamask.Snap.Audit.for.Astar.pdf"
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-astar/"
           }
         ],
         "category": "interoperability",
