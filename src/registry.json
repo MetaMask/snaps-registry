@@ -1620,14 +1620,14 @@
     "npm:@quickintel/quickintel-snap": {
       "id": "npm:@quickintel/quickintel-snap",
       "metadata": {
-        "name": "QuickIntel",
+        "name": "Quick Intel",
         "author": {
           "name": "Quick Intel",
           "website": "https://quickintel.io/"
         },
         "website": "https://quickintel.io/snap",
         "summary": "Real-time token risk analysis across 28 blockchains. Protect yourself against potential scams.",
-        "description": "QuickIntel Snap performs scans on any DEX, the QuickIntel window appears with audit results before you swap the token. Real-time data to protect you from potential scams!\n\nAfter installing the Snap, you will see the QuickIntel insights in the transaction confirmation screen.",
+        "description": "Quick Intel Snap performs scans on any DEX, the Quick Intel window appears with audit results before you swap the token. Real-time data to protect you from potential scams!\n\nAfter installing the Snap, you will see the Quick Intel insights in the transaction confirmation screen.",
         "audits": [
           {
             "auditor": "Veridise",
