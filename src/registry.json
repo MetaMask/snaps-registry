@@ -62,14 +62,14 @@
     "npm:walletchat-metamask-snap": {
       "id": "npm:walletchat-metamask-snap",
       "metadata": {
-        "name": "app.walletchat.fun",
+        "name": "app.walletchat.fun 💬",
         "author": {
           "name": "WalletChat",
           "website": "https://www.walletchat.fun/"
         },
         "website": "https://app.walletchat.fun/",
-        "summary": "Wallet-to-wallet chat notifications via WalletChat.fun.",
-        "description": "Get WalletChat.fun message notifications directly in your MetaMask!\n\nAfter installing the Snap, visit the website to start using WalletChat.",
+        "summary": "Send and receive DMs inside MetaMask, with WalletChat",
+        "description": "Send and receive DMs from any wallet address or ENS inside MetaMask, with WalletChat.\n\nAfter enabling this Snap, you will need to set up a WalletChat account, in 3 simple steps. Then all set!\nFrom now on, you will get a pop up notification displaying each DM you receive. You can respond to the DM from the same pop up.\nTo initiate new messages, for now, you will need to use https://app.walletchat.fun/. In the near future, this wlll also be possible from within the Snap.\n\nDitch Telegram and turn your MetaMask into a web3-native messenger!\nVideo tutorial: https://docs.walletchat.fun/metamask-integration\n\nWalletChat is the leading web3 messaging ecosystem, available across multiple blockchains and embedded inside dapps ranging from NFTfi, games, and wallets like Ledger Live. Learn more at https://www.walletchat.fun/",
         "audits": [
           {
             "auditor": "Cure53",
@@ -984,62 +984,6 @@
         }
       }
     },
-    "npm:@rise-wallet/aptos-snap": {
-      "id": "npm:@rise-wallet/aptos-snap",
-      "metadata": {
-        "name": "Aptos Wallet",
-        "author": {
-          "name": "Rise Wallet",
-          "website": "https://risewallet.io/"
-        },
-        "summary": "Manage Aptos-based tokens and NFTs, swap, stake and connect to Aptos apps with MetaMask.",
-        "description": "Manage Aptos-based tokens and NFTs, swap, stake and connect to Aptos apps with MetaMask. Website coming soon.",
-        "audits": [
-          {
-            "auditor": "Consensys Diligence",
-            "report": "https://consensys.io/diligence/audits/2023/08/solflare-metamask-snaps-solflare-sui-aptos/"
-          }
-        ],
-        "category": "interoperability",
-        "support": {
-          "contact": "https://help.risewallet.io/"
-        },
-        "sourceCode": "https://github.com/solflare-wallet/aptos-snap"
-      },
-      "versions": {
-        "1.0.3": {
-          "checksum": "UIzV+8niJT7uw4bUlBp1wa0uNqnPjzgMMPLLlXeh9Ts="
-        }
-      }
-    },
-    "npm:@elli-wallet/sui-snap": {
-      "id": "npm:@elli-wallet/sui-snap",
-      "metadata": {
-        "name": "Sui Wallet",
-        "author": {
-          "name": "Elli Wallet",
-          "website": "https://elliwallet.com/"
-        },
-        "summary": "Manage Sui-based tokens and NFTs, stake and connect to Sui apps with MetaMask.",
-        "description": "Manage Sui-based tokens and NFTs, stake and connect to Sui apps with MetaMask. Website coming soon.",
-        "audits": [
-          {
-            "auditor": "Consensys Diligence",
-            "report": "https://consensys.io/diligence/audits/2023/08/solflare-metamask-snaps-solflare-sui-aptos/"
-          }
-        ],
-        "category": "interoperability",
-        "support": {
-          "contact": "https://help.elliwallet.com/"
-        },
-        "sourceCode": "https://github.com/solflare-wallet/sui-snap"
-      },
-      "versions": {
-        "1.0.3": {
-          "checksum": "ABz7nLrozZ2ac3pXG6wbyW6qJcWoOOC6QxGdn16TF+k="
-        }
-      }
-    },
     "npm:@vegaprotocol/snap": {
       "id": "npm:@vegaprotocol/snap",
       "metadata": {
@@ -1614,6 +1558,37 @@
       "versions": {
         "0.6.1": {
           "checksum": "77c7l1DmnhV9Ja1LdYHefYaYESZoFw7BTMO3PX52VX8="
+        }
+      }
+    },
+    "npm:@quickintel/quickintel-snap": {
+      "id": "npm:@quickintel/quickintel-snap",
+      "metadata": {
+        "name": "Quick Intel",
+        "author": {
+          "name": "Quick Intel",
+          "website": "https://quickintel.io/"
+        },
+        "website": "https://quickintel.io/snap",
+        "summary": "Real-time token risk analysis across 28 blockchains. Protect yourself against potential scams.",
+        "description": "Quick Intel Snap performs scans on any DEX, the Quick Intel window appears with audit results before you swap the token. Real-time data to protect you from potential scams!\n\nAfter installing the Snap, you will see the Quick Intel insights in the transaction confirmation screen.",
+        "audits": [
+          {
+            "auditor": "Veridise",
+            "report": "https://github.com/Quick-Intel/quickintel-snap/blob/main/VAR_quickintel_snap.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/quicki",
+          "faq": "https://docs.quickintel.io/metamask-snap/faq",
+          "knowledgeBase": "https://docs.quickintel.io/metamask-snap/introduction"
+        },
+        "sourceCode": "https://github.com/Quick-Intel/quickintel-snap"
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "fDEVgkJ+8LZnQHX9vVDksf/EZP2nr5WKA5y14QJywyQ="
         }
       }
     },
