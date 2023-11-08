@@ -1617,6 +1617,37 @@
         }
       }
     },
+    "npm:@quickintel/quickintel-snap": {
+      "id": "npm:@quickintel/quickintel-snap",
+      "metadata": {
+        "name": "QuickIntel",
+        "author": {
+          "name": "Quick Intel",
+          "website": "https://quickintel.io/"
+        },
+        "website": "https://quickintel.io/snap",
+        "summary": "Real-time token risk analysis across 28 blockchains. Protect yourself against potential scams.",
+        "description": "QuickIntel Snap performs scans on any DEX, the QuickIntel window appears with audit results before you swap the token. Real-time data to protect you from potential scams!\n\nAfter installing the Snap, you will see the QuickIntel insights in the transaction confirmation screen.",
+        "audits": [
+          {
+            "auditor": "Veridise",
+            "report": "https://github.com/Quick-Intel/quickintel-snap/blob/main/VAR_quickintel_snap.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/quicki",
+          "faq": "https://docs.quickintel.io/metamask-snap/faq",
+          "knowledgeBase": "https://docs.quickintel.io/metamask-snap/introduction"
+        },
+        "sourceCode": "https://github.com/Quick-Intel/quickintel-snap"
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "fDEVgkJ+8LZnQHX9vVDksf/EZP2nr5WKA5y14QJywyQ="
+        }
+      }
+    },
     "npm:@metamask/snap-simple-keyring-snap": {
       "id": "npm:@metamask/snap-simple-keyring-snap",
       "metadata": {
