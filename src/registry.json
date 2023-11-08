@@ -984,62 +984,6 @@
         }
       }
     },
-    "npm:@rise-wallet/aptos-snap": {
-      "id": "npm:@rise-wallet/aptos-snap",
-      "metadata": {
-        "name": "Aptos Wallet",
-        "author": {
-          "name": "Rise Wallet",
-          "website": "https://risewallet.io/"
-        },
-        "summary": "Manage Aptos-based tokens and NFTs, swap, stake and connect to Aptos apps with MetaMask.",
-        "description": "Manage Aptos-based tokens and NFTs, swap, stake and connect to Aptos apps with MetaMask. Website coming soon.",
-        "audits": [
-          {
-            "auditor": "Consensys Diligence",
-            "report": "https://consensys.io/diligence/audits/2023/08/solflare-metamask-snaps-solflare-sui-aptos/"
-          }
-        ],
-        "category": "interoperability",
-        "support": {
-          "contact": "https://help.risewallet.io/"
-        },
-        "sourceCode": "https://github.com/solflare-wallet/aptos-snap"
-      },
-      "versions": {
-        "1.0.3": {
-          "checksum": "UIzV+8niJT7uw4bUlBp1wa0uNqnPjzgMMPLLlXeh9Ts="
-        }
-      }
-    },
-    "npm:@elli-wallet/sui-snap": {
-      "id": "npm:@elli-wallet/sui-snap",
-      "metadata": {
-        "name": "Sui Wallet",
-        "author": {
-          "name": "Elli Wallet",
-          "website": "https://elliwallet.com/"
-        },
-        "summary": "Manage Sui-based tokens and NFTs, stake and connect to Sui apps with MetaMask.",
-        "description": "Manage Sui-based tokens and NFTs, stake and connect to Sui apps with MetaMask. Website coming soon.",
-        "audits": [
-          {
-            "auditor": "Consensys Diligence",
-            "report": "https://consensys.io/diligence/audits/2023/08/solflare-metamask-snaps-solflare-sui-aptos/"
-          }
-        ],
-        "category": "interoperability",
-        "support": {
-          "contact": "https://help.elliwallet.com/"
-        },
-        "sourceCode": "https://github.com/solflare-wallet/sui-snap"
-      },
-      "versions": {
-        "1.0.3": {
-          "checksum": "ABz7nLrozZ2ac3pXG6wbyW6qJcWoOOC6QxGdn16TF+k="
-        }
-      }
-    },
     "npm:@vegaprotocol/snap": {
       "id": "npm:@vegaprotocol/snap",
       "metadata": {
