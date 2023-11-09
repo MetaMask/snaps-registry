@@ -1040,6 +1040,9 @@
         "sourceCode": "https://github.com/blockchain-lab-um/masca"
       },
       "versions": {
+        "1.1.0": {
+          "checksum": "lvNJQRx0yBScxfNkwkCnAtiRKSDkCkDlp3uMVBZXF7A="
+        },
         "1.0.0": {
           "checksum": "nVKFpAn6RCNMM8UOH344F+tQUP6pxGjzisRXGBYf550="
         }
