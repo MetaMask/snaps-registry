@@ -1595,6 +1595,35 @@
         }
       }
     },
+    "npm:@astar-network/snap": {
+      "id": "npm:@astar-network/snap",
+      "metadata": {
+        "name": "Astar Wallet",
+        "author": {
+          "name": "Astar Network",
+          "website": "https://astar.network/"
+        },
+        "website": "https://portal.astar.network/shibuya-testnet/assets",
+        "summary": "Adds support for Astar to MetaMask",
+        "description": "Adds support for Astar, an interoperable blockchain platform for Polkadot and Ethereum ecosystems supporting both Wasm and EVM smart contracts.\n\nAfter installing the Snap, visit the Astar Portal to connect on the Shibuya Testnet. Make sure to select 'Astar Snap' under the Native Accounts options.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-astar/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://docs.astar.network/docs/use/manage-wallets/wallet-providers/metamask-astar-snap/"
+        },
+        "sourceCode": "https://github.com/AstarNetwork/metamask-snap-astar"
+      },
+      "versions": {
+        "0.7.9": {
+          "checksum": "cxsvZsdg8krtAqp4N2D/GrO6He8GmBfwb/YtQ9nebr0="
+        }
+      }
+    },
     "npm:@metamask/snap-simple-keyring-snap": {
       "id": "npm:@metamask/snap-simple-keyring-snap",
       "metadata": {
