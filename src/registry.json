@@ -1624,6 +1624,35 @@
         }
       }
     },
+    "npm:@nocturne-xyz/snap": {
+      "id": "npm:@nocturne-xyz/snap",
+      "metadata": {
+        "name": "Nocturne",
+        "author": {
+          "name": "Nocturne",
+          "website": "https://nocturnelabs.xyz"
+        },
+        "summary": "Nocturne is a protocol for private accounts on Ethereum that enables users to transact with built-in asset privacy.",
+        "description": "During the Nocturne onboarding flow, the user derives an alternative private key called their Nocturne spending key. This key controls the user's funds within Nocturne. The Nocturne MetaMask Snap stores and manages this spending key.\n\nNocturne Spending Key Derivation\nDuring the first user onboarding flow, the user is prompted to sign a fixed message. The produced signature serves as the user's spending key and is stored in the Nocturne Snap. After being stored, the key never leaves the Nocturne Snap and is only accessed by the Snap for producing signatures.\n\nRegistering Your Canonical Address\nA canonical Nocturne address is a public address that can be used to generate more Nocturne stealth addresses that belong to the owner of the corresponding Nocturne spending key. One of the last steps in the user-onboarding flow is for the user to register their canonical Nocturne address against their public Ethereum address to facilitate a convenient mapping. The Nocturne Snap will prompt the user to sign a message proving that they own the canonical Nocturne address. After that, the user generates a ZKP of the signature and then submits it to the canonical address registry contract to link their Nocturne address to their public wallet.\n\nSigning Operations\nAll operations that spend private funds, (transferring ETH to a fresh address, performing a private swap, etc) must be authorized from your Nocturne spending key. When a user wants to perform an operation, the Nocturne Snap will prompt the user to confirm they would like to authorize the operation. If the user hits 'Confirm,' the Snap will sign the operation with the user's spending key, authorizing the operation.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://github.com/MetaMask/snaps-registry/files/13315776/nocturne_snap_audit_final.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/MxZYtzzFmJ",
+          "knowledgeBase": "https://nocturne-xyz.gitbook.io/nocturne/users/metamask-snap"
+        },
+        "sourceCode": "https://github.com/nocturne-xyz/snap"
+      },
+      "versions": {
+        "0.10.1": {
+          "checksum": ""
+        }
+      }
+    },
     "npm:@metamask/snap-simple-keyring-snap": {
       "id": "npm:@metamask/snap-simple-keyring-snap",
       "metadata": {
