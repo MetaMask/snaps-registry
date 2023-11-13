@@ -289,6 +289,9 @@
         },
         "2.0.1": {
           "checksum": "4N4ZT8QBuqMJrLYXBTAN7DtUXxerR1HXD+89p/8Vurw="
+        },
+        "2.1.0": {
+          "checksum": "3PiDzz7GdMsESG/6ZAJqFjn2Li8oaCvw2i3k+IFooXs="
         }
       }
     },
@@ -313,6 +316,9 @@
         },
         "2.0.1": {
           "checksum": "6y7H6/XXdUTd0neTWUflYhBSMEHWA9mKF15hemGju5s="
+        },
+        "2.1.0": {
+          "checksum": "/o2NevZCcocYbJaDzVkOJFDCozfyUDVYhv+EUJoJBGY="
         }
       }
     },
@@ -337,6 +343,9 @@
         },
         "2.0.1": {
           "checksum": "kSNWxUiNr5CRJD/TtNRUWLrFuvA8wY2hyRuSMRm6k7Y="
+        },
+        "2.1.0": {
+          "checksum": "5QcNsKW2OCV+Oi5jv0adqdorGJlrRXk6b2N8ggNKfJg="
         }
       }
     },
@@ -361,6 +370,9 @@
         },
         "2.0.1": {
           "checksum": "yEpBUyy0QVw6DUsxDh33Lz4KuVN6Vy98yNDLVZ2NkXA="
+        },
+        "2.1.0": {
+          "checksum": "gBlp/vQeFAxBYBB+ZtKp544lvphaUGnPdlZT3TcRYtM="
         }
       }
     },
@@ -385,6 +397,9 @@
         },
         "2.0.1": {
           "checksum": "8/0lDDnckpXRXdIVPnWY1GKqYFbg5C0RplaiQOEfZqQ="
+        },
+        "2.1.0": {
+          "checksum": "ov5mgh9BqfOJ9kcgQ33BokQmf2v6+GjIshAqrBFIncM="
         }
       }
     },
@@ -409,6 +424,9 @@
         },
         "2.0.1": {
           "checksum": "6Qd5Rh+dmhKWgsqGRiUXAqmefdqy5UNKL67TJQ9nkBA="
+        },
+        "2.1.0": {
+          "checksum": "h2kl7pefimDcWYtzO1uJypryY/R1DMY1r8srOcf7vEo="
         }
       }
     },
@@ -433,6 +451,9 @@
         },
         "2.0.1": {
           "checksum": "mTaBDVniZbs+DC4B0vWa/MkK31FmpQAg7GS+GvRYHk8="
+        },
+        "2.1.0": {
+          "checksum": "mwQVVwVq4B6u9x7VMmCQ2w2bREK0sWHcK+siAjs7e+c="
         }
       }
     },
@@ -457,6 +478,9 @@
         },
         "2.0.1": {
           "checksum": "8q8+u8jJwUzxaMTpOTi/6l2edNsWnIVOq6cNod3s8Fw="
+        },
+        "2.1.0": {
+          "checksum": "adrLao09LcOWwhlW+YfcJOdGyHgb4ap2JwhKCl+HWkM="
         }
       }
     },
@@ -478,6 +502,9 @@
         },
         "2.0.1": {
           "checksum": "qxtyrratXpKUDXIzpfNCXNxQTarE4o984cXSV2sZXq8="
+        },
+        "2.1.0": {
+          "checksum": "Jy7ti30LfK+D/PnqwMP0gfSv4wl90uD/7uw4CjwqdzQ="
         }
       }
     },
@@ -502,6 +529,9 @@
         },
         "2.0.1": {
           "checksum": "tWayblKplxrTlRen2tNpos5hXOfAFrXLdmt+gyHwGyc="
+        },
+        "2.2.0": {
+          "checksum": "7BU7O6zjdNfdXzdxaMrMWkBasBATeJdW2gvzaOKn4ik="
         }
       }
     },
@@ -529,6 +559,9 @@
         },
         "2.0.1": {
           "checksum": "eCkaGM5/bc1MQd57cU/nBxe+d6SjH4HaI1Gzh00Hyy0="
+        },
+        "2.1.0": {
+          "checksum": "oplXlD/xpRmd5pI+oICXVnJFO6W2F2GfQ+5jrjN+1vQ="
         }
       }
     },
@@ -553,6 +586,9 @@
         },
         "2.0.1": {
           "checksum": "tzQoWctgT7pWpcpCLXtMetsEj+9Fvj5/v9DAaIcT9N0="
+        },
+        "2.1.0": {
+          "checksum": "7B1tbfkFvZZrfCQ6BOE13svMJpUnCAz01rm8ey5N37Y="
         }
       }
     },
@@ -577,6 +613,9 @@
         },
         "2.0.1": {
           "checksum": "pwZ8HNdAGVlykuChlpCgDbAFLWIp2x0AiwpTwsvlYa0="
+        },
+        "2.1.0": {
+          "checksum": "Kfj87CBq4qcjYQywETQ4ORayuEjZO+QeQWJ3aQnZgUA="
         }
       }
     },
@@ -598,6 +637,9 @@
         },
         "2.0.1": {
           "checksum": "mOjpTt807Z2LAfcu1exPS8dxsFH8s9iW+D6C52GVQqU="
+        },
+        "2.1.0": {
+          "checksum": "AMnwjxTjpz1sEo8xl3fzvambLqqcnTibH2X2gYqlUao="
         }
       }
     },
@@ -888,6 +930,21 @@
         },
         "2.0.1": {
           "checksum": "n5crYirSmJZ0adrdl7jvw/0E0qd0YmpwWUq6BXz+MTc="
+        },
+        "2.1.0": {
+          "checksum": "UiUa8rv9kqEP4DEs59e7ctxlOmv0fc39HXxU96FAozc="
+        }
+      }
+    },
+    "npm:@metamask/localization-example-snap": {
+      "id": "npm:@metamask/localization-example-snap",
+      "metadata": {
+        "name": "Localization Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "1.1.0": {
+          "checksum": "LizJUM8XyycYFDFjwvUL2svRRxVTItNLZUhmrv4slOY="
         }
       }
     },
