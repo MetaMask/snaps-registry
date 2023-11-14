@@ -1730,6 +1730,9 @@
       "versions": {
         "1.0.1": {
           "checksum": "BcmD1BGF05yH9qRi1bj8N6I2diXAyfqjmVjiHMGXIRg="
+        },
+        "1.1.0": {
+          "checksum": "0LYVuy8axHCCii9kBjsl6e0o/NNGe3d2hFysfOJzDYc=="
         }
       }
     }
