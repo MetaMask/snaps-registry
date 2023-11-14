@@ -1,4 +1,8 @@
-import { detectSnapLocation } from '@metamask/snaps-controllers';
+import { detectSnapLocation, getSnapFiles } from '@metamask/snaps-controllers';
+import {
+  getLocalizedSnapManifest,
+  getValidatedLocalizationFiles,
+} from '@metamask/snaps-utils';
 import { assertIsSemVerVersion } from '@metamask/utils';
 import deepEqual from 'fast-deep-equal';
 import semver from 'semver/preload';
@@ -34,7 +38,23 @@ async function verifySnapVersion(
   });
   const { result: manifest } = await location.manifest();
 
-  if (latest && snap.metadata.name !== manifest.proposedName) {
+  const localizationFiles = await getSnapFiles(
+    location,
+    manifest.source.locales,
+  );
+
+  const validatedLocalizationFiles = getValidatedLocalizationFiles(
+    localizationFiles,
+  ).map((file) => file.result);
+
+  // For now, just validate the English translation
+  const localizedManifest = getLocalizedSnapManifest(
+    manifest,
+    'en',
+    validatedLocalizationFiles,
+  );
+
+  if (latest && snap.metadata.name !== localizedManifest.proposedName) {
     throw new Error(
       // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
       `Proposed name for "${snap.id}@${version}" does not match the metadata name in the registry. Expected "${manifest.proposedName}" (proposed name), got "${snap.metadata.name}" (registry metadata name).`,
