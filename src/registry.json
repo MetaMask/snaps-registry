@@ -1309,6 +1309,9 @@
         "sourceCode": "https://github.com/drift-labs/snap-solana"
       },
       "versions": {
+        "0.2.3": {
+          "checksum": "rAMiFZ+6Cid0YmQp01E7jWBz04ELul5WmSvaNBpXE40="
+        },
         "0.2.1": {
           "checksum": "YUVSrvkkDIlTTdFwuWB+5SrY4OETUQefAt9oyt5pYag="
         }
