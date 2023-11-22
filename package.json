@@ -41,7 +41,7 @@
     "@metamask/eslint-config-nodejs": "^12.1.0",
     "@metamask/eslint-config-typescript": "^12.1.0",
     "@metamask/snaps-controllers": "^3.4.0",
-    "@metamask/snaps-utils": "^4.0.0",
+    "@metamask/snaps-utils": "^5.0.0",
     "@noble/curves": "^1.2.0",
     "@noble/hashes": "^1.3.2",
     "@types/jest": "^28.1.6",
