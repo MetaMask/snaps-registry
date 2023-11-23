@@ -1698,7 +1698,7 @@
         "audits": [
           {
             "auditor": "OtterSec",
-            "report": "https://github.com/MetaMask/snaps-registry/files/13315776/nocturne_snap_audit_final.pdf"
+            "report": "https://ottersec.notion.site/Nocturne-Snap-51f214a222b24df4a938411502ca13cd"
           }
         ],
         "category": "interoperability",
@@ -1711,6 +1711,36 @@
       "versions": {
         "0.10.2": {
           "checksum": "+Cky/t82zETXWfy49UiObmoC68sgW1jz+/3NXIBhCC4="
+        }
+      }
+    },
+    "npm:@web3-antivirus/web3-antivirus-snap": {
+      "id": "npm:@web3-antivirus/web3-antivirus-snap",
+      "metadata": {
+        "name": "Web3 Antivirus",
+        "author": {
+          "name": "Web3 Antivirus",
+          "website": "https://web3antivirus.io"
+        },
+        "summary": "Transact safely in Web3 with reports about scams and risks: honeypots, poisoning attacks, and more.",
+        "description": "Have your Web3 security guard right in your wallet. This Snap runs thorough checks of all contracts, addresses, and assets you interact with and evaluates their safety. If there are risks such as honeypots and poisoning attacks, it alerts you in real-time about potential scams.",
+        "audits": [
+          {
+            "auditor": "Veridise",
+            "report": "https://f8t2x8b2.rocketcdn.me/wp-content/uploads/2023/11/VAR-Web3AntivirusSnap.pdf"
+          }
+        ],
+        "category": "transaction insights",
+        "support": {
+          "contact": "https://web3antivirus.io/support",
+          "faq": "https://web3antivirus.io/snap/#faq",
+          "knowledgeBase": "https://web3antivirus.notion.site/W3A-Snap-Knowledge-Base-3158f8369eaa4b5cb5a4bee33108f7fc"
+        },
+        "sourceCode": "https://github.com/web3-antivirus/web3-antivirus-snap"
+      },
+      "versions": {
+        "0.1.5": {
+          "checksum": "//46Lf2S2PUtQB/rodthHFQsvXmEgEWuLhgBeHjimcQ="
         }
       }
     },
