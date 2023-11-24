@@ -1,6 +1,6 @@
 {
   "name": "@metamask/snaps-registry",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A registry containing metadata about verified and blocked Snaps.",
   "repository": {
     "type": "git",
