@@ -1534,6 +1534,9 @@
         "sourceCode": "https://github.com/ChainSafe/metamask-snap-polkadot"
       },
       "versions": {
+        "0.8.2": {
+          "checksum": "gABFnG0sS/tkCW6tfzDdncgbw5Fn1e8XIBTaOtPBm8c="
+        },
         "0.7.7": {
           "checksum": "GwKusydp1vpDXY7B98s0zjVphX1d16ZnkGG3xfPqXHM="
         }
