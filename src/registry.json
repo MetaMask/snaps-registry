@@ -1193,6 +1193,9 @@
         "sourceCode": "https://github.com/rarimo/rarime"
       },
       "versions": {
+        "1.0.0": {
+          "checksum": "GZ36GgxHZWjfiaw8YRYo5VdzYaGa8VXv15la/1pSVCg="
+        },
         "0.8.0": {
           "checksum": "y+9O7z7mlNe85T/RCp32jySBwGoJ9tf0NrKlLrpgNdw="
         },
