@@ -1193,14 +1193,11 @@
         "sourceCode": "https://github.com/rarimo/rarime"
       },
       "versions": {
+        "1.0.1": {
+          "checksum": "xmQkggEgEuYf4rN+OAmiJBYwMWS7Xy+SpIMkEsNU5e4="
+        },
         "1.0.0": {
           "checksum": "GZ36GgxHZWjfiaw8YRYo5VdzYaGa8VXv15la/1pSVCg="
-        },
-        "0.8.0": {
-          "checksum": "y+9O7z7mlNe85T/RCp32jySBwGoJ9tf0NrKlLrpgNdw="
-        },
-        "0.7.2": {
-          "checksum": "pb5EtoA4WA6RSkX16SF3P9C/TutpYKnS1sS80yTBCgo="
         }
       }
     },
@@ -1715,6 +1712,9 @@
         "sourceCode": "https://github.com/nocturne-xyz/snap"
       },
       "versions": {
+        "0.11.0": {
+          "checksum": "5/aWJTM0Rtj1zvba8ARJiQTXOGUeb0s3sRTWTou58TI="
+        },
         "0.10.2": {
           "checksum": "+Cky/t82zETXWfy49UiObmoC68sgW1jz+/3NXIBhCC4="
         }
