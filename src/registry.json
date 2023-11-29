@@ -1715,6 +1715,9 @@
         "sourceCode": "https://github.com/nocturne-xyz/snap"
       },
       "versions": {
+        "0.11.0": {
+          "checksum": "5/aWJTM0Rtj1zvba8ARJiQTXOGUeb0s3sRTWTou58TI="
+        },
         "0.10.2": {
           "checksum": "+Cky/t82zETXWfy49UiObmoC68sgW1jz+/3NXIBhCC4="
         }
