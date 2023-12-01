@@ -1305,7 +1305,6 @@
             "report": "https://ottersec.notion.site/Drift-Snap-8575cd9031ae466d87d3b6a1c0afa028"
           }
         ],
-        "category": "interoperability",
         "support": {
           "contact": "https://discord.com/invite/fMcZBH8ErM"
         },
@@ -1605,7 +1604,7 @@
           "name": "HERE Wallet",
           "website": "https://www.herewallet.app/"
         },
-        "website": "https://near-snap.surge.sh/",
+        "website": "https://my.herewallet.app/",
         "summary": "View and sign transactions for NEAR Protocol blockchain",
         "description": "View and sign transactions for NEAR Protocol blockchain.\n\nFeatures:\n1. You can create an account on NEAR Protocol with ed25519 key\n2. You can sign transactions on NEAR Protocol\n3. FT token transfers and token additions are visualized\n4. You can export keys to a third-party wallet\n5. Meta-transactions on NEAR Protocol are supported",
         "audits": [
