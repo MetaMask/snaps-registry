@@ -10,8 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - **BREAKING:** Bump minimum Node.js version to `^18.16.0` ([#302](https://github.com/MetaMask/snaps-registry/pull/302))
 - **BREAKING:** Use `noble-hashes` and `noble-curves` ([#315](https://github.com/MetaMask/snaps-registry/pull/315))
-  - This is breaking as the exported `verify` function is no longer asynchronous
-  - This also improves compatibility with React Native
+  - This is breaking as the exported `verify` function is no longer asynchronous.
+  - This also improves compatibility with React Native.
 - Add more metadata fields ([#316](https://github.com/MetaMask/snaps-registry/pull/316))
 
 ## [2.1.1]
