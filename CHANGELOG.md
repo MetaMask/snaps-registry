@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.0.0]
+### Changed
+- **BREAKING:** Bump minimum Node.js version to `^18.16.0` ([#302](https://github.com/MetaMask/snaps-registry/pull/302))
+- **BREAKING:** Use `noble-hashes` and `noble-curves` ([#315](https://github.com/MetaMask/snaps-registry/pull/315))
+  - This is breaking as the exported `verify` function is no longer asynchronous.
+  - This also improves compatibility with React Native.
+- Add more metadata fields ([#316](https://github.com/MetaMask/snaps-registry/pull/316))
+
 ## [2.1.1]
 ### Fixed
 - License package under MIT / Apache 2.0 dual license ([#272](https://github.com/MetaMask/snaps-registry/pull/272))
@@ -47,7 +55,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/MetaMask/snaps-registry/compare/v2.1.1...HEAD
+[Unreleased]: https://github.com/MetaMask/snaps-registry/compare/v3.0.0...HEAD
+[3.0.0]: https://github.com/MetaMask/snaps-registry/compare/v2.1.1...v3.0.0
 [2.1.1]: https://github.com/MetaMask/snaps-registry/compare/v2.1.0...v2.1.1
 [2.1.0]: https://github.com/MetaMask/snaps-registry/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/MetaMask/snaps-registry/compare/v1.2.2...v2.0.0
