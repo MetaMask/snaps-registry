@@ -1,4 +1,3 @@
-/* eslint-disable no-restricted-globals */
 import type { Hex } from '@metamask/utils';
 import {
   remove0x,
