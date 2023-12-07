@@ -5,11 +5,8 @@ import {
   assertStruct,
   hexToBytes,
 } from '@metamask/utils';
+import { secp256k1 } from '@noble/curves/secp256k1';
 import { sha256 } from '@noble/hashes/sha256';
-import {
-  verify as nobleVerify,
-  Signature as NobleSignature,
-} from '@noble/secp256k1';
 import type { Infer } from 'superstruct';
 import { literal, object, pattern, string } from 'superstruct';
 
@@ -46,8 +43,8 @@ export function verify({
 
   const publicKeyBytes = hexToBytes(publicKey);
 
-  return nobleVerify(
-    NobleSignature.fromHex(remove0x(signature.signature)),
+  return secp256k1.verify(
+    remove0x(signature.signature),
     sha256(stringToBytes(registry)),
     publicKeyBytes,
   );

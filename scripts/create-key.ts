@@ -1,5 +1,5 @@
 import { bytesToHex, hasProperty } from '@metamask/utils';
-import * as secp256k1 from '@noble/secp256k1';
+import { secp256k1 } from '@noble/curves/secp256k1';
 import assert from 'assert';
 import * as dotenv from 'dotenv';
 import fs from 'fs/promises';
