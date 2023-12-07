@@ -59,12 +59,19 @@ export const VerifiedSnapStruct = object({
     description: optional(string()),
     audits: optional(array(AuditStruct)),
     category: optional(
-      enums(['interoperability', 'notifications', 'transaction insights']),
+      enums([
+        'interoperability',
+        'notifications',
+        'transaction insights',
+        'account management',
+      ]),
     ),
     tags: optional(array(string())),
     support: optional(SupportStruct),
     sourceCode: optional(string()),
     hidden: optional(boolean()),
+    privateCode: optional(boolean()),
+    privacyPolicy: optional(string()),
   }),
   versions: record(VersionStruct, VerifiedSnapVersionStruct),
 });

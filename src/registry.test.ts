@@ -45,6 +45,8 @@ describe('Snaps Registry', () => {
             sourceCode: 'https://metamask.io/example/source-code',
             category: 'interoperability',
             tags: ['accounts', 'example'],
+            privacyPolicy: 'https://metamask.io/example/privacy',
+            privateCode: true,
           },
           versions: {
             ['0.1.0' as SemVerVersion]: {
