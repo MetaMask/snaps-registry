@@ -37,11 +37,11 @@ type VerifyArgs = {
  * the signature to.
  * @returns Whether the signature is valid.
  */
-export async function verify({
+export function verify({
   registry,
   signature,
   publicKey,
-}: VerifyArgs): Promise<boolean> {
+}: VerifyArgs): boolean {
   assertStruct(signature, SignatureStruct, 'Invalid signature object');
 
   const publicKeyBytes = hexToBytes(publicKey);
