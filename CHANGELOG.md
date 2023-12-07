@@ -7,16 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [3.0.0]
-### Uncategorized
+### Changed
+- **BREAKING:** Bump minimum Node.js version to `^18.16.0` ([#302](https://github.com/MetaMask/snaps-registry/pull/302))
+- **BREAKING:** Use `noble-hashes` and `noble-curves` ([#315](https://github.com/MetaMask/snaps-registry/pull/315))
+  - This is breaking as the exported `verify` function is no longer asynchronous
+  - This also improves compatibility with React Native
 - Add more metadata fields ([#316](https://github.com/MetaMask/snaps-registry/pull/316))
-- Bump @metamask/snaps-controllers from 3.4.1 to 3.5.0 ([#312](https://github.com/MetaMask/snaps-registry/pull/312))
-- Use `noble-hashes` and `noble-curves` ([#315](https://github.com/MetaMask/snaps-registry/pull/315))
-- Bump @metamask/snaps-sdk from 1.2.0 to 1.3.0 ([#314](https://github.com/MetaMask/snaps-registry/pull/314))
-- Update website for NEAR ([#311](https://github.com/MetaMask/snaps-registry/pull/311))
-- Bump @metamask/snaps-utils from 4.0.1 to 5.0.0 ([#298](https://github.com/MetaMask/snaps-registry/pull/298))
-- BREAKING: Bump minimum Node.js version to `^18.16.0` ([#302](https://github.com/MetaMask/snaps-registry/pull/302))
-- Update Nocturne and RariMe ([#309](https://github.com/MetaMask/snaps-registry/pull/309))
-- Update Polkadot and RariMe ([#306](https://github.com/MetaMask/snaps-registry/pull/306))
 
 ## [2.1.1]
 ### Fixed
