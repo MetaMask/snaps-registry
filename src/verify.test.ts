@@ -13,7 +13,7 @@ const MOCK_SIGNATURE = {
 describe('verify', () => {
   it('verifies a valid signature', async () => {
     expect(
-      await verify({
+      verify({
         registry: MOCK_REGISTRY,
         signature: MOCK_SIGNATURE,
         publicKey: MOCK_PUBLIC_KEY,
@@ -23,7 +23,7 @@ describe('verify', () => {
 
   it('rejects an invalid signature', async () => {
     expect(
-      await verify({
+      verify({
         registry: MOCK_REGISTRY,
         signature: {
           ...MOCK_SIGNATURE,
@@ -36,7 +36,7 @@ describe('verify', () => {
   });
 
   it('throws an error if the signature format is invalid', async () => {
-    await expect(
+    expect(() =>
       verify({
         registry: MOCK_REGISTRY,
         signature: {
@@ -45,7 +45,7 @@ describe('verify', () => {
         },
         publicKey: MOCK_PUBLIC_KEY,
       }),
-    ).rejects.toThrow(
+    ).toThrow(
       'Invalid signature object: At path: signature -- Expected a string, but received: undefined.',
     );
   });
