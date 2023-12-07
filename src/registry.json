@@ -80,7 +80,7 @@
             "report": "https://drive.google.com/file/d/1dixJw4G4ekcO40GpbH7VmizLTINS5gUL/view?usp=drive_link"
           }
         ],
-        "category": "notifications",
+        "category": "communication",
         "support": {
           "faq": "https://docs.walletchat.fun/metamask-integration/walletchat-metamask-snap-faq",
           "knowledgeBase": "https://docs.walletchat.fun/metamask-integration",
@@ -147,7 +147,7 @@
             "report": "https://consensys.io/diligence/audits/2023/07/wallet-guard/"
           }
         ],
-        "category": "transaction insights",
+        "category": "security",
         "support": {
           "contact": "https://discord.com/invite/mvbtaJzXDP",
           "faq": "https://walletguard.notion.site/Wallet-Guard-Snap-Frequently-Asked-Questions-FAQ-4e732cf0892846368048ed6e5f53a51a",
@@ -184,7 +184,7 @@
             "report": "https://consensys.io/diligence/audits/2023/07/push-protocol-snap-for-metamask/"
           }
         ],
-        "category": "notifications",
+        "category": "communication",
         "support": {
           "contact": "https://discord.com/invite/pushprotocol",
           "faq": "https://www.notion.so/Push-Snap-FAQs-c034d65ab01240bdb5acdfb4ea4b8320",
@@ -249,7 +249,7 @@
             "report": "https://leastauthority.com/blog/audits/audit-of-blockfence-metamask-snap/"
           }
         ],
-        "category": "transaction insights",
+        "category": "security",
         "support": {
           "contact": "mailto:support@blockfence.io",
           "faq": "https://blockfence.io/snap/"
@@ -660,7 +660,7 @@
             "report": "https://f8t2x8b2.rocketcdn.me/wp-content/uploads/2023/06/VAR-Kleros-Scout.pdf"
           }
         ],
-        "category": "transaction insights",
+        "category": "security",
         "support": {
           "contact": "https://t.me/KlerosCurate",
           "faq": "https://docs.kleros.io/products/curate/kleros-scout-metamask-snaps/faqs",
@@ -848,7 +848,7 @@
             "report": "https://demystify.network/images/2023-08-Metamask-Snap-Demystify-Network.pdf"
           }
         ],
-        "category": "transaction insights",
+        "category": "security",
         "support": {
           "contact": "mailto:support@demystify.network",
           "faq": "https://demystify.network/faq.html"
@@ -881,7 +881,7 @@
             "report": "https://ottersec.notion.site/Forta-Metamask-Snap-7e6e171e836b40adb1465cf2ae090e4d"
           }
         ],
-        "category": "transaction insights",
+        "category": "security",
         "support": {
           "contact": "https://discord.gg/nFAqfz4SH7",
           "knowledgeBase": "https://docs.forta.network/en/latest/Forta-for-Metamask/"
@@ -965,7 +965,7 @@
             "report": "https://github.com/Tenderly/tenderly-snap/blob/main/audits/2023-08-Metamask-Snap-PT-for-Tenderly.pdf"
           }
         ],
-        "category": "transaction insights",
+        "category": "security",
         "support": {
           "contact": "mailto:metamask.snap@tenderly.co",
           "faq": "https://docs.tenderly.co/how-to-install-tenderly-tx-preview-snap"
@@ -998,7 +998,7 @@
             "report": "https://github.com/MetaMask/snaps-registry/files/12554521/SlowMist.Audit.Report.-.Riskdetect-snap.1.pdf"
           }
         ],
-        "category": "transaction insights",
+        "category": "security",
         "support": {
           "contact": "mailto:service@gopluslabs.io",
           "faq": "https://snaps.gopluslabs.io/faq/"
@@ -1155,7 +1155,7 @@
             "report": "https://github.com/MetaMask/snaps-registry/files/12544383/Sayfer.-.2023-08.Penetration.Testing.Report.for.AnChain.Snap.pdf"
           }
         ],
-        "category": "transaction insights",
+        "category": "security",
         "support": {
           "contact": "https://discord.gg/RZ84RUNuNF",
           "faq": "https://snap.anchainai.com/#faq"
@@ -1247,7 +1247,7 @@
             "report": "https://leastauthority.com/blog/audits/audit-of-saferoot-metamask-snap/"
           }
         ],
-        "category": "transaction insights",
+        "category": "security",
         "support": {
           "contact": "mailto:support@saferoot.io",
           "knowledgeBase": "https://www.saferoot.io/metamask-snaps-knowledge-base"
@@ -1493,7 +1493,7 @@
             "report": "https://github.com/MetaMask/snaps-registry/files/12604989/Least_Authority_Generative_Labs_MetaMask_Snap_Updated_Final_Audit.pdf"
           }
         ],
-        "category": "notifications",
+        "category": "communication",
         "support": {
           "faq": "https://s3labs.notion.site/Web3MQ-Snap-Frequently-Asked-Questions-c705bcf4a0604b85830cca2283d0ab7b"
         },
@@ -1643,7 +1643,7 @@
             "report": "https://github.com/Quick-Intel/quickintel-snap/blob/main/VAR_quickintel_snap.pdf"
           }
         ],
-        "category": "transaction insights",
+        "category": "security",
         "support": {
           "contact": "https://discord.gg/quicki",
           "faq": "https://docs.quickintel.io/metamask-snap/faq",
@@ -1735,7 +1735,7 @@
             "report": "https://f8t2x8b2.rocketcdn.me/wp-content/uploads/2023/11/VAR-Web3AntivirusSnap.pdf"
           }
         ],
-        "category": "transaction insights",
+        "category": "security",
         "support": {
           "contact": "https://web3antivirus.io/support",
           "faq": "https://web3antivirus.io/snap/#faq",
