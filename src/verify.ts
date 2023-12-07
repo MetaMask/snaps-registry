@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-globals */
 import type { Hex } from '@metamask/utils';
 import {
   remove0x,
@@ -5,9 +6,9 @@ import {
   assertStruct,
   hexToBytes,
 } from '@metamask/utils';
+import { sha256 } from '@noble/hashes/sha256';
 import {
   verify as nobleVerify,
-  utils,
   Signature as NobleSignature,
 } from '@noble/secp256k1';
 import type { Infer } from 'superstruct';
@@ -48,7 +49,7 @@ export async function verify({
 
   return nobleVerify(
     NobleSignature.fromHex(remove0x(signature.signature)),
-    await utils.sha256(stringToBytes(registry)),
+    sha256(stringToBytes(registry)),
     publicKeyBytes,
   );
 }
