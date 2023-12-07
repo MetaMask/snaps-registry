@@ -61,8 +61,8 @@ export const VerifiedSnapStruct = object({
     category: optional(
       enums([
         'interoperability',
-        'notifications',
-        'transaction insights',
+        'communication',
+        'security',
         'account management',
       ]),
     ),
