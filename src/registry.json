@@ -1749,6 +1749,36 @@
         }
       }
     },
+    "npm:@galactica-net/snap": {
+      "id": "npm:@galactica-net/snap",
+      "metadata": {
+        "name": "Galactica ZK Vault",
+        "author": {
+          "name": "Galactica Network",
+          "website": "https://galactica.com/"
+        },
+        "website": "https://galactica.com/",
+        "summary": "Manages zero-knowledge certificates on Galactica.com - own your identity, not just your assets.",
+        "description": "The Galactica.com ZK Vault Snap holds zero-knowledge certificates issued on Galactica Network in the user's wallet, allowing self custody of your data. It generates zero-knowledge proofs inside Metamask to selectively disclose statements on-chain while keeping personal data private. For example you can import a KYC certificate and privately prove your authenticity and compliance to a smart contract. After installing the Snap, visit https://app-andromeda.galactica.com/ to get started.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-galactica/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/galactica",
+          "knowledgeBase": "https://docs.galactica.com/"
+        },
+        "sourceCode": "https://github.com/Galactica-corp/galactica-monorepo/tree/main/packages/snap"
+      },
+      "versions": {
+        "0.6.1": {
+          "checksum": "HbPS0L0HN5om/cXvYdWMoGn+hGfeS2dPqJ113OTjNH8="
+        }
+      }
+    },
     "npm:@metamask/snap-simple-keyring-snap": {
       "id": "npm:@metamask/snap-simple-keyring-snap",
       "metadata": {
