@@ -1749,6 +1749,34 @@
         }
       }
     },
+    "npm:@hashgraph/hedera-wallet-snap": {
+      "id": "npm:@hashgraph/hedera-wallet-snap",
+      "metadata": {
+        "name": "Hedera Wallet",
+        "author": {
+          "name": "Hedera",
+          "website": "https://hedera.com"
+        },
+        "summary": "Adds native Hedera support to MetaMask.",
+        "description": "Hedera Wallet unlocks wallet functionality via MetaMask that any other apps can interact with, thereby turning MetaMask into a native Hedera wallet without relying on Hedera JSON-RPC Relay.",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://cure53.de/pentest-report_tuum-hedera-snap.pdf"
+          }
+        ],
+        "support": {
+          "contact": "https://www.hedera.com/discord",
+          "knowledgeBase": "https://github.com/hashgraph/.github/blob/main/SUPPORT.md"
+        },
+        "sourceCode": "https://github.com/hashgraph/hedera-metamask-snaps"
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "fC8LWgmMmxo4XxBJVoeug73BgRQ6IR/5Wv0E6FPlrfY="
+        }
+      }
+    },
     "npm:@metamask/snap-simple-keyring-snap": {
       "id": "npm:@metamask/snap-simple-keyring-snap",
       "metadata": {
