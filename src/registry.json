@@ -728,11 +728,11 @@
         "sourceCode": "https://github.com/sotatek-dev/mina-snap"
       },
       "versions": {
+        "0.1.2": {
+          "checksum": "0FI6kXhMAOfPBv6hfmE6EEsZBWjRKbC2m7z0KfslRUU="
+        },
         "0.1.1": {
           "checksum": "SZYe7fY1/31ROYJedpOHg2JA4clXRQ1/HLBbqDgedPI="
-        },
-        "0.1.0": {
-          "checksum": "PXAFCD+unlv8O9DOd0ZpBxcVW5ktGUPVlCmbsI2BR98="
         }
       }
     },
@@ -1130,11 +1130,11 @@
         "sourceCode": "https://github.com/leapwallet/cosmos-metamask-snap"
       },
       "versions": {
+        "0.1.18": {
+          "checksum": "zwTU57HXUX94fMIYhLMfYxAK/pGRwI0Dqao76/BqWZk="
+        },
         "0.1.17": {
           "checksum": "CLwZocaUEbDErtQAsybaudZDJq65a8AwlEFgkGUpmAQ="
-        },
-        "0.1.16": {
-          "checksum": "diCk3Ht/3Fhbn089viNkY9N6dr41wCMm1KR0wJhLzm0="
         }
       }
     },
