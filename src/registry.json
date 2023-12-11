@@ -831,39 +831,6 @@
         }
       }
     },
-    "npm:threat-intel-snap": {
-      "id": "npm:threat-intel-snap",
-      "metadata": {
-        "name": "Threat Intel",
-        "author": {
-          "name": "Demystify.Network",
-          "website": "https://demystify.network/"
-        },
-        "website": "https://demystify.network/",
-        "summary": "Protect yourself from hacking, spamming, and phishing with timely risk intelligence right before you approve the transaction.",
-        "description": "Threat Intel Snap by Demystify Network protects MetaMask users by providing timely risk intelligence right before you approve the transaction in MetaMask.\n\nAfter installing the Snap, you will see it in the transaction confirmation window.",
-        "audits": [
-          {
-            "auditor": "Sayfer",
-            "report": "https://demystify.network/images/2023-08-Metamask-Snap-Demystify-Network.pdf"
-          }
-        ],
-        "category": "transaction insights",
-        "support": {
-          "contact": "mailto:support@demystify.network",
-          "faq": "https://demystify.network/faq.html"
-        },
-        "sourceCode": "https://github.com/demystify-network/ThreatIntelligence"
-      },
-      "versions": {
-        "0.1.5": {
-          "checksum": "aG7zXvhqoRgIygI8uuF/qA2G35sWv7p1CqTVMgIcz5M="
-        },
-        "0.1.4": {
-          "checksum": "fSYoxcUAJrXDojueuozAf2ZhFg3hgiKItFe7ibDoBF8="
-        }
-      }
-    },
     "npm:@forta-network/metamask-snap": {
       "id": "npm:@forta-network/metamask-snap",
       "metadata": {
