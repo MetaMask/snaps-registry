@@ -1143,8 +1143,9 @@
           "name": "Rarimo",
           "website": "https://rarimo.com/"
         },
+        "website": "https://rarime.com/",
         "summary": "Safely holds any of your credentials and allows you to prove your identity without revealing any personal data. Powered by Rarimo Protocol and Zero-Knowledge Proof technology.",
-        "description": "RariMe is a MetaMask Snap that safely holds any of your credentials and allows you to prove your identity without revealing any personal data. Powered by Rarimo Protocol and Zero-Knowledge Proof technology.\n\nThis Snap allows you to 1) receive credentials 2) create Zero Knowledge Proofs of your credentials and 3) submit proofs to dapps. For each of these steps, you will be automatically prompted by the identity providers and the dapps that have integrated with RariMe.\n\nWebsite coming soon.",
+        "description": "RariMe is a MetaMask Snap that safely holds any of your credentials and allows you to prove your identity without revealing any personal data. Powered by Rarimo Protocol and Zero-Knowledge Proof technology.\n\nThis Snap allows you to 1) receive credentials 2) create Zero Knowledge Proofs of your credentials and 3) submit proofs to dapps. For each of these steps, you will be automatically prompted by the identity providers and the dapps that have integrated with RariMe.",
         "audits": [
           {
             "auditor": "Halborn",
