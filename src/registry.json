@@ -728,11 +728,11 @@
         "sourceCode": "https://github.com/sotatek-dev/mina-snap"
       },
       "versions": {
+        "0.1.2": {
+          "checksum": "0FI6kXhMAOfPBv6hfmE6EEsZBWjRKbC2m7z0KfslRUU="
+        },
         "0.1.1": {
           "checksum": "SZYe7fY1/31ROYJedpOHg2JA4clXRQ1/HLBbqDgedPI="
-        },
-        "0.1.0": {
-          "checksum": "PXAFCD+unlv8O9DOd0ZpBxcVW5ktGUPVlCmbsI2BR98="
         }
       }
     },
@@ -828,39 +828,6 @@
       "versions": {
         "0.1.1": {
           "checksum": "ShI025dlcw6qUy79VxlSuy+eWmVkNTfZp4K00sZlQRU="
-        }
-      }
-    },
-    "npm:threat-intel-snap": {
-      "id": "npm:threat-intel-snap",
-      "metadata": {
-        "name": "Threat Intel",
-        "author": {
-          "name": "Demystify.Network",
-          "website": "https://demystify.network/"
-        },
-        "website": "https://demystify.network/",
-        "summary": "Protect yourself from hacking, spamming, and phishing with timely risk intelligence right before you approve the transaction.",
-        "description": "Threat Intel Snap by Demystify Network protects MetaMask users by providing timely risk intelligence right before you approve the transaction in MetaMask.\n\nAfter installing the Snap, you will see it in the transaction confirmation window.",
-        "audits": [
-          {
-            "auditor": "Sayfer",
-            "report": "https://demystify.network/images/2023-08-Metamask-Snap-Demystify-Network.pdf"
-          }
-        ],
-        "category": "transaction insights",
-        "support": {
-          "contact": "mailto:support@demystify.network",
-          "faq": "https://demystify.network/faq.html"
-        },
-        "sourceCode": "https://github.com/demystify-network/ThreatIntelligence"
-      },
-      "versions": {
-        "0.1.5": {
-          "checksum": "aG7zXvhqoRgIygI8uuF/qA2G35sWv7p1CqTVMgIcz5M="
-        },
-        "0.1.4": {
-          "checksum": "fSYoxcUAJrXDojueuozAf2ZhFg3hgiKItFe7ibDoBF8="
         }
       }
     },
@@ -1130,11 +1097,11 @@
         "sourceCode": "https://github.com/leapwallet/cosmos-metamask-snap"
       },
       "versions": {
+        "0.1.18": {
+          "checksum": "zwTU57HXUX94fMIYhLMfYxAK/pGRwI0Dqao76/BqWZk="
+        },
         "0.1.17": {
           "checksum": "CLwZocaUEbDErtQAsybaudZDJq65a8AwlEFgkGUpmAQ="
-        },
-        "0.1.16": {
-          "checksum": "diCk3Ht/3Fhbn089viNkY9N6dr41wCMm1KR0wJhLzm0="
         }
       }
     },
@@ -1176,8 +1143,9 @@
           "name": "Rarimo",
           "website": "https://rarimo.com/"
         },
+        "website": "https://rarime.com/",
         "summary": "Safely holds any of your credentials and allows you to prove your identity without revealing any personal data. Powered by Rarimo Protocol and Zero-Knowledge Proof technology.",
-        "description": "RariMe is a MetaMask Snap that safely holds any of your credentials and allows you to prove your identity without revealing any personal data. Powered by Rarimo Protocol and Zero-Knowledge Proof technology.\n\nThis Snap allows you to 1) receive credentials 2) create Zero Knowledge Proofs of your credentials and 3) submit proofs to dapps. For each of these steps, you will be automatically prompted by the identity providers and the dapps that have integrated with RariMe.\n\nWebsite coming soon.",
+        "description": "RariMe is a MetaMask Snap that safely holds any of your credentials and allows you to prove your identity without revealing any personal data. Powered by Rarimo Protocol and Zero-Knowledge Proof technology.\n\nThis Snap allows you to 1) receive credentials 2) create Zero Knowledge Proofs of your credentials and 3) submit proofs to dapps. For each of these steps, you will be automatically prompted by the identity providers and the dapps that have integrated with RariMe.",
         "audits": [
           {
             "auditor": "Halborn",
@@ -1193,11 +1161,11 @@
         "sourceCode": "https://github.com/rarimo/rarime"
       },
       "versions": {
+        "1.0.2": {
+          "checksum": "BhWudnphhPH0OkGRF2+XMir7iVFFFWNRNjDovF9wrAY="
+        },
         "1.0.1": {
           "checksum": "xmQkggEgEuYf4rN+OAmiJBYwMWS7Xy+SpIMkEsNU5e4="
-        },
-        "1.0.0": {
-          "checksum": "GZ36GgxHZWjfiaw8YRYo5VdzYaGa8VXv15la/1pSVCg="
         }
       }
     },
@@ -1776,6 +1744,34 @@
       "versions": {
         "0.6.1": {
           "checksum": "HbPS0L0HN5om/cXvYdWMoGn+hGfeS2dPqJ113OTjNH8="
+        }
+      }
+    },
+    "npm:@hashgraph/hedera-wallet-snap": {
+      "id": "npm:@hashgraph/hedera-wallet-snap",
+      "metadata": {
+        "name": "Hedera Wallet",
+        "author": {
+          "name": "Hedera",
+          "website": "https://hedera.com"
+        },
+        "summary": "Adds native Hedera support to MetaMask.",
+        "description": "Hedera Wallet unlocks wallet functionality via MetaMask that any other apps can interact with, thereby turning MetaMask into a native Hedera wallet without relying on Hedera JSON-RPC Relay.",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://cure53.de/pentest-report_tuum-hedera-snap.pdf"
+          }
+        ],
+        "support": {
+          "contact": "https://www.hedera.com/discord",
+          "knowledgeBase": "https://github.com/hashgraph/.github/blob/main/SUPPORT.md"
+        },
+        "sourceCode": "https://github.com/hashgraph/hedera-metamask-snaps"
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "fC8LWgmMmxo4XxBJVoeug73BgRQ6IR/5Wv0E6FPlrfY="
         }
       }
     },
