@@ -1312,6 +1312,9 @@
         "sourceCode": "https://github.com/xmtp/snap"
       },
       "versions": {
+        "1.3.0": {
+          "checksum": "BIA5ZOGiZZrlYgJx6sdk0ifx+qMoOcaZO8dBBU3w5QA="
+        },
         "1.2.2": {
           "checksum": "pHhTGrqjGkNoK/2wb64Zqxpo3TFnE2a5smfVt45VCRM="
         }
@@ -1714,6 +1717,35 @@
       "versions": {
         "0.1.5": {
           "checksum": "//46Lf2S2PUtQB/rodthHFQsvXmEgEWuLhgBeHjimcQ="
+        }
+      }
+    },
+    "npm:@rss3/social-notifier-snap": {
+      "id": "npm:@rss3/social-notifier-snap",
+      "metadata": {
+        "name": "RSS3 Social Notifier",
+        "author": {
+          "name": "RSS3",
+          "website": "https://rss3.io/"
+        },
+        "summary": "Stay on top of your frens' social activities from Lens, Farcaster, and more.",
+        "description": "The RSS3 Social Notifier is a notification Snap allowing MetaMask users to connect all their on-chain social profiles (e.g. Lens, Farcaster) and sync existing social graphs. Users will get notified directly through MetaMask and stay tuned with their friends' latest activities in a human-readable style.\n\nAfter installing the Snap, visit the website at https://snap.rss3.io to connect your social profiles and configure notifications.",
+        "audits": [
+          {
+            "auditor": "SlowMist",
+            "report": "https://github.com/NaturalSelectionLabs/RSS3-Social-Notifier-Snap/blob/main/audit/SlowMist%20Audit%20Report%20-%20RSS3-Social-Notifier-Snap.pdf"
+          }
+        ],
+        "category": "notifications",
+        "support": {
+          "contact": "https://discord.gg/vfhpMjdbGU",
+          "faq": "https://snap.rss3.io/"
+        },
+        "sourceCode": "https://github.com/NaturalSelectionLabs/RSS3-Social-Notifier-Snap"
+      },
+      "versions": {
+        "0.1.13": {
+          "checksum": "F/41Grd5/wgk5Xpu6kkSAhFC2La75rLsX8f7iz6uzII="
         }
       }
     },
