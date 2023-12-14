@@ -1638,9 +1638,9 @@
           "name": "Astar Network",
           "website": "https://astar.network/"
         },
-        "website": "https://portal.astar.network/shibuya-testnet/assets",
+        "website": "https://portal.astar.network/",
         "summary": "Adds support for Astar to MetaMask",
-        "description": "Adds support for Astar, an interoperable blockchain platform for Polkadot and Ethereum ecosystems supporting both Wasm and EVM smart contracts.\n\nAfter installing the Snap, visit the Astar Portal to connect on the Shibuya Testnet. Make sure to select 'Astar Snap' under the Native Accounts options.",
+        "description": "Adds support for Astar, an interoperable blockchain platform for Polkadot and Ethereum ecosystems supporting both Wasm and EVM smart contracts.\n\nAfter installing the Snap, visit the Astar Portal at https://portal.astar.network/ to connect. Make sure to select 'Astar Snap' under the Native Accounts options.",
         "audits": [
           {
             "auditor": "Sayfer",
