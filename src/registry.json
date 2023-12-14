@@ -1265,6 +1265,7 @@
           "name": "Drift Protocol",
           "website": "https://www.drift.trade/"
         },
+        "website": "https://app.drift.trade/",
         "summary": "An open-sourced Solana Snap that allows MetaMask users to natively interact with Solana applications.",
         "description": "Connect by Drift allows MetaMask to seamlessly connect to Drift and function as a Solana wallet. Users of the Snap can connect to Drift, bridge their Ethereum assets to Solana, and trade on Drift all from within MetaMask.\n\nAfter installing the Snap, visit the website and click Launch App to try it. Please note: Drift may not be available in your region.",
         "audits": [
@@ -1273,6 +1274,7 @@
             "report": "https://ottersec.notion.site/Drift-Snap-8575cd9031ae466d87d3b6a1c0afa028"
           }
         ],
+        "category": "interoperability",
         "support": {
           "contact": "https://discord.com/invite/fMcZBH8ErM"
         },
