@@ -1760,7 +1760,7 @@
           "website": "https://dedaub.com/"
         },
         "summary": "Simulate transactions, verify the reputation and trustworthiness of involved accounts, and calculate the financial impact.",
-        "description": "The Dedaub TX Simulator Snap is a tool that helps users simulate financial transactions. It allows users to verify the authenticity and credibility of the accounts involved and calculate the financial outcomes of their actions. The tool uses the Smart Contract database of Dedaub Watchdog in real-time, providing users with up-to-date and comprehensive information to make informed decisions.\n\nAfter installing the Snap, it will appear in the transaction confirmation screen.",
+        "description": "The Dedaub Transaction Simulator Snap is a tool that helps users simulate financial transactions. It allows users to verify the authenticity and credibility of the accounts involved and calculate the financial outcomes of their actions. The tool uses the Smart Contract database of Dedaub Watchdog in real-time, providing users with up-to-date and comprehensive information to make informed decisions.\n\nAfter installing the Snap, it will appear in the transaction confirmation screen.",
         "audits": [
           {
             "auditor": "Cure53",
