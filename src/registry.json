@@ -1143,7 +1143,7 @@
           "name": "Rarimo",
           "website": "https://rarimo.com/"
         },
-        "website": "https://rarime.com/",
+        "website": "https://dashboard.rarime.com/",
         "summary": "Safely holds any of your credentials and allows you to prove your identity without revealing any personal data. Powered by Rarimo Protocol and Zero-Knowledge Proof technology.",
         "description": "RariMe is a MetaMask Snap that safely holds any of your credentials and allows you to prove your identity without revealing any personal data. Powered by Rarimo Protocol and Zero-Knowledge Proof technology.\n\nThis Snap allows you to 1) receive credentials 2) create Zero Knowledge Proofs of your credentials and 3) submit proofs to dapps. For each of these steps, you will be automatically prompted by the identity providers and the dapps that have integrated with RariMe.",
         "audits": [
@@ -1748,6 +1748,65 @@
       "versions": {
         "0.1.13": {
           "checksum": "F/41Grd5/wgk5Xpu6kkSAhFC2La75rLsX8f7iz6uzII="
+        }
+      }
+    },
+    "npm:dedaub-metamask-snap": {
+      "id": "npm:dedaub-metamask-snap",
+      "metadata": {
+        "name": "Dedaub",
+        "author": {
+          "name": "Dedaub",
+          "website": "https://dedaub.com/"
+        },
+        "summary": "Simulate transactions, verify the reputation and trustworthiness of involved accounts, and calculate the financial impact.",
+        "description": "The Dedaub Transaction Simulator Snap is a tool that helps users simulate financial transactions. It allows users to verify the authenticity and credibility of the accounts involved and calculate the financial outcomes of their actions. The tool uses the Smart Contract database of Dedaub Watchdog in real-time, providing users with up-to-date and comprehensive information to make informed decisions.\n\nAfter installing the Snap, it will appear in the transaction confirmation screen.",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://cure53.de/pentest-report_dedaub-metamask-snap.pdf"
+          }
+        ],
+        "category": "transaction insights",
+        "support": {
+          "faq": "https://docs.dedaub.com/docs/snap/faq",
+          "knowledgeBase": "https://docs.dedaub.com/docs/snap/introduction"
+        },
+        "sourceCode": "https://github.com/Dedaub/metamask-snap"
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "e4yR+2AW5m9JD8WtZ4K0Jhmo4QbY+BU95d2AFHUg4ys="
+        }
+      }
+    },
+    "npm:tm-chainsafer-snap-beta": {
+      "id": "npm:tm-chainsafer-snap-beta",
+      "metadata": {
+        "name": "TM ChainSafer",
+        "author": {
+          "name": "Trend Micro",
+          "website": "https://www.nexone.io/"
+        },
+        "summary": "Offers transaction insight and security assessment to highlight transaction risk and increase transaction awareness for users.",
+        "description": "TrendMicro ChainSafer provides the following features to ensure transaction safety as well as  more insights for users to judge transactions.\n\n1. Offering transaction risk assessment for users to check different security levels of transactions.\n2. Offering simulation for users to know asset(s) changes after transaction intention before they try to execute the real transaction.\n3. Offering project insights for users to understand more detail of targeted token contracts.",
+        "audits": [
+          {
+            "auditor": "SlowMist",
+            "report": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/blockchain-application/SlowMist%20Audit%20Report%20-%20Chainsafer%20Snap_en-us.pdf"
+          }
+        ],
+        "category": "transaction insights",
+        "support": {
+          "contact": "chainsafer_support@trendmicro.com",
+          "faq": "https://www.nexone.io/en-us/metamask-snap",
+          "knowledgeBase": "https://www.nexone.io/en-us/faq-trend-micro-chainsafer"
+        },
+        "sourceCode": "https://github.com/trendmicro/app-metasec-chainsafer-snap"
+      },
+      "versions": {
+        "1.0.227": {
+          "checksum": "eNrIkAz6VA/CJH3lt04evMwZDrQpWIaxYxCZnHsAYU8="
         }
       }
     },
