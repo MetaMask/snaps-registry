@@ -1751,6 +1751,35 @@
         }
       }
     },
+    "npm:dedaub-metamask-snap": {
+      "id": "npm:dedaub-metamask-snap",
+      "metadata": {
+        "name": "Dedaub",
+        "author": {
+          "name": "Dedaub",
+          "website": "https://dedaub.com/"
+        },
+        "summary": "Simulate transactions, verify the reputation and trustworthiness of involved accounts, and calculate the financial impact.",
+        "description": "The Dedaub TX Simulator Snap is a tool that helps users simulate financial transactions. It allows users to verify the authenticity and credibility of the accounts involved and calculate the financial outcomes of their actions. The tool uses the Smart Contract database of Dedaub Watchdog in real-time, providing users with up-to-date and comprehensive information to make informed decisions.\n\nAfter installing the Snap, it will appear in the transaction confirmation screen.",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://cure53.de/pentest-report_dedaub-metamask-snap.pdf"
+          }
+        ],
+        "category": "transaction insights",
+        "support": {
+          "faq": "https://docs.dedaub.com/docs/snap/faq",
+          "knowledgeBase": "https://docs.dedaub.com/docs/snap/introduction"
+        },
+        "sourceCode": "https://github.com/Dedaub/metamask-snap"
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "e4yR+2AW5m9JD8WtZ4K0Jhmo4QbY+BU95d2AFHUg4ys="
+        }
+      }
+    },
     "npm:@hashgraph/hedera-wallet-snap": {
       "id": "npm:@hashgraph/hedera-wallet-snap",
       "metadata": {
