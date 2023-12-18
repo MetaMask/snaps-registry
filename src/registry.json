@@ -728,11 +728,11 @@
         "sourceCode": "https://github.com/sotatek-dev/mina-snap"
       },
       "versions": {
+        "0.1.3": {
+          "checksum": "4FeWc2AU5TEB5Ox7wwn44MYKPmM2NgKTjV+4RR4NxVU="
+        },
         "0.1.2": {
           "checksum": "0FI6kXhMAOfPBv6hfmE6EEsZBWjRKbC2m7z0KfslRUU="
-        },
-        "0.1.1": {
-          "checksum": "SZYe7fY1/31ROYJedpOHg2JA4clXRQ1/HLBbqDgedPI="
         }
       }
     },
