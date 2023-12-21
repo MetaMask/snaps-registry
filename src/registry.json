@@ -1798,7 +1798,7 @@
         ],
         "category": "transaction insights",
         "support": {
-          "contact": "chainsafer_support@trendmicro.com",
+          "contact": "mailto:chainsafer_support@trendmicro.com",
           "faq": "https://www.nexone.io/en-us/metamask-snap",
           "knowledgeBase": "https://www.nexone.io/en-us/faq-trend-micro-chainsafer"
         },
@@ -1807,6 +1807,35 @@
       "versions": {
         "1.0.239": {
           "checksum": "HJa3U5gFJVbRhWHCJwS0OCFpArbZOuk+pzfHm6jLamk="
+        }
+      }
+    },
+    "npm:@amax/amaxsnap": {
+      "id": "npm:@amax/amaxsnap",
+      "metadata": {
+        "name": "AMAX UP",
+        "author": {
+          "name": "AMAX DAO",
+          "website": "https://amaxup.xyz/about"
+        },
+        "website": "https://amaxup.xyz/",
+        "summary": "Wallet for AMC (Armonia Meta Chain) that manages assets and uses dapps.",
+        "description": "AMAX UP is Armonia Meta Chain's Snap wallet that manages tokens and NFTs assets, enabling bridge, swap, stake, and other operations; it supports the use of MetaMask to connect to the AMC chain and use almost all functions of AMC.\n\nAfter installing the Snap, visit the website to connect with MetaMask and manage your AMC account(s).",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-amax/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:armoniax000@gmail.com"
+        },
+        "sourceCode": "https://github.com/armoniax/amaxup.evmsnap"
+      },
+      "versions": {
+        "0.0.5": {
+          "checksum": "uBmE8MJYdM5373rBxbQpzGkIC1mForIVWCUbBUv7eX0="
         }
       }
     },
