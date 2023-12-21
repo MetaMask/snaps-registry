@@ -1780,8 +1780,8 @@
         }
       }
     },
-    "npm:tm-chainsafer-snap-beta": {
-      "id": "npm:tm-chainsafer-snap-beta",
+    "npm:tm-chainsafer-snap": {
+      "id": "npm:tm-chainsafer-snap",
       "metadata": {
         "name": "TM ChainSafer",
         "author": {
@@ -1805,8 +1805,8 @@
         "sourceCode": "https://github.com/trendmicro/app-metasec-chainsafer-snap"
       },
       "versions": {
-        "1.0.227": {
-          "checksum": "eNrIkAz6VA/CJH3lt04evMwZDrQpWIaxYxCZnHsAYU8="
+        "1.0.239": {
+          "checksum": "HJa3U5gFJVbRhWHCJwS0OCFpArbZOuk+pzfHm6jLamk="
         }
       }
     },
