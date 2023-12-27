@@ -193,11 +193,8 @@
         "sourceCode": "https://github.com/ethereum-push-notification-service/push-protocol-snaps"
       },
       "versions": {
-        "1.1.4": {
-          "checksum": "LUMdoyENASQsdvfq2NX3t+QPvMloQ4DCwbo3opbl8fA="
-        },
-        "1.1.2": {
-          "checksum": "g4ULf+D5SCWqCidfH0PXnQM7hgSWF1hRM2sou0sC/RA="
+        "1.1.10": {
+          "checksum": "KzERh24mlGJGI92Qvon1EO8t8I1EHiCn4WmywHmJju0="
         }
       }
     },
@@ -1594,8 +1591,8 @@
         "sourceCode": "https://github.com/here-wallet/near-snap"
       },
       "versions": {
-        "0.6.1": {
-          "checksum": "77c7l1DmnhV9Ja1LdYHefYaYESZoFw7BTMO3PX52VX8="
+        "0.7.0": {
+          "checksum": "yR6Ldx32rWLhSRLNymGqxe+9wlJ8wPvmvtAqIxCfGa8="
         }
       }
     },
