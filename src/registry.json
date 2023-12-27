@@ -1594,8 +1594,8 @@
         "sourceCode": "https://github.com/here-wallet/near-snap"
       },
       "versions": {
-        "0.6.1": {
-          "checksum": "77c7l1DmnhV9Ja1LdYHefYaYESZoFw7BTMO3PX52VX8="
+        "0.7.0": {
+          "checksum": "yR6Ldx32rWLhSRLNymGqxe+9wlJ8wPvmvtAqIxCfGa8="
         }
       }
     },
