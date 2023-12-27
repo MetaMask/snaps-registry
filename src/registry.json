@@ -97,6 +97,37 @@
         }
       }
     },
+    "npm:azero-wallet": {
+      "id": "npm:azero-wallet",
+      "metadata": {
+        "name": "Aleph Zero Wallet",
+        "author": {
+          "name": "Bide",
+          "website": "https://bide.dev/"
+        },
+        "website": "https://azero.dev/",
+        "summary": "Transact and sign messages on Aleph Zero network",
+        "description": "With Aleph Zero Wallet, you can send transaction in native asset of Aleph Zero network,\n\nand sign transactions and messages using your MetaMask wallet.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-alephzero"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://bide-dev.github.io/azero-wallet/",
+          "faq": "https://bide-dev.github.io/azero-wallet/faq.html",
+          "contact": "mailto:support@bide.dev"
+        },
+        "sourceCode": "https://github.com/bide-dev/azero-wallet"
+      },
+      "versions": {
+        "0.3.4": {
+          "checksum": "Yj5GtWV5+Wu6T4cszpsY26qbxA8+S10lbShM2jKYqbo="
+        }
+      }
+    },
     "npm:casper-manager": {
       "id": "npm:casper-manager",
       "metadata": {
