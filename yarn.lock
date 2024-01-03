@@ -894,14 +894,14 @@ __metadata:
   linkType: hard
 
 "@metamask/approval-controller@npm:^5.0.0":
-  version: 5.1.0
-  resolution: "@metamask/approval-controller@npm:5.1.0"
+  version: 5.1.1
+  resolution: "@metamask/approval-controller@npm:5.1.1"
   dependencies:
-    "@metamask/base-controller": ^4.0.0
+    "@metamask/base-controller": ^4.0.1
     "@metamask/rpc-errors": ^6.1.0
     "@metamask/utils": ^8.2.0
     nanoid: ^3.1.31
-  checksum: 8410904581ec70131daa8f2c4382d0e1bfdf26fc404a422645273f61e38bbae024242e432c192204b9ebbac4c3b45b930221976d40929b673f87d12c6f5df5a9
+  checksum: 02676b0a213289ba44f2f746c9f5e58687ee80cd17e88ae8324f4ac7fcb910d05476bfbed94c410cfdb56d40e735c812a4ad5d496fdc4911655f2760cc8d6e80
   languageName: node
   linkType: hard
 
@@ -920,7 +920,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/base-controller@npm:^4.0.0":
+"@metamask/base-controller@npm:^4.0.0, @metamask/base-controller@npm:^4.0.1":
   version: 4.0.1
   resolution: "@metamask/base-controller@npm:4.0.1"
   dependencies:
