@@ -894,14 +894,14 @@ __metadata:
   linkType: hard
 
 "@metamask/approval-controller@npm:^5.0.0":
-  version: 5.1.0
-  resolution: "@metamask/approval-controller@npm:5.1.0"
+  version: 5.1.1
+  resolution: "@metamask/approval-controller@npm:5.1.1"
   dependencies:
-    "@metamask/base-controller": ^4.0.0
+    "@metamask/base-controller": ^4.0.1
     "@metamask/rpc-errors": ^6.1.0
     "@metamask/utils": ^8.2.0
     nanoid: ^3.1.31
-  checksum: 8410904581ec70131daa8f2c4382d0e1bfdf26fc404a422645273f61e38bbae024242e432c192204b9ebbac4c3b45b930221976d40929b673f87d12c6f5df5a9
+  checksum: 02676b0a213289ba44f2f746c9f5e58687ee80cd17e88ae8324f4ac7fcb910d05476bfbed94c410cfdb56d40e735c812a4ad5d496fdc4911655f2760cc8d6e80
   languageName: node
   linkType: hard
 
@@ -920,13 +920,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/base-controller@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "@metamask/base-controller@npm:4.0.0"
+"@metamask/base-controller@npm:^4.0.0, @metamask/base-controller@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "@metamask/base-controller@npm:4.0.1"
   dependencies:
     "@metamask/utils": ^8.2.0
     immer: ^9.0.6
-  checksum: a3ac2d54a8d540f1f160ce657d9127e8f3a3f4685834eba3913be8dfa577eea7cc00e4e98ebedd42d6c190e0949e296c7ef9c10b3f8bffcb0b33bdff6e7bafc1
+  checksum: d86a7dbe5f23daf56677fe14192d08c9b38c993e8c05a36afa2d7995bb7b272be8d182450c509ed605e73256d32fef55eea5814130d2381259e30751be3d9f2c
   languageName: node
   linkType: hard
 
@@ -1016,13 +1016,13 @@ __metadata:
   linkType: hard
 
 "@metamask/json-rpc-engine@npm:^7.1.1, @metamask/json-rpc-engine@npm:^7.3.0":
-  version: 7.3.0
-  resolution: "@metamask/json-rpc-engine@npm:7.3.0"
+  version: 7.3.1
+  resolution: "@metamask/json-rpc-engine@npm:7.3.1"
   dependencies:
     "@metamask/rpc-errors": ^6.1.0
     "@metamask/safe-event-emitter": ^3.0.0
     "@metamask/utils": ^8.2.0
-  checksum: 7e12fb58ee2775269aa3e6e3a40d18d9053b6cefb6eaa2b80558a65986d0e451a9faf3935548d5b4eced857c6b569e768cb235ef10ff0feb72a23ccadaaff4bc
+  checksum: 4952eb4e70c0011d334fb4a9bf56aa2d68bef745c892dddd06f6ed7e6303fb95b3b60b4e32c88b6d77bfc5091acc8e71ad274f389419e4bdcc5741ef49cde87d
   languageName: node
   linkType: hard
 
