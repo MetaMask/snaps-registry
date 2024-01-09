@@ -193,11 +193,11 @@
         "sourceCode": "https://github.com/ethereum-push-notification-service/push-protocol-snaps"
       },
       "versions": {
-        "1.1.4": {
-          "checksum": "LUMdoyENASQsdvfq2NX3t+QPvMloQ4DCwbo3opbl8fA="
+        "1.1.11": {
+          "checksum": "roWWhBsZsoAjGzIcL4WzFhoBHmj9dzc7IztA7uZgfE8="
         },
-        "1.1.2": {
-          "checksum": "g4ULf+D5SCWqCidfH0PXnQM7hgSWF1hRM2sou0sC/RA="
+        "1.1.10": {
+          "checksum": "KzERh24mlGJGI92Qvon1EO8t8I1EHiCn4WmywHmJju0="
         }
       }
     },
@@ -728,11 +728,11 @@
         "sourceCode": "https://github.com/sotatek-dev/mina-snap"
       },
       "versions": {
+        "0.1.3": {
+          "checksum": "4FeWc2AU5TEB5Ox7wwn44MYKPmM2NgKTjV+4RR4NxVU="
+        },
         "0.1.2": {
           "checksum": "0FI6kXhMAOfPBv6hfmE6EEsZBWjRKbC2m7z0KfslRUU="
-        },
-        "0.1.1": {
-          "checksum": "SZYe7fY1/31ROYJedpOHg2JA4clXRQ1/HLBbqDgedPI="
         }
       }
     },
@@ -1143,9 +1143,9 @@
           "name": "Rarimo",
           "website": "https://rarimo.com/"
         },
-        "website": "https://rarime.com/",
+        "website": "https://dashboard.rarime.com/",
         "summary": "Safely holds any of your credentials and allows you to prove your identity without revealing any personal data. Powered by Rarimo Protocol and Zero-Knowledge Proof technology.",
-        "description": "RariMe is a MetaMask Snap that safely holds any of your credentials and allows you to prove your identity without revealing any personal data. Powered by Rarimo Protocol and Zero-Knowledge Proof technology.\n\nThis Snap allows you to 1) receive credentials 2) create Zero Knowledge Proofs of your credentials and 3) submit proofs to dapps. For each of these steps, you will be automatically prompted by the identity providers and the dapps that have integrated with RariMe.",
+        "description": "RariMe is a MetaMask Snap that safely holds any of your credentials and allows you to prove your identity without revealing any personal data. Powered by Rarimo Protocol and Zero-Knowledge Proof technology.\n\nThis Snap allows you to 1) receive credentials 2) create Zero Knowledge Proofs of your credentials and 3) submit proofs to dapps. For each of these steps, you will be automatically prompted by the identity providers and the dapps that have integrated with RariMe.\n\nRariMe will never access your private keys or compromise your security and control over your assets.",
         "audits": [
           {
             "auditor": "Halborn",
@@ -1265,6 +1265,7 @@
           "name": "Drift Protocol",
           "website": "https://www.drift.trade/"
         },
+        "website": "https://app.drift.trade/",
         "summary": "An open-sourced Solana Snap that allows MetaMask users to natively interact with Solana applications.",
         "description": "Connect by Drift allows MetaMask to seamlessly connect to Drift and function as a Solana wallet. Users of the Snap can connect to Drift, bridge their Ethereum assets to Solana, and trade on Drift all from within MetaMask.\n\nAfter installing the Snap, visit the website and click Launch App to try it. Please note: Drift may not be available in your region.",
         "audits": [
@@ -1273,6 +1274,7 @@
             "report": "https://ottersec.notion.site/Drift-Snap-8575cd9031ae466d87d3b6a1c0afa028"
           }
         ],
+        "category": "interoperability",
         "support": {
           "contact": "https://discord.com/invite/fMcZBH8ErM"
         },
@@ -1312,6 +1314,9 @@
         "sourceCode": "https://github.com/xmtp/snap"
       },
       "versions": {
+        "1.3.0": {
+          "checksum": "BIA5ZOGiZZrlYgJx6sdk0ifx+qMoOcaZO8dBBU3w5QA="
+        },
         "1.2.2": {
           "checksum": "pHhTGrqjGkNoK/2wb64Zqxpo3TFnE2a5smfVt45VCRM="
         }
@@ -1439,8 +1444,8 @@
         "sourceCode": "https://github.com/Consensys/starknet-snap"
       },
       "versions": {
-        "2.2.0": {
-          "checksum": "uc3NHYfaJxcyFoZdJjyDJWswSDGQN3ST7LbBDGSYlOQ="
+        "2.4.0": {
+          "checksum": "lfxsHs6C6buodVo0zVJakNAHgIXAGkHyVTL12Rw0xdw="
         }
       }
     },
@@ -1589,8 +1594,8 @@
         "sourceCode": "https://github.com/here-wallet/near-snap"
       },
       "versions": {
-        "0.6.1": {
-          "checksum": "77c7l1DmnhV9Ja1LdYHefYaYESZoFw7BTMO3PX52VX8="
+        "0.7.0": {
+          "checksum": "yR6Ldx32rWLhSRLNymGqxe+9wlJ8wPvmvtAqIxCfGa8="
         }
       }
     },
@@ -1633,9 +1638,9 @@
           "name": "Astar Network",
           "website": "https://astar.network/"
         },
-        "website": "https://portal.astar.network/shibuya-testnet/assets",
+        "website": "https://portal.astar.network/",
         "summary": "Adds support for Astar to MetaMask",
-        "description": "Adds support for Astar, an interoperable blockchain platform for Polkadot and Ethereum ecosystems supporting both Wasm and EVM smart contracts.\n\nAfter installing the Snap, visit the Astar Portal to connect on the Shibuya Testnet. Make sure to select 'Astar Snap' under the Native Accounts options.",
+        "description": "Adds support for Astar, an interoperable blockchain platform for Polkadot and Ethereum ecosystems supporting both Wasm and EVM smart contracts.\n\nAfter installing the Snap, visit the Astar Portal at https://portal.astar.network/ to connect. Make sure to select 'Astar Snap' under the Native Accounts options.",
         "audits": [
           {
             "auditor": "Sayfer",
@@ -1747,6 +1752,123 @@
         }
       }
     },
+    "npm:@rss3/social-notifier-snap": {
+      "id": "npm:@rss3/social-notifier-snap",
+      "metadata": {
+        "name": "RSS3 Social Notifier",
+        "author": {
+          "name": "RSS3",
+          "website": "https://rss3.io/"
+        },
+        "summary": "Stay on top of your frens' social activities from Lens, Farcaster, and more.",
+        "description": "The RSS3 Social Notifier is a notification Snap allowing MetaMask users to connect all their on-chain social profiles (e.g. Lens, Farcaster) and sync existing social graphs. Users will get notified directly through MetaMask and stay tuned with their friends' latest activities in a human-readable style.\n\nAfter installing the Snap, visit the website at https://snap.rss3.io to connect your social profiles and configure notifications.",
+        "audits": [
+          {
+            "auditor": "SlowMist",
+            "report": "https://github.com/NaturalSelectionLabs/RSS3-Social-Notifier-Snap/blob/main/audit/SlowMist%20Audit%20Report%20-%20RSS3-Social-Notifier-Snap.pdf"
+          }
+        ],
+        "category": "notifications",
+        "support": {
+          "contact": "https://discord.gg/vfhpMjdbGU",
+          "faq": "https://snap.rss3.io/"
+        },
+        "sourceCode": "https://github.com/NaturalSelectionLabs/RSS3-Social-Notifier-Snap"
+      },
+      "versions": {
+        "0.1.13": {
+          "checksum": "F/41Grd5/wgk5Xpu6kkSAhFC2La75rLsX8f7iz6uzII="
+        }
+      }
+    },
+    "npm:dedaub-metamask-snap": {
+      "id": "npm:dedaub-metamask-snap",
+      "metadata": {
+        "name": "Dedaub",
+        "author": {
+          "name": "Dedaub",
+          "website": "https://dedaub.com/"
+        },
+        "summary": "Simulate transactions, verify the reputation and trustworthiness of involved accounts, and calculate the financial impact.",
+        "description": "The Dedaub Transaction Simulator Snap is a tool that helps users simulate financial transactions. It allows users to verify the authenticity and credibility of the accounts involved and calculate the financial outcomes of their actions. The tool uses the Smart Contract database of Dedaub Watchdog in real-time, providing users with up-to-date and comprehensive information to make informed decisions.\n\nAfter installing the Snap, it will appear in the transaction confirmation screen.",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://cure53.de/pentest-report_dedaub-metamask-snap.pdf"
+          }
+        ],
+        "category": "transaction insights",
+        "support": {
+          "faq": "https://docs.dedaub.com/docs/snap/faq",
+          "knowledgeBase": "https://docs.dedaub.com/docs/snap/introduction"
+        },
+        "sourceCode": "https://github.com/Dedaub/metamask-snap"
+      },
+      "versions": {
+        "1.0.2": {
+          "checksum": "ctrhZVXiy3BAnwApsQcER7CWVImc5iHzphYQTJOVaT4="
+        }
+      }
+    },
+    "npm:tm-chainsafer-snap": {
+      "id": "npm:tm-chainsafer-snap",
+      "metadata": {
+        "name": "TM ChainSafer",
+        "author": {
+          "name": "Trend Micro",
+          "website": "https://www.nexone.io/"
+        },
+        "summary": "Offers transaction insight and security assessment to highlight transaction risk and increase transaction awareness for users.",
+        "description": "TrendMicro ChainSafer provides the following features to ensure transaction safety as well as  more insights for users to judge transactions.\n\n1. Offering transaction risk assessment for users to check different security levels of transactions.\n2. Offering simulation for users to know asset(s) changes after transaction intention before they try to execute the real transaction.\n3. Offering project insights for users to understand more detail of targeted token contracts.",
+        "audits": [
+          {
+            "auditor": "SlowMist",
+            "report": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/blockchain-application/SlowMist%20Audit%20Report%20-%20Chainsafer%20Snap_en-us.pdf"
+          }
+        ],
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:chainsafer_support@trendmicro.com",
+          "faq": "https://www.nexone.io/en-us/metamask-snap",
+          "knowledgeBase": "https://www.nexone.io/en-us/faq-trend-micro-chainsafer"
+        },
+        "sourceCode": "https://github.com/trendmicro/app-metasec-chainsafer-snap"
+      },
+      "versions": {
+        "1.0.239": {
+          "checksum": "HJa3U5gFJVbRhWHCJwS0OCFpArbZOuk+pzfHm6jLamk="
+        }
+      }
+    },
+    "npm:@amax/amaxsnap": {
+      "id": "npm:@amax/amaxsnap",
+      "metadata": {
+        "name": "AMAX UP",
+        "author": {
+          "name": "AMAX DAO",
+          "website": "https://amaxup.xyz/about"
+        },
+        "website": "https://amaxup.xyz/",
+        "summary": "Wallet for AMC (Armonia Meta Chain) that manages assets and uses dapps.",
+        "description": "AMAX UP is Armonia Meta Chain's Snap wallet that manages tokens and NFTs assets, enabling bridge, swap, stake, and other operations; it supports the use of MetaMask to connect to the AMC chain and use almost all functions of AMC.\n\nAfter installing the Snap, visit the website to connect with MetaMask and manage your AMC account(s).",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-amax/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:armoniax000@gmail.com"
+        },
+        "sourceCode": "https://github.com/armoniax/amaxup.evmsnap"
+      },
+      "versions": {
+        "0.0.5": {
+          "checksum": "uBmE8MJYdM5373rBxbQpzGkIC1mForIVWCUbBUv7eX0="
+        }
+      }
+    },
     "npm:@hashgraph/hedera-wallet-snap": {
       "id": "npm:@hashgraph/hedera-wallet-snap",
       "metadata": {
@@ -1770,8 +1892,8 @@
         "sourceCode": "https://github.com/hashgraph/hedera-metamask-snaps"
       },
       "versions": {
-        "0.1.2": {
-          "checksum": "fC8LWgmMmxo4XxBJVoeug73BgRQ6IR/5Wv0E6FPlrfY="
+        "0.1.3": {
+          "checksum": "FZd9yAYWBUT5rPCLOoqQKWB70MX30eMWe4qksSH2Jv0="
         }
       }
     },
@@ -1787,6 +1909,9 @@
         },
         "1.1.0": {
           "checksum": "z53gbieRalN7oU+qY4gZgC+U9EfhbfAAnY4d8Wb5sYg="
+        },
+        "1.1.1": {
+          "checksum": "kTIqxcFUYPRiaV7etXM0HpD+fSaJw/+ePbFgjXW3Btk="
         }
       }
     },
