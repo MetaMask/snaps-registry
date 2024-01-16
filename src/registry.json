@@ -1841,9 +1841,10 @@
       "metadata": {
         "name": "Hedera Wallet",
         "author": {
-          "name": "Hedera",
-          "website": "https://hedera.com"
+          "name": "Tuum Technologies",
+          "website": "https://www.tuum.tech/"
         },
+        "website": "https://pulse.tuum.tech/",
         "summary": "Adds native Hedera support to MetaMask.",
         "description": "Hedera Wallet unlocks wallet functionality via MetaMask that any other apps can interact with, thereby turning MetaMask into a native Hedera wallet without relying on Hedera JSON-RPC Relay.",
         "audits": [
@@ -1852,6 +1853,7 @@
             "report": "https://cure53.de/pentest-report_tuum-hedera-snap.pdf"
           }
         ],
+        "category": "interoperability",
         "support": {
           "contact": "https://www.hedera.com/discord",
           "knowledgeBase": "https://github.com/hashgraph/.github/blob/main/SUPPORT.md"
