@@ -1866,6 +1866,35 @@
         }
       }
     },
+    "npm:@consensys/web3tickets-snap": {
+      "id": "npm:@consensys/web3tickets-snap",
+      "metadata": {
+        "name": "Web3 Ticketing",
+        "author": {
+          "name": "Consensys",
+          "website": "https://consensys.io/"
+        },
+        "website": "https://tickets.metamask.io/",
+        "summary": "Get notifications for support tickets directly in MetaMask",
+        "description": "This Snap allows you to receive notifications about your MetaMask Support Tickets directly in the MetaMask Extension.\n\nAfter installing the Snap, visit the website to open a support ticket.",
+        "audits": [
+          {
+            "auditor": "Consensys Diligence",
+            "report": "https://consensys.io/diligence/audits/2023/12/web3-tickets/"
+          }
+        ],
+        "category": "notifications",
+        "support": {
+          "faq": "https://support.metamask.io/hc/en-us/articles/22053676917915-MetaMask-web3-support-experience"
+        },
+        "sourceCode": "https://github.com/Consensys/web3tickets-snap"
+      },
+      "versions": {
+        "0.0.2": {
+          "checksum": "qE2boUGT7a2zoXWcVV49hgclNaa8mppzz6tlcsamsQ0="
+        }
+      }
+    },
     "npm:@metamask/snap-simple-keyring-snap": {
       "id": "npm:@metamask/snap-simple-keyring-snap",
       "metadata": {
