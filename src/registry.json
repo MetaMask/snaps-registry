@@ -1856,7 +1856,7 @@
         "category": "interoperability",
         "support": {
           "contact": "https://www.hedera.com/discord",
-          "knowledgeBase": "https://github.com/hashgraph/.github/blob/main/SUPPORT.md"
+          "knowledgeBase": "https://docs.tuum.tech/hedera-wallet-snap"
         },
         "sourceCode": "https://github.com/hashgraph/hedera-metamask-snaps"
       },
