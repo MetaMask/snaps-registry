@@ -187,8 +187,8 @@
         "category": "notifications",
         "support": {
           "contact": "https://discord.com/invite/pushprotocol",
-          "faq": "https://www.notion.so/Push-Snap-FAQs-c034d65ab01240bdb5acdfb4ea4b8320",
-          "knowledgeBase": "https://pushprotocol.notion.site/Push-Snap-Documentation-7ac53ec38ad648fca3e8aada589a4943"
+          "faq": "https://app.push.org/snap/faq",
+          "knowledgeBase": "https://app.push.org/snap/knowledge"
         },
         "sourceCode": "https://github.com/ethereum-push-notification-service/push-protocol-snaps"
       },
