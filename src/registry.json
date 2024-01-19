@@ -1955,6 +1955,18 @@
           "checksum": "0LYVuy8axHCCii9kBjsl6e0o/NNGe3d2hFysfOJzDYc="
         }
       }
+    },
+    "npm:@metamask/name-lookup-example-snap": {
+      "id": "npm:@metamask/name-lookup-example-snap",
+      "metadata": {
+        "name": "Name Lookup Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "2.1.0": {
+          "checksum": "Sbu/MyQ6Mrxr6/4DDjd6SVjESJ2jrWASZSHc5JukBBo="
+        }
+      }
     }
   },
   "blockedSnaps": [
