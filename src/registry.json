@@ -187,17 +187,14 @@
         "category": "notifications",
         "support": {
           "contact": "https://discord.com/invite/pushprotocol",
-          "faq": "https://www.notion.so/Push-Snap-FAQs-c034d65ab01240bdb5acdfb4ea4b8320",
-          "knowledgeBase": "https://pushprotocol.notion.site/Push-Snap-Documentation-7ac53ec38ad648fca3e8aada589a4943"
+          "faq": "https://app.push.org/snap/faq",
+          "knowledgeBase": "https://app.push.org/snap/knowledge"
         },
         "sourceCode": "https://github.com/ethereum-push-notification-service/push-protocol-snaps"
       },
       "versions": {
-        "1.1.11": {
-          "checksum": "roWWhBsZsoAjGzIcL4WzFhoBHmj9dzc7IztA7uZgfE8="
-        },
-        "1.1.10": {
-          "checksum": "KzERh24mlGJGI92Qvon1EO8t8I1EHiCn4WmywHmJju0="
+        "1.1.12": {
+          "checksum": "bLscj+khp9cAMhRM0+0+RMR0ZbT4LESnaSFBWUw7X5c="
         }
       }
     },
@@ -728,11 +725,8 @@
         "sourceCode": "https://github.com/sotatek-dev/mina-snap"
       },
       "versions": {
-        "0.1.3": {
-          "checksum": "4FeWc2AU5TEB5Ox7wwn44MYKPmM2NgKTjV+4RR4NxVU="
-        },
-        "0.1.2": {
-          "checksum": "0FI6kXhMAOfPBv6hfmE6EEsZBWjRKbC2m7z0KfslRUU="
+        "0.1.4": {
+          "checksum": "icE/urU90jJr0wlzJ6kgoM61jz3uSvlGvUnzZTxANGw="
         }
       }
     },
@@ -1700,8 +1694,9 @@
           "name": "Web3 Antivirus",
           "website": "https://web3antivirus.io"
         },
-        "summary": "Transact safely in Web3 with reports about scams and risks: honeypots, poisoning attacks, and more.",
-        "description": "Have your Web3 security guard right in your wallet. This Snap runs thorough checks of all contracts, addresses, and assets you interact with and evaluates their safety. If there are risks such as honeypots and poisoning attacks, it alerts you in real-time about potential scams.",
+        "website": "https://web3antivirus.io/snap/",
+        "summary": "Transact safely in Web3 with alerts about scams and risks: honeypots, wallet drainers, poisoning attacks, phishing, wash trading, malicious contract logic, and more.",
+        "description": "Have your Web3 security guard right in your wallet. W3A Snap simulates transactions, runs thorough checks of all contracts, addresses, and assets you interact with, and evaluates their safety. If it detects any risks such as wallet drainers, honeypots, poisoning attacks, phishing, wash trading, malicious contract logic, scam assets or addresses, etc., you will receive a real-time alert.",
         "audits": [
           {
             "auditor": "Veridise",
@@ -1719,6 +1714,36 @@
       "versions": {
         "0.1.5": {
           "checksum": "//46Lf2S2PUtQB/rodthHFQsvXmEgEWuLhgBeHjimcQ="
+        }
+      }
+    },
+    "npm:@galactica-net/snap": {
+      "id": "npm:@galactica-net/snap",
+      "metadata": {
+        "name": "Galactica ZK Vault",
+        "author": {
+          "name": "Galactica Network",
+          "website": "https://galactica.com/"
+        },
+        "website": "https://app-andromeda.galactica.com/",
+        "summary": "Manages zero-knowledge certificates on Galactica.com - own your identity, not just your assets",
+        "description": "The Galactica.com ZK Vault Snap holds zero-knowledge certificates issued on Galactica Network in the user's wallet, allowing self custody of your data. It generates zero-knowledge proofs inside MetaMask to selectively disclose statements on-chain while keeping personal data private. For example, you can import a KYC certificate and privately prove your authenticity and compliance to a smart contract.\n\nAfter installing the Snap, visit https://app-andromeda.galactica.com/ to get started.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-galactica/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/galactica",
+          "knowledgeBase": "https://docs.galactica.com/"
+        },
+        "sourceCode": "https://github.com/Galactica-corp/galactica-monorepo/tree/main/packages/snap"
+      },
+      "versions": {
+        "0.6.1": {
+          "checksum": "HbPS0L0HN5om/cXvYdWMoGn+hGfeS2dPqJ113OTjNH8="
         }
       }
     },
@@ -1805,8 +1830,8 @@
         "sourceCode": "https://github.com/trendmicro/app-metasec-chainsafer-snap"
       },
       "versions": {
-        "1.0.239": {
-          "checksum": "HJa3U5gFJVbRhWHCJwS0OCFpArbZOuk+pzfHm6jLamk="
+        "1.0.284": {
+          "checksum": "KaFJr3gPeoChzVARPMapXOiZmDx5mRIW+3QxFGHCi3E="
         }
       }
     },
@@ -1844,9 +1869,10 @@
       "metadata": {
         "name": "Hedera Wallet",
         "author": {
-          "name": "Hedera",
-          "website": "https://hedera.com"
+          "name": "Tuum Technologies",
+          "website": "https://www.tuum.tech/"
         },
+        "website": "https://pulse.tuum.tech/",
         "summary": "Adds native Hedera support to MetaMask.",
         "description": "Hedera Wallet unlocks wallet functionality via MetaMask that any other apps can interact with, thereby turning MetaMask into a native Hedera wallet without relying on Hedera JSON-RPC Relay.",
         "audits": [
@@ -1855,15 +1881,45 @@
             "report": "https://cure53.de/pentest-report_tuum-hedera-snap.pdf"
           }
         ],
+        "category": "interoperability",
         "support": {
-          "contact": "https://www.hedera.com/discord",
-          "knowledgeBase": "https://github.com/hashgraph/.github/blob/main/SUPPORT.md"
+          "contact": "https://discord.gg/8HhQjQbSXs",
+          "knowledgeBase": "https://docs.tuum.tech/hedera-wallet-snap"
         },
         "sourceCode": "https://github.com/hashgraph/hedera-metamask-snaps"
       },
       "versions": {
         "0.1.3": {
           "checksum": "FZd9yAYWBUT5rPCLOoqQKWB70MX30eMWe4qksSH2Jv0="
+        }
+      }
+    },
+    "npm:@consensys/web3tickets-snap": {
+      "id": "npm:@consensys/web3tickets-snap",
+      "metadata": {
+        "name": "Web3 Ticketing",
+        "author": {
+          "name": "Consensys",
+          "website": "https://consensys.io/"
+        },
+        "website": "https://tickets.metamask.io/",
+        "summary": "Get notifications for support tickets directly in MetaMask",
+        "description": "This Snap allows you to receive notifications about your MetaMask Support Tickets directly in the MetaMask Extension.\n\nAfter installing the Snap, visit the website to open a support ticket.",
+        "audits": [
+          {
+            "auditor": "Consensys Diligence",
+            "report": "https://consensys.io/diligence/audits/2023/12/web3-tickets/"
+          }
+        ],
+        "category": "notifications",
+        "support": {
+          "faq": "https://support.metamask.io/hc/en-us/articles/22053676917915-MetaMask-web3-support-experience"
+        },
+        "sourceCode": "https://github.com/Consensys/web3tickets-snap"
+      },
+      "versions": {
+        "0.0.5": {
+          "checksum": "S1oaIWdh6wK9BAU/st7K7XoLkY0GBkYVx94nJOhYkqE="
         }
       }
     },
@@ -1897,6 +1953,18 @@
         },
         "1.1.0": {
           "checksum": "0LYVuy8axHCCii9kBjsl6e0o/NNGe3d2hFysfOJzDYc="
+        }
+      }
+    },
+    "npm:@metamask/name-lookup-example-snap": {
+      "id": "npm:@metamask/name-lookup-example-snap",
+      "metadata": {
+        "name": "Name Lookup Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "2.1.0": {
+          "checksum": "Sbu/MyQ6Mrxr6/4DDjd6SVjESJ2jrWASZSHc5JukBBo="
         }
       }
     }
