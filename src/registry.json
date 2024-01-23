@@ -1897,13 +1897,13 @@
     "npm:@consensys/web3tickets-snap": {
       "id": "npm:@consensys/web3tickets-snap",
       "metadata": {
-        "name": "Web3 Ticketing",
+        "name": "MetaMask Support",
         "author": {
           "name": "Consensys",
           "website": "https://consensys.io/"
         },
         "website": "https://tickets.metamask.io/",
-        "summary": "Get notifications for support tickets directly in MetaMask",
+        "summary": "Get notifications for support tickets directly in MetaMask.",
         "description": "This Snap allows you to receive notifications about your MetaMask Support Tickets directly in the MetaMask Extension.\n\nAfter installing the Snap, visit the website to open a support ticket.",
         "audits": [
           {
@@ -1918,8 +1918,38 @@
         "sourceCode": "https://github.com/Consensys/web3tickets-snap"
       },
       "versions": {
-        "0.0.5": {
-          "checksum": "S1oaIWdh6wK9BAU/st7K7XoLkY0GBkYVx94nJOhYkqE="
+        "0.0.6": {
+          "checksum": "02dpewyed8QuRPKbOEQ09RV9y2m8b1QgUYnJfialg7I="
+        }
+      }
+    },
+    "npm:@ethereum-attestation-service/eas-metamask-snap": {
+      "id": "npm:@ethereum-attestation-service/eas-metamask-snap",
+      "metadata": {
+        "name": "EAS",
+        "author": {
+          "name": "EAS",
+          "website": "https://attest.sh/"
+        },
+        "summary": "Decode EAS schema and attestation transaction data.",
+        "description": "The EAS Snap enhances the transparency and security of EAS attestations signed with your MetaMask. It decodes attestation data, allowing users to clearly understand and verify the details before confirming a transaction.\n\nWhy It Matters\nWhen signing attestations with MetaMask, the data often appears in a hexadecimal format, which is not human-readable. The EAS Snap converts this data into a clear, readable format. This ensures you're fully aware of the attestation's details, mitigating the risk of unintentional or malicious signings.\n\nKey Features\n- Attestation Decoding: Utilizes SchemaEncoder from the EAS SDK to decode attestation data, presenting it in a readable format.\n- Transaction Data Parsing: The snap parses Ethereum transaction data to identify if it is related to an EAS attestation, using ethers library.\n- Dynamic Content Rendering: It dynamically renders transaction details in the MetaMask UI, including schema, recipient, reference UID, expiration time, and revocability status, offering users a complete overview of the attestation they are about to sign.\n- Time Formatting: Utilizes dayjs with extended formats to display expiration times in a user-friendly manner.\n- GraphQL Integration: Communicates with EAS's GraphQL endpoint to fetch and display the schema associated with the attestation.\n- Data Decoding and Display: Decodes and displays each piece of attestation data using the fetched schema, allowing users to understand the specifics of what they are attesting.\n\nAfter installing the Snap, you can view insights in the transaction flow while interacting with an EAS contract. To explore EAS, try EAS Scan: https://sepolia.easscan.org/",
+        "audits": [
+          {
+            "auditor": "SlowMist",
+            "report": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/blockchain-application/SlowMist%20Audit%20Report%20-%20EAS%20Snap_en-us.pdf"
+          }
+        ],
+        "category": "transaction insights",
+        "support": {
+          "knowledgeBase": "https://docs.attest.sh/docs/developer-tools/metamask-snap/",
+          "faq": "https://docs.attest.sh/docs/developer-tools/metamask-snap/eas-snap-faq",
+          "contact": "https://t.me/+EcynOr0iFu03MTYx"
+        },
+        "sourceCode": "https://github.com/ethereum-attestation-service/eas-metamask-snap"
+      },
+      "versions": {
+        "0.1.5": {
+          "checksum": "qP2MlmkWDfqWbS30dOSpiHHUF3DG8lj9U31cgBt5ffo="
         }
       }
     },
