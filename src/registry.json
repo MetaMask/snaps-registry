@@ -1897,7 +1897,7 @@
     "npm:@consensys/web3tickets-snap": {
       "id": "npm:@consensys/web3tickets-snap",
       "metadata": {
-        "name": "Web3 Ticketing",
+        "name": "MetaMask Support",
         "author": {
           "name": "Consensys",
           "website": "https://consensys.io/"
@@ -1918,8 +1918,8 @@
         "sourceCode": "https://github.com/Consensys/web3tickets-snap"
       },
       "versions": {
-        "0.0.5": {
-          "checksum": "S1oaIWdh6wK9BAU/st7K7XoLkY0GBkYVx94nJOhYkqE="
+        "0.0.6": {
+          "checksum": "02dpewyed8QuRPKbOEQ09RV9y2m8b1QgUYnJfialg7I="
         }
       }
     },
