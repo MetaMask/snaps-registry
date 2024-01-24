@@ -74,6 +74,7 @@ export const VerifiedSnapStruct = object({
     privateCode: optional(boolean()),
     privacyPolicy: optional(string()),
     termsOfUse: optional(string()),
+    additionalSourceCode: optional(array(string())),
   }),
   versions: record(VersionStruct, VerifiedSnapVersionStruct),
 });
