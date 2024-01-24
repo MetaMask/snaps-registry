@@ -1938,6 +1938,7 @@
             "report": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/blockchain-application/SlowMist%20Audit%20Report%20-%20EAS%20Snap_en-us.pdf"
           }
         ],
+        "category": "transaction insights",
         "support": {
           "knowledgeBase": "https://docs.attest.sh/docs/developer-tools/metamask-snap/",
           "faq": "https://docs.attest.sh/docs/developer-tools/metamask-snap/eas-snap-faq",
@@ -1946,8 +1947,8 @@
         "sourceCode": "https://github.com/ethereum-attestation-service/eas-metamask-snap"
       },
       "versions": {
-        "0.1.5": {
-          "checksum": "qP2MlmkWDfqWbS30dOSpiHHUF3DG8lj9U31cgBt5ffo="
+        "0.1.6": {
+          "checksum": "5NJCG0Enpqd9CMBLk0999tDaT4PViEAE+KwN9hkE51s="
         }
       }
     },
