@@ -1,4 +1,8 @@
-import { detectSnapLocation, getSnapFiles } from '@metamask/snaps-controllers';
+import {
+  detectSnapLocation,
+  fetchSnap,
+  getSnapFiles,
+} from '@metamask/snaps-controllers';
 import {
   getLocalizedSnapManifest,
   getValidatedLocalizationFiles,
@@ -10,6 +14,7 @@ import type { Infer } from 'superstruct';
 
 import type { VerifiedSnapStruct } from '../src';
 import registry from '../src/registry.json';
+import { SnapId } from '@metamask/snaps-sdk';
 
 type VerifiedSnap = Infer<typeof VerifiedSnapStruct>;
 
@@ -36,16 +41,14 @@ async function verifySnapVersion(
   const location = detectSnapLocation(snap.id, {
     versionRange: version as any,
   });
-  const { result: manifest } = await location.manifest();
 
-  const localizationFiles = await getSnapFiles(
-    location,
-    manifest.source.locales,
+  // This will throw if the snap checksum is invalid etc
+  const fetchedSnap = await fetchSnap(snap.id as SnapId, location);
+
+  const manifest = fetchedSnap.manifest.result;
+  const validatedLocalizationFiles = fetchedSnap.localizationFiles.map(
+    (file) => file.result,
   );
-
-  const validatedLocalizationFiles = getValidatedLocalizationFiles(
-    localizationFiles,
-  ).map((file) => file.result);
 
   // For now, just validate the English translation
   const localizedManifest = getLocalizedSnapManifest(
