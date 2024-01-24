@@ -43,6 +43,7 @@ export const SupportStruct = object({
   knowledgeBase: optional(string()),
   faq: optional(string()),
   contact: optional(string()),
+  keyRecovery: optional(string()),
 });
 
 export type Support = Infer<typeof SupportStruct>;
