@@ -1,12 +1,6 @@
-import {
-  detectSnapLocation,
-  fetchSnap,
-  getSnapFiles,
-} from '@metamask/snaps-controllers';
-import {
-  getLocalizedSnapManifest,
-  getValidatedLocalizationFiles,
-} from '@metamask/snaps-utils';
+import { detectSnapLocation, fetchSnap } from '@metamask/snaps-controllers';
+import type { SnapId } from '@metamask/snaps-sdk';
+import { getLocalizedSnapManifest } from '@metamask/snaps-utils';
 import { assertIsSemVerVersion } from '@metamask/utils';
 import deepEqual from 'fast-deep-equal';
 import semver from 'semver/preload';
@@ -14,7 +8,6 @@ import type { Infer } from 'superstruct';
 
 import type { VerifiedSnapStruct } from '../src';
 import registry from '../src/registry.json';
-import { SnapId } from '@metamask/snaps-sdk';
 
 type VerifiedSnap = Infer<typeof VerifiedSnapStruct>;
 
