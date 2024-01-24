@@ -41,7 +41,7 @@ describe('Snaps Registry', () => {
               knowledgeBase: 'https://metamask.io/example/support/kb',
               faq: 'https://metamask.io/example/support/faq',
               contact: 'https://metamask.io/example/support/contact',
-              keyRecovery: 'https://metamask.io/example/support/keyRecovery'
+              keyRecovery: 'https://metamask.io/example/support/keyRecovery',
             },
             sourceCode: 'https://metamask.io/example/source-code',
             category: 'interoperability',
