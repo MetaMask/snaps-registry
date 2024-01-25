@@ -43,6 +43,7 @@ export const SupportStruct = object({
   knowledgeBase: optional(string()),
   faq: optional(string()),
   contact: optional(string()),
+  keyRecovery: optional(string()),
 });
 
 export type Support = Infer<typeof SupportStruct>;
@@ -73,6 +74,7 @@ export const VerifiedSnapStruct = object({
     privateCode: optional(boolean()),
     privacyPolicy: optional(string()),
     termsOfUse: optional(string()),
+    additionalSourceCode: optional(array(string())),
   }),
   versions: record(VersionStruct, VerifiedSnapVersionStruct),
 });
