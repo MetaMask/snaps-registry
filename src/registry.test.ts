@@ -49,8 +49,14 @@ describe('Snaps Registry', () => {
             privacyPolicy: 'https://metamask.io/example/privacy',
             privateCode: true,
             additionalSourceCode: [
-              'https://metamask.io/example/source-code2',
-              'https://metamask.io/example/source-code3',
+              {
+                name: 'Source Code 2',
+                url: 'https://metamask.io/example/source-code2',
+              },
+              {
+                name: 'Source Code 3',
+                url: 'https://metamask.io/example/source-code3',
+              },
             ],
           },
           versions: {
