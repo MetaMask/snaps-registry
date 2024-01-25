@@ -1955,12 +1955,24 @@
           "keyRecovery": "https://github.com/silence-laboratories/silent-shard-offline-recovery-tool"
         },
         "sourceCode": "https://github.com/silence-laboratories/silent-shard-snap",
-        "additionalSourceCode": {
-          "ECDSA TSS Algorithm": "https://github.com/silence-laboratories/ecdsa-tss-js",
-          "Dapp": "https://github.com/silence-laboratories/silent-shard-dapp",
-          "Mobile App": "https://github.com/silence-laboratories/silent-shard-mobile",
-          "Flutter SDK": "https://github.com/silence-laboratories/silent-shard-flutter-sdk"
-        }
+        "additionalSourceCode": [
+          {
+            "name": "ECDSA TSS Algorithm",
+            "url": "https://github.com/silence-laboratories/ecdsa-tss-js"
+          },
+          {
+            "name": "Dapp",
+            "url": "https://github.com/silence-laboratories/silent-shard-dapp"
+          },
+          {
+            "name": "Mobile App",
+            "url": "https://github.com/silence-laboratories/silent-shard-mobile"
+          },
+          {
+            "name": "Flutter SDK",
+            "url": "https://github.com/silence-laboratories/silent-shard-flutter-sdk"
+          }
+        ]
       },
       "versions": {
         "1.2.6": {
