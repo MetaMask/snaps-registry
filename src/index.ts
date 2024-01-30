@@ -48,6 +48,11 @@ export const SupportStruct = object({
 
 export type Support = Infer<typeof SupportStruct>;
 
+export const AdditionalSourceCodeStruct = object({
+  name: string(),
+  url: string(),
+});
+
 export const VerifiedSnapStruct = object({
   id: NpmIdStruct,
   metadata: object({
@@ -74,7 +79,7 @@ export const VerifiedSnapStruct = object({
     privateCode: optional(boolean()),
     privacyPolicy: optional(string()),
     termsOfUse: optional(string()),
-    additionalSourceCode: optional(array(string())),
+    additionalSourceCode: optional(array(AdditionalSourceCodeStruct)),
   }),
   versions: record(VersionStruct, VerifiedSnapVersionStruct),
 });
