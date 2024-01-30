@@ -1956,6 +1956,7 @@
       "id": "npm:@silencelaboratories/silent-shard-snap",
       "metadata": {
         "name": "Silent Shard",
+        "hidden": true,
         "author": {
           "name": "Silence Laboratories",
           "website": "https://www.silencelaboratories.com/"
