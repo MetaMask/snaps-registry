@@ -1155,8 +1155,8 @@
         "sourceCode": "https://github.com/rarimo/rarime"
       },
       "versions": {
-        "2.0.1": {
-          "checksum": "vhP1WB7B+rqWRe/XbXFHZSQZ49QZzxDs9tHx0joslpU="
+        "2.0.2": {
+          "checksum": "i0ljRZ0cephpKn1+G77icrHnm0Gh4soRcJ9b6xpQaXA="
         }
       }
     },
@@ -1885,11 +1885,8 @@
         "sourceCode": "https://github.com/hashgraph/hedera-metamask-snaps"
       },
       "versions": {
-        "0.1.5": {
-          "checksum": "AEOnyB+bafn/QpeelB94xtCFe/KYs0PoR/b21wcvlII="
-        },
-        "0.1.3": {
-          "checksum": "FZd9yAYWBUT5rPCLOoqQKWB70MX30eMWe4qksSH2Jv0="
+        "0.2.4": {
+          "checksum": "GW5ZWO6uAdBmSjuVTZtszHzTfHTb4/uASBVTOxvPCU4="
         }
       }
     },
@@ -2039,18 +2036,6 @@
         },
         "1.1.0": {
           "checksum": "0LYVuy8axHCCii9kBjsl6e0o/NNGe3d2hFysfOJzDYc="
-        }
-      }
-    },
-    "npm:@metamask/name-lookup-example-snap": {
-      "id": "npm:@metamask/name-lookup-example-snap",
-      "metadata": {
-        "name": "Name Lookup Example Snap",
-        "hidden": true
-      },
-      "versions": {
-        "2.1.0": {
-          "checksum": "Sbu/MyQ6Mrxr6/4DDjd6SVjESJ2jrWASZSHc5JukBBo="
         }
       }
     }
