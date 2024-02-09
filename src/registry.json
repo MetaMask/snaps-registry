@@ -340,6 +340,9 @@
         },
         "2.1.0": {
           "checksum": "5QcNsKW2OCV+Oi5jv0adqdorGJlrRXk6b2N8ggNKfJg="
+        },
+        "2.1.1": {
+          "checksum": "Lkw2STqcJn6zw3u7uB7QTBjVc539gv/RFdNL6DqAE0Q="
         }
       }
     },
@@ -637,6 +640,9 @@
         },
         "2.1.0": {
           "checksum": "AMnwjxTjpz1sEo8xl3fzvambLqqcnTibH2X2gYqlUao="
+        },
+        "2.1.1": {
+          "checksum": "xvDOsWHm2VMzBoLlKkabI0CAr4vh7JJU0ErsfcxKTBo="
         }
       }
     },
