@@ -2006,12 +2006,16 @@
           {
             "name": "Flutter SDK",
             "url": "https://github.com/silence-laboratories/silent-shard-flutter-sdk"
+          }
+        ]
+      },
+      "versions": {
         "1.2.6": {
           "checksum": "HCOp9b2PGeUPCpEthvGWnn2jnKPYYf6nZnBc8KXVwuc="
         }
       }
     },
-     "npm:@safeheron/mpcsnap": {
+    "npm:@safeheron/mpcsnap": {
       "id": "npm:@safeheron/mpcsnap",
       "metadata": {
         "name": "Safeheron",
