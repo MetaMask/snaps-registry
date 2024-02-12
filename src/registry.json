@@ -2072,6 +2072,48 @@
         }
       }
     },
+    "npm:@usecapsule/account-snap": {
+      "id": "npm:@usecapsule/account-snap",
+      "metadata": {
+        "name": "Capsule",
+        "privateCode": true,
+        "author": {
+          "name": "Capsule",
+          "website": "https://usecapsule.com/"
+        },
+        "website": "http://snap.app.usecapsule.com/",
+        "summary": "MPC wallet that can be used anywhere with just an email",
+        "description": "The Capsule Account Management Snap makes it easy to create secure, embedded MPC wallets with an email in the Metamask extension using an authenticator app or passkey. You can also connect to a Capsule wallet created in any other application.",
+        "audits": [
+          {
+            "auditor": "Least Authority",
+            "report": "https://leastauthority.com/wp-content/uploads/2024/01/Capsule_MetaMask_Snap_Final_Audit_Report_Least_Authority.pdf"
+          },
+          {
+            "auditor": "Least Authority",
+            "report": "https://leastauthority.com/wp-content/uploads/2024/02/Capsule_Signing_and_Permissioning_Toolkit_Updated_2.pdf"
+          }
+        ],
+        "category": "account management",
+        "support": {
+          "faq": "https://capsule-org.notion.site/Capsule-Snap-FAQ-2d2e102ae5d541c6a96db05f14ad7afe",
+          "contact": "mailto:support@usecapsule.com",
+          "keyRecovery": "https://github.com/capsule-org/mpc-export"
+        },
+        "sourceCode": "https://github.com/capsule-org/mm-snap-keyring",
+        "additionalSourceCode": [
+          {
+            "name": "Multi-Party Sig",
+            "url": "https://github.com/capsule-org/multi-party-sig"
+          }
+        ]
+      },
+      "versions": {
+        "0.19.0": {
+          "checksum": "gBYlFzx+TkezEnZgVbZXqth9Lvkuc7wewIEV8qqResw="
+        }
+      }
+    },
     "npm:@metamask/snap-simple-keyring-snap": {
       "id": "npm:@metamask/snap-simple-keyring-snap",
       "metadata": {
