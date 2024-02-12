@@ -1962,7 +1962,6 @@
       "id": "npm:@silencelaboratories/silent-shard-snap",
       "metadata": {
         "name": "Silent Shard",
-        "hidden": true,
         "author": {
           "name": "Silence Laboratories",
           "website": "https://www.silencelaboratories.com/"
@@ -1984,6 +1983,7 @@
             "report": "https://cure53.de/pentest-report_silencelabs-apps.pdf"
           }
         ],
+        "category": "account management",
         "support": {
           "faq": "https://www.silencelaboratories.com/silent-shard-snap#faq",
           "contact": "mailto:support+snap@silencelaboratories.com",
