@@ -340,6 +340,9 @@
         },
         "2.1.0": {
           "checksum": "5QcNsKW2OCV+Oi5jv0adqdorGJlrRXk6b2N8ggNKfJg="
+        },
+        "2.1.1": {
+          "checksum": "Lkw2STqcJn6zw3u7uB7QTBjVc539gv/RFdNL6DqAE0Q="
         }
       }
     },
@@ -637,6 +640,9 @@
         },
         "2.1.0": {
           "checksum": "AMnwjxTjpz1sEo8xl3fzvambLqqcnTibH2X2gYqlUao="
+        },
+        "2.1.1": {
+          "checksum": "xvDOsWHm2VMzBoLlKkabI0CAr4vh7JJU0ErsfcxKTBo="
         }
       }
     },
@@ -1155,8 +1161,11 @@
         "sourceCode": "https://github.com/rarimo/rarime"
       },
       "versions": {
-        "2.0.1": {
-          "checksum": "vhP1WB7B+rqWRe/XbXFHZSQZ49QZzxDs9tHx0joslpU="
+        "2.0.3": {
+          "checksum": "JYhh0dVzYXZVrMEI1gIfjYaZ4OEwGwGVaZmGrUgieXU="
+        },
+        "2.0.2": {
+          "checksum": "i0ljRZ0cephpKn1+G77icrHnm0Gh4soRcJ9b6xpQaXA="
         }
       }
     },
@@ -1885,11 +1894,8 @@
         "sourceCode": "https://github.com/hashgraph/hedera-metamask-snaps"
       },
       "versions": {
-        "0.1.5": {
-          "checksum": "AEOnyB+bafn/QpeelB94xtCFe/KYs0PoR/b21wcvlII="
-        },
-        "0.1.3": {
-          "checksum": "FZd9yAYWBUT5rPCLOoqQKWB70MX30eMWe4qksSH2Jv0="
+        "0.2.4": {
+          "checksum": "GW5ZWO6uAdBmSjuVTZtszHzTfHTb4/uASBVTOxvPCU4="
         }
       }
     },
@@ -1952,7 +1958,60 @@
         }
       }
     },
-    "npm:@safeheron/mpcsnap": {
+    "npm:@silencelaboratories/silent-shard-snap": {
+      "id": "npm:@silencelaboratories/silent-shard-snap",
+      "metadata": {
+        "name": "Silent Shard",
+        "hidden": true,
+        "author": {
+          "name": "Silence Laboratories",
+          "website": "https://www.silencelaboratories.com/"
+        },
+        "website": "https://snap.silencelaboratories.com",
+        "summary": "2FA-like transaction approvals on phone with Silent Shard Snap",
+        "description": "The Silent Shard Snap brings a balanced notion of usability, security and user-empowerment with its “Distributed Self-Custody” design which leverages MPC cryptography. Using this Snap, users of accounts, inside MetaMask, would still have pure self-custody (all key shards are under user control and possession), while the key shards are distributed between their browser wallet and phone. \n\nSilent Shard enables an experience where the user is requested to approve transactions on their paired phone. This brings the user flow of the web3 wallet closer and more conforming to conventional 2FA, which is well accepted in traditional internet banking and fintech applications. \n\nThe Snap supports features like instant backup and recovery, and transaction security insights are to come. You can now bid goodbye to a seed phrase as a single point of failure and enjoy a fully decentralised experience.",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://cure53.de/pentest-report_silencelabs-snap.pdf"
+          },
+          {
+            "auditor": "Cure53",
+            "report": "https://cure53.de/audit-report_silencelabs-ecdsa-lib.pdf"
+          },
+          {
+            "auditor": "Cure53",
+            "report": "https://cure53.de/pentest-report_silencelabs-apps.pdf"
+          }
+        ],
+        "support": {
+          "faq": "https://www.silencelaboratories.com/silent-shard-snap#faq",
+          "contact": "mailto:support+snap@silencelaboratories.com",
+          "keyRecovery": "https://github.com/silence-laboratories/silent-shard-offline-recovery-tool"
+        },
+        "sourceCode": "https://github.com/silence-laboratories/silent-shard-snap",
+        "additionalSourceCode": [
+          {
+            "name": "ECDSA TSS Algorithm",
+            "url": "https://github.com/silence-laboratories/ecdsa-tss-js"
+          },
+          {
+            "name": "Dapp",
+            "url": "https://github.com/silence-laboratories/silent-shard-dapp"
+          },
+          {
+            "name": "Mobile App",
+            "url": "https://github.com/silence-laboratories/silent-shard-mobile"
+          },
+          {
+            "name": "Flutter SDK",
+            "url": "https://github.com/silence-laboratories/silent-shard-flutter-sdk"
+        "1.2.6": {
+          "checksum": "HCOp9b2PGeUPCpEthvGWnn2jnKPYYf6nZnBc8KXVwuc="
+        }
+      }
+    },
+     "npm:@safeheron/mpcsnap": {
       "id": "npm:@safeheron/mpcsnap",
       "metadata": {
         "name": "Safeheron",
@@ -2039,18 +2098,6 @@
         },
         "1.1.0": {
           "checksum": "0LYVuy8axHCCii9kBjsl6e0o/NNGe3d2hFysfOJzDYc="
-        }
-      }
-    },
-    "npm:@metamask/name-lookup-example-snap": {
-      "id": "npm:@metamask/name-lookup-example-snap",
-      "metadata": {
-        "name": "Name Lookup Example Snap",
-        "hidden": true
-      },
-      "versions": {
-        "2.1.0": {
-          "checksum": "Sbu/MyQ6Mrxr6/4DDjd6SVjESJ2jrWASZSHc5JukBBo="
         }
       }
     }
