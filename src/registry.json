@@ -340,6 +340,9 @@
         },
         "2.1.0": {
           "checksum": "5QcNsKW2OCV+Oi5jv0adqdorGJlrRXk6b2N8ggNKfJg="
+        },
+        "2.1.1": {
+          "checksum": "Lkw2STqcJn6zw3u7uB7QTBjVc539gv/RFdNL6DqAE0Q="
         }
       }
     },
@@ -637,6 +640,9 @@
         },
         "2.1.0": {
           "checksum": "AMnwjxTjpz1sEo8xl3fzvambLqqcnTibH2X2gYqlUao="
+        },
+        "2.1.1": {
+          "checksum": "xvDOsWHm2VMzBoLlKkabI0CAr4vh7JJU0ErsfcxKTBo="
         }
       }
     },
@@ -1956,7 +1962,6 @@
       "id": "npm:@silencelaboratories/silent-shard-snap",
       "metadata": {
         "name": "Silent Shard",
-        "hidden": true,
         "author": {
           "name": "Silence Laboratories",
           "website": "https://www.silencelaboratories.com/"
@@ -1978,6 +1983,7 @@
             "report": "https://cure53.de/pentest-report_silencelabs-apps.pdf"
           }
         ],
+        "category": "account management",
         "support": {
           "faq": "https://www.silencelaboratories.com/silent-shard-snap#faq",
           "contact": "mailto:support+snap@silencelaboratories.com",
@@ -2006,6 +2012,105 @@
       "versions": {
         "1.2.6": {
           "checksum": "HCOp9b2PGeUPCpEthvGWnn2jnKPYYf6nZnBc8KXVwuc="
+        }
+      }
+    },
+    "npm:@safeheron/mpcsnap": {
+      "id": "npm:@safeheron/mpcsnap",
+      "metadata": {
+        "name": "Safeheron",
+        "author": {
+          "name": "Safeheron",
+          "website": "https://www.safeheron.com/"
+        },
+        "website": "https://mpcsnap.safeheron.com",
+        "summary": "A fully decentralized MPC wallet with three key shards distributed across the MetaMask Extension and two mobile phones with the Safeheron Snap App installed. Use two devices  to sign transactions.",
+        "description": "A fully decentralized MPC wallet with three key shards distributed across the MetaMask Extension and two mobile phones with the Safeheron Snap App installed. Use two devices  to sign transactions.\n\n1. Secure and User-Friendly\nDistribute 3 key shards on 3 devices and utilize 2 devices to complete signature for a transaction.\n\n2. 100% Asset Control\nUsers have access to all 3 key shards and securely back them up via recovery phrases.\n\n3. Recovery\nIf one device is lost/stolen, users can use another 2 devices to recover a new key shard.\n\n4. Use MPC wallet in MetaMask\nSupport MetaMask Account Snap feature. After you back up your wallet, it will automatically add the wallet to your MetaMask Account. You can directly use the MPC wallet in MetaMask.\n\n5. Secure and convenient Web3 access\nBenefiting from the support of the MetaMask Account Snap feature, the Safeheron Snap wallet can easily connect to any Web3 application, offering hardware wallet-level security and the convenience of MPC signatures.\n\n6. Fully Decentralized\nUsers possess all 3 MPC key shards, without any cloud servers. MPC signing and communication are both performed on the user's device.",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://cure53.de/pentest-report_safeheron-snap.pdf"
+          },
+          {
+            "auditor": "Least Authority",
+            "report": "https://leastauthority.com/wp-content/uploads/2024/01/Safeheron_Crypto_Suites__Multiparty_ECDSA_Updated_Final_Audit_Report_Least_Authority.pdf"
+          }
+        ],
+        "category": "account management",
+        "support": {
+          "faq": "https://mpcsnap.safeheron.com/#/faq",
+          "contact": "mailto:mpcsnap@safeheron.com",
+          "keyRecovery": "https://github.com/Safeheron/snap-offline-recovery-tool"
+        },
+        "sourceCode": "https://github.com/Safeheron/multi-mpc-snap-monorepo",
+        "additionalSourceCode": [
+          {
+            "name": "MPC Algorithm Library",
+            "url": "https://github.com/Safeheron/safeheron-crypto-suites-cpp"
+          },
+          {
+            "name": "Multi Party Sig CPP",
+            "url": "https://github.com/silence-laboratories/silent-shard-dapp"
+          },
+          {
+            "name": "MPC Snap WASM",
+            "url": "https://github.com/Safeheron/mpc-snap-wasm"
+          },
+          {
+            "name": "Javascript SDK",
+            "url": "https://github.com/Safeheron/mpc-wasm-sdk"
+          },
+          {
+            "name": "Snap App",
+            "url": "https://github.com/Safeheron/safeheron-snap-app"
+          }
+        ]
+      },
+      "versions": {
+        "2.4.8": {
+          "checksum": "lsLGMbBoP5VIViV28jKZ+edzfPZxvbIlPGOB3pDOn6w="
+        }
+      }
+    },
+    "npm:@usecapsule/account-snap": {
+      "id": "npm:@usecapsule/account-snap",
+      "metadata": {
+        "name": "Capsule",
+        "privateCode": true,
+        "author": {
+          "name": "Capsule",
+          "website": "https://usecapsule.com/"
+        },
+        "website": "http://snap.app.usecapsule.com/",
+        "summary": "MPC wallet that can be used anywhere with just an email",
+        "description": "The Capsule Account Management Snap makes it easy to create secure, embedded MPC wallets with an email in the Metamask extension using an authenticator app or passkey. You can also connect to a Capsule wallet created in any other application.",
+        "audits": [
+          {
+            "auditor": "Least Authority",
+            "report": "https://leastauthority.com/wp-content/uploads/2024/01/Capsule_MetaMask_Snap_Final_Audit_Report_Least_Authority.pdf"
+          },
+          {
+            "auditor": "Least Authority",
+            "report": "https://leastauthority.com/wp-content/uploads/2024/02/Capsule_Signing_and_Permissioning_Toolkit_Updated_2.pdf"
+          }
+        ],
+        "category": "account management",
+        "support": {
+          "faq": "https://docs.usecapsule.com/metamask/faq",
+          "contact": "mailto:support@usecapsule.com",
+          "keyRecovery": "https://github.com/capsule-org/mpc-export"
+        },
+        "sourceCode": "https://github.com/capsule-org/mm-snap-keyring",
+        "additionalSourceCode": [
+          {
+            "name": "Multi-Party Sig",
+            "url": "https://github.com/capsule-org/multi-party-sig"
+          }
+        ]
+      },
+      "versions": {
+        "0.20.0": {
+          "checksum": "RlM47JKcUCYEWssO7bUALpR3mrVBpnOfdx6pylodHgU="
         }
       }
     },
