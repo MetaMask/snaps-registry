@@ -2015,6 +2015,63 @@
         }
       }
     },
+    "npm:@safeheron/mpcsnap": {
+      "id": "npm:@safeheron/mpcsnap",
+      "metadata": {
+        "name": "Safeheron",
+        "author": {
+          "name": "Safeheron",
+          "website": "https://www.safeheron.com/"
+        },
+        "website": "https://mpcsnap.safeheron.com",
+        "summary": "A fully decentralized MPC wallet with three key shards distributed across the MetaMask Extension and two mobile phones with the Safeheron Snap App installed. Use two devices  to sign transactions.",
+        "description": "A fully decentralized MPC wallet with three key shards distributed across the MetaMask Extension and two mobile phones with the Safeheron Snap App installed. Use two devices  to sign transactions.\n\n1. Secure and User-Friendly\nDistribute 3 key shards on 3 devices and utilize 2 devices to complete signature for a transaction.\n\n2. 100% Asset Control\nUsers have access to all 3 key shards and securely back them up via recovery phrases.\n\n3. Recovery\nIf one device is lost/stolen, users can use another 2 devices to recover a new key shard.\n\n4. Use MPC wallet in MetaMask\nSupport MetaMask Account Snap feature. After you back up your wallet, it will automatically add the wallet to your MetaMask Account. You can directly use the MPC wallet in MetaMask.\n\n5. Secure and convenient Web3 access\nBenefiting from the support of the MetaMask Account Snap feature, the Safeheron Snap wallet can easily connect to any Web3 application, offering hardware wallet-level security and the convenience of MPC signatures.\n\n6. Fully Decentralized\nUsers possess all 3 MPC key shards, without any cloud servers. MPC signing and communication are both performed on the user's device.",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://cure53.de/pentest-report_safeheron-snap.pdf"
+          },
+          {
+            "auditor": "Least Authority",
+            "report": "https://leastauthority.com/wp-content/uploads/2024/01/Safeheron_Crypto_Suites__Multiparty_ECDSA_Updated_Final_Audit_Report_Least_Authority.pdf"
+          }
+        ],
+        "category": "account management",
+        "support": {
+          "faq": "https://mpcsnap.safeheron.com/#/faq",
+          "contact": "mailto:mpcsnap@safeheron.com",
+          "keyRecovery": "https://github.com/Safeheron/snap-offline-recovery-tool"
+        },
+        "sourceCode": "https://github.com/Safeheron/multi-mpc-snap-monorepo",
+        "additionalSourceCode": [
+          {
+            "name": "MPC Algorithm Library",
+            "url": "https://github.com/Safeheron/safeheron-crypto-suites-cpp"
+          },
+          {
+            "name": "Multi Party Sig CPP",
+            "url": "https://github.com/silence-laboratories/silent-shard-dapp"
+          },
+          {
+            "name": "MPC Snap WASM",
+            "url": "https://github.com/Safeheron/mpc-snap-wasm"
+          },
+          {
+            "name": "Javascript SDK",
+            "url": "https://github.com/Safeheron/mpc-wasm-sdk"
+          },
+          {
+            "name": "Snap App",
+            "url": "https://github.com/Safeheron/safeheron-snap-app"
+          }
+        ]
+      },
+      "versions": {
+        "2.4.8": {
+          "checksum": "lsLGMbBoP5VIViV28jKZ+edzfPZxvbIlPGOB3pDOn6w="
+        }
+      }
+    },
     "npm:@metamask/snap-simple-keyring-snap": {
       "id": "npm:@metamask/snap-simple-keyring-snap",
       "metadata": {
