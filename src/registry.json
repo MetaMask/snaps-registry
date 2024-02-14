@@ -2096,7 +2096,7 @@
         ],
         "category": "account management",
         "support": {
-          "faq": "https://capsule-org.notion.site/Capsule-Snap-FAQ-2d2e102ae5d541c6a96db05f14ad7afe",
+          "faq": "https://docs.usecapsule.com/metamask/faq",
           "contact": "mailto:support@usecapsule.com",
           "keyRecovery": "https://github.com/capsule-org/mpc-export"
         },
@@ -2109,8 +2109,8 @@
         ]
       },
       "versions": {
-        "0.19.0": {
-          "checksum": "gBYlFzx+TkezEnZgVbZXqth9Lvkuc7wewIEV8qqResw="
+        "0.20.0": {
+          "checksum": "RlM47JKcUCYEWssO7bUALpR3mrVBpnOfdx6pylodHgU="
         }
       }
     },
