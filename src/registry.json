@@ -1031,11 +1031,11 @@
         "sourceCode": "https://github.com/vegaprotocol/vega-snap"
       },
       "versions": {
+        "1.0.1": {
+          "checksum": "CmTs/E+H30LSIIFLcbHosdISjn8Gow/sSPi4PrBQWKE="
+        },
         "0.3.1": {
           "checksum": "YL4cKtHZV6p2KJouMeXMvjCzpOA+4lLk3qfSDNNJZRw="
-        },
-        "0.2.0": {
-          "checksum": "/VwEwLqeprvwWlfYuNc2HLWbZbUd7ljk4ZVQjR19+qs="
         }
       }
     },
@@ -1198,36 +1198,6 @@
         }
       }
     },
-    "npm:saferoot-metamask-snap": {
-      "id": "npm:saferoot-metamask-snap",
-      "metadata": {
-        "name": "Saferoot",
-        "author": {
-          "name": "Saferoot",
-          "website": "https://www.saferoot.io/"
-        },
-        "website": "https://app.saferoot.io/",
-        "summary": "Saferoot intercepts dangerous transactions in real-time and instantly moves your assets to safety.",
-        "description": "Saferoot intercepts dangerous transactions in real-time and instantly moves your assets to safety.\n\nAfter installing the Snap, visit Saferoot's website to customize your security settings.",
-        "audits": [
-          {
-            "auditor": "Least Authority",
-            "report": "https://leastauthority.com/blog/audits/audit-of-saferoot-metamask-snap/"
-          }
-        ],
-        "category": "transaction insights",
-        "support": {
-          "contact": "mailto:support@saferoot.io",
-          "knowledgeBase": "https://www.saferoot.io/metamask-snaps-knowledge-base"
-        },
-        "sourceCode": "https://github.com/Staging-Labs/Saferoot-Snap"
-      },
-      "versions": {
-        "0.1.0": {
-          "checksum": "oojLxkBTSGsFI1zc3/ipS/a8GMWG4fnWy9cphIf5LAs="
-        }
-      }
-    },
     "npm:keychain-snap": {
       "id": "npm:keychain-snap",
       "metadata": {
@@ -1314,6 +1284,9 @@
         "sourceCode": "https://github.com/xmtp/snap"
       },
       "versions": {
+        "1.3.6": {
+          "checksum": "nSaMsID9TJhlwTnR/oAoNTYVm/2IBEDzPVJbaFVwpSI="
+        },
         "1.3.0": {
           "checksum": "BIA5ZOGiZZrlYgJx6sdk0ifx+qMoOcaZO8dBBU3w5QA="
         },
