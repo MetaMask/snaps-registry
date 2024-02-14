@@ -1949,8 +1949,7 @@
         "support": {
           "contact": "https://t.me/fexcash_disscusion",
           "knowledgeBase": "https://github.com/fex-cash/bch-snap/tree/main/packages/snap",
-          "faq": "https://docs.fex.cash/wallet/snaps",
-          "escalation": "fex_cash@protonmail.com"
+          "faq": "https://docs.fex.cash/wallet/snaps"
         },
         "sourceCode": "https://github.com/fex-cash/bch-snap"
       },
