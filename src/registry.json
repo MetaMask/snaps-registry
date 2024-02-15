@@ -1940,7 +1940,7 @@
           "website": "https://www.silencelaboratories.com/"
         },
         "website": "https://snap.silencelaboratories.com",
-        "summary": "2FA-like transaction approvals on phone with Silent Shard Snap",
+        "summary": "MPC powered 2FA-like transaction approvals on phone with Silent Shard",
         "description": "The Silent Shard Snap brings a balanced notion of usability, security and user-empowerment with its “Distributed Self-Custody” design which leverages MPC cryptography. Using this Snap, users of accounts, inside MetaMask, would still have pure self-custody (all key shards are under user control and possession), while the key shards are distributed between their browser wallet and phone. \n\nSilent Shard enables an experience where the user is requested to approve transactions on their paired phone. This brings the user flow of the web3 wallet closer and more conforming to conventional 2FA, which is well accepted in traditional internet banking and fintech applications. \n\nThe Snap supports features like instant backup and recovery, and transaction security insights are to come. You can now bid goodbye to a seed phrase as a single point of failure and enjoy a fully decentralised experience.",
         "audits": [
           {
