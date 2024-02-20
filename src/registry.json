@@ -1917,6 +1917,37 @@
         }
       }
     },
+    "npm:bch-snap": {
+      "id": "npm:bch-snap",
+      "metadata": {
+        "name": "Bitcoin Cash Wallet",
+        "author": {
+          "name": "Fex.Cash",
+          "website": "https://fex.cash"
+        },
+        "website": "https://fex.cash",
+        "summary": "BCH Wallet is a MetaMask Snap for Bitcoin Cash. After installing the Snap, users can manage their BCH and cashtoken assets.",
+        "description": "BCH Wallet is a MetaMask Snap built by the Fex.Cash team. It has the following features:\n\n1.⁠ ⁠Manage multiple BCH accounts\n\n2.⁠ ⁠Manage fungible token(FT) assets, including bch and cashtokens.\n\n3.⁠ ⁠Manage non-fungible token (NFT) assets, currently supporting CRC721 NFTs.\n\n4.⁠ ⁠View wallet transaction history.\n\n5.⁠ ⁠Sign the transactions.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-fexcash/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://t.me/fexcash_disscusion",
+          "knowledgeBase": "https://github.com/fex-cash/bch-snap/tree/main/packages/snap",
+          "faq": "https://docs.fex.cash/wallet/snaps"
+        },
+        "sourceCode": "https://github.com/fex-cash/bch-snap"
+      },
+      "versions": {
+        "0.1.1": {
+          "checksum": "pyRkBzZcJWx8LywORfnkh6PyhgCuqb6sC9xLX35yyK0="
+        }
+      }
+    },
     "npm:@consensys/web3tickets-snap": {
       "id": "npm:@consensys/web3tickets-snap",
       "metadata": {
