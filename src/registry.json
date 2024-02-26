@@ -2202,7 +2202,7 @@
     "npm:@metamask/client-status-example-snap": {
       "id": "npm:@metamask/client-status-example-snap",
       "metadata": {
-        "name": "Get File Example Snap",
+        "name": "Client Status Example Snap",
         "hidden": true
       },
       "versions": {
