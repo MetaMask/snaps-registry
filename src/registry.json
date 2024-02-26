@@ -2198,6 +2198,18 @@
           "checksum": "jLIJlUMNJxBPdD7VXu+lauJFMbrlZ7Ctpa3CG48aB+I="
         }
       }
+    },
+    "npm:@metamask/client-status-example-snap": {
+      "id": "npm:@metamask/client-status-example-snap",
+      "metadata": {
+        "name": "Client Status Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "NTV+uXRXbL4OA/RpOHRUTjfnHywIl/6Z+qLi4ikQSc8="
+        }
+      }
     }
   },
   "blockedSnaps": [
