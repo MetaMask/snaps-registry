@@ -2119,6 +2119,18 @@
           "checksum": "0LYVuy8axHCCii9kBjsl6e0o/NNGe3d2hFysfOJzDYc="
         }
       }
+    },
+    "npm:@metamask/client-status-example-snap": {
+      "id": "npm:@metamask/client-status-example-snap",
+      "metadata": {
+        "name": "Get File Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "NTV+uXRXbL4OA/RpOHRUTjfnHywIl/6Z+qLi4ikQSc8="
+        }
+      }
     }
   },
   "blockedSnaps": [
