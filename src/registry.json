@@ -286,6 +286,9 @@
         },
         "2.1.0": {
           "checksum": "3PiDzz7GdMsESG/6ZAJqFjn2Li8oaCvw2i3k+IFooXs="
+        },
+        "2.1.1": {
+          "checksum": "lqz9XyQ0fC81A2LIRKSUInXBJEv26N9+8UIT5HcGG8E="
         }
       }
     },
@@ -313,6 +316,9 @@
         },
         "2.1.0": {
           "checksum": "/o2NevZCcocYbJaDzVkOJFDCozfyUDVYhv+EUJoJBGY="
+        },
+        "2.1.1": {
+          "checksum": "G88Poc8uX2NVEqWnuOHZhEpt8TzD6fhOXbXZj2JGeSQ="
         }
       }
     },
@@ -370,6 +376,9 @@
         },
         "2.1.0": {
           "checksum": "gBlp/vQeFAxBYBB+ZtKp544lvphaUGnPdlZT3TcRYtM="
+        },
+        "2.2.0": {
+          "checksum": "wX4pqJ2RkmZdllC1iVnHP4uE4sWiqTb6GWXNyEUDnCA="
         }
       }
     },
@@ -397,6 +406,9 @@
         },
         "2.1.0": {
           "checksum": "ov5mgh9BqfOJ9kcgQ33BokQmf2v6+GjIshAqrBFIncM="
+        },
+        "2.1.1": {
+          "checksum": "uH2l5R13JDUJZGxdcOB6mDDSSWCji2MDpYC9tOYBd7g="
         }
       }
     },
@@ -424,6 +436,9 @@
         },
         "2.1.0": {
           "checksum": "h2kl7pefimDcWYtzO1uJypryY/R1DMY1r8srOcf7vEo="
+        },
+        "2.1.1": {
+          "checksum": "m2nHsw+2Ofob0EtfxjAWZjoXy0ZSMbUvr7xZmtp5p90="
         }
       }
     },
@@ -451,6 +466,9 @@
         },
         "2.1.0": {
           "checksum": "mwQVVwVq4B6u9x7VMmCQ2w2bREK0sWHcK+siAjs7e+c="
+        },
+        "2.1.1": {
+          "checksum": "N9i27+suBYwVHDzqQGtvafY55vHNCkcYAL7Fuw6wOz0="
         }
       }
     },
@@ -478,6 +496,9 @@
         },
         "2.1.0": {
           "checksum": "adrLao09LcOWwhlW+YfcJOdGyHgb4ap2JwhKCl+HWkM="
+        },
+        "2.1.1": {
+          "checksum": "H/SD72HvzJOGI687mfl8QLGrMyDIgYjEm45fmmWuZrU="
         }
       }
     },
@@ -502,6 +523,9 @@
         },
         "2.1.0": {
           "checksum": "Jy7ti30LfK+D/PnqwMP0gfSv4wl90uD/7uw4CjwqdzQ="
+        },
+        "2.1.1": {
+          "checksum": "V4E+vD5xcCFOe83roTieTbZVXxH8byN7CJqCTCTBgqU="
         }
       }
     },
@@ -529,6 +553,9 @@
         },
         "2.2.0": {
           "checksum": "7BU7O6zjdNfdXzdxaMrMWkBasBATeJdW2gvzaOKn4ik="
+        },
+        "2.2.1": {
+          "checksum": "92szqCrEqmxOcL+MVbmPrOxJmC8jR5U4iKiVViZBupY="
         }
       }
     },
@@ -559,6 +586,9 @@
         },
         "2.1.0": {
           "checksum": "oplXlD/xpRmd5pI+oICXVnJFO6W2F2GfQ+5jrjN+1vQ="
+        },
+        "2.1.1": {
+          "checksum": "oPeY40NbUed6VM6Ex0gteyIP8dZjtiIr0J4Pca2T3/U="
         }
       }
     },
@@ -586,6 +616,9 @@
         },
         "2.1.0": {
           "checksum": "7B1tbfkFvZZrfCQ6BOE13svMJpUnCAz01rm8ey5N37Y="
+        },
+        "2.1.1": {
+          "checksum": "UG9pic6TiYCm/VVuVrbT6586mxjsEWXwXTGmoESR4w8="
         }
       }
     },
@@ -616,6 +649,9 @@
         },
         "2.2.0": {
           "checksum": "AVioFJ3NkshQl4HQhihpu+w+uq5I5QFn8uXZjgfFp8I="
+        },
+        "2.2.1": {
+          "checksum": "tx2+S+SWVNjrs5O3YbVWBN0TsWwf/uw5u52yBPpIzwU="
         }
       }
     },
@@ -643,6 +679,9 @@
         },
         "2.1.1": {
           "checksum": "xvDOsWHm2VMzBoLlKkabI0CAr4vh7JJU0ErsfcxKTBo="
+        },
+        "2.1.2": {
+          "checksum": "H20Dsk8zqD/lNFMdLY+aTyLg8XuJQCXGpQueiaVwWBI="
         }
       }
     },
@@ -900,6 +939,9 @@
         },
         "2.1.0": {
           "checksum": "UiUa8rv9kqEP4DEs59e7ctxlOmv0fc39HXxU96FAozc="
+        },
+        "2.1.1": {
+          "checksum": "HsMiA68gfvszwts1V24kUURGhMk2iq/Vy0ALXqnA7lE="
         }
       }
     },
@@ -912,6 +954,9 @@
       "versions": {
         "1.1.1": {
           "checksum": "CZ9MGbtCRoCDFdTnXUqvCTQ8EDyLIShPZx+1McdEmRc="
+        },
+        "1.1.2": {
+          "checksum": "yh6gQI6x50HN+mte35DVEukn9IdXol9/3oiN1jwtl1Y="
         }
       }
     },
@@ -1872,6 +1917,37 @@
         }
       }
     },
+    "npm:bch-snap": {
+      "id": "npm:bch-snap",
+      "metadata": {
+        "name": "Bitcoin Cash Wallet",
+        "author": {
+          "name": "Fex.Cash",
+          "website": "https://fex.cash"
+        },
+        "website": "https://fex.cash",
+        "summary": "BCH Wallet is a MetaMask Snap for Bitcoin Cash. After installing the Snap, users can manage their BCH and cashtoken assets.",
+        "description": "BCH Wallet is a MetaMask Snap built by the Fex.Cash team. It has the following features:\n\n1.⁠ ⁠Manage multiple BCH accounts\n\n2.⁠ ⁠Manage fungible token(FT) assets, including bch and cashtokens.\n\n3.⁠ ⁠Manage non-fungible token (NFT) assets, currently supporting CRC721 NFTs.\n\n4.⁠ ⁠View wallet transaction history.\n\n5.⁠ ⁠Sign the transactions.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-fexcash/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://t.me/fexcash_disscusion",
+          "knowledgeBase": "https://github.com/fex-cash/bch-snap/tree/main/packages/snap",
+          "faq": "https://docs.fex.cash/wallet/snaps"
+        },
+        "sourceCode": "https://github.com/fex-cash/bch-snap"
+      },
+      "versions": {
+        "0.1.1": {
+          "checksum": "pyRkBzZcJWx8LywORfnkh6PyhgCuqb6sC9xLX35yyK0="
+        }
+      }
+    },
     "npm:@consensys/web3tickets-snap": {
       "id": "npm:@consensys/web3tickets-snap",
       "metadata": {
@@ -2117,6 +2193,9 @@
         },
         "1.1.0": {
           "checksum": "0LYVuy8axHCCii9kBjsl6e0o/NNGe3d2hFysfOJzDYc="
+        },
+        "1.1.1": {
+          "checksum": "jLIJlUMNJxBPdD7VXu+lauJFMbrlZ7Ctpa3CG48aB+I="
         }
       }
     },
