@@ -193,6 +193,9 @@
         "sourceCode": "https://github.com/ethereum-push-notification-service/push-protocol-snaps"
       },
       "versions": {
+        "1.1.13": {
+          "checksum": "8nCT1jxp2n3KFx7rzJGAmJKO5XmSeAUrk97gE44Tde8="
+        },
         "1.1.12": {
           "checksum": "bLscj+khp9cAMhRM0+0+RMR0ZbT4LESnaSFBWUw7X5c="
         }
@@ -770,6 +773,9 @@
         "sourceCode": "https://github.com/sotatek-dev/mina-snap"
       },
       "versions": {
+        "0.1.5": {
+          "checksum": "HJ8XVoX6lhSYHr/BiELaILxXi3EzVh8XBQHRbE3f4rk="
+        },
         "0.1.4": {
           "checksum": "icE/urU90jJr0wlzJ6kgoM61jz3uSvlGvUnzZTxANGw="
         }
@@ -1945,6 +1951,130 @@
       "versions": {
         "0.1.1": {
           "checksum": "pyRkBzZcJWx8LywORfnkh6PyhgCuqb6sC9xLX35yyK0="
+        }
+      }
+    },
+    "npm:azero-wallet": {
+      "id": "npm:azero-wallet",
+      "metadata": {
+        "name": "Aleph Zero Wallet",
+        "author": {
+          "name": "Bide",
+          "website": "https://bide.dev"
+        },
+        "website": "https://bide.dev",
+        "summary": "Transact and sign messages on Aleph Zero network using MetaMask.",
+        "description": "With Aleph Zero Wallet, you can send transaction in native asset of Aleph Zero network, and sign transactions and messages using your MetaMask wallet.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-alephzero/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:support@bide.dev",
+          "knowledgeBase": "https://bide-dev.github.io/azero-wallet/",
+          "faq": "https://bide-dev.github.io/azero-wallet/faq.html"
+        },
+        "sourceCode": "https://github.com/bide-dev/azero-wallet/tree/main/packages/snap"
+      },
+      "versions": {
+        "0.3.4": {
+          "checksum": "Yj5GtWV5+Wu6T4cszpsY26qbxA8+S10lbShM2jKYqbo="
+        }
+      }
+    },
+    "npm:@fioprotocol/fio-wallet-snap": {
+      "id": "npm:@fioprotocol/fio-wallet-snap",
+      "metadata": {
+        "name": "FIO Wallet",
+        "author": {
+          "name": "FIO Protocol",
+          "website": "https://fio.net/"
+        },
+        "website": "https://fio.net/",
+        "summary": "Connect with MetaMask to FIO Protocol App to register your FREE custom FIO Handle and map it all your crypto public addresses.",
+        "description": "With Aleph Zero Wallet, you can send transaction in native asset of Aleph Zero network, and sign transactions and messages using your MetaMask wallet.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-fio/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://help.fio.net",
+          "knowledgeBase": "https://app.fio.net/metamask",
+          "faq": "https://app.fio.net/metamask"
+        },
+        "sourceCode": "https://github.com/fioprotocol/fio-wallet-snap"
+      },
+      "versions": {
+        "1.0.2": {
+          "checksum": "b6Z0SYw5x5yYEYu1TiguPRbRV/izLsjK0FFJ/+strwg="
+        }
+      }
+    },
+    "npm:defi-armor-snap": {
+      "id": "npm:defi-armor-snap",
+      "metadata": {
+        "name": "DeFi Armor",
+        "author": {
+          "name": "Eulith",
+          "website": "https://www.eulith.com/"
+        },
+        "website": "https://www.eulith.com/",
+        "summary": "Protect on-chain assets with full transaction simulation and a curated security policy.",
+        "description": "The DeFi Armor snap brings the transaction simulation and policy engine of our standalone DeFi Armor product to MetaMask. Every transaction is deep-simulated and checked against our curated, customizable security policy. Any transfer of ETH or ERC-20 assets will be detected, even if it is deep inside the call stack. Warnings are issued when a transaction fails the security policy, along with a detailed explanation of what went wrong.",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://github.com/Eulith/eulith-metamask-snap/blob/master/audit-report.pdf"
+          }
+        ],
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:snap-support@eulith.com",
+          "knowledgeBase": "https://docs.google.com/document/d/1ZA-sUHE0a8e1kViCfG3xM9hm3vpZh_ZNcZ0xP-9JpLs/edit",
+          "faq": "https://docs.google.com/document/d/1ZA-sUHE0a8e1kViCfG3xM9hm3vpZh_ZNcZ0xP-9JpLs/edit"
+        },
+        "sourceCode": "https://github.com/Eulith/eulith-metamask-snap"
+      },
+      "versions": {
+        "0.2.3": {
+          "checksum": "fd+wiJngXnDU/6Lt8tH7hQmyDTVLQsrVtQhyXqsFU60="
+        }
+      }
+    },
+    "npm:@gobob/bob-snap": {
+      "id": "npm:@gobob/bob-snap",
+      "metadata": {
+        "name": "BOB",
+        "author": {
+          "name": "BOB",
+          "website": "https://www.gobob.xyz/"
+        },
+        "website": "https://www.gobob.xyz/",
+        "summary": "The BOB Bitcoin Snap allows users to receive and transfer BTC as well as too inscribe and transfer ordinals including BRC20 and other inscription types.",
+        "description": "The BOB Bitcoin Snap unlocks Bitcoin, ordinals, BRC20, and more to MetaMask users.\n\nThe BOB Bitcoin Snap allows users to:\n\n- Receive and transfer BTC on Bitcoin\n\n- Mint ordinals and BRC20 on Bitcoin\n\n- Transfer ordinals, BRC20, runes, and other inscriptions",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://github.com/bob-collective/bob-snap/blob/master/docs/audit.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:contact@gobob.xyz",
+          "knowledgeBase": "https://docs.gobob.xyz/docs/build/how-to/metamask-snap",
+          "faq": "https://docs.gobob.xyz/docs/build/how-to/metamask-snap"
+        },
+        "sourceCode": "https://github.com/bob-collective/bob-snap"
+      },
+      "versions": {
+        "2.0.11": {
+          "checksum": "UNNvSkasqOeujfTzwe0FTpswTufzXIgIV9or3UlkSi4="
         }
       }
     },
