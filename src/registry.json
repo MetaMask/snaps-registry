@@ -1994,8 +1994,8 @@
           "website": "https://fio.net/"
         },
         "website": "https://fio.net/",
-        "summary": "Connect with MetaMask to FIO Protocol App to register your FREE custom FIO Handle and map it all your crypto public addresses.",
-        "description": "With Aleph Zero Wallet, you can send transaction in native asset of Aleph Zero network, and sign transactions and messages using your MetaMask wallet.",
+        "summary": "Connect with MetaMask to FIO Protocol App to register your FREE custom FIO Handle and map it to all your crypto public addresses.",
+        "description": "Connect with MetaMask to FIO Protocol App to register your FREE custom FIO Handle and map it all your crypto public addresses.\n\nFIO Protocol makes crypto easier. You can replace all your public wallet addresses with a single, secure, customizable handle and make any transaction, on any chain, as easy as sending an email. FIO Handles work across many leading wallets and exchanges.\n\nWith the FIO Protocol App you can also send and receive crypto payment requests and even sign NFTs to assert your ownership.\n\nHead over to FIO App to register your FREE FIO Handle: https://app.fio.net/",
         "audits": [
           {
             "auditor": "Sayfer",
@@ -2026,7 +2026,7 @@
         },
         "website": "https://www.eulith.com/",
         "summary": "Protect on-chain assets with full transaction simulation and a curated security policy.",
-        "description": "The DeFi Armor snap brings the transaction simulation and policy engine of our standalone DeFi Armor product to MetaMask. Every transaction is deep-simulated and checked against our curated, customizable security policy. Any transfer of ETH or ERC-20 assets will be detected, even if it is deep inside the call stack. Warnings are issued when a transaction fails the security policy, along with a detailed explanation of what went wrong.",
+        "description": "The DeFi Armor Snap brings the transaction simulation and policy engine of our standalone DeFi Armor product to MetaMask. Every transaction is deep-simulated and checked against our curated, customizable security policy. Any transfer of ETH or ERC-20 assets will be detected, even if it is deep inside the call stack. Warnings are issued when a transaction fails the security policy, along with a detailed explanation of what went wrong.",
         "audits": [
           {
             "auditor": "Cure53",
@@ -2056,7 +2056,7 @@
           "website": "https://www.gobob.xyz/"
         },
         "website": "https://www.gobob.xyz/",
-        "summary": "The BOB Bitcoin Snap allows users to receive and transfer BTC as well as too inscribe and transfer ordinals including BRC20 and other inscription types.",
+        "summary": "The BOB Bitcoin Snap allows users to receive and transfer BTC as well as to inscribe and transfer ordinals including BRC20 and other inscription types.",
         "description": "The BOB Bitcoin Snap unlocks Bitcoin, ordinals, BRC20, and more to MetaMask users.\n\nThe BOB Bitcoin Snap allows users to:\n\n- Receive and transfer BTC on Bitcoin\n\n- Mint ordinals and BRC20 on Bitcoin\n\n- Transfer ordinals, BRC20, runes, and other inscriptions",
         "audits": [
           {
