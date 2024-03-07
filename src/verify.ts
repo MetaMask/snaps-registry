@@ -1,5 +1,6 @@
 import type { Hex } from '@metamask/utils';
 import {
+  StrictHexStruct,
   remove0x,
   stringToBytes,
   assertStruct,
@@ -8,10 +9,10 @@ import {
 import { secp256k1 } from '@noble/curves/secp256k1';
 import { sha256 } from '@noble/hashes/sha256';
 import type { Infer } from 'superstruct';
-import { literal, object, pattern, string } from 'superstruct';
+import { literal, object } from 'superstruct';
 
 export const SignatureStruct = object({
-  signature: pattern(string(), /0x[0-9a-f]{140}/u),
+  signature: StrictHexStruct,
   curve: literal('secp256k1'),
   format: literal('DER'),
 });
