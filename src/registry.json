@@ -1468,8 +1468,8 @@
         "sourceCode": "https://github.com/Consensys/starknet-snap"
       },
       "versions": {
-        "2.5.2": {
-          "checksum": "qYquBTPQKr41UHZyNu9QkMjMjnD45cYGyqvNAx1GKg4="
+        "2.4.0": {
+          "checksum": "lfxsHs6C6buodVo0zVJakNAHgIXAGkHyVTL12Rw0xdw="
         }
       }
     },
