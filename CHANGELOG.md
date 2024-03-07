@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.0.1]
+### Changed
+- Bump `@metamask/utils` from `8.2.1` to `8.3.0` ([#374](https://github.com/MetaMask/snaps-registry/pull/374))
+
+### Fixed
+- Fix registry signature validation ([#471](https://github.com/MetaMask/snaps-registry/pull/471))
+
 ## [3.0.0]
 ### Changed
 - **BREAKING:** Bump minimum Node.js version to `^18.16.0` ([#302](https://github.com/MetaMask/snaps-registry/pull/302))
@@ -55,7 +62,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/MetaMask/snaps-registry/compare/v3.0.0...HEAD
+[Unreleased]: https://github.com/MetaMask/snaps-registry/compare/v3.0.1...HEAD
+[3.0.1]: https://github.com/MetaMask/snaps-registry/compare/v3.0.0...v3.0.1
 [3.0.0]: https://github.com/MetaMask/snaps-registry/compare/v2.1.1...v3.0.0
 [2.1.1]: https://github.com/MetaMask/snaps-registry/compare/v2.1.0...v2.1.1
 [2.1.0]: https://github.com/MetaMask/snaps-registry/compare/v2.0.0...v2.1.0
