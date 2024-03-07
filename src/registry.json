@@ -2340,6 +2340,18 @@
           "checksum": "NTV+uXRXbL4OA/RpOHRUTjfnHywIl/6Z+qLi4ikQSc8="
         }
       }
+    },
+    "npm:@metamask/home-page-example-snap": {
+      "id": "npm:@metamask/home-page-example-snap",
+      "metadata": {
+        "name": "Home Page Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "1.1.1": {
+          "checksum": "g97yy0ykpflNFVzBfFablH4DsLNr+eZKCEoDbLQpmgY="
+        }
+      }
     }
   },
   "blockedSnaps": [
