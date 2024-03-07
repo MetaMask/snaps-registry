@@ -2348,6 +2348,9 @@
         "hidden": true
       },
       "versions": {
+        "1.1.0": {
+          "checksum": "EhHC32ZDU+SWvnUAcm2ibsZdqfwlr4h+mAvmCqyPPK0="
+        },
         "1.1.1": {
           "checksum": "6wP6Hm3oTFQcO7CU9pj+LB0WvzU1dO1H3D9FRwieyo8="
         }
