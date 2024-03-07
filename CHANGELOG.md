@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump `@metamask/utils` from `8.2.1` to `8.3.0` ([#374](https://github.com/MetaMask/snaps-registry/pull/374))
 
 ### Fixed
-- Fix registry validation ([#471](https://github.com/MetaMask/snaps-registry/pull/471))
+- Fix registry signature validation ([#471](https://github.com/MetaMask/snaps-registry/pull/471))
 
 ## [3.0.0]
 ### Changed
