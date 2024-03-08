@@ -111,6 +111,12 @@ jobs:
         run: yarn sign
         env:
           REGISTRY_PRIVATE_KEY: ${{ secrets.REGISTRY_PRIVATE_KEY }}
+      - name: Verify registry
+        run: yarn verify
+        env:
+          PUBLIC_KEY_PATH: ./secp256k1-key.pub
+          REGISTRY_PATH: ./src/registry.json
+          SIGNATURE_PATH: ./src/signature.json
       - run: |
           mkdir -p dist
           cp src/registry.json dist/registry.json
