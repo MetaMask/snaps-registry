@@ -1,5 +1,38 @@
 {
   "verifiedSnaps": {
+    "npm:@consensys/starknet-snap": {
+      "id": "npm:@consensys/starknet-snap",
+      "metadata": {
+        "name": "Starknet",
+        "author": {
+          "name": "Consensys",
+          "website": "https://consensys.io/"
+        },
+        "website": "https://snaps.consensys.io/starknet",
+        "summary": "Deploy Starknet accounts, make transactions on Starknet, and interact with Starknet smart contracts.",
+        "description": "The Starknet Snap allows users to deploy Starknet accounts, make transactions on Starknet, and interact with Starknet smart contracts.\n\nAfter installing the Snap, visit the website to set up your Starknet account.",
+        "audits": [
+          {
+            "auditor": "Cobalt",
+            "report": "https://drive.google.com/file/d/1Q-Ee7QewVUoAx--x7w_T7WQcvc5MHqVr/view"
+          },
+          {
+            "auditor": "Consensys Diligence",
+            "report": "https://consensys.io/diligence/audits/2023/06/metamask/partner-snaps-starknetsnap/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/hYpHRjK"
+        },
+        "sourceCode": "https://github.com/Consensys/starknet-snap"
+      },
+      "versions": {
+        "2.5.2": {
+          "checksum": "qYquBTPQKr41UHZyNu9QkMjMjnD45cYGyqvNAx1GKg4="
+        }
+      }
+    },
     "npm:@chainsafe/aleo-snap": {
       "id": "npm:@chainsafe/aleo-snap",
       "metadata": {
@@ -1437,39 +1470,6 @@
       "versions": {
         "1.0.0": {
           "checksum": "sALq4aMfg09UKOAcC8f/P0EC36vihVjLxkQX2y3BP3c="
-        }
-      }
-    },
-    "npm:@consensys/starknet-snap": {
-      "id": "npm:@consensys/starknet-snap",
-      "metadata": {
-        "name": "Starknet",
-        "author": {
-          "name": "Consensys",
-          "website": "https://consensys.io/"
-        },
-        "website": "https://snaps.consensys.io/starknet",
-        "summary": "Deploy Starknet accounts, make transactions on Starknet, and interact with Starknet smart contracts.",
-        "description": "The Starknet Snap allows users to deploy Starknet accounts, make transactions on Starknet, and interact with Starknet smart contracts.\n\nAfter installing the Snap, visit the website to set up your Starknet account.",
-        "audits": [
-          {
-            "auditor": "Cobalt",
-            "report": "https://drive.google.com/file/d/1Q-Ee7QewVUoAx--x7w_T7WQcvc5MHqVr/view"
-          },
-          {
-            "auditor": "Consensys Diligence",
-            "report": "https://consensys.io/diligence/audits/2023/06/metamask/partner-snaps-starknetsnap/"
-          }
-        ],
-        "category": "interoperability",
-        "support": {
-          "contact": "https://discord.gg/hYpHRjK"
-        },
-        "sourceCode": "https://github.com/Consensys/starknet-snap"
-      },
-      "versions": {
-        "2.4.0": {
-          "checksum": "lfxsHs6C6buodVo0zVJakNAHgIXAGkHyVTL12Rw0xdw="
         }
       }
     },
