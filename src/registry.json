@@ -2097,7 +2097,7 @@
         },
         "website": "https://apps.polkagate.xyz/",
         "summary": "Unlock the Power of Polkadot. Seamlessly manage accounts, connect to Polkadot dapps, and sign transactions.",
-        "description": "The Polkagate Snap is a MetaMask Snap designed to enable MetaMask to interact with tokens within the Polkadot ecosystem, including Polkadot, Kusama, and more.\n\nTo use the snap, you must first install MetaMask and create your initial account on Ethereum. This will generate a recovery phrase, which the Polkagate Snap will utilize to derive accounts for the Polkadot ecosystem.\n\nAfter MetaMask installation, manage your Polkadot ecosystem accounts and perform various transactions by installing the Polkagate Snap. After installing the Snap, visit https://apps.polkagate.xyz/ to manage transactions such as fund transfers, staking, participating in crowdloans, and more.",
+        "description": "Enables MetaMask to interact with tokens within the Polkadot ecosystem, including Polkadot, Kusama, and more.\n\nAfter installing the Snap, visit https://apps.polkagate.xyz/ to manage transactions such as fund transfers, staking, participating in crowdloans, and more.",
         "audits": [
           {
             "auditor": "Sayfer",
