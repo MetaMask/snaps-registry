@@ -2090,9 +2090,9 @@
     "npm:@polkagate/snap": {
       "id": "npm:@polkagate/snap",
       "metadata": {
-        "name": "Polkagate snap",
+        "name": "PolkaGate",
         "author": {
-          "name": "Polkagate",
+          "name": "PolkaGate",
           "website": "https://polkagate.xyz/"
         },
         "website": "https://apps.polkagate.xyz/",
