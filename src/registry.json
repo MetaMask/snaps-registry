@@ -2049,7 +2049,7 @@
       },
       "versions": {
         "0.2.4": {
-          "checksum": "M/AEe8l8UV+lIL0lqdlgFyDhoZ+IDysZ3r//tVXC2Ts"
+          "checksum": "M/AEe8l8UV+lIL0lqdlgFyDhoZ+IDysZ3r//tVXC2Ts="
         },
         "0.2.3": {
           "checksum": "fd+wiJngXnDU/6Lt8tH7hQmyDTVLQsrVtQhyXqsFU60="
@@ -2088,7 +2088,7 @@
       }
     },
     "npm:@polkagate/snap": {
-      "id": "@polkagate/snap",
+      "id": "npm:@polkagate/snap",
       "metadata": {
         "name": "Polkagate snap",
         "author": {
@@ -2119,7 +2119,7 @@
       }
     },
     "npm:rubic-snap": {
-      "id": "rubic-snap",
+      "id": "npm:rubic-snap",
       "metadata": {
         "name": "Rubic",
         "author": {
