@@ -1918,6 +1918,9 @@
         "sourceCode": "https://github.com/hashgraph/hedera-metamask-snaps"
       },
       "versions": {
+        "0.2.5": {
+          "checksum": "bg0dUT+K57KjvAI8AB1sQAdW/r5QSG/XamegqcfZxhc="
+        },
         "0.2.4": {
           "checksum": "GW5ZWO6uAdBmSjuVTZtszHzTfHTb4/uASBVTOxvPCU4="
         }
@@ -1960,9 +1963,9 @@
         "name": "Aleph Zero Wallet",
         "author": {
           "name": "Bide",
-          "website": "https://bide.dev"
+          "website": "https://bide.dev/"
         },
-        "website": "https://bide.dev",
+        "website": "https://azero.dev/",
         "summary": "Transact and sign messages on Aleph Zero network using MetaMask.",
         "description": "With Aleph Zero Wallet, you can send transaction in native asset of Aleph Zero network, and sign transactions and messages using your MetaMask wallet.",
         "audits": [
@@ -1980,6 +1983,9 @@
         "sourceCode": "https://github.com/bide-dev/azero-wallet/tree/main/packages/snap"
       },
       "versions": {
+        "0.3.6": {
+          "checksum": "VtlEruX2c9v+92vQLvD4x0OMfGpoLK6/w9+QDqJkLgs="
+        },
         "0.3.4": {
           "checksum": "Yj5GtWV5+Wu6T4cszpsY26qbxA8+S10lbShM2jKYqbo="
         }
@@ -2042,6 +2048,9 @@
         "sourceCode": "https://github.com/Eulith/eulith-metamask-snap"
       },
       "versions": {
+        "0.2.4": {
+          "checksum": "M/AEe8l8UV+lIL0lqdlgFyDhoZ+IDysZ3r//tVXC2Ts="
+        },
         "0.2.3": {
           "checksum": "fd+wiJngXnDU/6Lt8tH7hQmyDTVLQsrVtQhyXqsFU60="
         }
@@ -2075,6 +2084,67 @@
       "versions": {
         "2.0.11": {
           "checksum": "UNNvSkasqOeujfTzwe0FTpswTufzXIgIV9or3UlkSi4="
+        }
+      }
+    },
+    "npm:@polkagate/snap": {
+      "id": "npm:@polkagate/snap",
+      "metadata": {
+        "name": "PolkaGate",
+        "author": {
+          "name": "PolkaGate",
+          "website": "https://polkagate.xyz/"
+        },
+        "website": "https://apps.polkagate.xyz/",
+        "summary": "Unlock the Power of Polkadot. Seamlessly manage accounts, connect to Polkadot dapps, and sign transactions.",
+        "description": "Enables MetaMask to interact with tokens within the Polkadot ecosystem, including Polkadot, Kusama, and more.\n\nAfter installing the Snap, visit https://apps.polkagate.xyz/ to manage transactions such as fund transfers, staking, participating in crowdloans, and more.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-polkagate-snap/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:polkagate@outlook.com",
+          "knowledgeBase": "https://github.com/PolkaGate/snap/wiki",
+          "faq": "https://github.com/PolkaGate/snap/wiki/FAQs"
+        },
+        "sourceCode": "https://github.com/PolkaGate/snap"
+      },
+      "versions": {
+        "0.2.2": {
+          "checksum": "JaBlxYBfufxGVNUFjgFJexdHVU/d0AxeqqIFIaNYsR4="
+        }
+      }
+    },
+    "npm:rubic-snap": {
+      "id": "npm:rubic-snap",
+      "metadata": {
+        "name": "Rubic",
+        "author": {
+          "name": "Rubic",
+          "website": "https://rubic.exchange/"
+        },
+        "website": "https://rubic.exchange/",
+        "summary": "Rubic's Best Rate Finder: instantaneously compare your swap on 200+ DEXs to find the best rate every time.",
+        "description": "Rubic's 'Best Rate Finder' makes it easier than ever before to pick the most cost-efficient route for your token swap by actively comparing swap rates across 200+ DEXs simultaneously – all within your MetaMask wallet.\n\nHere's how it works:\n\n1. Initiate your transaction on a DEX in a browser.\n\n2. Within the MetaMask transaction confirmation window, you'll have access to Rubic's Snap tab.\n\n3. Rubic's innovative 'Best Rate Finder' algorithm searches from over 200 DEXs, analyzing various routes to identify the most cost-efficient option for your intended swap.\n\n4. If Rubic indicates a better rate than the one offered by the current DEX you're on, you'll have the option to seamlessly switch to Rubic's App to complete the transaction using the more optimal route.\n\nStop juggling between multiple DEXs to find the best rate. Leave that heavy lifting to us and have peace of mind knowing you're always getting the best swap rate possible!\n\nAbout Rubic:\n\nRubic aggregates 70+ blockchains and testnets, while it enables swaps of 15,500+ assets with the best rates, highest liquidity, and transaction speeds — in one click, thanks to the integration of 220+ DEXs and bridges.\n\nhttps://rubic.exchange/ ",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://cure53.de/pentest-report_rubic-snap.pdf"
+          }
+        ],
+        "support": {
+          "contact": "https://t.me/RubicSupportBot",
+          "knowledgeBase": "https://drive.google.com/file/d/1pXcz1dIJfMkZnjYYVED5u2fvr_Fsy1Uv/view?usp=sharing",
+          "faq": "https://drive.google.com/file/d/1pXcz1dIJfMkZnjYYVED5u2fvr_Fsy1Uv/view?usp=sharing"
+        },
+        "sourceCode": "https://github.com/Cryptorubic/rubic-snap-frontend"
+      },
+      "versions": {
+        "0.4.0": {
+          "checksum": "I8BnlhKoeV9j789awS0/IKC/G1Mu01PfkpHC9sNBogI="
         }
       }
     },
@@ -2212,7 +2282,7 @@
           },
           {
             "auditor": "Least Authority",
-            "report": "https://leastauthority.com/wp-content/uploads/2024/01/Safeheron_Crypto_Suites__Multiparty_ECDSA_Updated_Final_Audit_Report_Least_Authority.pdf"
+            "report": "https://leastauthority.com/wp-content/uploads/2024/02/Safeheron_Crypto_Suites__Multiparty_ECDSA_Updated_Final_Audit_Report_Least_Authority.pdf"
           }
         ],
         "category": "account management",
