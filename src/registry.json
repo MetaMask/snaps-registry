@@ -1559,6 +1559,9 @@
         "sourceCode": "https://github.com/filecoin-project/filsnap/"
       },
       "versions": {
+        "1.0.2": {
+          "checksum": "r7O4VLRJ0+MKWXs7zLEk0vMzATDHh+mmpERkSbNAH4g="
+        },
         "1.0.1": {
           "checksum": "IAuCBc12H1qeknSu+6KjaW0DXSVyPwXrc+urlykkLdg="
         }
