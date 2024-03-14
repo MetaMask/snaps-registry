@@ -1206,7 +1206,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/snaps-registry@^3.0.0, @metamask/snaps-registry@workspace:.":
+"@metamask/snaps-registry@^3.0.0, @metamask/snaps-registry@^3.0.1, @metamask/snaps-registry@workspace:.":
   version: 0.0.0-use.local
   resolution: "@metamask/snaps-registry@workspace:."
   dependencies:
@@ -1265,7 +1265,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/snaps-sdk@npm:^3.0.1, @metamask/snaps-sdk@npm:^3.1.0":
+"@metamask/snaps-sdk@npm:^3.0.1, @metamask/snaps-sdk@npm:^3.1.0, @metamask/snaps-sdk@npm:^3.1.1":
   version: 3.1.1
   resolution: "@metamask/snaps-sdk@npm:3.1.1"
   dependencies:
@@ -1280,8 +1280,8 @@ __metadata:
   linkType: hard
 
 "@metamask/snaps-utils@npm:^7.0.1, @metamask/snaps-utils@npm:^7.0.2":
-  version: 7.0.2
-  resolution: "@metamask/snaps-utils@npm:7.0.2"
+  version: 7.0.3
+  resolution: "@metamask/snaps-utils@npm:7.0.3"
   dependencies:
     "@babel/core": ^7.23.2
     "@babel/types": ^7.23.0
@@ -1290,8 +1290,8 @@ __metadata:
     "@metamask/permission-controller": ^8.0.1
     "@metamask/rpc-errors": ^6.2.1
     "@metamask/slip44": ^3.1.0
-    "@metamask/snaps-registry": ^3.0.0
-    "@metamask/snaps-sdk": ^3.1.0
+    "@metamask/snaps-registry": ^3.0.1
+    "@metamask/snaps-sdk": ^3.1.1
     "@metamask/utils": ^8.3.0
     "@noble/hashes": ^1.3.1
     "@scure/base": ^1.1.1
@@ -1299,12 +1299,13 @@ __metadata:
     cron-parser: ^4.5.0
     fast-deep-equal: ^3.1.3
     fast-json-stable-stringify: ^2.1.0
+    marked: ^12.0.1
     rfdc: ^1.3.0
     semver: ^7.5.4
     ses: ^1.1.0
     superstruct: ^1.0.3
     validate-npm-package-name: ^5.0.0
-  checksum: 2a9ce9fa2ba8551b1fb97df57d8352f4c98a8267c7cb8970bcfb2ff508de0a6798c2184767c0c7a5d454c712be0fdc5a5a7b90f96ae7cdbb5cb9a1d1c8b14f03
+  checksum: 3aef2d59fa332aa4edfc2dd0580bd35c6e07888835259bccb4472379215fb106f8dcc070b3483912e3df4053d2ca0fac262885b5a3794d799dcf78137ac0bec4
   languageName: node
   linkType: hard
 
@@ -5182,6 +5183,15 @@ __metadata:
   dependencies:
     tmpl: 1.0.5
   checksum: b38a025a12c8146d6eeea5a7f2bf27d51d8ad6064da8ca9405fcf7bf9b54acd43e3b30ddd7abb9b1bfa4ddb266019133313482570ddb207de568f71ecfcf6060
+  languageName: node
+  linkType: hard
+
+"marked@npm:^12.0.1":
+  version: 12.0.1
+  resolution: "marked@npm:12.0.1"
+  bin:
+    marked: bin/marked.js
+  checksum: 35ebc6c4612fcc028a1cd6419321e336be5b29d3feb68dfd5aaa7fcddb399c7873cd3291d60daf342db3eede747757e4e18515f349f0ee7b84ec24254f3a4190
   languageName: node
   linkType: hard
 
