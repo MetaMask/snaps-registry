@@ -1017,7 +1017,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/json-rpc-engine@npm:^7.1.1, @metamask/json-rpc-engine@npm:^7.3.2":
+"@metamask/json-rpc-engine@npm:^7.1.1, @metamask/json-rpc-engine@npm:^7.3.2, @metamask/json-rpc-engine@npm:^7.3.3":
   version: 7.3.3
   resolution: "@metamask/json-rpc-engine@npm:7.3.3"
   dependencies:
@@ -1171,21 +1171,21 @@ __metadata:
   linkType: hard
 
 "@metamask/snaps-controllers@npm:^6.0.2":
-  version: 6.0.2
-  resolution: "@metamask/snaps-controllers@npm:6.0.2"
+  version: 6.0.3
+  resolution: "@metamask/snaps-controllers@npm:6.0.3"
   dependencies:
     "@metamask/approval-controller": ^5.1.3
     "@metamask/base-controller": ^4.1.0
-    "@metamask/json-rpc-engine": ^7.3.2
+    "@metamask/json-rpc-engine": ^7.3.3
     "@metamask/object-multiplex": ^2.0.0
     "@metamask/permission-controller": ^8.0.1
     "@metamask/phishing-controller": ^8.0.2
     "@metamask/post-message-stream": ^8.0.0
     "@metamask/rpc-errors": ^6.2.1
-    "@metamask/snaps-registry": ^3.0.0
+    "@metamask/snaps-registry": ^3.0.1
     "@metamask/snaps-rpc-methods": ^7.0.1
-    "@metamask/snaps-sdk": ^3.1.0
-    "@metamask/snaps-utils": ^7.0.2
+    "@metamask/snaps-sdk": ^3.1.1
+    "@metamask/snaps-utils": ^7.0.3
     "@metamask/utils": ^8.3.0
     "@xstate/fsm": ^2.0.0
     browserify-zlib: ^0.2.0
@@ -1198,15 +1198,15 @@ __metadata:
     readable-web-to-node-stream: ^3.0.2
     tar-stream: ^3.1.7
   peerDependencies:
-    "@metamask/snaps-execution-environments": ^5.0.2
+    "@metamask/snaps-execution-environments": ^5.0.3
   peerDependenciesMeta:
     "@metamask/snaps-execution-environments":
       optional: true
-  checksum: 3751022ad73e28e3fe8eb7b63c076f4c94e8e7d51367178b541c4dd646fd1e0ec64472d5fcba08929cf00018c9271f2212ffcdfaad50a35dfcc16523c43a9016
+  checksum: 85c4100b1f2d83252d6d5e04b09f4a53f001195a566ccf78c8667dcf45d29c4d664637babf3352cb080b161659fabaa7c3a28100788556a6a2ff8f61e278b05c
   languageName: node
   linkType: hard
 
-"@metamask/snaps-registry@^3.0.0, @metamask/snaps-registry@^3.0.1, @metamask/snaps-registry@workspace:.":
+"@metamask/snaps-registry@^3.0.1, @metamask/snaps-registry@workspace:.":
   version: 0.0.0-use.local
   resolution: "@metamask/snaps-registry@workspace:."
   dependencies:
@@ -1279,7 +1279,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/snaps-utils@npm:^7.0.1, @metamask/snaps-utils@npm:^7.0.2":
+"@metamask/snaps-utils@npm:^7.0.1, @metamask/snaps-utils@npm:^7.0.2, @metamask/snaps-utils@npm:^7.0.3":
   version: 7.0.3
   resolution: "@metamask/snaps-utils@npm:7.0.3"
   dependencies:
