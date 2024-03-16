@@ -1,20 +1,18 @@
 import type { Hex } from '@metamask/utils';
 import {
+  StrictHexStruct,
   remove0x,
   stringToBytes,
   assertStruct,
   hexToBytes,
 } from '@metamask/utils';
-import {
-  verify as nobleVerify,
-  utils,
-  Signature as NobleSignature,
-} from '@noble/secp256k1';
+import { secp256k1 } from '@noble/curves/secp256k1';
+import { sha256 } from '@noble/hashes/sha256';
 import type { Infer } from 'superstruct';
-import { literal, object, pattern, string } from 'superstruct';
+import { literal, object } from 'superstruct';
 
 export const SignatureStruct = object({
-  signature: pattern(string(), /0x[0-9a-f]{140}/u),
+  signature: StrictHexStruct,
   curve: literal('secp256k1'),
   format: literal('DER'),
 });
@@ -37,18 +35,18 @@ type VerifyArgs = {
  * the signature to.
  * @returns Whether the signature is valid.
  */
-export async function verify({
+export function verify({
   registry,
   signature,
   publicKey,
-}: VerifyArgs): Promise<boolean> {
+}: VerifyArgs): boolean {
   assertStruct(signature, SignatureStruct, 'Invalid signature object');
 
   const publicKeyBytes = hexToBytes(publicKey);
 
-  return nobleVerify(
-    NobleSignature.fromHex(remove0x(signature.signature)),
-    await utils.sha256(stringToBytes(registry)),
+  return secp256k1.verify(
+    remove0x(signature.signature),
+    sha256(stringToBytes(registry)),
     publicKeyBytes,
   );
 }

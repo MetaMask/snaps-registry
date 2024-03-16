@@ -41,10 +41,23 @@ describe('Snaps Registry', () => {
               knowledgeBase: 'https://metamask.io/example/support/kb',
               faq: 'https://metamask.io/example/support/faq',
               contact: 'https://metamask.io/example/support/contact',
+              keyRecovery: 'https://metamask.io/example/support/keyRecovery',
             },
             sourceCode: 'https://metamask.io/example/source-code',
             category: 'interoperability',
             tags: ['accounts', 'example'],
+            privacyPolicy: 'https://metamask.io/example/privacy',
+            privateCode: true,
+            additionalSourceCode: [
+              {
+                name: 'Source Code 2',
+                url: 'https://metamask.io/example/source-code2',
+              },
+              {
+                name: 'Source Code 3',
+                url: 'https://metamask.io/example/source-code3',
+              },
+            ],
           },
           versions: {
             ['0.1.0' as SemVerVersion]: {

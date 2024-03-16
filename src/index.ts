@@ -43,9 +43,15 @@ export const SupportStruct = object({
   knowledgeBase: optional(string()),
   faq: optional(string()),
   contact: optional(string()),
+  keyRecovery: optional(string()),
 });
 
 export type Support = Infer<typeof SupportStruct>;
+
+export const AdditionalSourceCodeStruct = object({
+  name: string(),
+  url: string(),
+});
 
 export const VerifiedSnapStruct = object({
   id: NpmIdStruct,
@@ -59,14 +65,26 @@ export const VerifiedSnapStruct = object({
     description: optional(string()),
     audits: optional(array(AuditStruct)),
     category: optional(
-      enums(['interoperability', 'notifications', 'transaction insights']),
+      enums([
+        'interoperability',
+        'notifications',
+        'transaction insights',
+        'account management',
+      ]),
     ),
     tags: optional(array(string())),
     support: optional(SupportStruct),
     sourceCode: optional(string()),
+    hidden: optional(boolean()),
+    privateCode: optional(boolean()),
+    privacyPolicy: optional(string()),
+    termsOfUse: optional(string()),
+    additionalSourceCode: optional(array(AdditionalSourceCodeStruct)),
   }),
   versions: record(VersionStruct, VerifiedSnapVersionStruct),
 });
+
+export type VerifiedSnap = Infer<typeof VerifiedSnapStruct>;
 
 export const BlockReasonStruct = object({
   explanation: optional(string()),
