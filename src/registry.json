@@ -1405,8 +1405,8 @@
         "sourceCode": "https://github.com/cosmos/snap"
       },
       "versions": {
-        "0.1.18": {
-          "checksum": "70Y16tDS8kL5RMQhR1coQlID5bwKy0TeCmYgqwTIWlk="
+        "0.1.20": {
+          "checksum": "Ka5d45bzE3iPt6FchypG0ffAWNOJjFaIxzNNl3RcpPA="
         }
       }
     },
