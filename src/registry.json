@@ -156,6 +156,9 @@
         "sourceCode": "https://github.com/wallet-guard/wallet-guard-snap"
       },
       "versions": {
+        "1.1.1": {
+          "checksum": "dsYUYgDXl66od8r0+zTyxScWR0UauZAHn8M+xHUQ0ss="
+        },
         "1.1.0": {
           "checksum": "pB87tpEB7Z+iMXWUuSpGEq5cAswLcAOJEDaxQq9Tcz0="
         },
@@ -2051,6 +2054,9 @@
         "sourceCode": "https://github.com/Eulith/eulith-metamask-snap"
       },
       "versions": {
+        "0.2.5": {
+          "checksum": "hp4PBkTppEaWdIlrKnM7801rAimN4Y9t1+AB59yFHB4="
+        },
         "0.2.4": {
           "checksum": "M/AEe8l8UV+lIL0lqdlgFyDhoZ+IDysZ3r//tVXC2Ts="
         },
@@ -2129,9 +2135,9 @@
           "name": "Rubic",
           "website": "https://rubic.exchange/"
         },
-        "website": "https://rubic.exchange/",
+        "website": "https://rubic.exchange/metamasksnap",
         "summary": "Rubic's Best Rate Finder: instantaneously compare your swap on 200+ DEXs to find the best rate every time.",
-        "description": "Rubic's 'Best Rate Finder' makes it easier than ever before to pick the most cost-efficient route for your token swap by actively comparing swap rates across 200+ DEXs simultaneously – all within your MetaMask wallet.\n\nHere's how it works:\n\n1. Initiate your transaction on a DEX in a browser.\n\n2. Within the MetaMask transaction confirmation window, you'll have access to Rubic's Snap tab.\n\n3. Rubic's innovative 'Best Rate Finder' algorithm searches from over 200 DEXs, analyzing various routes to identify the most cost-efficient option for your intended swap.\n\n4. If Rubic indicates a better rate than the one offered by the current DEX you're on, you'll have the option to seamlessly switch to Rubic's App to complete the transaction using the more optimal route.\n\nStop juggling between multiple DEXs to find the best rate. Leave that heavy lifting to us and have peace of mind knowing you're always getting the best swap rate possible!\n\nAbout Rubic:\n\nRubic aggregates 70+ blockchains and testnets, while it enables swaps of 15,500+ assets with the best rates, highest liquidity, and transaction speeds — in one click, thanks to the integration of 220+ DEXs and bridges.\n\nhttps://rubic.exchange/ ",
+        "description": "Rubic's 'Best Rate Finder' makes it easier than ever before to pick the most cost-efficient route for your token swap by actively comparing swap rates across 200+ DEXs simultaneously – all within your MetaMask wallet.\n\nHere's how it works:\n\n1. Watch The Tutorial: https://www.youtube.com/watch?v=mqwcymo20Sw&ab_channel=Rubic\n\n2. Initiate your transaction on a DEX in a browser.\n\n3. Within the MetaMask transaction confirmation window, you'll have access to Rubic's Snap tab.\n\n4. Rubic's innovative 'Best Rate Finder' algorithm searches from over 200 DEXs, analyzing various routes to identify the most cost-efficient option for your intended swap.\n\n5. If Rubic indicates a better rate than the one offered by the current DEX you're on, you'll have the option to seamlessly switch to Rubic's App to complete the transaction using the more optimal route.\n\nStop juggling between multiple DEXs to find the best rate. Leave that heavy lifting to us and have peace of mind knowing you're always getting the best swap rate possible!\n\nSnap's Page - https://rubic.exchange/metamasksnap\n\nAbout Rubic:\n\nRubic aggregates 70+ blockchains and testnets, while it enables swaps of 15,500+ assets with the best rates, highest liquidity, and transaction speeds — in one click, thanks to the integration of 220+ DEXs and bridges.\n\nhttps://rubic.exchange/",
         "audits": [
           {
             "auditor": "Cure53",
@@ -2141,14 +2147,45 @@
         "category": "interoperability",
         "support": {
           "contact": "https://t.me/RubicSupportBot",
-          "knowledgeBase": "https://drive.google.com/file/d/1pXcz1dIJfMkZnjYYVED5u2fvr_Fsy1Uv/view?usp=sharing",
-          "faq": "https://drive.google.com/file/d/1pXcz1dIJfMkZnjYYVED5u2fvr_Fsy1Uv/view?usp=sharing"
+          "knowledgeBase": "https://rubic.exchange/blog/introducing-rubics-best-rate-finder-metamask-snap-revolutionizing-crypto-trading/",
+          "faq": "https://rubic.exchange/metamasksnap"
         },
         "sourceCode": "https://github.com/Cryptorubic/rubic-snap-frontend"
       },
       "versions": {
         "0.4.0": {
           "checksum": "I8BnlhKoeV9j789awS0/IKC/G1Mu01PfkpHC9sNBogI="
+        }
+      }
+    },
+    "npm:hapilabs-snap": {
+      "id": "npm:hapilabs-snap",
+      "metadata": {
+        "name": "HAPI",
+        "author": {
+          "name": "HAPI",
+          "website": "https://hapi.one/"
+        },
+        "website": "https://hapi.one/snap",
+        "summary": "HAPI Snap is a threat detection tool that can easily and seamlessly be used within the MetaMask wallet. Created by HAPI Team, one of the leading crypto native cybersecurity protocols, HAPI Snap enables users to be aware of all potentially dangerous activities on the blockchain, safeguarding against asset loss.",
+        "description": "HAPI Snap, developed by the HAPI Team, is an advanced tool for blockchain threat detection, providing users with the means to protect their digital assets from potential risks.\n\nMain Features:\n\n1. Data Aggregation: Gathers comprehensive threat data from diverse sources.\n\n2. AI Threat Detection: Utilizes AI for real-time risk assessment.\n\n3. Wallet Security Enhancement: Offers transaction analysis, phishing protection, and alerts.\n\n4. Free Access: Enables thorough due diligence without cost.\n\nAdvantages:\n\n- Superior Protection: Shields against a wide range of blockchain threats.\n\n- Informed Transactions: Facilitates educated decision-making with detailed threat data.\n\n- User-Friendly: Simple and automated monitoring for ease of use.\n\n- Cost-Effective: Free, unlimited access to security tools and data.\n\nEase of Use:\n\n- Quick setup, offering automated threat monitoring and intuitive access to security insights, making it accessible for all users without extra fees.",
+        "audits": [
+          {
+            "auditor": "Hacken",
+            "report": "https://hacken.io/audits/hapi-snap/"
+          }
+        ],
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:i.am.hapi@hapi.one",
+          "knowledgeBase": "https://hapi.one/snap",
+          "faq": "https://hapi.one/snap"
+        },
+        "sourceCode": "https://github.com/HAPIprotocol/hapilabs-snap"
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "Axq5xueODOTFxOtv7a0Vfuu+20tFeqF/qzeONJ4L8Q4="
         }
       }
     },
