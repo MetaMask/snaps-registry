@@ -7,27 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [3.1.0]
-### Uncategorized
+### Added
 - Add screenshots field ([#505](https://github.com/MetaMask/snaps-registry/pull/505))
-- Add category property to the Rubic Snap. ([#503](https://github.com/MetaMask/snaps-registry/pull/503))
-- Update Cosmos Extension ([#501](https://github.com/MetaMask/snaps-registry/pull/501))
+
+### Changed
 - Bump @metamask/utils from 8.3.0 to 8.4.0 ([#499](https://github.com/MetaMask/snaps-registry/pull/499))
-- Update Cosmos Extension ([#498](https://github.com/MetaMask/snaps-registry/pull/498))
-- Update CODEOWNERS ([#496](https://github.com/MetaMask/snaps-registry/pull/496))
 - Bump @metamask/snaps-controllers from 6.0.2 to 6.0.3 ([#488](https://github.com/MetaMask/snaps-registry/pull/488))
-- Update Partisia Blockchain ([#495](https://github.com/MetaMask/snaps-registry/pull/495))
-- Update filsnap ([#493](https://github.com/MetaMask/snaps-registry/pull/493))
 - Bump @metamask/snaps-utils from 7.0.2 to 7.0.3 ([#486](https://github.com/MetaMask/snaps-registry/pull/486))
-- polkagate-rubic-hedera-alephzero-safeheron-defiarmor ([#485](https://github.com/MetaMask/snaps-registry/pull/485))
 - Bump @metamask/safe-event-emitter from 3.0.0 to 3.1.1 ([#487](https://github.com/MetaMask/snaps-registry/pull/487))
 - Bump @metamask/snaps-sdk from 3.1.0 to 3.1.1 ([#489](https://github.com/MetaMask/snaps-registry/pull/489))
-- Update Starknet ([#478](https://github.com/MetaMask/snaps-registry/pull/478))
-- Enabling MetaMask security code scanner ([#458](https://github.com/MetaMask/snaps-registry/pull/458))
-- Add home page example Snap version 1.1.0 ([#477](https://github.com/MetaMask/snaps-registry/pull/477))
-- Add home page example Snap ([#476](https://github.com/MetaMask/snaps-registry/pull/476))
-- Revert "Bump `@consensys/starknet-snap` to `2.5.2` (#474)" ([#474](https://github.com/MetaMask/snaps-registry/pull/474))
-- Bump `@consensys/starknet-snap` to `2.5.2` ([#474](https://github.com/MetaMask/snaps-registry/pull/474))
-- Verify registry before deployment ([#473](https://github.com/MetaMask/snaps-registry/pull/473))
 
 ## [3.0.1]
 ### Changed
