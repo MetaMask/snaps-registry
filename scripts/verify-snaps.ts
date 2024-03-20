@@ -72,20 +72,6 @@ async function verifySnapVersion(
 }
 
 /**
- * Check if a file exists.
- *
- * @param path - The path to the file.
- */
-async function fileExists(path: string) {
-  try {
-    await access(path);
-    return true;
-  } catch {
-    return false;
-  }
-}
-
-/**
  * Get the size of an image.
  *
  * @param path - The path to the image.
@@ -115,13 +101,6 @@ async function verifyScreenshots(snapId: string, screenshots: string[]) {
 
   for (const screenshot of screenshots) {
     const path = resolve(basePath, screenshot);
-    const isFile = await fileExists(path);
-    if (!isFile) {
-      throw new Error(
-        `Screenshot "${screenshot}" for "${snapId}" does not exist.`,
-      );
-    }
-
     const size = await getImageSize(path, snapId);
     if (!size?.width || !size?.height) {
       throw new Error(

@@ -5,6 +5,7 @@ import {
 } from '@metamask/utils';
 import type { Infer } from 'superstruct';
 import {
+  pattern,
   size,
   object,
   array,
@@ -54,11 +55,9 @@ export const AdditionalSourceCodeStruct = object({
   url: string(),
 });
 
-export const ImagePathStruct = refine(
+export const ImagePathStruct = pattern(
   string(),
-  'Image path',
-  (value) =>
-    value.endsWith('.png') || value.endsWith('.jpg') || value.endsWith('.jpeg'),
+  /\.\/images\/.*\/\d+\.(?:png|jpe?g)$/u,
 );
 
 export const VerifiedSnapStruct = object({

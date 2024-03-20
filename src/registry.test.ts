@@ -60,8 +60,8 @@ describe('Snaps Registry', () => {
             ],
             screenshots: [
               './images/example-snap/1.png',
-              './images/example-snap/2.png',
-              './images/example-snap/3.png',
+              './images/example-snap/2.jpg',
+              './images/example-snap/3.jpeg',
             ],
           },
           versions: {
@@ -203,7 +203,7 @@ describe('Snaps Registry', () => {
         SnapsRegistryDatabaseStruct,
       ),
     ).toThrow(
-      'At path: verifiedSnaps.npm:example-snap.metadata.screenshots.2 -- Expected a value of type `string`, but received: `"./images/example-snap/3.gif"`',
+      'At path: verifiedSnaps.npm:example-snap.metadata.screenshots.2 -- Expected a string matching `/\\.\\/images\\/.*\\/\\d+\\.(?:png|jpe?g)$/` but received "./images/example-snap/3.gif"',
     );
   });
 });
