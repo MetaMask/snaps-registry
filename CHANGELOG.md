@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.1.0]
+### Added
+- Add screenshots field ([#505](https://github.com/MetaMask/snaps-registry/pull/505))
+
+### Changed
+- Bump @metamask/utils from 8.3.0 to 8.4.0 ([#499](https://github.com/MetaMask/snaps-registry/pull/499))
+- Bump @metamask/snaps-controllers from 6.0.2 to 6.0.3 ([#488](https://github.com/MetaMask/snaps-registry/pull/488))
+- Bump @metamask/snaps-utils from 7.0.2 to 7.0.3 ([#486](https://github.com/MetaMask/snaps-registry/pull/486))
+- Bump @metamask/safe-event-emitter from 3.0.0 to 3.1.1 ([#487](https://github.com/MetaMask/snaps-registry/pull/487))
+- Bump @metamask/snaps-sdk from 3.1.0 to 3.1.1 ([#489](https://github.com/MetaMask/snaps-registry/pull/489))
+
 ## [3.0.1]
 ### Changed
 - Bump `@metamask/utils` from `8.2.1` to `8.3.0` ([#374](https://github.com/MetaMask/snaps-registry/pull/374))
@@ -62,7 +73,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/MetaMask/snaps-registry/compare/v3.0.1...HEAD
+[Unreleased]: https://github.com/MetaMask/snaps-registry/compare/v3.1.0...HEAD
+[3.1.0]: https://github.com/MetaMask/snaps-registry/compare/v3.0.1...v3.1.0
 [3.0.1]: https://github.com/MetaMask/snaps-registry/compare/v3.0.0...v3.0.1
 [3.0.0]: https://github.com/MetaMask/snaps-registry/compare/v2.1.1...v3.0.0
 [2.1.1]: https://github.com/MetaMask/snaps-registry/compare/v2.1.0...v2.1.1
