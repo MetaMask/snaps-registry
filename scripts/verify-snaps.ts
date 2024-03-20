@@ -4,7 +4,6 @@ import { getLocalizedSnapManifest } from '@metamask/snaps-utils';
 import { assertIsSemVerVersion, getErrorMessage } from '@metamask/utils';
 import deepEqual from 'fast-deep-equal';
 import { imageSize as imageSizeSync } from 'image-size';
-import { access } from 'node:fs/promises';
 import { resolve } from 'path';
 import semver from 'semver/preload';
 import type { Infer } from 'superstruct';
