@@ -1,13 +1,19 @@
 import { detectSnapLocation, fetchSnap } from '@metamask/snaps-controllers';
 import type { SnapId } from '@metamask/snaps-sdk';
 import { getLocalizedSnapManifest } from '@metamask/snaps-utils';
-import { assertIsSemVerVersion } from '@metamask/utils';
+import { assertIsSemVerVersion, getErrorMessage } from '@metamask/utils';
 import deepEqual from 'fast-deep-equal';
+import { imageSize as imageSizeSync } from 'image-size';
+import { access } from 'node:fs/promises';
+import { resolve } from 'path';
 import semver from 'semver/preload';
 import type { Infer } from 'superstruct';
+import { promisify } from 'util';
 
 import type { VerifiedSnapStruct } from '../src';
 import registry from '../src/registry.json';
+
+const imageSize = promisify(imageSizeSync);
 
 type VerifiedSnap = Infer<typeof VerifiedSnapStruct>;
 
@@ -66,6 +72,72 @@ async function verifySnapVersion(
 }
 
 /**
+ * Check if a file exists.
+ *
+ * @param path - The path to the file.
+ */
+async function fileExists(path: string) {
+  try {
+    await access(path);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * Get the size of an image.
+ *
+ * @param path - The path to the image.
+ * @param snapId - The snap ID.
+ */
+async function getImageSize(path: string, snapId: string) {
+  try {
+    return await imageSize(path);
+  } catch (error) {
+    throw new Error(
+      `Could not determine the size of screenshot "${path}" for "${snapId}": ${getErrorMessage(
+        error,
+      )}.`,
+    );
+  }
+}
+
+/**
+ * Verify that the screenshots for a snap exist and have the correct dimensions.
+ *
+ * @param snapId - The snap ID.
+ * @param screenshots - The screenshots.
+ * @throws If a screenshot does not exist or has the wrong dimensions.
+ */
+async function verifyScreenshots(snapId: string, screenshots: string[]) {
+  const basePath = resolve(__dirname, '..', 'src');
+
+  for (const screenshot of screenshots) {
+    const path = resolve(basePath, screenshot);
+    const isFile = await fileExists(path);
+    if (!isFile) {
+      throw new Error(
+        `Screenshot "${screenshot}" for "${snapId}" does not exist.`,
+      );
+    }
+
+    const size = await getImageSize(path, snapId);
+    if (!size?.width || !size?.height) {
+      throw new Error(
+        `Could not determine the size of screenshot "${screenshot}" for "${snapId}".`,
+      );
+    }
+
+    if (size.width !== 960 || size.height !== 540) {
+      throw new Error(
+        `Screenshot "${screenshot}" for "${snapId}" does not have the correct dimensions. Expected 960x540, got ${size.width}x${size.height}.`,
+      );
+    }
+  }
+}
+
+/**
  * Verify a snap.
  *
  * @param snap - The snap.
@@ -87,6 +159,14 @@ async function verifySnap(snap: VerifiedSnap) {
       checksum,
       latestVersion === version,
     ).catch((error) => {
+      console.error(error.message);
+      process.exitCode = 1;
+    });
+  }
+
+  const { screenshots } = snap.metadata;
+  if (screenshots) {
+    await verifyScreenshots(snap.id, screenshots).catch((error) => {
       console.error(error.message);
       process.exitCode = 1;
     });
