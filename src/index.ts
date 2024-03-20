@@ -5,6 +5,8 @@ import {
 } from '@metamask/utils';
 import type { Infer } from 'superstruct';
 import {
+  pattern,
+  size,
   object,
   array,
   record,
@@ -53,6 +55,11 @@ export const AdditionalSourceCodeStruct = object({
   url: string(),
 });
 
+export const ImagePathStruct = pattern(
+  string(),
+  /\.\/images\/.*\/\d+\.(?:png|jpe?g)$/u,
+);
+
 export const VerifiedSnapStruct = object({
   id: NpmIdStruct,
   metadata: object({
@@ -80,6 +87,7 @@ export const VerifiedSnapStruct = object({
     privacyPolicy: optional(string()),
     termsOfUse: optional(string()),
     additionalSourceCode: optional(array(AdditionalSourceCodeStruct)),
+    screenshots: optional(size(array(ImagePathStruct), 3, 3)),
   }),
   versions: record(VersionStruct, VerifiedSnapVersionStruct),
 });

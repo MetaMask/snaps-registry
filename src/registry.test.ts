@@ -58,6 +58,11 @@ describe('Snaps Registry', () => {
                 url: 'https://metamask.io/example/source-code3',
               },
             ],
+            screenshots: [
+              './images/example-snap/1.png',
+              './images/example-snap/2.jpg',
+              './images/example-snap/3.jpeg',
+            ],
           },
           versions: {
             ['0.1.0' as SemVerVersion]: {
@@ -120,7 +125,7 @@ describe('Snaps Registry', () => {
     expect(() => assert(registryDb, SnapsRegistryDatabaseStruct)).not.toThrow();
   });
 
-  it('should throw when the metadata has an unexpected field', () => {
+  it('throws when the metadata has an unexpected field', () => {
     const registryDb: SnapsRegistryDatabase = {
       verifiedSnaps: {
         'npm:example-snap': {
@@ -143,6 +148,62 @@ describe('Snaps Registry', () => {
 
     expect(() => assert(registryDb, SnapsRegistryDatabaseStruct)).toThrow(
       'At path: verifiedSnaps.npm:example-snap.metadata.unexpected -- Expected a value of type `never`, but received: `"field"`',
+    );
+  });
+
+  it('throws when the screenshots are invalid', () => {
+    expect(() =>
+      assert(
+        {
+          verifiedSnaps: {
+            'npm:example-snap': {
+              id: 'npm:example-snap',
+              metadata: {
+                name: 'Example Snap',
+                screenshots: ['./images/example-snap/1.png'],
+              },
+              versions: {
+                ['0.1.0' as SemVerVersion]: {
+                  checksum: 'A83r5/ZIcKeKw3An13HBeV4CAofj7jGK5hOStmHY6A0=',
+                },
+              },
+            },
+          },
+          blockedSnaps: [],
+        },
+        SnapsRegistryDatabaseStruct,
+      ),
+    ).toThrow(
+      'At path: verifiedSnaps.npm:example-snap.metadata.screenshots -- Expected a array with a length of `3` but received one with a length of `1`',
+    );
+
+    expect(() =>
+      assert(
+        {
+          verifiedSnaps: {
+            'npm:example-snap': {
+              id: 'npm:example-snap',
+              metadata: {
+                name: 'Example Snap',
+                screenshots: [
+                  './images/example-snap/1.png',
+                  './images/example-snap/2.png',
+                  './images/example-snap/3.gif',
+                ],
+              },
+              versions: {
+                ['0.1.0' as SemVerVersion]: {
+                  checksum: 'A83r5/ZIcKeKw3An13HBeV4CAofj7jGK5hOStmHY6A0=',
+                },
+              },
+            },
+          },
+          blockedSnaps: [],
+        },
+        SnapsRegistryDatabaseStruct,
+      ),
+    ).toThrow(
+      'At path: verifiedSnaps.npm:example-snap.metadata.screenshots.2 -- Expected a string matching `/\\.\\/images\\/.*\\/\\d+\\.(?:png|jpe?g)$/` but received "./images/example-snap/3.gif"',
     );
   });
 });
