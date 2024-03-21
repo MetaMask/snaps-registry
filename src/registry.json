@@ -1468,7 +1468,12 @@
         "support": {
           "contact": "https://discord.gg/hYpHRjK"
         },
-        "sourceCode": "https://github.com/Consensys/starknet-snap"
+        "sourceCode": "https://github.com/Consensys/starknet-snap",
+        "screenshots": [
+          "./images/@consensys/starknet-snap/1.png",
+          "./images/@consensys/starknet-snap/2.png",
+          "./images/@consensys/starknet-snap/3.png"
+        ]
       },
       "versions": {
         "2.5.2": {
