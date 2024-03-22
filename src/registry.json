@@ -153,7 +153,12 @@
           "faq": "https://walletguard.notion.site/Wallet-Guard-Snap-Frequently-Asked-Questions-FAQ-4e732cf0892846368048ed6e5f53a51a",
           "knowledgeBase": "https://walletguard.notion.site/Wallet-Guard-Snap-Knowledge-Base-8839534090e444d792e1b3aa86e0a762"
         },
-        "sourceCode": "https://github.com/wallet-guard/wallet-guard-snap"
+        "sourceCode": "https://github.com/wallet-guard/wallet-guard-snap",
+        "screenshots": [
+          "./images/wallet-guard-snap/1.png",
+          "./images/wallet-guard-snap/2.png",
+          "./images/wallet-guard-snap/3.png"
+        ]
       },
       "versions": {
         "1.1.1": {
@@ -193,7 +198,12 @@
           "faq": "https://app.push.org/snap/faq",
           "knowledgeBase": "https://app.push.org/snap/knowledge"
         },
-        "sourceCode": "https://github.com/ethereum-push-notification-service/push-protocol-snaps"
+        "sourceCode": "https://github.com/ethereum-push-notification-service/push-protocol-snaps",
+        "images": [
+          "./images/@pushprotocol/snap/1.png",
+          "./images/@pushprotocol/snap/2.png",
+          "./images/@pushprotocol/snap/3.png"
+        ]
       },
       "versions": {
         "1.1.13": {
@@ -806,7 +816,12 @@
           "contact": "https://discord.gg/NW5RqQP338",
           "faq": "https://github.com/pianity/arsnap/blob/main/packages/arsnap/FAQ.md"
         },
-        "sourceCode": "https://github.com/pianity/arsnap"
+        "sourceCode": "https://github.com/pianity/arsnap",
+        "screenshots": [
+          "./images/@pianity/arsnap/1.png",
+          "./images/@pianity/arsnap/2.png",
+          "./images/@pianity/arsnap/3.png"
+        ]
       },
       "versions": {
         "0.2.2": {
@@ -1054,7 +1069,12 @@
           "contact": "https://academy.solflare.com/guides",
           "faq": "https://solflare.com/metamask"
         },
-        "sourceCode": "https://github.com/solflare-wallet/solflare-snap"
+        "sourceCode": "https://github.com/solflare-wallet/solflare-snap",
+        "screenshots": [
+          "./images/@solflare-wallet/solana-snap/1.png",
+          "./images/@solflare-wallet/solana-snap/2.png",
+          "./images/@solflare-wallet/solana-snap/3.png"
+        ]
       },
       "versions": {
         "1.0.3": {
@@ -1115,7 +1135,12 @@
           "contact": "https://discord.gg/M5xgNz7TTF",
           "knowledgeBase": "https://docs.masca.io/"
         },
-        "sourceCode": "https://github.com/blockchain-lab-um/masca"
+        "sourceCode": "https://github.com/blockchain-lab-um/masca",
+        "screenshots": [
+          "./images/@blockchain-lab-um/masca/1.png",
+          "./images/@blockchain-lab-um/masca/2.png",
+          "./images/@blockchain-lab-um/masca/3.png"
+        ]
       },
       "versions": {
         "1.1.0": {
@@ -1686,7 +1711,12 @@
         "support": {
           "knowledgeBase": "https://docs.astar.network/docs/use/manage-wallets/wallet-providers/metamask-astar-snap/"
         },
-        "sourceCode": "https://github.com/AstarNetwork/metamask-snap-astar"
+        "sourceCode": "https://github.com/AstarNetwork/metamask-snap-astar",
+        "screenshots": [
+          "./images/@astar-network/snap/1.png",
+          "./images/@astar-network/snap/2.png",
+          "./images/@astar-network/snap/3.png"
+        ]
       },
       "versions": {
         "0.7.9": {
@@ -1749,7 +1779,12 @@
           "faq": "https://web3antivirus.io/snap/#faq",
           "knowledgeBase": "https://web3antivirus.notion.site/W3A-Snap-Knowledge-Base-3158f8369eaa4b5cb5a4bee33108f7fc"
         },
-        "sourceCode": "https://github.com/web3-antivirus/web3-antivirus-snap"
+        "sourceCode": "https://github.com/web3-antivirus/web3-antivirus-snap",
+        "images": [
+          "./images/@web3-antivirus/web3-antivirus-snap/1.jpg",
+          "./images/@web3-antivirus/web3-antivirus-snap/2.jpg",
+          "./images/@web3-antivirus/web3-antivirus-snap/3.jpg"
+        ]
       },
       "versions": {
         "0.1.5": {
@@ -1779,7 +1814,12 @@
           "contact": "https://discord.gg/galactica",
           "knowledgeBase": "https://docs.galactica.com/"
         },
-        "sourceCode": "https://github.com/Galactica-corp/galactica-monorepo/tree/main/packages/snap"
+        "sourceCode": "https://github.com/Galactica-corp/galactica-monorepo/tree/main/packages/snap",
+        "screenshots": [
+          "./images/@galactica-net/snap/1.jpg",
+          "./images/@galactica-net/snap/2.jpg",
+          "./images/@galactica-net/snap/3.jpg"
+        ]
       },
       "versions": {
         "0.6.1": {
@@ -1808,7 +1848,12 @@
           "contact": "https://discord.gg/vfhpMjdbGU",
           "faq": "https://snap.rss3.io/"
         },
-        "sourceCode": "https://github.com/NaturalSelectionLabs/RSS3-Social-Notifier-Snap"
+        "sourceCode": "https://github.com/NaturalSelectionLabs/RSS3-Social-Notifier-Snap",
+        "screenshots": [
+          "./images/@rss3/social-notifier-snap/1.png",
+          "./images/@rss3/social-notifier-snap/2.png",
+          "./images/@rss3/social-notifier-snap/3.png"
+        ]
       },
       "versions": {
         "0.1.13": {
