@@ -2,4 +2,5 @@
 # Each line is a file pattern followed by one or more owners.
 
 *                                    @MetaMask/snaps-devs
+src/images/*                         @MetaMask/snaps-devs @Montoya
 src/registry.json                    @MetaMask/snaps-devs @Montoya
