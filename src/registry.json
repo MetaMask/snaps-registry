@@ -199,7 +199,7 @@
           "knowledgeBase": "https://app.push.org/snap/knowledge"
         },
         "sourceCode": "https://github.com/ethereum-push-notification-service/push-protocol-snaps",
-        "images": [
+        "screenshots": [
           "./images/@pushprotocol/snap/1.png",
           "./images/@pushprotocol/snap/2.png",
           "./images/@pushprotocol/snap/3.png"
@@ -1780,7 +1780,7 @@
           "knowledgeBase": "https://web3antivirus.notion.site/W3A-Snap-Knowledge-Base-3158f8369eaa4b5cb5a4bee33108f7fc"
         },
         "sourceCode": "https://github.com/web3-antivirus/web3-antivirus-snap",
-        "images": [
+        "screenshots": [
           "./images/@web3-antivirus/web3-antivirus-snap/1.jpg",
           "./images/@web3-antivirus/web3-antivirus-snap/2.jpg",
           "./images/@web3-antivirus/web3-antivirus-snap/3.jpg"
