@@ -2208,6 +2208,37 @@
         }
       }
     },
+    "npm:hapilabs-snap": {
+      "id": "npm:hapilabs-snap",
+      "metadata": {
+        "name": "HAPI",
+        "author": {
+          "name": "HAPI",
+          "website": "https://hapi.one/"
+        },
+        "website": "https://hapi.one/snap",
+        "summary": "HAPI Snap is a threat detection tool that can easily and seamlessly be used within the MetaMask wallet. Created by HAPI Team, one of the leading crypto native cybersecurity protocols, HAPI Snap enables users to be aware of all potentially dangerous activities on the blockchain, safeguarding against asset loss.",
+        "description": "HAPI Snap, developed by the HAPI Team, is an advanced tool for blockchain threat detection, providing users with the means to protect their digital assets from potential risks.\n\nMain Features:\n\n1. Data Aggregation: Gathers comprehensive threat data from diverse sources.\n\n2. AI Threat Detection: Utilizes AI for real-time risk assessment.\n\n3. Wallet Security Enhancement: Offers transaction analysis, phishing protection, and alerts.\n\n4. Free Access: Enables thorough due diligence without cost.\n\nAdvantages:\n\n- Superior Protection: Shields against a wide range of blockchain threats.\n\n- Informed Transactions: Facilitates educated decision-making with detailed threat data.\n\n- User-Friendly: Simple and automated monitoring for ease of use.\n\n- Cost-Effective: Free, unlimited access to security tools and data.\n\nEase of Use:\n\n- Quick setup, offering automated threat monitoring and intuitive access to security insights, making it accessible for all users without extra fees.",
+        "audits": [
+          {
+            "auditor": "Hacken",
+            "report": "https://hacken.io/audits/hapi-snap/"
+          }
+        ],
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:i.am.hapi@hapi.one",
+          "knowledgeBase": "https://hapi.one/snap",
+          "faq": "https://hapi.one/snap"
+        },
+        "sourceCode": "https://github.com/HAPIprotocol/hapilabs-snap"
+      },
+      "versions": {
+        "1.0.2": {
+          "checksum": "84epmblZfaiYOhWLvIClfovtKJ3giY/DddsaEsDxP1k="
+        }
+      }
+    },
     "npm:@consensys/web3tickets-snap": {
       "id": "npm:@consensys/web3tickets-snap",
       "metadata": {
