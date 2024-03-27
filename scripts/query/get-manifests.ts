@@ -28,6 +28,7 @@ export async function getManifests() {
     const location = detectSnapLocation(snap.id, {
       versionRange: latestVersion as any,
     });
+
     const fetchedSnap = await fetchSnap(snap.id as SnapId, location);
     allManifests.push(fetchedSnap.manifest.result);
   }
