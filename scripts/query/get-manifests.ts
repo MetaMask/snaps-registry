@@ -1,5 +1,6 @@
 import { detectSnapLocation, fetchSnap } from '@metamask/snaps-controllers';
 import type { SnapId } from '@metamask/snaps-sdk';
+import type { SemVerRange } from '@metamask/utils';
 import fs from 'fs';
 import path from 'path';
 import semver from 'semver/preload';
@@ -23,10 +24,10 @@ export async function getManifests() {
         }
         return result;
       },
-    );
+    ) as SemVerRange;
 
     const location = detectSnapLocation(snap.id, {
-      versionRange: latestVersion as any,
+      versionRange: latestVersion,
     });
 
     const fetchedSnap = await fetchSnap(snap.id as SnapId, location);

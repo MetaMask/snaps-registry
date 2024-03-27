@@ -1,5 +1,5 @@
 import type { SnapManifest } from '@metamask/snaps-utils';
-import fs from 'fs';
+import fsPromises from 'fs/promises';
 
 import { MANIFESTS_FILE_LOCATION, getManifests } from './get-manifests';
 
@@ -13,14 +13,14 @@ async function main() {
   } else {
     try {
       //  Check if local file exists.
-      await fs.promises.readFile(MANIFESTS_FILE_LOCATION, 'utf8');
+      await fsPromises.readFile(MANIFESTS_FILE_LOCATION, 'utf8');
     } catch (eror) {
       await getManifests();
     }
   }
 
   const manifests: SnapManifest[] = JSON.parse(
-    await fs.promises.readFile(MANIFESTS_FILE_LOCATION, 'utf8'),
+    await fsPromises.readFile(MANIFESTS_FILE_LOCATION, 'utf8'),
   );
 
   /**
