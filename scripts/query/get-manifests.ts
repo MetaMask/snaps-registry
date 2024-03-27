@@ -31,6 +31,9 @@ export async function getManifests() {
     const fetchedSnap = await fetchSnap(snap.id as SnapId, location);
     allManifests.push(fetchedSnap.manifest.result);
   }
-  fs.writeFileSync(MANIFESTS_FILE_LOCATION, JSON.stringify(allManifests));
+  await fs.promises.writeFile(
+    MANIFESTS_FILE_LOCATION,
+    JSON.stringify(allManifests),
+  );
   console.log('Fetching Snap manifests and writing file - Done');
 }

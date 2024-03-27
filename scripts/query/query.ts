@@ -4,17 +4,23 @@ import fs from 'fs';
 import { MANIFESTS_FILE_LOCATION, getManifests } from './get-manifests';
 
 /**
- *  Main function.
+ * Entry point.
  */
 async function main() {
-  const fileExists = fs.existsSync(MANIFESTS_FILE_LOCATION);
   const forceDownload = process.argv.includes('--force-download');
-
-  if (!fileExists || forceDownload) {
+  if (forceDownload) {
     await getManifests();
+  } else {
+    try {
+      //  Check if local file exists.
+      await fs.promises.readFile(MANIFESTS_FILE_LOCATION, 'utf8');
+    } catch (eror) {
+      await getManifests();
+    }
   }
+
   const manifests: SnapManifest[] = JSON.parse(
-    fs.readFileSync(MANIFESTS_FILE_LOCATION, 'utf8'),
+    await fs.promises.readFile(MANIFESTS_FILE_LOCATION, 'utf8'),
   );
 
   /**
@@ -22,8 +28,8 @@ async function main() {
    */
 
   //  Eg.: Find all Snaps that use `endowment:transaction-insight`
-  const filteredSnaps = manifests.filter((manifest) =>
-    manifest.initialPermissions['endowment:transaction-insight'],
+  const filteredSnaps = manifests.filter(
+    (manifest) => manifest.initialPermissions['endowment:transaction-insight'],
   );
   console.log('\nQuery results');
   console.log(filteredSnaps.map((snap) => snap.proposedName));
