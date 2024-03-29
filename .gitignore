@@ -81,3 +81,5 @@ node_modules/
 src/signature.json
 
 secp256k1-key
+
+scripts/query/data.json
