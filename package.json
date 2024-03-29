@@ -22,6 +22,7 @@
     "lint:fix": "yarn lint:eslint --fix && yarn lint:misc --write",
     "lint:misc": "prettier '**/*.json' '**/*.md' '!CHANGELOG.md' '**/*.yml' '!.yarnrc.yml' --ignore-path .gitignore --no-error-on-unmatched-pattern",
     "prepack": "./scripts/prepack.sh",
+    "query-snaps": "ts-node scripts/query/query.ts",
     "sign": "ts-node scripts/sign-registry.ts",
     "test": "jest && jest-it-up",
     "test:watch": "jest --watch",
