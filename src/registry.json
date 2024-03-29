@@ -2350,6 +2350,9 @@
         ]
       },
       "versions": {
+        "1.2.7": {
+          "checksum": "uq4KYgMufU824Q1zJU6om4IF7cDXrROZnICrLKEkua0="
+        },
         "1.2.6": {
           "checksum": "HCOp9b2PGeUPCpEthvGWnn2jnKPYYf6nZnBc8KXVwuc="
         }
