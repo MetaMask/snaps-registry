@@ -1501,6 +1501,9 @@
         ]
       },
       "versions": {
+        "2.6.1": {
+          "checksum": "0/a7Lu7K1ktg/y0fhgiHrk2n09Z7BJTHonm/tBAvevA="
+        },
         "2.5.2": {
           "checksum": "qYquBTPQKr41UHZyNu9QkMjMjnD45cYGyqvNAx1GKg4="
         }
