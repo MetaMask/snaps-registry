@@ -2534,7 +2534,6 @@
         "website": "https://lxp-snap.linea.build/",
         "summary": "Track your LXP balance, POH status, and current activations from inside MetaMask",
         "description": "The LXP Snap allows you to view your LXP balance, POH status, and current LXP activations from within MetaMask.\n\nAfter installing the Snap, connect the account you use on Linea. Then, click on LXP from the Snaps menu in MetaMask to open the Snap homepage and view your data.",
-        "category": "interoperability",
         "support": {
           "contact": "https://discord.gg/hYpHRjK"
         },
