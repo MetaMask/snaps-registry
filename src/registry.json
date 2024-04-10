@@ -1143,6 +1143,9 @@
         ]
       },
       "versions": {
+        "1.2.2": {
+          "checksum": "0+ZdkgoSljBRrV6JARt/+Z2Amq30jiWb2EItGfihB30="
+        },
         "1.1.0": {
           "checksum": "lvNJQRx0yBScxfNkwkCnAtiRKSDkCkDlp3uMVBZXF7A="
         },
@@ -1240,6 +1243,9 @@
         "sourceCode": "https://github.com/rarimo/rarime"
       },
       "versions": {
+        "2.1.0": {
+          "checksum": "CQgk91hCMZDesbgW1yDO4bWYyHY6Lpwp3b1GK/zPxY8="
+        },
         "2.0.3": {
           "checksum": "JYhh0dVzYXZVrMEI1gIfjYaZ4OEwGwGVaZmGrUgieXU="
         },
