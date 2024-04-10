@@ -2528,6 +2528,28 @@
           "checksum": "6wP6Hm3oTFQcO7CU9pj+LB0WvzU1dO1H3D9FRwieyo8="
         }
       }
+    },
+    "npm:@consensys/lxp-snap": {
+      "id": "npm:@consensys/lxp-snap",
+      "metadata": {
+        "name": "LXP",
+        "author": {
+          "name": "Consensys",
+          "website": "https://consensys.io/"
+        },
+        "website": "https://lxp-snap.linea.build/",
+        "summary": "Track your LXP balance, POH status, and current activations from inside MetaMask",
+        "description": "The LXP Snap allows you to view your LXP balance, POH status, and current LXP activations from within MetaMask.\n\nAfter installing the Snap, connect the account you use on Linea. Then, click on LXP from the Snaps menu in MetaMask to open the Snap homepage and view your data.",
+        "support": {
+          "contact": "https://discord.com/invite/linea"
+        },
+        "sourceCode": "https://github.com/Consensys/lxp-snap"
+      },
+      "versions": {
+        "0.5.0": {
+          "checksum": "I12yn8a6cDch/RN+jgLKQX7xI+Uufm2LB5JL3Fy+y2k="
+        }
+      }
     }
   },
   "blockedSnaps": [
