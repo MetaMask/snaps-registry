@@ -1899,36 +1899,6 @@
         }
       }
     },
-    "npm:tm-chainsafer-snap": {
-      "id": "npm:tm-chainsafer-snap",
-      "metadata": {
-        "name": "TM ChainSafer",
-        "author": {
-          "name": "Trend Micro",
-          "website": "https://www.nexone.io/"
-        },
-        "summary": "Offers transaction insight and security assessment to highlight transaction risk and increase transaction awareness for users.",
-        "description": "TrendMicro ChainSafer provides the following features to ensure transaction safety as well as  more insights for users to judge transactions.\n\n1. Offering transaction risk assessment for users to check different security levels of transactions.\n2. Offering simulation for users to know asset(s) changes after transaction intention before they try to execute the real transaction.\n3. Offering project insights for users to understand more detail of targeted token contracts.",
-        "audits": [
-          {
-            "auditor": "SlowMist",
-            "report": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/blockchain-application/SlowMist%20Audit%20Report%20-%20Chainsafer%20Snap_en-us.pdf"
-          }
-        ],
-        "category": "transaction insights",
-        "support": {
-          "contact": "mailto:chainsafer_support@trendmicro.com",
-          "faq": "https://www.nexone.io/en-us/metamask-snap",
-          "knowledgeBase": "https://www.nexone.io/en-us/faq-trend-micro-chainsafer"
-        },
-        "sourceCode": "https://github.com/trendmicro/app-metasec-chainsafer-snap"
-      },
-      "versions": {
-        "1.0.284": {
-          "checksum": "KaFJr3gPeoChzVARPMapXOiZmDx5mRIW+3QxFGHCi3E="
-        }
-      }
-    },
     "npm:@amax/amaxsnap": {
       "id": "npm:@amax/amaxsnap",
       "metadata": {
