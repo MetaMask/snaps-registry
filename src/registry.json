@@ -2525,6 +2525,7 @@
         "website": "https://voyager-snap.linea.build/",
         "summary": "Track your collected Linea XP, POH status, and current activations from inside MetaMask",
         "description": "The Linea Voyager Snap allows you to view your collected Linea XP, POH status, and current Linea Voyage activations from within MetaMask.\n\nAfter installing the Snap, visit the companion dapp: https://voyager-snap.linea.build/ to connect or watch the account you use on Linea. Then, click on Linea Voyager from the Snaps menu in MetaMask to open the Snap homepage and view your data.",
+        "category": "interoperability",
         "support": {
           "contact": "https://discord.com/invite/linea"
         },
