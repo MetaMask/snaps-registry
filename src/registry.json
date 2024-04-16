@@ -1016,7 +1016,12 @@
           "contact": "mailto:metamask.snap@tenderly.co",
           "faq": "https://docs.tenderly.co/how-to-install-tenderly-tx-preview-snap"
         },
-        "sourceCode": "https://github.com/Tenderly/tenderly-snap"
+        "sourceCode": "https://github.com/Tenderly/tenderly-snap",
+        "screenshots": [
+          "./images/@tenderly/metamask-snap/1.png",
+          "./images/@tenderly/metamask-snap/2.png",
+          "./images/@tenderly/metamask-snap/3.png"
+        ]
       },
       "versions": {
         "1.2.1": {
