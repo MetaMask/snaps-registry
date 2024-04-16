@@ -1191,7 +1191,12 @@
           "contact": "https://leapwallet.notion.site/Leap-Cosmos-Wallet-Support-ba1da3c05d3341eaa44a1850ed3260ee",
           "faq": "https://leapwallet.notion.site/Leap-Cosmos-Wallet-Support-ba1da3c05d3341eaa44a1850ed3260ee#b9f076f6aeb947818b449a058cd2967b"
         },
-        "sourceCode": "https://github.com/leapwallet/cosmos-metamask-snap"
+        "sourceCode": "https://github.com/leapwallet/cosmos-metamask-snap",
+        "screenshots": [
+          "./images/@leapwallet/metamask-cosmos-snap/1.png",
+          "./images/@leapwallet/metamask-cosmos-snap/2.png",
+          "./images/@leapwallet/metamask-cosmos-snap/3.png"
+        ]
       },
       "versions": {
         "0.1.18": {
