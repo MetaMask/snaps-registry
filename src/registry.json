@@ -1250,6 +1250,11 @@
           "knowledgeBase": "https://rarimo.notion.site/RariMe-Knowledge-Doc-bf401216ae604f0faa490265f2ccd86f",
           "faq": "https://rarimo.notion.site/rariME-FAQ-19ebf31d8eaf4475aa8e64a1cc558800"
         },
+        "screenshots": [
+          "./images/@rarimo/rarime/1.png",
+          "./images/@rarimo/rarime/2.png",
+          "./images/@rarimo/rarime/3.png"
+        ],
         "sourceCode": "https://github.com/rarimo/rarime"
       },
       "versions": {
