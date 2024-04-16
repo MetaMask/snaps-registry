@@ -1214,6 +1214,11 @@
           "contact": "https://discord.gg/RZ84RUNuNF",
           "faq": "https://snap.anchainai.com/#faq"
         },
+        "screenshots": [
+          "./images/web3-security-snap/1.png",
+          "./images/web3-security-snap/2.png",
+          "./images/web3-security-snap/3.png"
+        ],
         "sourceCode": "https://github.com/AnChainAI/web3-security-snap"
       },
       "versions": {
