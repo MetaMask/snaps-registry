@@ -86,7 +86,12 @@
           "knowledgeBase": "https://docs.walletchat.fun/metamask-integration",
           "contact": "mailto:contact@walletchat.fun"
         },
-        "sourceCode": "https://github.com/Wallet-Chat/walletchat-metamask-snap"
+        "sourceCode": "https://github.com/Wallet-Chat/walletchat-metamask-snap",
+        "screenshots": [
+          "./images/walletchat-metamask-snap/1.png",
+          "./images/walletchat-metamask-snap/2.png",
+          "./images/walletchat-metamask-snap/3.png"
+        ]
       },
       "versions": {
         "0.2.2": {
