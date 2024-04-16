@@ -1356,7 +1356,12 @@
         "support": {
           "contact": "https://discord.com/invite/fMcZBH8ErM"
         },
-        "sourceCode": "https://github.com/drift-labs/snap-solana"
+        "sourceCode": "https://github.com/drift-labs/snap-solana",
+        "screenshots": [
+          "./images/@drift-labs/snap-solana/1.png",
+          "./images/@drift-labs/snap-solana/2.png",
+          "./images/@drift-labs/snap-solana/3.png"
+        ]
       },
       "versions": {
         "0.2.3": {
