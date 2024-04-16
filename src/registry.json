@@ -724,7 +724,12 @@
           "faq": "https://docs.kleros.io/products/curate/kleros-scout-metamask-snaps/faqs",
           "knowledgeBase": "https://docs.kleros.io/products/curate/kleros-scout-metamask-snaps/knowledge-base"
         },
-        "sourceCode": "https://github.com/kleros/scout-snap"
+        "sourceCode": "https://github.com/kleros/scout-snap",
+        "screenshots": [
+          "./images/@kleros/scout-snap/1.png",
+          "./images/@kleros/scout-snap/2.png",
+          "./images/@kleros/scout-snap/3.png"
+        ]
       },
       "versions": {
         "1.1.0": {
@@ -1176,7 +1181,12 @@
           "contact": "https://leapwallet.notion.site/Leap-Cosmos-Wallet-Support-ba1da3c05d3341eaa44a1850ed3260ee",
           "faq": "https://leapwallet.notion.site/Leap-Cosmos-Wallet-Support-ba1da3c05d3341eaa44a1850ed3260ee#b9f076f6aeb947818b449a058cd2967b"
         },
-        "sourceCode": "https://github.com/leapwallet/cosmos-metamask-snap"
+        "sourceCode": "https://github.com/leapwallet/cosmos-metamask-snap",
+        "screenshots": [
+          "./images/@leapwallet/metamask-cosmos-snap/1.png",
+          "./images/@leapwallet/metamask-cosmos-snap/2.png",
+          "./images/@leapwallet/metamask-cosmos-snap/3.png"
+        ]
       },
       "versions": {
         "0.1.18": {
@@ -1566,7 +1576,12 @@
           "contact": "https://discord.gg/xSAwrnCWcg",
           "faq": "https://github.com/ChainSafe/metamask-snap-polkadot/wiki/Example-dApp-Usage"
         },
-        "sourceCode": "https://github.com/ChainSafe/metamask-snap-polkadot"
+        "sourceCode": "https://github.com/ChainSafe/metamask-snap-polkadot",
+        "screenshots": [
+          "./images/@chainsafe/polkadot-snap/1.png",
+          "./images/@chainsafe/polkadot-snap/2.png",
+          "./images/@chainsafe/polkadot-snap/3.png"
+        ]
       },
       "versions": {
         "0.8.2": {
@@ -2179,7 +2194,12 @@
           "knowledgeBase": "https://rubic.exchange/blog/introducing-rubics-best-rate-finder-metamask-snap-revolutionizing-crypto-trading/",
           "faq": "https://rubic.exchange/metamasksnap"
         },
-        "sourceCode": "https://github.com/Cryptorubic/rubic-snap-frontend"
+        "sourceCode": "https://github.com/Cryptorubic/rubic-snap-frontend",
+        "screenshots": [
+          "./images/rubic-snap/1.png",
+          "./images/rubic-snap/2.png",
+          "./images/rubic-snap/3.png"
+        ]
       },
       "versions": {
         "0.4.0": {
@@ -2513,7 +2533,12 @@
         "support": {
           "contact": "https://discord.com/invite/linea"
         },
-        "sourceCode": "https://github.com/Consensys/lxp-snap"
+        "sourceCode": "https://github.com/Consensys/lxp-snap",
+        "screenshots": [
+          "./images/@consensys/lxp-snap/1.png",
+          "./images/@consensys/lxp-snap/2.png",
+          "./images/@consensys/lxp-snap/3.png"
+        ]
       },
       "versions": {
         "0.5.0": {
