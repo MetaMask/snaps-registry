@@ -1486,7 +1486,12 @@
           "contact": "https://discord.gg/shapeshift",
           "knowledgeBase": "https://docs.shapeshift.com/faq/protocols/metamask-snaps"
         },
-        "sourceCode": "https://github.com/shapeshift/metamask-snaps"
+        "sourceCode": "https://github.com/shapeshift/metamask-snaps",
+        "screenshots": [
+          "./images/@shapeshiftoss/metamask-snaps/1.jpg",
+          "./images/@shapeshiftoss/metamask-snaps/2.jpg",
+          "./images/@shapeshiftoss/metamask-snaps/3.jpg"
+        ]
       },
       "versions": {
         "1.0.0": {
