@@ -2263,6 +2263,37 @@
         }
       }
     },
+    "npm:hashdit-snap-security": {
+      "id": "npm:hashdit-snap-security",
+      "metadata": {
+        "name": "HashDit Security",
+        "author": {
+          "name": "HashDit",
+          "website": "https://www.hashdit.io/"
+        },
+        "website": "https://www.hashdit.io/en/snap",
+        "summary": "Explore the power of HashDit Security and fortify your MetaMask experience. Navigate the crypto space with confidence.",
+        "description": "Transaction Screening:\n\nGain insights into the risk level of each transaction. Receive timely warnings before engaging with potentially vulnerable or malicious smart contracts.\n\nURL Risk Information:\n\nProtect yourself from phishing links and malicious websites by leveraging our advanced URL screening capabilities.\n\nFunctionCall Insights:\n\nUnderstand precisely which function is being called and the parameters it receives during smart contract interactions.",
+        "audits": [
+          {
+            "auditor": "SlowMist",
+            "report": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/blockchain-application/SlowMist%20Audit%20Report%20-%20HashDit-Snaps_en-us.pdf"
+          }
+        ],
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:support@hashdit.io",
+          "knowledgeBase": "https://hashdit.gitbook.io/hashdit-snap",
+          "faq": "https://hashdit.gitbook.io/hashdit-snap/information/faq-and-knowledge-base"
+        },
+        "sourceCode": "https://github.com/hashdit/metamask-snap"
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "1k0qvd0FWI1z1z/24ynSuDhwSMPRajYKfXnyOTwcSSY="
+        }
+      }
+    },
     "npm:@consensys/web3tickets-snap": {
       "id": "npm:@consensys/web3tickets-snap",
       "metadata": {
