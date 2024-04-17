@@ -86,7 +86,12 @@
           "knowledgeBase": "https://docs.walletchat.fun/metamask-integration",
           "contact": "mailto:contact@walletchat.fun"
         },
-        "sourceCode": "https://github.com/Wallet-Chat/walletchat-metamask-snap"
+        "sourceCode": "https://github.com/Wallet-Chat/walletchat-metamask-snap",
+        "screenshots": [
+          "./images/walletchat-metamask-snap/1.png",
+          "./images/walletchat-metamask-snap/2.png",
+          "./images/walletchat-metamask-snap/3.png"
+        ]
       },
       "versions": {
         "0.2.2": {
@@ -724,7 +729,12 @@
           "faq": "https://docs.kleros.io/products/curate/kleros-scout-metamask-snaps/faqs",
           "knowledgeBase": "https://docs.kleros.io/products/curate/kleros-scout-metamask-snaps/knowledge-base"
         },
-        "sourceCode": "https://github.com/kleros/scout-snap"
+        "sourceCode": "https://github.com/kleros/scout-snap",
+        "screenshots": [
+          "./images/@kleros/scout-snap/1.png",
+          "./images/@kleros/scout-snap/2.png",
+          "./images/@kleros/scout-snap/3.png"
+        ]
       },
       "versions": {
         "1.1.0": {
@@ -1006,7 +1016,12 @@
           "contact": "mailto:metamask.snap@tenderly.co",
           "faq": "https://docs.tenderly.co/how-to-install-tenderly-tx-preview-snap"
         },
-        "sourceCode": "https://github.com/Tenderly/tenderly-snap"
+        "sourceCode": "https://github.com/Tenderly/tenderly-snap",
+        "screenshots": [
+          "./images/@tenderly/metamask-snap/1.png",
+          "./images/@tenderly/metamask-snap/2.png",
+          "./images/@tenderly/metamask-snap/3.png"
+        ]
       },
       "versions": {
         "1.2.1": {
@@ -1209,6 +1224,11 @@
           "contact": "https://discord.gg/RZ84RUNuNF",
           "faq": "https://snap.anchainai.com/#faq"
         },
+        "screenshots": [
+          "./images/web3-security-snap/1.png",
+          "./images/web3-security-snap/2.png",
+          "./images/web3-security-snap/3.png"
+        ],
         "sourceCode": "https://github.com/AnChainAI/web3-security-snap"
       },
       "versions": {
@@ -1240,6 +1260,11 @@
           "knowledgeBase": "https://rarimo.notion.site/RariMe-Knowledge-Doc-bf401216ae604f0faa490265f2ccd86f",
           "faq": "https://rarimo.notion.site/rariME-FAQ-19ebf31d8eaf4475aa8e64a1cc558800"
         },
+        "screenshots": [
+          "./images/@rarimo/rarime/1.png",
+          "./images/@rarimo/rarime/2.png",
+          "./images/@rarimo/rarime/3.png"
+        ],
         "sourceCode": "https://github.com/rarimo/rarime"
       },
       "versions": {
@@ -1336,7 +1361,12 @@
         "support": {
           "contact": "https://discord.com/invite/fMcZBH8ErM"
         },
-        "sourceCode": "https://github.com/drift-labs/snap-solana"
+        "sourceCode": "https://github.com/drift-labs/snap-solana",
+        "screenshots": [
+          "./images/@drift-labs/snap-solana/1.png",
+          "./images/@drift-labs/snap-solana/2.png",
+          "./images/@drift-labs/snap-solana/3.png"
+        ]
       },
       "versions": {
         "0.2.3": {
@@ -1466,7 +1496,12 @@
           "contact": "https://discord.gg/shapeshift",
           "knowledgeBase": "https://docs.shapeshift.com/faq/protocols/metamask-snaps"
         },
-        "sourceCode": "https://github.com/shapeshift/metamask-snaps"
+        "sourceCode": "https://github.com/shapeshift/metamask-snaps",
+        "screenshots": [
+          "./images/@shapeshiftoss/metamask-snaps/1.jpg",
+          "./images/@shapeshiftoss/metamask-snaps/2.jpg",
+          "./images/@shapeshiftoss/metamask-snaps/3.jpg"
+        ]
       },
       "versions": {
         "1.0.0": {
@@ -1566,7 +1601,12 @@
           "contact": "https://discord.gg/xSAwrnCWcg",
           "faq": "https://github.com/ChainSafe/metamask-snap-polkadot/wiki/Example-dApp-Usage"
         },
-        "sourceCode": "https://github.com/ChainSafe/metamask-snap-polkadot"
+        "sourceCode": "https://github.com/ChainSafe/metamask-snap-polkadot",
+        "screenshots": [
+          "./images/@chainsafe/polkadot-snap/1.png",
+          "./images/@chainsafe/polkadot-snap/2.png",
+          "./images/@chainsafe/polkadot-snap/3.png"
+        ]
       },
       "versions": {
         "0.8.2": {
@@ -1899,36 +1939,6 @@
         }
       }
     },
-    "npm:tm-chainsafer-snap": {
-      "id": "npm:tm-chainsafer-snap",
-      "metadata": {
-        "name": "TM ChainSafer",
-        "author": {
-          "name": "Trend Micro",
-          "website": "https://www.nexone.io/"
-        },
-        "summary": "Offers transaction insight and security assessment to highlight transaction risk and increase transaction awareness for users.",
-        "description": "TrendMicro ChainSafer provides the following features to ensure transaction safety as well as  more insights for users to judge transactions.\n\n1. Offering transaction risk assessment for users to check different security levels of transactions.\n2. Offering simulation for users to know asset(s) changes after transaction intention before they try to execute the real transaction.\n3. Offering project insights for users to understand more detail of targeted token contracts.",
-        "audits": [
-          {
-            "auditor": "SlowMist",
-            "report": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/blockchain-application/SlowMist%20Audit%20Report%20-%20Chainsafer%20Snap_en-us.pdf"
-          }
-        ],
-        "category": "transaction insights",
-        "support": {
-          "contact": "mailto:chainsafer_support@trendmicro.com",
-          "faq": "https://www.nexone.io/en-us/metamask-snap",
-          "knowledgeBase": "https://www.nexone.io/en-us/faq-trend-micro-chainsafer"
-        },
-        "sourceCode": "https://github.com/trendmicro/app-metasec-chainsafer-snap"
-      },
-      "versions": {
-        "1.0.284": {
-          "checksum": "KaFJr3gPeoChzVARPMapXOiZmDx5mRIW+3QxFGHCi3E="
-        }
-      }
-    },
     "npm:@amax/amaxsnap": {
       "id": "npm:@amax/amaxsnap",
       "metadata": {
@@ -2209,7 +2219,12 @@
           "knowledgeBase": "https://rubic.exchange/blog/introducing-rubics-best-rate-finder-metamask-snap-revolutionizing-crypto-trading/",
           "faq": "https://rubic.exchange/metamasksnap"
         },
-        "sourceCode": "https://github.com/Cryptorubic/rubic-snap-frontend"
+        "sourceCode": "https://github.com/Cryptorubic/rubic-snap-frontend",
+        "screenshots": [
+          "./images/rubic-snap/1.png",
+          "./images/rubic-snap/2.png",
+          "./images/rubic-snap/3.png"
+        ]
       },
       "versions": {
         "0.4.0": {
@@ -2560,25 +2575,31 @@
         }
       }
     },
-    "npm:@consensys/lxp-snap": {
-      "id": "npm:@consensys/lxp-snap",
+    "npm:@consensys/linea-voyager": {
+      "id": "npm:@consensys/linea-voyager",
       "metadata": {
-        "name": "LXP",
+        "name": "Linea Voyager",
         "author": {
           "name": "Consensys",
           "website": "https://consensys.io/"
         },
-        "website": "https://lxp-snap.linea.build/",
-        "summary": "Track your LXP balance, POH status, and current activations from inside MetaMask",
-        "description": "The LXP Snap allows you to view your LXP balance, POH status, and current LXP activations from within MetaMask.\n\nAfter installing the Snap, connect the account you use on Linea. Then, click on LXP from the Snaps menu in MetaMask to open the Snap homepage and view your data.",
+        "website": "https://voyager-snap.linea.build/",
+        "summary": "Track your collected Linea XP, POH status, and current activations from inside MetaMask",
+        "description": "The Linea Voyager Snap allows you to view your collected Linea XP, POH status, and current Linea Voyage activations from within MetaMask.\n\nAfter installing the Snap, visit the companion dapp: https://voyager-snap.linea.build/ to connect or watch the account you use on Linea. Then, click on Linea Voyager from the Snaps menu in MetaMask to open the Snap homepage and view your data.",
+        "category": "interoperability",
         "support": {
           "contact": "https://discord.com/invite/linea"
         },
-        "sourceCode": "https://github.com/Consensys/lxp-snap"
+        "sourceCode": "https://github.com/Consensys/linea-voyager-snap",
+        "screenshots": [
+          "./images/@consensys/linea-voyager/1.png",
+          "./images/@consensys/linea-voyager/2.png",
+          "./images/@consensys/linea-voyager/3.png"
+        ]
       },
       "versions": {
-        "0.5.0": {
-          "checksum": "I12yn8a6cDch/RN+jgLKQX7xI+Uufm2LB5JL3Fy+y2k="
+        "0.7.0": {
+          "checksum": "AAcFSO2l+t0K/Tww1lFTpRFSAU9SZMEMw4E/C4fVC30="
         }
       }
     }
