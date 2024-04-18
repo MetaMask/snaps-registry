@@ -1998,11 +1998,8 @@
         "sourceCode": "https://github.com/hashgraph/hedera-metamask-snaps"
       },
       "versions": {
-        "0.2.5": {
-          "checksum": "bg0dUT+K57KjvAI8AB1sQAdW/r5QSG/XamegqcfZxhc="
-        },
-        "0.2.4": {
-          "checksum": "GW5ZWO6uAdBmSjuVTZtszHzTfHTb4/uASBVTOxvPCU4="
+        "0.3.1": {
+          "checksum": "zpfccoay3oCy975ix89ZHluVi1mcr42DIiczmDje1IQ="
         }
       }
     },
