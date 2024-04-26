@@ -2293,6 +2293,42 @@
         }
       }
     },
+    "npm:@tezoroproject/snap": {
+      "id": "npm:@tezoroproject/snap",
+      "metadata": {
+        "name": "Tezoro",
+        "author": {
+          "name": "Tezoro, Inc.",
+          "website": "https://tezoro.io/"
+        },
+        "website": "https://tezoro.io/",
+        "summary": "Create an On-Chain Will for your digital assets: a smart contract that can recover your crypto if you lose access to your wallet or die. Non-custodial, automated, anonymous.",
+        "description": "Tezoro Snap provides a Digital Will service. Users can create a smart contract that will be able to recover assets and distribute them among beneficiaries. Users can choose under what circumstances their Digital Will will be executed: due to the inactivity of the wallet, on a specific date, through an executor on Etherscan or via Tezoro dashboard.\n\nTezoro Snap uses Snap's capabilities to provide notifications to users when their balance exceeds $2,000 and they should consider creating a Digital Will to ensure they don't lose access to assets.",
+        "audits": [
+          {
+            "auditor": "Consensys Diligence",
+            "report": "https://consensys.io/diligence/audits/2024/04/tezoro-snap/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:hello@tezoro.io",
+          "knowledgeBase": "https://tezoroio.notion.site/Knowledge-Base-b689d40be72340c79582942f22bb4912",
+          "faq": "https://tezoroio.notion.site/FAQ-1fdb392f83eb4dd6b5f86ad9cd9ca357"
+        },
+        "sourceCode": "https://github.com/tezoroproject/metamask-snap",
+        "screenshots": [
+          "./images/@tezoroproject/snap/1.png",
+          "./images/@tezoroproject/snap/2.png",
+          "./images/@tezoroproject/snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.9.0": {
+          "checksum": "RRXI8F6v4FhcElULjnydzjMiMzop95oPfQP3p2hof2c="
+        }
+      }
+    },
     "npm:@consensys/web3tickets-snap": {
       "id": "npm:@consensys/web3tickets-snap",
       "metadata": {
