@@ -2306,7 +2306,7 @@
         },
         "website": "https://tezoro.io/",
         "summary": "Create an On-Chain Will for your digital assets: a smart contract that can recover your crypto if you lose access to your wallet or die. Non-custodial, automated, anonymous.",
-        "description": "Tezoro Snap provides a Digital Will service. Users can create a smart contract that will be able to recover assets and distribute them among beneficiaries. Users can choose under what circumstances their Digital Will will be executed: due to the inactivity of the wallet, on a specific date, through an executor on Etherscan or via Tezoro dashboard.\n\nTezoro Snap uses Snap's capabilities to provide notifications to users when their balance exceeds $2,000 and they should consider creating a Digital Will to ensure they don't lose access to assets.\n\nTezoro Snap uses: access the internet; access the Ethereum provider; allow websites to communicate directly with Tezoro; schedule and execute periodic actions; display dialog windows in MetaMask; show notifications; store and manage its data on your device.",
+        "description": "Tezoro Snap provides a Digital Will service. Users can create a smart contract that will be able to recover assets and distribute them among beneficiaries. Users can choose under what circumstances their Digital Will will be executed: due to the inactivity of the wallet, on a specific date, through an executor on Etherscan or via Tezoro dashboard.\n\nTezoro Snap uses Snap's capabilities to provide notifications to users when their balance exceeds $2,000 and they should consider creating a Digital Will to ensure they don't lose access to assets.",
         "audits": [
           {
             "auditor": "Consensys Diligence",
