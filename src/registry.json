@@ -2326,42 +2326,6 @@
         }
       }
     },
-    "npm:@fort-major/msq": {
-      "id": "npm:@fort-major/msq",
-      "metadata": {
-        "name": "MSQ - Safe ICP Wallet",
-        "author": {
-          "name": "Fort Major",
-          "website": "https://github.com/fort-major"
-        },
-        "website": "https://icp.msq.tech/",
-        "summary": "Use your MetaMask wallet to interact with the Internet Computer blockchain.",
-        "description": "Seamless integration with MetaMask: Enables users to interact with the Internet Computer (ICP) blockchain directly from their MetaMask wallet.\n\nEnhanced security: Implements robust security measures to protect users from scams and malicious activities.\n\nImproved privacy: Utilizes a 'scoped identity model' to protect user identities and transaction details.\n\nUser-friendly interface: Offers a straightforward and intuitive experience for managing ICRC-1 assets, making blockchain interactions simpler.\n\nAutomatic installation: MSQ is installed automatically within MetaMask during the Snap installation, requiring no additional setup from the user.\n\nCommunity engagement: Active Discord community for user support, feedback, and ongoing development discussions.",
-        "audits": [
-          {
-            "auditor": "Consensys Diligence",
-            "report": "https://consensys.io/diligence/audits/2024/03/msq-snap/"
-          }
-        ],
-        "category": "interoperability",
-        "support": {
-          "contact": "https://discord.gg/RMxyF5Huhs",
-          "knowledgeBase": "https://discord.gg/RMxyF5Huhs",
-          "faq": "https://icp.msq.tech"
-        },
-        "sourceCode": "https://github.com/fort-major/msq",
-        "screenshots": [
-          "./images/@fort-major/msq/1.png",
-          "./images/@fort-major/msq/2.png",
-          "./images/@fort-major/msq/3.png"
-        ]
-      },
-      "versions": {
-        "0.3.3": {
-          "checksum": "HP2Qt6zRVhY51DWfMu+he84jn3ni7+OQ7/vHqy79JA4="
-        }
-      }
-    },
     "npm:@consensys/web3tickets-snap": {
       "id": "npm:@consensys/web3tickets-snap",
       "metadata": {
