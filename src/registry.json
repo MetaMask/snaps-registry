@@ -2383,8 +2383,8 @@
           "website": "https://info.xtreamly.io"
         },
         "website": "https://snap.xtreamly.io/",
-        "summary": "Predicting slippage and Volatility  in dynamic crypto market ",
-        "description": "Xtreamly slippage prediction Snap provides insights and predicts slippage amount as well as volatility on DeX swaps. Currently works on ETH/USDT and ETH/USDC pairs on Uniswap V3.",
+        "summary": "Predicting slippage and volatility in dynamic crypto markets.",
+        "description": "Xtreamly slippage prediction Snap provides insights and predicts slippage as well as volatility on DeX swaps.\n\nAfter installing the Snap, you will see the insights when swapping with ETH/USDT and ETH/USDC pairs on Uniswap V3.",
         "audits": [
           {
             "auditor": "Sayfer",
