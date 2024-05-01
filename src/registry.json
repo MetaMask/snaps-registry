@@ -2664,6 +2664,18 @@
         }
       }
     },
+    "npm:@metamask/images-example-snap": {
+      "id": "npm:@metamask/images-example-snap",
+      "metadata": {
+        "name": "Images Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "1.1.0": {
+          "checksum": "SxUO9T9xJ/R+jHURdjaLvy0Wfq+6+7CkovvO0CB0wxY="
+        }
+      }
+    },
     "npm:@consensys/linea-voyager": {
       "id": "npm:@consensys/linea-voyager",
       "metadata": {
