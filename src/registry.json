@@ -2374,6 +2374,37 @@
         }
       }
     },
+    "npm:@xtreamly/xtreamly_slippage_predictor": {
+      "id": "npm:@xtreamly/xtreamly_slippage_predictor",
+      "metadata": {
+        "name": "Xtreamly Slippage Predictor",
+        "author": {
+          "name": "Xtreamly",
+          "website": "https://info.xtreamly.io"
+        },
+        "website": "https://snap.xtreamly.io/",
+        "summary": "Predicting slippage and volatility in dynamic crypto markets.",
+        "description": "Xtreamly slippage prediction Snap provides insights and predicts slippage as well as volatility on DeX swaps.\n\nAfter installing the Snap, you will see the insights when swapping with ETH/USDT and ETH/USDC pairs on Uniswap V3.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-xtreamly/"
+          }
+        ],
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:info@xtreamly.io",
+          "knowledgeBase": "https://info.xtreamly.io/xtreamly-transforming-ethereum-with-ai-driven-liquidity-growth/product/snaps-user-guide",
+          "faq": "https://info.xtreamly.io/"
+        },
+        "sourceCode": "https://github.com/Xtreamly-Team/Slippage-Snap"
+      },
+      "versions": {
+        "1.0.20": {
+          "checksum": "UBR/528sDCNjuXRQO5GFwauQPm2goebAGFt8S+gzLt8="
+        }
+      }
+    },
     "npm:@consensys/web3tickets-snap": {
       "id": "npm:@consensys/web3tickets-snap",
       "metadata": {
