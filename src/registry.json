@@ -1170,6 +1170,12 @@
       "versions": {
         "1.0.2": {
           "checksum": "yhZUQOgl3oxKSyUwQa4F+Eh13aJ2ltz7KvBM7VTarxU="
+        },
+        "1.0.1": {
+          "checksum": "CmTs/E+H30LSIIFLcbHosdISjn8Gow/sSPi4PrBQWKE="
+        },
+        "0.3.1": {
+          "checksum": "YL4cKtHZV6p2KJouMeXMvjCzpOA+4lLk3qfSDNNJZRw="
         }
       }
     },
