@@ -1261,7 +1261,7 @@
     "npm:web3-security-snap": {
       "id": "npm:web3-security-snap",
       "metadata": {
-        "name": "Web3 Security",
+        "name": "AnChain.AI",
         "author": {
           "name": "AnChain.AI",
           "website": "https://www.anchain.ai/"
@@ -1288,8 +1288,8 @@
         "sourceCode": "https://github.com/AnChainAI/web3-security-snap"
       },
       "versions": {
-        "1.0.2": {
-          "checksum": "hWHPH9JldbbLDgIYWj0i4rUs2BSwNbYANYivMI30fqA="
+        "1.0.3": {
+          "checksum": "yKSdXrV6vUdxXvBcDfydSW1aNGHiSa3EZXkfZMDGIt4="
         }
       }
     },
