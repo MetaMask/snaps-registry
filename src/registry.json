@@ -1425,6 +1425,9 @@
         ]
       },
       "versions": {
+        "0.3.0": {
+          "checksum": "aBFo5H+O8XP+U6Q39mxbm6oLXV1IhsezUmbwMltHLBQ="
+        },
         "0.2.3": {
           "checksum": "rAMiFZ+6Cid0YmQp01E7jWBz04ELul5WmSvaNBpXE40="
         },
