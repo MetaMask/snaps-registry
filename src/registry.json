@@ -835,14 +835,16 @@
         "support": {
           "contact": "https://github.com/sotatek-dev/mina-snap/wiki/FAQ#how-do-i-reach-out-for-mina-snap-support"
         },
-        "sourceCode": "https://github.com/sotatek-dev/mina-snap"
+        "sourceCode": "https://github.com/sotatek-dev/mina-snap",
+        "screenshots": [
+          "./images/mina-portal/1.png",
+          "./images/mina-portal/2.png",
+          "./images/mina-portal/3.png"
+        ]
       },
       "versions": {
-        "0.1.5": {
-          "checksum": "HJ8XVoX6lhSYHr/BiELaILxXi3EzVh8XBQHRbE3f4rk="
-        },
-        "0.1.4": {
-          "checksum": "icE/urU90jJr0wlzJ6kgoM61jz3uSvlGvUnzZTxANGw="
+        "0.1.6": {
+          "checksum": "I30rV0Vx18OeOz79Yu/OKQw1buyPXd7NGNduVTonhIw="
         }
       }
     },
