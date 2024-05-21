@@ -2248,6 +2248,41 @@
         }
       }
     },
+    "npm:@harbour-fi/ramp-snap": {
+      "id": "npm:@harbour-fi/ramp-snap",
+      "metadata": {
+        "name": "Magic Ramp",
+        "author": {
+          "name": "Harbour Technologies Limited",
+          "website": "https://www.harbour.fi"
+        },
+        "website": "https://snap.harbour.fi/",
+        "summary": "Say goodbye to the hassle and costs of on/off ramping. Experience seamless transfers between your bank account and MetaMask wallet with the Magic Ramp.",
+        "description": "Transfer assets between your existing bank accounts and MetaMask wallet instantly, with one click. And save on fees at the same time.\n\nWith the Magic Ramp you get your own unique Magic IBAN, in your name, linked to your MetaMask wallet. Simply make a normal bank transfer to your Magic IBAN and seconds later receive stablecoins on your MetaMask wallet.\n\nTo offramp, simply sign a transaction in your MetaMask Wallet and seconds later, receive EUR in your everyday bank account.\n\nSimple, fast, effective.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-harbour/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:help@harbour.fi",
+          "faq": "https://docs.google.com/document/d/1Dn05rJsfivX7rXhuy14OdzzQbb_qzMaRxuBYc1hUgR0/edit?usp=sharing"
+        },
+        "sourceCode": "https://github.com/harbour-tech/app-web-ramp",
+        "screenshots": [
+          "./images/@harbour-fi/ramp-snap/1.png",
+          "./images/@harbour-fi/ramp-snap/2.png",
+          "./images/@harbour-fi/ramp-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.6": {
+          "checksum": "0+k9OKzJmyCRm/eSxE88kRCbQmhx6Xo6/xCqNc5zLA0="
+        }
+      }
+    },
     "npm:rubic-snap": {
       "id": "npm:rubic-snap",
       "metadata": {
