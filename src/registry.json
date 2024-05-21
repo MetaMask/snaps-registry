@@ -2509,8 +2509,8 @@
         "sourceCode": "https://github.com/Consensys/web3tickets-snap"
       },
       "versions": {
-        "0.0.7": {
-          "checksum": "qflTnxmEJGDZ2Pe0qPX473JUWd4wfnQwVLf3Z26OEa4="
+        "0.1.0": {
+          "checksum": "ntDaZu6KqqDCwmOvKMlHXIOXyYujXrKW45ZaKW92urk="
         }
       }
     },
