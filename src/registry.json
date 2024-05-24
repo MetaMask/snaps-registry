@@ -1170,6 +1170,9 @@
         "sourceCode": "https://github.com/vegaprotocol/vega-snap"
       },
       "versions": {
+        "1.0.3": {
+          "checksum": "hM0iRQ77F71/Y1S5AwEF/sO/na/wR5M1uoa5xzMqsA4="
+        },
         "1.0.2": {
           "checksum": "yhZUQOgl3oxKSyUwQa4F+Eh13aJ2ltz7KvBM7VTarxU="
         },
@@ -2212,6 +2215,9 @@
         "sourceCode": "https://github.com/bob-collective/bob-snap"
       },
       "versions": {
+        "2.2.1": {
+          "checksum": "HHxMGzE7qqYdjyYNB6L+2droaS0ElKFS1CIyDl4pIo0="
+        },
         "2.0.11": {
           "checksum": "UNNvSkasqOeujfTzwe0FTpswTufzXIgIV9or3UlkSi4="
         }
@@ -2574,6 +2580,9 @@
         "sourceCode": "https://github.com/Consensys/web3tickets-snap"
       },
       "versions": {
+        "0.1.1": {
+          "checksum": "oHK5jSzOHWq4Vn3HEs118MWct8n8HIHZXAPtIIZM7JU="
+        },
         "0.1.0": {
           "checksum": "ntDaZu6KqqDCwmOvKMlHXIOXyYujXrKW45ZaKW92urk="
         }
