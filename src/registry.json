@@ -2864,6 +2864,18 @@
         }
       }
     },
+    "npm:@metamask/interactive-ui-example-snap": {
+      "id": "npm:@metamask/interactive-ui-example-snap",
+      "metadata": {
+        "name": "Interactive UI Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "2.0.0": {
+          "checksum": "Bzph8qHiipWZxvfPRRIF8uTNn/B6vsru5Y/iM4oncuo="
+        }
+      }
+    },
     "npm:@consensys/linea-voyager": {
       "id": "npm:@consensys/linea-voyager",
       "metadata": {
