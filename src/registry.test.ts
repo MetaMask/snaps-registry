@@ -1,5 +1,5 @@
 import type { SemVerRange, SemVerVersion } from '@metamask/utils';
-import { assert } from 'superstruct';
+import { assert } from '@metamask/superstruct';
 
 import type { SnapsRegistryDatabase } from '.';
 import { SnapsRegistryDatabaseStruct } from '.';

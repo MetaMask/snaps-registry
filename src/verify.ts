@@ -8,8 +8,8 @@ import {
 } from '@metamask/utils';
 import { secp256k1 } from '@noble/curves/secp256k1';
 import { sha256 } from '@noble/hashes/sha256';
-import type { Infer } from 'superstruct';
-import { literal, object } from 'superstruct';
+import type { Infer } from '@metamask/superstruct';
+import { literal, object } from '@metamask/superstruct';
 
 export const SignatureStruct = object({
   signature: StrictHexStruct,

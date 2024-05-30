@@ -10,7 +10,7 @@ import deepEqual from 'fast-deep-equal';
 import { imageSize as imageSizeSync } from 'image-size';
 import { resolve } from 'path';
 import semver from 'semver/preload';
-import type { Infer } from 'superstruct';
+import type { Infer } from '@metamask/superstruct';
 import { promisify } from 'util';
 
 import type { VerifiedSnapStruct } from '../src';
