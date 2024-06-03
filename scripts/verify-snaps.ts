@@ -1,6 +1,10 @@
 import { detectSnapLocation, fetchSnap } from '@metamask/snaps-controllers';
 import type { SnapId } from '@metamask/snaps-sdk';
-import { getLocalizedSnapManifest } from '@metamask/snaps-utils';
+import {
+  FetchedSnapFiles,
+  getLocalizedSnapManifest,
+  getSnapChecksum,
+} from '@metamask/snaps-utils';
 import { assertIsSemVerVersion, getErrorMessage } from '@metamask/utils';
 import deepEqual from 'fast-deep-equal';
 import { imageSize as imageSizeSync } from 'image-size';
@@ -22,13 +26,13 @@ type VerifiedSnap = Infer<typeof VerifiedSnapStruct>;
  *
  * @param snap - The snap object.
  * @param version - The version.
- * @param checksum - The checksum.
+ * @param registryChecksum - The registry checksum.
  * @param latest - Whether the version is the latest version.
  */
 async function verifySnapVersion(
   snap: VerifiedSnap,
   version: string,
-  checksum: string,
+  registryChecksum: string,
   latest?: boolean,
 ) {
   assertIsSemVerVersion(version);
@@ -41,7 +45,7 @@ async function verifySnapVersion(
   });
 
   // This will throw if the snap checksum is invalid etc
-  const fetchedSnap = await fetchSnap(snap.id as SnapId, location);
+  const fetchedSnap = await fetchSnap(snap.id as SnapId, location) as FetchedSnapFiles;
 
   const manifest = fetchedSnap.manifest.result;
   const validatedLocalizationFiles = fetchedSnap.localizationFiles.map(
@@ -62,10 +66,19 @@ async function verifySnapVersion(
     );
   }
 
-  if (checksum !== manifest.source.shasum) {
+  if (registryChecksum !== manifest.source.shasum) {
     throw new Error(
       // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
-      `Checksum for "${snap.id}@${version}" does not match the checksum in the registry. Expected "${manifest.source.shasum}" (manifest checksum), got "${checksum}" (registry checksum).`,
+      `Checksum for "${snap.id}@${version}" does not match the checksum in the registry. Expected "${manifest.source.shasum}" (manifest checksum), got "${registryChecksum}" (registry checksum).`,
+    );
+  }
+
+  const computedChecksum = await getSnapChecksum(fetchedSnap);
+
+  if (computedChecksum !== manifest.source.shasum) {
+    throw new Error(
+      // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
+      `Checksum for "${snap.id}@${version}" does not match computed checksum. Expected "${manifest.source.shasum}" (manifest checksum), got "${computedChecksum}" (computed checksum).`,
     );
   }
 }
