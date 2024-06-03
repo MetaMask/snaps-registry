@@ -22,7 +22,7 @@
     "lint:fix": "yarn lint:eslint --fix && yarn lint:misc --write",
     "lint:misc": "prettier '**/*.json' '**/*.md' '!CHANGELOG.md' '**/*.yml' '!.yarnrc.yml' --ignore-path .gitignore --no-error-on-unmatched-pattern",
     "prepack": "./scripts/prepack.sh",
-    "query-snaps": "ts-node scripts/query/query.ts",
+    "query": "ts-node scripts/query.ts",
     "sign": "ts-node scripts/sign-registry.ts",
     "test": "jest && jest-it-up",
     "test:watch": "jest --watch",
@@ -63,13 +63,15 @@
     "image-size": "^1.1.1",
     "jest": "^28.1.3",
     "jest-it-up": "^2.0.2",
+    "ora": "^5.4.1",
     "prettier": "^2.7.1",
     "prettier-plugin-packagejson": "^2.3.0",
     "rimraf": "^3.0.2",
     "semver": "^7.5.4",
     "ts-jest": "^28.0.7",
     "ts-node": "^10.7.0",
-    "typescript": "~4.8.4"
+    "typescript": "~4.8.4",
+    "yargs": "^17.7.2"
   },
   "packageManager": "yarn@3.2.1",
   "engines": {
