@@ -81,7 +81,7 @@ async function verifySnapVersion(
   if (computedChecksum !== manifest.source.shasum) {
     throw new Error(
       // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
-      `Checksum for "${snap.id}@${version}" does not match computed checksum. Expected "${manifest.source.shasum}" (manifest checksum), got "${computedChecksum}" (computed checksum).`,
+      `Checksum for "${snap.id}@${version}" does not match computed checksum. Expected "${computedChecksum}" (computed checksum), got "${manifest.source.shasum}" (manifest checksum).`,
     );
   }
 }
