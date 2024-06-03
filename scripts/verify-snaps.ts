@@ -1,7 +1,7 @@
 import { detectSnapLocation, fetchSnap } from '@metamask/snaps-controllers';
 import type { SnapId } from '@metamask/snaps-sdk';
+import type { FetchedSnapFiles } from '@metamask/snaps-utils';
 import {
-  FetchedSnapFiles,
   getLocalizedSnapManifest,
   getSnapChecksum,
 } from '@metamask/snaps-utils';
@@ -45,7 +45,10 @@ async function verifySnapVersion(
   });
 
   // This will throw if the snap checksum is invalid etc
-  const fetchedSnap = await fetchSnap(snap.id as SnapId, location) as FetchedSnapFiles;
+  const fetchedSnap = (await fetchSnap(
+    snap.id as SnapId,
+    location,
+  )) as FetchedSnapFiles;
 
   const manifest = fetchedSnap.manifest.result;
   const validatedLocalizationFiles = fetchedSnap.localizationFiles.map(
