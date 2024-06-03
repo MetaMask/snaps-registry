@@ -1536,6 +1536,9 @@
         "sourceCode": "https://github.com/cosmos/snap"
       },
       "versions": {
+        "0.1.22": {
+          "checksum": "iy7sFNnki+rvhkmOaWGfKE5ZiaEqOYkuE1AVb5dEiN0="
+        },
         "0.1.20": {
           "checksum": "Ka5d45bzE3iPt6FchypG0ffAWNOJjFaIxzNNl3RcpPA="
         }
@@ -2554,8 +2557,8 @@
         ]
       },
       "versions": {
-        "0.3.3": {
-          "checksum": "HP2Qt6zRVhY51DWfMu+he84jn3ni7+OQ7/vHqy79JA4="
+        "0.3.4": {
+          "checksum": "+KJdgDUrocpPB1lluac9CYuOYAzi0K37d2uB2ZGLowk="
         }
       }
     },
@@ -2653,6 +2656,11 @@
           "keyRecovery": "https://github.com/silence-laboratories/silent-shard-offline-recovery-tool"
         },
         "sourceCode": "https://github.com/silence-laboratories/silent-shard-snap",
+        "screenshots": [
+          "./images/@silencelaboratories/silent-shard-snap/1.png",
+          "./images/@silencelaboratories/silent-shard-snap/2.png",
+          "./images/@silencelaboratories/silent-shard-snap/3.png"
+        ],
         "additionalSourceCode": [
           {
             "name": "ECDSA TSS Algorithm",
