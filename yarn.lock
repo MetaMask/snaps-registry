@@ -920,7 +920,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/base-controller@npm:^5.0.1, @metamask/base-controller@npm:^5.0.2":
+"@metamask/base-controller@npm:^5.0.2":
   version: 5.0.2
   resolution: "@metamask/base-controller@npm:5.0.2"
   dependencies:
@@ -930,7 +930,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/controller-utils@npm:^9.0.1, @metamask/controller-utils@npm:^9.1.0":
+"@metamask/controller-utils@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "@metamask/controller-utils@npm:10.0.0"
+  dependencies:
+    "@ethereumjs/util": ^8.1.0
+    "@metamask/eth-query": ^4.0.0
+    "@metamask/ethjs-unit": ^0.3.0
+    "@metamask/utils": ^8.3.0
+    "@spruceid/siwe-parser": 2.1.0
+    "@types/bn.js": ^5.1.5
+    bn.js: ^5.2.1
+    eth-ens-namehash: ^2.0.8
+    fast-deep-equal: ^3.1.3
+  checksum: da92b0c3650f2abae48742caa9162e8cb74e4f0bf9d1288072f2804d2b4f7497ae47c764a3e67321b1cb8c3a6023e26802599cd1f6c28cb3cbc73415f2da8832
+  languageName: node
+  linkType: hard
+
+"@metamask/controller-utils@npm:^9.1.0":
   version: 9.1.0
   resolution: "@metamask/controller-utils@npm:9.1.0"
   dependencies:
@@ -1030,6 +1047,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@metamask/json-rpc-engine@npm:^8.0.2":
+  version: 8.0.2
+  resolution: "@metamask/json-rpc-engine@npm:8.0.2"
+  dependencies:
+    "@metamask/rpc-errors": ^6.2.1
+    "@metamask/safe-event-emitter": ^3.0.0
+    "@metamask/utils": ^8.3.0
+  checksum: c240d298ad503d93922a94a62cf59f0344b6d6644a523bc8ea3c0f321bea7172b89f2747a5618e2861b2e8152ae5086b76f391a10e4566529faa50b8850c051d
+  languageName: node
+  linkType: hard
+
 "@metamask/json-rpc-middleware-stream@npm:^7.0.1":
   version: 7.0.1
   resolution: "@metamask/json-rpc-middleware-stream@npm:7.0.1"
@@ -1076,12 +1104,12 @@ __metadata:
   linkType: hard
 
 "@metamask/permission-controller@npm:^9.0.2":
-  version: 9.0.2
-  resolution: "@metamask/permission-controller@npm:9.0.2"
+  version: 9.1.1
+  resolution: "@metamask/permission-controller@npm:9.1.1"
   dependencies:
-    "@metamask/base-controller": ^5.0.1
-    "@metamask/controller-utils": ^9.0.1
-    "@metamask/json-rpc-engine": ^8.0.1
+    "@metamask/base-controller": ^5.0.2
+    "@metamask/controller-utils": ^10.0.0
+    "@metamask/json-rpc-engine": ^8.0.2
     "@metamask/rpc-errors": ^6.2.1
     "@metamask/utils": ^8.3.0
     "@types/deep-freeze-strict": ^1.1.0
@@ -1090,7 +1118,7 @@ __metadata:
     nanoid: ^3.1.31
   peerDependencies:
     "@metamask/approval-controller": ^6.0.0
-  checksum: c4c81f04ecebe5db2d5848709b2c8d89ebe90098e4f8dd48392f49826e4666681a78f9b89a85cc597944f85b1bdfdd4fb8411489e7110586edf362ef17b4086e
+  checksum: 98a0406570bcb7604806b91c037033a1f0a65e519a5da2157b80b3a38ec4990be94c84ac4eb495760f9acf9ebac41212ec201f04f9aba92477209d45ec2da0b2
   languageName: node
   linkType: hard
 
