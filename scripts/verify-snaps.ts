@@ -5,12 +5,12 @@ import {
   getLocalizedSnapManifest,
   getSnapChecksum,
 } from '@metamask/snaps-utils';
+import type { Infer } from '@metamask/superstruct';
 import { assertIsSemVerVersion, getErrorMessage } from '@metamask/utils';
 import deepEqual from 'fast-deep-equal';
 import { imageSize as imageSizeSync } from 'image-size';
 import { resolve } from 'path';
 import semver from 'semver/preload';
-import type { Infer } from '@metamask/superstruct';
 import { promisify } from 'util';
 
 import type { VerifiedSnapStruct } from '../src';

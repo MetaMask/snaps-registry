@@ -1,8 +1,3 @@
-import {
-  VersionStruct,
-  VersionRangeStruct,
-  ChecksumStruct,
-} from '@metamask/utils';
 import type { Infer } from '@metamask/superstruct';
 import {
   pattern,
@@ -16,7 +11,12 @@ import {
   enums,
   refine,
   boolean,
-} from 'superstruct';
+} from '@metamask/superstruct';
+import {
+  VersionStruct,
+  VersionRangeStruct,
+  ChecksumStruct,
+} from '@metamask/utils';
 
 // For now, validate that each snap is using an NPM id.
 const NpmIdStruct = refine(string(), 'Npm ID', (value) =>
