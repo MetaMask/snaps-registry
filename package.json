@@ -30,10 +30,10 @@
     "verify-snaps": "ts-node scripts/verify-snaps.ts"
   },
   "dependencies": {
-    "@metamask/utils": "^8.3.0",
+    "@metamask/superstruct": "^3.0.0",
+    "@metamask/utils": "^8.5.0",
     "@noble/curves": "^1.2.0",
-    "@noble/hashes": "^1.3.2",
-    "@metamask/superstruct": "^3.0.0"
+    "@noble/hashes": "^1.3.2"
   },
   "devDependencies": {
     "@lavamoat/allow-scripts": "^2.3.1",
