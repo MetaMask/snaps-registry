@@ -1444,6 +1444,35 @@
         }
       }
     },
+    "npm:genius-miners-lite": {
+      "id": "npm:genius-miners-lite",
+      "metadata": {
+        "name": "Genius Miners Lite",
+        "author": {
+          "name": "Shades",
+          "website": "https://github.com/poundbang"
+        },
+        "summary": "This snap allows Genius Financial Contract users to view their miners in MetaMask wallet. It provides snapshotted information of miner earnings and at-a-glance idea when miners end and what state the are in.",
+        "description": "Genius Miners Lite is a read-only query of Genius miners for an account. Users install Genius Miners Lite to view their miners. They simply need to click `Vew Miners` button and the snap will query their connected miner's account on chain. It will then calculate miner's earnings and present the user with a table of miners and their parameters, including earnings, shares, principal and other pertinent information Genius users would like to know about their miners.",
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:poundbang@gmail.com",
+          "faq": "https://github.com/poundbang/genius-miners-lite#readme",
+          "knowledgeBase": "https://github.com/poundbang/genius-miners-lite#readme"
+        },
+        "sourceCode": "https://github.com/poundbang/genius-miners-lite",
+        "screenshots": [
+          "./images/genius-miners-lite/1.png",
+          "./images/genius-miners-lite/2.png",
+          "./images/genius-miners-lite/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.3": {
+          "checksum": "j+7Zukmw6rbhKrPtk91YtZ8Z0R6vO5d0qIGRBEiHftg="
+        }
+      }
+    },
     "npm:@xmtp/snap": {
       "id": "npm:@xmtp/snap",
       "metadata": {
