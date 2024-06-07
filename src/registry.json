@@ -1710,6 +1710,35 @@
         }
       }
     },
+    "npm:noves-foresight": {
+      "id": "npm:noves-foresight",
+      "metadata": {
+        "name": "Foresight by Noves",
+        "author": {
+          "name": "Noves",
+          "website": "https://noves.fi"
+        },
+        "summary": "Noves Foresight tells you in plain English what is about to happen before you sign a transaction.",
+        "description": "Noves Foresight allows you to experience transaction signing like never before, by providing clear descriptions of exactly what is about to happen. It leverages Noves's industry-leading translation engine for smart contracts, providing extensive coverage across 50+ chains and hundreds of millions of smart contracts.\n\nHow it works:\n\nWhen you initiate a transaction, and before you sign it, Noves Foresight will perform a simulation of the transaction that will calculate all of the asset transfers that would take place. It will then translate the raw simulation into something easy to understand, including:\n\n- An English sentence that describes the real-world meaning of the transaction. For example:  'This transaction will claim 10 CRV in rewards' or 'This transaction will add 1 ETH and 4000 USDC to a liquidity pool.'\n\n- A fully-tagged 'flow' view of all the asset transfers that will take place. You'll be able to easily see why a particular token is coming in or out of your wallet.\n\nHow to use:\n\nIt's super simple! Just check out the 'Noves Foresight' tab in your MetaMask prompt, any time you've initiated a transaction and want to check what's going to happen before you sign.",
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:support@noves.fi",
+          "knowledgeBase": "https://docs.noves.fi/reference/metamask-snap",
+          "faq": "https://docs.noves.fi/reference/metamask-snapfaq"
+        },
+        "sourceCode": "https://github.com/Noves-Inc/foresight-metamask-snap",
+        "screenshots": [
+          "./images/noves-foresight/1.png",
+          "./images/noves-foresight/2.png",
+          "./images/noves-foresight/3.png"
+        ]
+      },
+      "versions": {
+        "0.0.4": {
+          "checksum": "XyUgAJDgqQk17DxwmTe0Et4VXLFmZU5SvPpGrc5RaGk="
+        }
+      }
+    },
     "npm:filsnap": {
       "id": "npm:filsnap",
       "metadata": {
