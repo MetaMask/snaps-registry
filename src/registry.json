@@ -2061,6 +2061,42 @@
         }
       }
     },
+    "npm:@taxdao/fintax-snap": {
+      "id": "npm:@taxdao/fintax-snap",
+      "metadata": {
+        "name": "FinTax, Effortless Crypto Tax Solutions",
+        "author": {
+          "name": "FinTax",
+          "website": "https://www.fintax.tech"
+        },
+        "website": "https://www.fintax.tech/#/snap",
+        "summary": "FinTax is a professional tool for managing crypto asset taxes and finance.",
+        "description": "FinTax is the world's first professional tax and financial management software dedicated to crypto. It covers major compliance regions worldwide and supports one-click transaction imports and tax calculations. After installing the Snap, visit the website to connect and manage your crypto asset taxes and finance.",
+        "audits": [
+          {
+            "auditor": "SlowMist",
+            "report": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/blockchain-application/SlowMist%20Audit%20Report%20-%20fintax-snap.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:support@fintax.tech",
+          "knowledgeBase": "https://docs.google.com/document/d/1BwIURbSHepV2CusFuBmrMMg3j24Tt1IpV5SYlu07cC4/edit?usp=sharing",
+          "faq": "https://docs.google.com/document/d/1oI8R7ZQdCvj16EGZEMRimGNQMph9tvniz-UJb8gIJHk/edit?usp=sharing"
+        },
+        "sourceCode": "https://github.com/InTaxDev/fintax-snap",
+        "screenshots": [
+          "./images/@taxdao/fintax-snap/1.jpg",
+          "./images/@taxdao/fintax-snap/2.jpg",
+          "./images/@taxdao/fintax-snap/3.jpg"
+        ]
+      },
+      "versions": {
+        "0.1.1": {
+          "checksum": "/MJ0U/8rcOUL6/gGo7iXpN95EnO4K/8UFwwRUG3utbU="
+        }
+      }
+    },
     "npm:@amax/amaxsnap": {
       "id": "npm:@amax/amaxsnap",
       "metadata": {
