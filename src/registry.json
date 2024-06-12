@@ -2120,6 +2120,36 @@
         }
       }
     },
+    "npm:metamask-snap": {
+      "id": "npm:metamask-snap",
+      "metadata": {
+        "name": "L3MBDA Alerts",
+        "author": {
+          "name": "L3MBDA",
+          "website": "https://l3mbda.com/"
+        },
+        "website": "https://l3mbda.com/integrations",
+        "summary": "Get notified right in your browser!",
+        "description": "This Snap enhances 🦊 MetaMask with the functionality of L3MBDA. It enables you to create Oracles and receive alerts right in your browser!\n\nAfter installing the Snap, please visit the website to connect with MetaMask.",
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:snap@l3mbda.com",
+          "faq": "https://l3mbda.com/integrations",
+          "knowledgeBase": "https://l3mbda.com/guides"
+        },
+        "sourceCode": "https://github.com/l3mbdaorg/metamask-snap",
+        "screenshots": [
+          "./images/metamask-snap/1.jpg",
+          "./images/metamask-snap/2.jpg",
+          "./images/metamask-snap/3.jpg"
+        ]
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "P82f3uuJjWn30u5bDZzMmsjPJe8PSLsoAzwILEVfy+4="
+        }
+      }
+    },
     "npm:bch-snap": {
       "id": "npm:bch-snap",
       "metadata": {
