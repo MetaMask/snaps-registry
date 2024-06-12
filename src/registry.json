@@ -313,6 +313,9 @@
         },
         "2.1.2": {
           "checksum": "NVydltk67wE3e1uAxlmal62P2EcP+cMfsNZ66EyJ7O4="
+        },
+        "2.2.0": {
+          "checksum": "xw62rD8He0Lm1dDr3RfVoycp0PTWauVCclc8JbpwofU="
         }
       }
     },
@@ -835,14 +838,16 @@
         "support": {
           "contact": "https://github.com/sotatek-dev/mina-snap/wiki/FAQ#how-do-i-reach-out-for-mina-snap-support"
         },
-        "sourceCode": "https://github.com/sotatek-dev/mina-snap"
+        "sourceCode": "https://github.com/sotatek-dev/mina-snap",
+        "screenshots": [
+          "./images/mina-portal/1.png",
+          "./images/mina-portal/2.png",
+          "./images/mina-portal/3.png"
+        ]
       },
       "versions": {
-        "0.1.5": {
-          "checksum": "HJ8XVoX6lhSYHr/BiELaILxXi3EzVh8XBQHRbE3f4rk="
-        },
-        "0.1.4": {
-          "checksum": "icE/urU90jJr0wlzJ6kgoM61jz3uSvlGvUnzZTxANGw="
+        "0.1.6": {
+          "checksum": "I30rV0Vx18OeOz79Yu/OKQw1buyPXd7NGNduVTonhIw="
         }
       }
     },
@@ -1168,6 +1173,9 @@
         "sourceCode": "https://github.com/vegaprotocol/vega-snap"
       },
       "versions": {
+        "1.0.3": {
+          "checksum": "hM0iRQ77F71/Y1S5AwEF/sO/na/wR5M1uoa5xzMqsA4="
+        },
         "1.0.2": {
           "checksum": "yhZUQOgl3oxKSyUwQa4F+Eh13aJ2ltz7KvBM7VTarxU="
         },
@@ -1261,7 +1269,7 @@
     "npm:web3-security-snap": {
       "id": "npm:web3-security-snap",
       "metadata": {
-        "name": "Web3 Security",
+        "name": "AnChain.AI",
         "author": {
           "name": "AnChain.AI",
           "website": "https://www.anchain.ai/"
@@ -1288,8 +1296,8 @@
         "sourceCode": "https://github.com/AnChainAI/web3-security-snap"
       },
       "versions": {
-        "1.0.2": {
-          "checksum": "hWHPH9JldbbLDgIYWj0i4rUs2BSwNbYANYivMI30fqA="
+        "1.0.3": {
+          "checksum": "yKSdXrV6vUdxXvBcDfydSW1aNGHiSa3EZXkfZMDGIt4="
         }
       }
     },
@@ -1425,11 +1433,43 @@
         ]
       },
       "versions": {
+        "0.3.0": {
+          "checksum": "aBFo5H+O8XP+U6Q39mxbm6oLXV1IhsezUmbwMltHLBQ="
+        },
         "0.2.3": {
           "checksum": "rAMiFZ+6Cid0YmQp01E7jWBz04ELul5WmSvaNBpXE40="
         },
         "0.2.1": {
           "checksum": "YUVSrvkkDIlTTdFwuWB+5SrY4OETUQefAt9oyt5pYag="
+        }
+      }
+    },
+    "npm:genius-miners-lite": {
+      "id": "npm:genius-miners-lite",
+      "metadata": {
+        "name": "Genius Miners Lite",
+        "author": {
+          "name": "Shades",
+          "website": "https://github.com/poundbang"
+        },
+        "summary": "View your Genius Financial Contract miners inside MetaMask, with snapshotted information of earnings and at-a-glance details on state and when they end.",
+        "description": "Genius Miners Lite is a read-only query of Genius miners for an account. Users install Genius Miners Lite to view their miners. They simply need to click `Vew Miners` button and the snap will query their connected miner's account on chain. It will then calculate miner's earnings and present the user with a table of miners and their parameters, including earnings, shares, principal and other pertinent information Genius users would like to know about their miners.",
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:poundbang@gmail.com",
+          "faq": "https://github.com/poundbang/genius-miners-lite#readme",
+          "knowledgeBase": "https://github.com/poundbang/genius-miners-lite#readme"
+        },
+        "sourceCode": "https://github.com/poundbang/genius-miners-lite",
+        "screenshots": [
+          "./images/genius-miners-lite/1.png",
+          "./images/genius-miners-lite/2.png",
+          "./images/genius-miners-lite/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.5": {
+          "checksum": "y7Kl0chL6jhIXjX2pcKe0A71OdmGHE7zcyQjWdWpckI="
         }
       }
     },
@@ -1525,6 +1565,9 @@
         "sourceCode": "https://github.com/cosmos/snap"
       },
       "versions": {
+        "0.1.22": {
+          "checksum": "iy7sFNnki+rvhkmOaWGfKE5ZiaEqOYkuE1AVb5dEiN0="
+        },
         "0.1.20": {
           "checksum": "Ka5d45bzE3iPt6FchypG0ffAWNOJjFaIxzNNl3RcpPA="
         }
@@ -1598,8 +1641,8 @@
         ]
       },
       "versions": {
-        "2.6.2": {
-          "checksum": "RmvysSWln8q8eOlwV3e4KgB49SKVt0R47IqLLmvfrIM="
+        "2.7.0": {
+          "checksum": "6/Jk/hS2+fEe3zcDlRg+jyY3MqFgW4C8R1EDkuE3iD0="
         }
       }
     },
@@ -1662,11 +1705,37 @@
         ]
       },
       "versions": {
-        "0.8.2": {
-          "checksum": "gABFnG0sS/tkCW6tfzDdncgbw5Fn1e8XIBTaOtPBm8c="
+        "0.9.0": {
+          "checksum": "rqC+IUKWHbxmVhK+Ol78oK4pc5XOFHU1i+Pp/XQhbFs="
+        }
+      }
+    },
+    "npm:noves-foresight": {
+      "id": "npm:noves-foresight",
+      "metadata": {
+        "name": "Foresight by Noves",
+        "author": {
+          "name": "Noves",
+          "website": "https://noves.fi"
         },
-        "0.7.7": {
-          "checksum": "GwKusydp1vpDXY7B98s0zjVphX1d16ZnkGG3xfPqXHM="
+        "summary": "Noves Foresight tells you in plain English what is about to happen before you sign a transaction.",
+        "description": "Noves Foresight allows you to experience transaction signing like never before, by providing clear descriptions of exactly what is about to happen. It leverages Noves's industry-leading translation engine for smart contracts, providing extensive coverage across 50+ chains and hundreds of millions of smart contracts.\n\nHow it works:\n\nWhen you initiate a transaction, and before you sign it, Noves Foresight will perform a simulation of the transaction that will calculate all of the asset transfers that would take place. It will then translate the raw simulation into something easy to understand, including:\n\n- An English sentence that describes the real-world meaning of the transaction. For example:  'This transaction will claim 10 CRV in rewards' or 'This transaction will add 1 ETH and 4000 USDC to a liquidity pool.'\n\n- A fully-tagged 'flow' view of all the asset transfers that will take place. You'll be able to easily see why a particular token is coming in or out of your wallet.\n\nHow to use:\n\nIt's super simple! Just check out the 'Noves Foresight' tab in your MetaMask prompt, any time you've initiated a transaction and want to check what's going to happen before you sign.",
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:support@noves.fi",
+          "knowledgeBase": "https://docs.noves.fi/reference/metamask-snap",
+          "faq": "https://docs.noves.fi/reference/metamask-snapfaq"
+        },
+        "sourceCode": "https://github.com/Noves-Inc/foresight-metamask-snap",
+        "screenshots": [
+          "./images/noves-foresight/1.png",
+          "./images/noves-foresight/2.png",
+          "./images/noves-foresight/3.png"
+        ]
+      },
+      "versions": {
+        "0.0.4": {
+          "checksum": "XyUgAJDgqQk17DxwmTe0Et4VXLFmZU5SvPpGrc5RaGk="
         }
       }
     },
@@ -1987,8 +2056,44 @@
         "sourceCode": "https://github.com/Dedaub/metamask-snap"
       },
       "versions": {
-        "1.0.3": {
-          "checksum": "vJvkroIS/Y1DRmZlNvImiBmiVMGQ6arjg4Ba+O/kqSQ="
+        "1.0.6": {
+          "checksum": "8+4DZuIMeHUT5HGvSnVXNWQnEBOX2Sti/iBE349dB2E="
+        }
+      }
+    },
+    "npm:@taxdao/fintax-snap": {
+      "id": "npm:@taxdao/fintax-snap",
+      "metadata": {
+        "name": "FinTax for Crypto Tax",
+        "author": {
+          "name": "FinTax",
+          "website": "https://www.fintax.tech"
+        },
+        "website": "https://www.fintax.tech/#/snap",
+        "summary": "FinTax is a professional tool for managing crypto asset taxes and finance.",
+        "description": "FinTax is the world's first professional tax and financial management software dedicated to crypto. It covers major compliance regions worldwide and supports one-click transaction imports and tax calculations. After installing the Snap, visit the website to connect and manage your crypto asset taxes and finance.",
+        "audits": [
+          {
+            "auditor": "SlowMist",
+            "report": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/blockchain-application/SlowMist%20Audit%20Report%20-%20fintax-snap.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:support@fintax.tech",
+          "knowledgeBase": "https://docs.google.com/document/d/1BwIURbSHepV2CusFuBmrMMg3j24Tt1IpV5SYlu07cC4/edit?usp=sharing",
+          "faq": "https://docs.google.com/document/d/1oI8R7ZQdCvj16EGZEMRimGNQMph9tvniz-UJb8gIJHk/edit?usp=sharing"
+        },
+        "sourceCode": "https://github.com/InTaxDev/fintax-snap",
+        "screenshots": [
+          "./images/@taxdao/fintax-snap/1.png",
+          "./images/@taxdao/fintax-snap/2.png",
+          "./images/@taxdao/fintax-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "lezRrq2JT1SFQidFBWZymGnod20s23CCGsF8sW1ZmbQ="
         }
       }
     },
@@ -2210,6 +2315,9 @@
         "sourceCode": "https://github.com/bob-collective/bob-snap"
       },
       "versions": {
+        "2.2.1": {
+          "checksum": "HHxMGzE7qqYdjyYNB6L+2droaS0ElKFS1CIyDl4pIo0="
+        },
         "2.0.11": {
           "checksum": "UNNvSkasqOeujfTzwe0FTpswTufzXIgIV9or3UlkSi4="
         }
@@ -2246,6 +2354,41 @@
         }
       }
     },
+    "npm:@harbour-fi/ramp-snap": {
+      "id": "npm:@harbour-fi/ramp-snap",
+      "metadata": {
+        "name": "Magic Ramp",
+        "author": {
+          "name": "Harbour Technologies Limited",
+          "website": "https://www.harbour.fi"
+        },
+        "website": "https://snap.harbour.fi/",
+        "summary": "Say goodbye to the hassle and costs of on/off ramping. Experience seamless transfers between your bank account and MetaMask wallet with the Magic Ramp.",
+        "description": "Transfer assets between your existing bank accounts and MetaMask wallet instantly, with one click. And save on fees at the same time.\n\nWith the Magic Ramp you get your own unique Magic IBAN, in your name, linked to your MetaMask wallet. Simply make a normal bank transfer to your Magic IBAN and seconds later receive stablecoins on your MetaMask wallet.\n\nTo offramp, simply sign a transaction in your MetaMask Wallet and seconds later, receive EUR in your everyday bank account.\n\nSimple, fast, effective.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-harbour/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:help@harbour.fi",
+          "faq": "https://docs.google.com/document/d/1Dn05rJsfivX7rXhuy14OdzzQbb_qzMaRxuBYc1hUgR0/edit?usp=sharing"
+        },
+        "sourceCode": "https://github.com/harbour-tech/app-web-ramp",
+        "screenshots": [
+          "./images/@harbour-fi/ramp-snap/1.png",
+          "./images/@harbour-fi/ramp-snap/2.png",
+          "./images/@harbour-fi/ramp-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.6": {
+          "checksum": "0+k9OKzJmyCRm/eSxE88kRCbQmhx6Xo6/xCqNc5zLA0="
+        }
+      }
+    },
     "npm:rubic-snap": {
       "id": "npm:rubic-snap",
       "metadata": {
@@ -2279,6 +2422,72 @@
       "versions": {
         "0.4.0": {
           "checksum": "I8BnlhKoeV9j789awS0/IKC/G1Mu01PfkpHC9sNBogI="
+        }
+      }
+    },
+    "npm:@secure-ci/snap": {
+      "id": "npm:@secure-ci/snap",
+      "metadata": {
+        "name": "SCI",
+        "author": {
+          "name": "SCI",
+          "website": "https://www.sci.domains"
+        },
+        "website": "https://sci.domains/#snap",
+        "summary": "Secure your transactions and interactions across the web3 ecosystem with MetaMask and the SCI protocol.",
+        "description": "We aim to bolster security measures within the web3 ecosystem by establishing an on-chain registry that allows owners to verify which smart contracts should be allowed to interact with their web domains.\n\nSCI's purpose is to verify that websites are interacting with validated and authorized smart contracts minimizing user risks and exploits.\n\nBy installing the MetaMask SCI Snap, when making any interactions through MetaMask, you will be able to easily verify if the underlying transaction is trusted.",
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:support@sci.domains",
+          "faq": "https://discreet-xylocarp-fcc.notion.site/SCI-Metamask-Snap-FAQ-3425386e80a54f69afcbb90af8f5cb6b",
+          "knowledgeBase": "https://discreet-xylocarp-fcc.notion.site/How-Does-the-SCI-MetaMask-Snap-Work-32997a113f4a453fa75ded3d9098141f"
+        },
+        "sourceCode": "https://github.com/sci-domains/snaps",
+        "screenshots": [
+          "./images/@secure-ci/snap/1.png",
+          "./images/@secure-ci/snap/2.png",
+          "./images/@secure-ci/snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.0.12": {
+          "checksum": "VPuHH7PdnjTdOUezXMi3NQOeHwBMLRmSBMMcwIirHrs="
+        }
+      }
+    },
+    "npm:onthis-snap": {
+      "id": "npm:onthis-snap",
+      "metadata": {
+        "name": "Onthis",
+        "author": {
+          "name": "Onthis",
+          "website": "onthis.xyz"
+        },
+        "website": "https://www.onthis.xyz/snap",
+        "summary": "Insights for Onthis contracts.",
+        "description": "Onthis Snap makes it easy to view contract details of your transaction before confirming. Ensuring peace of mind when interacting with any contracts deployed by Onthis.",
+        "audits": [
+          {
+            "auditor": "Veridise",
+            "report": "https://f8t2x8b2.rocketcdn.me/wp-content/uploads/2024/03/VAR_Onthis-V2.pdf"
+          }
+        ],
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:admin@onthis.xyz",
+          "knowledgeBase": "https://docs.onthis.xyz/overview/shortcuts/metamask-snap",
+          "faq": "https://www.onthis.xyz/snap"
+        },
+        "sourceCode": "https://github.com/onthisxyz/snap",
+        "screenshots": [
+          "./images/onthis-snap/1.png",
+          "./images/onthis-snap/2.png",
+          "./images/onthis-snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.4.0": {
+          "checksum": "Z20DrSs6yFCHS6jjQD7ZCnoPy3Q0VcF00aL6AgT8swg="
         }
       }
     },
@@ -2416,6 +2625,42 @@
         }
       }
     },
+    "npm:@fort-major/msq": {
+      "id": "npm:@fort-major/msq",
+      "metadata": {
+        "name": "MSQ - Safe ICP Wallet",
+        "author": {
+          "name": "Fort Major",
+          "website": "https://github.com/fort-major"
+        },
+        "website": "https://icp.msq.tech/",
+        "summary": "Use your MetaMask wallet to interact with the Internet Computer blockchain.",
+        "description": "Seamless integration with MetaMask: Enables users to interact with the Internet Computer (ICP) blockchain directly from their MetaMask wallet.\n\nEnhanced security: Implements robust security measures to protect users from scams and malicious activities.\n\nImproved privacy: Utilizes a 'scoped identity model' to protect user identities and transaction details.\n\nUser-friendly interface: Offers a straightforward and intuitive experience for managing ICRC-1 assets, making blockchain interactions simpler.\n\nAutomatic installation: MSQ is installed automatically within MetaMask during the Snap installation, requiring no additional setup from the user.\n\nCommunity engagement: Active Discord community for user support, feedback, and ongoing development discussions.",
+        "audits": [
+          {
+            "auditor": "Consensys Diligence",
+            "report": "https://consensys.io/diligence/audits/2024/03/msq-snap/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/RMxyF5Huhs",
+          "knowledgeBase": "https://discord.gg/RMxyF5Huhs",
+          "faq": "https://icp.msq.tech"
+        },
+        "sourceCode": "https://github.com/fort-major/msq",
+        "screenshots": [
+          "./images/@fort-major/msq/1.png",
+          "./images/@fort-major/msq/2.png",
+          "./images/@fort-major/msq/3.png"
+        ]
+      },
+      "versions": {
+        "0.3.4": {
+          "checksum": "+KJdgDUrocpPB1lluac9CYuOYAzi0K37d2uB2ZGLowk="
+        }
+      }
+    },
     "npm:@consensys/web3tickets-snap": {
       "id": "npm:@consensys/web3tickets-snap",
       "metadata": {
@@ -2440,8 +2685,11 @@
         "sourceCode": "https://github.com/Consensys/web3tickets-snap"
       },
       "versions": {
-        "0.0.7": {
-          "checksum": "qflTnxmEJGDZ2Pe0qPX473JUWd4wfnQwVLf3Z26OEa4="
+        "0.1.1": {
+          "checksum": "oHK5jSzOHWq4Vn3HEs118MWct8n8HIHZXAPtIIZM7JU="
+        },
+        "0.1.0": {
+          "checksum": "ntDaZu6KqqDCwmOvKMlHXIOXyYujXrKW45ZaKW92urk="
         }
       }
     },
@@ -2507,6 +2755,11 @@
           "keyRecovery": "https://github.com/silence-laboratories/silent-shard-offline-recovery-tool"
         },
         "sourceCode": "https://github.com/silence-laboratories/silent-shard-snap",
+        "screenshots": [
+          "./images/@silencelaboratories/silent-shard-snap/1.png",
+          "./images/@silencelaboratories/silent-shard-snap/2.png",
+          "./images/@silencelaboratories/silent-shard-snap/3.png"
+        ],
         "additionalSourceCode": [
           {
             "name": "ECDSA TSS Algorithm",
@@ -2527,6 +2780,9 @@
         ]
       },
       "versions": {
+        "1.2.8": {
+          "checksum": "lXa6Y31ymkkxyR5IldOQKq4HnQEMAeEI1CrC54FL8C8="
+        },
         "1.2.7": {
           "checksum": "uq4KYgMufU824Q1zJU6om4IF7cDXrROZnICrLKEkua0="
         },
@@ -2715,6 +2971,18 @@
       "versions": {
         "1.1.0": {
           "checksum": "SxUO9T9xJ/R+jHURdjaLvy0Wfq+6+7CkovvO0CB0wxY="
+        }
+      }
+    },
+    "npm:@metamask/interactive-ui-example-snap": {
+      "id": "npm:@metamask/interactive-ui-example-snap",
+      "metadata": {
+        "name": "Interactive UI Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "2.0.0": {
+          "checksum": "Bzph8qHiipWZxvfPRRIF8uTNn/B6vsru5Y/iM4oncuo="
         }
       }
     },
