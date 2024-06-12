@@ -2064,7 +2064,7 @@
     "npm:@taxdao/fintax-snap": {
       "id": "npm:@taxdao/fintax-snap",
       "metadata": {
-        "name": "FinTax, Effortless Crypto Tax Solutions",
+        "name": "FinTax for Crypto Tax",
         "author": {
           "name": "FinTax",
           "website": "https://www.fintax.tech"
@@ -2092,8 +2092,8 @@
         ]
       },
       "versions": {
-        "0.1.1": {
-          "checksum": "/MJ0U/8rcOUL6/gGo7iXpN95EnO4K/8UFwwRUG3utbU="
+        "0.1.2": {
+          "checksum": "lezRrq2JT1SFQidFBWZymGnod20s23CCGsF8sW1ZmbQ="
         }
       }
     },
