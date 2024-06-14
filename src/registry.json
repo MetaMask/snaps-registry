@@ -2156,8 +2156,8 @@
         }
       }
     },
-    "npm:metamask-snap": {
-      "id": "npm:metamask-snap",
+    "npm:@l3mbda/metamask-snap": {
+      "id": "npm:@l3mbda/metamask-snap",
       "metadata": {
         "name": "L3MBDA Alerts",
         "author": {
@@ -2175,14 +2175,14 @@
         },
         "sourceCode": "https://github.com/l3mbdaorg/metamask-snap",
         "screenshots": [
-          "./images/metamask-snap/1.jpg",
-          "./images/metamask-snap/2.jpg",
-          "./images/metamask-snap/3.jpg"
+          "./images/@l3mbda/metamask-snap/1.jpg",
+          "./images/@l3mbda/metamask-snap/2.jpg",
+          "./images/@l3mbda/metamask-snap/3.jpg"
         ]
       },
       "versions": {
-        "1.0.2": {
-          "checksum": "P82f3uuJjWn30u5bDZzMmsjPJe8PSLsoAzwILEVfy+4="
+        "1.0.3": {
+          "checksum": "5BmZMz60S1Orut4Db8Y03j0te3+CIgwVhJvmhvcMFng="
         }
       }
     },
