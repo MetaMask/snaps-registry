@@ -2491,6 +2491,42 @@
         }
       }
     },
+    "npm:neo-snap": {
+      "id": "npm:neo-snap",
+      "metadata": {
+        "name": "Vital Wallet",
+        "author": {
+          "name": "Onthis",
+          "website": "https://neo.org/"
+        },
+        "website": "https://vitalwallet.xyz/",
+        "summary": "A user-friendly wallet built for the Neo network. We aim for users of the MetaMask wallet to easily create a Neo network wallet address.",
+        "description": "Users can generate a new Neo network address through MetaMask Snap. They can manage, view, receive, and transfer all assets on the Neo network.",
+        "audits": [
+          {
+            "auditor": "SlowMist",
+            "report": ""
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.com/invite/rvZFQ5382k",
+          "knowledgeBase": "",
+          "faq": ""
+        },
+        "sourceCode": " https://github.com/neo-ngd/neo-metamask-snap.git",
+        "screenshots": [
+          "./images/neo-snap/1.png",
+          "./images/neo-snap/2.png",
+          "./images/neo-snap/3.png"
+        ]
+      },
+      "versions": {
+        "": {
+          "checksum": ""
+        }
+      }
+    },
     "npm:hapilabs-snap": {
       "id": "npm:hapilabs-snap",
       "metadata": {
