@@ -2510,9 +2510,7 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "https://discord.com/invite/rvZFQ5382k",
-          "knowledgeBase": "",
-          "faq": ""
+          "contact": "https://discord.com/invite/rvZFQ5382k"
         },
         "sourceCode": " https://github.com/neo-ngd/neo-metamask-snap.git",
         "screenshots": [
