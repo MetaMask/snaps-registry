@@ -782,8 +782,8 @@
         ]
       },
       "versions": {
-        "1.1.0": {
-          "checksum": "z/7MIS7rM2gG7vjtY54Sv3pnvzItMnhooR22Svk6QkI="
+        "1.3.1": {
+          "checksum": "KCzo/QBHtC+GPdGeVJaIgLy+O5nucZ3jEY7PvNbBtH4="
         }
       }
     },
@@ -2061,6 +2061,42 @@
         }
       }
     },
+    "npm:@taxdao/fintax-snap": {
+      "id": "npm:@taxdao/fintax-snap",
+      "metadata": {
+        "name": "FinTax for Crypto Tax",
+        "author": {
+          "name": "FinTax",
+          "website": "https://www.fintax.tech"
+        },
+        "website": "https://www.fintax.tech/#/snap",
+        "summary": "FinTax is a professional tool for managing crypto asset taxes and finance.",
+        "description": "FinTax is the world's first professional tax and financial management software dedicated to crypto. It covers major compliance regions worldwide and supports one-click transaction imports and tax calculations. After installing the Snap, visit the website to connect and manage your crypto asset taxes and finance.",
+        "audits": [
+          {
+            "auditor": "SlowMist",
+            "report": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/blockchain-application/SlowMist%20Audit%20Report%20-%20fintax-snap.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:support@fintax.tech",
+          "knowledgeBase": "https://docs.google.com/document/d/1BwIURbSHepV2CusFuBmrMMg3j24Tt1IpV5SYlu07cC4/edit?usp=sharing",
+          "faq": "https://docs.google.com/document/d/1oI8R7ZQdCvj16EGZEMRimGNQMph9tvniz-UJb8gIJHk/edit?usp=sharing"
+        },
+        "sourceCode": "https://github.com/InTaxDev/fintax-snap",
+        "screenshots": [
+          "./images/@taxdao/fintax-snap/1.png",
+          "./images/@taxdao/fintax-snap/2.png",
+          "./images/@taxdao/fintax-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "lezRrq2JT1SFQidFBWZymGnod20s23CCGsF8sW1ZmbQ="
+        }
+      }
+    },
     "npm:@amax/amaxsnap": {
       "id": "npm:@amax/amaxsnap",
       "metadata": {
@@ -2115,8 +2151,8 @@
         "sourceCode": "https://github.com/hashgraph/hedera-metamask-snaps"
       },
       "versions": {
-        "0.3.1": {
-          "checksum": "zpfccoay3oCy975ix89ZHluVi1mcr42DIiczmDje1IQ="
+        "0.4.2": {
+          "checksum": "crQvWM3aqBMDaj5xAgCaPXGkkw3z39UepsSy7UK+KqY="
         }
       }
     },
@@ -2606,7 +2642,12 @@
           "knowledgeBase": "https://info.xtreamly.io/xtreamly-transforming-ethereum-with-ai-driven-liquidity-growth/product/snaps-user-guide",
           "faq": "https://info.xtreamly.io/"
         },
-        "sourceCode": "https://github.com/Xtreamly-Team/Slippage-Snap"
+        "sourceCode": "https://github.com/Xtreamly-Team/Slippage-Snap",
+        "screenshots": [
+          "./images/@xtreamly/xtreamly_slippage_predictor/1.jpg",
+          "./images/@xtreamly/xtreamly_slippage_predictor/2.jpg",
+          "./images/@xtreamly/xtreamly_slippage_predictor/3.jpg"
+        ]
       },
       "versions": {
         "1.0.20": {
@@ -2769,14 +2810,8 @@
         ]
       },
       "versions": {
-        "1.2.8": {
-          "checksum": "lXa6Y31ymkkxyR5IldOQKq4HnQEMAeEI1CrC54FL8C8="
-        },
-        "1.2.7": {
-          "checksum": "uq4KYgMufU824Q1zJU6om4IF7cDXrROZnICrLKEkua0="
-        },
-        "1.2.6": {
-          "checksum": "HCOp9b2PGeUPCpEthvGWnn2jnKPYYf6nZnBc8KXVwuc="
+        "1.2.9": {
+          "checksum": "fwulCKwFKdW1Rb8+r9/DlaQTh2LM6V4POQ06IHe0/lU="
         }
       }
     },
