@@ -2148,7 +2148,12 @@
           "contact": "https://discord.gg/8HhQjQbSXs",
           "knowledgeBase": "https://docs.tuum.tech/hedera-wallet-snap"
         },
-        "sourceCode": "https://github.com/hashgraph/hedera-metamask-snaps"
+        "sourceCode": "https://github.com/hashgraph/hedera-metamask-snaps",
+        "screenshots": [
+          "./images/@hashgraph/hedera-wallet-snap/1.png",
+          "./images/@hashgraph/hedera-wallet-snap/2.png",
+          "./images/@hashgraph/hedera-wallet-snap/3.png"
+        ]
       },
       "versions": {
         "0.4.2": {
