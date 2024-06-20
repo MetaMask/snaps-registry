@@ -2593,6 +2593,42 @@
         }
       }
     },
+    "@nufi/cardano-metamask-snap ": {
+      "id": "npm:@nufi/cardano-metamask-snap",
+      "metadata": {
+        "name": "Cardano Wallet",
+        "author": {
+          "name": "NuFi",
+          "website": "https://nu.fi/"
+        },
+        "website": "https://nu.fi/metamask/",
+        "summary": "Discover the Cardano universe directly from your Metamask wallet. Seamlessly store, buy, and manage ADA, Cardano tokens, and NFTs, and access a wide range of DeFi applications.",
+        "description": "1. After installing the Snap, visit wallet.nu.fi to connect your Metamask to the extended wallet. \n2. In the DApp directory, you'll find a list of Cardano dApps that support Metamask. \n3. Enjoy!",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-nufi/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://support.nu.fi/support/tickets/new",
+          "knowledgeBase": "https://support.nu.fi/support/solutions/80000463691",
+          "faq": "https://nu.fi/metamask#faq"
+        },
+        "screenshots": [
+          "./images/@nufi/cardano-wallet/1.png",
+          "./images/@nufi/cardano-wallet/2.png",
+          "./images/@nufi/cardano-wallet/3.png"
+        ],
+        "sourceCode": "https://github.com/nufi-official/nufi-snap"
+      },
+      "versions": {
+        "0.1.0": {
+          "checksum": "zUTDtrFP6QJSd92WrwX+lq8gCk1suLK9T9fDK3BFogw="
+        }
+      }
+    },
     "npm:@tezoroproject/snap": {
       "id": "npm:@tezoroproject/snap",
       "metadata": {
