@@ -2574,8 +2574,8 @@
           "website": "https://www.hashdit.io/"
         },
         "website": "https://www.hashdit.io/en/snap",
-        "summary": "Explore the power of HashDit Security and fortify your MetaMask experience. Navigate the crypto space with confidence.",
-        "description": "Transaction Screening:\n\nGain insights into the risk level of each transaction. Receive timely warnings before engaging with potentially vulnerable or malicious smart contracts.\n\nURL Risk Information:\n\nProtect yourself from phishing links and malicious websites by leveraging our advanced URL screening capabilities.\n\nFunctionCall Insights:\n\nUnderstand precisely which function is being called and the parameters it receives during smart contract interactions.",
+        "summary": "Protect your funds with real-time risk warnings and detailed insights on transactions.",
+        "description": "HashDit protects your funds with real-time risk warnings and detailed insights on smart contracts, transactions, and URLs for Binance Smart Chain and Ethereum.\n\nWhat is HashDit Snap?\n\nHashDit Snap uses our API to provide users with a risk assessment before their transactions are executed. Once installed, it returns a risk level ranging from low to critical for each of our security features.\n\nFeatures\n\n- Transaction Screening: HashDit analyzes transaction data before you engage with potentially vulnerable or malicious smart contracts. This protects users against scams such as rug pulls, honeypots, wallet drainers, high-risk contract calls, and other smart contract risks.\n- Address Poisoning Protection: HashDit checks for similarities between all of your addresses and the addresses you are engaging with. If any resemblance is detected, a warning will be displayed, protecting you from address poisoning attacks.\n- Blacklist/Whitelist Screening: HashDit compares addresses against our database of blacklisted addresses and smart contracts known to be scammers or malicious. It also checks against our database of whitelisted addresses that are highly trusted within the ecosystem.\n- URL Screening: HashDit matches websites against our comprehensive database of spam, malware, social engineering, phishing, and scam websites.\n- Function Call Insights: View which functions are being called and the exact value of each parameter during smart contract interactions.\n\nHow To Install HashDit Snap\n\nThe installation guide can be found here: https://hashdit.gitbook.io/hashdit-snap/usage/installing-hashdit-snap\n\nHow To Use HashDit Snap\n\nOnce the HashDit Snap is installed, the security features are entirely automatic. The HashDit Snap will provide a transaction insight before a transaction is executed by a user. In the transaction screen, a user can switch to the HashDit Security tab to view the risks involved with their transaction.\n\nNetwork Support\n\nHashDit Snap is fully supported on the Binance Smart Chain and Ethereum. The snap can only provide URL Screening and Address Poisoning Protection on all other networks.\n\nSecurity And Permissions\n\nHashDit Snap does not have access to the user's private keys. It is limited to reading transactions and providing a transaction insight. The only transaction initiated by the Snap is a safe signature request dispatched during installation.\n\nDocumentation\n\nhttps://hashdit.gitbook.io/hashdit-snap\n\nAbout HashDit \n\nHashDit is a Web3 Security Firm focused on providing a safe ecosystem for both protocol users and smart contract developers on the BNB Chain. The central objective is to furnish crucial threat intelligence to empower everyday DeFi investors in making well-informed decisions. Navigating this DeFi intricate landscape poses challenges even for seasoned investors, let alone newcomers. HashDit aims to bridge this knowledge gap by offering timely and comprehensive threat intelligence on DeFi projects. HashDit is empowering PancakeSwap, Trust Wallet, and BscScan with our API.",
         "audits": [
           {
             "auditor": "SlowMist",
@@ -2591,8 +2591,8 @@
         "sourceCode": "https://github.com/hashdit/metamask-snap"
       },
       "versions": {
-        "0.1.2": {
-          "checksum": "1k0qvd0FWI1z1z/24ynSuDhwSMPRajYKfXnyOTwcSSY="
+        "0.2.1": {
+          "checksum": "dKhAW+kMEErpOUCnSH7jfLSYyoCH8DE+GvLcj63iBYM="
         }
       }
     },
