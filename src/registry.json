@@ -2605,15 +2605,14 @@
           "website": "https://nu.fi/"
         },
         "website": "https://nu.fi/metamask/",
-        "summary": "Discover the Cardano universe directly from your Metamask wallet. Seamlessly store, buy, and manage ADA, Cardano tokens, and NFTs, and access a wide range of DeFi applications.",
-        "description": "1. After installing the Snap, visit wallet.nu.fi to connect your Metamask to the extended wallet. \n2. In the DApp directory, you'll find a list of Cardano dApps that support Metamask. \n3. Enjoy!",
+        "summary": "Discover the Cardano universe directly from your MetaMask wallet. Seamlessly store, buy, and manage ADA, Cardano tokens, and NFTs, and access a wide range of DeFi applications.",
+        "description": "1. After installing the Snap, visit wallet.nu.fi to connect your MetaMask to the extended wallet. \n2. In the DApp directory, you'll find a list of Cardano dApps that support MetaMask. \n3. Enjoy!",
         "audits": [
           {
             "auditor": "Sayfer",
             "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-nufi/"
           }
         ],
-        "category": "interoperability",
         "support": {
           "contact": "https://support.nu.fi/support/tickets/new",
           "knowledgeBase": "https://support.nu.fi/support/solutions/80000463691",
