@@ -3018,6 +3018,9 @@
         "hidden": true
       },
       "versions": {
+        "2.1.0": {
+          "checksum": "Ko9xBAU/AMTQmdJHIKVaXEvIMRKil4LMaFj+3gS3eZo="
+        },
         "2.0.0": {
           "checksum": "Bzph8qHiipWZxvfPRRIF8uTNn/B6vsru5Y/iM4oncuo="
         }
