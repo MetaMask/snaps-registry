@@ -2395,6 +2395,9 @@
         "sourceCode": "https://github.com/PolkaGate/snap"
       },
       "versions": {
+        "0.3.0": {
+          "checksum": "X6m+PNFdGlFmegHJ2E6iNMeJTtbPLSW+m8HlkjU2DdM="
+        },
         "0.2.2": {
           "checksum": "JaBlxYBfufxGVNUFjgFJexdHVU/d0AxeqqIFIaNYsR4="
         }
