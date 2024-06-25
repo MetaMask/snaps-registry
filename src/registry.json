@@ -1708,8 +1708,8 @@
         ]
       },
       "versions": {
-        "0.9.0": {
-          "checksum": "rqC+IUKWHbxmVhK+Ol78oK4pc5XOFHU1i+Pp/XQhbFs="
+        "0.10.0": {
+          "checksum": "o2JYBxUWDxVyQEX+K7O58mlhetpKywdog+dHPGXj98U="
         }
       }
     },
@@ -1737,8 +1737,8 @@
         ]
       },
       "versions": {
-        "0.0.4": {
-          "checksum": "XyUgAJDgqQk17DxwmTe0Et4VXLFmZU5SvPpGrc5RaGk="
+        "0.0.5": {
+          "checksum": "UUAPZJ+pI0Shxeozl8/DZ8yGbuOgKqrYdvlVNQFPw9M="
         }
       }
     },
@@ -2001,6 +2001,9 @@
         ]
       },
       "versions": {
+        "0.7.3": {
+          "checksum": "tKTO2/Dru/fEinbw1Ag63I+wLT2aE/XX4XMHwzfS3ow="
+        },
         "0.6.1": {
           "checksum": "HbPS0L0HN5om/cXvYdWMoGn+hGfeS2dPqJ113OTjNH8="
         }
@@ -2392,6 +2395,9 @@
         "sourceCode": "https://github.com/PolkaGate/snap"
       },
       "versions": {
+        "0.3.0": {
+          "checksum": "X6m+PNFdGlFmegHJ2E6iNMeJTtbPLSW+m8HlkjU2DdM="
+        },
         "0.2.2": {
           "checksum": "JaBlxYBfufxGVNUFjgFJexdHVU/d0AxeqqIFIaNYsR4="
         }
@@ -3018,6 +3024,9 @@
         "hidden": true
       },
       "versions": {
+        "2.1.0": {
+          "checksum": "Ko9xBAU/AMTQmdJHIKVaXEvIMRKil4LMaFj+3gS3eZo="
+        },
         "2.0.0": {
           "checksum": "Bzph8qHiipWZxvfPRRIF8uTNn/B6vsru5Y/iM4oncuo="
         }
