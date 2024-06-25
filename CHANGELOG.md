@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Replace `superstruct` with ESM-compatible `@metamask/superstruct` `^3.0.0` ([#613](https://github.com/MetaMask/snaps-registry/pull/613))
   - This fixes the issue of this package being unusable by any TypeScript project that uses `Node16` or `NodeNext` as its `moduleResolution` option.
+- Bump `@metamask/utils` from `^8.3.0` to `^8.5.0` ([#613](https://github.com/MetaMask/snaps-registry/pull/613))
 - Bump `@metamask/snaps-controllers` from `^6.0.4` to `^8.2.0` ([#615](https://github.com/MetaMask/snaps-registry/pull/615))
 - Bump `@metamask/snaps-utils` from `^7.0.3` to `^7.4.0` ([#615](https://github.com/MetaMask/snaps-registry/pull/615), [#535](https://github.com/MetaMask/snaps-registry/pull/535), [#515](https://github.com/MetaMask/snaps-registry/pull/515))
 - Bump `@metamask/snaps-sdk` from `^3.1.1` to `^4.3.0` ([#615](https://github.com/MetaMask/snaps-registry/pull/615), [#513](https://github.com/MetaMask/snaps-registry/pull/513))
