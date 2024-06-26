@@ -1542,6 +1542,30 @@
         }
       }
     },
+    "npm:aegis-snap": {
+      "id": "npm:aegis-snap",
+      "metadata": {
+        "name": "Lossless Aegis Insights",
+        "author": {
+          "name": "Lossless",
+          "website": "https://aegis.lossless.io/"
+        },
+        "website": "https://aegis.lossless.io/snap/",
+        "summary": "Lossless Aegis Insights is a companion to Lossless Aegis, which enhances your Web3 safety by thoroughly scanning smart contracts before you interact with them. This ensures a secure and risk-free experience for your transactions, swaps, claims, and mints.",
+        "description": "Lossless Aegis Insights is an add-on designed to analyze smart contracts without the need to interact with them. It provides reports and risk scores that help you assess the risks associated with both known and unknown smart contracts, helping you keep your funds safe.\nFeatures:\n- Easy setup\n- Wallet security, through transaction analysis\n- Get a risk score, assessment before committing a transaction\n- Get initial analysis of the address you will be interacting with.",
+        "category": "security",
+        "support": {
+          "contact": "mailto:hello@lossless.io",
+          "faq": "https://aegis.lossless.io/snap/"
+        },
+        "sourceCode": "https://github.com/Lossless-Cash/aegis-snap/"
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "9J6t1a9rjEyZQ2LxdXoJQb+ZT08ZOqEcsfUBsj5qSds="
+        }
+      }
+    },
     "npm:@cosmsnap/snap": {
       "id": "npm:@cosmsnap/snap",
       "metadata": {
