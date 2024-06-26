@@ -1252,7 +1252,7 @@ __metadata:
     "@metamask/eslint-config-nodejs": ^12.1.0
     "@metamask/eslint-config-typescript": ^12.1.0
     "@metamask/snaps-controllers": ^8.2.0
-    "@metamask/snaps-sdk": ^4.3.0
+    "@metamask/snaps-sdk": ^6.0.0
     "@metamask/snaps-utils": ^7.4.0
     "@metamask/superstruct": ^3.0.0
     "@metamask/utils": ^8.5.0
@@ -1301,7 +1301,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/snaps-sdk@npm:^4.3.0, @metamask/snaps-sdk@npm:^4.4.1, @metamask/snaps-sdk@npm:^4.4.2":
+"@metamask/snaps-sdk@npm:^4.4.1, @metamask/snaps-sdk@npm:^4.4.2":
   version: 4.4.2
   resolution: "@metamask/snaps-sdk@npm:4.4.2"
   dependencies:
@@ -1312,6 +1312,19 @@ __metadata:
     fast-xml-parser: ^4.3.4
     superstruct: ^1.0.3
   checksum: 2ff3949cee3b6c5a580304a02191f3ec7fb049460c2ff89b1731f24b215baf5f9c08834a0b2b703ff43e3b74ede387386e22a96810b50be106bb029b180c44ce
+  languageName: node
+  linkType: hard
+
+"@metamask/snaps-sdk@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "@metamask/snaps-sdk@npm:6.0.0"
+  dependencies:
+    "@metamask/key-tree": ^9.1.1
+    "@metamask/providers": ^17.0.0
+    "@metamask/rpc-errors": ^6.2.1
+    "@metamask/utils": ^8.3.0
+    superstruct: ^1.0.3
+  checksum: 0a3b7a034028a7583b4e1a5414a67470b2ed70cc411fc4877a79f95803c64d99eafb785cbffaf827c3f3138a065e439480b9628456a8a5fa8d39c9c8dd9bd5db
   languageName: node
   linkType: hard
 
