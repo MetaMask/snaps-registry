@@ -2596,7 +2596,7 @@
         }
       }
     },
-    "@nufi/cardano-metamask-snap": {
+    "npm:@nufi/cardano-metamask-snap": {
       "id": "npm:@nufi/cardano-metamask-snap",
       "metadata": {
         "name": "Cardano Wallet",
