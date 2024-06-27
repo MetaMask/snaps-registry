@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.2.0]
+### Changed
+- Bump `@metamask/utils` from `^8.3.0` to `^8.5.0` ([#613](https://github.com/MetaMask/snaps-registry/pull/613))
+
+### Fixed
+- Replace `superstruct` with ESM-compatible `@metamask/superstruct` `^3.0.0` ([#613](https://github.com/MetaMask/snaps-registry/pull/613))
+  - This fixes the issue of this package being unusable by any TypeScript project that uses `Node16` or `NodeNext` as its `moduleResolution` option.
+
 ## [3.1.0]
 ### Added
 - Add screenshots field ([#505](https://github.com/MetaMask/snaps-registry/pull/505))
@@ -73,7 +81,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/MetaMask/snaps-registry/compare/v3.1.0...HEAD
+[Unreleased]: https://github.com/MetaMask/snaps-registry/compare/v3.2.0...HEAD
+[3.2.0]: https://github.com/MetaMask/snaps-registry/compare/v3.1.0...v3.2.0
 [3.1.0]: https://github.com/MetaMask/snaps-registry/compare/v3.0.1...v3.1.0
 [3.0.1]: https://github.com/MetaMask/snaps-registry/compare/v3.0.0...v3.0.1
 [3.0.0]: https://github.com/MetaMask/snaps-registry/compare/v2.1.1...v3.0.0
