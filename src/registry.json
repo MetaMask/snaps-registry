@@ -2877,7 +2877,7 @@
       }
     },
     "npm:@metamask/jsx-example-snap": {
-      "id": "npm@metamask/jsx-example-snap",
+      "id": "npm:@metamask/jsx-example-snap",
       "metadata": {
         "name": "JSX Example Snap",
         "hidden": true
