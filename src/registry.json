@@ -3032,6 +3032,18 @@
         }
       }
     },
+    "npm:@metamask/jsx-example-snap": {
+      "id": "npm:@metamask/jsx-example-snap",
+      "metadata": {
+        "name": "JSX Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "1.1.1": {
+          "checksum": "RKQvu6SSgoRBULQF/tZU7VbTCDgsy6ud6uFPTEeCs7w="
+        }
+      }
+    },
     "npm:@consensys/linea-voyager": {
       "id": "npm:@consensys/linea-voyager",
       "metadata": {
