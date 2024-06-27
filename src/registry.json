@@ -313,6 +313,9 @@
         },
         "2.1.2": {
           "checksum": "NVydltk67wE3e1uAxlmal62P2EcP+cMfsNZ66EyJ7O4="
+        },
+        "2.2.0": {
+          "checksum": "xw62rD8He0Lm1dDr3RfVoycp0PTWauVCclc8JbpwofU="
         }
       }
     },
@@ -779,8 +782,8 @@
         ]
       },
       "versions": {
-        "1.1.0": {
-          "checksum": "z/7MIS7rM2gG7vjtY54Sv3pnvzItMnhooR22Svk6QkI="
+        "1.3.1": {
+          "checksum": "KCzo/QBHtC+GPdGeVJaIgLy+O5nucZ3jEY7PvNbBtH4="
         }
       }
     },
@@ -1329,6 +1332,9 @@
         "sourceCode": "https://github.com/rarimo/rarime"
       },
       "versions": {
+        "2.1.1": {
+          "checksum": "8qJxnKDj9B1mL6nCqd3GcwaCpG4lPgfeOGaBKJk0Zpw="
+        },
         "2.1.0": {
           "checksum": "CQgk91hCMZDesbgW1yDO4bWYyHY6Lpwp3b1GK/zPxY8="
         },
@@ -1441,6 +1447,35 @@
         }
       }
     },
+    "npm:genius-miners-lite": {
+      "id": "npm:genius-miners-lite",
+      "metadata": {
+        "name": "Genius Miners Lite",
+        "author": {
+          "name": "Shades",
+          "website": "https://github.com/poundbang"
+        },
+        "summary": "View your Genius Financial Contract miners inside MetaMask, with snapshotted information of earnings and at-a-glance details on state and when they end.",
+        "description": "Genius Miners Lite is a read-only query of Genius miners for an account. Users install Genius Miners Lite to view their miners. They simply need to click `Vew Miners` button and the snap will query their connected miner's account on chain. It will then calculate miner's earnings and present the user with a table of miners and their parameters, including earnings, shares, principal and other pertinent information Genius users would like to know about their miners.",
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:poundbang@gmail.com",
+          "faq": "https://github.com/poundbang/genius-miners-lite#readme",
+          "knowledgeBase": "https://github.com/poundbang/genius-miners-lite#readme"
+        },
+        "sourceCode": "https://github.com/poundbang/genius-miners-lite",
+        "screenshots": [
+          "./images/genius-miners-lite/1.png",
+          "./images/genius-miners-lite/2.png",
+          "./images/genius-miners-lite/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.5": {
+          "checksum": "y7Kl0chL6jhIXjX2pcKe0A71OdmGHE7zcyQjWdWpckI="
+        }
+      }
+    },
     "npm:@xmtp/snap": {
       "id": "npm:@xmtp/snap",
       "metadata": {
@@ -1533,6 +1568,9 @@
         "sourceCode": "https://github.com/cosmos/snap"
       },
       "versions": {
+        "0.1.22": {
+          "checksum": "iy7sFNnki+rvhkmOaWGfKE5ZiaEqOYkuE1AVb5dEiN0="
+        },
         "0.1.20": {
           "checksum": "Ka5d45bzE3iPt6FchypG0ffAWNOJjFaIxzNNl3RcpPA="
         }
@@ -1670,8 +1708,37 @@
         ]
       },
       "versions": {
-        "0.9.0": {
-          "checksum": "rqC+IUKWHbxmVhK+Ol78oK4pc5XOFHU1i+Pp/XQhbFs="
+        "0.10.0": {
+          "checksum": "o2JYBxUWDxVyQEX+K7O58mlhetpKywdog+dHPGXj98U="
+        }
+      }
+    },
+    "npm:noves-foresight": {
+      "id": "npm:noves-foresight",
+      "metadata": {
+        "name": "Foresight by Noves",
+        "author": {
+          "name": "Noves",
+          "website": "https://noves.fi"
+        },
+        "summary": "Noves Foresight tells you in plain English what is about to happen before you sign a transaction.",
+        "description": "Noves Foresight allows you to experience transaction signing like never before, by providing clear descriptions of exactly what is about to happen. It leverages Noves's industry-leading translation engine for smart contracts, providing extensive coverage across 50+ chains and hundreds of millions of smart contracts.\n\nHow it works:\n\nWhen you initiate a transaction, and before you sign it, Noves Foresight will perform a simulation of the transaction that will calculate all of the asset transfers that would take place. It will then translate the raw simulation into something easy to understand, including:\n\n- An English sentence that describes the real-world meaning of the transaction. For example:  'This transaction will claim 10 CRV in rewards' or 'This transaction will add 1 ETH and 4000 USDC to a liquidity pool.'\n\n- A fully-tagged 'flow' view of all the asset transfers that will take place. You'll be able to easily see why a particular token is coming in or out of your wallet.\n\nHow to use:\n\nIt's super simple! Just check out the 'Noves Foresight' tab in your MetaMask prompt, any time you've initiated a transaction and want to check what's going to happen before you sign.",
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:support@noves.fi",
+          "knowledgeBase": "https://docs.noves.fi/reference/metamask-snap",
+          "faq": "https://docs.noves.fi/reference/metamask-snapfaq"
+        },
+        "sourceCode": "https://github.com/Noves-Inc/foresight-metamask-snap",
+        "screenshots": [
+          "./images/noves-foresight/1.png",
+          "./images/noves-foresight/2.png",
+          "./images/noves-foresight/3.png"
+        ]
+      },
+      "versions": {
+        "0.0.5": {
+          "checksum": "UUAPZJ+pI0Shxeozl8/DZ8yGbuOgKqrYdvlVNQFPw9M="
         }
       }
     },
@@ -1728,7 +1795,12 @@
         "support": {
           "contact": "https://discord.com/invite/nTth43SUxJ"
         },
-        "sourceCode": "https://github.com/kunalabs-io/sui-snap"
+        "sourceCode": "https://github.com/kunalabs-io/sui-snap",
+        "screenshots": [
+          "./images/@kunalabs-io/sui-metamask-snap/1.png",
+          "./images/@kunalabs-io/sui-metamask-snap/2.png",
+          "./images/@kunalabs-io/sui-metamask-snap/3.png"
+        ]
       },
       "versions": {
         "1.0.1": {
@@ -1929,6 +2001,9 @@
         ]
       },
       "versions": {
+        "0.7.3": {
+          "checksum": "tKTO2/Dru/fEinbw1Ag63I+wLT2aE/XX4XMHwzfS3ow="
+        },
         "0.6.1": {
           "checksum": "HbPS0L0HN5om/cXvYdWMoGn+hGfeS2dPqJ113OTjNH8="
         }
@@ -1997,6 +2072,42 @@
         }
       }
     },
+    "npm:@taxdao/fintax-snap": {
+      "id": "npm:@taxdao/fintax-snap",
+      "metadata": {
+        "name": "FinTax for Crypto Tax",
+        "author": {
+          "name": "FinTax",
+          "website": "https://www.fintax.tech"
+        },
+        "website": "https://www.fintax.tech/#/snap",
+        "summary": "FinTax is a professional tool for managing crypto asset taxes and finance.",
+        "description": "FinTax is the world's first professional tax and financial management software dedicated to crypto. It covers major compliance regions worldwide and supports one-click transaction imports and tax calculations. After installing the Snap, visit the website to connect and manage your crypto asset taxes and finance.",
+        "audits": [
+          {
+            "auditor": "SlowMist",
+            "report": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/blockchain-application/SlowMist%20Audit%20Report%20-%20fintax-snap.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:support@fintax.tech",
+          "knowledgeBase": "https://docs.google.com/document/d/1BwIURbSHepV2CusFuBmrMMg3j24Tt1IpV5SYlu07cC4/edit?usp=sharing",
+          "faq": "https://docs.google.com/document/d/1oI8R7ZQdCvj16EGZEMRimGNQMph9tvniz-UJb8gIJHk/edit?usp=sharing"
+        },
+        "sourceCode": "https://github.com/InTaxDev/fintax-snap",
+        "screenshots": [
+          "./images/@taxdao/fintax-snap/1.png",
+          "./images/@taxdao/fintax-snap/2.png",
+          "./images/@taxdao/fintax-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "lezRrq2JT1SFQidFBWZymGnod20s23CCGsF8sW1ZmbQ="
+        }
+      }
+    },
     "npm:@amax/amaxsnap": {
       "id": "npm:@amax/amaxsnap",
       "metadata": {
@@ -2048,11 +2159,46 @@
           "contact": "https://discord.gg/8HhQjQbSXs",
           "knowledgeBase": "https://docs.tuum.tech/hedera-wallet-snap"
         },
-        "sourceCode": "https://github.com/hashgraph/hedera-metamask-snaps"
+        "sourceCode": "https://github.com/hashgraph/hedera-metamask-snaps",
+        "screenshots": [
+          "./images/@hashgraph/hedera-wallet-snap/1.png",
+          "./images/@hashgraph/hedera-wallet-snap/2.png",
+          "./images/@hashgraph/hedera-wallet-snap/3.png"
+        ]
       },
       "versions": {
-        "0.3.1": {
-          "checksum": "zpfccoay3oCy975ix89ZHluVi1mcr42DIiczmDje1IQ="
+        "0.4.2": {
+          "checksum": "crQvWM3aqBMDaj5xAgCaPXGkkw3z39UepsSy7UK+KqY="
+        }
+      }
+    },
+    "npm:@l3mbda/metamask-snap": {
+      "id": "npm:@l3mbda/metamask-snap",
+      "metadata": {
+        "name": "L3MBDA Alerts",
+        "author": {
+          "name": "L3MBDA",
+          "website": "https://l3mbda.com/"
+        },
+        "website": "https://l3mbda.com/integrations",
+        "summary": "Get notified right in your browser!",
+        "description": "This Snap enhances 🦊 MetaMask with the functionality of L3MBDA. It enables you to create Oracles and receive alerts right in your browser!\n\nAfter installing the Snap, please visit the website to connect with MetaMask.",
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:snap@l3mbda.com",
+          "faq": "https://l3mbda.com/integrations",
+          "knowledgeBase": "https://l3mbda.com/guides"
+        },
+        "sourceCode": "https://github.com/l3mbdaorg/metamask-snap",
+        "screenshots": [
+          "./images/@l3mbda/metamask-snap/1.jpg",
+          "./images/@l3mbda/metamask-snap/2.jpg",
+          "./images/@l3mbda/metamask-snap/3.jpg"
+        ]
+      },
+      "versions": {
+        "1.0.3": {
+          "checksum": "5BmZMz60S1Orut4Db8Y03j0te3+CIgwVhJvmhvcMFng="
         }
       }
     },
@@ -2249,6 +2395,9 @@
         "sourceCode": "https://github.com/PolkaGate/snap"
       },
       "versions": {
+        "0.3.0": {
+          "checksum": "X6m+PNFdGlFmegHJ2E6iNMeJTtbPLSW+m8HlkjU2DdM="
+        },
         "0.2.2": {
           "checksum": "JaBlxYBfufxGVNUFjgFJexdHVU/d0AxeqqIFIaNYsR4="
         }
@@ -2431,8 +2580,8 @@
           "website": "https://www.hashdit.io/"
         },
         "website": "https://www.hashdit.io/en/snap",
-        "summary": "Explore the power of HashDit Security and fortify your MetaMask experience. Navigate the crypto space with confidence.",
-        "description": "Transaction Screening:\n\nGain insights into the risk level of each transaction. Receive timely warnings before engaging with potentially vulnerable or malicious smart contracts.\n\nURL Risk Information:\n\nProtect yourself from phishing links and malicious websites by leveraging our advanced URL screening capabilities.\n\nFunctionCall Insights:\n\nUnderstand precisely which function is being called and the parameters it receives during smart contract interactions.",
+        "summary": "Protect your funds with real-time risk warnings and detailed insights on transactions.",
+        "description": "HashDit protects your funds with real-time risk warnings and detailed insights on smart contracts, transactions, and URLs for Binance Smart Chain and Ethereum.\n\nWhat is HashDit Snap?\n\nHashDit Snap uses our API to provide users with a risk assessment before their transactions are executed. Once installed, it returns a risk level ranging from low to critical for each of our security features.\n\nFeatures\n\n- Transaction Screening: HashDit analyzes transaction data before you engage with potentially vulnerable or malicious smart contracts. This protects users against scams such as rug pulls, honeypots, wallet drainers, high-risk contract calls, and other smart contract risks.\n- Address Poisoning Protection: HashDit checks for similarities between all of your addresses and the addresses you are engaging with. If any resemblance is detected, a warning will be displayed, protecting you from address poisoning attacks.\n- Blacklist/Whitelist Screening: HashDit compares addresses against our database of blacklisted addresses and smart contracts known to be scammers or malicious. It also checks against our database of whitelisted addresses that are highly trusted within the ecosystem.\n- URL Screening: HashDit matches websites against our comprehensive database of spam, malware, social engineering, phishing, and scam websites.\n- Function Call Insights: View which functions are being called and the exact value of each parameter during smart contract interactions.\n\nHow To Install HashDit Snap\n\nThe installation guide can be found here: https://hashdit.gitbook.io/hashdit-snap/usage/installing-hashdit-snap\n\nHow To Use HashDit Snap\n\nOnce the HashDit Snap is installed, the security features are entirely automatic. The HashDit Snap will provide a transaction insight before a transaction is executed by a user. In the transaction screen, a user can switch to the HashDit Security tab to view the risks involved with their transaction.\n\nNetwork Support\n\nHashDit Snap is fully supported on the Binance Smart Chain and Ethereum. The snap can only provide URL Screening and Address Poisoning Protection on all other networks.\n\nSecurity And Permissions\n\nHashDit Snap does not have access to the user's private keys. It is limited to reading transactions and providing a transaction insight. The only transaction initiated by the Snap is a safe signature request dispatched during installation.\n\nDocumentation\n\nhttps://hashdit.gitbook.io/hashdit-snap\n\nAbout HashDit \n\nHashDit is a Web3 Security Firm focused on providing a safe ecosystem for both protocol users and smart contract developers on the BNB Chain. The central objective is to furnish crucial threat intelligence to empower everyday DeFi investors in making well-informed decisions. Navigating this DeFi intricate landscape poses challenges even for seasoned investors, let alone newcomers. HashDit aims to bridge this knowledge gap by offering timely and comprehensive threat intelligence on DeFi projects. HashDit is empowering PancakeSwap, Trust Wallet, and BscScan with our API.",
         "audits": [
           {
             "auditor": "SlowMist",
@@ -2448,8 +2597,8 @@
         "sourceCode": "https://github.com/hashdit/metamask-snap"
       },
       "versions": {
-        "0.1.2": {
-          "checksum": "1k0qvd0FWI1z1z/24ynSuDhwSMPRajYKfXnyOTwcSSY="
+        "0.2.1": {
+          "checksum": "dKhAW+kMEErpOUCnSH7jfLSYyoCH8DE+GvLcj63iBYM="
         }
       }
     },
@@ -2512,11 +2661,16 @@
           "knowledgeBase": "https://info.xtreamly.io/xtreamly-transforming-ethereum-with-ai-driven-liquidity-growth/product/snaps-user-guide",
           "faq": "https://info.xtreamly.io/"
         },
-        "sourceCode": "https://github.com/Xtreamly-Team/Slippage-Snap"
+        "sourceCode": "https://github.com/Xtreamly-Team/Slippage-Snap",
+        "screenshots": [
+          "./images/@xtreamly/xtreamly_slippage_predictor/1.jpg",
+          "./images/@xtreamly/xtreamly_slippage_predictor/2.jpg",
+          "./images/@xtreamly/xtreamly_slippage_predictor/3.jpg"
+        ]
       },
       "versions": {
-        "1.0.20": {
-          "checksum": "UBR/528sDCNjuXRQO5GFwauQPm2goebAGFt8S+gzLt8="
+        "1.0.25": {
+          "checksum": "1UXosQmu9xauCoCG0V2gF18rxnWL4tbjEnbJloKAUBQ="
         }
       }
     },
@@ -2551,8 +2705,8 @@
         ]
       },
       "versions": {
-        "0.3.3": {
-          "checksum": "HP2Qt6zRVhY51DWfMu+he84jn3ni7+OQ7/vHqy79JA4="
+        "0.3.4": {
+          "checksum": "+KJdgDUrocpPB1lluac9CYuOYAzi0K37d2uB2ZGLowk="
         }
       }
     },
@@ -2650,6 +2804,11 @@
           "keyRecovery": "https://github.com/silence-laboratories/silent-shard-offline-recovery-tool"
         },
         "sourceCode": "https://github.com/silence-laboratories/silent-shard-snap",
+        "screenshots": [
+          "./images/@silencelaboratories/silent-shard-snap/1.png",
+          "./images/@silencelaboratories/silent-shard-snap/2.png",
+          "./images/@silencelaboratories/silent-shard-snap/3.png"
+        ],
         "additionalSourceCode": [
           {
             "name": "ECDSA TSS Algorithm",
@@ -2670,14 +2829,8 @@
         ]
       },
       "versions": {
-        "1.2.8": {
-          "checksum": "lXa6Y31ymkkxyR5IldOQKq4HnQEMAeEI1CrC54FL8C8="
-        },
-        "1.2.7": {
-          "checksum": "uq4KYgMufU824Q1zJU6om4IF7cDXrROZnICrLKEkua0="
-        },
-        "1.2.6": {
-          "checksum": "HCOp9b2PGeUPCpEthvGWnn2jnKPYYf6nZnBc8KXVwuc="
+        "1.2.9": {
+          "checksum": "fwulCKwFKdW1Rb8+r9/DlaQTh2LM6V4POQ06IHe0/lU="
         }
       }
     },
@@ -2871,6 +3024,9 @@
         "hidden": true
       },
       "versions": {
+        "2.1.0": {
+          "checksum": "Ko9xBAU/AMTQmdJHIKVaXEvIMRKil4LMaFj+3gS3eZo="
+        },
         "2.0.0": {
           "checksum": "Bzph8qHiipWZxvfPRRIF8uTNn/B6vsru5Y/iM4oncuo="
         }
