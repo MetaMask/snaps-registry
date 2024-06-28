@@ -2397,7 +2397,12 @@
           "knowledgeBase": "https://github.com/PolkaGate/snap/wiki",
           "faq": "https://github.com/PolkaGate/snap/wiki/FAQs"
         },
-        "sourceCode": "https://github.com/PolkaGate/snap"
+        "sourceCode": "https://github.com/PolkaGate/snap",
+        "screenshots": [
+          "./images/@polkagate/snap/1.png",
+          "./images/@polkagate/snap/2.png",
+          "./images/@polkagate/snap/3.png"
+        ]
       },
       "versions": {
         "0.3.0": {
