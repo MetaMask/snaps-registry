@@ -2194,7 +2194,7 @@
         "website": "https://l3mbda.com/integrations",
         "summary": "Get notified right in your browser!",
         "description": "This Snap enhances 🦊 MetaMask with the functionality of L3MBDA. It enables you to create Oracles and receive alerts right in your browser!\n\nAfter installing the Snap, please visit the website to connect with MetaMask.",
-        "category": "interoperability",
+        "category": "notifications",
         "support": {
           "contact": "mailto:snap@l3mbda.com",
           "faq": "https://l3mbda.com/integrations",
