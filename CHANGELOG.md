@@ -7,16 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [3.2.1]
-### Uncategorized
-- Bump `@metamask/superstruct` to `^3.1.0`, `@metamask/utils` to `^9.0.0` ([#693](https://github.com/MetaMask/snaps-registry/pull/693))
-- Update filecoin wallet ([#690](https://github.com/MetaMask/snaps-registry/pull/690))
-- Update L3MBDA ([#686](https://github.com/MetaMask/snaps-registry/pull/686))
-- Update Starknet Snap ([#684](https://github.com/MetaMask/snaps-registry/pull/684))
-- New Snap Cardano Wallet ([#659](https://github.com/MetaMask/snaps-registry/pull/659))
-- Update FinTax ([#665](https://github.com/MetaMask/snaps-registry/pull/665))
-- Update polka gate ([#676](https://github.com/MetaMask/snaps-registry/pull/676))
-- Update PartisiaBlockchain ([#678](https://github.com/MetaMask/snaps-registry/pull/678))
-- Add JSX example snap ([#679](https://github.com/MetaMask/snaps-registry/pull/679))
+### Changed
+- Bump `@metamask/superstruct` from `^3.0.0` to `^3.1.0` ([#693](https://github.com/MetaMask/snaps-registry/pull/693))
+- Bump `@metamask/utils` from `^8.5.0` to `^9.0.0` ([#693](https://github.com/MetaMask/snaps-registry/pull/693))
 
 ## [3.2.0]
 ### Changed
