@@ -1115,6 +1115,41 @@
         }
       }
     },
+    "npm:@multiversx/metamask-snap": {
+      "id": "npm:@multiversx/metamask-snap",
+      "metadata": {
+        "name": "MultiversX",
+        "author": {
+          "name": "MultiversX",
+          "website": "https://multiversx.com/"
+        },
+        "website": "https://multiversx.com/metamask",
+        "summary": "Enhance your MultiversX experience with seamless integration, enabling secure transactions and interaction with MultiversX blockchain directly from your MetaMask wallet.",
+        "description": "The MultiversX Integration Snap brings the power of the MultiversX blockchain to your MetaMask wallet. With this snap, you can seamlessly interact with the MultiversX network, enabling you to perform secure transactions, manage your assets, and interact with decentralized applications (dApps) directly from your MetaMask interface.\n\nFeatures:\n\n- Secure Transactions: Execute secure and efficient transactions on the MultiversX blockchain.\n- Asset Management: Easily manage your MultiversX assets within MetaMask.\n- dApp Interaction: Access and interact with decentralized applications on the MultiversX network.\n- User-friendly Interface: Enjoy a smooth and intuitive user experience integrated into your MetaMask wallet.\n\nHow to Use:\n\n1. Install MetaMask: Ensure you have the MetaMask extension installed in your browser. You can download it from MetaMask.\n2. Add the Snap: Open MetaMask and navigate to the Snap section to add the MultiversX Integration Snap.\n3. Connect to MultiversX: Follow the prompts to connect your MetaMask wallet to the MultiversX blockchain.\n4. Manage Assets: Use the MetaMask interface to view and manage your MultiversX assets.\n5. Perform Transactions: Initiate and confirm transactions securely on the MultiversX network.\n6. Explore dApps: Access and interact with various decentralized applications built on MultiversX.\n\nFor more detailed instructions and support, visit our documentation at MultiversX Snap Documentation: https://help.multiversx.com/en/articles/9453616-metamask-snap-integration.",
+        "audits": [
+          {
+            "auditor": "Hacken",
+            "report": "https://wp.hacken.io/wp-content/uploads/2024/06/Final_Report_Hacken_Multiverse-X_dApp_May_2024.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:contact@multiversx.com",
+          "faq": "https://help.multiversx.com/en/articles/9453616-metamask-snap-integration"
+        },
+        "sourceCode": "https://github.com/multiversx/mx-metamask-snaps",
+        "screenshots": [
+          "./images/@multiversx/metamask-snap/1.png",
+          "./images/@multiversx/metamask-snap/2.png",
+          "./images/@multiversx/metamask-snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "Xj/LR7z/2prl5cuP89xGPM2BgT+3RDvJxrHO+5s1kSc="
+        }
+      }
+    },
     "npm:@solflare-wallet/solana-snap": {
       "id": "npm:@solflare-wallet/solana-snap",
       "metadata": {
