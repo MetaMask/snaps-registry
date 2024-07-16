@@ -2202,8 +2202,9 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "https://discord.gg/8HhQjQbSXs",
-          "knowledgeBase": "https://docs.tuum.tech/hedera-wallet-snap"
+          "contact": "https://discord.gg/BsDqX3fhq4",
+          "knowledgeBase": "https://docs.tuum.tech/hedera-wallet-snap",
+          "faq": "https://docs.tuum.tech/hedera-wallet-snap/basics/faqs"
         },
         "sourceCode": "https://github.com/hashgraph/hedera-metamask-snaps",
         "screenshots": [
@@ -2213,8 +2214,8 @@
         ]
       },
       "versions": {
-        "0.4.2": {
-          "checksum": "crQvWM3aqBMDaj5xAgCaPXGkkw3z39UepsSy7UK+KqY="
+        "0.5.0": {
+          "checksum": "wPtBfj/zGpc4NTgR3uyRfnaof6MgOTLAEDnp1BnztdM="
         }
       }
     },
