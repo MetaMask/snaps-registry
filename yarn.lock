@@ -1140,12 +1140,12 @@ __metadata:
   linkType: hard
 
 "@metamask/post-message-stream@npm:^8.1.0":
-  version: 8.1.0
-  resolution: "@metamask/post-message-stream@npm:8.1.0"
+  version: 8.1.1
+  resolution: "@metamask/post-message-stream@npm:8.1.1"
   dependencies:
-    "@metamask/utils": ^8.1.0
+    "@metamask/utils": ^9.0.0
     readable-stream: 3.6.2
-  checksum: 84b5f90ee28d3440520088c01fb64c42a2ed3e761bef4285c8dd72f78c3f634d58ac3314c5ebaedabc92e3db369960e17d61b84719f2d6271cd6d4957f2b6704
+  checksum: ffdcda20fd3aad604de756199d77721e41051fb0fe3a424a448858f1731978f4aefe64758932ca1e5ffac12f0e52fd0d00619f11c3d7eeb4fc1dda250e4e06f6
   languageName: node
   linkType: hard
 
@@ -1359,7 +1359,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/utils@npm:^8.1.0, @metamask/utils@npm:^8.3.0":
+"@metamask/utils@npm:^8.3.0":
   version: 8.5.0
   resolution: "@metamask/utils@npm:8.5.0"
   dependencies:
