@@ -3167,6 +3167,7 @@
         "website": "https://snap.avail.so/",
         "summary": "View and sign transactions on the Avail blockchain, as well as swap and stake the AVAIL token, with MetaMask",
         "description": "View and sign transactions on the Avail blockchain, as well as swap and stake the AVAIL token, with MetaMask.\n\nFeatures:\n\n- Create a wallet account on Avail\n- Sign transactions on Avail",
+        "category": "interoperability",
         "support": {
           "contact": "https://discord.gg/y6fHnxZQX8",
           "knowledgeBase": "https://docs.availproject.org/docs/end-user-guide/avail-snap"
