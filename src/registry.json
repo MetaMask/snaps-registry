@@ -1686,6 +1686,9 @@
       "versions": {
         "2.9.0": {
           "checksum": "jMe+k44JF8e9swELixBr6JZvk1/q3FN6jxx19QJdpBE="
+        },
+        "2.7.0": {
+          "checksum": "6/Jk/hS2+fEe3zcDlRg+jyY3MqFgW4C8R1EDkuE3iD0="
         }
       }
     },
