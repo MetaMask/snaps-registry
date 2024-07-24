@@ -2244,8 +2244,8 @@
         ]
       },
       "versions": {
-        "1.0.3": {
-          "checksum": "5BmZMz60S1Orut4Db8Y03j0te3+CIgwVhJvmhvcMFng="
+        "1.0.4": {
+          "checksum": "gL54Dj6ndVt6Ky+s2HukMN+ke6QXe789qYGNAyyiKFc="
         }
       }
     },
@@ -2687,8 +2687,8 @@
         "sourceCode": "https://github.com/nufi-official/nufi-snap"
       },
       "versions": {
-        "0.1.0": {
-          "checksum": "zUTDtrFP6QJSd92WrwX+lq8gCk1suLK9T9fDK3BFogw="
+        "0.2.0": {
+          "checksum": "guxrkpSVtjygNnycQnk+6/0W81xeBOdMGZ9asuDBir0="
         }
       }
     },
