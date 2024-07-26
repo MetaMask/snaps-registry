@@ -3170,7 +3170,7 @@
           "name": "Avail",
           "website": "https://www.availproject.org/"
         },
-        "website": "https://snap.avail.so/",
+        "website": "https://snap.availproject.org/",
         "summary": "View and sign transactions on the Avail blockchain, as well as swap and stake the AVAIL token, with MetaMask",
         "description": "View and sign transactions on the Avail blockchain, as well as swap and stake the AVAIL token, with MetaMask.\n\nFeatures:\n\n- Create a wallet account on Avail\n- Sign transactions on Avail",
         "category": "interoperability",
@@ -3186,8 +3186,8 @@
         ]
       },
       "versions": {
-        "0.7.7": {
-          "checksum": "7ovlVBqd5zXR7TsPszN3K1vSv47G54IpkMPZ9dsOvIY="
+        "1.0.7": {
+          "checksum": "7qKZznCqtL2dbLsYX+yiHVNTzyx6N17BIm9JYn4IYqU="
         }
       }
     }
