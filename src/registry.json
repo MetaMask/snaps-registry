@@ -3162,7 +3162,7 @@
         }
       }
     },
-    "npm:@cypher-laboratory/alicesring-snap": { 
+    "npm:@cypher-laboratory/alicesring-snap": {
       "id": "npm:@cypher-laboratory/alicesring-snap",
       "metadata": {
         "name": "Ring Signatures",
