@@ -3177,7 +3177,12 @@
           "faq": "https://github.com/Cypher-Laboratory/Alice-s-Ring-snap/blob/main/README.md#faq",
           "contact": "https://discord.gg/jUEkpw5zyH"
         },
-        "sourceCode": "https://github.com/Cypher-Laboratory/Alice-s-Ring-snap"
+        "sourceCode": "https://github.com/Cypher-Laboratory/Alice-s-Ring-snap",
+        "screenshots": [
+          "./images/@cypher-laboratory/alicesring-snap/1.jpg",
+          "./images/@cypher-laboratory/alicesring-snap/2.jpg",
+          "./images/@cypher-laboratory/alicesring-snap/3.jpg"
+        ]
       },
       "versions": {
         "0.3.10": {
