@@ -3188,6 +3188,35 @@
       "versions": {
         "1.0.8": {
           "checksum": "KZV4C5Gao8Ij61Thb/Q2zp34iPvugBNoYK7US5oLju8="
+
+        }
+      }
+    },
+    "npm:@cypher-laboratory/alicesring-snap": {
+      "id": "npm:@cypher-laboratory/alicesring-snap",
+      "metadata": {
+        "name": "Ring Signatures",
+        "author": {
+          "name": "Cypher Lab",
+          "website": "https://www.cypherlab.org/"
+        },
+        "summary": "Use SAG and LSAG signatures to create privacy enhanced dapps",
+        "description": "This Snap utilizes the ring signature implementation from Cypher Lab to privately sign messages. The signature can then be verified by any third party without revealing the actual signer.\n\nIt supports two types of ring signatures: Spontaneous Anonymous Group signatures (SAG) and Linkable Spontaneous Anonymous Group signatures (LSAG). If you are using the SAG scheme, no one will ever know that you signed the message. Use the LSAG scheme if you want third parties to know you signed multiple messages without revealing your identity.\n\nFeatures:\n- Create an Ethereum account\n- Import an Ethereum account using a mnemonic\n- Export the snap addresses\n- Sign a message using SAG and LSAG with the snap\n- Verify a SAG or LSAG signature\n\nWhat are Ring Signatures?\nRing signatures are a type of digital signature that allows a group of users to sign a message anonymously. Unlike traditional digital signatures uniquely linked to one user, ring signatures obscure the actual author by linking multiple possible signers together in a “ring.”\n\nRing signatures preserve privacy and anonymity by obscuring the specific originator of a message. By grouping possible signers in a “ring,” there is no way to definitively pinpoint the actual individual who authored the content. This prevents transactions from being easily traced back to a single user. The larger the ring of possible signers, the more anonymity is provided to the real originator.\n\nRing signatures have been known to cryptographers for several years, but their use within the blockchain ecosystem has been limited. The Monero blockchain is noted as one of the first to employ this cryptographic solution at the protocol level. However, there is currently no complete, robust, and audited implementation of ring signatures adapted for the browser environment. This is where we come in!\n\nUseful links:\n- More about ring signatures: https://people.csail.mit.edu/rivest/pubs/RST01.pdf\n- SAG repository: https://github.com/Cypher-Laboratory/Alice-s-Ring-SAG-TS\n- LSAG repository: https://github.com/Cypher-Laboratory/Alice-s-Ring-LSAG-TS\n- Toolkit for integrating with dapps: https://github.com/Cypher-Laboratory/Alice-s-Ring-snap-toolkit",
+        "category": "interoperability",
+        "support": {
+          "faq": "https://github.com/Cypher-Laboratory/Alice-s-Ring-snap/blob/main/README.md#faq",
+          "contact": "https://discord.gg/jUEkpw5zyH"
+        },
+        "sourceCode": "https://github.com/Cypher-Laboratory/Alice-s-Ring-snap",
+        "screenshots": [
+          "./images/@cypher-laboratory/alicesring-snap/1.jpg",
+          "./images/@cypher-laboratory/alicesring-snap/2.jpg",
+          "./images/@cypher-laboratory/alicesring-snap/3.jpg"
+        ]
+      },
+      "versions": {
+        "0.3.10": {
+          "checksum": "LJdsAPDrD79oY8rvLZ22Ju44HWj6UJgk8Y7QlsV43c4="
         }
       }
     }
