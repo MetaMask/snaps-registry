@@ -3162,6 +3162,35 @@
         }
       }
     },
+    "npm:@avail-project/avail-snap": {
+      "id": "npm:@avail-project/avail-snap",
+      "metadata": {
+        "name": "Avail Wallet",
+        "author": {
+          "name": "Avail",
+          "website": "https://www.availproject.org/"
+        },
+        "website": "https://snap.availproject.org/",
+        "summary": "View and sign transactions on the Avail blockchain, as well as swap and stake the AVAIL token, with MetaMask",
+        "description": "View and sign transactions on the Avail blockchain, as well as swap and stake the AVAIL token, with MetaMask.\n\nFeatures:\n\n- Create a wallet account on Avail\n- Sign transactions on Avail",
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/y6fHnxZQX8",
+          "knowledgeBase": "https://docs.availproject.org/docs/end-user-guide/avail-snap"
+        },
+        "sourceCode": "https://github.com/availproject/metamask-snap-avail",
+        "screenshots": [
+          "./images/@availproject/avail-snap/1.jpg",
+          "./images/@availproject/avail-snap/2.jpg",
+          "./images/@availproject/avail-snap/3.jpg"
+        ]
+      },
+      "versions": {
+        "1.0.8": {
+          "checksum": "KZV4C5Gao8Ij61Thb/Q2zp34iPvugBNoYK7US5oLju8="
+        }
+      }
+    },
     "npm:@cypher-laboratory/alicesring-snap": {
       "id": "npm:@cypher-laboratory/alicesring-snap",
       "metadata": {
