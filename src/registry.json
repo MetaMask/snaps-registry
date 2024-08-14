@@ -3230,6 +3230,18 @@
           "checksum": "LJdsAPDrD79oY8rvLZ22Ju44HWj6UJgk8Y7QlsV43c4="
         }
       }
+    },
+    "npm:@metamask/name-lookup-example-snap": {
+      "id": "npm:@metamask/name-lookup-example-snap",
+      "metadata": {
+        "name": "Name Lookup Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "3.1.0": {
+          "checksum": "NiLwtU8hXtIh2Z53Zf8PiuRasUjJolMfEB+dMAUfxqk="
+        }
+      }
     }
   },
   "blockedSnaps": [
