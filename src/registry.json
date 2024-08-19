@@ -2680,6 +2680,7 @@
             "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-nufi/"
           }
         ],
+        "category": "interoperability",
         "support": {
           "contact": "https://support.nu.fi/support/tickets/new",
           "knowledgeBase": "https://support.nu.fi/support/solutions/80000463691",
