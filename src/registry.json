@@ -1269,7 +1269,7 @@
     "npm:@leapwallet/metamask-cosmos-snap": {
       "id": "npm:@leapwallet/metamask-cosmos-snap",
       "metadata": {
-        "name": "Leap Cosmos Wallet",
+        "name": "Cosmos Wallet",
         "author": {
           "name": "Leap",
           "website": "https://www.leapwallet.io/"
@@ -1296,6 +1296,9 @@
         ]
       },
       "versions": {
+        "0.1.21": {
+          "checksum": "O8AnRrDyQolfSUSxK7uZyf8GEK3KmF4+UE3Gx1uAr4M="
+        },
         "0.1.18": {
           "checksum": "zwTU57HXUX94fMIYhLMfYxAK/pGRwI0Dqao76/BqWZk="
         },
@@ -1757,8 +1760,8 @@
         ]
       },
       "versions": {
-        "0.11.0": {
-          "checksum": "BjhAC8ffw4sdfsmpZkYJmABl2Y6H+/5xEdyPpGeoSRk="
+        "0.11.2": {
+          "checksum": "PK6pGQ0V5gzDKjP86LsVDB8iMZRtujtCeer7a97cAgw="
         }
       }
     },
