@@ -1187,6 +1187,42 @@
         }
       }
     },
+    "npm:@qtumproject/qtum-wallet": {
+      "id": "npm:@qtumproject/qtum-wallet",
+      "metadata": {
+        "name": "Qtum Wallet",
+        "author": {
+          "name": "Qtum",
+          "website": "https://qtum.info/"
+        },
+        "website": "https://qtumbridge.org/",
+        "summary": "The Snap plays the role of the RPC proxy that accepts requests to the MetaMask and forwards them to the Qtum network with the Qtum ethers adapter.",
+        "description": "Interaction with Qtum snap is as easy as working with MetaMask via ethers.js. As ethers.js accepts window.ethereum as a MetaMask provider, we can pass the Qtum snap connector instead of window.ethereum to interact with the Qtum wallet snap, which proxies requests to the Qtum network.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-qtum/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "support@qtum.info",
+          "faq": "https://github.com/qtumproject/qtum-extension-wallet?tab=readme-ov-file#qtum-wallet-faq",
+          "knowledgeBase": "https://github.com/qtumproject/qtum-extension-wallet?tab=readme-ov-file#qtum-wallet-knowledge-doc"
+        },
+        "sourceCode": "https://github.com/qtumproject/qtum-extension-wallet",
+        "screenshots": [
+          "./images/@qtumproject/qtum-wallet/1.png",
+          "./images/@qtumproject/qtum-wallet/2.png",
+          "./images/@qtumproject/qtum-wallet/3.png"
+        ]
+      },
+      "versions": {
+        "0.2.0": {
+          "checksum": "SB/fFdS7jmrx1Fp/c98Gx2RQzo0+nbBOXeplPvYc6VU="
+        }
+      }
+    },
     "npm:@vegaprotocol/snap": {
       "id": "npm:@vegaprotocol/snap",
       "metadata": {
