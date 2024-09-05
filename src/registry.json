@@ -1196,8 +1196,8 @@
           "website": "https://qtum.info/"
         },
         "website": "https://qtumbridge.org/",
-        "summary": "The Snap plays the role of the RPC proxy that accepts requests to the MetaMask and forwards them to the Qtum network with the Qtum ethers adapter.",
-        "description": "Interaction with Qtum snap is as easy as working with MetaMask via ethers.js. As ethers.js accepts window.ethereum as a MetaMask provider, we can pass the Qtum snap connector instead of window.ethereum to interact with the Qtum wallet snap, which proxies requests to the Qtum network.",
+        "summary": "The Snap plays the role of the RPC proxy that accepts requests to MetaMask and forwards them to the Qtum network with the Qtum ethers adapter.",
+        "description": "Interaction with Qtum Snap is as easy as working with MetaMask via ethers.js. As ethers.js accepts window.ethereum as a MetaMask provider, we can pass the Qtum Snap connector instead of window.ethereum to interact with the Qtum wallet Snap, which proxies requests to the Qtum network.",
         "audits": [
           {
             "auditor": "Sayfer",
