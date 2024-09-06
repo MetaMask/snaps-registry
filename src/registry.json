@@ -1828,6 +1828,35 @@
         }
       }
     },
+    "npm:@aeternity-snap/plugin": {
+      "id": "npm:@aeternity-snap/plugin",
+      "metadata": {
+        "name": "Aeternity Wallet",
+        "author": {
+          "name": "Aeternity",
+          "website": "https://aeternity.com/"
+        },
+        "website": "https://aeternity-snap.vercel.app/",
+        "summary": "Aeternity Snap integrates Aeternity blockchain with MetaMask, allowing users to interact with smart contracts, manage AE tokens, and perform blockchain transactions directly from MetaMask.",
+        "description": "Aeternity Snap enhances MetaMask by adding support for Aeternity blockchain features. Users can:\n\nManage AE tokens and track balances\nInteract with Aeternity smart contracts seamlessly\nPerform secure blockchain transactions within MetaMask\nExplore Aeternity’s decentralized applications\nTo use the Snap, install the Aeternity Snap package in MetaMask, connect your MetaMask wallet, and start interacting with the Aeternity blockchain.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://file.notion.so/f/f/97ab6450-64d1-4350-a5cf-a0c0c607f5c4/e9815101-cd01-43f3-89f8-7367e5244fc4/aeternity_snap_audit_final.pdf?table=block&id=141e1dd2-cb7b-473b-8e07-39771b4007d4&spaceId=97ab6450-64d1-4350-a5cf-a0c0c607f5c4&expirationTimestamp=1725408000000&signature=YlFtdd2awQRHogD2fRNq0I0PhMDvdiLZzR5i1IN7wZU&downloadName=aeternity_snap_audit_final.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "donna@aeternity.com"
+        },
+        "sourceCode": "https://github.com/4-point-0/aeternity-snap"
+      },
+      "versions": {
+        "0.0.9": {
+          "checksum": "pl+Yu5DlFCrrKwuZakPfMzslJm5ovJk8kIzTeASvVkY="
+        }
+      }
+    },
     "npm:@kunalabs-io/sui-metamask-snap": {
       "id": "npm:@kunalabs-io/sui-metamask-snap",
       "metadata": {
