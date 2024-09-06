@@ -2476,7 +2476,7 @@
         "category": "interoperability",
         "support": {
           "contact": "mailto:polkagate@outlook.com",
-          "knowledgeBase": "https://github.com/PolkaGate/snap/wiki",
+          "knowledgeBase": "https://docs.polkagate.xyz/polkagate/metamask-snap-user-guide/installing-polkagate-snap",
           "faq": "https://github.com/PolkaGate/snap/wiki/FAQs"
         },
         "sourceCode": "https://github.com/PolkaGate/snap",
@@ -2487,6 +2487,9 @@
         ]
       },
       "versions": {
+        "0.5.2": {
+          "checksum": "CxeY1z4aGsWPq2A5NK7zxIKVDv8Vvv/oDgDgmD2nG5Y="
+        },
         "0.4.2": {
           "checksum": "qUbhuFOdJPHbtrY2mdkOT3pSpaqbNKXKJo4mB9rrfvE="
         },
