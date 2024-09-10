@@ -909,7 +909,6 @@
             "report": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/blockchain-application/SlowMist%20Audit%20Report%20-%20BTCSnap_en-us.pdf"
           }
         ],
-        "category": "interoperability",
         "support": {
           "contact": "mailto:snap@accountlabs.com",
           "faq": "https://btc.justsnap.io/faq",
@@ -1269,7 +1268,7 @@
     "npm:@leapwallet/metamask-cosmos-snap": {
       "id": "npm:@leapwallet/metamask-cosmos-snap",
       "metadata": {
-        "name": "Leap Cosmos Wallet",
+        "name": "Cosmos Wallet",
         "author": {
           "name": "Leap",
           "website": "https://www.leapwallet.io/"
@@ -1296,6 +1295,9 @@
         ]
       },
       "versions": {
+        "0.1.21": {
+          "checksum": "O8AnRrDyQolfSUSxK7uZyf8GEK3KmF4+UE3Gx1uAr4M="
+        },
         "0.1.18": {
           "checksum": "zwTU57HXUX94fMIYhLMfYxAK/pGRwI0Dqao76/BqWZk="
         },
@@ -1781,8 +1783,8 @@
         ]
       },
       "versions": {
-        "0.11.0": {
-          "checksum": "BjhAC8ffw4sdfsmpZkYJmABl2Y6H+/5xEdyPpGeoSRk="
+        "0.11.2": {
+          "checksum": "PK6pGQ0V5gzDKjP86LsVDB8iMZRtujtCeer7a97cAgw="
         }
       }
     },
@@ -1847,6 +1849,35 @@
         },
         "1.0.1": {
           "checksum": "IAuCBc12H1qeknSu+6KjaW0DXSVyPwXrc+urlykkLdg="
+        }
+      }
+    },
+    "npm:@aeternity-snap/plugin": {
+      "id": "npm:@aeternity-snap/plugin",
+      "metadata": {
+        "name": "Aeternity Wallet",
+        "author": {
+          "name": "Aeternity",
+          "website": "https://aeternity.com/"
+        },
+        "website": "https://aeternity-snap.vercel.app/",
+        "summary": "Aeternity Snap integrates Aeternity blockchain with MetaMask, allowing users to interact with smart contracts, manage AE tokens, and perform blockchain transactions directly from MetaMask.",
+        "description": "Aeternity Snap enhances MetaMask by adding support for Aeternity blockchain features. Users can:\n\nManage AE tokens and track balances\nInteract with Aeternity smart contracts seamlessly\nPerform secure blockchain transactions within MetaMask\nExplore Aeternity’s decentralized applications\nTo use the Snap, install the Aeternity Snap package in MetaMask, connect your MetaMask wallet, and start interacting with the Aeternity blockchain.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://file.notion.so/f/f/97ab6450-64d1-4350-a5cf-a0c0c607f5c4/e9815101-cd01-43f3-89f8-7367e5244fc4/aeternity_snap_audit_final.pdf?table=block&id=141e1dd2-cb7b-473b-8e07-39771b4007d4&spaceId=97ab6450-64d1-4350-a5cf-a0c0c607f5c4&expirationTimestamp=1725408000000&signature=YlFtdd2awQRHogD2fRNq0I0PhMDvdiLZzR5i1IN7wZU&downloadName=aeternity_snap_audit_final.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "donna@aeternity.com"
+        },
+        "sourceCode": "https://github.com/4-point-0/aeternity-snap"
+      },
+      "versions": {
+        "0.0.9": {
+          "checksum": "pl+Yu5DlFCrrKwuZakPfMzslJm5ovJk8kIzTeASvVkY="
         }
       }
     },
@@ -2438,6 +2469,9 @@
         "sourceCode": "https://github.com/bob-collective/bob-snap"
       },
       "versions": {
+        "2.2.2": {
+          "checksum": "tUeqZ/Wk3Ot1VfrXoGa8QVw1dtLO3Sm1kQ3/3+UVjIk="
+        },
         "2.2.1": {
           "checksum": "HHxMGzE7qqYdjyYNB6L+2droaS0ElKFS1CIyDl4pIo0="
         },
@@ -2466,7 +2500,7 @@
         "category": "interoperability",
         "support": {
           "contact": "mailto:polkagate@outlook.com",
-          "knowledgeBase": "https://github.com/PolkaGate/snap/wiki",
+          "knowledgeBase": "https://docs.polkagate.xyz/polkagate/metamask-snap-user-guide/installing-polkagate-snap",
           "faq": "https://github.com/PolkaGate/snap/wiki/FAQs"
         },
         "sourceCode": "https://github.com/PolkaGate/snap",
@@ -2477,6 +2511,9 @@
         ]
       },
       "versions": {
+        "0.5.2": {
+          "checksum": "CxeY1z4aGsWPq2A5NK7zxIKVDv8Vvv/oDgDgmD2nG5Y="
+        },
         "0.4.2": {
           "checksum": "qUbhuFOdJPHbtrY2mdkOT3pSpaqbNKXKJo4mB9rrfvE="
         },
@@ -3168,6 +3205,9 @@
       "versions": {
         "1.1.1": {
           "checksum": "RKQvu6SSgoRBULQF/tZU7VbTCDgsy6ud6uFPTEeCs7w="
+        },
+        "1.2.0": {
+          "checksum": "dXRb2xwCuTTo6gNaykoZsF44tnzzLKM51Os2gT3uRgE="
         }
       }
     },
