@@ -1667,7 +1667,7 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "https://discord.gg/shapeshift",
+          "contact": "https://discord.com/invite/shapeshift",
           "knowledgeBase": "https://docs.shapeshift.com/faq/protocols/metamask-snaps"
         },
         "sourceCode": "https://github.com/shapeshift/metamask-snaps",
@@ -1678,6 +1678,9 @@
         ]
       },
       "versions": {
+        "1.0.9": {
+          "checksum": "CCfVhqwMAZKSm+PH+fULDXhdbaMgT5pKZsQEKXPZ32Q="
+        },
         "1.0.0": {
           "checksum": "sALq4aMfg09UKOAcC8f/P0EC36vihVjLxkQX2y3BP3c="
         }
