@@ -316,6 +316,9 @@
         },
         "2.2.0": {
           "checksum": "xw62rD8He0Lm1dDr3RfVoycp0PTWauVCclc8JbpwofU="
+        },
+        "2.2.1": {
+          "checksum": "PxNHa0ebJ1qA/LXiY4vTzUsBKNl3rdfbHwg198YtOH4="
         }
       }
     },
@@ -349,6 +352,9 @@
         },
         "2.1.2": {
           "checksum": "cGgUQlMw+WDBaoWHvG4s/xaZO47vBrEp9sa+4DhBmTA="
+        },
+        "2.1.3": {
+          "checksum": "Nb4y6u121k+rnDRGblkG77S7s9IFt1TZTQeSZOXNdyY="
         }
       }
     },
@@ -382,6 +388,9 @@
         },
         "2.1.3": {
           "checksum": "J8ekYCK9+rqN9d6qBw85RomNqdXMbkB9s1eHnQkaABs="
+        },
+        "2.1.4": {
+          "checksum": "52lYQY0bh6ZtKx4ZNtQNO17ustuhQBewko/WzQkS68A="
         }
       }
     },
@@ -415,6 +424,12 @@
         },
         "2.2.1": {
           "checksum": "2omN9u/lT2cXPZ3O6j4wG3W3HBn/6No9JxH4ncqUG6M="
+        },
+        "2.3.0": {
+          "checksum": "Os7gpMBdr9ZYsLGc5xNCSgjVZ4lAkm0qXy7Nsfytvxs="
+        },
+        "2.3.1": {
+          "checksum": "v2oIs3UY5j/3dXW5eRh3rg7Tv5qcVzHon7qzPQeRsAE="
         }
       }
     },
@@ -448,6 +463,9 @@
         },
         "2.1.2": {
           "checksum": "6sJsnsPeGr45rdXrBtKhdNhbqBJhatSFzMWHP8gcWQ0="
+        },
+        "2.1.3": {
+          "checksum": "yBkP0yx/0fYCe3r3hglrIJJAXuxTgMpCsR0HMJ/KV7o="
         }
       }
     },
@@ -481,6 +499,9 @@
         },
         "2.1.2": {
           "checksum": "t6qrFcAL9Hw/7r7/Q4q1rSrFQ1FdWG+JaTDnLpBv9DM="
+        },
+        "2.1.3": {
+          "checksum": "pSiTZjO5nox8zYh+fQtQfZLp5HwbxKByu+WOo+tAAH0="
         }
       }
     },
@@ -514,6 +535,9 @@
         },
         "2.1.2": {
           "checksum": "dHiE+9mYVkqNRma5GsZprTawv/bDUzcdbeciRzCmkhQ="
+        },
+        "2.1.3": {
+          "checksum": "3ec/uMXW2lAaVxSJJRjsAmQ1oSqVJpHUkF4i4YTa9Gk="
         }
       }
     },
@@ -547,6 +571,9 @@
         },
         "2.1.2": {
           "checksum": "dTL+fLvEFKI0vtcRZ0ZGxU2menzmWl3rPuOwnsqNMIQ="
+        },
+        "2.1.3": {
+          "checksum": "OYSzxQ1qHApZ2MHWvQ/XYWRwKJptpyVQ5VgyhgFEmmo="
         }
       }
     },
@@ -577,6 +604,9 @@
         },
         "2.1.2": {
           "checksum": "lhPQ91mCD7n9r0yiA/KxP/olypotYlAbGauZTTUHh2w="
+        },
+        "2.1.3": {
+          "checksum": "loHXuvuW/Zb4kMSSdekMiV20UVtxXYyoDC0iRZbV274="
         }
       }
     },
@@ -610,6 +640,9 @@
         },
         "2.2.2": {
           "checksum": "f9PoXGMUUbGJtHHvKt715/pvWiHR3KogkfWAV07itaM="
+        },
+        "2.2.3": {
+          "checksum": "5FNiUEpsrVxG3rTbJvhx/IBZ/jIYYu0ZbnCX9A6dAPE="
         }
       }
     },
@@ -679,6 +712,9 @@
         },
         "2.1.3": {
           "checksum": "uLxnaoy3UvlSqkAVwSa1s3YRDmle0CLeeD6obROqNK4="
+        },
+        "2.1.4": {
+          "checksum": "S3wZGdkOLX7tdJYssmy+UxBXe+VuwZaNUQNqK+G3hu4="
         }
       }
     },
@@ -715,6 +751,9 @@
         },
         "2.2.2": {
           "checksum": "76NEiG+oW2yBCnvjY9TAjkitGYBfZ9hipf+i2l2e8uE="
+        },
+        "2.2.3": {
+          "checksum": "oKKYF+AERJAyRBABHRf4nsfQ6IrhKele+Fei+JXxGzA="
         }
       }
     },
@@ -748,6 +787,9 @@
         },
         "2.1.3": {
           "checksum": "n4JE2r3hx1TX4nWT6BelHRyaNJnW5Q3b3pMMLHvSPb0="
+        },
+        "2.1.4": {
+          "checksum": "rNBULIRBi45r+MXpWUNwkSaWog2pNTfG5VYKZ676w6g="
         }
       }
     },
@@ -812,8 +854,8 @@
         "sourceCode": "https://github.com/airgap-it/tezos-metamask-snap"
       },
       "versions": {
-        "1.0.1": {
-          "checksum": "gZ8KD6mLrT9pHe/Lw3RBxFGg5d3ilAUFmEgAenZ5F/s="
+        "1.0.2": {
+          "checksum": "4EtkaViso7g3nijYlNbkgRFABMHKHqSxI6rAbpo0KQs="
         }
       }
     },
@@ -906,7 +948,6 @@
             "report": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/blockchain-application/SlowMist%20Audit%20Report%20-%20BTCSnap_en-us.pdf"
           }
         ],
-        "category": "interoperability",
         "support": {
           "contact": "mailto:snap@accountlabs.com",
           "faq": "https://btc.justsnap.io/faq",
@@ -1115,6 +1156,41 @@
         }
       }
     },
+    "npm:@multiversx/metamask-snap": {
+      "id": "npm:@multiversx/metamask-snap",
+      "metadata": {
+        "name": "MultiversX",
+        "author": {
+          "name": "MultiversX",
+          "website": "https://multiversx.com/"
+        },
+        "website": "https://multiversx.com/metamask",
+        "summary": "Enhance your MultiversX experience with seamless integration, enabling secure transactions and interaction with MultiversX blockchain directly from your MetaMask wallet.",
+        "description": "The MultiversX Integration Snap brings the power of the MultiversX blockchain to your MetaMask wallet. With this snap, you can seamlessly interact with the MultiversX network, enabling you to perform secure transactions, manage your assets, and interact with decentralized applications (dApps) directly from your MetaMask interface.\n\nFeatures:\n\n- Secure Transactions: Execute secure and efficient transactions on the MultiversX blockchain.\n- Asset Management: Easily manage your MultiversX assets within MetaMask.\n- dApp Interaction: Access and interact with decentralized applications on the MultiversX network.\n- User-friendly Interface: Enjoy a smooth and intuitive user experience integrated into your MetaMask wallet.\n\nHow to Use:\n\n1. Install MetaMask: Ensure you have the MetaMask extension installed in your browser. You can download it from MetaMask.\n2. Add the Snap: Open MetaMask and navigate to the Snap section to add the MultiversX Integration Snap.\n3. Connect to MultiversX: Follow the prompts to connect your MetaMask wallet to the MultiversX blockchain.\n4. Manage Assets: Use the MetaMask interface to view and manage your MultiversX assets.\n5. Perform Transactions: Initiate and confirm transactions securely on the MultiversX network.\n6. Explore dApps: Access and interact with various decentralized applications built on MultiversX.\n\nFor more detailed instructions and support, visit our documentation at MultiversX Snap Documentation: https://help.multiversx.com/en/articles/9453616-metamask-snap-integration.",
+        "audits": [
+          {
+            "auditor": "Hacken",
+            "report": "https://wp.hacken.io/wp-content/uploads/2024/06/Final_Report_Hacken_Multiverse-X_dApp_May_2024.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:contact@multiversx.com",
+          "faq": "https://help.multiversx.com/en/articles/9453616-metamask-snap-integration"
+        },
+        "sourceCode": "https://github.com/multiversx/mx-metamask-snaps",
+        "screenshots": [
+          "./images/@multiversx/metamask-snap/1.png",
+          "./images/@multiversx/metamask-snap/2.png",
+          "./images/@multiversx/metamask-snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.0.2": {
+          "checksum": "mlWGyqeOgzYwnAsDYlSptuZX0GJHH+idXVA9rvuDnRI="
+        }
+      }
+    },
     "npm:@solflare-wallet/solana-snap": {
       "id": "npm:@solflare-wallet/solana-snap",
       "metadata": {
@@ -1231,7 +1307,7 @@
     "npm:@leapwallet/metamask-cosmos-snap": {
       "id": "npm:@leapwallet/metamask-cosmos-snap",
       "metadata": {
-        "name": "Leap Cosmos Wallet",
+        "name": "Cosmos Wallet",
         "author": {
           "name": "Leap",
           "website": "https://www.leapwallet.io/"
@@ -1258,6 +1334,9 @@
         ]
       },
       "versions": {
+        "0.1.21": {
+          "checksum": "O8AnRrDyQolfSUSxK7uZyf8GEK3KmF4+UE3Gx1uAr4M="
+        },
         "0.1.18": {
           "checksum": "zwTU57HXUX94fMIYhLMfYxAK/pGRwI0Dqao76/BqWZk="
         },
@@ -1332,6 +1411,9 @@
         "sourceCode": "https://github.com/rarimo/rarime"
       },
       "versions": {
+        "2.1.1": {
+          "checksum": "8qJxnKDj9B1mL6nCqd3GcwaCpG4lPgfeOGaBKJk0Zpw="
+        },
         "2.1.0": {
           "checksum": "CQgk91hCMZDesbgW1yDO4bWYyHY6Lpwp3b1GK/zPxY8="
         },
@@ -1364,11 +1446,16 @@
         "support": {
           "contact": "https://partisiablockchain.gitlab.io/documentation/get-support-from-pbc-community.html"
         },
-        "sourceCode": "https://gitlab.com/partisiablockchain/tools/snap"
+        "sourceCode": "https://gitlab.com/partisiablockchain/tools/snap",
+        "screenshots": [
+          "./images/@partisiablockchain/snap/1.png",
+          "./images/@partisiablockchain/snap/2.png",
+          "./images/@partisiablockchain/snap/3.png"
+        ]
       },
       "versions": {
-        "0.1.3": {
-          "checksum": "T9ziqYT5aK4Jc79wIzqGD6ZcaglEBeCFc/9Z/LB7esg="
+        "0.2.1": {
+          "checksum": "r10QK64EMA0uFhZryfixi/+bP/eGoPW4T1czAs5tfyQ="
         },
         "0.1.2": {
           "checksum": "xrF1SkRRiUN/iuuxTO3lzF/gTciYRVVSzRap5soRhnA="
@@ -1498,6 +1585,9 @@
         "sourceCode": "https://github.com/xmtp/snap"
       },
       "versions": {
+        "1.3.7": {
+          "checksum": "42saDUqoadEmdlwxBhkhDgbZIln1IKzuA6Xs7prmrEM="
+        },
         "1.3.6": {
           "checksum": "nSaMsID9TJhlwTnR/oAoNTYVm/2IBEDzPVJbaFVwpSI="
         },
@@ -1536,6 +1626,30 @@
       "versions": {
         "0.2.13": {
           "checksum": "AvyU4UjF8b56fVe5TuVg2OowAV7j3YwwRJ5tuz/Qpr8="
+        }
+      }
+    },
+    "npm:aegis-snap": {
+      "id": "npm:aegis-snap",
+      "metadata": {
+        "name": "Lossless Aegis Insights",
+        "author": {
+          "name": "Lossless",
+          "website": "https://aegis.lossless.io/"
+        },
+        "website": "https://aegis.lossless.io/snap/",
+        "summary": "Lossless Aegis Insights is a companion to Lossless Aegis, which enhances your Web3 safety by thoroughly scanning smart contracts before you interact with them. This ensures a secure and risk-free experience for your transactions, swaps, claims, and mints.",
+        "description": "Lossless Aegis Insights is an add-on designed to analyze smart contracts without the need to interact with them. It provides reports and risk scores that help you assess the risks associated with both known and unknown smart contracts, helping you keep your funds safe.\nFeatures:\n- Easy setup\n- Wallet security, through transaction analysis\n- Get a risk score, assessment before committing a transaction\n- Get initial analysis of the address you will be interacting with.",
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:hello@lossless.io",
+          "faq": "https://aegis.lossless.io/snap/"
+        },
+        "sourceCode": "https://github.com/Lossless-Cash/aegis-snap/"
+      },
+      "versions": {
+        "0.2.1": {
+          "checksum": "2Y+1OTNbMoH8dBk5xBTNLhpG+GZEfa3KC9H2p2aL8fg="
         }
       }
     },
@@ -1592,7 +1706,7 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "https://discord.gg/shapeshift",
+          "contact": "https://discord.com/invite/shapeshift",
           "knowledgeBase": "https://docs.shapeshift.com/faq/protocols/metamask-snaps"
         },
         "sourceCode": "https://github.com/shapeshift/metamask-snaps",
@@ -1603,6 +1717,9 @@
         ]
       },
       "versions": {
+        "1.0.9": {
+          "checksum": "CCfVhqwMAZKSm+PH+fULDXhdbaMgT5pKZsQEKXPZ32Q="
+        },
         "1.0.0": {
           "checksum": "sALq4aMfg09UKOAcC8f/P0EC36vihVjLxkQX2y3BP3c="
         }
@@ -1641,6 +1758,9 @@
         ]
       },
       "versions": {
+        "2.9.0": {
+          "checksum": "jMe+k44JF8e9swELixBr6JZvk1/q3FN6jxx19QJdpBE="
+        },
         "2.7.0": {
           "checksum": "6/Jk/hS2+fEe3zcDlRg+jyY3MqFgW4C8R1EDkuE3iD0="
         }
@@ -1705,8 +1825,8 @@
         ]
       },
       "versions": {
-        "0.9.0": {
-          "checksum": "rqC+IUKWHbxmVhK+Ol78oK4pc5XOFHU1i+Pp/XQhbFs="
+        "0.11.2": {
+          "checksum": "PK6pGQ0V5gzDKjP86LsVDB8iMZRtujtCeer7a97cAgw="
         }
       }
     },
@@ -1734,8 +1854,8 @@
         ]
       },
       "versions": {
-        "0.0.4": {
-          "checksum": "XyUgAJDgqQk17DxwmTe0Et4VXLFmZU5SvPpGrc5RaGk="
+        "0.0.5": {
+          "checksum": "UUAPZJ+pI0Shxeozl8/DZ8yGbuOgKqrYdvlVNQFPw9M="
         }
       }
     },
@@ -1763,11 +1883,43 @@
         "sourceCode": "https://github.com/filecoin-project/filsnap/"
       },
       "versions": {
+        "1.0.3": {
+          "checksum": "tG/x0GzIE3b2wSvLOySmzu5CnXZXJjqOXJhHPuW2W24="
+        },
         "1.0.2": {
           "checksum": "r7O4VLRJ0+MKWXs7zLEk0vMzATDHh+mmpERkSbNAH4g="
         },
         "1.0.1": {
           "checksum": "IAuCBc12H1qeknSu+6KjaW0DXSVyPwXrc+urlykkLdg="
+        }
+      }
+    },
+    "npm:@aeternity-snap/plugin": {
+      "id": "npm:@aeternity-snap/plugin",
+      "metadata": {
+        "name": "Aeternity Wallet",
+        "author": {
+          "name": "Aeternity",
+          "website": "https://aeternity.com/"
+        },
+        "website": "https://aeternity-snap.vercel.app/",
+        "summary": "Aeternity Snap integrates Aeternity blockchain with MetaMask, allowing users to interact with smart contracts, manage AE tokens, and perform blockchain transactions directly from MetaMask.",
+        "description": "Aeternity Snap enhances MetaMask by adding support for Aeternity blockchain features. Users can:\n\nManage AE tokens and track balances\nInteract with Aeternity smart contracts seamlessly\nPerform secure blockchain transactions within MetaMask\nExplore Aeternity’s decentralized applications\nTo use the Snap, install the Aeternity Snap package in MetaMask, connect your MetaMask wallet, and start interacting with the Aeternity blockchain.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://file.notion.so/f/f/97ab6450-64d1-4350-a5cf-a0c0c607f5c4/e9815101-cd01-43f3-89f8-7367e5244fc4/aeternity_snap_audit_final.pdf?table=block&id=141e1dd2-cb7b-473b-8e07-39771b4007d4&spaceId=97ab6450-64d1-4350-a5cf-a0c0c607f5c4&expirationTimestamp=1725408000000&signature=YlFtdd2awQRHogD2fRNq0I0PhMDvdiLZzR5i1IN7wZU&downloadName=aeternity_snap_audit_final.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "donna@aeternity.com"
+        },
+        "sourceCode": "https://github.com/4-point-0/aeternity-snap"
+      },
+      "versions": {
+        "0.0.9": {
+          "checksum": "pl+Yu5DlFCrrKwuZakPfMzslJm5ovJk8kIzTeASvVkY="
         }
       }
     },
@@ -1792,7 +1944,12 @@
         "support": {
           "contact": "https://discord.com/invite/nTth43SUxJ"
         },
-        "sourceCode": "https://github.com/kunalabs-io/sui-snap"
+        "sourceCode": "https://github.com/kunalabs-io/sui-snap",
+        "screenshots": [
+          "./images/@kunalabs-io/sui-metamask-snap/1.png",
+          "./images/@kunalabs-io/sui-metamask-snap/2.png",
+          "./images/@kunalabs-io/sui-metamask-snap/3.png"
+        ]
       },
       "versions": {
         "1.0.1": {
@@ -1890,8 +2047,8 @@
         ]
       },
       "versions": {
-        "0.7.9": {
-          "checksum": "cxsvZsdg8krtAqp4N2D/GrO6He8GmBfwb/YtQ9nebr0="
+        "0.8.1": {
+          "checksum": "Ju0S/uUo1OKd1xvFzBeGRU8i9H7kEb5VkQsbMlVNOHI="
         }
       }
     },
@@ -1993,6 +2150,9 @@
         ]
       },
       "versions": {
+        "0.7.3": {
+          "checksum": "tKTO2/Dru/fEinbw1Ag63I+wLT2aE/XX4XMHwzfS3ow="
+        },
         "0.6.1": {
           "checksum": "HbPS0L0HN5om/cXvYdWMoGn+hGfeS2dPqJ113OTjNH8="
         }
@@ -2092,8 +2252,8 @@
         ]
       },
       "versions": {
-        "0.1.2": {
-          "checksum": "lezRrq2JT1SFQidFBWZymGnod20s23CCGsF8sW1ZmbQ="
+        "0.1.3": {
+          "checksum": "6QWh4xevnih9Oq7f1DKdLVM8vuZGlB4ubKSlzDfSLg8="
         }
       }
     },
@@ -2145,14 +2305,50 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "https://discord.gg/8HhQjQbSXs",
-          "knowledgeBase": "https://docs.tuum.tech/hedera-wallet-snap"
+          "contact": "https://discord.gg/BsDqX3fhq4",
+          "knowledgeBase": "https://docs.tuum.tech/hedera-wallet-snap",
+          "faq": "https://docs.tuum.tech/hedera-wallet-snap/basics/faqs"
         },
-        "sourceCode": "https://github.com/hashgraph/hedera-metamask-snaps"
+        "sourceCode": "https://github.com/hashgraph/hedera-metamask-snaps",
+        "screenshots": [
+          "./images/@hashgraph/hedera-wallet-snap/1.png",
+          "./images/@hashgraph/hedera-wallet-snap/2.png",
+          "./images/@hashgraph/hedera-wallet-snap/3.png"
+        ]
       },
       "versions": {
-        "0.4.2": {
-          "checksum": "crQvWM3aqBMDaj5xAgCaPXGkkw3z39UepsSy7UK+KqY="
+        "0.5.0": {
+          "checksum": "wPtBfj/zGpc4NTgR3uyRfnaof6MgOTLAEDnp1BnztdM="
+        }
+      }
+    },
+    "npm:@l3mbda/metamask-snap": {
+      "id": "npm:@l3mbda/metamask-snap",
+      "metadata": {
+        "name": "L3MBDA Alerts",
+        "author": {
+          "name": "L3MBDA",
+          "website": "https://l3mbda.com/"
+        },
+        "website": "https://l3mbda.com/integrations",
+        "summary": "Get notified right in your browser!",
+        "description": "This Snap enhances 🦊 MetaMask with the functionality of L3MBDA. It enables you to create Oracles and receive alerts right in your browser!\n\nAfter installing the Snap, please visit the website to connect with MetaMask.",
+        "category": "notifications",
+        "support": {
+          "contact": "mailto:snap@l3mbda.com",
+          "faq": "https://l3mbda.com/integrations",
+          "knowledgeBase": "https://l3mbda.com/guides"
+        },
+        "sourceCode": "https://github.com/l3mbdaorg/metamask-snap",
+        "screenshots": [
+          "./images/@l3mbda/metamask-snap/1.jpg",
+          "./images/@l3mbda/metamask-snap/2.jpg",
+          "./images/@l3mbda/metamask-snap/3.jpg"
+        ]
+      },
+      "versions": {
+        "1.0.4": {
+          "checksum": "gL54Dj6ndVt6Ky+s2HukMN+ke6QXe789qYGNAyyiKFc="
         }
       }
     },
@@ -2315,6 +2511,9 @@
         "sourceCode": "https://github.com/bob-collective/bob-snap"
       },
       "versions": {
+        "2.2.2": {
+          "checksum": "tUeqZ/Wk3Ot1VfrXoGa8QVw1dtLO3Sm1kQ3/3+UVjIk="
+        },
         "2.2.1": {
           "checksum": "HHxMGzE7qqYdjyYNB6L+2droaS0ElKFS1CIyDl4pIo0="
         },
@@ -2343,12 +2542,26 @@
         "category": "interoperability",
         "support": {
           "contact": "mailto:polkagate@outlook.com",
-          "knowledgeBase": "https://github.com/PolkaGate/snap/wiki",
+          "knowledgeBase": "https://docs.polkagate.xyz/polkagate/metamask-snap-user-guide/installing-polkagate-snap",
           "faq": "https://github.com/PolkaGate/snap/wiki/FAQs"
         },
-        "sourceCode": "https://github.com/PolkaGate/snap"
+        "sourceCode": "https://github.com/PolkaGate/snap",
+        "screenshots": [
+          "./images/@polkagate/snap/1.png",
+          "./images/@polkagate/snap/2.png",
+          "./images/@polkagate/snap/3.png"
+        ]
       },
       "versions": {
+        "0.5.2": {
+          "checksum": "CxeY1z4aGsWPq2A5NK7zxIKVDv8Vvv/oDgDgmD2nG5Y="
+        },
+        "0.4.2": {
+          "checksum": "qUbhuFOdJPHbtrY2mdkOT3pSpaqbNKXKJo4mB9rrfvE="
+        },
+        "0.3.0": {
+          "checksum": "X6m+PNFdGlFmegHJ2E6iNMeJTtbPLSW+m8HlkjU2DdM="
+        },
         "0.2.2": {
           "checksum": "JaBlxYBfufxGVNUFjgFJexdHVU/d0AxeqqIFIaNYsR4="
         }
@@ -2565,8 +2778,8 @@
           "website": "https://www.hashdit.io/"
         },
         "website": "https://www.hashdit.io/en/snap",
-        "summary": "Explore the power of HashDit Security and fortify your MetaMask experience. Navigate the crypto space with confidence.",
-        "description": "Transaction Screening:\n\nGain insights into the risk level of each transaction. Receive timely warnings before engaging with potentially vulnerable or malicious smart contracts.\n\nURL Risk Information:\n\nProtect yourself from phishing links and malicious websites by leveraging our advanced URL screening capabilities.\n\nFunctionCall Insights:\n\nUnderstand precisely which function is being called and the parameters it receives during smart contract interactions.",
+        "summary": "Protect your funds with real-time risk warnings and detailed insights on transactions.",
+        "description": "HashDit protects your funds with real-time risk warnings and detailed insights on smart contracts, transactions, and URLs for Binance Smart Chain and Ethereum.\n\nWhat is HashDit Snap?\n\nHashDit Snap uses our API to provide users with a risk assessment before their transactions are executed. Once installed, it returns a risk level ranging from low to critical for each of our security features.\n\nFeatures\n\n- Transaction Screening: HashDit analyzes transaction data before you engage with potentially vulnerable or malicious smart contracts. This protects users against scams such as rug pulls, honeypots, wallet drainers, high-risk contract calls, and other smart contract risks.\n- Address Poisoning Protection: HashDit checks for similarities between all of your addresses and the addresses you are engaging with. If any resemblance is detected, a warning will be displayed, protecting you from address poisoning attacks.\n- Blacklist/Whitelist Screening: HashDit compares addresses against our database of blacklisted addresses and smart contracts known to be scammers or malicious. It also checks against our database of whitelisted addresses that are highly trusted within the ecosystem.\n- URL Screening: HashDit matches websites against our comprehensive database of spam, malware, social engineering, phishing, and scam websites.\n- Function Call Insights: View which functions are being called and the exact value of each parameter during smart contract interactions.\n\nHow To Install HashDit Snap\n\nThe installation guide can be found here: https://hashdit.gitbook.io/hashdit-snap/usage/installing-hashdit-snap\n\nHow To Use HashDit Snap\n\nOnce the HashDit Snap is installed, the security features are entirely automatic. The HashDit Snap will provide a transaction insight before a transaction is executed by a user. In the transaction screen, a user can switch to the HashDit Security tab to view the risks involved with their transaction.\n\nNetwork Support\n\nHashDit Snap is fully supported on the Binance Smart Chain and Ethereum. The snap can only provide URL Screening and Address Poisoning Protection on all other networks.\n\nSecurity And Permissions\n\nHashDit Snap does not have access to the user's private keys. It is limited to reading transactions and providing a transaction insight. The only transaction initiated by the Snap is a safe signature request dispatched during installation.\n\nDocumentation\n\nhttps://hashdit.gitbook.io/hashdit-snap\n\nAbout HashDit \n\nHashDit is a Web3 Security Firm focused on providing a safe ecosystem for both protocol users and smart contract developers on the BNB Chain. The central objective is to furnish crucial threat intelligence to empower everyday DeFi investors in making well-informed decisions. Navigating this DeFi intricate landscape poses challenges even for seasoned investors, let alone newcomers. HashDit aims to bridge this knowledge gap by offering timely and comprehensive threat intelligence on DeFi projects. HashDit is empowering PancakeSwap, Trust Wallet, and BscScan with our API.",
         "audits": [
           {
             "auditor": "SlowMist",
@@ -2582,8 +2795,44 @@
         "sourceCode": "https://github.com/hashdit/metamask-snap"
       },
       "versions": {
-        "0.1.2": {
-          "checksum": "1k0qvd0FWI1z1z/24ynSuDhwSMPRajYKfXnyOTwcSSY="
+        "0.2.1": {
+          "checksum": "dKhAW+kMEErpOUCnSH7jfLSYyoCH8DE+GvLcj63iBYM="
+        }
+      }
+    },
+    "npm:@nufi/cardano-metamask-snap": {
+      "id": "npm:@nufi/cardano-metamask-snap",
+      "metadata": {
+        "name": "Cardano Wallet",
+        "author": {
+          "name": "NuFi",
+          "website": "https://nu.fi/"
+        },
+        "website": "https://nu.fi/metamask/",
+        "summary": "Discover the Cardano universe directly from your MetaMask wallet. Seamlessly store, buy, and manage ADA, Cardano tokens, and NFTs, and access a wide range of DeFi applications.",
+        "description": "1. After installing the Snap, visit wallet.nu.fi to connect your MetaMask to the extended wallet. \n2. In the DApp directory, you'll find a list of Cardano dApps that support MetaMask. \n3. Enjoy!",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-nufi/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://support.nu.fi/support/tickets/new",
+          "knowledgeBase": "https://support.nu.fi/support/solutions/80000463691",
+          "faq": "https://nu.fi/metamask#faq"
+        },
+        "screenshots": [
+          "./images/@nufi/cardano-wallet/1.png",
+          "./images/@nufi/cardano-wallet/2.png",
+          "./images/@nufi/cardano-wallet/3.png"
+        ],
+        "sourceCode": "https://github.com/nufi-official/nufi-snap"
+      },
+      "versions": {
+        "0.2.0": {
+          "checksum": "guxrkpSVtjygNnycQnk+6/0W81xeBOdMGZ9asuDBir0="
         }
       }
     },
@@ -2654,8 +2903,8 @@
         ]
       },
       "versions": {
-        "1.0.20": {
-          "checksum": "UBR/528sDCNjuXRQO5GFwauQPm2goebAGFt8S+gzLt8="
+        "1.0.25": {
+          "checksum": "1UXosQmu9xauCoCG0V2gF18rxnWL4tbjEnbJloKAUBQ="
         }
       }
     },
@@ -2814,8 +3063,8 @@
         ]
       },
       "versions": {
-        "1.2.9": {
-          "checksum": "fwulCKwFKdW1Rb8+r9/DlaQTh2LM6V4POQ06IHe0/lU="
+        "1.2.10": {
+          "checksum": "5hFK3JOH2b3qTPG/4M3gii6KFupooUyS2tdt4wMEqh0="
         }
       }
     },
@@ -2933,6 +3182,9 @@
         },
         "1.1.1": {
           "checksum": "kTIqxcFUYPRiaV7etXM0HpD+fSaJw/+ePbFgjXW3Btk="
+        },
+        "1.1.2": {
+          "checksum": "euGuIXw57Wfb1sBktAhCRMd6DY8Xl07GOXOg88NF/Bk="
         }
       }
     },
@@ -2969,6 +3221,9 @@
         },
         "1.0.2": {
           "checksum": "6jscZ6A0qMZUnPm6AxpTHXY++XeNFtkT9Pr1OkjSTyI="
+        },
+        "1.0.3": {
+          "checksum": "fyBeeuYGaIpBnxm6MVoRe19JR+8QiIeFtJM+nlOWnsU="
         }
       }
     },
@@ -3009,8 +3264,29 @@
         "hidden": true
       },
       "versions": {
+        "2.2.0": {
+          "checksum": "gAlUmrpqDhqJ7Suu3Fpr7Do1y7MFEi7qR22uyjhRDb8="
+        },
+        "2.1.0": {
+          "checksum": "Ko9xBAU/AMTQmdJHIKVaXEvIMRKil4LMaFj+3gS3eZo="
+        },
         "2.0.0": {
           "checksum": "Bzph8qHiipWZxvfPRRIF8uTNn/B6vsru5Y/iM4oncuo="
+        }
+      }
+    },
+    "npm:@metamask/jsx-example-snap": {
+      "id": "npm:@metamask/jsx-example-snap",
+      "metadata": {
+        "name": "JSX Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "1.1.1": {
+          "checksum": "RKQvu6SSgoRBULQF/tZU7VbTCDgsy6ud6uFPTEeCs7w="
+        },
+        "1.2.0": {
+          "checksum": "dXRb2xwCuTTo6gNaykoZsF44tnzzLKM51Os2gT3uRgE="
         }
       }
     },
@@ -3024,7 +3300,7 @@
         },
         "website": "https://voyager-snap.linea.build/",
         "summary": "Track your collected Linea XP, POH status, and current activations from inside MetaMask",
-        "description": "The Linea Voyager Snap allows you to view your collected Linea XP, POH status, and current Linea Voyage activations from within MetaMask.\n\nAfter installing the Snap, visit the companion dapp: https://voyager-snap.linea.build/ to connect or watch the account you use on Linea. Then, click on Linea Voyager from the Snaps menu in MetaMask to open the Snap homepage and view your data.",
+        "description": "The Linea Voyager Snap allows you to view your collected Linea XP, Linea XP-L, POH status, Linea ENS domain, and current Linea Voyage activations from within MetaMask.\n\nAfter installing the Snap, visit the companion dapp: https://voyager-snap.linea.build/ to connect or watch the account you use on Linea. Then, click on Linea Voyager from the Snaps menu in MetaMask to open the Snap homepage and view your data.\n\nSee our support guide for additional information: https://support.linea.build/linea-voyage/voyager-snap",
         "category": "interoperability",
         "support": {
           "contact": "https://discord.com/invite/linea"
@@ -3037,8 +3313,80 @@
         ]
       },
       "versions": {
-        "0.7.1": {
-          "checksum": "4KvbsHMOXo78Qvx0obc09pb80mgJgYoBMexokSLOkGw="
+        "0.8.2": {
+          "checksum": "oIZBQ1pqMiZJJvAIDJuYAHRvPR3AIB2Hlt99G27DP+E="
+        }
+      }
+    },
+    "npm:@avail-project/avail-snap": {
+      "id": "npm:@avail-project/avail-snap",
+      "metadata": {
+        "name": "Avail Wallet",
+        "author": {
+          "name": "Avail",
+          "website": "https://www.availproject.org/"
+        },
+        "website": "https://snap.availproject.org/",
+        "summary": "View and sign transactions on the Avail blockchain, as well as swap and stake the AVAIL token, with MetaMask",
+        "description": "View and sign transactions on the Avail blockchain, as well as swap and stake the AVAIL token, with MetaMask.\n\nFeatures:\n\n- Create a wallet account on Avail\n- Sign transactions on Avail",
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/y6fHnxZQX8",
+          "knowledgeBase": "https://docs.availproject.org/docs/end-user-guide/avail-snap"
+        },
+        "sourceCode": "https://github.com/availproject/metamask-snap-avail",
+        "screenshots": [
+          "./images/@availproject/avail-snap/1.jpg",
+          "./images/@availproject/avail-snap/2.jpg",
+          "./images/@availproject/avail-snap/3.jpg"
+        ]
+      },
+      "versions": {
+        "1.0.8": {
+          "checksum": "KZV4C5Gao8Ij61Thb/Q2zp34iPvugBNoYK7US5oLju8="
+        }
+      }
+    },
+    "npm:@cypher-laboratory/alicesring-snap": {
+      "id": "npm:@cypher-laboratory/alicesring-snap",
+      "metadata": {
+        "name": "Ring Signatures",
+        "author": {
+          "name": "Cypher Lab",
+          "website": "https://www.cypherlab.org/"
+        },
+        "summary": "Use SAG and LSAG signatures to create privacy enhanced dapps",
+        "description": "This Snap utilizes the ring signature implementation from Cypher Lab to privately sign messages. The signature can then be verified by any third party without revealing the actual signer.\n\nIt supports two types of ring signatures: Spontaneous Anonymous Group signatures (SAG) and Linkable Spontaneous Anonymous Group signatures (LSAG). If you are using the SAG scheme, no one will ever know that you signed the message. Use the LSAG scheme if you want third parties to know you signed multiple messages without revealing your identity.\n\nFeatures:\n- Create an Ethereum account\n- Import an Ethereum account using a mnemonic\n- Export the snap addresses\n- Sign a message using SAG and LSAG with the snap\n- Verify a SAG or LSAG signature\n\nWhat are Ring Signatures?\nRing signatures are a type of digital signature that allows a group of users to sign a message anonymously. Unlike traditional digital signatures uniquely linked to one user, ring signatures obscure the actual author by linking multiple possible signers together in a “ring.”\n\nRing signatures preserve privacy and anonymity by obscuring the specific originator of a message. By grouping possible signers in a “ring,” there is no way to definitively pinpoint the actual individual who authored the content. This prevents transactions from being easily traced back to a single user. The larger the ring of possible signers, the more anonymity is provided to the real originator.\n\nRing signatures have been known to cryptographers for several years, but their use within the blockchain ecosystem has been limited. The Monero blockchain is noted as one of the first to employ this cryptographic solution at the protocol level. However, there is currently no complete, robust, and audited implementation of ring signatures adapted for the browser environment. This is where we come in!\n\nUseful links:\n- More about ring signatures: https://people.csail.mit.edu/rivest/pubs/RST01.pdf\n- SAG repository: https://github.com/Cypher-Laboratory/Alice-s-Ring-SAG-TS\n- LSAG repository: https://github.com/Cypher-Laboratory/Alice-s-Ring-LSAG-TS\n- Toolkit for integrating with dapps: https://github.com/Cypher-Laboratory/Alice-s-Ring-snap-toolkit",
+        "category": "interoperability",
+        "support": {
+          "faq": "https://github.com/Cypher-Laboratory/Alice-s-Ring-snap/blob/main/README.md#faq",
+          "contact": "https://discord.gg/jUEkpw5zyH"
+        },
+        "sourceCode": "https://github.com/Cypher-Laboratory/Alice-s-Ring-snap",
+        "screenshots": [
+          "./images/@cypher-laboratory/alicesring-snap/1.jpg",
+          "./images/@cypher-laboratory/alicesring-snap/2.jpg",
+          "./images/@cypher-laboratory/alicesring-snap/3.jpg"
+        ]
+      },
+      "versions": {
+        "0.3.10": {
+          "checksum": "LJdsAPDrD79oY8rvLZ22Ju44HWj6UJgk8Y7QlsV43c4="
+        }
+      }
+    },
+    "npm:@metamask/name-lookup-example-snap": {
+      "id": "npm:@metamask/name-lookup-example-snap",
+      "metadata": {
+        "name": "Name Lookup Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "3.1.0": {
+          "checksum": "NiLwtU8hXtIh2Z53Zf8PiuRasUjJolMfEB+dMAUfxqk="
+        },
+        "3.1.1": {
+          "checksum": "xk7O5itVsuV3Dfldq3rI3WgggHa3z7HX7e17jzheE8w="
         }
       }
     }
