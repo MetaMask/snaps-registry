@@ -793,6 +793,35 @@
         }
       }
     },
+    "npm:@mendi-finance/alert-snap": {
+      "id": "npm:@mendi-finance/alert-snap",
+      "metadata": {
+        "name": "Mendi Finance Liquidation Alert",
+        "author": {
+          "name": "Mendi Finance",
+          "website": "https://mendi.finance/"
+        },
+        "website": "https://mendi.finance/snap",
+        "summary": "The liquidation alert enables Mendi Finance users to set custom alerts based on their preferred borrow limit to receive notifications when their positions are above the preferred threshold.",
+        "description": "The users are able to set notifications to be sent to their Metamask Wallets ",
+        "category": "transaction insights",
+        "support": {
+          "contact": "https://discord.com/invite/G3vWy8cbnK",
+          "faq": "https://docs.mendi.finance/mendi-snap/faq"
+        },
+        "sourceCode": "https://github.com/mendi-finance/metamask-alert-snap",
+        "screenshots": [
+          "./images/@mendi-finance/alert-snap/1.png",
+          "./images/@mendi-finance/alert-snap/2.png",
+          "./images/@mendi-finance/alert-snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "8EeRtD4Vo4WlxYuDW/VPhAlYdBuQDSwL//2V9sLaXvc="
+        }
+      }
+    },
     "npm:@kleros/scout-snap": {
       "id": "npm:@kleros/scout-snap",
       "metadata": {
