@@ -829,6 +829,36 @@
         }
       }
     },
+    "npm:@clustersxyz/metamask-snap": {
+      "id": "npm:@clustersxyz/metamask-snap",
+      "metadata": {
+        "name": "Clusters",
+        "author": {
+          "name": "Clusters",
+          "website": "https://clusters.xyz"
+        },
+        "website": "https://clusters.xyz",
+        "summary": "View clusters names natively within your wallet",
+        "description": "After installing the Snap, configure your cluster at https://clusters.xyz then use cluster names for sending and receiving native tokens, ERC20s, or NFTs",
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:rye@clusters.xyz",
+          "faq": "https://github.com/clustersxyz/metamask-snap/wiki/FAQ",
+          "knowledgeBase": "https://github.com/clustersxyz/metamask-snap/wiki"
+        },
+        "sourceCode": "https://github.com/clustersxyz/metamask-snap",
+        "screenshots": [
+          "./images/@clustersxyz/metamask-snap/1.png",
+          "./images/@clustersxyz/metamask-snap/2.png",
+          "./images/@clustersxyz/metamask-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.0": {
+          "checksum": "N96QmstXczcmjpAHYmAePDFt4Zpc2CUrHBumJs+ahIM="
+        }
+      }
+    },
     "npm:tezos-metamask-snap": {
       "id": "npm:tezos-metamask-snap",
       "metadata": {
