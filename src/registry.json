@@ -3347,6 +3347,35 @@
         }
       }
     },
+    "npm:bitbadges-snap": {
+      "id": "npm:bitbadges-snap",
+      "metadata": {
+        "name": "BitBadges",
+        "author": {
+          "name": "BitBadges",
+          "website": "https://bitbadges.io/"
+        },
+        "website": "https://bitbadges.io/snap",
+        "summary": "Scans relevant addresses in your transactions and allows you to check custom badge ownership requirements and more using BitBadges.",
+        "description": "This Snap scans relevant addresses in your transactions and allows you to check custom badge ownership requirements and more using BitBadges.\n\nAfter installing the Snap, you will see it in the transaction confirmation screen. You can also manage your BitBadges portfolio at https://bitbadges.io/snap",
+        "category": "transaction insights",
+        "support": {
+          "knowledgeBase": "https://docs.bitbadges.io/overview/metamask-snap",
+          "contact": "https://discord.com/invite/TJMaEd9bar"
+        },
+        "sourceCode": "https://github.com/bitbadges/bitbadges-snap",
+        "screenshots": [
+          "./images/bitbadges-snap/1.png",
+          "./images/bitbadges-snap/2.png",
+          "./images/bitbadges-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.1": {
+          "checksum": "8jMPCa9lCgK3ZTVLvXcnBmRBxvi75YRHWt7OXasukmE="
+        }
+      }
+    },
     "npm:@metamask/name-lookup-example-snap": {
       "id": "npm:@metamask/name-lookup-example-snap",
       "metadata": {
