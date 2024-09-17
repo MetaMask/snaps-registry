@@ -2800,6 +2800,9 @@
         "sourceCode": "https://github.com/nufi-official/nufi-snap"
       },
       "versions": {
+        "0.2.1": {
+          "checksum": "WgxYBu6KhUDuTHS2+FSq9GI45Czosri2NKS1c0xvl1w="
+        },
         "0.2.0": {
           "checksum": "guxrkpSVtjygNnycQnk+6/0W81xeBOdMGZ9asuDBir0="
         }
