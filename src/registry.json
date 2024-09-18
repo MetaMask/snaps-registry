@@ -801,7 +801,6 @@
           "name": "IoTeX Network",
           "website": "https://iotex.io/"
         },
-        "website": "https://docs.kleros.io/products/curate/kleros-scout-metamask-snaps",
         "summary": "Boost MetaMask with IoTeX Snap: Send tokens to io addresses or INS domains, convert addresses, and track DePIN projects—all in one place.",
         "description": "Unleash the power of IoTeX directly in MetaMask with the IoTeX Snap! This Snap enables you to:\n\n- Send tokens to io addresses or INS domains\n- Seamlessly convert addresses between io and 0x formats\n- Get real-time updates and information about DePIN projects\n\nThe IoTeX Snap is designed for a smooth, community-driven experience that keeps you at the forefront of decentralized and physical networks (DePIN). Boost your wallet with the power of IoTeX today!",
         "support": {
