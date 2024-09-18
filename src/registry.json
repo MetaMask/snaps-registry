@@ -1912,7 +1912,7 @@
           "name": "Protocol Labs",
           "website": "https://protocol.ai/"
         },
-        "website": "https://filsnap.fission.app/",
+        "website": "https://filsnap.dev",
         "summary": "Connect to Filecoin dapps using MetaMask. Manage Filecoin accounts, send FIL to Native and FEVM accounts and enable FEVM transaction insights.",
         "description": "Connect to Filecoin dapps using MetaMask. Manage Filecoin accounts, send FIL to Native and FEVM accounts and enable FEVM transaction insights.\n\nEnhances MetaMask with native Filecoin address support (e.g. f1 addresses). (Not needed for the Filecoin EVM.)\n\nAfter installing the Snap, visit the website to connect with MetaMask and start using the Snap.",
         "audits": [
@@ -1925,7 +1925,12 @@
         "support": {
           "contact": "mailto:filecoin-snap@fil.org"
         },
-        "sourceCode": "https://github.com/filecoin-project/filsnap/"
+        "sourceCode": "https://github.com/filecoin-project/filsnap/",
+        "screenshots": [
+          "./images/filsnap/1.png",
+          "./images/filsnap/2.png",
+          "./images/filsnap/3.png"
+        ]
       },
       "versions": {
         "1.1.0": {
