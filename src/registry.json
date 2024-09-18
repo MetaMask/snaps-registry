@@ -3355,7 +3355,9 @@
         "website": "https://snap.space.id/",
         "summary": "Enables the resolution of web3 domains in MetaMask, such that you can type in domain names when you transfer crypto.",
         "description": "The SPACE ID Web3 Domain Snap enables the resolution of web3 domains in MetaMask, such that you can type in domain names when you transfer crypto, including .bnb and .arb domains.\n\nVisit https://space.id/ to register your own web3 domains.",
+        "category": "name resolution",
         "support": {
+          "contact": "https://discord.com/channels/953120695431331901/978354253838049371"
         },
         "sourceCode": "https://github.com/Space-ID/web3-name-snap"
       },
