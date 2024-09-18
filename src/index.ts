@@ -77,6 +77,7 @@ export const VerifiedSnapStruct = object({
         'notifications',
         'transaction insights',
         'account management',
+        'name resolution',
       ]),
     ),
     tags: optional(array(string())),
