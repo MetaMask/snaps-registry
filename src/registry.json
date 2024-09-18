@@ -316,6 +316,9 @@
         },
         "2.2.0": {
           "checksum": "xw62rD8He0Lm1dDr3RfVoycp0PTWauVCclc8JbpwofU="
+        },
+        "2.2.1": {
+          "checksum": "PxNHa0ebJ1qA/LXiY4vTzUsBKNl3rdfbHwg198YtOH4="
         }
       }
     },
@@ -349,6 +352,9 @@
         },
         "2.1.2": {
           "checksum": "cGgUQlMw+WDBaoWHvG4s/xaZO47vBrEp9sa+4DhBmTA="
+        },
+        "2.1.3": {
+          "checksum": "Nb4y6u121k+rnDRGblkG77S7s9IFt1TZTQeSZOXNdyY="
         }
       }
     },
@@ -382,6 +388,9 @@
         },
         "2.1.3": {
           "checksum": "J8ekYCK9+rqN9d6qBw85RomNqdXMbkB9s1eHnQkaABs="
+        },
+        "2.1.4": {
+          "checksum": "52lYQY0bh6ZtKx4ZNtQNO17ustuhQBewko/WzQkS68A="
         }
       }
     },
@@ -418,6 +427,9 @@
         },
         "2.3.0": {
           "checksum": "Os7gpMBdr9ZYsLGc5xNCSgjVZ4lAkm0qXy7Nsfytvxs="
+        },
+        "2.3.1": {
+          "checksum": "v2oIs3UY5j/3dXW5eRh3rg7Tv5qcVzHon7qzPQeRsAE="
         }
       }
     },
@@ -451,6 +463,9 @@
         },
         "2.1.2": {
           "checksum": "6sJsnsPeGr45rdXrBtKhdNhbqBJhatSFzMWHP8gcWQ0="
+        },
+        "2.1.3": {
+          "checksum": "yBkP0yx/0fYCe3r3hglrIJJAXuxTgMpCsR0HMJ/KV7o="
         }
       }
     },
@@ -484,6 +499,9 @@
         },
         "2.1.2": {
           "checksum": "t6qrFcAL9Hw/7r7/Q4q1rSrFQ1FdWG+JaTDnLpBv9DM="
+        },
+        "2.1.3": {
+          "checksum": "pSiTZjO5nox8zYh+fQtQfZLp5HwbxKByu+WOo+tAAH0="
         }
       }
     },
@@ -517,6 +535,9 @@
         },
         "2.1.2": {
           "checksum": "dHiE+9mYVkqNRma5GsZprTawv/bDUzcdbeciRzCmkhQ="
+        },
+        "2.1.3": {
+          "checksum": "3ec/uMXW2lAaVxSJJRjsAmQ1oSqVJpHUkF4i4YTa9Gk="
         }
       }
     },
@@ -550,6 +571,9 @@
         },
         "2.1.2": {
           "checksum": "dTL+fLvEFKI0vtcRZ0ZGxU2menzmWl3rPuOwnsqNMIQ="
+        },
+        "2.1.3": {
+          "checksum": "OYSzxQ1qHApZ2MHWvQ/XYWRwKJptpyVQ5VgyhgFEmmo="
         }
       }
     },
@@ -580,6 +604,9 @@
         },
         "2.1.2": {
           "checksum": "lhPQ91mCD7n9r0yiA/KxP/olypotYlAbGauZTTUHh2w="
+        },
+        "2.1.3": {
+          "checksum": "loHXuvuW/Zb4kMSSdekMiV20UVtxXYyoDC0iRZbV274="
         }
       }
     },
@@ -613,6 +640,9 @@
         },
         "2.2.2": {
           "checksum": "f9PoXGMUUbGJtHHvKt715/pvWiHR3KogkfWAV07itaM="
+        },
+        "2.2.3": {
+          "checksum": "5FNiUEpsrVxG3rTbJvhx/IBZ/jIYYu0ZbnCX9A6dAPE="
         }
       }
     },
@@ -649,6 +679,9 @@
         },
         "2.1.2": {
           "checksum": "t4cfOsg8zpOverDV5ZdNKovQFhg2wDLZM+nYq6qmddA="
+        },
+        "2.1.3": {
+          "checksum": "+V4EDf0266FOJDTVrhQ91ZaycBruUesJqSoAzohWnO0="
         }
       }
     },
@@ -682,6 +715,9 @@
         },
         "2.1.3": {
           "checksum": "uLxnaoy3UvlSqkAVwSa1s3YRDmle0CLeeD6obROqNK4="
+        },
+        "2.1.4": {
+          "checksum": "S3wZGdkOLX7tdJYssmy+UxBXe+VuwZaNUQNqK+G3hu4="
         }
       }
     },
@@ -718,6 +754,9 @@
         },
         "2.2.2": {
           "checksum": "76NEiG+oW2yBCnvjY9TAjkitGYBfZ9hipf+i2l2e8uE="
+        },
+        "2.2.3": {
+          "checksum": "oKKYF+AERJAyRBABHRf4nsfQ6IrhKele+Fei+JXxGzA="
         }
       }
     },
@@ -751,6 +790,9 @@
         },
         "2.1.3": {
           "checksum": "n4JE2r3hx1TX4nWT6BelHRyaNJnW5Q3b3pMMLHvSPb0="
+        },
+        "2.1.4": {
+          "checksum": "rNBULIRBi45r+MXpWUNwkSaWog2pNTfG5VYKZ676w6g="
         }
       }
     },
@@ -1028,6 +1070,9 @@
         },
         "2.1.2": {
           "checksum": "BXlcBtRno7GhLlq0cqal08ALFJa9G+DP/a1Ad7cTUKY="
+        },
+        "2.1.3": {
+          "checksum": "TSu0FIqVXvJG6WzqtKPx5kN2fjveQ8EypKCk/jAShmM="
         }
       }
     },
@@ -1046,6 +1091,9 @@
         },
         "1.1.3": {
           "checksum": "vO4Ep4ZPZCfGukm9uw9WvvoMoojZ77/3Q2ajMNNCHQA="
+        },
+        "1.1.4": {
+          "checksum": "KHrWdamfUEJ10ak4/oE/C4/oTO9BRnLSLjOiS9RFlHw="
         }
       }
     },
@@ -1626,6 +1674,30 @@
         }
       }
     },
+    "npm:aegis-snap": {
+      "id": "npm:aegis-snap",
+      "metadata": {
+        "name": "Lossless Aegis Insights",
+        "author": {
+          "name": "Lossless",
+          "website": "https://aegis.lossless.io/"
+        },
+        "website": "https://aegis.lossless.io/snap/",
+        "summary": "Lossless Aegis Insights is a companion to Lossless Aegis, which enhances your Web3 safety by thoroughly scanning smart contracts before you interact with them. This ensures a secure and risk-free experience for your transactions, swaps, claims, and mints.",
+        "description": "Lossless Aegis Insights is an add-on designed to analyze smart contracts without the need to interact with them. It provides reports and risk scores that help you assess the risks associated with both known and unknown smart contracts, helping you keep your funds safe.\nFeatures:\n- Easy setup\n- Wallet security, through transaction analysis\n- Get a risk score, assessment before committing a transaction\n- Get initial analysis of the address you will be interacting with.",
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:hello@lossless.io",
+          "faq": "https://aegis.lossless.io/snap/"
+        },
+        "sourceCode": "https://github.com/Lossless-Cash/aegis-snap/"
+      },
+      "versions": {
+        "0.2.1": {
+          "checksum": "2Y+1OTNbMoH8dBk5xBTNLhpG+GZEfa3KC9H2p2aL8fg="
+        }
+      }
+    },
     "npm:@cosmsnap/snap": {
       "id": "npm:@cosmsnap/snap",
       "metadata": {
@@ -1679,7 +1751,7 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "https://discord.gg/shapeshift",
+          "contact": "https://discord.com/invite/shapeshift",
           "knowledgeBase": "https://docs.shapeshift.com/faq/protocols/metamask-snaps"
         },
         "sourceCode": "https://github.com/shapeshift/metamask-snaps",
@@ -1690,6 +1762,9 @@
         ]
       },
       "versions": {
+        "1.0.9": {
+          "checksum": "CCfVhqwMAZKSm+PH+fULDXhdbaMgT5pKZsQEKXPZ32Q="
+        },
         "1.0.0": {
           "checksum": "sALq4aMfg09UKOAcC8f/P0EC36vihVjLxkQX2y3BP3c="
         }
@@ -1795,8 +1870,8 @@
         ]
       },
       "versions": {
-        "0.11.2": {
-          "checksum": "PK6pGQ0V5gzDKjP86LsVDB8iMZRtujtCeer7a97cAgw="
+        "0.11.3": {
+          "checksum": "Gbn0vViRFgsc8GeIcq27qoPjFh/5yneWntEQ2bpuvPU="
         }
       }
     },
@@ -1853,14 +1928,40 @@
         "sourceCode": "https://github.com/filecoin-project/filsnap/"
       },
       "versions": {
+        "1.1.0": {
+          "checksum": "gMx193o2X/uMNu/9lyOoQ5eQkXAG0le/f02EjOtR+Qk="
+        },
         "1.0.3": {
           "checksum": "tG/x0GzIE3b2wSvLOySmzu5CnXZXJjqOXJhHPuW2W24="
+        }
+      }
+    },
+    "npm:@aeternity-snap/plugin": {
+      "id": "npm:@aeternity-snap/plugin",
+      "metadata": {
+        "name": "Aeternity Wallet",
+        "author": {
+          "name": "Aeternity",
+          "website": "https://aeternity.com/"
         },
-        "1.0.2": {
-          "checksum": "r7O4VLRJ0+MKWXs7zLEk0vMzATDHh+mmpERkSbNAH4g="
+        "website": "https://aeternity-snap.vercel.app/",
+        "summary": "Aeternity Snap integrates Aeternity blockchain with MetaMask, allowing users to interact with smart contracts, manage AE tokens, and perform blockchain transactions directly from MetaMask.",
+        "description": "Aeternity Snap enhances MetaMask by adding support for Aeternity blockchain features. Users can:\n\nManage AE tokens and track balances\nInteract with Aeternity smart contracts seamlessly\nPerform secure blockchain transactions within MetaMask\nExplore Aeternity’s decentralized applications\nTo use the Snap, install the Aeternity Snap package in MetaMask, connect your MetaMask wallet, and start interacting with the Aeternity blockchain.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://file.notion.so/f/f/97ab6450-64d1-4350-a5cf-a0c0c607f5c4/e9815101-cd01-43f3-89f8-7367e5244fc4/aeternity_snap_audit_final.pdf?table=block&id=141e1dd2-cb7b-473b-8e07-39771b4007d4&spaceId=97ab6450-64d1-4350-a5cf-a0c0c607f5c4&expirationTimestamp=1725408000000&signature=YlFtdd2awQRHogD2fRNq0I0PhMDvdiLZzR5i1IN7wZU&downloadName=aeternity_snap_audit_final.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "donna@aeternity.com"
         },
-        "1.0.1": {
-          "checksum": "IAuCBc12H1qeknSu+6KjaW0DXSVyPwXrc+urlykkLdg="
+        "sourceCode": "https://github.com/4-point-0/aeternity-snap"
+      },
+      "versions": {
+        "0.0.9": {
+          "checksum": "pl+Yu5DlFCrrKwuZakPfMzslJm5ovJk8kIzTeASvVkY="
         }
       }
     },
@@ -2483,7 +2584,7 @@
         "category": "interoperability",
         "support": {
           "contact": "mailto:polkagate@outlook.com",
-          "knowledgeBase": "https://github.com/PolkaGate/snap/wiki",
+          "knowledgeBase": "https://docs.polkagate.xyz/polkagate/metamask-snap-user-guide/installing-polkagate-snap",
           "faq": "https://github.com/PolkaGate/snap/wiki/FAQs"
         },
         "sourceCode": "https://github.com/PolkaGate/snap",
@@ -2494,6 +2595,9 @@
         ]
       },
       "versions": {
+        "0.5.2": {
+          "checksum": "CxeY1z4aGsWPq2A5NK7zxIKVDv8Vvv/oDgDgmD2nG5Y="
+        },
         "0.4.2": {
           "checksum": "qUbhuFOdJPHbtrY2mdkOT3pSpaqbNKXKJo4mB9rrfvE="
         },
@@ -2735,6 +2839,9 @@
         "sourceCode": "https://github.com/nufi-official/nufi-snap"
       },
       "versions": {
+        "0.2.1": {
+          "checksum": "WgxYBu6KhUDuTHS2+FSq9GI45Czosri2NKS1c0xvl1w="
+        },
         "0.2.0": {
           "checksum": "guxrkpSVtjygNnycQnk+6/0W81xeBOdMGZ9asuDBir0="
         }
@@ -3110,6 +3217,9 @@
         },
         "1.1.2": {
           "checksum": "+jhsvzvvvNA8Gf1d8zGZT0de5KpYoZsLfiz0EowMK0g="
+        },
+        "1.1.3": {
+          "checksum": "aTuxZCIXcq/FP7XjSoBY4e4pHQbuoDJ1U6FUe/rAfiQ="
         }
       }
     },
@@ -3125,6 +3235,9 @@
         },
         "1.0.2": {
           "checksum": "6jscZ6A0qMZUnPm6AxpTHXY++XeNFtkT9Pr1OkjSTyI="
+        },
+        "1.0.3": {
+          "checksum": "fyBeeuYGaIpBnxm6MVoRe19JR+8QiIeFtJM+nlOWnsU="
         }
       }
     },
@@ -3143,6 +3256,9 @@
         },
         "1.1.2": {
           "checksum": "+RC3pwNreHxiMjByPmX0vglQye6wRfdfqC3/Y20tnc8="
+        },
+        "1.1.3": {
+          "checksum": "emnlXHvrhsGBMi/y1IPhiQPX9ogHmjmOU/iujBu5GB8="
         }
       }
     },
@@ -3155,6 +3271,9 @@
       "versions": {
         "1.1.0": {
           "checksum": "SxUO9T9xJ/R+jHURdjaLvy0Wfq+6+7CkovvO0CB0wxY="
+        },
+        "1.1.1": {
+          "checksum": "kbuZtLjZiY9+HOtc7DIpuGUjMes2id67dES3Ze/Z3dY="
         }
       }
     },
@@ -3165,6 +3284,9 @@
         "hidden": true
       },
       "versions": {
+        "2.2.1": {
+          "checksum": "uOuMArCEwmOmCl0Bl1WnRRm+DKcq0Y+O+5n8Z1KBMr8="
+        },
         "2.2.0": {
           "checksum": "gAlUmrpqDhqJ7Suu3Fpr7Do1y7MFEi7qR22uyjhRDb8="
         },
@@ -3188,6 +3310,9 @@
         },
         "1.2.0": {
           "checksum": "dXRb2xwCuTTo6gNaykoZsF44tnzzLKM51Os2gT3uRgE="
+        },
+        "1.2.1": {
+          "checksum": "3U9+Lvmmdc9JRmaHLcwGgi9lpnaj25joBF9+zXY4644="
         }
       }
     },
@@ -3285,6 +3410,9 @@
       "versions": {
         "3.1.0": {
           "checksum": "NiLwtU8hXtIh2Z53Zf8PiuRasUjJolMfEB+dMAUfxqk="
+        },
+        "3.1.1": {
+          "checksum": "xk7O5itVsuV3Dfldq3rI3WgggHa3z7HX7e17jzheE8w="
         }
       }
     }
