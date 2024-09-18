@@ -803,7 +803,7 @@
         },
         "website": "https://mendi.finance/snap",
         "summary": "The liquidation alert enables Mendi Finance users to set custom alerts based on their preferred borrow limit to receive notifications when their positions are above the preferred threshold.",
-        "description": "The users are able to set notifications to be sent to their Metamask Wallets ",
+        "description": "The users are able to set notifications to be sent to their MetaMask wallets.",
         "category": "transaction insights",
         "support": {
           "contact": "https://discord.com/invite/G3vWy8cbnK",
