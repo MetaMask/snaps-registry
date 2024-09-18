@@ -679,6 +679,9 @@
         },
         "2.1.2": {
           "checksum": "t4cfOsg8zpOverDV5ZdNKovQFhg2wDLZM+nYq6qmddA="
+        },
+        "2.1.3": {
+          "checksum": "+V4EDf0266FOJDTVrhQ91ZaycBruUesJqSoAzohWnO0="
         }
       }
     },
@@ -1096,6 +1099,9 @@
         },
         "2.1.2": {
           "checksum": "BXlcBtRno7GhLlq0cqal08ALFJa9G+DP/a1Ad7cTUKY="
+        },
+        "2.1.3": {
+          "checksum": "TSu0FIqVXvJG6WzqtKPx5kN2fjveQ8EypKCk/jAShmM="
         }
       }
     },
@@ -1255,6 +1261,42 @@
       "versions": {
         "1.0.3": {
           "checksum": "hyw8D7jdrDe4FGohp7hjn7miXCk5JVo7yohV5Q3I2io="
+        }
+      }
+    },
+    "npm:@qtumproject/qtum-wallet": {
+      "id": "npm:@qtumproject/qtum-wallet",
+      "metadata": {
+        "name": "Qtum Wallet",
+        "author": {
+          "name": "Qtum",
+          "website": "https://qtum.info/"
+        },
+        "website": "https://qtumbridge.org/",
+        "summary": "The Snap plays the role of the RPC proxy that accepts requests to MetaMask and forwards them to the Qtum network with the Qtum ethers adapter.",
+        "description": "Interaction with Qtum Snap is as easy as working with MetaMask via ethers.js. As ethers.js accepts window.ethereum as a MetaMask provider, we can pass the Qtum Snap connector instead of window.ethereum to interact with the Qtum wallet Snap, which proxies requests to the Qtum network.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-qtum/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "support@qtum.info",
+          "faq": "https://github.com/qtumproject/qtum-extension-wallet?tab=readme-ov-file#qtum-wallet-faq",
+          "knowledgeBase": "https://github.com/qtumproject/qtum-extension-wallet?tab=readme-ov-file#qtum-wallet-knowledge-doc"
+        },
+        "sourceCode": "https://github.com/qtumproject/qtum-extension-wallet",
+        "screenshots": [
+          "./images/@qtumproject/qtum-wallet/1.png",
+          "./images/@qtumproject/qtum-wallet/2.png",
+          "./images/@qtumproject/qtum-wallet/3.png"
+        ]
+      },
+      "versions": {
+        "0.2.0": {
+          "checksum": "SB/fFdS7jmrx1Fp/c98Gx2RQzo0+nbBOXeplPvYc6VU="
         }
       }
     },
@@ -3204,6 +3246,9 @@
         },
         "1.1.2": {
           "checksum": "+jhsvzvvvNA8Gf1d8zGZT0de5KpYoZsLfiz0EowMK0g="
+        },
+        "1.1.3": {
+          "checksum": "aTuxZCIXcq/FP7XjSoBY4e4pHQbuoDJ1U6FUe/rAfiQ="
         }
       }
     },
@@ -3240,6 +3285,9 @@
         },
         "1.1.2": {
           "checksum": "+RC3pwNreHxiMjByPmX0vglQye6wRfdfqC3/Y20tnc8="
+        },
+        "1.1.3": {
+          "checksum": "emnlXHvrhsGBMi/y1IPhiQPX9ogHmjmOU/iujBu5GB8="
         }
       }
     },
@@ -3252,6 +3300,9 @@
       "versions": {
         "1.1.0": {
           "checksum": "SxUO9T9xJ/R+jHURdjaLvy0Wfq+6+7CkovvO0CB0wxY="
+        },
+        "1.1.1": {
+          "checksum": "kbuZtLjZiY9+HOtc7DIpuGUjMes2id67dES3Ze/Z3dY="
         }
       }
     },
@@ -3262,6 +3313,9 @@
         "hidden": true
       },
       "versions": {
+        "2.2.1": {
+          "checksum": "uOuMArCEwmOmCl0Bl1WnRRm+DKcq0Y+O+5n8Z1KBMr8="
+        },
         "2.2.0": {
           "checksum": "gAlUmrpqDhqJ7Suu3Fpr7Do1y7MFEi7qR22uyjhRDb8="
         },
@@ -3285,6 +3339,9 @@
         },
         "1.2.0": {
           "checksum": "dXRb2xwCuTTo6gNaykoZsF44tnzzLKM51Os2gT3uRgE="
+        },
+        "1.2.1": {
+          "checksum": "3U9+Lvmmdc9JRmaHLcwGgi9lpnaj25joBF9+zXY4644="
         }
       }
     },
@@ -3370,6 +3427,35 @@
       "versions": {
         "0.3.10": {
           "checksum": "LJdsAPDrD79oY8rvLZ22Ju44HWj6UJgk8Y7QlsV43c4="
+        }
+      }
+    },
+    "npm:bitbadges-snap": {
+      "id": "npm:bitbadges-snap",
+      "metadata": {
+        "name": "BitBadges",
+        "author": {
+          "name": "BitBadges",
+          "website": "https://bitbadges.io/"
+        },
+        "website": "https://bitbadges.io/snap",
+        "summary": "Scans relevant addresses in your transactions and allows you to check custom badge ownership requirements and more using BitBadges.",
+        "description": "This Snap scans relevant addresses in your transactions and allows you to check custom badge ownership requirements and more using BitBadges.\n\nAfter installing the Snap, you will see it in the transaction confirmation screen. You can also manage your BitBadges portfolio at https://bitbadges.io/snap",
+        "category": "transaction insights",
+        "support": {
+          "knowledgeBase": "https://docs.bitbadges.io/overview/metamask-snap",
+          "contact": "https://discord.com/invite/TJMaEd9bar"
+        },
+        "sourceCode": "https://github.com/bitbadges/bitbadges-snap",
+        "screenshots": [
+          "./images/bitbadges-snap/1.png",
+          "./images/bitbadges-snap/2.png",
+          "./images/bitbadges-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.1": {
+          "checksum": "8jMPCa9lCgK3ZTVLvXcnBmRBxvi75YRHWt7OXasukmE="
         }
       }
     },
