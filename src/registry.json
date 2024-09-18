@@ -572,6 +572,18 @@
         }
       }
     },
+    "npm:@metamask/file-upload-example-snap": {
+      "id": "npm:@metamask/file-upload-example-snap",
+      "metadata": {
+        "name": "File Upload Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "z4vMdrs40TdVE+vk7sPruIvWi0q669V+p3jc6WQIib4="
+        }
+      }
+    },
     "npm:@metamask/get-entropy-example-snap": {
       "id": "npm:@metamask/get-entropy-example-snap",
       "metadata": {
