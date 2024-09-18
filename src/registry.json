@@ -793,6 +793,34 @@
         }
       }
     },
+    "npm:@d3-inc/d3connect-snap": {
+      "id": "npm:@d3-inc/d3connect-snap",
+      "metadata": {
+        "name": "D3 Connect",
+        "author": {
+          "name": "D3",
+          "website": "https://d3.inc/"
+        },
+        "summary": "The D3 Connect Snap is a Metamask extension that enables custom name resolution using D3 Connect",
+        "description": "The D3 Connect Snap is a Metamask extension that enables custom name resolution using D3 Connect. Once installed, you can use any D3 name (e.g. d3connect.core) instead of a wallet address to send/receive crypto in Metamask.",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://discord.com/invite/D3inc",
+          "knowledgeBase": "https://docs.d3.app/integrating-d3-infrastructure"
+        },
+        "sourceCode": "https://github.com/d3-inc/d3-connect-snap",
+        "screenshots": [
+          "./images/@d3-inc/d3connect-snap/1.png",
+          "./images/@d3-inc/d3connect-snap/2.png",
+          "./images/@d3-inc/d3connect-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.3.1": {
+          "checksum": "v63BIuG50TQdF3KMGt1xFz2CgPW3WIr2yeWq85cI/hE="
+        }
+      }
+    },
     "npm:@kleros/scout-snap": {
       "id": "npm:@kleros/scout-snap",
       "metadata": {
