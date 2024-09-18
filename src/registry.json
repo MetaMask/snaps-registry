@@ -840,7 +840,7 @@
         "website": "https://clusters.xyz",
         "summary": "View clusters names natively within your wallet",
         "description": "After installing the Snap, configure your cluster at https://clusters.xyz then use cluster names for sending and receiving native tokens, ERC20s, or NFTs",
-        "category": "interoperability",
+        "category": "name resolution",
         "support": {
           "contact": "mailto:rye@clusters.xyz",
           "faq": "https://github.com/clustersxyz/metamask-snap/wiki/FAQ",
