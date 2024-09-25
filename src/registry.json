@@ -250,6 +250,37 @@
         }
       }
     },
+    "npm:@tuum-tech/authflow-snap": {
+      "id": "npm:@tuum-tech/authflow-snap",
+      "metadata": {
+        "name": "AuthFlow",
+        "author": {
+          "name": "Tuum Technologies",
+          "website": "https://www.tuum.tech/"
+        },
+        "website": "https://www.tuum.tech/identify",
+        "summary": "AuthFlow is a credential management Snap for both basic and verifiable credentials.",
+        "description": "AuthFlow manages both basic and verifiable credentials, and requires that Identify Snap is installed as a pre-requisite. There are two entry points, the homepage UI and the JSON-RPC API.\n\nVia the Snap homepage: \n- Store basic credentials - 'Store New Passwords'\n- Delete a basic credential - 'Delete Single Password'\n- Delete all basic credentials - 'Delete All Passwords'\n- Display basic credentials - 'Show All Passwords'\n- Display verifiable credentials - 'Get All Verifiable Credentials'\n- Delete all stored verifiable credentials - 'Delete All Verifiable Credentials'\n- Delete a single verifiable credential - 'Delete One Verifiable Credential'\n- Rename a verifiable credential with a friendly name - 'Rename Verifiable Credential'\n- Create a verifiable presentation with a comma separated list of verifiable credential names - 'Create Verifiable Presentation'\n- Create a sample verifiable credential - 'Create Sample Verifiable Credential'\n- Sync AuthFlow and Identify records of verifiable credentials - 'Sync With Identify'\n\nVia the JSON-RPC API\n- Send a basic credential to a dapp given a friendly name as input - 'getBasicCreds'\n- Send a verifiable credential to a dapp given a friendly name as input - 'getVerifiableCreds'\n- Create a verifiable presentation from a comma separated list of verifiable credentials and send to a dapp - 'Create Verifiable Presentation'",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://cure53.de/pentest-report_tuum-auth-snap.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/BsDqX3fhq4",
+          "faq": "https://github.com/tuum-tech/authflow-snap/wiki/FAQ",
+          "knowledgeBase": "https://github.com/tuum-tech/authflow-snap/wiki"
+        },
+        "sourceCode": "https://github.com/tuum-tech/authflow-snap"
+      },
+      "versions": {
+        "0.1.1": {
+          "checksum": "4kTm+RM8bwCfpZTF5S1PntkcQkoH+egfoUj/KiQsKjY="
+        }
+      }
+    },
     "npm:blockfence-insights": {
       "id": "npm:blockfence-insights",
       "metadata": {
@@ -541,6 +572,18 @@
         }
       }
     },
+    "npm:@metamask/file-upload-example-snap": {
+      "id": "npm:@metamask/file-upload-example-snap",
+      "metadata": {
+        "name": "File Upload Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "z4vMdrs40TdVE+vk7sPruIvWi0q669V+p3jc6WQIib4="
+        }
+      }
+    },
     "npm:@metamask/get-entropy-example-snap": {
       "id": "npm:@metamask/get-entropy-example-snap",
       "metadata": {
@@ -679,6 +722,9 @@
         },
         "2.1.2": {
           "checksum": "t4cfOsg8zpOverDV5ZdNKovQFhg2wDLZM+nYq6qmddA="
+        },
+        "2.1.3": {
+          "checksum": "+V4EDf0266FOJDTVrhQ91ZaycBruUesJqSoAzohWnO0="
         }
       }
     },
@@ -790,6 +836,35 @@
         },
         "2.1.4": {
           "checksum": "rNBULIRBi45r+MXpWUNwkSaWog2pNTfG5VYKZ676w6g="
+        }
+      }
+    },
+    "npm:@mendi-finance/alert-snap": {
+      "id": "npm:@mendi-finance/alert-snap",
+      "metadata": {
+        "name": "Mendi Finance Liquidation Alert",
+        "author": {
+          "name": "Mendi Finance",
+          "website": "https://mendi.finance/"
+        },
+        "website": "https://mendi.finance/snap",
+        "summary": "The liquidation alert enables Mendi Finance users to set custom alerts based on their preferred borrow limit to receive notifications when their positions are above the preferred threshold.",
+        "description": "The users are able to set notifications to be sent to their MetaMask wallets.",
+        "category": "transaction insights",
+        "support": {
+          "contact": "https://discord.com/invite/G3vWy8cbnK",
+          "faq": "https://docs.mendi.finance/mendi-snap/faq"
+        },
+        "sourceCode": "https://github.com/mendi-finance/metamask-alert-snap",
+        "screenshots": [
+          "./images/@mendi-finance/alert-snap/1.png",
+          "./images/@mendi-finance/alert-snap/2.png",
+          "./images/@mendi-finance/alert-snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "yX7A0MbM0e2ZO9KINXuWo8dibyuzKrLZ8zyYGWyOcXw="
         }
       }
     },
@@ -1067,6 +1142,9 @@
         },
         "2.1.2": {
           "checksum": "BXlcBtRno7GhLlq0cqal08ALFJa9G+DP/a1Ad7cTUKY="
+        },
+        "2.1.3": {
+          "checksum": "TSu0FIqVXvJG6WzqtKPx5kN2fjveQ8EypKCk/jAShmM="
         }
       }
     },
@@ -1085,6 +1163,9 @@
         },
         "1.1.3": {
           "checksum": "vO4Ep4ZPZCfGukm9uw9WvvoMoojZ77/3Q2ajMNNCHQA="
+        },
+        "1.1.4": {
+          "checksum": "KHrWdamfUEJ10ak4/oE/C4/oTO9BRnLSLjOiS9RFlHw="
         }
       }
     },
@@ -1118,6 +1199,9 @@
         ]
       },
       "versions": {
+        "1.2.2": {
+          "checksum": "JNLIjh3TKVEi5tyOrY975mbE9GYvtA6ruLcmilpZvPc="
+        },
         "1.2.1": {
           "checksum": "vNrNCKPLLktsGjVi1vgs3YKLy4zdPJZ4yMueXNGvWTA="
         },
@@ -1223,6 +1307,42 @@
       "versions": {
         "1.0.3": {
           "checksum": "hyw8D7jdrDe4FGohp7hjn7miXCk5JVo7yohV5Q3I2io="
+        }
+      }
+    },
+    "npm:@qtumproject/qtum-wallet": {
+      "id": "npm:@qtumproject/qtum-wallet",
+      "metadata": {
+        "name": "Qtum Wallet",
+        "author": {
+          "name": "Qtum",
+          "website": "https://qtum.info/"
+        },
+        "website": "https://qtumbridge.org/",
+        "summary": "The Snap plays the role of the RPC proxy that accepts requests to MetaMask and forwards them to the Qtum network with the Qtum ethers adapter.",
+        "description": "Interaction with Qtum Snap is as easy as working with MetaMask via ethers.js. As ethers.js accepts window.ethereum as a MetaMask provider, we can pass the Qtum Snap connector instead of window.ethereum to interact with the Qtum wallet Snap, which proxies requests to the Qtum network.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-qtum/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "support@qtum.info",
+          "faq": "https://github.com/qtumproject/qtum-extension-wallet?tab=readme-ov-file#qtum-wallet-faq",
+          "knowledgeBase": "https://github.com/qtumproject/qtum-extension-wallet?tab=readme-ov-file#qtum-wallet-knowledge-doc"
+        },
+        "sourceCode": "https://github.com/qtumproject/qtum-extension-wallet",
+        "screenshots": [
+          "./images/@qtumproject/qtum-wallet/1.png",
+          "./images/@qtumproject/qtum-wallet/2.png",
+          "./images/@qtumproject/qtum-wallet/3.png"
+        ]
+      },
+      "versions": {
+        "0.2.0": {
+          "checksum": "SB/fFdS7jmrx1Fp/c98Gx2RQzo0+nbBOXeplPvYc6VU="
         }
       }
     },
@@ -1825,8 +1945,8 @@
         ]
       },
       "versions": {
-        "0.11.2": {
-          "checksum": "PK6pGQ0V5gzDKjP86LsVDB8iMZRtujtCeer7a97cAgw="
+        "0.11.3": {
+          "checksum": "Gbn0vViRFgsc8GeIcq27qoPjFh/5yneWntEQ2bpuvPU="
         }
       }
     },
@@ -1867,7 +1987,7 @@
           "name": "Protocol Labs",
           "website": "https://protocol.ai/"
         },
-        "website": "https://filsnap.fission.app/",
+        "website": "https://filsnap.dev",
         "summary": "Connect to Filecoin dapps using MetaMask. Manage Filecoin accounts, send FIL to Native and FEVM accounts and enable FEVM transaction insights.",
         "description": "Connect to Filecoin dapps using MetaMask. Manage Filecoin accounts, send FIL to Native and FEVM accounts and enable FEVM transaction insights.\n\nEnhances MetaMask with native Filecoin address support (e.g. f1 addresses). (Not needed for the Filecoin EVM.)\n\nAfter installing the Snap, visit the website to connect with MetaMask and start using the Snap.",
         "audits": [
@@ -1880,17 +2000,19 @@
         "support": {
           "contact": "mailto:filecoin-snap@fil.org"
         },
-        "sourceCode": "https://github.com/filecoin-project/filsnap/"
+        "sourceCode": "https://github.com/filecoin-project/filsnap/",
+        "screenshots": [
+          "./images/filsnap/1.png",
+          "./images/filsnap/2.png",
+          "./images/filsnap/3.png"
+        ]
       },
       "versions": {
+        "1.1.0": {
+          "checksum": "gMx193o2X/uMNu/9lyOoQ5eQkXAG0le/f02EjOtR+Qk="
+        },
         "1.0.3": {
           "checksum": "tG/x0GzIE3b2wSvLOySmzu5CnXZXJjqOXJhHPuW2W24="
-        },
-        "1.0.2": {
-          "checksum": "r7O4VLRJ0+MKWXs7zLEk0vMzATDHh+mmpERkSbNAH4g="
-        },
-        "1.0.1": {
-          "checksum": "IAuCBc12H1qeknSu+6KjaW0DXSVyPwXrc+urlykkLdg="
         }
       }
     },
@@ -2797,6 +2919,9 @@
         "sourceCode": "https://github.com/nufi-official/nufi-snap"
       },
       "versions": {
+        "0.2.1": {
+          "checksum": "WgxYBu6KhUDuTHS2+FSq9GI45Czosri2NKS1c0xvl1w="
+        },
         "0.2.0": {
           "checksum": "guxrkpSVtjygNnycQnk+6/0W81xeBOdMGZ9asuDBir0="
         }
@@ -3172,6 +3297,9 @@
         },
         "1.1.2": {
           "checksum": "+jhsvzvvvNA8Gf1d8zGZT0de5KpYoZsLfiz0EowMK0g="
+        },
+        "1.1.3": {
+          "checksum": "aTuxZCIXcq/FP7XjSoBY4e4pHQbuoDJ1U6FUe/rAfiQ="
         }
       }
     },
@@ -3208,6 +3336,9 @@
         },
         "1.1.2": {
           "checksum": "+RC3pwNreHxiMjByPmX0vglQye6wRfdfqC3/Y20tnc8="
+        },
+        "1.1.3": {
+          "checksum": "emnlXHvrhsGBMi/y1IPhiQPX9ogHmjmOU/iujBu5GB8="
         }
       }
     },
@@ -3220,6 +3351,9 @@
       "versions": {
         "1.1.0": {
           "checksum": "SxUO9T9xJ/R+jHURdjaLvy0Wfq+6+7CkovvO0CB0wxY="
+        },
+        "1.1.1": {
+          "checksum": "kbuZtLjZiY9+HOtc7DIpuGUjMes2id67dES3Ze/Z3dY="
         }
       }
     },
@@ -3230,6 +3364,9 @@
         "hidden": true
       },
       "versions": {
+        "2.2.1": {
+          "checksum": "uOuMArCEwmOmCl0Bl1WnRRm+DKcq0Y+O+5n8Z1KBMr8="
+        },
         "2.2.0": {
           "checksum": "gAlUmrpqDhqJ7Suu3Fpr7Do1y7MFEi7qR22uyjhRDb8="
         },
@@ -3253,6 +3390,9 @@
         },
         "1.2.0": {
           "checksum": "dXRb2xwCuTTo6gNaykoZsF44tnzzLKM51Os2gT3uRgE="
+        },
+        "1.2.1": {
+          "checksum": "3U9+Lvmmdc9JRmaHLcwGgi9lpnaj25joBF9+zXY4644="
         }
       }
     },
@@ -3338,6 +3478,35 @@
       "versions": {
         "0.3.10": {
           "checksum": "LJdsAPDrD79oY8rvLZ22Ju44HWj6UJgk8Y7QlsV43c4="
+        }
+      }
+    },
+    "npm:bitbadges-snap": {
+      "id": "npm:bitbadges-snap",
+      "metadata": {
+        "name": "BitBadges",
+        "author": {
+          "name": "BitBadges",
+          "website": "https://bitbadges.io/"
+        },
+        "website": "https://bitbadges.io/snap",
+        "summary": "Scans relevant addresses in your transactions and allows you to check custom badge ownership requirements and more using BitBadges.",
+        "description": "This Snap scans relevant addresses in your transactions and allows you to check custom badge ownership requirements and more using BitBadges.\n\nAfter installing the Snap, you will see it in the transaction confirmation screen. You can also manage your BitBadges portfolio at https://bitbadges.io/snap",
+        "category": "transaction insights",
+        "support": {
+          "knowledgeBase": "https://docs.bitbadges.io/overview/metamask-snap",
+          "contact": "https://discord.com/invite/TJMaEd9bar"
+        },
+        "sourceCode": "https://github.com/bitbadges/bitbadges-snap",
+        "screenshots": [
+          "./images/bitbadges-snap/1.png",
+          "./images/bitbadges-snap/2.png",
+          "./images/bitbadges-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.1": {
+          "checksum": "8jMPCa9lCgK3ZTVLvXcnBmRBxvi75YRHWt7OXasukmE="
         }
       }
     },
