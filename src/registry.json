@@ -1845,6 +1845,41 @@
         }
       }
     },
+    "npm:xrpl-snap": {
+      "id": "npm:xrpl-snap",
+      "metadata": {
+        "name": "XRP Ledger",
+        "author": {
+          "name": "Peersyst Technology",
+          "website": "https://peersyst.com"
+        },
+        "website": "https://snap.xrplevm.org/",
+        "summary": "Access the XRP Ledger from your MetaMask wallet for fast, low-cost transactions and seamless asset management.",
+        "description": "Interact with the XRP Ledger directly within your MetaMask wallet. Seamlessly bridge your assets between XRPL and Ethereum-based dApps, and manage all your XRP, XRPL tokens, and NFTs with the security and ease of MetaMask. Benefit from fast, cost-effective transactions on the XRP Ledger while enjoying the trusted user experience of MetaMask.\n\nKey Features: \n\n- Secure, Fast, and Low-Cost XRPL Transactions: Send and receive XRP and tokens on one of the fastest and most cost-effective blockchains directly through MetaMask.\n- Cross-Chain Asset Management: Seamlessly manage XRP, XRPL tokens, and NFTs alongside your Ethereum assets and dApps within the familiar MetaMask interface.\n- Buy XRP Instantly: Purchase XRP directly from your wallet with our integrated Transak solution.\n- Full support for all transaction types in XRPL: sign any transaction\n- Asset Bridging: Effortlessly move assets between EVM and XRPL networks using our integrated bridge feature. \n\nGetting Started: \n\n- Install XRP Ledger Snap: Add the XRP Ledger Snap to your MetaMask wallet.\n- Connect Your Account: Visit https://snap.xrplevm.org/ to connect your account securely.\n- Manage Your Assets: Start managing your XRP, XRPL tokens, and NFTs within MetaMask.\n- Activate Your Account: Add XRP to activate and begin using your XRPL account.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-peersyst/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://docs.xrplsnap.com/",
+          "faq": "https://snap.xrplevm.org/#faq"
+        },
+        "sourceCode": "https://github.com/Peersyst/xrpl-snap",
+        "screenshots": [
+          "./images/xrpl-snap/1.png",
+          "./images/xrpl-snap/2.png",
+          "./images/xrpl-snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "rjYY01lsd54N5MFVwrnNmSkZmy90tsaqcPkRMWkPOM8="
+        }
+      }
+    },
     "npm:@consensys/starknet-snap": {
       "id": "npm:@consensys/starknet-snap",
       "metadata": {
