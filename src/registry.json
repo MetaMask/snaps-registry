@@ -1867,7 +1867,12 @@
           "knowledgeBase": "https://docs.xrplsnap.com/",
           "faq": "https://snap.xrplevm.org/#faq"
         },
-        "sourceCode": "https://github.com/Peersyst/xrpl-snap"
+        "sourceCode": "https://github.com/Peersyst/xrpl-snap",
+        "screenshots": [
+          "./images/xrpl-snap/1.png",
+          "./images/xrpl-snap/2.png",
+          "./images/xrpl-snap/3.png"
+        ]
       },
       "versions": {
         "1.0.1": {
