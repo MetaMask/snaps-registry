@@ -1864,16 +1864,10 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "mailto:@peersyt.com",
           "knowledgeBase": "https://docs.xrplsnap.com/",
           "faq": "https://snap.xrplevm.org/#faq"
         },
-        "sourceCode": "https://github.com/Peersyst/xrpl-snap",
-        "screenshots": [
-          "./images/xrpl-snap/1.png",
-          "./images/xrpl-snap/2.png",
-          "./images/xrpl-snap/3.png"
-        ]
+        "sourceCode": "https://github.com/Peersyst/xrpl-snap"
       },
       "versions": {
         "1.0.1": {
