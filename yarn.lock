@@ -926,14 +926,14 @@ __metadata:
   linkType: hard
 
 "@metamask/approval-controller@npm:^7.0.2":
-  version: 7.0.2
-  resolution: "@metamask/approval-controller@npm:7.0.2"
+  version: 7.1.0
+  resolution: "@metamask/approval-controller@npm:7.1.0"
   dependencies:
-    "@metamask/base-controller": ^6.0.2
+    "@metamask/base-controller": ^7.0.1
     "@metamask/rpc-errors": ^6.3.1
     "@metamask/utils": ^9.1.0
     nanoid: ^3.1.31
-  checksum: 027b0f1871626095356bd9999a4a80fc8db13e8dc85748e9a2c59efc32743e49522c908bb860c315b948555c15528bd0c3f3d0e90a50ba7f6c9aaa4d800aa18f
+  checksum: 87f157dcfaf6064be3787fe418316ba084bd25b1075e9d9f0c21eb5b2b824255c214c61f4454b55fad44ba567e6f6be74ebcec2213ef379390e8d945b366ac39
   languageName: node
   linkType: hard
 
@@ -959,6 +959,16 @@ __metadata:
     "@metamask/utils": ^9.1.0
     immer: ^9.0.6
   checksum: 2cdd0310850d7a5ead05248b79ba94bbaee368ea1a99c999ff38e2d16630a7f12d2e4c781d0fe1d7b349f8a0b3651a831ceccd03b376cb7cc451154867fd5668
+  languageName: node
+  linkType: hard
+
+"@metamask/base-controller@npm:^7.0.1":
+  version: 7.0.1
+  resolution: "@metamask/base-controller@npm:7.0.1"
+  dependencies:
+    "@metamask/utils": ^9.1.0
+    immer: ^9.0.6
+  checksum: 351d46f53410732b02cef4ca08227a26e05a03447fddb3f3d298536ad212c38143717cbe65a30a86e93824048d599deb345e475690b5bf5f1e21dfd0721afd15
   languageName: node
   linkType: hard
 
