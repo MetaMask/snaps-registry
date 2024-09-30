@@ -2861,6 +2861,40 @@
         }
       }
     },
+    "npm:@vital-wallet/neo-snap": {
+      "id": "npm:@vital-wallet/neo-snap",
+      "metadata": {
+        "name": "Vital Wallet",
+        "author": {
+          "name": "Neo",
+          "website": "https://neo.org/"
+        },
+        "website": "https://vitalwallet.xyz/",
+        "summary": "A user-friendly wallet built for Neo network.",
+        "description": "With Vital, users can easily generate a Neo network address directly through the MetaMask wallet. This integration allows users to interact with the Neo blockchain without the hassle of managing Neo network private keys, offering a seamless and user-friendly experience.",
+        "audits": [
+          {
+            "auditor": "Hacken",
+            "report": "https://audits.hacken.io/vital-wallet/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.com/invite/rvZFQ5382k"
+        },
+        "sourceCode": " https://github.com/neo-ngd/neo-metamask-snap.git",
+        "screenshots": [
+          "./images/@vital-wallet/neo-snap/1.png",
+          "./images/@vital-wallet/neo-snap/2.png",
+          "./images/@vital-wallet/neo-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "KZ2eYSxf3G11WNH0fTXKobnneukRviupW0I3qw9QDSU="
+        }
+      }
+    },
     "npm:hapilabs-snap": {
       "id": "npm:hapilabs-snap",
       "metadata": {
