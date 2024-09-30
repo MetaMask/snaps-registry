@@ -56,7 +56,7 @@ jobs:
         with:
           slack-webhook-url: ${{ secrets.SLACK_WEBHOOK_URL }}
           subteam: S05RL9W7H54 # @metamask-snaps-publishers
-          channel: metamask-snaps
+          channel: metamask-snaps-deployments
         env:
           SKIP_PREPACK: true
 
