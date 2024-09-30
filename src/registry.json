@@ -1853,7 +1853,7 @@
           "name": "Peersyst Technology",
           "website": "https://peersyst.com"
         },
-        "website": "https://snap.xrplevm.org/",
+        "website": "https://wallet.xrplevm.org/",
         "summary": "Access the XRP Ledger from your MetaMask wallet for fast, low-cost transactions and seamless asset management.",
         "description": "Interact with the XRP Ledger directly within your MetaMask wallet. Seamlessly bridge your assets between XRPL and Ethereum-based dApps, and manage all your XRP, XRPL tokens, and NFTs with the security and ease of MetaMask. Benefit from fast, cost-effective transactions on the XRP Ledger while enjoying the trusted user experience of MetaMask.\n\nKey Features: \n\n- Secure, Fast, and Low-Cost XRPL Transactions: Send and receive XRP and tokens on one of the fastest and most cost-effective blockchains directly through MetaMask.\n- Cross-Chain Asset Management: Seamlessly manage XRP, XRPL tokens, and NFTs alongside your Ethereum assets and dApps within the familiar MetaMask interface.\n- Buy XRP Instantly: Purchase XRP directly from your wallet with our integrated Transak solution.\n- Full support for all transaction types in XRPL: sign any transaction\n- Asset Bridging: Effortlessly move assets between EVM and XRPL networks using our integrated bridge feature. \n\nGetting Started: \n\n- Install XRP Ledger Snap: Add the XRP Ledger Snap to your MetaMask wallet.\n- Connect Your Account: Visit https://snap.xrplevm.org/ to connect your account securely.\n- Manage Your Assets: Start managing your XRP, XRPL tokens, and NFTs within MetaMask.\n- Activate Your Account: Add XRP to activate and begin using your XRPL account.",
         "audits": [
@@ -3436,6 +3436,9 @@
         "hidden": true
       },
       "versions": {
+        "2.3.0": {
+          "checksum": "1sEjG59gm8iGvsIT9oa2WLRjcr7XQz5k6gkNXjBvuPg="
+        },
         "2.2.1": {
           "checksum": "uOuMArCEwmOmCl0Bl1WnRRm+DKcq0Y+O+5n8Z1KBMr8="
         },
@@ -3562,8 +3565,8 @@
           "website": "https://bitbadges.io/"
         },
         "website": "https://bitbadges.io/snap",
-        "summary": "Scans relevant addresses in your transactions and allows you to check custom badge ownership requirements and more using BitBadges.",
-        "description": "This Snap scans relevant addresses in your transactions and allows you to check custom badge ownership requirements and more using BitBadges.\n\nAfter installing the Snap, you will see it in the transaction confirmation screen. You can also manage your BitBadges portfolio at https://bitbadges.io/snap",
+        "summary": "Gain insights into a user's BitBadges portfolio, allowing you to learn about their digital identity.",
+        "description": "The BitBadges Snap allows you to gain insights into a user's BitBadges portfolio, allowing you to learn about their digital identity.\n\nIt scans relevant addresses from a transaction and checks / displays custom criteria requirements, such as badge / NFT ownership, credentials, lists, protocols, attestations, and more. Connect BitBadges with any chain or any app (over 7000+ supported).",
         "category": "transaction insights",
         "support": {
           "knowledgeBase": "https://docs.bitbadges.io/overview/metamask-snap",
