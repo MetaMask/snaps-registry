@@ -3531,8 +3531,8 @@
           "website": "https://bitbadges.io/"
         },
         "website": "https://bitbadges.io/snap",
-        "summary": "Scans relevant addresses in your transactions and allows you to check custom badge ownership requirements and more using BitBadges.",
-        "description": "This Snap scans relevant addresses in your transactions and allows you to check custom badge ownership requirements and more using BitBadges.\n\nAfter installing the Snap, you will see it in the transaction confirmation screen. You can also manage your BitBadges portfolio at https://bitbadges.io/snap",
+        "summary": "Gain insights into a user's BitBadges portfolio, allowing you to learn about their digital identity.",
+        "description": "The BitBadges Snap allows you to gain insights into a user's BitBadges portfolio, allowing you to learn about their digital identity.\n\nIt scans relevant addresses from a transaction and checks / displays custom criteria requirements, such as badge / NFT ownership, credentials, lists, protocols, attestations, and more. Connect BitBadges with any chain or any app (over 7000+ supported).",
         "category": "transaction insights",
         "support": {
           "knowledgeBase": "https://docs.bitbadges.io/overview/metamask-snap",
