@@ -1913,6 +1913,9 @@
         ]
       },
       "versions": {
+        "2.10.0": {
+          "checksum": "Zh3cAfNPN77U620H92HeMC/ehaCMALaUVhooepmbIUM="
+        },
         "2.9.0": {
           "checksum": "jMe+k44JF8e9swELixBr6JZvk1/q3FN6jxx19QJdpBE="
         },
