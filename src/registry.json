@@ -2587,7 +2587,7 @@
         },
         "website": "https://fio.net/",
         "summary": "Connect with MetaMask to FIO Protocol App to register your FREE custom FIO Handle and map it to all your crypto public addresses.",
-        "description": "Connect with MetaMask to FIO Protocol App to register your FREE custom FIO Handle and map it to all your crypto public addresses.\n\nFIO Protocol makes crypto easier. You can replace all your public wallet addresses with a single, secure, customizable handle and make any transaction, on any chain, as easy as sending an email. FIO Handles work across many leading wallets and exchanges.\n\nWith the FIO Protocol App you can also send and receive crypto payment requests and even sign NFTs to assert your ownership.\n\nHead over to FIO App to register your FREE FIO Handle: https://app.fio.net/",
+        "description": "Connect with MetaMask to FIO Protocol App to register your FREE custom FIO Handle and map it to all your crypto public addresses.\n\nFIO Protocol makes crypto easier. You can replace all your public wallet addresses with a single, secure, customizable handle and make any transaction, on any chain, as easy as sending an email. FIO Handles work across many leading wallets and exchanges.\n\nWith the FIO Protocol App you can also send and receive crypto payment requests and even sign NFTs to assert your ownership. FIO Handles are now supported inside MetaMask.\n\nHead over to FIO App to register your FREE FIO Handle: https://app.fio.net/",
         "audits": [
           {
             "auditor": "Sayfer",
@@ -2597,12 +2597,14 @@
         "category": "interoperability",
         "support": {
           "contact": "https://help.fio.net",
-          "knowledgeBase": "https://app.fio.net/metamask",
           "faq": "https://app.fio.net/metamask"
         },
         "sourceCode": "https://github.com/fioprotocol/fio-wallet-snap"
       },
       "versions": {
+        "1.1.1": {
+          "checksum": "Zif5f5FHoyFlCBY7PPD5+dDfa9VKFjRraKH85m71HJk="
+        },
         "1.0.2": {
           "checksum": "b6Z0SYw5x5yYEYu1TiguPRbRV/izLsjK0FFJ/+strwg="
         }
