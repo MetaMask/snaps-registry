@@ -3719,6 +3719,28 @@
         }
       }
     },
+    "npm:@oneid-xyz/connect-snap": {
+      "id": "npm:@oneid-xyz/connect-snap",
+      "metadata": {
+        "name": "OneID",
+        "author": {
+          "name": "OneID",
+          "website": "https://www.oneid.xyz/"
+        },
+        "summary": "Resolve OneID names to addresses in MetaMask.",
+        "description": "OneID Snap allows users to send & receive their digital assets directly on Metamask using their OneID.\nRegister your OneID today: https://www.oneid.xyz/",
+        "support": {
+          "knowledgeBase": "https://docs.oneid.xyz/product/oneid-snap-on-metamask#oneid-snap",
+          "contact": "https://discord.gg/oneid-official"
+        },
+        "sourceCode": "https://github.com/coin98/connect-snap"
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "1d/Fj818HBPbRMC8yn+wVbvTFmpMZ7J6+Tq8+Qr7Rws="
+        }
+      }
+    },
     "npm:@metamask/name-lookup-example-snap": {
       "id": "npm:@metamask/name-lookup-example-snap",
       "metadata": {
