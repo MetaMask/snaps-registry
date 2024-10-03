@@ -2594,7 +2594,7 @@
             "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-fio/"
           }
         ],
-        "category": "interoperability",
+        "category": "name resolution",
         "support": {
           "contact": "https://help.fio.net",
           "faq": "https://app.fio.net/metamask"
