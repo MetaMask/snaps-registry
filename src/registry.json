@@ -3570,17 +3570,25 @@
     "npm:@web3-name-sdk/snap": {
       "id": "npm:@web3-name-sdk/snap",
       "metadata": {
-        "name": "SPACE ID Web3 Domain ",
+        "name": "SPACE ID Web3 Domain",
         "author": {
           "name": "SPACE ID",
           "website": "https://space.id/"
         },
         "website": "https://snap.space.id/",
-        "summary": "Enables the resolution of web3 domains in MetaMask, such that you can type in domain names when you transfer crypto.",
-        "description": "The SPACE ID Web3 Domain Snap enables the resolution of web3 domains in MetaMask, such that you can type in domain names when you transfer crypto, including .bnb and .arb domains.\n\nVisit https://space.id/ to register your own web3 domains.",
+        "summary": "The SPACE ID Web3 Domain Snap enables the resolution of web3 domains in MetaMask, such that you can type in domain names when you transfer crypto.",
+        "description": "After installing the SPACE ID Web3 Domain Snap, when transferring crypto, you can type in any web3 domains names you registered on SPACE ID directly instead of copying & pasting complex wallet addresses.",
+        "audits": [
+          {
+            "auditor": "SlowMist",
+            "report": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/blockchain-application/SlowMist%20Audit%20Report%20-%20web3-name-snap_en-us.pdf"
+          }
+        ],
         "category": "name resolution",
         "support": {
-          "contact": "https://discord.com/invite/spaceid"
+          "contact": "https://discord.com/channels/953120695431331901/978354253838049371",
+          "knowledgeBase": "https://docs.space.id/getting-started/using-domain-on-metamask-snap-releasing/knowledge-base",
+          "faq": "https://docs.space.id/getting-started/using-domain-on-metamask-snap-releasing/general-faq"
         },
         "sourceCode": "https://github.com/Space-ID/web3-name-snap"
       },
