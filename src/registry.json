@@ -3809,6 +3809,35 @@
         }
       }
     },
+    "npm:@unstoppabledomains/unstoppable-resolution-snap": {
+      "id": "npm:@unstoppabledomains/unstoppable-resolution-snap",
+      "metadata": {
+        "name": "Unstoppable",
+        "author": {
+          "name": "Unstoppable Domains",
+          "website": "https://unstoppabledomains.com/"
+        },
+        "summary": "Simplify transactions with your Unstoppable Domain",
+        "description": "Replace long, complex wallet addresses with an easy-to-read Unstoppable Domain to effortlessly send and receive crypto.\n\nAfter installing the Snap, you will be able to use Unstoppable Domains in the send flow.",
+        "category": "name resolution",
+        "support": {
+          "knowledgeBase": "https://unstoppabledomains.com/products/metamask",
+          "faq": "https://unstoppabledomains.com/products/metamask#faq",
+          "contact": "support@unstoppabledomains.com"
+        },
+        "sourceCode": "https://github.com/unstoppabledomains/unstoppable-resolution-snap/",
+        "screenshots": [
+          "./images/@unstoppabledomains/unstoppable-resolution-snap/1.png",
+          "./images/@unstoppabledomains/unstoppable-resolution-snap/2.png",
+          "./images/@unstoppabledomains/unstoppable-resolution-snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "h04dnOTsyrv6eyXM/c9BGUGFOOZ4AlPxuVUOPMfsnW0="
+        }
+      }
+    },
     "npm:@metamask/name-lookup-example-snap": {
       "id": "npm:@metamask/name-lookup-example-snap",
       "metadata": {
