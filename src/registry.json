@@ -273,7 +273,12 @@
           "faq": "https://github.com/tuum-tech/authflow-snap/wiki/FAQ",
           "knowledgeBase": "https://github.com/tuum-tech/authflow-snap/wiki"
         },
-        "sourceCode": "https://github.com/tuum-tech/authflow-snap"
+        "sourceCode": "https://github.com/tuum-tech/authflow-snap",
+        "screenshots": [
+          "./images/@tuum-tech/authflow-snap/1.png",
+          "./images/@tuum-tech/authflow-snap/2.png",
+          "./images/@tuum-tech/authflow-snap/3.png"
+        ]
       },
       "versions": {
         "0.1.1": {
@@ -848,8 +853,8 @@
           "website": "https://mendi.finance/"
         },
         "website": "https://mendi.finance/snap",
-        "summary": "The liquidation alert enables Mendi Finance users to set custom alerts based on their preferred borrow limit to receive notifications when their positions are above the preferred threshold.",
-        "description": "The users are able to set notifications to be sent to their MetaMask wallets.",
+        "summary": "Stay on top of your borrowing with timely notifications sent directly via MetaMask",
+        "description": "Enables Mendi Finance users to set custom alerts based on their preferred borrow limit to receive notifications when their positions are above the preferred threshold.\n\nLearn more: https://mendi.finance/snap/",
         "category": "transaction insights",
         "support": {
           "contact": "https://discord.com/invite/G3vWy8cbnK",
