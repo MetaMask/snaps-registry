@@ -3729,11 +3729,18 @@
         },
         "summary": "Resolve OneID names to addresses in MetaMask.",
         "description": "OneID Snap allows users to send & receive their digital assets directly on Metamask using their OneID.\nRegister your OneID today: https://www.oneid.xyz/",
+        "category": "name resolution",
         "support": {
           "knowledgeBase": "https://docs.oneid.xyz/product/oneid-snap-on-metamask#oneid-snap",
+          "faq": "https://docs.oneid.xyz/product/oneid-snap-on-metamask#oneid-snap-faqs",
           "contact": "https://discord.gg/oneid-official"
         },
-        "sourceCode": "https://github.com/coin98/connect-snap"
+        "sourceCode": "https://github.com/coin98/connect-snap",
+        "screenshots": [
+          "./images/@oneid-xyz/connect-snap/1.png",
+          "./images/@oneid-xyz/connect-snap/2.png",
+          "./images/@oneid-xyz/connect-snap/3.png"
+        ]
       },
       "versions": {
         "1.0.0": {
