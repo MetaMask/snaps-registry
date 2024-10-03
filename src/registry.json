@@ -3609,9 +3609,15 @@
         "category": "name resolution",
         "support": {
           "knowledgeBase": "https://unstoppabledomains.com/products/metamask",
+          "faq": "https://unstoppabledomains.com/products/metamask#faq",
           "contact": "support@unstoppabledomains.com"
         },
-        "sourceCode": "https://github.com/unstoppabledomains/unstoppable-resolution-snap/"
+        "sourceCode": "https://github.com/unstoppabledomains/unstoppable-resolution-snap/",
+        "screenshots": [
+          "./images/@unstoppabledomains/unstoppable-resolution-snap/1.png",
+          "./images/@unstoppabledomains/unstoppable-resolution-snap/2.png",
+          "./images/@unstoppabledomains/unstoppable-resolution-snap/3.png"
+        ]
       },
       "versions": {
         "1.0.1": {
