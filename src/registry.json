@@ -273,7 +273,12 @@
           "faq": "https://github.com/tuum-tech/authflow-snap/wiki/FAQ",
           "knowledgeBase": "https://github.com/tuum-tech/authflow-snap/wiki"
         },
-        "sourceCode": "https://github.com/tuum-tech/authflow-snap"
+        "sourceCode": "https://github.com/tuum-tech/authflow-snap",
+        "screenshots": [
+          "./images/@tuum-tech/authflow-snap/1.png",
+          "./images/@tuum-tech/authflow-snap/2.png",
+          "./images/@tuum-tech/authflow-snap/3.png"
+        ]
       },
       "versions": {
         "0.1.1": {
@@ -572,6 +577,18 @@
         }
       }
     },
+    "npm:@metamask/file-upload-example-snap": {
+      "id": "npm:@metamask/file-upload-example-snap",
+      "metadata": {
+        "name": "File Upload Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "z4vMdrs40TdVE+vk7sPruIvWi0q669V+p3jc6WQIib4="
+        }
+      }
+    },
     "npm:@metamask/get-entropy-example-snap": {
       "id": "npm:@metamask/get-entropy-example-snap",
       "metadata": {
@@ -824,6 +841,35 @@
         },
         "2.1.4": {
           "checksum": "rNBULIRBi45r+MXpWUNwkSaWog2pNTfG5VYKZ676w6g="
+        }
+      }
+    },
+    "npm:@mendi-finance/alert-snap": {
+      "id": "npm:@mendi-finance/alert-snap",
+      "metadata": {
+        "name": "Mendi Finance Liquidation Alert",
+        "author": {
+          "name": "Mendi Finance",
+          "website": "https://mendi.finance/"
+        },
+        "website": "https://mendi.finance/snap",
+        "summary": "Stay on top of your borrowing with timely notifications sent directly via MetaMask",
+        "description": "Enables Mendi Finance users to set custom alerts based on their preferred borrow limit to receive notifications when their positions are above the preferred threshold.\n\nLearn more: https://mendi.finance/snap/",
+        "category": "transaction insights",
+        "support": {
+          "contact": "https://discord.com/invite/G3vWy8cbnK",
+          "faq": "https://docs.mendi.finance/mendi-snap/faq"
+        },
+        "sourceCode": "https://github.com/mendi-finance/metamask-alert-snap",
+        "screenshots": [
+          "./images/@mendi-finance/alert-snap/1.png",
+          "./images/@mendi-finance/alert-snap/2.png",
+          "./images/@mendi-finance/alert-snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "yX7A0MbM0e2ZO9KINXuWo8dibyuzKrLZ8zyYGWyOcXw="
         }
       }
     },
@@ -1158,6 +1204,9 @@
         ]
       },
       "versions": {
+        "1.2.2": {
+          "checksum": "JNLIjh3TKVEi5tyOrY975mbE9GYvtA6ruLcmilpZvPc="
+        },
         "1.2.1": {
           "checksum": "vNrNCKPLLktsGjVi1vgs3YKLy4zdPJZ4yMueXNGvWTA="
         },
@@ -1801,6 +1850,41 @@
         }
       }
     },
+    "npm:xrpl-snap": {
+      "id": "npm:xrpl-snap",
+      "metadata": {
+        "name": "XRP Ledger",
+        "author": {
+          "name": "Peersyst Technology",
+          "website": "https://peersyst.com"
+        },
+        "website": "https://wallet.xrplevm.org/",
+        "summary": "Access the XRP Ledger from your MetaMask wallet for fast, low-cost transactions and seamless asset management.",
+        "description": "Interact with the XRP Ledger directly within your MetaMask wallet. Seamlessly bridge your assets between XRPL and Ethereum-based dApps, and manage all your XRP, XRPL tokens, and NFTs with the security and ease of MetaMask. Benefit from fast, cost-effective transactions on the XRP Ledger while enjoying the trusted user experience of MetaMask.\n\nKey Features: \n\n- Secure, Fast, and Low-Cost XRPL Transactions: Send and receive XRP and tokens on one of the fastest and most cost-effective blockchains directly through MetaMask.\n- Cross-Chain Asset Management: Seamlessly manage XRP, XRPL tokens, and NFTs alongside your Ethereum assets and dApps within the familiar MetaMask interface.\n- Buy XRP Instantly: Purchase XRP directly from your wallet with our integrated Transak solution.\n- Full support for all transaction types in XRPL: sign any transaction\n- Asset Bridging: Effortlessly move assets between EVM and XRPL networks using our integrated bridge feature. \n\nGetting Started: \n\n- Install XRP Ledger Snap: Add the XRP Ledger Snap to your MetaMask wallet.\n- Connect Your Account: Visit https://snap.xrplevm.org/ to connect your account securely.\n- Manage Your Assets: Start managing your XRP, XRPL tokens, and NFTs within MetaMask.\n- Activate Your Account: Add XRP to activate and begin using your XRPL account.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-peersyst/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://docs.xrplsnap.com/",
+          "faq": "https://snap.xrplevm.org/#faq"
+        },
+        "sourceCode": "https://github.com/Peersyst/xrpl-snap",
+        "screenshots": [
+          "./images/xrpl-snap/1.png",
+          "./images/xrpl-snap/2.png",
+          "./images/xrpl-snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "rjYY01lsd54N5MFVwrnNmSkZmy90tsaqcPkRMWkPOM8="
+        }
+      }
+    },
     "npm:@consensys/starknet-snap": {
       "id": "npm:@consensys/starknet-snap",
       "metadata": {
@@ -1834,6 +1918,9 @@
         ]
       },
       "versions": {
+        "2.10.1": {
+          "checksum": "X38B+1YYnb1L0UYnUq6lHdxLmwjUDBPF8nWaF8LrGGw="
+        },
         "2.9.0": {
           "checksum": "jMe+k44JF8e9swELixBr6JZvk1/q3FN6jxx19QJdpBE="
         },
@@ -1943,7 +2030,7 @@
           "name": "Protocol Labs",
           "website": "https://protocol.ai/"
         },
-        "website": "https://filsnap.fission.app/",
+        "website": "https://filsnap.dev",
         "summary": "Connect to Filecoin dapps using MetaMask. Manage Filecoin accounts, send FIL to Native and FEVM accounts and enable FEVM transaction insights.",
         "description": "Connect to Filecoin dapps using MetaMask. Manage Filecoin accounts, send FIL to Native and FEVM accounts and enable FEVM transaction insights.\n\nEnhances MetaMask with native Filecoin address support (e.g. f1 addresses). (Not needed for the Filecoin EVM.)\n\nAfter installing the Snap, visit the website to connect with MetaMask and start using the Snap.",
         "audits": [
@@ -1956,7 +2043,12 @@
         "support": {
           "contact": "mailto:filecoin-snap@fil.org"
         },
-        "sourceCode": "https://github.com/filecoin-project/filsnap/"
+        "sourceCode": "https://github.com/filecoin-project/filsnap/",
+        "screenshots": [
+          "./images/filsnap/1.png",
+          "./images/filsnap/2.png",
+          "./images/filsnap/3.png"
+        ]
       },
       "versions": {
         "1.1.0": {
@@ -2390,8 +2482,8 @@
         ]
       },
       "versions": {
-        "0.5.0": {
-          "checksum": "wPtBfj/zGpc4NTgR3uyRfnaof6MgOTLAEDnp1BnztdM="
+        "0.6.0": {
+          "checksum": "4Cq3R8uZ7z77wWYfS0sOQKhOl/TOd9Obh+konXYj7Yo="
         }
       }
     },
@@ -2807,6 +2899,40 @@
         }
       }
     },
+    "npm:@vital-wallet/neo-snap": {
+      "id": "npm:@vital-wallet/neo-snap",
+      "metadata": {
+        "name": "Vital Wallet",
+        "author": {
+          "name": "Neo",
+          "website": "https://neo.org/"
+        },
+        "website": "https://vitalwallet.xyz/",
+        "summary": "A user-friendly wallet built for Neo network.",
+        "description": "With Vital, users can easily generate a Neo network address directly through the MetaMask wallet. This integration allows users to interact with the Neo blockchain without the hassle of managing Neo network private keys, offering a seamless and user-friendly experience.",
+        "audits": [
+          {
+            "auditor": "Hacken",
+            "report": "https://audits.hacken.io/vital-wallet/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.com/invite/rvZFQ5382k"
+        },
+        "sourceCode": " https://github.com/neo-ngd/neo-metamask-snap.git",
+        "screenshots": [
+          "./images/@vital-wallet/neo-snap/1.png",
+          "./images/@vital-wallet/neo-snap/2.png",
+          "./images/@vital-wallet/neo-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "KZ2eYSxf3G11WNH0fTXKobnneukRviupW0I3qw9QDSU="
+        }
+      }
+    },
     "npm:hapilabs-snap": {
       "id": "npm:hapilabs-snap",
       "metadata": {
@@ -2864,6 +2990,9 @@
         "sourceCode": "https://github.com/hashdit/metamask-snap"
       },
       "versions": {
+        "0.3.1": {
+          "checksum": "dPTackYM79xF7607L6iHLYbtvJOsSOmmizilV3hrKf4="
+        },
         "0.2.1": {
           "checksum": "dKhAW+kMEErpOUCnSH7jfLSYyoCH8DE+GvLcj63iBYM="
         }
@@ -3257,6 +3386,9 @@
         },
         "1.1.2": {
           "checksum": "euGuIXw57Wfb1sBktAhCRMd6DY8Xl07GOXOg88NF/Bk="
+        },
+        "1.1.6": {
+          "checksum": "P2BbaJn6jb7+ecBF6mJJnheQ4j8dtEZ8O4FLqLv8e8M="
         }
       }
     },
@@ -3345,6 +3477,9 @@
         "hidden": true
       },
       "versions": {
+        "2.3.0": {
+          "checksum": "1sEjG59gm8iGvsIT9oa2WLRjcr7XQz5k6gkNXjBvuPg="
+        },
         "2.2.1": {
           "checksum": "uOuMArCEwmOmCl0Bl1WnRRm+DKcq0Y+O+5n8Z1KBMr8="
         },
@@ -3471,8 +3606,8 @@
           "website": "https://bitbadges.io/"
         },
         "website": "https://bitbadges.io/snap",
-        "summary": "Scans relevant addresses in your transactions and allows you to check custom badge ownership requirements and more using BitBadges.",
-        "description": "This Snap scans relevant addresses in your transactions and allows you to check custom badge ownership requirements and more using BitBadges.\n\nAfter installing the Snap, you will see it in the transaction confirmation screen. You can also manage your BitBadges portfolio at https://bitbadges.io/snap",
+        "summary": "Gain insights into a user's BitBadges portfolio, allowing you to learn about their digital identity.",
+        "description": "The BitBadges Snap allows you to gain insights into a user's BitBadges portfolio, allowing you to learn about their digital identity.\n\nIt scans relevant addresses from a transaction and checks / displays custom criteria requirements, such as badge / NFT ownership, credentials, lists, protocols, attestations, and more. Connect BitBadges with any chain or any app (over 7000+ supported).",
         "category": "transaction insights",
         "support": {
           "knowledgeBase": "https://docs.bitbadges.io/overview/metamask-snap",
