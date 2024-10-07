@@ -3631,8 +3631,8 @@
       "metadata": {
         "name": "ZetaLink",
         "author": {
-          "name": "ZetaLink",
-          "website": "https://zetalink.xyz/"
+          "name": "Ishaan Parmar",
+          "website": "https://x.com/ishaanonx/"
         },
         "website": "https://zetalink.xyz/",
         "summary": "ZetaLink enables users to bridge and cross-chain transfer native Bitcoin to select ZRC20 tokens across ZetaChain, Ethereum, Binance Smart Chain & Polygon, offering seamless cross-chain functionality and enhanced interoperability.",
@@ -3647,7 +3647,7 @@
         "support": {
           "knowledgeBase": "https://docs.zetalink.xyz/",
           "faq": "https://docs.zetalink.xyz/faqs",
-          "contact": "mailto:zetamasksnap@gmail.com"
+          "contact": "mailto:zetalinksnap@gmail.com"
         },
         "sourceCode": "https://github.com/1337-ishaan/zetalink",
         "screenshots": [
@@ -3657,8 +3657,8 @@
         ]
       },
       "versions": {
-        "0.1.3": {
-          "checksum": "RIpqkrk1JlrMIlXy7IQfcSsDjLTb3lXM9odEfWNeC5E="
+        "0.1.4": {
+          "checksum": "zdaDsSi6V14Eha1KYSGWLx8qOIM978zK/A/Si1fZwpE="
         }
       }
     },
