@@ -1916,8 +1916,8 @@
         ]
       },
       "versions": {
-        "1.0.1": {
-          "checksum": "rjYY01lsd54N5MFVwrnNmSkZmy90tsaqcPkRMWkPOM8="
+        "1.0.2": {
+          "checksum": "OtRtdHFRdkF5fzebgTTaN/1u0B9T3F55RG7TO/wLrcs="
         }
       }
     },
@@ -2533,7 +2533,7 @@
         },
         "website": "https://nomis.cc/snap/",
         "summary": "Check your Nomis-powered score directly in MetaMask and view recipients' scores in transaction confirmations to see if they are reliable users.",
-        "description": "The Nomis Protocol Snap allows you to view your Nomis scores from within MetaMask.\n\nAfter installing the Nomis Protocol Snap, select the chain you are interested in, then open Nomis Protocol through the Snaps menu in MetaMask, and connect the desired account to view your Nomis score. We display your minted score on the Snap's homepage; if your score hasn't been minted yet, you will have the option to calculate it!\n\nWhen performing transactions, switch to the Nomis Protocol Snap tab to see the counterparty's score, provided they have a minted score.\n\nYou can always switch the active account by going to https://nomis.cc/snap.",
+        "description": "The Nomis Protocol Snap allows you to view your Nomis Scores within MetaMask.\n\nAfter installing the Nomis Protocol Snap, choose the chain you're interested in, then access Nomis Protocol from the Snaps menu in MetaMask. Connect your desired account to view your Nomis Score. Your minted Score will be displayed on the Snap's homepage. If it hasn't been minted yet, you'll have the option to calculate it.\n\nWhen conducting transactions, switch to the Nomis Protocol Snap tab to view the counterparty's Score, as long as they have a minted Score.\n\nYou can always switch the active account by visiting https://nomis.cc.",
         "category": "transaction insights",
         "support": {
           "contact": "https://discord.com/invite/0xnomis",
@@ -2548,8 +2548,8 @@
         ]
       },
       "versions": {
-        "0.1.4": {
-          "checksum": "DGI3POjXiBCuVZmCbG2cciqSi+qJdpVBgZixWcs6Ph8="
+        "0.1.5": {
+          "checksum": "zQ9UOPgD92Me7v9ZaUrHZtSvtSgKkgwhHgOwejAmKyw="
         }
       }
     },
