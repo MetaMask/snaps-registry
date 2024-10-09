@@ -1870,7 +1870,8 @@
         "category": "interoperability",
         "support": {
           "knowledgeBase": "https://docs.xrplsnap.com/",
-          "faq": "https://snap.xrplevm.org/#faq"
+          "faq": "https://snap.xrplevm.org/#faq",
+          "contact": "https://discord.gg/xrplevm"
         },
         "sourceCode": "https://github.com/Peersyst/xrpl-snap",
         "screenshots": [
