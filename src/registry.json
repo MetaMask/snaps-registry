@@ -1880,8 +1880,8 @@
         ]
       },
       "versions": {
-        "1.0.1": {
-          "checksum": "rjYY01lsd54N5MFVwrnNmSkZmy90tsaqcPkRMWkPOM8="
+        "1.0.2": {
+          "checksum": "OtRtdHFRdkF5fzebgTTaN/1u0B9T3F55RG7TO/wLrcs="
         }
       }
     },
@@ -2497,7 +2497,7 @@
         },
         "website": "https://nomis.cc/snap/",
         "summary": "Check your Nomis-powered score directly in MetaMask and view recipients' scores in transaction confirmations to see if they are reliable users.",
-        "description": "The Nomis Protocol Snap allows you to view your Nomis scores from within MetaMask.\n\nAfter installing the Nomis Protocol Snap, select the chain you are interested in, then open Nomis Protocol through the Snaps menu in MetaMask, and connect the desired account to view your Nomis score. We display your minted score on the Snap's homepage; if your score hasn't been minted yet, you will have the option to calculate it!\n\nWhen performing transactions, switch to the Nomis Protocol Snap tab to see the counterparty's score, provided they have a minted score.\n\nYou can always switch the active account by going to https://nomis.cc/snap.",
+        "description": "The Nomis Protocol Snap allows you to view your Nomis Scores within MetaMask.\n\nAfter installing the Nomis Protocol Snap, choose the chain you're interested in, then access Nomis Protocol from the Snaps menu in MetaMask. Connect your desired account to view your Nomis Score. Your minted Score will be displayed on the Snap's homepage. If it hasn't been minted yet, you'll have the option to calculate it.\n\nWhen conducting transactions, switch to the Nomis Protocol Snap tab to view the counterparty's Score, as long as they have a minted Score.\n\nYou can always switch the active account by visiting https://nomis.cc.",
         "category": "transaction insights",
         "support": {
           "contact": "https://discord.com/invite/0xnomis",
@@ -2512,8 +2512,8 @@
         ]
       },
       "versions": {
-        "0.1.4": {
-          "checksum": "DGI3POjXiBCuVZmCbG2cciqSi+qJdpVBgZixWcs6Ph8="
+        "0.1.5": {
+          "checksum": "zQ9UOPgD92Me7v9ZaUrHZtSvtSgKkgwhHgOwejAmKyw="
         }
       }
     },
@@ -3653,6 +3653,42 @@
       "versions": {
         "0.1.1": {
           "checksum": "8jMPCa9lCgK3ZTVLvXcnBmRBxvi75YRHWt7OXasukmE="
+        }
+      }
+    },
+    "npm:zetalink": {
+      "id": "npm:zetalink",
+      "metadata": {
+        "name": "ZetaLink",
+        "author": {
+          "name": "Ishaan Parmar",
+          "website": "https://x.com/ishaanonx/"
+        },
+        "website": "https://zetalink.xyz/",
+        "summary": "Bridge and cross-chain transfer native Bitcoin to select ZRC20 tokens across ZetaChain, Ethereum, Binance Smart Chain, and Polygon.",
+        "description": "ZetaLink is an innovative MetaMask Snap that allows users to deposit and transfer native Bitcoin to select ZRC20 tokens across multiple blockchain networks, including ZetaChain, Polygon, Binance Smart Chain, and Ethereum. This Snap enhances the MetaMask experience by providing seamless cross-chain functionality for both developers and users.\n\nZetaLink offers several key features. First, it provides cross-chain compatibility, enabling users to deposit native Bitcoin and convert it into ZRC20 tokens without needing to switch networks or wrap tokens. This makes it easier to interact with various decentralized applications (dApps) across multiple platforms. ZetaLink also features a user-friendly interface that simplifies asset management and transaction processes, allowing users to easily navigate their assets and conduct transactions with minimal effort.\n\nSecurity is paramount with ZetaLink, as it operates within the secure environment of MetaMask, ensuring that user data and transactions are protected. The Snap utilizes a permissions model that allows users to review the permissions granted during installation.\n\nTo use ZetaLink, follow these steps:\n\n- Depositing Bitcoin: Open your MetaMask wallet, navigate to the ZetaLink Snap within your installed Snaps, select the option to deposit Bitcoin, and follow the prompts to complete the transaction.\n- Transferring to native ZETA or ZRC20 Tokens: After depositing Bitcoin, choose your desired ZRC20 token from the list provided, enter the amount you wish to transfer, and confirm the transaction.\n- Managing Assets: Use the ZetaLink interface to view your balances across different tokens and monitor transaction history efficiently.\n\nThe benefits of using ZetaLink are significant. Users enjoy a seamless experience by interacting with multiple blockchains without needing to switch wallets or networks, making transactions more efficient. Increased liquidity is another advantage, as facilitating cross-chain transactions enhances liquidity across platforms and allows users to capitalize on market opportunities more effectively. For developers, ZetaLink creates innovative development opportunities by enabling them to create versatile dApps that utilize both Bitcoin and ZRC20 tokens.\n\nZetaLink is not just a tool -- it’s a gateway to a more interconnected blockchain experience. By bridging Bitcoin with emerging token standards like ZRC20, it empowers users and developers alike to explore new horizons in decentralized finance.\n\nJoin us in shaping the future of cross-chain interactions with ZetaLink!",
+        "audits": [
+          {
+            "auditor": "Hacken",
+            "report": "https://audits.hacken.io/zetachain/dapp-zetachain-snap-audit-jul2024/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://docs.zetalink.xyz/",
+          "faq": "https://docs.zetalink.xyz/faqs",
+          "contact": "mailto:zetalinksnap@gmail.com"
+        },
+        "sourceCode": "https://github.com/1337-ishaan/zetalink",
+        "screenshots": [
+          "./images/zetalink/1.png",
+          "./images/zetalink/2.png",
+          "./images/zetalink/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.4": {
+          "checksum": "zdaDsSi6V14Eha1KYSGWLx8qOIM978zK/A/Si1fZwpE="
         }
       }
     },
