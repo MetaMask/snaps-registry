@@ -3656,6 +3656,32 @@
         }
       }
     },
+    "npm:social-names-snap": {
+      "id": "npm:social-names-snap",
+      "metadata": {
+        "name": "Social Names",
+        "author": {
+          "name": "Christian Montoya",
+          "website": "https://github.com/Montoya"
+        },
+        "summary": "Use Farcaster and Lens usernames in MetaMask.",
+        "description": "Adds support for Farcaster and Lens handles to MetaMask.\n\nIn the MetaMask send flow, type a Lens handle like m0nt0y4.lens or a Farcaster username like farcaster:m0nt0y4 or fc:m0nt0y4 to resolve to the associated Ethereum address.\n\nYou will also see suggested Farcaster and Lens handles when interacting with addresses in MetaMask.",
+        "support": {
+          "contact": "https://github.com/Montoya/social-names-snap/issues"
+        },
+        "sourceCode": "https://github.com/Montoya/social-names-snap",
+        "screenshots": [
+          "./images/social-names-snap/1.jpg",
+          "./images/social-names-snap/2.jpg",
+          "./images/social-names-snap/3.jpg"
+        ]
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "q72wQgPM15TquXUfqO9TDe+tasw4894vl9HMpIeZkxU="
+        }
+      }
+    },
     "npm:zetalink": {
       "id": "npm:zetalink",
       "metadata": {
