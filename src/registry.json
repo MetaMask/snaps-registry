@@ -3605,6 +3605,7 @@
           "name": "SmartToken Labs",
           "website": " https://smarttokenlabs.com/"
         },
+        "website": "https://d3b4oczgnqtk98.cloudfront.net",
         "summary": "Tapp Snap allows Tapp users to save their Tapps in MetaMask. Then they can access them quickly.",
         "description": "Tapp Snap is a new way for Tapp users to access their own Tapps - a new kind of cross-platform mini app linking with a token.\nAfter installation, Tapp users can go to the Tapp sites via installed Tapp to finish any onchain/offchain actions.\nThis Snap makes MetaMasks a Tapp Store.",
         "category": "interoperability",
@@ -3621,8 +3622,8 @@
         ]
       },
       "versions": {
-        "0.0.3": {
-          "checksum": "w0a3OIRz//70JLtszwvKQFT6uJ9BlwKJk6a1pr9vXP4="
+        "0.0.4": {
+          "checksum": "2dngDF7smvhq8M1qMs1hnYNO2ZmKvYTOlHc1V8UyfCw="
         }
       }
     },
