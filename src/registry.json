@@ -3597,6 +3597,36 @@
         }
       }
     },
+    "npm:@token-kit/tapp-snap": {
+      "id": "npm:@token-kit/tapp-snap",
+      "metadata": {
+        "name": "Tapp",
+        "author": {
+          "name": "SmartToken Labs",
+          "website": " https://smarttokenlabs.com/"
+        },
+        "website": "https://d3b4oczgnqtk98.cloudfront.net",
+        "summary": "Access Tapps (cross-platform mini apps) in MetaMask",
+        "description": "Tapp Snap is a new way for Tapp users to access their own Tapps -- a new kind of cross-platform mini app linking with a token.\nAfter installation, Tapp users can go to the Tapp sites via installed Tapp to finish any onchain/offchain actions.\nThis Snap makes MetaMask a Tapp Store.",
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://github.com/TokenScript-Framework/token-kit/blob/main/packages/tapp-snap/README.md",
+          "faq": "https://github.com/TokenScript-Framework/token-kit/blob/main/packages/tapp-snap/FAQ.md",
+          "contact": "v@smarttokenlabs.com"
+        },
+        "sourceCode": "https://github.com/TokenScript-Framework/token-kit/tree/main/packages/tapp-snap",
+        "screenshots": [
+          "./images/@token-kit/tapp-snap/1.png",
+          "./images/@token-kit/tapp-snap/2.png",
+          "./images/@token-kit/tapp-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.0.4": {
+          "checksum": "2dngDF7smvhq8M1qMs1hnYNO2ZmKvYTOlHc1V8UyfCw="
+        }
+      }
+    },
     "npm:bitbadges-snap": {
       "id": "npm:bitbadges-snap",
       "metadata": {
