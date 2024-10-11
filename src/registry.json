@@ -855,7 +855,7 @@
         "website": "https://mendi.finance/snap",
         "summary": "Stay on top of your borrowing with timely notifications sent directly via MetaMask",
         "description": "Enables Mendi Finance users to set custom alerts based on their preferred borrow limit to receive notifications when their positions are above the preferred threshold.\n\nLearn more: https://mendi.finance/snap/",
-        "category": "transaction insights",
+        "category": "notifications",
         "support": {
           "contact": "https://discord.com/invite/G3vWy8cbnK",
           "faq": "https://docs.mendi.finance/mendi-snap/faq"
