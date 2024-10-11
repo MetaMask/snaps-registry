@@ -3597,6 +3597,36 @@
         }
       }
     },
+    "npm:@zenchain-protocol/zazen": {
+      "id": "npm:@zenchain-protocol/zazen",
+      "metadata": {
+        "name": "Zazen",
+        "author": {
+          "name": "Zenchain",
+          "website": " https://zenchain.io/"
+        },
+        "website": "https://node.zenchain.io/",
+        "summary": "A secure and convenient way to store and manage your Zenchain validator node cloud access keys directly within MetaMask. Zazen simplifies deploying and accessing your nodes by functioning as a password manager for your cloud keys.",
+        "description": "Zazen Snap: Secure Cloud Access Key Management within MetaMask\n\n\n\n\nZazen is a MetaMask Snap that provides a secure, encrypted storage solution for your Zenchain validator node cloud access keys directly within MetaMask. By integrating key management into your wallet, Zazen simplifies the process of deploying and accessing your validator nodes without the need for external password managers or manual key handling.\n\n\n\n\nKey Features:\n\n\n\n\n- Secure Storage: Zazen encrypts your cloud access keys, storing them securely within MetaMask's storage. This ensures that your sensitive information remains protected at all times.\n- Easy Access: Quickly deploy or log into your validator nodes without the hassle of managing keys externally. Zazen streamlines your workflow by keeping everything within MetaMask.\n- Future Expansion: Planned features include support for additional types of sensitive data and enhanced key management functionalities, providing greater flexibility and utility.\nTechnical and Security Considerations:\n\n\n\n\n- Encrypted Storage: Your keys are encrypted and stored securely within MetaMask's storage, accessible only when MetaMask is unlocked.\n- Permissions: Zazen requires the snap_manageState permission to manage the encrypted state within MetaMask.\n- Open-Source: Zazen is open-source, allowing transparency and community contributions to enhance security and functionality.\n- MetaMask Integration: Seamlessly integrates with MetaMask, ensuring a smooth and secure user experience without the need for additional software.",
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://docs.zenchain.io/docs/become-a-validator/zazen-snap-knowledge-base",
+          "faq": "https://docs.zenchain.io/docs/become-a-validator/zazen-snap-faq",
+          "contact": "https://github.com/zenchain-protocol/zazen/issues"
+        },
+        "sourceCode": "https://github.com/zenchain-protocol/zazen",
+        "screenshots": [
+          "./images/@zenchain-protocol/zazen/1.png",
+          "./images/@zenchain-protocol/zazen/2.png",
+          "./images/@zenchain-protocol/zazen/3.png"
+        ]
+      },
+      "versions": {
+        "0.0.5": {
+          "checksum": "mzr/twiFmjqwv0KmAKgwI9XVa7b0d3LeKn+wYIiKj3I="
+        }
+      }
+    },
     "npm:@token-kit/tapp-snap": {
       "id": "npm:@token-kit/tapp-snap",
       "metadata": {
