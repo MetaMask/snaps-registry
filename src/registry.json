@@ -855,7 +855,7 @@
         "website": "https://mendi.finance/snap",
         "summary": "Stay on top of your borrowing with timely notifications sent directly via MetaMask",
         "description": "Enables Mendi Finance users to set custom alerts based on their preferred borrow limit to receive notifications when their positions are above the preferred threshold.\n\nLearn more: https://mendi.finance/snap/",
-        "category": "transaction insights",
+        "category": "notifications",
         "support": {
           "contact": "https://discord.com/invite/G3vWy8cbnK",
           "faq": "https://docs.mendi.finance/mendi-snap/faq"
@@ -3597,6 +3597,36 @@
         }
       }
     },
+    "npm:@token-kit/tapp-snap": {
+      "id": "npm:@token-kit/tapp-snap",
+      "metadata": {
+        "name": "Tapp",
+        "author": {
+          "name": "SmartToken Labs",
+          "website": " https://smarttokenlabs.com/"
+        },
+        "website": "https://d3b4oczgnqtk98.cloudfront.net",
+        "summary": "Access Tapps (cross-platform mini apps) in MetaMask",
+        "description": "Tapp Snap is a new way for Tapp users to access their own Tapps -- a new kind of cross-platform mini app linking with a token.\nAfter installation, Tapp users can go to the Tapp sites via installed Tapp to finish any onchain/offchain actions.\nThis Snap makes MetaMask a Tapp Store.",
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://github.com/TokenScript-Framework/token-kit/blob/main/packages/tapp-snap/README.md",
+          "faq": "https://github.com/TokenScript-Framework/token-kit/blob/main/packages/tapp-snap/FAQ.md",
+          "contact": "v@smarttokenlabs.com"
+        },
+        "sourceCode": "https://github.com/TokenScript-Framework/token-kit/tree/main/packages/tapp-snap",
+        "screenshots": [
+          "./images/@token-kit/tapp-snap/1.png",
+          "./images/@token-kit/tapp-snap/2.png",
+          "./images/@token-kit/tapp-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.0.4": {
+          "checksum": "2dngDF7smvhq8M1qMs1hnYNO2ZmKvYTOlHc1V8UyfCw="
+        }
+      }
+    },
     "npm:bitbadges-snap": {
       "id": "npm:bitbadges-snap",
       "metadata": {
@@ -3623,6 +3653,32 @@
       "versions": {
         "0.1.1": {
           "checksum": "8jMPCa9lCgK3ZTVLvXcnBmRBxvi75YRHWt7OXasukmE="
+        }
+      }
+    },
+    "npm:social-names-snap": {
+      "id": "npm:social-names-snap",
+      "metadata": {
+        "name": "Social Names",
+        "author": {
+          "name": "Christian Montoya",
+          "website": "https://github.com/Montoya"
+        },
+        "summary": "Use Farcaster and Lens usernames in MetaMask.",
+        "description": "Adds support for Farcaster and Lens handles to MetaMask.\n\nIn the MetaMask send flow, type a Lens handle like m0nt0y4.lens or a Farcaster username like farcaster:m0nt0y4 or fc:m0nt0y4 to resolve to the associated Ethereum address.\n\nYou will also see suggested Farcaster and Lens handles when interacting with addresses in MetaMask.",
+        "support": {
+          "contact": "https://github.com/Montoya/social-names-snap/issues"
+        },
+        "sourceCode": "https://github.com/Montoya/social-names-snap",
+        "screenshots": [
+          "./images/social-names-snap/1.jpg",
+          "./images/social-names-snap/2.jpg",
+          "./images/social-names-snap/3.jpg"
+        ]
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "q72wQgPM15TquXUfqO9TDe+tasw4894vl9HMpIeZkxU="
         }
       }
     },
