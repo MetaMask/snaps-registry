@@ -855,7 +855,7 @@
         "website": "https://mendi.finance/snap",
         "summary": "Stay on top of your borrowing with timely notifications sent directly via MetaMask",
         "description": "Enables Mendi Finance users to set custom alerts based on their preferred borrow limit to receive notifications when their positions are above the preferred threshold.\n\nLearn more: https://mendi.finance/snap/",
-        "category": "transaction insights",
+        "category": "notifications",
         "support": {
           "contact": "https://discord.com/invite/G3vWy8cbnK",
           "faq": "https://docs.mendi.finance/mendi-snap/faq"
@@ -1909,8 +1909,8 @@
         ]
       },
       "versions": {
-        "1.0.1": {
-          "checksum": "rjYY01lsd54N5MFVwrnNmSkZmy90tsaqcPkRMWkPOM8="
+        "1.0.2": {
+          "checksum": "OtRtdHFRdkF5fzebgTTaN/1u0B9T3F55RG7TO/wLrcs="
         }
       }
     },
@@ -2513,6 +2513,36 @@
       "versions": {
         "0.6.0": {
           "checksum": "4Cq3R8uZ7z77wWYfS0sOQKhOl/TOd9Obh+konXYj7Yo="
+        }
+      }
+    },
+    "npm:nomis": {
+      "id": "npm:nomis",
+      "metadata": {
+        "name": "Nomis Protocol",
+        "author": {
+          "name": "Nomis Protocol",
+          "website": "https://nomis.cc"
+        },
+        "website": "https://nomis.cc/snap/",
+        "summary": "Check your Nomis-powered score directly in MetaMask and view recipients' scores in transaction confirmations to see if they are reliable users.",
+        "description": "The Nomis Protocol Snap allows you to view your Nomis Scores within MetaMask.\n\nAfter installing the Nomis Protocol Snap, choose the chain you're interested in, then access Nomis Protocol from the Snaps menu in MetaMask. Connect your desired account to view your Nomis Score. Your minted Score will be displayed on the Snap's homepage. If it hasn't been minted yet, you'll have the option to calculate it.\n\nWhen conducting transactions, switch to the Nomis Protocol Snap tab to view the counterparty's Score, as long as they have a minted Score.\n\nYou can always switch the active account by visiting https://nomis.cc.",
+        "category": "transaction insights",
+        "support": {
+          "contact": "https://discord.com/invite/0xnomis",
+          "knowledgeBase": "https://nomis.cc/#how-it-works",
+          "faq": "https://nomis.cc/#faq"
+        },
+        "sourceCode": "https://github.com/Nomis-cc/nomis-snaps",
+        "screenshots": [
+          "./images/nomis/1.png",
+          "./images/nomis/2.png",
+          "./images/nomis/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.5": {
+          "checksum": "zQ9UOPgD92Me7v9ZaUrHZtSvtSgKkgwhHgOwejAmKyw="
         }
       }
     },
@@ -3596,6 +3626,36 @@
         }
       }
     },
+    "npm:@token-kit/tapp-snap": {
+      "id": "npm:@token-kit/tapp-snap",
+      "metadata": {
+        "name": "Tapp",
+        "author": {
+          "name": "SmartToken Labs",
+          "website": " https://smarttokenlabs.com/"
+        },
+        "website": "https://d3b4oczgnqtk98.cloudfront.net",
+        "summary": "Access Tapps (cross-platform mini apps) in MetaMask",
+        "description": "Tapp Snap is a new way for Tapp users to access their own Tapps -- a new kind of cross-platform mini app linking with a token.\nAfter installation, Tapp users can go to the Tapp sites via installed Tapp to finish any onchain/offchain actions.\nThis Snap makes MetaMask a Tapp Store.",
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://github.com/TokenScript-Framework/token-kit/blob/main/packages/tapp-snap/README.md",
+          "faq": "https://github.com/TokenScript-Framework/token-kit/blob/main/packages/tapp-snap/FAQ.md",
+          "contact": "v@smarttokenlabs.com"
+        },
+        "sourceCode": "https://github.com/TokenScript-Framework/token-kit/tree/main/packages/tapp-snap",
+        "screenshots": [
+          "./images/@token-kit/tapp-snap/1.png",
+          "./images/@token-kit/tapp-snap/2.png",
+          "./images/@token-kit/tapp-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.0.4": {
+          "checksum": "2dngDF7smvhq8M1qMs1hnYNO2ZmKvYTOlHc1V8UyfCw="
+        }
+      }
+    },
     "npm:bitbadges-snap": {
       "id": "npm:bitbadges-snap",
       "metadata": {
@@ -3622,6 +3682,68 @@
       "versions": {
         "0.1.1": {
           "checksum": "8jMPCa9lCgK3ZTVLvXcnBmRBxvi75YRHWt7OXasukmE="
+        }
+      }
+    },
+    "npm:social-names-snap": {
+      "id": "npm:social-names-snap",
+      "metadata": {
+        "name": "Social Names",
+        "author": {
+          "name": "Christian Montoya",
+          "website": "https://github.com/Montoya"
+        },
+        "summary": "Use Farcaster and Lens usernames in MetaMask.",
+        "description": "Adds support for Farcaster and Lens handles to MetaMask.\n\nIn the MetaMask send flow, type a Lens handle like m0nt0y4.lens or a Farcaster username like farcaster:m0nt0y4 or fc:m0nt0y4 to resolve to the associated Ethereum address.\n\nYou will also see suggested Farcaster and Lens handles when interacting with addresses in MetaMask.",
+        "support": {
+          "contact": "https://github.com/Montoya/social-names-snap/issues"
+        },
+        "sourceCode": "https://github.com/Montoya/social-names-snap",
+        "screenshots": [
+          "./images/social-names-snap/1.jpg",
+          "./images/social-names-snap/2.jpg",
+          "./images/social-names-snap/3.jpg"
+        ]
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "q72wQgPM15TquXUfqO9TDe+tasw4894vl9HMpIeZkxU="
+        }
+      }
+    },
+    "npm:zetalink": {
+      "id": "npm:zetalink",
+      "metadata": {
+        "name": "ZetaLink",
+        "author": {
+          "name": "Ishaan Parmar",
+          "website": "https://x.com/ishaanonx/"
+        },
+        "website": "https://zetalink.xyz/",
+        "summary": "Bridge and cross-chain transfer native Bitcoin to select ZRC20 tokens across ZetaChain, Ethereum, Binance Smart Chain, and Polygon.",
+        "description": "ZetaLink is an innovative MetaMask Snap that allows users to deposit and transfer native Bitcoin to select ZRC20 tokens across multiple blockchain networks, including ZetaChain, Polygon, Binance Smart Chain, and Ethereum. This Snap enhances the MetaMask experience by providing seamless cross-chain functionality for both developers and users.\n\nZetaLink offers several key features. First, it provides cross-chain compatibility, enabling users to deposit native Bitcoin and convert it into ZRC20 tokens without needing to switch networks or wrap tokens. This makes it easier to interact with various decentralized applications (dApps) across multiple platforms. ZetaLink also features a user-friendly interface that simplifies asset management and transaction processes, allowing users to easily navigate their assets and conduct transactions with minimal effort.\n\nSecurity is paramount with ZetaLink, as it operates within the secure environment of MetaMask, ensuring that user data and transactions are protected. The Snap utilizes a permissions model that allows users to review the permissions granted during installation.\n\nTo use ZetaLink, follow these steps:\n\n- Depositing Bitcoin: Open your MetaMask wallet, navigate to the ZetaLink Snap within your installed Snaps, select the option to deposit Bitcoin, and follow the prompts to complete the transaction.\n- Transferring to native ZETA or ZRC20 Tokens: After depositing Bitcoin, choose your desired ZRC20 token from the list provided, enter the amount you wish to transfer, and confirm the transaction.\n- Managing Assets: Use the ZetaLink interface to view your balances across different tokens and monitor transaction history efficiently.\n\nThe benefits of using ZetaLink are significant. Users enjoy a seamless experience by interacting with multiple blockchains without needing to switch wallets or networks, making transactions more efficient. Increased liquidity is another advantage, as facilitating cross-chain transactions enhances liquidity across platforms and allows users to capitalize on market opportunities more effectively. For developers, ZetaLink creates innovative development opportunities by enabling them to create versatile dApps that utilize both Bitcoin and ZRC20 tokens.\n\nZetaLink is not just a tool -- it’s a gateway to a more interconnected blockchain experience. By bridging Bitcoin with emerging token standards like ZRC20, it empowers users and developers alike to explore new horizons in decentralized finance.\n\nJoin us in shaping the future of cross-chain interactions with ZetaLink!",
+        "audits": [
+          {
+            "auditor": "Hacken",
+            "report": "https://audits.hacken.io/zetachain/dapp-zetachain-snap-audit-jul2024/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://docs.zetalink.xyz/",
+          "faq": "https://docs.zetalink.xyz/faqs",
+          "contact": "mailto:zetalinksnap@gmail.com"
+        },
+        "sourceCode": "https://github.com/1337-ishaan/zetalink",
+        "screenshots": [
+          "./images/zetalink/1.png",
+          "./images/zetalink/2.png",
+          "./images/zetalink/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.4": {
+          "checksum": "zdaDsSi6V14Eha1KYSGWLx8qOIM978zK/A/Si1fZwpE="
         }
       }
     },
