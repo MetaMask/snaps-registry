@@ -3676,6 +3676,18 @@
           "checksum": "xk7O5itVsuV3Dfldq3rI3WgggHa3z7HX7e17jzheE8w="
         }
       }
+    },
+    "npm:name-lookup-test": {
+      "id": "npm:name-lookup-test",
+      "metadata": {
+        "name": "Name Lookup Test",
+        "hidden": true
+      },
+      "versions": {
+        "0.1.0": {
+          "checksum": "02AYheZFFApJkX6iAukAAnUP8lVuYSQOPx9Y1XkPTRw="
+        }
+      }
     }
   },
   "blockedSnaps": [
