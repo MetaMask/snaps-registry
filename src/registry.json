@@ -3658,6 +3658,37 @@
         }
       }
     },
+    "npm:@web3-name-sdk/snap": {
+      "id": "npm:@web3-name-sdk/snap",
+      "metadata": {
+        "name": "SPACE ID Web3 Domain",
+        "author": {
+          "name": "SPACE ID",
+          "website": "https://space.id/"
+        },
+        "website": "https://snap.space.id/",
+        "summary": "The SPACE ID Web3 Domain Snap enables the resolution of web3 domains in MetaMask, such that you can type in domain names when you transfer crypto.",
+        "description": "After installing the SPACE ID Web3 Domain Snap, when transferring crypto, you can type in any web3 domains names you registered on SPACE ID directly instead of copying & pasting complex wallet addresses.",
+        "audits": [
+          {
+            "auditor": "SlowMist",
+            "report": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/blockchain-application/SlowMist%20Audit%20Report%20-%20web3-name-snap_en-us.pdf"
+          }
+        ],
+        "category": "name resolution",
+        "support": {
+          "contact": "https://discord.gg/spaceid",
+          "knowledgeBase": "https://docs.space.id/getting-started/using-domain-on-metamask-snap-releasing/knowledge-base",
+          "faq": "https://docs.space.id/getting-started/using-domain-on-metamask-snap-releasing/general-faq"
+        },
+        "sourceCode": "https://github.com/Space-ID/web3-name-snap"
+      },
+      "versions": {
+        "0.0.5": {
+          "checksum": "8IHINVWrGUgeSGH2bT2kg9TDhpExP2jgDOsA+2fShU4="
+        }
+      }
+    },
     "npm:@token-kit/tapp-snap": {
       "id": "npm:@token-kit/tapp-snap",
       "metadata": {
