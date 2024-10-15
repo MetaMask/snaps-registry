@@ -938,36 +938,6 @@
         }
       }
     },
-    "npm:@clustersxyz/metamask-snap": {
-      "id": "npm:@clustersxyz/metamask-snap",
-      "metadata": {
-        "name": "Clusters",
-        "author": {
-          "name": "Clusters",
-          "website": "https://clusters.xyz"
-        },
-        "website": "https://clusters.xyz",
-        "summary": "View clusters names natively within your wallet",
-        "description": "After installing the Snap, configure your cluster at https://clusters.xyz then use cluster names for sending and receiving native tokens, ERC20s, or NFTs",
-        "category": "name resolution",
-        "support": {
-          "contact": "mailto:rye@clusters.xyz",
-          "faq": "https://github.com/clustersxyz/metamask-snap/wiki/FAQ",
-          "knowledgeBase": "https://github.com/clustersxyz/metamask-snap/wiki"
-        },
-        "sourceCode": "https://github.com/clustersxyz/metamask-snap",
-        "screenshots": [
-          "./images/@clustersxyz/metamask-snap/1.png",
-          "./images/@clustersxyz/metamask-snap/2.png",
-          "./images/@clustersxyz/metamask-snap/3.png"
-        ]
-      },
-      "versions": {
-        "0.1.0": {
-          "checksum": "N96QmstXczcmjpAHYmAePDFt4Zpc2CUrHBumJs+ahIM="
-        }
-      }
-    },
     "npm:tezos-metamask-snap": {
       "id": "npm:tezos-metamask-snap",
       "metadata": {
@@ -3745,33 +3715,6 @@
       "versions": {
         "0.1.1": {
           "checksum": "8jMPCa9lCgK3ZTVLvXcnBmRBxvi75YRHWt7OXasukmE="
-        }
-      }
-    },
-    "npm:social-names-snap": {
-      "id": "npm:social-names-snap",
-      "metadata": {
-        "name": "Social Names",
-        "author": {
-          "name": "Christian Montoya",
-          "website": "https://github.com/Montoya"
-        },
-        "summary": "Use Farcaster and Lens usernames in MetaMask.",
-        "description": "Adds support for Farcaster and Lens handles to MetaMask.\n\nIn the MetaMask send flow, type a Lens handle like m0nt0y4.lens or a Farcaster username like farcaster:m0nt0y4 or fc:m0nt0y4 to resolve to the associated Ethereum address.\n\nYou will also see suggested Farcaster and Lens handles when interacting with addresses in MetaMask.",
-        "category": "name resolution",
-        "support": {
-          "contact": "https://github.com/Montoya/social-names-snap/issues"
-        },
-        "sourceCode": "https://github.com/Montoya/social-names-snap",
-        "screenshots": [
-          "./images/social-names-snap/1.jpg",
-          "./images/social-names-snap/2.jpg",
-          "./images/social-names-snap/3.jpg"
-        ]
-      },
-      "versions": {
-        "0.1.3": {
-          "checksum": "ACPnWAXyf2A/qkemSFnWJWdesyYJ7sXGcugPX3cvwhs="
         }
       }
     },
