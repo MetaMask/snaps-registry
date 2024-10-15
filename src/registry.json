@@ -3666,6 +3666,7 @@
         },
         "summary": "Use Farcaster and Lens usernames in MetaMask.",
         "description": "Adds support for Farcaster and Lens handles to MetaMask.\n\nIn the MetaMask send flow, type a Lens handle like m0nt0y4.lens or a Farcaster username like farcaster:m0nt0y4 or fc:m0nt0y4 to resolve to the associated Ethereum address.\n\nYou will also see suggested Farcaster and Lens handles when interacting with addresses in MetaMask.",
+        "category": "name resolution",
         "support": {
           "contact": "https://github.com/Montoya/social-names-snap/issues"
         },
