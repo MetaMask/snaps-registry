@@ -1393,7 +1393,7 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "support@qtum.info",
+          "contact": "mailto:support@qtum.info",
           "faq": "https://github.com/qtumproject/qtum-extension-wallet?tab=readme-ov-file#qtum-wallet-faq",
           "knowledgeBase": "https://github.com/qtumproject/qtum-extension-wallet?tab=readme-ov-file#qtum-wallet-knowledge-doc"
         },
@@ -2137,7 +2137,7 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "donna@aeternity.com"
+          "contact": "mailto:donna@aeternity.com"
         },
         "sourceCode": "https://github.com/4-point-0/aeternity-snap"
       },
@@ -3704,7 +3704,7 @@
         "support": {
           "knowledgeBase": "https://github.com/TokenScript-Framework/token-kit/blob/main/packages/tapp-snap/README.md",
           "faq": "https://github.com/TokenScript-Framework/token-kit/blob/main/packages/tapp-snap/FAQ.md",
-          "contact": "v@smarttokenlabs.com"
+          "contact": "mailto:v@smarttokenlabs.com"
         },
         "sourceCode": "https://github.com/TokenScript-Framework/token-kit/tree/main/packages/tapp-snap",
         "screenshots": [
