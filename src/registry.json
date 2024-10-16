@@ -2683,7 +2683,7 @@
         },
         "website": "https://fio.net/",
         "summary": "Connect with MetaMask to FIO Protocol App to register your FREE custom FIO Handle and map it to all your crypto public addresses.",
-        "description": "Connect with MetaMask to FIO Protocol App to register your FREE custom FIO Handle and map it to all your crypto public addresses.\n\nFIO Protocol makes crypto easier. You can replace all your public wallet addresses with a single, secure, customizable handle and make any transaction, on any chain, as easy as sending an email. FIO Handles work across many leading wallets and exchanges.\n\nWith the FIO Protocol App you can also send and receive crypto payment requests and even sign NFTs to assert your ownership. FIO Handles are now supported inside MetaMask.\n\nHead over to FIO App to register your FREE FIO Handle: https://app.fio.net/",
+        "description": "Connect with MetaMask to FIO Protocol App to register your FREE custom FIO Handle and map it to all your crypto public addresses.\n\nFIO Protocol makes crypto easier. You can replace all your public wallet addresses with a single, secure, customizable handle and make any transaction, on any chain, as easy as sending an email. FIO Handles work across many leading wallets and exchanges.\n\nWith the FIO Protocol App you can also send and receive crypto payment requests and even sign NFTs to assert your ownership. FIO Handles are now supported inside MetaMask.\n\nHead over to FIO App to register your FREE FIO Handle: https://app.fio.net/\n\nPlease note: FIO handles are only compatible with MetaMask Extension version 12.4.2 and up. Please make sure you are on the latest version of the MetaMask Extension before adding this Snap to MetaMask.",
         "audits": [
           {
             "auditor": "Sayfer",
@@ -3850,7 +3850,7 @@
           "website": "https://unstoppabledomains.com/"
         },
         "summary": "Simplify transactions with your Unstoppable Domain",
-        "description": "Replace long, complex wallet addresses with an easy-to-read Unstoppable Domain to effortlessly send and receive crypto.\n\nAfter installing the Snap, you will be able to use Unstoppable Domains in the send flow.",
+        "description": "Replace long, complex wallet addresses with an easy-to-read Unstoppable Domain to effortlessly send and receive crypto.\n\nAfter installing the Snap, you will be able to use Unstoppable Domains in the send flow.\n\nPlease note: this Snap is only compatible with MetaMask Extension version 12.4.1 and up, and .x names are only compatible with MetaMask Extension version 12.4.2 and up. Please make sure you are on the latest version of the MetaMask Extension before adding this Snap to MetaMask.",
         "category": "name resolution",
         "support": {
           "knowledgeBase": "https://unstoppabledomains.com/products/metamask",
