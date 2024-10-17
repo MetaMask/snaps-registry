@@ -2812,6 +2812,9 @@
         ]
       },
       "versions": {
+        "0.5.4": {
+          "checksum": "OIpcuFQsDSAMs64+tsEsX1oOkiCBMvjZxZapAnP7Icc="
+        },
         "0.5.2": {
           "checksum": "CxeY1z4aGsWPq2A5NK7zxIKVDv8Vvv/oDgDgmD2nG5Y="
         },
