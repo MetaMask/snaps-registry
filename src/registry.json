@@ -259,7 +259,7 @@
           "website": "https://www.tuum.tech/"
         },
         "website": "https://www.tuum.tech/identify",
-        "summary": "AuthFlow is a credential management Snap for both basic and verifiable credentials.",
+        "summary": "Credential management for both basic and verifiable credentials.",
         "description": "AuthFlow manages both basic and verifiable credentials, and requires that Identify Snap is installed as a pre-requisite. There are two entry points, the homepage UI and the JSON-RPC API.\n\nVia the Snap homepage: \n- Store basic credentials - 'Store New Passwords'\n- Delete a basic credential - 'Delete Single Password'\n- Delete all basic credentials - 'Delete All Passwords'\n- Display basic credentials - 'Show All Passwords'\n- Display verifiable credentials - 'Get All Verifiable Credentials'\n- Delete all stored verifiable credentials - 'Delete All Verifiable Credentials'\n- Delete a single verifiable credential - 'Delete One Verifiable Credential'\n- Rename a verifiable credential with a friendly name - 'Rename Verifiable Credential'\n- Create a verifiable presentation with a comma separated list of verifiable credential names - 'Create Verifiable Presentation'\n- Create a sample verifiable credential - 'Create Sample Verifiable Credential'\n- Sync AuthFlow and Identify records of verifiable credentials - 'Sync With Identify'\n\nVia the JSON-RPC API\n- Send a basic credential to a dapp given a friendly name as input - 'getBasicCreds'\n- Send a verifiable credential to a dapp given a friendly name as input - 'getVerifiableCreds'\n- Create a verifiable presentation from a comma separated list of verifiable credentials and send to a dapp - 'Create Verifiable Presentation'",
         "audits": [
           {
@@ -281,8 +281,8 @@
         ]
       },
       "versions": {
-        "0.1.1": {
-          "checksum": "4kTm+RM8bwCfpZTF5S1PntkcQkoH+egfoUj/KiQsKjY="
+        "0.1.2": {
+          "checksum": "a7WanCudd/6LRniEiou/pTQHnyb8/sJdOdsERE1k+Bg="
         }
       }
     },
