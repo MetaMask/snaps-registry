@@ -855,7 +855,7 @@
         "website": "https://mendi.finance/snap",
         "summary": "Stay on top of your borrowing with timely notifications sent directly via MetaMask",
         "description": "Enables Mendi Finance users to set custom alerts based on their preferred borrow limit to receive notifications when their positions are above the preferred threshold.\n\nLearn more: https://mendi.finance/snap/",
-        "category": "transaction insights",
+        "category": "notifications",
         "support": {
           "contact": "https://discord.com/invite/G3vWy8cbnK",
           "faq": "https://docs.mendi.finance/mendi-snap/faq"
@@ -901,6 +901,35 @@
         }
       }
     },
+    "npm:iotex-snap": {
+      "id": "npm:iotex-snap",
+      "metadata": {
+        "name": "IoTeX",
+        "author": {
+          "name": "IoTeX Network",
+          "website": "https://iotex.io/"
+        },
+        "summary": "Boost MetaMask with IoTeX Snap: Send tokens to io addresses or INS domains, convert addresses, and track DePIN projects—all in one place.",
+        "description": "Unleash the power of IoTeX directly in MetaMask with the IoTeX Snap! This Snap enables you to:\n\n- Send tokens to io addresses or INS domains\n- Seamlessly convert addresses between io and 0x formats\n- Get real-time updates and information about DePIN projects\n\nThe IoTeX Snap is designed for a smooth, community-driven experience that keeps you at the forefront of decentralized and physical networks (DePIN). Boost your wallet with the power of IoTeX today!",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://discord.com/invite/q5eYde2CU7",
+          "faq": "https://github.com/iotexproject/iotex-snap/blob/main/packages/snap/README.md#iotex-metamask-snap--faq",
+          "knowledgeBase": "https://github.com/iotexproject/iotex-snap/blob/main/packages/snap/README.md#iotex-metamask-snap--knowledge-base"
+        },
+        "sourceCode": "https://github.com/iotexproject/iotex-snap/",
+        "screenshots": [
+          "./images/iotex-snap/1.png",
+          "./images/iotex-snap/2.png",
+          "./images/iotex-snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.5.3": {
+          "checksum": "MccEmY8k4npuubSTeJFG7/hcoCkK/CXSualiUF9KHUM="
+        }
+      }
+    },
     "npm:@kleros/scout-snap": {
       "id": "npm:@kleros/scout-snap",
       "metadata": {
@@ -910,8 +939,8 @@
           "website": "https://kleros.io/"
         },
         "website": "https://docs.kleros.io/products/curate/kleros-scout-metamask-snaps",
-        "summary": "A Snap that retrieves contract metadata from the Kleros Curate registries",
-        "description": "This Snap pulls contract metadata from Kleros's decentralized token curated registries to provide insights to the contract you are interacting with. After installing the Snap, you will see it in the transaction confirmation window.",
+        "summary": "Kleros Scout pulls contract metadata from Kleros' community curated registries to provide insights to the smart contract you are interacting with.",
+        "description": "This Snap pulls contract metadata from Kleros's decentralized token curated registries to provide insights to the contract you are interacting with. \nAfter installing the Snap, you will see it in the transaction confirmation window.",
         "audits": [
           {
             "auditor": "Veridise",
@@ -932,8 +961,38 @@
         ]
       },
       "versions": {
-        "1.3.1": {
-          "checksum": "KCzo/QBHtC+GPdGeVJaIgLy+O5nucZ3jEY7PvNbBtH4="
+        "1.3.5": {
+          "checksum": "ivW78LinUsRIAcMxw28YM6oWXyPQOw4rNSRJpTc5NrI="
+        }
+      }
+    },
+    "npm:@clustersxyz/metamask-snap": {
+      "id": "npm:@clustersxyz/metamask-snap",
+      "metadata": {
+        "name": "Clusters",
+        "author": {
+          "name": "Clusters",
+          "website": "https://clusters.xyz"
+        },
+        "website": "https://clusters.xyz",
+        "summary": "View clusters names natively within your wallet",
+        "description": "After installing the Snap, configure your cluster at https://clusters.xyz then use cluster names for sending and receiving native tokens, ERC20s, or NFTs",
+        "category": "name resolution",
+        "support": {
+          "contact": "mailto:rye@clusters.xyz",
+          "faq": "https://github.com/clustersxyz/metamask-snap/wiki/FAQ",
+          "knowledgeBase": "https://github.com/clustersxyz/metamask-snap/wiki"
+        },
+        "sourceCode": "https://github.com/clustersxyz/metamask-snap",
+        "screenshots": [
+          "./images/@clustersxyz/metamask-snap/1.png",
+          "./images/@clustersxyz/metamask-snap/2.png",
+          "./images/@clustersxyz/metamask-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.0": {
+          "checksum": "N96QmstXczcmjpAHYmAePDFt4Zpc2CUrHBumJs+ahIM="
         }
       }
     },
@@ -1362,7 +1421,7 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "support@qtum.info",
+          "contact": "mailto:support@qtum.info",
           "faq": "https://github.com/qtumproject/qtum-extension-wallet?tab=readme-ov-file#qtum-wallet-faq",
           "knowledgeBase": "https://github.com/qtumproject/qtum-extension-wallet?tab=readme-ov-file#qtum-wallet-knowledge-doc"
         },
@@ -1908,8 +1967,8 @@
         ]
       },
       "versions": {
-        "1.0.1": {
-          "checksum": "rjYY01lsd54N5MFVwrnNmSkZmy90tsaqcPkRMWkPOM8="
+        "1.0.2": {
+          "checksum": "OtRtdHFRdkF5fzebgTTaN/1u0B9T3F55RG7TO/wLrcs="
         }
       }
     },
@@ -2106,7 +2165,7 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "donna@aeternity.com"
+          "contact": "mailto:donna@aeternity.com"
         },
         "sourceCode": "https://github.com/4-point-0/aeternity-snap"
       },
@@ -2323,7 +2382,7 @@
         },
         "website": "https://app-andromeda.galactica.com/",
         "summary": "Manages zero-knowledge certificates on Galactica.com - own your identity, not just your assets",
-        "description": "The Galactica.com ZK Vault Snap holds zero-knowledge certificates issued on Galactica Network in the user's wallet, allowing self custody of your data. It generates zero-knowledge proofs inside MetaMask to selectively disclose statements on-chain while keeping personal data private. For example, you can import a KYC certificate and privately prove your authenticity and compliance to a smart contract.\n\nAfter installing the Snap, visit https://app-andromeda.galactica.com/ to get started.",
+        "description": "The Galactica.com ZK Vault Snap holds zero-knowledge certificates issued on Galactica Network in the user's wallet, allowing self custody of your data. It generates zero-knowledge proofs inside MetaMask to selectively disclose statements on-chain while keeping personal data private. For example, you can import a KYC certificate and privately prove your authenticity and compliance to a smart contract.\n\n\n\nAfter installing the Snap, visit https://app-reticulum.galactica.com/ to get started.",
         "audits": [
           {
             "auditor": "Sayfer",
@@ -2343,6 +2402,9 @@
         ]
       },
       "versions": {
+        "0.8.3": {
+          "checksum": "cGKt6nNCMN6tJAyXdCH/6Pw2J9l2IvsY2uTjsIJiitk="
+        },
         "0.7.3": {
           "checksum": "tKTO2/Dru/fEinbw1Ag63I+wLT2aE/XX4XMHwzfS3ow="
         },
@@ -2515,6 +2577,36 @@
         }
       }
     },
+    "npm:nomis": {
+      "id": "npm:nomis",
+      "metadata": {
+        "name": "Nomis Protocol",
+        "author": {
+          "name": "Nomis Protocol",
+          "website": "https://nomis.cc"
+        },
+        "website": "https://nomis.cc/snap/",
+        "summary": "Check your Nomis-powered score directly in MetaMask and view recipients' scores in transaction confirmations to see if they are reliable users.",
+        "description": "The Nomis Protocol Snap allows you to view your Nomis Scores within MetaMask.\n\nAfter installing the Nomis Protocol Snap, choose the chain you're interested in, then access Nomis Protocol from the Snaps menu in MetaMask. Connect your desired account to view your Nomis Score. Your minted Score will be displayed on the Snap's homepage. If it hasn't been minted yet, you'll have the option to calculate it.\n\nWhen conducting transactions, switch to the Nomis Protocol Snap tab to view the counterparty's Score, as long as they have a minted Score.\n\nYou can always switch the active account by visiting https://nomis.cc.",
+        "category": "transaction insights",
+        "support": {
+          "contact": "https://discord.com/invite/0xnomis",
+          "knowledgeBase": "https://nomis.cc/#how-it-works",
+          "faq": "https://nomis.cc/#faq"
+        },
+        "sourceCode": "https://github.com/Nomis-cc/nomis-snaps",
+        "screenshots": [
+          "./images/nomis/1.png",
+          "./images/nomis/2.png",
+          "./images/nomis/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.5": {
+          "checksum": "zQ9UOPgD92Me7v9ZaUrHZtSvtSgKkgwhHgOwejAmKyw="
+        }
+      }
+    },
     "npm:@l3mbda/metamask-snap": {
       "id": "npm:@l3mbda/metamask-snap",
       "metadata": {
@@ -2620,22 +2712,24 @@
         },
         "website": "https://fio.net/",
         "summary": "Connect with MetaMask to FIO Protocol App to register your FREE custom FIO Handle and map it to all your crypto public addresses.",
-        "description": "Connect with MetaMask to FIO Protocol App to register your FREE custom FIO Handle and map it to all your crypto public addresses.\n\nFIO Protocol makes crypto easier. You can replace all your public wallet addresses with a single, secure, customizable handle and make any transaction, on any chain, as easy as sending an email. FIO Handles work across many leading wallets and exchanges.\n\nWith the FIO Protocol App you can also send and receive crypto payment requests and even sign NFTs to assert your ownership.\n\nHead over to FIO App to register your FREE FIO Handle: https://app.fio.net/",
+        "description": "Connect with MetaMask to FIO Protocol App to register your FREE custom FIO Handle and map it to all your crypto public addresses.\n\nFIO Protocol makes crypto easier. You can replace all your public wallet addresses with a single, secure, customizable handle and make any transaction, on any chain, as easy as sending an email. FIO Handles work across many leading wallets and exchanges.\n\nWith the FIO Protocol App you can also send and receive crypto payment requests and even sign NFTs to assert your ownership. FIO Handles are now supported inside MetaMask.\n\nHead over to FIO App to register your FREE FIO Handle: https://app.fio.net/\n\nPlease note: FIO handles are only compatible with MetaMask Extension version 12.4.2 and up. Please make sure you are on the latest version of the MetaMask Extension before adding this Snap to MetaMask.",
         "audits": [
           {
             "auditor": "Sayfer",
             "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-fio/"
           }
         ],
-        "category": "interoperability",
+        "category": "name resolution",
         "support": {
           "contact": "https://help.fio.net",
-          "knowledgeBase": "https://app.fio.net/metamask",
           "faq": "https://app.fio.net/metamask"
         },
         "sourceCode": "https://github.com/fioprotocol/fio-wallet-snap"
       },
       "versions": {
+        "1.1.1": {
+          "checksum": "Zif5f5FHoyFlCBY7PPD5+dDfa9VKFjRraKH85m71HJk="
+        },
         "1.0.2": {
           "checksum": "b6Z0SYw5x5yYEYu1TiguPRbRV/izLsjK0FFJ/+strwg="
         }
@@ -3595,6 +3689,97 @@
         }
       }
     },
+    "npm:@zenchain-protocol/zazen": {
+      "id": "npm:@zenchain-protocol/zazen",
+      "metadata": {
+        "name": "Zazen",
+        "author": {
+          "name": "Zenchain",
+          "website": " https://zenchain.io/"
+        },
+        "website": "https://node.zenchain.io/",
+        "summary": "A secure and convenient way to store and manage your Zenchain validator node cloud access keys directly within MetaMask. Zazen simplifies deploying and accessing your nodes by functioning as a password manager for your cloud keys.",
+        "description": "Zazen Snap: Secure Cloud Access Key Management within MetaMask\n\n\n\n\nZazen is a MetaMask Snap that provides a secure, encrypted storage solution for your Zenchain validator node cloud access keys directly within MetaMask. By integrating key management into your wallet, Zazen simplifies the process of deploying and accessing your validator nodes without the need for external password managers or manual key handling.\n\n\n\n\nKey Features:\n\n\n\n\n- Secure Storage: Zazen encrypts your cloud access keys, storing them securely within MetaMask's storage. This ensures that your sensitive information remains protected at all times.\n- Easy Access: Quickly deploy or log into your validator nodes without the hassle of managing keys externally. Zazen streamlines your workflow by keeping everything within MetaMask.\n- Future Expansion: Planned features include support for additional types of sensitive data and enhanced key management functionalities, providing greater flexibility and utility.\nTechnical and Security Considerations:\n\n\n\n\n- Encrypted Storage: Your keys are encrypted and stored securely within MetaMask's storage, accessible only when MetaMask is unlocked.\n- Permissions: Zazen requires the snap_manageState permission to manage the encrypted state within MetaMask.\n- Open-Source: Zazen is open-source, allowing transparency and community contributions to enhance security and functionality.\n- MetaMask Integration: Seamlessly integrates with MetaMask, ensuring a smooth and secure user experience without the need for additional software.",
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://docs.zenchain.io/docs/become-a-validator/zazen-snap-knowledge-base",
+          "faq": "https://docs.zenchain.io/docs/become-a-validator/zazen-snap-faq",
+          "contact": "https://github.com/zenchain-protocol/zazen/issues"
+        },
+        "sourceCode": "https://github.com/zenchain-protocol/zazen",
+        "screenshots": [
+          "./images/@zenchain-protocol/zazen/1.png",
+          "./images/@zenchain-protocol/zazen/2.png",
+          "./images/@zenchain-protocol/zazen/3.png"
+        ]
+      },
+      "versions": {
+        "0.0.5": {
+          "checksum": "mzr/twiFmjqwv0KmAKgwI9XVa7b0d3LeKn+wYIiKj3I="
+        }
+      }
+    },
+    "npm:@web3-name-sdk/snap": {
+      "id": "npm:@web3-name-sdk/snap",
+      "metadata": {
+        "name": "SPACE ID Web3 Domain",
+        "author": {
+          "name": "SPACE ID",
+          "website": "https://space.id/"
+        },
+        "website": "https://snap.space.id/",
+        "summary": "The SPACE ID Web3 Domain Snap enables the resolution of web3 domains in MetaMask, such that you can type in domain names when you transfer crypto.",
+        "description": "After installing the SPACE ID Web3 Domain Snap, when transferring crypto, you can type in any web3 domains names you registered on SPACE ID directly instead of copying & pasting complex wallet addresses.",
+        "audits": [
+          {
+            "auditor": "SlowMist",
+            "report": "https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/blockchain-application/SlowMist%20Audit%20Report%20-%20web3-name-snap_en-us.pdf"
+          }
+        ],
+        "category": "name resolution",
+        "support": {
+          "contact": "https://discord.gg/spaceid",
+          "knowledgeBase": "https://docs.space.id/getting-started/using-domain-on-metamask-snap-releasing/knowledge-base",
+          "faq": "https://docs.space.id/getting-started/using-domain-on-metamask-snap-releasing/general-faq"
+        },
+        "sourceCode": "https://github.com/Space-ID/web3-name-snap"
+      },
+      "versions": {
+        "0.0.5": {
+          "checksum": "8IHINVWrGUgeSGH2bT2kg9TDhpExP2jgDOsA+2fShU4="
+        }
+      }
+    },
+    "npm:@token-kit/tapp-snap": {
+      "id": "npm:@token-kit/tapp-snap",
+      "metadata": {
+        "name": "Tapp",
+        "author": {
+          "name": "SmartToken Labs",
+          "website": " https://smarttokenlabs.com/"
+        },
+        "website": "https://d3b4oczgnqtk98.cloudfront.net",
+        "summary": "Access Tapps (cross-platform mini apps) in MetaMask",
+        "description": "Tapp Snap is a new way for Tapp users to access their own Tapps -- a new kind of cross-platform mini app linking with a token.\nAfter installation, Tapp users can go to the Tapp sites via installed Tapp to finish any onchain/offchain actions.\nThis Snap makes MetaMask a Tapp Store.",
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://github.com/TokenScript-Framework/token-kit/blob/main/packages/tapp-snap/README.md",
+          "faq": "https://github.com/TokenScript-Framework/token-kit/blob/main/packages/tapp-snap/FAQ.md",
+          "contact": "mailto:v@smarttokenlabs.com"
+        },
+        "sourceCode": "https://github.com/TokenScript-Framework/token-kit/tree/main/packages/tapp-snap",
+        "screenshots": [
+          "./images/@token-kit/tapp-snap/1.png",
+          "./images/@token-kit/tapp-snap/2.png",
+          "./images/@token-kit/tapp-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.0.4": {
+          "checksum": "2dngDF7smvhq8M1qMs1hnYNO2ZmKvYTOlHc1V8UyfCw="
+        }
+      }
+    },
     "npm:bitbadges-snap": {
       "id": "npm:bitbadges-snap",
       "metadata": {
@@ -3621,6 +3806,127 @@
       "versions": {
         "0.1.1": {
           "checksum": "8jMPCa9lCgK3ZTVLvXcnBmRBxvi75YRHWt7OXasukmE="
+        }
+      }
+    },
+    "npm:social-names-snap": {
+      "id": "npm:social-names-snap",
+      "metadata": {
+        "name": "Social Names",
+        "author": {
+          "name": "Christian Montoya",
+          "website": "https://github.com/Montoya"
+        },
+        "summary": "Use Farcaster and Lens usernames in MetaMask.",
+        "description": "Adds support for Farcaster and Lens handles to MetaMask.\n\nIn the MetaMask send flow, type a Lens handle like m0nt0y4.lens or a Farcaster username like farcaster:m0nt0y4 or fc:m0nt0y4 to resolve to the associated Ethereum address.\n\nYou will also see suggested Farcaster and Lens handles when interacting with addresses in MetaMask.",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://github.com/Montoya/social-names-snap/issues"
+        },
+        "sourceCode": "https://github.com/Montoya/social-names-snap",
+        "screenshots": [
+          "./images/social-names-snap/1.jpg",
+          "./images/social-names-snap/2.jpg",
+          "./images/social-names-snap/3.jpg"
+        ]
+      },
+      "versions": {
+        "0.1.3": {
+          "checksum": "ACPnWAXyf2A/qkemSFnWJWdesyYJ7sXGcugPX3cvwhs="
+        }
+      }
+    },
+    "npm:zetalink": {
+      "id": "npm:zetalink",
+      "metadata": {
+        "name": "ZetaLink",
+        "author": {
+          "name": "Ishaan Parmar",
+          "website": "https://x.com/ishaanonx/"
+        },
+        "website": "https://zetalink.xyz/",
+        "summary": "Bridge and cross-chain transfer native Bitcoin to select ZRC20 tokens across ZetaChain, Ethereum, Binance Smart Chain, and Polygon.",
+        "description": "ZetaLink is an innovative MetaMask Snap that allows users to deposit and transfer native Bitcoin to select ZRC20 tokens across multiple blockchain networks, including ZetaChain, Polygon, Binance Smart Chain, and Ethereum. This Snap enhances the MetaMask experience by providing seamless cross-chain functionality for both developers and users.\n\nZetaLink offers several key features. First, it provides cross-chain compatibility, enabling users to deposit native Bitcoin and convert it into ZRC20 tokens without needing to switch networks or wrap tokens. This makes it easier to interact with various decentralized applications (dApps) across multiple platforms. ZetaLink also features a user-friendly interface that simplifies asset management and transaction processes, allowing users to easily navigate their assets and conduct transactions with minimal effort.\n\nSecurity is paramount with ZetaLink, as it operates within the secure environment of MetaMask, ensuring that user data and transactions are protected. The Snap utilizes a permissions model that allows users to review the permissions granted during installation.\n\nTo use ZetaLink, follow these steps:\n\n- Depositing Bitcoin: Open your MetaMask wallet, navigate to the ZetaLink Snap within your installed Snaps, select the option to deposit Bitcoin, and follow the prompts to complete the transaction.\n- Transferring to native ZETA or ZRC20 Tokens: After depositing Bitcoin, choose your desired ZRC20 token from the list provided, enter the amount you wish to transfer, and confirm the transaction.\n- Managing Assets: Use the ZetaLink interface to view your balances across different tokens and monitor transaction history efficiently.\n\nThe benefits of using ZetaLink are significant. Users enjoy a seamless experience by interacting with multiple blockchains without needing to switch wallets or networks, making transactions more efficient. Increased liquidity is another advantage, as facilitating cross-chain transactions enhances liquidity across platforms and allows users to capitalize on market opportunities more effectively. For developers, ZetaLink creates innovative development opportunities by enabling them to create versatile dApps that utilize both Bitcoin and ZRC20 tokens.\n\nZetaLink is not just a tool -- it’s a gateway to a more interconnected blockchain experience. By bridging Bitcoin with emerging token standards like ZRC20, it empowers users and developers alike to explore new horizons in decentralized finance.\n\nJoin us in shaping the future of cross-chain interactions with ZetaLink!",
+        "audits": [
+          {
+            "auditor": "Hacken",
+            "report": "https://audits.hacken.io/zetachain/dapp-zetachain-snap-audit-jul2024/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://docs.zetalink.xyz/",
+          "faq": "https://docs.zetalink.xyz/faqs",
+          "contact": "mailto:zetalinksnap@gmail.com"
+        },
+        "sourceCode": "https://github.com/1337-ishaan/zetalink",
+        "screenshots": [
+          "./images/zetalink/1.png",
+          "./images/zetalink/2.png",
+          "./images/zetalink/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.4": {
+          "checksum": "zdaDsSi6V14Eha1KYSGWLx8qOIM978zK/A/Si1fZwpE="
+        }
+      }
+    },
+    "npm:@oneid-xyz/connect-snap": {
+      "id": "npm:@oneid-xyz/connect-snap",
+      "metadata": {
+        "name": "OneID",
+        "author": {
+          "name": "OneID",
+          "website": "https://www.oneid.xyz/"
+        },
+        "summary": "Resolve OneID names to addresses in MetaMask.",
+        "description": "OneID Snap allows users to send & receive their digital assets directly on Metamask using their OneID.\nRegister your OneID today: https://www.oneid.xyz/",
+        "category": "name resolution",
+        "support": {
+          "knowledgeBase": "https://docs.oneid.xyz/product/oneid-snap-on-metamask#oneid-snap",
+          "faq": "https://docs.oneid.xyz/product/oneid-snap-on-metamask#oneid-snap-faqs",
+          "contact": "https://discord.gg/oneid-official"
+        },
+        "sourceCode": "https://github.com/coin98/connect-snap",
+        "screenshots": [
+          "./images/@oneid-xyz/connect-snap/1.png",
+          "./images/@oneid-xyz/connect-snap/2.png",
+          "./images/@oneid-xyz/connect-snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "1d/Fj818HBPbRMC8yn+wVbvTFmpMZ7J6+Tq8+Qr7Rws="
+        }
+      }
+    },
+    "npm:@unstoppabledomains/unstoppable-resolution-snap": {
+      "id": "npm:@unstoppabledomains/unstoppable-resolution-snap",
+      "metadata": {
+        "name": "Unstoppable",
+        "author": {
+          "name": "Unstoppable Domains",
+          "website": "https://unstoppabledomains.com/"
+        },
+        "summary": "Simplify transactions with your Unstoppable Domain",
+        "description": "Replace long, complex wallet addresses with an easy-to-read Unstoppable Domain to effortlessly send and receive crypto.\n\nAfter installing the Snap, you will be able to use Unstoppable Domains in the send flow.\n\nPlease note: this Snap is only compatible with MetaMask Extension version 12.4.1 and up, and .x names are only compatible with MetaMask Extension version 12.4.2 and up. Please make sure you are on the latest version of the MetaMask Extension before adding this Snap to MetaMask.",
+        "category": "name resolution",
+        "support": {
+          "knowledgeBase": "https://unstoppabledomains.com/products/metamask",
+          "faq": "https://unstoppabledomains.com/products/metamask#faq",
+          "contact": "https://support.unstoppabledomains.com/support/tickets/new"
+        },
+        "sourceCode": "https://github.com/unstoppabledomains/unstoppable-resolution-snap/",
+        "screenshots": [
+          "./images/@unstoppabledomains/unstoppable-resolution-snap/1.png",
+          "./images/@unstoppabledomains/unstoppable-resolution-snap/2.png",
+          "./images/@unstoppabledomains/unstoppable-resolution-snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "h04dnOTsyrv6eyXM/c9BGUGFOOZ4AlPxuVUOPMfsnW0="
         }
       }
     },
