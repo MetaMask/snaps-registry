@@ -3705,9 +3705,9 @@
           "name": "SPACE ID",
           "website": "https://space.id/"
         },
-        "website": "https://snap.space.id/",
-        "summary": "The SPACE ID Web3 Domain Snap enables the resolution of web3 domains in MetaMask, such that you can type in domain names when you transfer crypto.",
-        "description": "After installing the SPACE ID Web3 Domain Snap, when transferring crypto, you can type in any web3 domains names you registered on SPACE ID directly instead of copying & pasting complex wallet addresses.",
+        "website": "https://space.id/metamask/",
+        "summary": "Replace complex, alphanumeric wallet addresses with easy-to-remember human-readable names for sending and receiving crypto across all EVM-compatible chains directly on MetaMask.",
+        "description": "SPACE ID Web3 Domain allows users to resolve their domain names on all EVM-compatible chains, and supports multiple name services, including .bnb, .arb, .eth, .zeta, .mode, .taiko, .mint, .manta, .zkf, .burger, .floki, .cake, .ll, .alien, .ail, .merlin, .tomo. Check the name services supported by SPACE ID at: https://space.id/tld\n\nDownload SPACE ID Snaps to start enjoying simple, secure, and verifiable transactions https://snaps.metamask.io/snap/npm/web3-name-sdk/snap/ \n\nTo download SPACE ID Snap, make sure you have updated the MetaMask extension to the latest version!\n\nCheck out our tutorials:\nUpdate Metamask to the latest version: https://support.metamask.io/managing-my-wallet/using-metamask/how-to-update-the-version-of-metamask/\nRegister a domain on SPACE ID: https://space.id/\nDownload SPACE ID Snaps: https://space.id/metamask\nSPACE ID Snap Knowledge Base: https://docs.space.id/getting-started/using-domain-on-metamask-snap-releasing\n\nJoin our community on:\nX https://x.com/SpaceIDProtocol \nDiscord https://discord.com/invite/spaceid \nLinkedin https://www.linkedin.com/company/spaceidprotocol/ \n\nStay updated on our news https://blog.space.id/.",
         "audits": [
           {
             "auditor": "SlowMist",
