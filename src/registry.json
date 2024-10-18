@@ -2402,6 +2402,9 @@
         ]
       },
       "versions": {
+        "0.8.4": {
+          "checksum": "SoaG/3rijtC5asZQ1O2CIscHJ2Eqb9kW4wIqEAhUue8="
+        },
         "0.8.3": {
           "checksum": "cGKt6nNCMN6tJAyXdCH/6Pw2J9l2IvsY2uTjsIJiitk="
         },
@@ -2572,8 +2575,8 @@
         ]
       },
       "versions": {
-        "0.6.0": {
-          "checksum": "4Cq3R8uZ7z77wWYfS0sOQKhOl/TOd9Obh+konXYj7Yo="
+        "0.6.1": {
+          "checksum": "3upIALuaGlohk4pbtltQLT4Do8+gMcff90QDRYvvkug="
         }
       }
     },
@@ -2840,6 +2843,9 @@
         ]
       },
       "versions": {
+        "0.5.4": {
+          "checksum": "OIpcuFQsDSAMs64+tsEsX1oOkiCBMvjZxZapAnP7Icc="
+        },
         "0.5.2": {
           "checksum": "CxeY1z4aGsWPq2A5NK7zxIKVDv8Vvv/oDgDgmD2nG5Y="
         },
