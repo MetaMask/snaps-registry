@@ -3728,6 +3728,28 @@
         }
       }
     },
+    "npm:@idriss-crypto/snap": {
+      "id": "npm:@idriss-crypto/snap",
+      "metadata": {
+        "name": "Web3 Address Book",
+        "author": {
+          "name": "IDriss",
+          "website": "https://www.idriss.xyz/"
+        },
+        "summary": "Use your favorite name services in MetaMask.",
+        "description": "Web3 Address Book can be used to resolve several naming services in MetaMask.\n\nIt supports resolution of:\n\n1. IDriss\n2. Farcaster names\n3. Lens handles\n4. Unstoppable Domains\n5. ENS domains on networks other than Ethereum Mainnet\n\nSupported formats:\n\n1. IDriss: Registered Twitter handles @[name]\n2. Farcaster: [name].fc or [name].farcaster\n3. Lens: [name].lens\n4. UD: any registered UD\n5. ENS: Any registered ENS, given it does not resolve to a contract address.",
+        "category": "name resolution",
+        "support": {
+          "contact": "hello@idriss.xyz"
+        },
+        "sourceCode": "https://github.com/idriss-crypto/snap/"
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "9a+ZgF4hWDGgYEAjyEbg0hxTU/COftFoCfH7X3APF3A="
+        }
+      }
+    },
     "npm:@token-kit/tapp-snap": {
       "id": "npm:@token-kit/tapp-snap",
       "metadata": {
