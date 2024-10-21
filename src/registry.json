@@ -1857,7 +1857,12 @@
           "contact": "mailto:hello@lossless.io",
           "faq": "https://aegis.lossless.io/snap/"
         },
-        "sourceCode": "https://github.com/Lossless-Cash/aegis-snap/"
+        "sourceCode": "https://github.com/Lossless-Cash/aegis-snap/",
+        "screenshots": [
+          "./images/aegis-snap/1.png",
+          "./images/aegis-snap/2.png",
+          "./images/aegis-snap/3.png"
+        ]
       },
       "versions": {
         "0.2.1": {
@@ -1934,6 +1939,42 @@
         },
         "1.0.0": {
           "checksum": "sALq4aMfg09UKOAcC8f/P0EC36vihVjLxkQX2y3BP3c="
+        }
+      }
+    },
+    "npm:@kadena/snap": {
+      "id": "npm:@kadena/snap",
+      "metadata": {
+        "name": "Kadena",
+        "author": {
+          "name": "Kadena",
+          "website": "https://www.kadena.io/"
+        },
+        "website": "https://metamask.kadena.io/",
+        "summary": "Securely send and receive KDA across all 20 Kadena chains with your MetaMask wallet.",
+        "description": "The Kadena Snap allows interaction with the Kadena blockchain via MetaMask, enabling users to manage Kadena accounts and sign transactions from the familiarity of their MetaMask wallet.\n\nCross-chain transfers allow users to seamlessly move their $KDA tokens across Kadena’s multi-chains. Learn more about Kadena’s multi-chain architecture: https://www.kadena.io/chainweb.\nLedger support enables users to use their Ledger hardware wallet for additional security.\n\nAfter installing the Kadena Snap, visit https://metamask.kadena.io to start using your MetaMask wallet with Kadena.",
+        "audits": [
+          {
+            "auditor": "Veridise",
+            "report": "https://veridise.com/wp-content/uploads/2024/10/VAR_Kadena_240909_kadena_snap_V3.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://kadenateam.notion.site/Kadena-Metamask-Snap-10ee868b6878805bb2a8e28be2f49c7e?pvs=4",
+          "faq": "https://www.notion.so/kadenateam/FAQ-s-10ee868b687880648aade19ac7135f39",
+          "contact": "https://discord.com/channels/502858632178958377/631965054778212362"
+        },
+        "sourceCode": "https://github.com/kadena-community/kadena.js/tree/main/packages/libs/snap",
+        "screenshots": [
+          "./images/@kadena/snap/1.png",
+          "./images/@kadena/snap/2.png",
+          "./images/@kadena/snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.0.3": {
+          "checksum": "sVG18jeqBlhj+LgGEJr2w+tQmSPSxXUXp2Gy3cYNu5o="
         }
       }
     },
