@@ -1829,7 +1829,12 @@
           "contact": "mailto:hello@lossless.io",
           "faq": "https://aegis.lossless.io/snap/"
         },
-        "sourceCode": "https://github.com/Lossless-Cash/aegis-snap/"
+        "sourceCode": "https://github.com/Lossless-Cash/aegis-snap/",
+        "screenshots": [
+          "./images/aegis-snap/1.png",
+          "./images/aegis-snap/2.png",
+          "./images/aegis-snap/3.png"
+        ]
       },
       "versions": {
         "0.2.1": {
