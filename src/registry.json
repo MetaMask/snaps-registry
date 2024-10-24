@@ -966,6 +966,36 @@
         }
       }
     },
+    "npm:@doggyfi-official/kobosu": {
+      "id": "npm:@doggyfi-official/kobosu",
+      "metadata": {
+        "name": "kobosu",
+        "author": {
+          "name": "The Epiphyte Corporation",
+          "website": "https://theepiphytecorporation.xyz"
+        },
+        "website": "https://doggyfi.xyz/snap",
+        "summary": "Trade and manage dogecoin, DRC-20, Dunes, and Doginals and more",
+        "description": "DoggyFi brings Dogecoin functionality directly into your MetaMask wallet. With this Snap, you can interact with the Dogecoin blockchain seamlessly.\n\nFeatures:\n\n- Generate a single Dogecoin address derived from your MetaMask secret recovery phrase.\n- Check the balance of your Dogecoin address.\n- View the list of transactions associated with your address.\n- Send DOGE from your address to another address.\n- Send DRC-20 tokens from your address to another address.\n- Send Dunes from your address to another address.\n- Mint DRC-20 tokens.\n- Mint transfer inscriptions for DRC-20 tokens.\n- Deploy DRC-20 tokens to the network.\n- Send Doginals to specified addresses.\n- Inscribe Doginals onto the Dogecoin blockchain.\n- Open Dunes by deploying open dune transactions.\n\nHow to Use:\n\n1. Head to https://doggyfi.xyz/snap and connect your MetaMask wallet. You will be prompted to install the Snap.\n2. Grant Permissions: When prompted, grant the required permissions to enable full functionality.\n3. Interact with Dogecoin: Use your MetaMask wallet to interact with the Dogecoin network using the features listed above.\n\nFor more detailed information and tutorials, please visit the DoggyFi Snap README: https://github.com/DoggyFiOfficial/dogecoin-snap-public/blob/main/README.md.\n\nFor Developers:\n\n- Utilize the exposed RPC API methods to build DApps or integrations that leverage Dogecoin within MetaMask: https://github.com/DoggyFiOfficial/dogecoin-snap-public/tree/main?tab=readme-ov-file#methods.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-doggyfi/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/kyc4rvSe7A",
+          "knowledgeBase": "https://github.com/DoggyFiOfficial/dogecoin-snap-public/blob/main/README.md"
+        },
+        "sourceCode": "https://github.com/DoggyFiOfficial/dogecoin-snap-public"
+      },
+      "versions": {
+        "0.1.3": {
+          "checksum": "E88JeO5YRBVE3tZSNLKF0uttDMZx40vHk9fiV5pp4+A="
+        }
+      }
+    },
     "npm:@clustersxyz/metamask-snap": {
       "id": "npm:@clustersxyz/metamask-snap",
       "metadata": {
