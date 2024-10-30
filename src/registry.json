@@ -2021,8 +2021,8 @@
           "website": "https://consensys.io/"
         },
         "website": "https://snaps.consensys.io/starknet",
-        "summary": "Deploy Starknet accounts, make transactions on Starknet, and interact with Starknet smart contracts.",
-        "description": "The Starknet Snap allows users to deploy Starknet accounts, make transactions on Starknet, and interact with Starknet smart contracts.\n\nAfter installing the Snap, visit the website to set up your Starknet account.",
+        "summary": "Deploy Starknet accounts, make transactions, and connect with Starknet’s dApp ecosystem.",
+        "description": "The Starknet Snap is your gateway to the Starknet ecosystem, enabling you to deploy accounts, execute transactions, and interact with Starknet smart contracts. This Snap allows you to engage directly with Starknet dApps, like StarkGate for bridging tokens from Ethereum and AVNU.fi for trading on Starknet. Compatibility with additional dApps is set to grow, expanding your access to Starknet’s evolving network.\n\nWhether you’re exploring or building on Starknet, the Snap simplifies your connection to Starknet activities right from MetaMask. Developers can refer to our Knowledge Base to learn more about making MetaMask-compatible Starknet dApps.\n\nGet started with these resources:\n\n- Companion dApp: Set up your account, check balances, and send tokens: https://snaps.consensys.io/starknet/\n- StarkGate: Bridge tokens from Ethereum to Starknet: https://starkgate.starknet.io/\n- AVNU: Trade assets on Starknet: https://www.avnu.fi/",
         "audits": [
           {
             "auditor": "Cobalt",
@@ -2035,7 +2035,8 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "https://discord.gg/hYpHRjK"
+          "contact": "https://discord.gg/hYpHRjK",
+          "knowledgeBase": "https://docs.metamask.io/wallet/how-to/use-non-evm-networks/starknet/"
         },
         "sourceCode": "https://github.com/Consensys/starknet-snap",
         "screenshots": [
@@ -2045,6 +2046,9 @@
         ]
       },
       "versions": {
+        "2.11.0": {
+          "checksum": "needs-to-be-updated"
+        },
         "2.10.1": {
           "checksum": "X38B+1YYnb1L0UYnUq6lHdxLmwjUDBPF8nWaF8LrGGw="
         },
