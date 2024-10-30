@@ -1074,7 +1074,12 @@
         "support": {
           "contact": "https://discord.gg/ondefy-877871589444710450"
         },
-        "sourceCode": "https://github.com/ondefy/zyfi-snaps"
+        "sourceCode": "https://github.com/ondefy/zyfi-snaps",
+        "screenshots": [
+          "./images/zyfi-paymaster-insight-snap/1.jpg",
+          "./images/zyfi-paymaster-insight-snap/2.jpg",
+          "./images/zyfi-paymaster-insight-snap/3.jpg"
+        ]
       },
       "versions": {
         "0.1.0": {
