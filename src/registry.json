@@ -258,7 +258,6 @@
           "name": "Tuum Technologies",
           "website": "https://www.tuum.tech/"
         },
-        "website": "https://www.tuum.tech/identify",
         "summary": "Credential management for both basic and verifiable credentials.",
         "description": "AuthFlow manages both basic and verifiable credentials, and requires that Identify Snap is installed as a pre-requisite. There are two entry points, the homepage UI and the JSON-RPC API.\n\nVia the Snap homepage: \n- Store basic credentials - 'Store New Passwords'\n- Delete a basic credential - 'Delete Single Password'\n- Delete all basic credentials - 'Delete All Passwords'\n- Display basic credentials - 'Show All Passwords'\n- Display verifiable credentials - 'Get All Verifiable Credentials'\n- Delete all stored verifiable credentials - 'Delete All Verifiable Credentials'\n- Delete a single verifiable credential - 'Delete One Verifiable Credential'\n- Rename a verifiable credential with a friendly name - 'Rename Verifiable Credential'\n- Create a verifiable presentation with a comma separated list of verifiable credential names - 'Create Verifiable Presentation'\n- Create a sample verifiable credential - 'Create Sample Verifiable Credential'\n- Sync AuthFlow and Identify records of verifiable credentials - 'Sync With Identify'\n\nVia the JSON-RPC API\n- Send a basic credential to a dapp given a friendly name as input - 'getBasicCreds'\n- Send a verifiable credential to a dapp given a friendly name as input - 'getVerifiableCreds'\n- Create a verifiable presentation from a comma separated list of verifiable credentials and send to a dapp - 'Create Verifiable Presentation'",
         "audits": [
@@ -896,8 +895,8 @@
         ]
       },
       "versions": {
-        "0.3.2": {
-          "checksum": "nlhDsJEC4Tt23Jb/Th4igF81A3RiY5hAsp1OtmP/Gds="
+        "0.3.3": {
+          "checksum": "hCYbcjeRdHViQAQubfoEZIFopHjoiF5bX03h8BolP8s="
         }
       }
     },
@@ -2045,8 +2044,8 @@
           "website": "https://consensys.io/"
         },
         "website": "https://snaps.consensys.io/starknet",
-        "summary": "Deploy Starknet accounts, make transactions on Starknet, and interact with Starknet smart contracts.",
-        "description": "The Starknet Snap allows users to deploy Starknet accounts, make transactions on Starknet, and interact with Starknet smart contracts.\n\nAfter installing the Snap, visit the website to set up your Starknet account.",
+        "summary": "Deploy Starknet accounts, make transactions, and connect with Starknet’s dApp ecosystem.",
+        "description": "The Starknet Snap is your gateway to the Starknet ecosystem, enabling you to deploy accounts, execute transactions, and interact with Starknet smart contracts. This Snap allows you to engage directly with Starknet dapps, like StarkGate for bridging tokens from Ethereum and AVNU.fi for trading on Starknet. Compatibility with additional dapps is set to grow, expanding your access to Starknet’s evolving network.\n\nWhether you’re exploring or building on Starknet, the Snap simplifies your connection to Starknet activities right from MetaMask. Developers can refer to our Knowledge Base to learn more about making MetaMask-compatible Starknet dapps.\n\nGet started with these resources:\n\n- Companion dapp: Set up your account, check balances, and send tokens: https://snaps.consensys.io/starknet/\n- StarkGate: Bridge tokens from Ethereum to Starknet: https://starkgate.starknet.io/\n- AVNU: Trade assets on Starknet: https://www.avnu.fi/",
         "audits": [
           {
             "auditor": "Cobalt",
@@ -2059,7 +2058,8 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "https://discord.gg/hYpHRjK"
+          "contact": "https://discord.gg/hYpHRjK",
+          "knowledgeBase": "https://docs.metamask.io/wallet/how-to/use-non-evm-networks/starknet/"
         },
         "sourceCode": "https://github.com/Consensys/starknet-snap",
         "screenshots": [
@@ -2069,6 +2069,9 @@
         ]
       },
       "versions": {
+        "2.11.0": {
+          "checksum": "pw5j0DzaKPnoTMOTHvMv7/f3gjH0BPqEZHmx3SLGX7U="
+        },
         "2.10.1": {
           "checksum": "X38B+1YYnb1L0UYnUq6lHdxLmwjUDBPF8nWaF8LrGGw="
         },
