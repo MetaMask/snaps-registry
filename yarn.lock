@@ -1174,8 +1174,8 @@ __metadata:
   linkType: hard
 
 "@metamask/providers@npm:^17.1.2":
-  version: 17.1.2
-  resolution: "@metamask/providers@npm:17.1.2"
+  version: 17.2.1
+  resolution: "@metamask/providers@npm:17.2.1"
   dependencies:
     "@metamask/json-rpc-engine": ^9.0.1
     "@metamask/json-rpc-middleware-stream": ^8.0.1
@@ -1190,7 +1190,7 @@ __metadata:
     readable-stream: ^3.6.2
   peerDependencies:
     webextension-polyfill: ^0.10.0 || ^0.11.0 || ^0.12.0
-  checksum: 4cfe612649120049abd5d496e02facd86d0851c10e810a3e1289629857da027d77524e6cb8706d38b993bc5fd696bce6f1d33c93bb7d15169b6422e063f205ea
+  checksum: fd353e931ca18f2d37129f837e6dcc1814099969902fe16f707a155e5601a294cbc630322fa4667ee616cde915d7cbc9efcd34cc00a7091369d0d47937f56fb1
   languageName: node
   linkType: hard
 
