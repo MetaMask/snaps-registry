@@ -3948,7 +3948,7 @@
           "website": "https://x.com/ishaanonx/"
         },
         "website": "https://zetalink.xyz/",
-        "summary": "Bridge and cross-chain transfer native Bitcoin to select ZRC20 tokens across ZetaChain, Ethereum, Binance Smart Chain, and Polygon.",
+        "summary": "Bridge native Bitcoin to ZRC20 tokens on ZetaChain for cross-chain use with Ethereum, Binance Smart Chain, and Polygon.",
         "description": "ZetaLink is an innovative MetaMask Snap that allows users to deposit and transfer native Bitcoin to select ZRC20 tokens across multiple blockchain networks, including ZetaChain, Polygon, Binance Smart Chain, and Ethereum. This Snap enhances the MetaMask experience by providing seamless cross-chain functionality for both developers and users.\n\nZetaLink offers several key features. First, it provides cross-chain compatibility, enabling users to deposit native Bitcoin and convert it into ZRC20 tokens without needing to switch networks or wrap tokens. This makes it easier to interact with various dapps across multiple platforms. ZetaLink also features a user-friendly interface that simplifies asset management and transaction processes, allowing users to easily navigate their assets and conduct transactions with minimal effort.\n\nSecurity is paramount with ZetaLink, as it operates within the secure environment of MetaMask, ensuring that user data and transactions are protected. The Snap utilizes a permissions model that allows users to review the permissions granted during installation.\n\nTo use ZetaLink, follow these steps:\n\n- Depositing Bitcoin: Open your MetaMask wallet, navigate to the ZetaLink Snap within your installed Snaps, select the option to deposit Bitcoin, and follow the prompts to complete the transaction.\n- Transferring to native ZETA or ZRC20 Tokens: After depositing Bitcoin, choose your desired ZRC20 token from the list provided, enter the amount you wish to transfer, and confirm the transaction.\n- Managing Assets: Use the ZetaLink interface to view your balances across different tokens and monitor transaction history efficiently.\n\nThe benefits of using ZetaLink are significant. Users enjoy a seamless experience by interacting with multiple blockchains without needing to switch wallets or networks, making transactions more efficient. Increased liquidity is another advantage, as facilitating cross-chain transactions enhances liquidity across platforms and allows users to capitalize on market opportunities more effectively. For developers, ZetaLink creates innovative development opportunities by enabling them to create versatile dapps that utilize both Bitcoin and ZRC20 tokens.\n\nZetaLink is not just a tool -- it’s a gateway to a more interconnected blockchain experience. By bridging Bitcoin with emerging token standards like ZRC20, it empowers users and developers alike to explore new horizons in decentralized finance.\n\nJoin us in shaping the future of cross-chain interactions with ZetaLink!",
         "audits": [
           {
@@ -3970,8 +3970,8 @@
         ]
       },
       "versions": {
-        "0.1.4": {
-          "checksum": "zdaDsSi6V14Eha1KYSGWLx8qOIM978zK/A/Si1fZwpE="
+        "0.1.7": {
+          "checksum": "pjbSNVJjj5KVijXYTEEbjA+zJk80x+MEekGjkPlemHw="
         }
       }
     },
