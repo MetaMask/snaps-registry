@@ -1067,9 +1067,9 @@
           "name": "Zyfi",
           "website": "https://www.zyfi.org"
         },
-        "website": "https://staging.zyfi.org/paymaster-insights-snap",
+        "website": "https://staging.zyfi.org/paymaster-insight-snap",
         "summary": "Improve readability for ZKsync and Elastic chains EIP-712 type-113 transactions.",
-        "description": "The Zyfi Paymaster Insights Snap aims to improve the readability of signing transactions on the ZKsync ecosystem, particularly for paymaster-related transactions using txType 113 (https://docs.zksync.io/zk-stack/concepts/transaction-lifecycle#eip-712-0x71). This transaction is an EIP-712 type, but on MetaMask’s signature popup, critical information like “from” and “to” addresses is displayed in an unintuitive format (e.g., uint256).\n\nThe Snap’s key purpose is to decode these fields into a more readable format, making it easier for users to understand the transaction details they’re signing. Additionally, it provides extra information related to the paymaster, such as the paymaster address, type, gas fee token address, and gas fee token amount. This gives users more clarity on what they’re signing, helping them avoid potential malicious signatures.",
+        "description": "The Zyfi Paymaster Insight Snap aims to improve the readability of signing transactions on the ZKsync ecosystem, particularly for paymaster-related transactions using txType 113 (https://docs.zksync.io/zk-stack/concepts/transaction-lifecycle#eip-712-0x71). This transaction is an EIP-712 type, but on MetaMask’s signature popup, critical information like “from” and “to” addresses is displayed in an unintuitive format (e.g., uint256).\n\nThe Snap’s key purpose is to decode these fields into a more readable format, making it easier for users to understand the transaction details they’re signing. Additionally, it provides extra information related to the paymaster, such as the paymaster address, type, gas fee token address, and gas fee token amount. This gives users more clarity on what they’re signing, helping them avoid potential malicious signatures.",
         "category": "transaction insights",
         "support": {
           "contact": "https://discord.gg/ondefy-877871589444710450"
