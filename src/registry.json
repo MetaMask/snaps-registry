@@ -227,7 +227,7 @@
           "name": "Tuum Technologies",
           "website": "https://www.tuum.tech/"
         },
-        "website": "https://www.tuum.tech/identify",
+        "website": "https://docs.tuum.tech/identify/identify-snap/snap-rpc-apis/basic-apis/hello#live-demo-on-codepen",
         "summary": "Extends the functionality of the most popular crypto wallet by adding Decentralized Identity.",
         "description": "Extends the functionality of the most popular crypto wallet by adding Decentralized Identity.\n\nVisit the website to learn how to integrate Identify into your dapps.",
         "audits": [
