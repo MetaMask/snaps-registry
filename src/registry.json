@@ -227,7 +227,7 @@
           "name": "Tuum Technologies",
           "website": "https://www.tuum.tech/"
         },
-        "website": "https://www.tuum.tech/identify",
+        "website": "https://docs.tuum.tech/identify/identify-snap/snap-rpc-apis/basic-apis/hello#live-demo-on-codepen",
         "summary": "Extends the functionality of the most popular crypto wallet by adding Decentralized Identity.",
         "description": "Extends the functionality of the most popular crypto wallet by adding Decentralized Identity.\n\nVisit the website to learn how to integrate Identify into your dapps.",
         "audits": [
@@ -895,8 +895,8 @@
         ]
       },
       "versions": {
-        "0.3.2": {
-          "checksum": "nlhDsJEC4Tt23Jb/Th4igF81A3RiY5hAsp1OtmP/Gds="
+        "0.3.3": {
+          "checksum": "hCYbcjeRdHViQAQubfoEZIFopHjoiF5bX03h8BolP8s="
         }
       }
     },
@@ -1086,6 +1086,34 @@
       "versions": {
         "0.1.6": {
           "checksum": "I30rV0Vx18OeOz79Yu/OKQw1buyPXd7NGNduVTonhIw="
+        }
+      }
+    },
+    "npm:zyfi-paymaster-insight-snap": {
+      "id": "npm:zyfi-paymaster-insight-snap",
+      "metadata": {
+        "name": "Zyfi Paymaster Insights",
+        "author": {
+          "name": "Zyfi",
+          "website": "https://www.zyfi.org"
+        },
+        "website": "https://staging.zyfi.org/paymaster-insight-snap",
+        "summary": "Improve readability for ZKsync and Elastic chains EIP-712 type-113 transactions.",
+        "description": "The Zyfi Paymaster Insight Snap aims to improve the readability of signing transactions on the ZKsync ecosystem, particularly for paymaster-related transactions using txType 113 (https://docs.zksync.io/zk-stack/concepts/transaction-lifecycle#eip-712-0x71). This transaction is an EIP-712 type, but on MetaMask’s signature popup, critical information like “from” and “to” addresses is displayed in an unintuitive format (e.g., uint256).\n\nThe Snap’s key purpose is to decode these fields into a more readable format, making it easier for users to understand the transaction details they’re signing. Additionally, it provides extra information related to the paymaster, such as the paymaster address, type, gas fee token address, and gas fee token amount. This gives users more clarity on what they’re signing, helping them avoid potential malicious signatures.",
+        "category": "transaction insights",
+        "support": {
+          "contact": "https://discord.gg/ondefy-877871589444710450"
+        },
+        "sourceCode": "https://github.com/ondefy/zyfi-snaps",
+        "screenshots": [
+          "./images/zyfi-paymaster-insight-snap/1.jpg",
+          "./images/zyfi-paymaster-insight-snap/2.jpg",
+          "./images/zyfi-paymaster-insight-snap/3.jpg"
+        ]
+      },
+      "versions": {
+        "0.1.0": {
+          "checksum": "F8f2M6/vpFU2WRDKiMVFfXJbkYB4bifhbIXIpGftmkg="
         }
       }
     },
@@ -1695,6 +1723,9 @@
         ]
       },
       "versions": {
+        "0.3.0": {
+          "checksum": "5ZD5e2lXfNXSfiSqdoOdYaEjkEdqBevpykVL5ZjgsEY="
+        },
         "0.2.1": {
           "checksum": "r10QK64EMA0uFhZryfixi/+bP/eGoPW4T1czAs5tfyQ="
         },
@@ -2051,8 +2082,8 @@
           "website": "https://consensys.io/"
         },
         "website": "https://snaps.consensys.io/starknet",
-        "summary": "Deploy Starknet accounts, make transactions on Starknet, and interact with Starknet smart contracts.",
-        "description": "The Starknet Snap allows users to deploy Starknet accounts, make transactions on Starknet, and interact with Starknet smart contracts.\n\nAfter installing the Snap, visit the website to set up your Starknet account.",
+        "summary": "Deploy Starknet accounts, make transactions, and connect with Starknet’s dApp ecosystem.",
+        "description": "The Starknet Snap is your gateway to the Starknet ecosystem, enabling you to deploy accounts, execute transactions, and interact with Starknet smart contracts. This Snap allows you to engage directly with Starknet dapps, like StarkGate for bridging tokens from Ethereum and AVNU.fi for trading on Starknet. Compatibility with additional dapps is set to grow, expanding your access to Starknet’s evolving network.\n\nWhether you’re exploring or building on Starknet, the Snap simplifies your connection to Starknet activities right from MetaMask. Developers can refer to our Knowledge Base to learn more about making MetaMask-compatible Starknet dapps.\n\nGet started with these resources:\n\n- Companion dapp: Set up your account, check balances, and send tokens: https://snaps.consensys.io/starknet/\n- StarkGate: Bridge tokens from Ethereum to Starknet: https://starkgate.starknet.io/\n- AVNU: Trade assets on Starknet: https://www.avnu.fi/",
         "audits": [
           {
             "auditor": "Cobalt",
@@ -2065,7 +2096,8 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "https://discord.gg/hYpHRjK"
+          "contact": "https://discord.gg/hYpHRjK",
+          "knowledgeBase": "https://docs.metamask.io/wallet/how-to/use-non-evm-networks/starknet/"
         },
         "sourceCode": "https://github.com/Consensys/starknet-snap",
         "screenshots": [
@@ -2075,6 +2107,9 @@
         ]
       },
       "versions": {
+        "2.11.0": {
+          "checksum": "pw5j0DzaKPnoTMOTHvMv7/f3gjH0BPqEZHmx3SLGX7U="
+        },
         "2.10.1": {
           "checksum": "X38B+1YYnb1L0UYnUq6lHdxLmwjUDBPF8nWaF8LrGGw="
         },
@@ -2913,6 +2948,9 @@
         ]
       },
       "versions": {
+        "0.6.0": {
+          "checksum": "kg+O7LMOr0ADHcUzkdTGhT4MPaPZKtkhFFVDELp/FGw="
+        },
         "0.5.4": {
           "checksum": "OIpcuFQsDSAMs64+tsEsX1oOkiCBMvjZxZapAnP7Icc="
         },
@@ -3943,7 +3981,7 @@
           "website": "https://x.com/ishaanonx/"
         },
         "website": "https://zetalink.xyz/",
-        "summary": "Bridge and cross-chain transfer native Bitcoin to select ZRC20 tokens across ZetaChain, Ethereum, Binance Smart Chain, and Polygon.",
+        "summary": "Bridge native Bitcoin to ZRC20 tokens on ZetaChain for cross-chain use with Ethereum, Binance Smart Chain, and Polygon.",
         "description": "ZetaLink is an innovative MetaMask Snap that allows users to deposit and transfer native Bitcoin to select ZRC20 tokens across multiple blockchain networks, including ZetaChain, Polygon, Binance Smart Chain, and Ethereum. This Snap enhances the MetaMask experience by providing seamless cross-chain functionality for both developers and users.\n\nZetaLink offers several key features. First, it provides cross-chain compatibility, enabling users to deposit native Bitcoin and convert it into ZRC20 tokens without needing to switch networks or wrap tokens. This makes it easier to interact with various dapps across multiple platforms. ZetaLink also features a user-friendly interface that simplifies asset management and transaction processes, allowing users to easily navigate their assets and conduct transactions with minimal effort.\n\nSecurity is paramount with ZetaLink, as it operates within the secure environment of MetaMask, ensuring that user data and transactions are protected. The Snap utilizes a permissions model that allows users to review the permissions granted during installation.\n\nTo use ZetaLink, follow these steps:\n\n- Depositing Bitcoin: Open your MetaMask wallet, navigate to the ZetaLink Snap within your installed Snaps, select the option to deposit Bitcoin, and follow the prompts to complete the transaction.\n- Transferring to native ZETA or ZRC20 Tokens: After depositing Bitcoin, choose your desired ZRC20 token from the list provided, enter the amount you wish to transfer, and confirm the transaction.\n- Managing Assets: Use the ZetaLink interface to view your balances across different tokens and monitor transaction history efficiently.\n\nThe benefits of using ZetaLink are significant. Users enjoy a seamless experience by interacting with multiple blockchains without needing to switch wallets or networks, making transactions more efficient. Increased liquidity is another advantage, as facilitating cross-chain transactions enhances liquidity across platforms and allows users to capitalize on market opportunities more effectively. For developers, ZetaLink creates innovative development opportunities by enabling them to create versatile dapps that utilize both Bitcoin and ZRC20 tokens.\n\nZetaLink is not just a tool -- it’s a gateway to a more interconnected blockchain experience. By bridging Bitcoin with emerging token standards like ZRC20, it empowers users and developers alike to explore new horizons in decentralized finance.\n\nJoin us in shaping the future of cross-chain interactions with ZetaLink!",
         "audits": [
           {
@@ -3965,8 +4003,8 @@
         ]
       },
       "versions": {
-        "0.1.4": {
-          "checksum": "zdaDsSi6V14Eha1KYSGWLx8qOIM978zK/A/Si1fZwpE="
+        "0.1.7": {
+          "checksum": "pjbSNVJjj5KVijXYTEEbjA+zJk80x+MEekGjkPlemHw="
         }
       }
     },
