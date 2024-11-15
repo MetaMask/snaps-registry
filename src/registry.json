@@ -2455,9 +2455,9 @@
           "name": "Galactica Network",
           "website": "https://galactica.com/"
         },
-        "website": "https://app-andromeda.galactica.com/",
+        "website": "https://app.galactica.com/",
         "summary": "Manages zero-knowledge certificates on Galactica.com - own your identity, not just your assets",
-        "description": "The Galactica.com ZK Vault Snap holds zero-knowledge certificates issued on Galactica Network in the user's wallet, allowing self custody of your data. It generates zero-knowledge proofs inside MetaMask to selectively disclose statements on-chain while keeping personal data private. For example, you can import a KYC certificate and privately prove your authenticity and compliance to a smart contract.\n\n\n\nAfter installing the Snap, visit https://app-reticulum.galactica.com/ to get started.",
+        "description": "The Galactica.com ZK Vault Snap holds zero-knowledge certificates issued on Galactica Network in the user's wallet, allowing self custody of your data. It generates zero-knowledge proofs inside MetaMask to selectively disclose statements on-chain while keeping personal data private. For example, you can import a KYC certificate and privately prove your authenticity and compliance to a smart contract.\n\n\n\nAfter installing the Snap, visit https://app.galactica.com/ to get started.",
         "audits": [
           {
             "auditor": "Sayfer",
