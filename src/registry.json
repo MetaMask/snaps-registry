@@ -2992,6 +2992,36 @@
         }
       }
     },
+    "npm:stellar-snap": {
+      "id": "npm:stellar-snap",
+      "metadata": {
+        "name": "Stellar",
+        "author": {
+          "name": "Kyraview"
+        },
+        "website": "https://stellar-wallet-demo.vercel.app",
+        "summary": "Send/receive XLM and related assets, sign and submit Stellar/Soroban transactions.",
+        "description": "The Stellar Snap enables interaction with the Stellar network, offering multiple wallets, private-key import/export, a transaction parser, and full Soroban support.\n\nUse it to manage XLM transactions, explore Soroban smart contracts, and seamlessly interact with Stellar-based assets.",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://github.com/paulfears/StellarSnap/tree/main/audits/Cure53%20V1.0.6"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:paulrfears@gmail.com",
+          "knowledgeBase": "https://www.canva.com/design/DAGWM2MEUpo/QEKT6U2vsa_gd7lkxauhmA/view",
+          "faq": "https://stellar-wallet-demo.vercel.app/faq"
+        },
+        "sourceCode": "https://github.com/paulfears/StellarSnap"
+      },
+      "versions": {
+        "1.0.6": {
+          "checksum": "L0lf1TZoENaafc/IEf/4husk6yfx6dEHZiGT0o/whhI="
+        }
+      }
+    },
     "npm:@harbour-fi/ramp-snap": {
       "id": "npm:@harbour-fi/ramp-snap",
       "metadata": {
