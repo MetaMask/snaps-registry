@@ -1166,6 +1166,7 @@
         "website": "https://hns.id/",
         "summary": "Resolve hns.id domains natively on multiple EVM blockchains.",
         "description": "The MetaMask Snap for HNS.ID enhances the MetaMask wallet by enabling domain resolution for HNS.ID domains and improving ENS resolution on EVM-compatible chains. This Snap provides users with broader support for hns.id domains and expanded functionality for interactions across different networks.\n\n\nKey Features:\n\n- Multi-Chain Support: Resolves HNS.ID domains across various EVM chains, ensuring seamless domain interactions within MetaMask.\n\n- ENS Enhancement: Preserves and improves ENS resolution functionality by enabling CCIP-linked ENS domain resolution on networks beyond Ethereum mainnet.\n\n- Effortless Integration: Installs directly within MetaMask, adding domain resolution capabilities without interfering with existing ENS lookups.\n\n- Secure Permissions: Requires internet access for domain resolution and permissions for domain/address look-ups.\n\n\nVisit: https://hns.id for more information about the platform and how to get started.\n\n\nThis Snap helps bridge the gap for users needing enhanced domain resolution capabilities, offering a streamlined experience without disrupting standard MetaMask operations.",
+        "category": "name resolution",
         "support": {
           "contact": "mailto:support@hns.id",
           "faq": "https://docs.hns.id/resolving-domains/metamask-snap"
