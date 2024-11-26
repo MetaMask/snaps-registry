@@ -2972,6 +2972,9 @@
         ]
       },
       "versions": {
+        "0.7.0": {
+          "checksum": "CRmXO1t+mMp/F99/JhIfeOnVlLw169eBsjdOTQdFSIY="
+        },
         "0.6.0": {
           "checksum": "kg+O7LMOr0ADHcUzkdTGhT4MPaPZKtkhFFVDELp/FGw="
         },
@@ -4027,8 +4030,8 @@
         ]
       },
       "versions": {
-        "0.1.7": {
-          "checksum": "pjbSNVJjj5KVijXYTEEbjA+zJk80x+MEekGjkPlemHw="
+        "0.1.8": {
+          "checksum": "wNzIh8p4QoZ61g/MrqmVRVZfBmf0inN9t9lcA6mQy4A="
         }
       }
     },
