@@ -2972,6 +2972,9 @@
         ]
       },
       "versions": {
+        "0.7.0": {
+          "checksum": "CRmXO1t+mMp/F99/JhIfeOnVlLw169eBsjdOTQdFSIY="
+        },
         "0.6.0": {
           "checksum": "kg+O7LMOr0ADHcUzkdTGhT4MPaPZKtkhFFVDELp/FGw="
         },
