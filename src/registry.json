@@ -1448,6 +1448,29 @@
         }
       }
     },
+    "npm:xdcdomains-snap": {
+      "id": "npm:xdcdomains-snap",
+      "metadata": {
+        "name": "XDCWeb3Domains",
+        "author": {
+          "name": "XDCDomains",
+          "website": "https://xdcdomains.xyz/"
+        },
+        "summary": "Easily transfer assets using .xdc domain names instead of complex wallet addresses.",
+        "description": "XDCDomains Snap allows users to send and receive their digital assets directly on MetaMask using their .xdc.\n\nSee more: https://xdcdomains.xyz/metamask",
+        "category": "name resolution",
+        "support": {
+          "contact": "mailto:info@xdcdomains.xyz",
+          "knowledgeBase": "https://xdcdomains.xyz/metamask"
+        },
+        "sourceCode": "https://github.com/XDCWeb3Domains/xdcdomains-snap"
+      },
+      "versions": {
+        "0.1.17": {
+          "checksum": "byxhQxot1n1f6vU6hzh+o0BX6qMgp0GkmVV4oyL5XdY="
+        }
+      }
+    },
     "npm:@solflare-wallet/solana-snap": {
       "id": "npm:@solflare-wallet/solana-snap",
       "metadata": {
