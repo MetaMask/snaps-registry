@@ -2997,6 +2997,7 @@
       "metadata": {
         "name": "Stellar",
         "author": {
+          "website": "https://github.com/Kyraview",
           "name": "Kyraview"
         },
         "website": "https://stellar-wallet-demo.vercel.app",
