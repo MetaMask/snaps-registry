@@ -765,6 +765,9 @@
         },
         "2.1.4": {
           "checksum": "S3wZGdkOLX7tdJYssmy+UxBXe+VuwZaNUQNqK+G3hu4="
+        },
+        "2.2.0": {
+          "checksum": "ZXgMRkK/FtEZlwVSdOC+dmP99tuBTqHx/2Mj/FNhzAg="
         }
       }
     },
@@ -1491,9 +1494,9 @@
           "name": "Qtum",
           "website": "https://qtum.info/"
         },
-        "website": "https://qtumbridge.org/",
-        "summary": "The Snap plays the role of the RPC proxy that accepts requests to MetaMask and forwards them to the Qtum network with the Qtum ethers adapter.",
-        "description": "Interaction with Qtum Snap is as easy as working with MetaMask via ethers.js. As ethers.js accepts window.ethereum as a MetaMask provider, we can pass the Qtum Snap connector instead of window.ethereum to interact with the Qtum wallet Snap, which proxies requests to the Qtum network.",
+        "website": "https://www.qtum.org/developers/snap/",
+        "summary": "Seamlessly connect to the Qtum network, enabling dapp interactions through an easy-to-use ethers.js adapter.",
+        "description": "The Qtum MetaMask Snap is an extension for MetaMask that enables users to manage Qtum tokens, including QRC20 variants, and interact seamlessly with Qtum decentralized applications (dapps) directly within their MetaMask wallet. The Snap supports core wallet functionalities and is designed for easy integration into existing Ethereum Virtual Machine (EVM) dapps, allowing developers to leverage Qtum effectively.",
         "audits": [
           {
             "auditor": "Sayfer",
@@ -3857,8 +3860,8 @@
         ]
       },
       "versions": {
-        "0.0.5": {
-          "checksum": "mzr/twiFmjqwv0KmAKgwI9XVa7b0d3LeKn+wYIiKj3I="
+        "0.0.6": {
+          "checksum": "qFquENdgWP6N7pRTHMcLDx0Geyljy8WFMzXycHTs2+o="
         }
       }
     },
