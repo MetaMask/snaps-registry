@@ -2197,7 +2197,6 @@
             "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-polkadot/"
           }
         ],
-        "category": "interoperability",
         "support": {
           "contact": "https://discord.gg/xSAwrnCWcg",
           "faq": "https://github.com/ChainSafe/metamask-snap-polkadot/wiki/Example-dApp-Usage"
