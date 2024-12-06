@@ -1459,6 +1459,7 @@
           "name": "XDCDomains",
           "website": "https://xdcdomains.xyz/"
         },
+        "website": "https://xdcdomains.xyz/metamask/",
         "summary": "Easily transfer assets using .xdc domain names instead of complex wallet addresses.",
         "description": "XDCDomains Snap allows users to send and receive their digital assets directly on MetaMask using their .xdc.\n\nSee more: https://xdcdomains.xyz/metamask",
         "category": "name resolution",
