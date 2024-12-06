@@ -1510,6 +1510,30 @@
         }
       }
     },
+    "npm:self-name-resolution": {
+      "id": "npm:self-name-resolution",
+      "metadata": {
+        "name": "Self name resolution",
+        "author": {
+          "name": "SELF Crypto",
+          "website": "https://selfcrypto.io/"
+        },
+        "summary": "Resolve Self crypto names to addresses",
+        "description": "Self Name Resolution Snap\n\nThis MetaMask Snap enables resolution of Self domain names to their corresponding cryptocurrency addresses using either domain.self or $:domain formats. It integrates with the Self naming service to provide seamless name resolution directly within MetaMask.\n\n## Features\n\n- Resolves Self domain names in two formats:\n  - .self domains (e.g., domain.self)\n  - $: scheme (e.g., $:domain)\n- Supports multiple chains including:\n  - Ethereum (EIP155:1)\n  - BNB Smart Chain (EIP155:56)\n  - Avalanche (EIP155:43114)\n  - Arbitrum (EIP155:42161)\n- Seamless integration with MetaMask's name resolution system",
+        "category": "name resolution",
+        "support": {
+          "contact": "mailto:enrique.ferrater@selfcrypto.io",
+          "faq": "https://github.com/selfcrypto/self-snap/blob/main/README.md#faq",
+          "knowledgeBase": "https://github.com/selfcrypto/self-snap/blob/main/README.md"
+        },
+        "sourceCode": "https://github.com/selfcrypto/self-snap"
+      },
+      "versions": {
+        "0.1.1": {
+          "checksum": "I/kPUrXro8umw4VCfU9UIxA6wI9cb2+NuxHNixMZWy8="
+        }
+      }
+    },
     "npm:@qtumproject/qtum-wallet": {
       "id": "npm:@qtumproject/qtum-wallet",
       "metadata": {
