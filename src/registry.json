@@ -3025,6 +3025,9 @@
         ]
       },
       "versions": {
+        "1.0.1": {
+          "checksum": "SB3s/WQzOn3g7Es76j+2IjNhx3AbxAMAW5M0TRJlXzs="
+        },
         "0.7.0": {
           "checksum": "CRmXO1t+mMp/F99/JhIfeOnVlLw169eBsjdOTQdFSIY="
         },
@@ -3045,6 +3048,37 @@
         },
         "0.2.2": {
           "checksum": "JaBlxYBfufxGVNUFjgFJexdHVU/d0AxeqqIFIaNYsR4="
+        }
+      }
+    },
+    "npm:@greymass/eos-wallet": {
+      "id": "npm:@greymass/eos-wallet",
+      "metadata": {
+        "name": "EOS Wallet",
+        "author": {
+          "name": "Greymass",
+          "website": "https://www.greymass.com/"
+        },
+        "website": "https://unicove.com/",
+        "summary": "Create and manage EOS accounts, sign transactions, and interact with EOS smart contracts.",
+        "description": "The EOS Wallet enables you to create an EOS account, sign transactions and interact with EOS smart contracts. After installing the EOS Wallet, visit the companion dapp, Unicove, to create and manage your EOS account. On Unicove you can stake EOS, participate in the RAM market and more. Dapp compatibility is expected to grow, which will expand access to the EOS Ecosystem.\n\nNeed any additional information or support? Feel free to visit our knowledge base or reach out to our support team (support@greymass.com). If you're a developer and would like to support MetaMask in your EOS application, please check out Wharf and the MetaMask Wallet Plugin.\n\nLinks:\n Unicove: https://unicove.com/en/eos/metamask\n Knowledge Base: https://greymass.freshdesk.com/a/solutions/categories/72000352473/\n Wharf: https://wharfkit.com/\n MetaMask Wallet Plugin: https://github.com/wharfkit/wallet-plugin-metamask",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://cure53.de/pentest-report_antelope-snap.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:support@greymass.com",
+          "faq": "https://unicove.com/en/eos/metamask",
+          "knowledgeBase": "https://greymass.freshdesk.com/support/solutions/categories/72000352473"
+        },
+        "sourceCode": "https://github.com/greymass/antelope-snap/tree/eos"
+      },
+      "versions": {
+        "1.1.0": {
+          "checksum": "05RXQ66dkZzU6uIeHBWC8PwII1X8voKdZuCDXfrrCew="
         }
       }
     },
