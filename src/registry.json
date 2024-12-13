@@ -1467,7 +1467,12 @@
           "contact": "mailto:info@xdcdomains.xyz",
           "knowledgeBase": "https://xdcdomains.xyz/metamask"
         },
-        "sourceCode": "https://github.com/XDCWeb3Domains/xdcdomains-snap"
+        "sourceCode": "https://github.com/XDCWeb3Domains/xdcdomains-snap",
+        "screenshots": [
+          "./images/xdcdomains-snap/1.png",
+          "./images/xdcdomains-snap/2.png",
+          "./images/xdcdomains-snap/3.png"
+        ]
       },
       "versions": {
         "0.1.17": {
