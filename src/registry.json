@@ -1518,13 +1518,13 @@
     "npm:self-name-resolution": {
       "id": "npm:self-name-resolution",
       "metadata": {
-        "name": "Self name resolution",
+        "name": "SELF Name Resolution",
         "author": {
           "name": "SELF Crypto",
           "website": "https://selfcrypto.io/"
         },
-        "summary": "Resolve Self crypto names to addresses",
-        "description": "Self Name Resolution Snap\n\nThis MetaMask Snap enables resolution of Self domain names to their corresponding cryptocurrency addresses using either domain.self or $:domain formats. It integrates with the Self naming service to provide seamless name resolution directly within MetaMask.\n\n## Features\n\n- Resolves Self domain names in two formats:\n  - .self domains (e.g., domain.self)\n  - $: scheme (e.g., $:domain)\n- Supports multiple chains including:\n  - Ethereum (EIP155:1)\n  - BNB Smart Chain (EIP155:56)\n  - Avalanche (EIP155:43114)\n  - Arbitrum (EIP155:42161)\n- Seamless integration with MetaMask's name resolution system",
+        "summary": "Resolve SELF crypto names to addresses",
+        "description": "SELF Name Resolution Snap\n\nThis MetaMask Snap enables resolution of SELF domain names to their corresponding cryptocurrency addresses using either domain.self or $:domain formats. It integrates with the SELF naming service to provide seamless name resolution directly within MetaMask.\n\n## Features\n\n- Resolves SELF domain names in two formats:\n  - .self domains (e.g., domain.self)\n  - $: scheme (e.g., $:domain)\n- Supports multiple chains including:\n  - Ethereum (EIP155:1)\n  - BNB Smart Chain (EIP155:56)\n  - Avalanche (EIP155:43114)\n  - Arbitrum (EIP155:42161)\n- Seamless integration with MetaMask's name resolution system",
         "category": "name resolution",
         "support": {
           "contact": "mailto:enrique.ferrater@selfcrypto.io",
@@ -1534,8 +1534,8 @@
         "sourceCode": "https://github.com/selfcrypto/self-snap"
       },
       "versions": {
-        "0.1.1": {
-          "checksum": "I/kPUrXro8umw4VCfU9UIxA6wI9cb2+NuxHNixMZWy8="
+        "0.1.4": {
+          "checksum": "0iYGbs3NNk8lZRJXRrHm94McRohhaxpTKkg5k4awQ/8="
         }
       }
     },
