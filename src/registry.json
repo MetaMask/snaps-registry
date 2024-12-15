@@ -3087,6 +3087,30 @@
         }
       }
     },
+    "npm:themiracle-benefits-tracker": {
+      "id": "npm:themiracle-benefits-tracker",
+      "metadata": {
+        "name": "theMiracle Benefits Tracker",
+        "author": {
+          "name": "flibs labs",
+          "website": "https://www.flipslabs.xyz"
+        },
+        "website": "https://app.themiracle.io/snap",
+        "summary": " Showcases all of a user's benefits, perks, and rewards that pertain to their holdings, for both their fungibles and non-fungibles.",
+        "description": "theMiracle Benefit Tracker will showcase all of the benefits and perks that pertain to that user's holdings - fungibles and non-fungibles.\nTo use, go to your snap menu and select theMiracle snap to connect your accounts, and then go back and select the snap again in the menu to see your benefits. \n Whenever you want to get an update of your benefits, go to the snap in the menu!",
+        "category": "interoperability",
+        "support": {
+          "contact": "discord user: askar. ",
+          "faq": "https://app.themiracle.io/snap"
+        },
+        "sourceCode": "https://github.com/0xAskar/themiraclesnap",
+      },
+      "versions": {
+        "0.1": {
+          "checksum": "FvqebRL/mnX5cep+Naj3WaithoX3Apsb7YwiaiHJubo="
+        }
+      }
+    },
     "npm:@harbour-fi/ramp-snap": {
       "id": "npm:@harbour-fi/ramp-snap",
       "metadata": {
