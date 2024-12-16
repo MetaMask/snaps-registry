@@ -3096,14 +3096,14 @@
           "website": "https://www.flipslabs.xyz"
         },
         "website": "https://app.themiracle.io/snap",
-        "summary": " Showcases all of a user's benefits, perks, and rewards that pertain to their holdings, for both their fungibles and non-fungibles.",
-        "description": "theMiracle Benefit Tracker will showcase all of the benefits and perks that pertain to that user's holdings - fungibles and non-fungibles.\nTo use, go to your snap menu and select theMiracle snap to connect your accounts, and then go back and select the snap again in the menu to see your benefits. \n Whenever you want to get an update of your benefits, go to the snap in the menu!",
+        "summary": " Showcases all the benefits, perks, and rewards associated with your fungible and non-fungible holdings.",
+        "description": "TheMiracle Benefit Tracker helps you explore all the benefits, perks, and rewards associated with your holdings—both fungible and non-fungible assets.\nTo get started, open your Snap menu and select theMiracle Snap to connect your accounts. Once connected, revisit the Snap in the menu to view your personalized benefits.\nWant to stay updated? Simply return to the Snap anytime to check for the latest benefits tied to your assets.",
         "category": "interoperability",
         "support": {
-          "contact": "discord user: askar. ",
+          "contact": "discord user: askar.",
           "faq": "https://app.themiracle.io/snap"
         },
-        "sourceCode": "https://github.com/0xAskar/themiraclesnap",
+        "sourceCode": "https://github.com/0xAskar/themiraclesnap"
       },
       "versions": {
         "0.1": {
