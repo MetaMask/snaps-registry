@@ -1375,14 +1375,8 @@
         ]
       },
       "versions": {
-        "1.2.2": {
-          "checksum": "JNLIjh3TKVEi5tyOrY975mbE9GYvtA6ruLcmilpZvPc="
-        },
-        "1.2.1": {
-          "checksum": "vNrNCKPLLktsGjVi1vgs3YKLy4zdPJZ4yMueXNGvWTA="
-        },
-        "1.2.0": {
-          "checksum": "OLZtG0WTFYJ+WwX+dAcZ8UGyMdN+M5Ewu9ypNohFiRg="
+        "1.2.3": {
+          "checksum": "WuDywSqVFK/ELGbAuNHk/XkUn/mP3Y4S/Hyh3xXDkBw="
         }
       }
     },
