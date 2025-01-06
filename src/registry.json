@@ -3050,6 +3050,36 @@
         }
       }
     },
+    "npm:@massalabs/metamask-snap": {
+      "id": "npm:@massalabs/metamask-snap",
+      "metadata": {
+        "name": "Massa",
+        "author": {
+          "name": "Massa Labs",
+          "website": "https://massa.net/"
+        },
+        "summary": "Massa smart wallet",
+        "description": "Massa Snap is your gateway to the Massa ecosystem, offering a user-friendly way to connect with the innovative Massa blockchain directly from MetaMask. With this Snap, you can:\n\n    - Send and receive MAS tokens seamlessly.\n    - View transaction history and account balances.\n    - Smart Contract interaction.\n    - MRC20 Token and NFT interaction.\n    - Deploy Smart Contracts.\n    - Buy & sell rolls.\n\n\nWhether you're a user exploring the Massa blockchain or a developer building on its decentralized ecosystem, this Snap simplifies your connection and enhances your experience with Massa activities directly within MetaMask.\n\nGet started with these resources:\n\n- Massa Documentation: Learn more about Massa’s unique features and developer tools: https://docs.massa.net\n- Massa Ecosystem Apps: Discover decentralized services and apps: https://massa.net\n- Massa Bridge: Bridge assets from Ethereum or BSC: https://bridge.massa.net/\n\n\nJoin the revolutionary Massa blockchain, combining BlockDAG scalability, autonomous smart contracts, and fully decentralized web capabilities, all accessible through Massa Snap for MetaMask.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-massa/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.com/invite/massa",
+          "faq": "https://docs.massa.net/docs/build/wallet/metamask-snap#faqs",
+          "knowledgeBase": "https://docs.massa.net/docs/build/wallet/metamask-snap"
+        },
+        "sourceCode": "https://github.com/massalabs/metamask-massa"
+      },
+      "versions": {
+        "1.1.3": {
+          "checksum": "uIVl/RV5dTtp3qmZhlbg66lGcBJx2kAAesdVTRzetY4="
+        }
+      }
+    },
     "npm:@greymass/eos-wallet": {
       "id": "npm:@greymass/eos-wallet",
       "metadata": {
