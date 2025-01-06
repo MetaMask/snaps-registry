@@ -2157,7 +2157,7 @@
         },
         "website": "https://snaps.consensys.io/starknet",
         "summary": "Deploy Starknet accounts, make transactions, and connect with Starknet’s dApp ecosystem.",
-        "description": "The Starknet Snap is your gateway to the Starknet ecosystem, enabling you to deploy accounts, execute transactions, and interact with Starknet smart contracts. This Snap allows you to engage directly with Starknet dapps, like StarkGate for bridging tokens from Ethereum and AVNU.fi for trading on Starknet. Compatibility with additional dapps is set to grow, expanding your access to Starknet’s evolving network.\n\nWhether you’re exploring or building on Starknet, the Snap simplifies your connection to Starknet activities right from MetaMask. Developers can refer to our Knowledge Base to learn more about making MetaMask-compatible Starknet dapps.\n\nGet started with these resources:\n\n- Companion dapp: Set up your account, check balances, and send tokens: https://snaps.consensys.io/starknet/\n- StarkGate: Bridge tokens from Ethereum to Starknet: https://starkgate.starknet.io/\n- AVNU: Trade assets on Starknet: https://www.avnu.fi/",
+        "description": "The Starknet Snap is your gateway to the Starknet ecosystem, enabling you to deploy accounts, execute transactions, and interact with Starknet smart contracts. This Snap allows you to seamlessly bridge tokens, swap assets, lend/borrow, provide liquidity, and even claim your Starknet ID—all from the convenience of MetaMask.\n\nWhether you’re exploring or building on Starknet, the Snap simplifies your connection to Starknet activities. Developers can refer to our Knowledge Base to learn how to create MetaMask-compatible Starknet dapps.\n\nGet started with these resources:\n\n- Companion dapp: Set up your account, check balances, and send tokens: https://snaps.consensys.io/starknet/\n- StarkGate: https://starkgate.starknet.io/\n- AVNU: https://www.avnu.fi/\n- Fibrous: https://app.fibrous.finance/\n- Starknet ID: https://app.starknet.id/\n- Nostra: https://app.nostra.finance/\n\nThe compatibility list is continuously growing, expanding your access to Starknet’s vibrant and evolving ecosystem. Simplify your journey with the Starknet Snap today!",
         "audits": [
           {
             "auditor": "Cobalt",
@@ -2181,17 +2181,11 @@
         ]
       },
       "versions": {
+        "3.1.0": {
+          "checksum": "jbQaGMSDDCcV4uEbxPf1L5dsI/i706zmX+fEhU5GQBM="
+        },
         "3.0.0": {
           "checksum": "0TA+UY6dNz1c7XOLMNpOj6kaCbiPZhd9R2lwJdLbytQ="
-        },
-        "2.11.0": {
-          "checksum": "pw5j0DzaKPnoTMOTHvMv7/f3gjH0BPqEZHmx3SLGX7U="
-        },
-        "2.10.1": {
-          "checksum": "X38B+1YYnb1L0UYnUq6lHdxLmwjUDBPF8nWaF8LrGGw="
-        },
-        "2.9.0": {
-          "checksum": "jMe+k44JF8e9swELixBr6JZvk1/q3FN6jxx19QJdpBE="
         },
         "2.7.0": {
           "checksum": "6/Jk/hS2+fEe3zcDlRg+jyY3MqFgW4C8R1EDkuE3iD0="
