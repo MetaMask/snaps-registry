@@ -993,8 +993,8 @@
         "sourceCode": "https://github.com/DoggyFiOfficial/dogecoin-snap-public"
       },
       "versions": {
-        "0.1.7": {
-          "checksum": "Fam6/TAsw/79zED4qHzH0mZxjqcmr7qVaDZG7bytlEE="
+        "0.1.8": {
+          "checksum": "XSHO5B2+kgh1E0/9Nh2ZtjfwkIhhdUWfcCW00FYCatc="
         }
       }
     },
@@ -1375,14 +1375,8 @@
         ]
       },
       "versions": {
-        "1.2.2": {
-          "checksum": "JNLIjh3TKVEi5tyOrY975mbE9GYvtA6ruLcmilpZvPc="
-        },
-        "1.2.1": {
-          "checksum": "vNrNCKPLLktsGjVi1vgs3YKLy4zdPJZ4yMueXNGvWTA="
-        },
-        "1.2.0": {
-          "checksum": "OLZtG0WTFYJ+WwX+dAcZ8UGyMdN+M5Ewu9ypNohFiRg="
+        "1.2.3": {
+          "checksum": "WuDywSqVFK/ELGbAuNHk/XkUn/mP3Y4S/Hyh3xXDkBw="
         }
       }
     },
@@ -1467,7 +1461,12 @@
           "contact": "mailto:info@xdcdomains.xyz",
           "knowledgeBase": "https://xdcdomains.xyz/metamask"
         },
-        "sourceCode": "https://github.com/XDCWeb3Domains/xdcdomains-snap"
+        "sourceCode": "https://github.com/XDCWeb3Domains/xdcdomains-snap",
+        "screenshots": [
+          "./images/xdcdomains-snap/1.png",
+          "./images/xdcdomains-snap/2.png",
+          "./images/xdcdomains-snap/3.png"
+        ]
       },
       "versions": {
         "0.1.17": {
@@ -1513,13 +1512,13 @@
     "npm:self-name-resolution": {
       "id": "npm:self-name-resolution",
       "metadata": {
-        "name": "Self name resolution",
+        "name": "SELF Name Resolution",
         "author": {
           "name": "SELF Crypto",
           "website": "https://selfcrypto.io/"
         },
-        "summary": "Resolve Self crypto names to addresses",
-        "description": "Self Name Resolution Snap\n\nThis MetaMask Snap enables resolution of Self domain names to their corresponding cryptocurrency addresses using either domain.self or $:domain formats. It integrates with the Self naming service to provide seamless name resolution directly within MetaMask.\n\n## Features\n\n- Resolves Self domain names in two formats:\n  - .self domains (e.g., domain.self)\n  - $: scheme (e.g., $:domain)\n- Supports multiple chains including:\n  - Ethereum (EIP155:1)\n  - BNB Smart Chain (EIP155:56)\n  - Avalanche (EIP155:43114)\n  - Arbitrum (EIP155:42161)\n- Seamless integration with MetaMask's name resolution system",
+        "summary": "Resolve SELF crypto names to addresses",
+        "description": "SELF Name Resolution Snap\n\nThis MetaMask Snap enables resolution of SELF domain names to their corresponding cryptocurrency addresses using either domain.self or $:domain formats. It integrates with the SELF naming service to provide seamless name resolution directly within MetaMask.\n\n## Features\n\n- Resolves SELF domain names in two formats:\n  - .self domains (e.g., domain.self)\n  - $: scheme (e.g., $:domain)\n- Supports multiple chains including:\n  - Ethereum (EIP155:1)\n  - BNB Smart Chain (EIP155:56)\n  - Avalanche (EIP155:43114)\n  - Arbitrum (EIP155:42161)\n- Seamless integration with MetaMask's name resolution system",
         "category": "name resolution",
         "support": {
           "contact": "mailto:enrique.ferrater@selfcrypto.io",
@@ -1529,8 +1528,8 @@
         "sourceCode": "https://github.com/selfcrypto/self-snap"
       },
       "versions": {
-        "0.1.1": {
-          "checksum": "I/kPUrXro8umw4VCfU9UIxA6wI9cb2+NuxHNixMZWy8="
+        "0.1.4": {
+          "checksum": "0iYGbs3NNk8lZRJXRrHm94McRohhaxpTKkg5k4awQ/8="
         }
       }
     },
@@ -3025,6 +3024,9 @@
         ]
       },
       "versions": {
+        "1.0.1": {
+          "checksum": "SB3s/WQzOn3g7Es76j+2IjNhx3AbxAMAW5M0TRJlXzs="
+        },
         "0.7.0": {
           "checksum": "CRmXO1t+mMp/F99/JhIfeOnVlLw169eBsjdOTQdFSIY="
         },
@@ -3045,6 +3047,37 @@
         },
         "0.2.2": {
           "checksum": "JaBlxYBfufxGVNUFjgFJexdHVU/d0AxeqqIFIaNYsR4="
+        }
+      }
+    },
+    "npm:@greymass/eos-wallet": {
+      "id": "npm:@greymass/eos-wallet",
+      "metadata": {
+        "name": "EOS Wallet",
+        "author": {
+          "name": "Greymass",
+          "website": "https://www.greymass.com/"
+        },
+        "website": "https://unicove.com/",
+        "summary": "Create and manage EOS accounts, sign transactions, and interact with EOS smart contracts.",
+        "description": "The EOS Wallet enables you to create an EOS account, sign transactions and interact with EOS smart contracts. After installing the EOS Wallet, visit the companion dapp, Unicove, to create and manage your EOS account. On Unicove you can stake EOS, participate in the RAM market and more. Dapp compatibility is expected to grow, which will expand access to the EOS Ecosystem.\n\nNeed any additional information or support? Feel free to visit our knowledge base or reach out to our support team (support@greymass.com). If you're a developer and would like to support MetaMask in your EOS application, please check out Wharf and the MetaMask Wallet Plugin.\n\nLinks:\n Unicove: https://unicove.com/en/eos/metamask\n Knowledge Base: https://greymass.freshdesk.com/a/solutions/categories/72000352473/\n Wharf: https://wharfkit.com/\n MetaMask Wallet Plugin: https://github.com/wharfkit/wallet-plugin-metamask",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://cure53.de/pentest-report_antelope-snap.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:support@greymass.com",
+          "faq": "https://unicove.com/en/eos/metamask",
+          "knowledgeBase": "https://greymass.freshdesk.com/support/solutions/categories/72000352473"
+        },
+        "sourceCode": "https://github.com/greymass/antelope-snap/tree/eos"
+      },
+      "versions": {
+        "1.1.0": {
+          "checksum": "05RXQ66dkZzU6uIeHBWC8PwII1X8voKdZuCDXfrrCew="
         }
       }
     },
