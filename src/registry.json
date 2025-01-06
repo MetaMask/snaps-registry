@@ -3100,7 +3100,7 @@
         "description": "TheMiracle Benefit Tracker helps you explore all the benefits, perks, and rewards associated with your holdings—both fungible and non-fungible assets.\nTo get started, open your Snap menu and select theMiracle Snap to connect your accounts. Once connected, revisit the Snap in the menu to view your personalized benefits.\nWant to stay updated? Simply return to the Snap anytime to check for the latest benefits tied to your assets.",
         "category": "interoperability",
         "support": {
-          "contact": "discord user: askar.",
+          "contact": "mailto:askar@flipslabs.xyz",
           "faq": "https://app.themiracle.io/snap"
         },
         "sourceCode": "https://github.com/0xAskar/themiraclesnap"
