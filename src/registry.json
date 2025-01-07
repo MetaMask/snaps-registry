@@ -2111,6 +2111,30 @@
         }
       }
     },
+    "npm:@xrpname/snap": {
+      "id": "npm:@xrpname/snap",
+      "metadata": {
+        "name": "XRP Name",
+        "author": {
+          "name": "XRP Web3 Identity",
+          "website": "https://xrpdomains.xyz"
+        },
+        "website": "https://xrpdomains.xyz/snap",
+        "summary": "Transfer assets using xrp names instead of complex wallet addresses.",
+        "description": "The XRP Name Snap simplifies your transactions with XRPName on MetaMask-transfer assets using xrp names instead of complex wallet addresses.\n\n\n\nCheck out our tutorials:\n\nRegister a xrp name: https://xrpdomains.xyz/app\nLink your EVM wallet to your xrp name: https://xrpdomains.xyz/ens\nDownload XRPName Snap: https://xrpdomains.xyz/snap",
+        "category": "name resolution",
+        "support": {
+          "knowledgeBase": "https://xrpdomains.xyz/snap",
+          "contact": "info@xrpdomains.xyz"
+        },
+        "sourceCode": "https://github.com/XRPDomains/XRPNameSnap"
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "v5EkbqGVWTVuvXTfKVnnB17B/jY4xlVkXs1ZGNVFqjY="
+        }
+      }
+    },
     "npm:xrpl-snap": {
       "id": "npm:xrpl-snap",
       "metadata": {
