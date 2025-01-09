@@ -3068,6 +3068,36 @@
         }
       }
     },
+    "npm:@massalabs/metamask-snap": {
+      "id": "npm:@massalabs/metamask-snap",
+      "metadata": {
+        "name": "Massa",
+        "author": {
+          "name": "Massa Labs",
+          "website": "https://massa.net/"
+        },
+        "summary": "Massa smart wallet",
+        "description": "Massa Snap is your gateway to the Massa ecosystem, offering a seamless and user-friendly way to interact with the innovative Massa blockchain directly from MetaMask. With this Snap, you can:\n\n- Send and receive MAS tokens effortlessly.\n- View transaction history and account balances.\n- Interact with Massa Smart Contracts.\n\nAs the Massa ecosystem continues to grow, more dApps will integrate with the Massa Snap to enhance its functionality. The first dApp already compatible is Syntra, a cutting-edge application powered by Massa’s autonomous smart contracts. Syntra simplifies token scheduling, enabling automated and seamless transactions for tipping content creators, managing token vesting, and more.\n\nFuture integrations will expand the Snap’s capabilities, allowing users to:\n\n- Engage with MRC20 tokens and NFTs.\n- Deploy and manage smart contracts.\n- Buy and sell rolls directly within MetaMask.\n\nStay tuned as more dApps and features are integrated into the Massa Snap, further connecting you to the ecosystem.\n\nGet started with these resources:\n\n- Massa Documentation: Learn about Massa’s features and developer tools: https://docs.massa.net\n- Massa Ecosystem Apps: Explore decentralized services and apps: https://massa.net\n\nWhy Massa?\nThe Massa blockchain combines the scalability of BlockDAG, autonomous smart contracts, and fully decentralized web capabilities, making it a revolutionary platform for developers and users alike. Start your journey with Massa Snap for MetaMask today and be part of this evolving ecosystem!",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-massa/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.com/invite/massa",
+          "faq": "https://docs.massa.net/docs/build/wallet/metamask-snap#faqs",
+          "knowledgeBase": "https://docs.massa.net/docs/build/wallet/metamask-snap"
+        },
+        "sourceCode": "https://github.com/massalabs/metamask-massa"
+      },
+      "versions": {
+        "1.1.4": {
+          "checksum": "A1Stf73pE5v9KTJZNo875Gspjnps5j/MhRfc6u9d2H0="
+        }
+      }
+    },
     "npm:@greymass/eos-wallet": {
       "id": "npm:@greymass/eos-wallet",
       "metadata": {
