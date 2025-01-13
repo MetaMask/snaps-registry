@@ -7,39 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [3.2.3]
-### Uncategorized
+### Changed
 - Bump `@metamask/utils` from `^10.0.0` to `^11.0.1` ([#996](https://github.com/MetaMask/snaps-registry/pull/996))
-- New XRP Name ([#993](https://github.com/MetaMask/snaps-registry/pull/993))
-- New Massa ([#987](https://github.com/MetaMask/snaps-registry/pull/987))
-- Update Starknet ([#992](https://github.com/MetaMask/snaps-registry/pull/992))
-- Update Tenderly ([#983](https://github.com/MetaMask/snaps-registry/pull/983))
-- Update Self Name Resolution ([#976](https://github.com/MetaMask/snaps-registry/pull/976))
-- Add screenshots for XDCWeb3Domains ([#975](https://github.com/MetaMask/snaps-registry/pull/975))
-- Update Kobosu ([#971](https://github.com/MetaMask/snaps-registry/pull/971))
-- Update PolkaGate ([#972](https://github.com/MetaMask/snaps-registry/pull/972))
-- New EOS Wallet ([#949](https://github.com/MetaMask/snaps-registry/pull/949))
-- New XDCWeb3Domains ([#959](https://github.com/MetaMask/snaps-registry/pull/959))
-- New SelfNameResolution ([#958](https://github.com/MetaMask/snaps-registry/pull/958))
-- Update Kobosu ([#969](https://github.com/MetaMask/snaps-registry/pull/969))
-- Update Aleo Metadata ([#962](https://github.com/MetaMask/snaps-registry/pull/962))
-- Unlist Polkadot ([#964](https://github.com/MetaMask/snaps-registry/pull/964))
-- Update Zazen ([#960](https://github.com/MetaMask/snaps-registry/pull/960))
-- Bump notification example Snap ([#966](https://github.com/MetaMask/snaps-registry/pull/966))
-- Update Qtum metadata ([#956](https://github.com/MetaMask/snaps-registry/pull/956))
-- Update StarkNet ([#954](https://github.com/MetaMask/snaps-registry/pull/954))
-- Update Zazen description, clean line return ([#947](https://github.com/MetaMask/snaps-registry/pull/947))
-- Update ZetaLink ([#943](https://github.com/MetaMask/snaps-registry/pull/943))
-- Update PolkaGate ([#951](https://github.com/MetaMask/snaps-registry/pull/951))
-- Update HNS.id add category ([#945](https://github.com/MetaMask/snaps-registry/pull/945))
-- New Hns.id ([#941](https://github.com/MetaMask/snaps-registry/pull/941))
-- New kobosu ([#908](https://github.com/MetaMask/snaps-registry/pull/908))
-- Update Galactica ([#939](https://github.com/MetaMask/snaps-registry/pull/939))
-- Update HashDit ([#937](https://github.com/MetaMask/snaps-registry/pull/937))
-- Update Partisia Blockchain ([#934](https://github.com/MetaMask/snaps-registry/pull/934))
-- New ZyfiPaymasterInsights ([#909](https://github.com/MetaMask/snaps-registry/pull/909))
-- Update ZetaLink ([#917](https://github.com/MetaMask/snaps-registry/pull/917))
-- Update Identify  ([#913](https://github.com/MetaMask/snaps-registry/pull/913))
-- Update PolkaGate ([#930](https://github.com/MetaMask/snaps-registry/pull/930))
 
 ## [3.2.2]
 ### Changed
