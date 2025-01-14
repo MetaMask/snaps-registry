@@ -3132,9 +3132,9 @@
         },
         "sourceCode": "https://github.com/paulfears/StellarSnap",
         "screenshots": [
-          "./images/starknet-snap/1.png",
-          "./images/starknet-snap/2.png",
-          "./images/starknet-snap/3.png"
+          "./images/stellar-snap/1.png",
+          "./images/stellar-snap/2.png",
+          "./images/stellar-snap/3.png"
         ]
       },
       "versions": {
