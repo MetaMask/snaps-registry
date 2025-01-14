@@ -3130,7 +3130,12 @@
           "knowledgeBase": "https://www.canva.com/design/DAGWM2MEUpo/QEKT6U2vsa_gd7lkxauhmA/view",
           "faq": "https://stellar-wallet-demo.vercel.app/faq"
         },
-        "sourceCode": "https://github.com/paulfears/StellarSnap"
+        "sourceCode": "https://github.com/paulfears/StellarSnap",
+        "screenshots": [
+          "./images/starknet-snap/1.png",
+          "./images/starknet-snap/2.png",
+          "./images/starknet-snap/3.png"
+        ]
       },
       "versions": {
         "1.0.7": {
