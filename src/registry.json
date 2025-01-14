@@ -426,6 +426,9 @@
         },
         "2.1.4": {
           "checksum": "52lYQY0bh6ZtKx4ZNtQNO17ustuhQBewko/WzQkS68A="
+        },
+        "2.2.0": {
+          "checksum": "B0eoXOpzU2Cts5d42w11AdvgClmS/une3zXQ9vHnJgU="
         }
       }
     },
@@ -690,6 +693,9 @@
         },
         "2.2.3": {
           "checksum": "5FNiUEpsrVxG3rTbJvhx/IBZ/jIYYu0ZbnCX9A6dAPE="
+        },
+        "3.0.0": {
+          "checksum": "9n3dGpYT/s9CwkwfGTkOgMA8jvrkLg9KVP2Y/KsrWkg="
         }
       }
     },
@@ -768,6 +774,9 @@
         },
         "2.2.0": {
           "checksum": "ZXgMRkK/FtEZlwVSdOC+dmP99tuBTqHx/2Mj/FNhzAg="
+        },
+        "2.3.0": {
+          "checksum": "vgZf2fdTM9fTAFroi78267SHtaEeTJLTNa/hobO22s0="
         }
       }
     },
@@ -2108,6 +2117,30 @@
       "versions": {
         "1.0.3": {
           "checksum": "sVG18jeqBlhj+LgGEJr2w+tQmSPSxXUXp2Gy3cYNu5o="
+        }
+      }
+    },
+    "npm:@xrpname/snap": {
+      "id": "npm:@xrpname/snap",
+      "metadata": {
+        "name": "XRP Name",
+        "author": {
+          "name": "XRP Web3 Identity",
+          "website": "https://xrpdomains.xyz"
+        },
+        "website": "https://xrpdomains.xyz/snap",
+        "summary": "Transfer assets using xrp names instead of complex wallet addresses.",
+        "description": "The XRP Name Snap simplifies your transactions with XRPName on MetaMask-transfer assets using xrp names instead of complex wallet addresses.\n\n\n\nCheck out our tutorials:\n\nRegister a xrp name: https://xrpdomains.xyz/app\nLink your EVM wallet to your xrp name: https://xrpdomains.xyz/ens\nDownload XRPName Snap: https://xrpdomains.xyz/snap",
+        "category": "name resolution",
+        "support": {
+          "knowledgeBase": "https://xrpdomains.xyz/snap",
+          "contact": "info@xrpdomains.xyz"
+        },
+        "sourceCode": "https://github.com/XRPDomains/XRPNameSnap"
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "v5EkbqGVWTVuvXTfKVnnB17B/jY4xlVkXs1ZGNVFqjY="
         }
       }
     },
