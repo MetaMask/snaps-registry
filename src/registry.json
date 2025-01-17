@@ -2006,7 +2006,12 @@
           "contact": "mailto:info@rentality.xyz",
           "knowledgeBase": "https://app.rentality.xyz/guest/legal"
         },
-        "sourceCode": "https://github.com/Daniloday/rentality-snap/"
+        "sourceCode": "https://github.com/Daniloday/rentality-snap/",
+        "screenshots": [
+          "./images/rentality/1.png",
+          "./images/rentality/2.png",
+          "./images/rentality/3.png"
+        ]
       },
       "versions": {
         "1.0.2": {
