@@ -4043,6 +4043,30 @@
         }
       }
     },
+    "npm:beranames_resolver": {
+      "id": "npm:beranames_resolver",
+      "metadata": {
+        "name": "Beranames Resolver",
+        "author": {
+          "name": "Berakin",
+          "website": "https://berakin.io/"
+        },
+        "website": "https://beranames.com/",
+        "summary": "The official name service of Berachain",
+        "description": "Replace long, complex wallet addresses with an easy-to-read Beraname to effortlessly send and receive crypto.\n\nAfter installing the Snap, you will be able to use .bera and .🐻⛓️ names in the send flow.",
+        "category": "name resolution",
+        "support": {
+          "contact": "mailto:lethale@berakin.io",
+          "knowledgeBase": "https://docs.beranames.com/"
+        },
+        "sourceCode": "https://github.com/Beranames/beranames-resolution-snap"
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "MSOp9NBk0hbrYjsImb5O0v6LEg1yvZxAX6GU+BWmt3I="
+        }
+      }
+    },
     "npm:@web3-name-sdk/snap": {
       "id": "npm:@web3-name-sdk/snap",
       "metadata": {
