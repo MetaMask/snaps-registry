@@ -1993,14 +1993,14 @@
     "npm:rentality": {
       "id": "npm:rentality",
       "metadata": {
-        "name": "Rentality",
+        "name": "rentality",
         "author": {
-          "name": "Rentality",
+          "name": "rentality",
           "website": "https://rentality.xyz/"
         },
         "website": "https://app.rentality.xyz/",
         "summary": "Transforming the future of car rentals with blockchain.",
-        "description": "Rentality Snap\nRentality Snap is your first step toward a Web 3.0 car rental experience, enabling users to easily access the Rentality platform via MetaMask.\n\nWith this Snap, you can:\nView the number of cars available for rent.\nClick a button to rent a car, which redirects you to the Rentality app for booking.\n\nMore features are coming soon, including:\nAccess to rental details and contract management via the Snap.\n\nStay tuned for further updates as the Rentality Snap evolves to provide a decentralized, cost-efficient car rental service directly from MetaMask.\n\nResources:\n\nRentality App: Discover the app where you can book and manage your rentals.   - https://app.rentality.xyz/\nRentality Documentation: Learn more about the platform and how it works:\n-https://medium.com/@rentality\n-https://zealy.io/cw/rentality/questboard",
+        "description": "rentality Snap\nrentality Snap is your first step toward a Web 3.0 car rental experience, enabling users to easily access the rentality platform via MetaMask.\n\nWith this Snap, you can:\nView the number of cars available for rent.\nClick a button to rent a car, which redirects you to the rentality app for booking.\n\nMore features are coming soon, including:\nAccess to rental details and contract management via the Snap.\n\nStay tuned for further updates as the rentality Snap evolves to provide a decentralized, cost-efficient car rental service directly from MetaMask.\n\nResources:\n\nrentality App: Discover the app where you can book and manage your rentals.\n- https://app.rentality.xyz/\nrentality Documentation: Learn more about the platform and how it works:\n-https://medium.com/@rentality\n-https://zealy.io/cw/rentality/questboard",
         "category": "interoperability",
         "support": {
           "contact": "mailto:info@rentality.xyz",
@@ -2014,8 +2014,8 @@
         ]
       },
       "versions": {
-        "1.0.2": {
-          "checksum": "bH+p+q4M3FRd2h3gk/nHjAN3LllGd8UaWNgDa5b8VJg="
+        "1.0.5": {
+          "checksum": "5973cyOv7EVTimwaNOfI26e/vG1wXXvVXnS57dC7p4w="
         }
       }
     },
