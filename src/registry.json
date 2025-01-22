@@ -2209,7 +2209,12 @@
           "knowledgeBase": "https://support.nft.io/hc/en-gb/articles/23654979839378-How-to-Connect-via-MetaMask-Enjin-Snap",
           "faq": "https://support.enjin.io/hc/en-gb/articles/23053873072274-Enjin-Snap"
         },
-        "sourceCode": "https://github.com/enjin/metamask-snap-enjin"
+        "sourceCode": "https://github.com/enjin/metamask-snap-enjin",
+        "screenshots": [
+          "./images/@enjin-io/snap/1.jpg",
+          "./images/@enjin-io/snap/2.jpg",
+          "./images/@enjin-io/snap/3.jpg"
+        ]
       },
       "versions": {
         "0.1.2": {
