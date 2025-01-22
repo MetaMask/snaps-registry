@@ -426,6 +426,12 @@
         },
         "2.1.4": {
           "checksum": "52lYQY0bh6ZtKx4ZNtQNO17ustuhQBewko/WzQkS68A="
+        },
+        "2.2.0": {
+          "checksum": "B0eoXOpzU2Cts5d42w11AdvgClmS/une3zXQ9vHnJgU="
+        },
+        "3.0.0": {
+          "checksum": "p0EjILZJvCZE2KZSlJ8e5q96ODsV/heJHp2nmUx7DG8="
         }
       }
     },
@@ -537,6 +543,9 @@
         },
         "2.1.3": {
           "checksum": "pSiTZjO5nox8zYh+fQtQfZLp5HwbxKByu+WOo+tAAH0="
+        },
+        "2.2.1": {
+          "checksum": "8f7Fo6y40+L0x+KHkDCq2wjEMrkTL+L6e2NSNBZYVLA="
         }
       }
     },
@@ -690,6 +699,9 @@
         },
         "2.2.3": {
           "checksum": "5FNiUEpsrVxG3rTbJvhx/IBZ/jIYYu0ZbnCX9A6dAPE="
+        },
+        "3.0.0": {
+          "checksum": "9n3dGpYT/s9CwkwfGTkOgMA8jvrkLg9KVP2Y/KsrWkg="
         }
       }
     },
@@ -768,6 +780,9 @@
         },
         "2.2.0": {
           "checksum": "ZXgMRkK/FtEZlwVSdOC+dmP99tuBTqHx/2Mj/FNhzAg="
+        },
+        "2.3.0": {
+          "checksum": "vgZf2fdTM9fTAFroi78267SHtaEeTJLTNa/hobO22s0="
         }
       }
     },
@@ -2111,6 +2126,30 @@
         }
       }
     },
+    "npm:@xrpname/snap": {
+      "id": "npm:@xrpname/snap",
+      "metadata": {
+        "name": "XRP Name",
+        "author": {
+          "name": "XRP Web3 Identity",
+          "website": "https://xrpdomains.xyz"
+        },
+        "website": "https://xrpdomains.xyz/snap",
+        "summary": "Transfer assets using xrp names instead of complex wallet addresses.",
+        "description": "The XRP Name Snap simplifies your transactions with XRPName on MetaMask-transfer assets using xrp names instead of complex wallet addresses.\n\n\n\nCheck out our tutorials:\n\nRegister a xrp name: https://xrpdomains.xyz/app\nLink your EVM wallet to your xrp name: https://xrpdomains.xyz/ens\nDownload XRPName Snap: https://xrpdomains.xyz/snap",
+        "category": "name resolution",
+        "support": {
+          "knowledgeBase": "https://xrpdomains.xyz/snap",
+          "contact": "info@xrpdomains.xyz"
+        },
+        "sourceCode": "https://github.com/XRPDomains/XRPNameSnap"
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "v5EkbqGVWTVuvXTfKVnnB17B/jY4xlVkXs1ZGNVFqjY="
+        }
+      }
+    },
     "npm:xrpl-snap": {
       "id": "npm:xrpl-snap",
       "metadata": {
@@ -2142,8 +2181,8 @@
         ]
       },
       "versions": {
-        "1.0.2": {
-          "checksum": "OtRtdHFRdkF5fzebgTTaN/1u0B9T3F55RG7TO/wLrcs="
+        "1.0.3": {
+          "checksum": "oHKKiLgKAZ64wNLhrekTnDfhjKCEKDqcQ2Cu47u/GoU="
         }
       }
     },
@@ -3075,6 +3114,36 @@
         }
       }
     },
+    "npm:@massalabs/metamask-snap": {
+      "id": "npm:@massalabs/metamask-snap",
+      "metadata": {
+        "name": "Massa",
+        "author": {
+          "name": "Massa Labs",
+          "website": "https://massa.net/"
+        },
+        "summary": "Massa smart wallet",
+        "description": "Massa Snap is your gateway to the Massa ecosystem, offering a seamless and user-friendly way to interact with the innovative Massa blockchain directly from MetaMask. With this Snap, you can:\n\n- Send and receive MAS tokens effortlessly.\n- View transaction history and account balances.\n- Interact with Massa Smart Contracts.\n\nAs the Massa ecosystem continues to grow, more dApps will integrate with the Massa Snap to enhance its functionality. The first dApp already compatible is Syntra, a cutting-edge application powered by Massa’s autonomous smart contracts. Syntra simplifies token scheduling, enabling automated and seamless transactions for tipping content creators, managing token vesting, and more.\n\nFuture integrations will expand the Snap’s capabilities, allowing users to:\n\n- Engage with MRC20 tokens and NFTs.\n- Deploy and manage smart contracts.\n- Buy and sell rolls directly within MetaMask.\n\nStay tuned as more dApps and features are integrated into the Massa Snap, further connecting you to the ecosystem.\n\nGet started with these resources:\n\n- Massa Documentation: Learn about Massa’s features and developer tools: https://docs.massa.net\n- Massa Ecosystem Apps: Explore decentralized services and apps: https://massa.net\n\nWhy Massa?\nThe Massa blockchain combines the scalability of BlockDAG, autonomous smart contracts, and fully decentralized web capabilities, making it a revolutionary platform for developers and users alike. Start your journey with Massa Snap for MetaMask today and be part of this evolving ecosystem!",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-massa/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.com/invite/massa",
+          "faq": "https://docs.massa.net/docs/build/wallet/metamask-snap#faqs",
+          "knowledgeBase": "https://docs.massa.net/docs/build/wallet/metamask-snap"
+        },
+        "sourceCode": "https://github.com/massalabs/metamask-massa"
+      },
+      "versions": {
+        "1.1.4": {
+          "checksum": "A1Stf73pE5v9KTJZNo875Gspjnps5j/MhRfc6u9d2H0="
+        }
+      }
+    },
     "npm:@greymass/eos-wallet": {
       "id": "npm:@greymass/eos-wallet",
       "metadata": {
@@ -3300,7 +3369,12 @@
           "knowledgeBase": "https://hapi.one/snap",
           "faq": "https://hapi.one/snap"
         },
-        "sourceCode": "https://github.com/HAPIprotocol/hapilabs-snap"
+        "sourceCode": "https://github.com/HAPIprotocol/hapilabs-snap",
+        "screenshots": [
+          "./images/hapilabs-snap/1.png",
+          "./images/hapilabs-snap/2.png",
+          "./images/hapilabs-snap/3.png"
+        ]
       },
       "versions": {
         "1.0.2": {
@@ -3994,7 +4068,12 @@
           "knowledgeBase": "https://docs.space.id/getting-started/using-domain-on-metamask-snap-releasing/knowledge-base",
           "faq": "https://docs.space.id/getting-started/using-domain-on-metamask-snap-releasing/general-faq"
         },
-        "sourceCode": "https://github.com/Space-ID/web3-name-snap"
+        "sourceCode": "https://github.com/Space-ID/web3-name-snap",
+        "screenshots": [
+          "./images/@web3-name-sdk/snap/1.png",
+          "./images/@web3-name-sdk/snap/2.png",
+          "./images/@web3-name-sdk/snap/3.png"
+        ]
       },
       "versions": {
         "0.0.5": {
