@@ -429,6 +429,9 @@
         },
         "2.2.0": {
           "checksum": "B0eoXOpzU2Cts5d42w11AdvgClmS/une3zXQ9vHnJgU="
+        },
+        "3.0.0": {
+          "checksum": "p0EjILZJvCZE2KZSlJ8e5q96ODsV/heJHp2nmUx7DG8="
         }
       }
     },
@@ -540,6 +543,9 @@
         },
         "2.1.3": {
           "checksum": "pSiTZjO5nox8zYh+fQtQfZLp5HwbxKByu+WOo+tAAH0="
+        },
+        "2.2.1": {
+          "checksum": "8f7Fo6y40+L0x+KHkDCq2wjEMrkTL+L6e2NSNBZYVLA="
         }
       }
     },
@@ -2175,8 +2181,8 @@
         ]
       },
       "versions": {
-        "1.0.2": {
-          "checksum": "OtRtdHFRdkF5fzebgTTaN/1u0B9T3F55RG7TO/wLrcs="
+        "1.0.3": {
+          "checksum": "oHKKiLgKAZ64wNLhrekTnDfhjKCEKDqcQ2Cu47u/GoU="
         }
       }
     },
@@ -3356,7 +3362,12 @@
           "knowledgeBase": "https://hapi.one/snap",
           "faq": "https://hapi.one/snap"
         },
-        "sourceCode": "https://github.com/HAPIprotocol/hapilabs-snap"
+        "sourceCode": "https://github.com/HAPIprotocol/hapilabs-snap",
+        "screenshots": [
+          "./images/hapilabs-snap/1.png",
+          "./images/hapilabs-snap/2.png",
+          "./images/hapilabs-snap/3.png"
+        ]
       },
       "versions": {
         "1.0.2": {
@@ -4050,7 +4061,12 @@
           "knowledgeBase": "https://docs.space.id/getting-started/using-domain-on-metamask-snap-releasing/knowledge-base",
           "faq": "https://docs.space.id/getting-started/using-domain-on-metamask-snap-releasing/general-faq"
         },
-        "sourceCode": "https://github.com/Space-ID/web3-name-snap"
+        "sourceCode": "https://github.com/Space-ID/web3-name-snap",
+        "screenshots": [
+          "./images/@web3-name-sdk/snap/1.png",
+          "./images/@web3-name-sdk/snap/2.png",
+          "./images/@web3-name-sdk/snap/3.png"
+        ]
       },
       "versions": {
         "0.0.5": {
