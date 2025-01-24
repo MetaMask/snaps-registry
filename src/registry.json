@@ -2215,6 +2215,42 @@
         }
       }
     },
+    "npm:@enjin-io/snap": {
+      "id": "npm:@enjin-io/snap",
+      "metadata": {
+        "name": "Enjin Connect",
+        "author": {
+          "name": "Enjin",
+          "website": "http://enjin.io"
+        },
+        "website": "https://nft.io/",
+        "summary": "Seamlessly manage NFTs and blockchain assets within the Enjin ecosystem",
+        "description": "Enjin Snap enhances the MetaMask experience by integrating features specifically designed for the Enjin blockchain. Users can easily manage their NFTs and digital assets with the following capabilities:\n- NFT Management: View, send, and receive NFTs within the Enjin ecosystem.\n- Blockchain Interactions: Execute transactions on the Enjin blockchain without leaving MetaMask.\n- User-Friendly Interface: A streamlined interface that simplifies asset management.\n\nTo get started with Enjin Snap, follow these steps:\n1. Install MetaMask if you haven't already.\n2. Access Enjin Snap through the MetaMask Snaps interface.\n3. Connect your wallet to the Enjin network.\n4. Begin managing your NFTs and assets seamlessly.\n\nFor more information, visit:\nEnjin Snap Support (https://support.enjin.io/hc/en-gb/articles/23053873072274-Enjin-Snap)\nConnecting via MetaMask (https://support.nft.io/hc/en-gb/articles/23654979839378-How-to-Connect-via-MetaMask-Enjin-Snap)\nGitHub Repository (https://github.com/enjin/metamask-snap-enjin)",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-enjin/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:support@enjin.io",
+          "knowledgeBase": "https://support.nft.io/hc/en-gb/articles/23654979839378-How-to-Connect-via-MetaMask-Enjin-Snap",
+          "faq": "https://support.enjin.io/hc/en-gb/articles/23053873072274-Enjin-Snap"
+        },
+        "sourceCode": "https://github.com/enjin/metamask-snap-enjin",
+        "screenshots": [
+          "./images/@enjin-io/snap/1.jpg",
+          "./images/@enjin-io/snap/2.jpg",
+          "./images/@enjin-io/snap/3.jpg"
+        ]
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "PR5M+x5x7vlXA5Jh53a7JSu1Z1EbzyXsyT0Ev3iwRCI="
+        }
+      }
+    },
     "npm:@consensys/starknet-snap": {
       "id": "npm:@consensys/starknet-snap",
       "metadata": {
