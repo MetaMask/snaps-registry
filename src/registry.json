@@ -2174,8 +2174,8 @@
         "sourceCode": "https://github.com/XRPDomains/XRPNameSnap"
       },
       "versions": {
-        "0.1.2": {
-          "checksum": "v5EkbqGVWTVuvXTfKVnnB17B/jY4xlVkXs1ZGNVFqjY="
+        "0.1.3": {
+          "checksum": "sjrISl4jK3Cx1QeHZsdKX6SE+QEnb3II0BEM7S7UZx8="
         }
       }
     },
@@ -3206,6 +3206,30 @@
       "versions": {
         "1.1.0": {
           "checksum": "05RXQ66dkZzU6uIeHBWC8PwII1X8voKdZuCDXfrrCew="
+        }
+      }
+    },
+    "npm:themiracle-benefits-tracker": {
+      "id": "npm:themiracle-benefits-tracker",
+      "metadata": {
+        "name": "theMiracle Benefits Tracker",
+        "author": {
+          "name": "theMiracle",
+          "website": "https://www.themiracle.io/"
+        },
+        "website": "https://app.themiracle.io/snap",
+        "summary": " Showcases all the benefits, perks, and rewards associated with your fungible and non-fungible holdings.",
+        "description": "TheMiracle Benefit Tracker helps you explore all the benefits, perks, and rewards associated with your holdings—both fungible and non-fungible assets.\nTo get started, open your Snap menu and select theMiracle Snap to connect your accounts. Once connected, revisit the Snap in the menu to view your personalized benefits.\nWant to stay updated? Simply return to the Snap anytime to check for the latest benefits tied to your assets.",
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:askar@flipslabs.xyz",
+          "faq": "https://app.themiracle.io/snap"
+        },
+        "sourceCode": "https://github.com/0xAskar/themiraclesnap"
+      },
+      "versions": {
+        "0.1.4": {
+          "checksum": "2b/TZdYkWRxxOwKb/YqYxrtO9TaLn6hb11xeVoZWhoU="
         }
       }
     },
