@@ -3178,6 +3178,35 @@
         }
       }
     },
+    "npm:@qubic-lib/qubic-mm-snap": {
+      "id": "npm:@qubic-lib/qubic-mm-snap",
+      "metadata": {
+        "name": "Qubic Connect",
+        "author": {
+          "name": "Qubic",
+          "website": "https://qubic.org"
+        },
+        "summary": "Basic connector for the Qubic network.",
+        "description": "The Qubic Connect Snap is a MetaMask extension that has Qubic capabilities such as public key derivation and transaction signing. The Snap is a basic integration and is used as the basic building block to connect the world to the Qubic network.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-qubic/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:joetom@qubic.li",
+          "faq": "https://github.com/qubic/qubic-mm-snap/blob/main/FAQ.md"
+        },
+        "sourceCode": "https://github.com/qubic/qubic-mm-snap"
+      },
+      "versions": {
+        "0.0.2": {
+          "checksum": "JcbgBufakwusQA+Ix9t6Qm4afkS5QGRxrLEi7LYoBoo="
+        }
+      }
+    },
     "npm:@greymass/eos-wallet": {
       "id": "npm:@greymass/eos-wallet",
       "metadata": {
