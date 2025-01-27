@@ -2288,11 +2288,11 @@
         "3.1.0": {
           "checksum": "jbQaGMSDDCcV4uEbxPf1L5dsI/i706zmX+fEhU5GQBM="
         },
+        "3.1.0-staging": {
+          "checksum": "FqZpSPhTq0xZ1ak13RTeavyaiDXLeS1pe7F/65wUPTo="
+        },
         "3.0.0": {
           "checksum": "0TA+UY6dNz1c7XOLMNpOj6kaCbiPZhd9R2lwJdLbytQ="
-        },
-        "2.7.0": {
-          "checksum": "6/Jk/hS2+fEe3zcDlRg+jyY3MqFgW4C8R1EDkuE3iD0="
         }
       }
     },
