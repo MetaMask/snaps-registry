@@ -1324,9 +1324,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@metamask/snaps-sdk@npm:^6.16.0":
+  version: 6.16.0
+  resolution: "@metamask/snaps-sdk@npm:6.16.0"
+  dependencies:
+    "@metamask/key-tree": ^10.0.2
+    "@metamask/providers": ^18.3.1
+    "@metamask/rpc-errors": ^7.0.2
+    "@metamask/superstruct": ^3.1.0
+    "@metamask/utils": ^11.0.1
+  checksum: 59277b113a04e0eadbf98928f9a467ac15ce31b6c4396feb795bdb7e31a5435158af16ece93309b3eb2c87a9f0f1c7c91587ce123744f16415e10d6a8f54a70b
+  languageName: node
+  linkType: hard
+
 "@metamask/snaps-utils@npm:^8.8.0":
-  version: 8.8.0
-  resolution: "@metamask/snaps-utils@npm:8.8.0"
+  version: 8.9.1
+  resolution: "@metamask/snaps-utils@npm:8.9.1"
   dependencies:
     "@babel/core": ^7.23.2
     "@babel/types": ^7.23.0
@@ -1336,7 +1349,7 @@ __metadata:
     "@metamask/rpc-errors": ^7.0.2
     "@metamask/slip44": ^4.1.0
     "@metamask/snaps-registry": ^3.2.3
-    "@metamask/snaps-sdk": ^6.15.0
+    "@metamask/snaps-sdk": ^6.16.0
     "@metamask/superstruct": ^3.1.0
     "@metamask/utils": ^11.0.1
     "@noble/hashes": ^1.3.1
@@ -1351,7 +1364,7 @@ __metadata:
     semver: ^7.5.4
     ses: ^1.1.0
     validate-npm-package-name: ^5.0.0
-  checksum: 87b2d3be87e1d94ca7a2552ee5e5586956248b1995b64a077922c37bcc5ff702e04aa6a66c93f296b36ec8e9fc5971e7abe420e356c013d658c961959fbb9700
+  checksum: 73303f253302a9ca566f914bf43932e7e673ff4855b3e7acc023738f8f03ffcf20bcc833afa043693d1268cc05f8d91fc31fd492fe2c64d143e0f9df3d33486b
   languageName: node
   linkType: hard
 
