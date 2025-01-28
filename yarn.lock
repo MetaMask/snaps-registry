@@ -1210,8 +1210,8 @@ __metadata:
   linkType: hard
 
 "@metamask/snaps-controllers@npm:^9.17.0":
-  version: 9.17.0
-  resolution: "@metamask/snaps-controllers@npm:9.17.0"
+  version: 9.18.0
+  resolution: "@metamask/snaps-controllers@npm:9.18.0"
   dependencies:
     "@metamask/approval-controller": ^7.1.2
     "@metamask/base-controller": ^7.0.3
@@ -1224,9 +1224,9 @@ __metadata:
     "@metamask/post-message-stream": ^9.0.0
     "@metamask/rpc-errors": ^7.0.2
     "@metamask/snaps-registry": ^3.2.3
-    "@metamask/snaps-rpc-methods": ^11.9.0
-    "@metamask/snaps-sdk": ^6.15.0
-    "@metamask/snaps-utils": ^8.8.0
+    "@metamask/snaps-rpc-methods": ^11.10.0
+    "@metamask/snaps-sdk": ^6.16.0
+    "@metamask/snaps-utils": ^8.9.0
     "@metamask/utils": ^11.0.1
     "@xstate/fsm": ^2.0.0
     async-mutex: ^0.5.0
@@ -1242,11 +1242,11 @@ __metadata:
     semver: ^7.5.4
     tar-stream: ^3.1.7
   peerDependencies:
-    "@metamask/snaps-execution-environments": ^6.12.0
+    "@metamask/snaps-execution-environments": ^6.13.0
   peerDependenciesMeta:
     "@metamask/snaps-execution-environments":
       optional: true
-  checksum: de2535f872b8b2f0b8754180a1294f73213d7e18169cd91065e6bce4670fff5585ae50ddbbccaa62eeb4c558259ac4cd2f711ba1b0d686562af6dbfb01685078
+  checksum: 617a7634b47b889b1317ede4cebddeeaf14facb1a67ef1326b6ac8b90b3b90b514acc42d49ba8672f63ded96ce1f0944d7a3c1b47c5cf1c48ab25ddebf78a2ba
   languageName: node
   linkType: hard
 
@@ -1294,20 +1294,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@metamask/snaps-rpc-methods@npm:^11.9.0":
-  version: 11.9.0
-  resolution: "@metamask/snaps-rpc-methods@npm:11.9.0"
+"@metamask/snaps-rpc-methods@npm:^11.10.0":
+  version: 11.10.0
+  resolution: "@metamask/snaps-rpc-methods@npm:11.10.0"
   dependencies:
     "@metamask/key-tree": ^10.0.2
     "@metamask/permission-controller": ^11.0.5
     "@metamask/rpc-errors": ^7.0.2
-    "@metamask/snaps-sdk": ^6.15.0
-    "@metamask/snaps-utils": ^8.8.0
+    "@metamask/snaps-sdk": ^6.16.0
+    "@metamask/snaps-utils": ^8.9.0
     "@metamask/superstruct": ^3.1.0
     "@metamask/utils": ^11.0.1
     "@noble/hashes": ^1.3.1
     luxon: ^3.5.0
-  checksum: 4ff5f4b3e593e0c6e19b6d80020c3f3ed7aa2beed5cf2501d14eb89fcb0dd0012e7d35cee31f6dfd5323323f4ea2e96eb64a6df18701e3030d928208181d42cf
+  checksum: 6c944be2f11c9454e5aaea2cc549faf36f358bc93d0ed7bc3611fb13debb370446779733500367a18f404ebc327a283941f12c730cbae24adc180144e28a466a
   languageName: node
   linkType: hard
 
@@ -1321,6 +1321,19 @@ __metadata:
     "@metamask/superstruct": ^3.1.0
     "@metamask/utils": ^11.0.1
   checksum: dd50fe43598b149a76d6f2718f6bf3652a765bf4daa2b2d7515555c10676746528742cc302fdceb18ceeb32beccd8ad70b79e8f6cf04dbbdb316ebdac6766335
+  languageName: node
+  linkType: hard
+
+"@metamask/snaps-sdk@npm:^6.16.0":
+  version: 6.16.0
+  resolution: "@metamask/snaps-sdk@npm:6.16.0"
+  dependencies:
+    "@metamask/key-tree": ^10.0.2
+    "@metamask/providers": ^18.3.1
+    "@metamask/rpc-errors": ^7.0.2
+    "@metamask/superstruct": ^3.1.0
+    "@metamask/utils": ^11.0.1
+  checksum: 59277b113a04e0eadbf98928f9a467ac15ce31b6c4396feb795bdb7e31a5435158af16ece93309b3eb2c87a9f0f1c7c91587ce123744f16415e10d6a8f54a70b
   languageName: node
   linkType: hard
 
@@ -1352,6 +1365,37 @@ __metadata:
     ses: ^1.1.0
     validate-npm-package-name: ^5.0.0
   checksum: 87b2d3be87e1d94ca7a2552ee5e5586956248b1995b64a077922c37bcc5ff702e04aa6a66c93f296b36ec8e9fc5971e7abe420e356c013d658c961959fbb9700
+  languageName: node
+  linkType: hard
+
+"@metamask/snaps-utils@npm:^8.9.0":
+  version: 8.9.1
+  resolution: "@metamask/snaps-utils@npm:8.9.1"
+  dependencies:
+    "@babel/core": ^7.23.2
+    "@babel/types": ^7.23.0
+    "@metamask/base-controller": ^7.0.3
+    "@metamask/key-tree": ^10.0.2
+    "@metamask/permission-controller": ^11.0.5
+    "@metamask/rpc-errors": ^7.0.2
+    "@metamask/slip44": ^4.1.0
+    "@metamask/snaps-registry": ^3.2.3
+    "@metamask/snaps-sdk": ^6.16.0
+    "@metamask/superstruct": ^3.1.0
+    "@metamask/utils": ^11.0.1
+    "@noble/hashes": ^1.3.1
+    "@scure/base": ^1.1.1
+    chalk: ^4.1.2
+    cron-parser: ^4.5.0
+    fast-deep-equal: ^3.1.3
+    fast-json-stable-stringify: ^2.1.0
+    fast-xml-parser: ^4.4.1
+    marked: ^12.0.1
+    rfdc: ^1.3.0
+    semver: ^7.5.4
+    ses: ^1.1.0
+    validate-npm-package-name: ^5.0.0
+  checksum: 73303f253302a9ca566f914bf43932e7e673ff4855b3e7acc023738f8f03ffcf20bcc833afa043693d1268cc05f8d91fc31fd492fe2c64d143e0f9df3d33486b
   languageName: node
   linkType: hard
 
