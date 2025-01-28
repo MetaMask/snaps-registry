@@ -4057,9 +4057,15 @@
         "category": "name resolution",
         "support": {
           "contact": "mailto:lethale@berakin.io",
+          "faq": "https://docs.beranames.com/integrate/how-to-use-beranames-with-metamask",
           "knowledgeBase": "https://docs.beranames.com/"
         },
-        "sourceCode": "https://github.com/Beranames/beranames-resolution-snap"
+        "sourceCode": "https://github.com/Beranames/beranames-resolution-snap",
+        "screenshots": [
+          "./images/beranames_resolver/1.jpg",
+          "./images/beranames_resolver/2.jpg",
+          "./images/beranames_resolver/3.jpg"
+        ]
       },
       "versions": {
         "0.1.2": {
