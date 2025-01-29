@@ -1093,8 +1093,8 @@
         "sourceCode": "https://github.com/airgap-it/tezos-metamask-snap"
       },
       "versions": {
-        "1.0.2": {
-          "checksum": "4EtkaViso7g3nijYlNbkgRFABMHKHqSxI6rAbpo0KQs="
+        "1.0.3": {
+          "checksum": "taycXyBd5naATqCULWXTcZN+KrFTY4bjAnSHvfM+dME="
         }
       }
     },
