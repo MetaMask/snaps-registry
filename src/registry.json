@@ -3872,6 +3872,36 @@
         }
       }
     },
+    "npm:@bobanetwork/snap-account-abstraction-keyring-hc": {
+      "id": "npm:@bobanetwork/snap-account-abstraction-keyring-hc",
+      "metadata": {
+        "name": "Boba Network Account Abstraction Keyring",
+        "author": {
+          "name": "Enya Labs",
+          "website": "https://enya.ai/"
+        },
+        "website": "https://snap.boba.network/",
+        "summary": "Seamlessly integrate off-chain APIs into your smart contracts with Hybrid Compute.",
+        "description": "Hybrid Compute enables you to seamlessly work with off-chain APIs in your smart contracts such as GenAI or Social Media. Hybrid Compute is fueled by Account Abstraction and allows for NextGen and Web2-like UX.\n\nHybridCompute™ propels the next-gen blockchain applications by seamlessly blending Web2 and Web3 data, bridging legacy systems with future innovations, and offering streamlined development, enduring security, and limitless potential, shaping decentralized applications across sectors.\n\nBy enabling the integration of dynamic external data such as market prices, weather conditions, or IoT sensor readings, this advancement empowers smart contracts to become potent tools automating processes across a multitude of industries, spanning finance, supply chain management, healthcare, and beyond.\n\nIntegrating HybridCompute™ into your projects is remarkably straightforward, requiring just a single line of code. Complexity is reduced, efficiency is amplified, and innovation knows no bounds.\n\nEnduring security is paramount with HybridCompute™, guaranteeing the confidentiality and integrity of your transaction data through robust encryption and L1 transaction security standards, instilling trust and confidence in your blockchain applications.\n\nFrom enhancing DeFi protocols with real estate assets to enabling NFT lending through advanced ML-based valuation models, its versatility empowers developers to drive innovation and expand decentralized ecosystems.\n\nMore documentation about Hybrid Compute: \nhttps://boba.network/hybridcompute/",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-enya-labs/"
+          }
+        ],
+        "support": {
+          "faq": "https://snap.boba.network",
+          "contact": "mailto:kevin@enya.ai",
+          "knowledgeBase": "https://snap.boba.network"
+        },
+        "sourceCode": "https://github.com/bobanetwork/snap-account-abstraction-keyring-hc"
+      },
+      "versions": {
+        "1.1.13": {
+          "checksum": "cpEn6gQpuf78uzl3iRxeKBEUc/f+Y5Si1opHRKEyi/w="
+        }
+      }
+    },
     "npm:@metamask/snap-simple-keyring-snap": {
       "id": "npm:@metamask/snap-simple-keyring-snap",
       "metadata": {
@@ -4162,8 +4192,8 @@
         ]
       },
       "versions": {
-        "0.0.5": {
-          "checksum": "8IHINVWrGUgeSGH2bT2kg9TDhpExP2jgDOsA+2fShU4="
+        "0.0.6": {
+          "checksum": "fnMzzISMEAnErX8AjOdyJPMiVS7oghJn6+UEYTg8ZBQ="
         }
       }
     },
