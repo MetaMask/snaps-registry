@@ -4117,7 +4117,12 @@
           "faq": "https://freename-1.gitbook.io/freename-docs/freename-web3-resolver/faq",
           "knowledgeBase": "https://freename-1.gitbook.io/freename-docs/freename-web3-resolver/knowledge-base"
         },
-        "sourceCode": "https://github.com/FreenameDomains/freename-resolution-snap"
+        "sourceCode": "https://github.com/FreenameDomains/freename-resolution-snap",
+        "screenshots": [
+          "./images/freename-resolution-snap/1.jpg",
+          "./images/freename-resolution-snap/2.jpg",
+          "./images/freename-resolution-snap/3.jpg"
+        ]
       },
       "versions": {
         "1.0.1": {
