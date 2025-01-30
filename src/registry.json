@@ -4249,6 +4249,30 @@
         }
       }
     },
+    "npm:freename-resolution-snap": {
+      "id": "npm:freename-resolution-snap",
+      "metadata": {
+        "name": "Freename Web3 Resolver",
+        "author": {
+          "name": "Freename AG",
+          "website": "https://freename.io"
+        },
+        "summary": "Adds domain resolution, supporting Freename, ENS, Unstoppable Domains, and more.",
+        "description": "The Freename Resolution Snap enhances your MetaMask wallet by integrating with the Freename Resolution API. With this Snap, you can resolve domain names across multiple providers, including Freename, ENS, Unstoppable Domains, and more, directly to their on-chain addresses.\n\nThis Snap leverages the official Snap SDK to provide seamless domain resolution, making it easier than ever to manage and interact with decentralized domain names through MetaMask.",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://freename.io",
+          "faq": "https://freename-1.gitbook.io/freename-docs/freename-web3-resolver/faq",
+          "knowledgeBase": "https://freename-1.gitbook.io/freename-docs/freename-web3-resolver/knowledge-base"
+        },
+        "sourceCode": "https://github.com/FreenameDomains/freename-resolution-snap"
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "1iNXDBXKjgPs1H9nzpOrEpqB/s7i7fK2GVAEHuuiBRk="
+        }
+      }
+    },
     "npm:@token-kit/tapp-snap": {
       "id": "npm:@token-kit/tapp-snap",
       "metadata": {
