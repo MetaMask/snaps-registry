@@ -3833,15 +3833,15 @@
     "npm:@usecapsule/account-snap": {
       "id": "npm:@usecapsule/account-snap",
       "metadata": {
-        "name": "Capsule",
+        "name": "Para",
         "privateCode": true,
         "author": {
-          "name": "Capsule",
-          "website": "https://usecapsule.com/"
+          "name": "Para",
+          "website": "https://getpara.com/"
         },
-        "website": "http://snap.app.usecapsule.com/",
+        "website": "http://snap.app.getpara.com/",
         "summary": "MPC wallet that can be used anywhere with just an email",
-        "description": "The Capsule Account Management Snap makes it easy to create secure, embedded MPC wallets with an email in the Metamask extension using an authenticator app or passkey. You can also connect to a Capsule wallet created in any other application.",
+        "description": "The Para Account Management Snap makes it easy to create secure, embedded MPC wallets with an email in the Metamask extension using an authenticator app or passkey. You can also connect to a Para wallet created in any other application. A note that Capsule has recently changed our name to Para. However, our npm package remains named @usecapsule/account-snap, and this is still the correct package.",
         "audits": [
           {
             "auditor": "Least Authority",
@@ -3854,15 +3854,15 @@
         ],
         "category": "account management",
         "support": {
-          "faq": "https://docs.usecapsule.com/metamask/faq",
-          "contact": "mailto:support@usecapsule.com",
-          "keyRecovery": "https://github.com/capsule-org/mpc-export"
+          "faq": "https://docs.getpara.com/metamask/faq",
+          "contact": "mailto:support@getpara.com",
+          "keyRecovery": "https://github.com/getpara/mpc-export"
         },
-        "sourceCode": "https://github.com/capsule-org/mm-snap-keyring",
+        "sourceCode": "https://github.com/getpara/mm-snap-keyring",
         "additionalSourceCode": [
           {
             "name": "Multi-Party Sig",
-            "url": "https://github.com/capsule-org/multi-party-sig"
+            "url": "https://github.com/getpara/multi-party-sig"
           }
         ]
       },
