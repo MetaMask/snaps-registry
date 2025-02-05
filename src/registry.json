@@ -3186,8 +3186,9 @@
           "name": "Qubic",
           "website": "https://qubic.org"
         },
+        "website": "https://connect.qubic.world/",
         "summary": "Basic connector for the Qubic network.",
-        "description": "The Qubic Connect Snap is a MetaMask extension that has Qubic capabilities such as public key derivation and transaction signing. The Snap is a basic integration and is used as the basic building block to connect the world to the Qubic network.",
+        "description": "This Snap enables MetaMask users to interact with Qubic. Currently, it is designed for developers and integrators, with end-user functionality coming soon. To explore and integrate, visit: https://github.com/qubic/qubic-mm-snap/blob/main/FAQ.md",
         "audits": [
           {
             "auditor": "Sayfer",
