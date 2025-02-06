@@ -1008,6 +1008,9 @@
         "sourceCode": "https://github.com/DoggyFiOfficial/dogecoin-snap-public"
       },
       "versions": {
+        "0.1.10": {
+          "checksum": "lljEc08Brhupw9DmWa8TaiSfGiBlBFwqt8WSMvOY2fQ="
+        },
         "0.1.9": {
           "checksum": "beuDKypWeXHUJN1Znnmv7zfDVSqjKWdkJfrxhalpT9M="
         }
