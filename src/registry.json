@@ -3200,7 +3200,12 @@
           "contact": "mailto:joetom@qubic.li",
           "faq": "https://github.com/qubic/qubic-mm-snap/blob/main/FAQ.md"
         },
-        "sourceCode": "https://github.com/qubic/qubic-mm-snap"
+        "sourceCode": "https://github.com/qubic/qubic-mm-snap",
+        "screenshots": [
+          "./images/@qubic-lib/qubic-mm-snap/1.png",
+          "./images/@qubic-lib/qubic-mm-snap/2.png",
+          "./images/@qubic-lib/qubic-mm-snap/3.png"
+        ]
       },
       "versions": {
         "0.0.2": {
