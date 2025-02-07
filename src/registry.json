@@ -3158,29 +3158,11 @@
         ]
       },
       "versions": {
+        "2.0.1": {
+          "checksum": "kTKmgvI4tVr2pcxvOWrmfGYDW4XZFtGIrs7z5EfUSoE="
+        },
         "1.0.1": {
           "checksum": "SB3s/WQzOn3g7Es76j+2IjNhx3AbxAMAW5M0TRJlXzs="
-        },
-        "0.7.0": {
-          "checksum": "CRmXO1t+mMp/F99/JhIfeOnVlLw169eBsjdOTQdFSIY="
-        },
-        "0.6.0": {
-          "checksum": "kg+O7LMOr0ADHcUzkdTGhT4MPaPZKtkhFFVDELp/FGw="
-        },
-        "0.5.4": {
-          "checksum": "OIpcuFQsDSAMs64+tsEsX1oOkiCBMvjZxZapAnP7Icc="
-        },
-        "0.5.2": {
-          "checksum": "CxeY1z4aGsWPq2A5NK7zxIKVDv8Vvv/oDgDgmD2nG5Y="
-        },
-        "0.4.2": {
-          "checksum": "qUbhuFOdJPHbtrY2mdkOT3pSpaqbNKXKJo4mB9rrfvE="
-        },
-        "0.3.0": {
-          "checksum": "X6m+PNFdGlFmegHJ2E6iNMeJTtbPLSW+m8HlkjU2DdM="
-        },
-        "0.2.2": {
-          "checksum": "JaBlxYBfufxGVNUFjgFJexdHVU/d0AxeqqIFIaNYsR4="
         }
       }
     },
