@@ -1063,11 +1063,16 @@
           "faq": "https://www.scorechain.com/blog/metamask-snap-faq",
           "knowledgeBase": "https://www.scorechain.com/blog/metamask-snaps-knowledge-base"
         },
-        "sourceCode": "https://github.com/scorechain/safetransfer"
+        "sourceCode": "https://github.com/scorechain/safetransfer",
+        "screenshots": [
+          "./images/scorechain-safetransfer/1.jpg",
+          "./images/scorechain-safetransfer/2.jpg",
+          "./images/scorechain-safetransfer/3.jpg"
+        ]
       },
       "versions": {
-        "1.0.3": {
-          "checksum": "21rVDxGhmmLmGXT+fuIBtYLqhBxbQYuJTAyF/xFf4Cg="
+        "1.0.6": {
+          "checksum": "QYe6poOqWPfgF5aKTFNKvRQMj1Uju/4mVM61bzsqWYA="
         }
       }
     },
