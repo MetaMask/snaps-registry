@@ -1008,8 +1008,11 @@
         "sourceCode": "https://github.com/DoggyFiOfficial/dogecoin-snap-public"
       },
       "versions": {
-        "0.1.8": {
-          "checksum": "XSHO5B2+kgh1E0/9Nh2ZtjfwkIhhdUWfcCW00FYCatc="
+        "0.1.10": {
+          "checksum": "lljEc08Brhupw9DmWa8TaiSfGiBlBFwqt8WSMvOY2fQ="
+        },
+        "0.1.9": {
+          "checksum": "beuDKypWeXHUJN1Znnmv7zfDVSqjKWdkJfrxhalpT9M="
         }
       }
     },
@@ -1043,6 +1046,36 @@
         }
       }
     },
+    "npm:scorechain-safetransfer": {
+      "id": "npm:scorechain-safetransfer",
+      "metadata": {
+        "name": "SafeTransfer",
+        "author": {
+          "name": "Scorechain",
+          "website": "https://www.scorechain.com/"
+        },
+        "website": "https://www.scorechain.com/resources/metamask-safe-transfer/",
+        "summary": "Protect your crypto transactions",
+        "description": "The Scorechain SafeTransfer Snap for MetaMask is an advanced tool designed to enhance the security of your crypto transactions. By integrating directly with your MetaMask wallet, the Snap evaluates the risk level of transaction addresses in real-time using Scorechain's trusted registry of known fraudulent entities. This ensures you have all the necessary insights to make informed decisions before signing a transaction.\n\nWhen you initiate a transaction in MetaMask, the Snap automatically activates and provides a clear risk assessment. The Scorechain Tab appears during the signing process, offering detailed information about potential threats such as scam addresses, suspicious patterns, and other risks. This transparency empowers you to confidently decide whether to proceed with or cancel the transaction.\n\nSafeTransfer prioritizes your privacy and does not collect personal data, wallet addresses, or transaction IDs. It is designed to be accessible to everyone, from newcomers navigating the complexities of blockchain security to experienced users looking to strengthen their protection against sophisticated scams.\n\nSince its inception, Scorechain has been trusted by over 350 compliance and digital asset teams worldwide. The platform has mapped 500 blockchains, scored more than 270,000 wallets, and identified over 1,000 virtual asset service providers (VASPs). This expertise underpins the reliability and accuracy of the SafeTransfer Snap.\n\nTo use the Snap, simply initiate a transaction in MetaMask as usual. The Scorechain Tab will appear automatically, providing detailed insights into the risk level of the transaction. Review the information and decide whether to proceed or cancel.\n\nFor any questions or feedback, you can reach out to the Scorechain support team at support@scorechain.com. Ensure your transactions are secure and informed with the Scorechain SafeTransfer Snap for MetaMask.\n\nYou can find more information here: https://www.scorechain.com/resources/metamask-safe-transfer",
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:support@scorechain.com",
+          "faq": "https://www.scorechain.com/blog/metamask-snap-faq",
+          "knowledgeBase": "https://www.scorechain.com/blog/metamask-snaps-knowledge-base"
+        },
+        "sourceCode": "https://github.com/scorechain/safetransfer",
+        "screenshots": [
+          "./images/scorechain-safetransfer/1.jpg",
+          "./images/scorechain-safetransfer/2.jpg",
+          "./images/scorechain-safetransfer/3.jpg"
+        ]
+      },
+      "versions": {
+        "1.0.6": {
+          "checksum": "QYe6poOqWPfgF5aKTFNKvRQMj1Uju/4mVM61bzsqWYA="
+        }
+      }
+    },
     "npm:tezos-metamask-snap": {
       "id": "npm:tezos-metamask-snap",
       "metadata": {
@@ -1068,8 +1101,8 @@
         "sourceCode": "https://github.com/airgap-it/tezos-metamask-snap"
       },
       "versions": {
-        "1.0.2": {
-          "checksum": "4EtkaViso7g3nijYlNbkgRFABMHKHqSxI6rAbpo0KQs="
+        "1.0.3": {
+          "checksum": "taycXyBd5naATqCULWXTcZN+KrFTY4bjAnSHvfM+dME="
         }
       }
     },
@@ -1993,14 +2026,14 @@
     "npm:rentality": {
       "id": "npm:rentality",
       "metadata": {
-        "name": "Rentality",
+        "name": "rentality",
         "author": {
-          "name": "Rentality",
+          "name": "rentality",
           "website": "https://rentality.xyz/"
         },
         "website": "https://app.rentality.xyz/",
         "summary": "Transforming the future of car rentals with blockchain.",
-        "description": "Rentality Snap\nRentality Snap is your first step toward a Web 3.0 car rental experience, enabling users to easily access the Rentality platform via MetaMask.\n\nWith this Snap, you can:\nView the number of cars available for rent.\nClick a button to rent a car, which redirects you to the Rentality app for booking.\n\nMore features are coming soon, including:\nAccess to rental details and contract management via the Snap.\n\nStay tuned for further updates as the Rentality Snap evolves to provide a decentralized, cost-efficient car rental service directly from MetaMask.\n\nResources:\n\nRentality App: Discover the app where you can book and manage your rentals.   - https://app.rentality.xyz/\nRentality Documentation: Learn more about the platform and how it works:\n-https://medium.com/@rentality\n-https://zealy.io/cw/rentality/questboard",
+        "description": "rentality Snap\nrentality Snap is your first step toward a Web 3.0 car rental experience, enabling users to easily access the rentality platform via MetaMask.\n\nWith this Snap, you can:\nView the number of cars available for rent.\nClick a button to rent a car, which redirects you to the rentality app for booking.\n\nMore features are coming soon, including:\nAccess to rental details and contract management via the Snap.\n\nStay tuned for further updates as the rentality Snap evolves to provide a decentralized, cost-efficient car rental service directly from MetaMask.\n\nResources:\n\nrentality App: Discover the app where you can book and manage your rentals.\n- https://app.rentality.xyz/\nrentality Documentation: Learn more about the platform and how it works:\n-https://medium.com/@rentality\n-https://zealy.io/cw/rentality/questboard",
         "category": "interoperability",
         "support": {
           "contact": "mailto:info@rentality.xyz",
@@ -2014,8 +2047,8 @@
         ]
       },
       "versions": {
-        "1.0.2": {
-          "checksum": "bH+p+q4M3FRd2h3gk/nHjAN3LllGd8UaWNgDa5b8VJg="
+        "1.0.5": {
+          "checksum": "5973cyOv7EVTimwaNOfI26e/vG1wXXvVXnS57dC7p4w="
         }
       }
     },
@@ -2112,6 +2145,9 @@
         ]
       },
       "versions": {
+        "1.0.13": {
+          "checksum": "5OugKA6eDBETBwiUn9FyMJLtV+8sBekniOVhzF33Y7Q="
+        },
         "1.0.9": {
           "checksum": "CCfVhqwMAZKSm+PH+fULDXhdbaMgT5pKZsQEKXPZ32Q="
         },
@@ -2293,6 +2329,9 @@
         },
         "3.1.0-staging": {
           "checksum": "FqZpSPhTq0xZ1ak13RTeavyaiDXLeS1pe7F/65wUPTo="
+        },
+        "3.0.0": {
+          "checksum": "0TA+UY6dNz1c7XOLMNpOj6kaCbiPZhd9R2lwJdLbytQ="
         }
       }
     },
@@ -2417,6 +2456,9 @@
         ]
       },
       "versions": {
+        "1.4.4": {
+          "checksum": "kNUxja6njXCvQMXhg6iOCDvpL+jfQNW9H9w0s03MAUU="
+        },
         "1.1.0": {
           "checksum": "gMx193o2X/uMNu/9lyOoQ5eQkXAG0le/f02EjOtR+Qk="
         },
@@ -2854,8 +2896,8 @@
         ]
       },
       "versions": {
-        "0.6.1": {
-          "checksum": "3upIALuaGlohk4pbtltQLT4Do8+gMcff90QDRYvvkug="
+        "0.6.2": {
+          "checksum": "SXhsFNEi+/LvBBBvccQYhlqtbuQgcADUyWwOcl26WIE="
         }
       }
     },
@@ -3122,29 +3164,11 @@
         ]
       },
       "versions": {
+        "2.0.1": {
+          "checksum": "kTKmgvI4tVr2pcxvOWrmfGYDW4XZFtGIrs7z5EfUSoE="
+        },
         "1.0.1": {
           "checksum": "SB3s/WQzOn3g7Es76j+2IjNhx3AbxAMAW5M0TRJlXzs="
-        },
-        "0.7.0": {
-          "checksum": "CRmXO1t+mMp/F99/JhIfeOnVlLw169eBsjdOTQdFSIY="
-        },
-        "0.6.0": {
-          "checksum": "kg+O7LMOr0ADHcUzkdTGhT4MPaPZKtkhFFVDELp/FGw="
-        },
-        "0.5.4": {
-          "checksum": "OIpcuFQsDSAMs64+tsEsX1oOkiCBMvjZxZapAnP7Icc="
-        },
-        "0.5.2": {
-          "checksum": "CxeY1z4aGsWPq2A5NK7zxIKVDv8Vvv/oDgDgmD2nG5Y="
-        },
-        "0.4.2": {
-          "checksum": "qUbhuFOdJPHbtrY2mdkOT3pSpaqbNKXKJo4mB9rrfvE="
-        },
-        "0.3.0": {
-          "checksum": "X6m+PNFdGlFmegHJ2E6iNMeJTtbPLSW+m8HlkjU2DdM="
-        },
-        "0.2.2": {
-          "checksum": "JaBlxYBfufxGVNUFjgFJexdHVU/d0AxeqqIFIaNYsR4="
         }
       }
     },
@@ -3450,7 +3474,7 @@
         },
         "website": "https://www.hashdit.io/en/snap",
         "summary": "Protect your funds with real-time risk warnings and detailed insights on transactions.",
-        "description": "HashDit protects your funds with real-time risk warnings and detailed insights on smart contracts, transactions, and URLs for Binance Smart Chain and Ethereum.\n\nWhat is HashDit Snap?\n\nHashDit Snap uses our API to provide users with a risk assessment before their transactions are executed. Once installed, it returns a risk level ranging from low to critical for each of our security features.\n\nFeatures\n\n- Transaction Screening: HashDit analyzes transaction data before you engage with potentially vulnerable or malicious smart contracts. This protects users against scams such as rug pulls, honeypots, wallet drainers, high-risk contract calls, and other smart contract risks.\n- Address Poisoning Protection: HashDit checks for similarities between all of your addresses and the addresses you are engaging with. If any resemblance is detected, a warning will be displayed, protecting you from address poisoning attacks.\n- Blacklist/Whitelist Screening: HashDit compares addresses against our database of blacklisted addresses and smart contracts known to be scammers or malicious. It also checks against our database of whitelisted addresses that are highly trusted within the ecosystem.\n- URL Screening: HashDit matches websites against our comprehensive database of spam, malware, social engineering, phishing, and scam websites.\n- Function Call Insights: View which functions are being called and the exact value of each parameter during smart contract interactions.\n\nHow To Install HashDit Snap\n\nThe installation guide can be found here: https://hashdit.gitbook.io/hashdit-snap/usage/installing-hashdit-snap\n\nHow To Use HashDit Snap\n\nOnce the HashDit Snap is installed, the security features are entirely automatic. The HashDit Snap will provide a transaction insight before a transaction is executed by a user. In the transaction screen, a user can switch to the HashDit Security tab to view the risks involved with their transaction.\n\nNetwork Support\n\nHashDit Snap is fully supported on the Binance Smart Chain and Ethereum. The snap can only provide URL Screening and Address Poisoning Protection on all other networks.\n\nSecurity And Permissions\n\nHashDit Snap does not have access to the user's private keys. It is limited to reading transactions and providing a transaction insight. The only transaction initiated by the Snap is a safe signature request dispatched during installation.\n\nDocumentation\n\nhttps://hashdit.gitbook.io/hashdit-snap\n\nAbout HashDit \n\nHashDit is a Web3 Security Firm focused on providing a safe ecosystem for both protocol users and smart contract developers on the BNB Chain. The central objective is to furnish crucial threat intelligence to empower everyday DeFi investors in making well-informed decisions. Navigating this DeFi intricate landscape poses challenges even for seasoned investors, let alone newcomers. HashDit aims to bridge this knowledge gap by offering timely and comprehensive threat intelligence on DeFi projects. HashDit is empowering PancakeSwap, Trust Wallet, and BscScan with our API.",
+        "description": "HashDit protects your funds with real-time risk warnings and detailed insights on smart contracts, transactions, and URLs for Binance Smart Chain and Ethereum.\n\nWhat is HashDit Snap?\n\nHashDit Snap uses our API to provide users with a risk assessment before their transactions are executed. Once installed, it returns a risk level ranging from low to critical for each of our security features.\n\nFeatures\n\n- Transaction Screening: HashDit analyzes transaction data before you engage with potentially vulnerable or malicious smart contracts. This protects users against scams such as rug pulls, honeypots, wallet drainers, high-risk contract calls, and other smart contract risks.\n- Address Poisoning Protection: HashDit checks for similarities between all of your addresses and the addresses you are engaging with. If any resemblance is detected, a warning will be displayed, protecting you from address poisoning attacks.\n- Blacklist/Whitelist Screening: HashDit compares addresses against our database of blacklisted addresses and smart contracts known to be scammers or malicious. It also checks against our database of whitelisted addresses that are highly trusted within the ecosystem.\n- URL Screening: HashDit matches websites against our comprehensive database of spam, malware, social engineering, phishing, and scam websites.\n- Function Call Insights: View which functions are being called and the exact value of each paraHashDit protects your funds with real-time risk warnings and detailed insights on smart contracts, transactions, and URLs for Binance Smart Chain and Ethereum.\n\nWhat is HashDit Snap?\n\nHashDit Snap uses our API to provide users with a risk assessment before their transactions are executed. Once installed, it returns a risk level ranging from low to critical for each of our security features.\n\nFeatures\n\n\nUnverified Checks: Receive instant warnings when interacting with unverified smart contracts or executing unknown and uncommon functions, helping you avoid potential risks.\n\nSignature Screening: HashDit analyzes signature requests in real-time, detecting and alerting users to potentially malicious activity for safer transactions.\n\nAddress Poisoning Protection: Prevent address poisoning attacks by ensuring the addresses you interact with do not closely resemble your own. If any similarities are detected, HashDit immediately issues a warning.\n\nTransaction Risk Analysis: Before executing a transaction, HashDit scans smart contract interactions to identify vulnerabilities and potential threats, including rug pulls, honeypots, wallet drainers, and other high-risk contract calls.\n\nBlacklist & Whitelist Screening: HashDit verifies addresses against a curated database of known malicious actors while also recognizing highly trusted entities within the ecosystem.\n\nURL Security Check: Stay safe from online threats—HashDit screens websites against an extensive database of phishing, malware, scam, and social engineering sites.\n\n\nHow To Install HashDit Snap\n\nThe installation guide can be found here: https://hashdit.gitbook.io/hashdit-snap/usage/installing-hashdit-snap\n\nHow To Use HashDit Snap\n\nOnce the HashDit Snap is installed, the security features are entirely automatic. The HashDit Snap will provide an insight before a transaction is executed by a user. In the transaction screen, a user can switch to the HashDit Security tab to view the risks involved with their transaction.\n\nNetwork Support\n\nHashDit Snap is fully supported on the Binance Smart Chain and Ethereum. The snap can provide URL Screening and Address Poisoning Protection on all other networks supported by MetaMask.\n\nSecurity And Permissions\n\nHashDit Snap does not have access to the user's private keys. It is limited to reading transactions and providing a transaction insight. The only transaction initiated by the Snap is a safe signature request dispatched during installation.\n\nDocumentation\n\nhttps://hashdit.gitbook.io/hashdit-snap\n\nAbout HashDit \n\nHashDit is a Web3 Security Firm focused on providing a safe ecosystem for both protocol users and smart contract developers on the BNB Chain. The central objective is to furnish crucial threat intelligence to empower everyday DeFi investors in making well-informed decisions. Navigating this DeFi intricate landscape poses challenges even for seasoned investors, let alone newcomers. HashDit aims to bridge this knowledge gap by offering timely and comprehensive threat intelligence on DeFi projects. HashDit is empowering PancakeSwap, Trust Wallet, and BscScan with our API.",
         "audits": [
           {
             "auditor": "SlowMist",
@@ -3466,8 +3490,8 @@
         "sourceCode": "https://github.com/hashdit/metamask-snap"
       },
       "versions": {
-        "0.4.0": {
-          "checksum": "oyIgHsstoKFfw5Qq9rNvYSrOiMLcdOJq/RuDjy57thc="
+        "0.5.1": {
+          "checksum": "T6mjRXXGj1cRMFirUpKYDCG9kVpKkBLD/QdMdD6XLLc="
         },
         "0.2.1": {
           "checksum": "dKhAW+kMEErpOUCnSH7jfLSYyoCH8DE+GvLcj63iBYM="
@@ -3844,6 +3868,36 @@
         }
       }
     },
+    "npm:@bobanetwork/snap-account-abstraction-keyring-hc": {
+      "id": "npm:@bobanetwork/snap-account-abstraction-keyring-hc",
+      "metadata": {
+        "name": "Boba Network Account Abstraction Keyring",
+        "author": {
+          "name": "Enya Labs",
+          "website": "https://enya.ai/"
+        },
+        "website": "https://snap.boba.network/",
+        "summary": "Seamlessly integrate off-chain APIs into your smart contracts with Hybrid Compute.",
+        "description": "Hybrid Compute enables you to seamlessly work with off-chain APIs in your smart contracts such as GenAI or Social Media. Hybrid Compute is fueled by Account Abstraction and allows for NextGen and Web2-like UX.\n\nHybridCompute™ propels the next-gen blockchain applications by seamlessly blending Web2 and Web3 data, bridging legacy systems with future innovations, and offering streamlined development, enduring security, and limitless potential, shaping decentralized applications across sectors.\n\nBy enabling the integration of dynamic external data such as market prices, weather conditions, or IoT sensor readings, this advancement empowers smart contracts to become potent tools automating processes across a multitude of industries, spanning finance, supply chain management, healthcare, and beyond.\n\nIntegrating HybridCompute™ into your projects is remarkably straightforward, requiring just a single line of code. Complexity is reduced, efficiency is amplified, and innovation knows no bounds.\n\nEnduring security is paramount with HybridCompute™, guaranteeing the confidentiality and integrity of your transaction data through robust encryption and L1 transaction security standards, instilling trust and confidence in your blockchain applications.\n\nFrom enhancing DeFi protocols with real estate assets to enabling NFT lending through advanced ML-based valuation models, its versatility empowers developers to drive innovation and expand decentralized ecosystems.\n\nMore documentation about Hybrid Compute: \nhttps://boba.network/hybridcompute/",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-enya-labs/"
+          }
+        ],
+        "support": {
+          "faq": "https://snap.boba.network",
+          "contact": "mailto:kevin@enya.ai",
+          "knowledgeBase": "https://snap.boba.network"
+        },
+        "sourceCode": "https://github.com/bobanetwork/snap-account-abstraction-keyring-hc"
+      },
+      "versions": {
+        "1.1.13": {
+          "checksum": "cpEn6gQpuf78uzl3iRxeKBEUc/f+Y5Si1opHRKEyi/w="
+        }
+      }
+    },
     "npm:@metamask/snap-simple-keyring-snap": {
       "id": "npm:@metamask/snap-simple-keyring-snap",
       "metadata": {
@@ -4103,6 +4157,36 @@
         }
       }
     },
+    "npm:beranames_resolver": {
+      "id": "npm:beranames_resolver",
+      "metadata": {
+        "name": "Beranames Resolver",
+        "author": {
+          "name": "Berakin",
+          "website": "https://berakin.io/"
+        },
+        "website": "https://beranames.com/",
+        "summary": "The official name service of Berachain",
+        "description": "Replace long, complex wallet addresses with an easy-to-read Beraname to effortlessly send and receive crypto.\n\nAfter installing the Snap, you will be able to use .bera and .🐻⛓️ names in the send flow.",
+        "category": "name resolution",
+        "support": {
+          "contact": "mailto:lethale@berakin.io",
+          "faq": "https://docs.beranames.com/integrate/how-to-use-beranames-with-metamask",
+          "knowledgeBase": "https://docs.beranames.com/"
+        },
+        "sourceCode": "https://github.com/Beranames/beranames-resolution-snap",
+        "screenshots": [
+          "./images/beranames_resolver/1.jpg",
+          "./images/beranames_resolver/2.jpg",
+          "./images/beranames_resolver/3.jpg"
+        ]
+      },
+      "versions": {
+        "0.1.3": {
+          "checksum": "NnNBE7MNBmHNhLt6W5KmQIG4ngfl9mNHLvF/V/8FjMs="
+        }
+      }
+    },
     "npm:@web3-name-sdk/snap": {
       "id": "npm:@web3-name-sdk/snap",
       "metadata": {
@@ -4134,8 +4218,8 @@
         ]
       },
       "versions": {
-        "0.0.5": {
-          "checksum": "8IHINVWrGUgeSGH2bT2kg9TDhpExP2jgDOsA+2fShU4="
+        "0.0.6": {
+          "checksum": "fnMzzISMEAnErX8AjOdyJPMiVS7oghJn6+UEYTg8ZBQ="
         }
       }
     },
@@ -4158,6 +4242,35 @@
       "versions": {
         "0.1.2": {
           "checksum": "9a+ZgF4hWDGgYEAjyEbg0hxTU/COftFoCfH7X3APF3A="
+        }
+      }
+    },
+    "npm:freename-resolution-snap": {
+      "id": "npm:freename-resolution-snap",
+      "metadata": {
+        "name": "Freename Web3 Resolver",
+        "author": {
+          "name": "Freename AG",
+          "website": "https://freename.io"
+        },
+        "summary": "Adds domain resolution, supporting Freename, ENS, Unstoppable Domains, and more.",
+        "description": "The Freename Resolution Snap enhances your MetaMask wallet by integrating with the Freename Resolution API. With this Snap, you can resolve domain names across multiple providers, including Freename, ENS, Unstoppable Domains, and more, directly to their on-chain addresses.\n\nThis Snap leverages the official Snap SDK to provide seamless domain resolution, making it easier than ever to manage and interact with decentralized domain names through MetaMask.",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://freename.io",
+          "faq": "https://freename-1.gitbook.io/freename-docs/freename-web3-resolver/faq",
+          "knowledgeBase": "https://freename-1.gitbook.io/freename-docs/freename-web3-resolver/knowledge-base"
+        },
+        "sourceCode": "https://github.com/FreenameDomains/freename-resolution-snap",
+        "screenshots": [
+          "./images/freename-resolution-snap/1.jpg",
+          "./images/freename-resolution-snap/2.jpg",
+          "./images/freename-resolution-snap/3.jpg"
+        ]
+      },
+      "versions": {
+        "1.0.3": {
+          "checksum": "caNofQzX5sP01E7hKGKhb4BkMufh+UtAuB1Fy9+b85c="
         }
       }
     },
