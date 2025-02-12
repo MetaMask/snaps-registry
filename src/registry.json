@@ -242,7 +242,12 @@
           "faq": "https://docs.tuum.tech/identify/basics/faqs",
           "knowledgeBase": "https://docs.tuum.tech/identify"
         },
-        "sourceCode": "https://github.com/hashgraph/hedera-metamask-snaps/tree/main/packages/hedera-identify-snap/packages/snap"
+        "sourceCode": "https://github.com/hashgraph/hedera-metamask-snaps/tree/main/packages/hedera-identify-snap/packages/snap",
+        "screenshots": [
+          "./images/@hashgraph/hedera-identify-snap/1.png",
+          "./images/@hashgraph/hedera-identify-snap/2.png",
+          "./images/@hashgraph/hedera-identify-snap/3.png"
+        ]
       },
       "versions": {
         "0.2.1": {
