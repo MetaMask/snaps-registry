@@ -1324,7 +1324,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/snaps-utils@npm:^8.10.0":
+"@metamask/snaps-utils@npm:^8.10.0, @metamask/snaps-utils@npm:^8.8.0":
   version: 8.10.0
   resolution: "@metamask/snaps-utils@npm:8.10.0"
   dependencies:
@@ -1352,37 +1352,6 @@ __metadata:
     ses: ^1.1.0
     validate-npm-package-name: ^5.0.0
   checksum: 673e85308ada21a1e781382f926c0b5d3cdf9cda3485c1be55205cb8efd22fa68bfe4857ab05320f80e20f299104ef690b1a12dddb0002d2a27ae1bcac26e79e
-  languageName: node
-  linkType: hard
-
-"@metamask/snaps-utils@npm:^8.8.0":
-  version: 8.8.0
-  resolution: "@metamask/snaps-utils@npm:8.8.0"
-  dependencies:
-    "@babel/core": ^7.23.2
-    "@babel/types": ^7.23.0
-    "@metamask/base-controller": ^7.0.3
-    "@metamask/key-tree": ^10.0.2
-    "@metamask/permission-controller": ^11.0.5
-    "@metamask/rpc-errors": ^7.0.2
-    "@metamask/slip44": ^4.1.0
-    "@metamask/snaps-registry": ^3.2.3
-    "@metamask/snaps-sdk": ^6.15.0
-    "@metamask/superstruct": ^3.1.0
-    "@metamask/utils": ^11.0.1
-    "@noble/hashes": ^1.3.1
-    "@scure/base": ^1.1.1
-    chalk: ^4.1.2
-    cron-parser: ^4.5.0
-    fast-deep-equal: ^3.1.3
-    fast-json-stable-stringify: ^2.1.0
-    fast-xml-parser: ^4.4.1
-    marked: ^12.0.1
-    rfdc: ^1.3.0
-    semver: ^7.5.4
-    ses: ^1.1.0
-    validate-npm-package-name: ^5.0.0
-  checksum: 87b2d3be87e1d94ca7a2552ee5e5586956248b1995b64a077922c37bcc5ff702e04aa6a66c93f296b36ec8e9fc5971e7abe420e356c013d658c961959fbb9700
   languageName: node
   linkType: hard
 
