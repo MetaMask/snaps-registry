@@ -1312,15 +1312,15 @@ __metadata:
   linkType: hard
 
 "@metamask/snaps-sdk@npm:^6.15.0":
-  version: 6.15.0
-  resolution: "@metamask/snaps-sdk@npm:6.15.0"
+  version: 6.17.1
+  resolution: "@metamask/snaps-sdk@npm:6.17.1"
   dependencies:
     "@metamask/key-tree": ^10.0.2
     "@metamask/providers": ^18.3.1
     "@metamask/rpc-errors": ^7.0.2
     "@metamask/superstruct": ^3.1.0
     "@metamask/utils": ^11.0.1
-  checksum: dd50fe43598b149a76d6f2718f6bf3652a765bf4daa2b2d7515555c10676746528742cc302fdceb18ceeb32beccd8ad70b79e8f6cf04dbbdb316ebdac6766335
+  checksum: f1409c777eb51e69ca1a9b88bd61002ad1bf6006712eaebe2e8e6aa192127320ec0e233b4db364ed8048750314e6109b733f024b4699f04c77898a0511dd3983
   languageName: node
   linkType: hard
 
