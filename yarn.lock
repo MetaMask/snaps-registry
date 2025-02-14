@@ -952,7 +952,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/base-controller@npm:^7.0.2, @metamask/base-controller@npm:^7.0.3, @metamask/base-controller@npm:^7.1.1":
+"@metamask/base-controller@npm:^7.0.3, @metamask/base-controller@npm:^7.1.1":
   version: 7.1.1
   resolution: "@metamask/base-controller@npm:7.1.1"
   dependencies:
@@ -972,7 +972,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/controller-utils@npm:^11.4.4, @metamask/controller-utils@npm:^11.5.0":
+"@metamask/controller-utils@npm:^11.5.0":
   version: 11.5.0
   resolution: "@metamask/controller-utils@npm:11.5.0"
   dependencies:
@@ -1141,17 +1141,17 @@ __metadata:
   linkType: hard
 
 "@metamask/phishing-controller@npm:^12.3.1":
-  version: 12.3.1
-  resolution: "@metamask/phishing-controller@npm:12.3.1"
+  version: 12.3.2
+  resolution: "@metamask/phishing-controller@npm:12.3.2"
   dependencies:
-    "@metamask/base-controller": ^7.0.2
-    "@metamask/controller-utils": ^11.4.4
+    "@metamask/base-controller": ^8.0.0
+    "@metamask/controller-utils": ^11.5.0
     "@noble/hashes": ^1.4.0
     "@types/punycode": ^2.1.0
     ethereum-cryptography: ^2.1.2
     fastest-levenshtein: ^1.0.16
     punycode: ^2.1.1
-  checksum: b537fc2dfc8fdf7dbbbaaeba967d76476a17f1808aa77462817ce58a2154cc75ac0a0ee93f1559ef50ad38e7e9a9d80cde1354a628b091b01b285cc74f382509
+  checksum: 4f82a2759a65c7c76a53c1e077f6370903bf606e3117d80909184f19906a66bac848e39d047afb9ad0b7b116a48c85d93238caab8ea3cac9cc4a1b38ef43311d
   languageName: node
   linkType: hard
 
