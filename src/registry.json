@@ -3861,8 +3861,8 @@
         }
       }
     },
-    "npm:@getpara/account-snap-base": {
-      "id": "npm:@getpara/account-snap-base",
+    "npm:@usecapsule/account-snap": {
+      "id": "npm:@usecapsule/account-snap",
       "metadata": {
         "name": "Para",
         "privateCode": true,
