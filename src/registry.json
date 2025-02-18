@@ -219,6 +219,42 @@
         }
       }
     },
+    "npm:@hashgraph/hedera-identify-snap": {
+      "id": "npm:@hashgraph/hedera-identify-snap",
+      "metadata": {
+        "name": "Identify",
+        "author": {
+          "name": "Tuum Technologies",
+          "website": "https://www.tuum.tech/"
+        },
+        "website": "https://docs.tuum.tech/identify/identify-snap/snap-rpc-apis/basic-apis/hello#live-demo-on-codepen",
+        "summary": "Turn MetaMask into a DID wallet. Support for Decentralized Identifiers (DIDs) and Verifiable Credentials (VCs)",
+        "description": "Identify Snap extends MetaMask's features by adding support for Decentralized Identifiers (DIDs) and Verifiable Credentials (VCs), thereby turning MetaMask into a DID wallet.\n\nIdentify Snap supports 3 DID methods - did:pkh, did:key and did:hedera and users can choose between the 3 methods. More methods will be supported in the future.\n\nExamples of use cases for Identify Snap include:\n- Secure access control: Identify Snap can be employed for authentication and authorization purposes, granting users secure access to various online services and resources based on their verifiable credentials.\n- Credential management: Users can create, manage, and verify their credentials, such as educational qualifications or professional certifications, with the added convenience and security provided by the MetaMask extension.\n- Decentralized identity management: Identify Snap empowers users to establish and maintain control over their digital identities through the use of DIDs and VCs, thus ensuring privacy, security, and reduced reliance on centralized authorities.",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://cure53.de/pentest-report_hedera-snap_v3.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/BsDqX3fhq4",
+          "faq": "https://docs.tuum.tech/identify/basics/faqs",
+          "knowledgeBase": "https://docs.tuum.tech/identify"
+        },
+        "sourceCode": "https://github.com/hashgraph/hedera-metamask-snaps/tree/main/packages/hedera-identify-snap/packages/snap",
+        "screenshots": [
+          "./images/@hashgraph/hedera-identify-snap/1.png",
+          "./images/@hashgraph/hedera-identify-snap/2.png",
+          "./images/@hashgraph/hedera-identify-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.2.1": {
+          "checksum": "G0wvMOcnrXDw3J6hZkGXH4p/xSgF9axYIW16wkdFAf0="
+        }
+      }
+    },
     "npm:@tuum-tech/identify": {
       "id": "npm:@tuum-tech/identify",
       "metadata": {
@@ -236,7 +272,6 @@
             "report": "https://github.com/tuum-tech/identify/blob/main/SNAP_AUDIT_REPORT_BY_CURE53.pdf"
           }
         ],
-        "category": "interoperability",
         "support": {
           "contact": "mailto:developer@tuum.tech",
           "faq": "https://docs.tuum.tech/identify/basics/faqs",
@@ -1057,7 +1092,7 @@
         "website": "https://www.scorechain.com/resources/metamask-safe-transfer/",
         "summary": "Protect your crypto transactions",
         "description": "The Scorechain SafeTransfer Snap for MetaMask is an advanced tool designed to enhance the security of your crypto transactions. By integrating directly with your MetaMask wallet, the Snap evaluates the risk level of transaction addresses in real-time using Scorechain's trusted registry of known fraudulent entities. This ensures you have all the necessary insights to make informed decisions before signing a transaction.\n\nWhen you initiate a transaction in MetaMask, the Snap automatically activates and provides a clear risk assessment. The Scorechain Tab appears during the signing process, offering detailed information about potential threats such as scam addresses, suspicious patterns, and other risks. This transparency empowers you to confidently decide whether to proceed with or cancel the transaction.\n\nSafeTransfer prioritizes your privacy and does not collect personal data, wallet addresses, or transaction IDs. It is designed to be accessible to everyone, from newcomers navigating the complexities of blockchain security to experienced users looking to strengthen their protection against sophisticated scams.\n\nSince its inception, Scorechain has been trusted by over 350 compliance and digital asset teams worldwide. The platform has mapped 500 blockchains, scored more than 270,000 wallets, and identified over 1,000 virtual asset service providers (VASPs). This expertise underpins the reliability and accuracy of the SafeTransfer Snap.\n\nTo use the Snap, simply initiate a transaction in MetaMask as usual. The Scorechain Tab will appear automatically, providing detailed insights into the risk level of the transaction. Review the information and decide whether to proceed or cancel.\n\nFor any questions or feedback, you can reach out to the Scorechain support team at support@scorechain.com. Ensure your transactions are secure and informed with the Scorechain SafeTransfer Snap for MetaMask.\n\nYou can find more information here: https://www.scorechain.com/resources/metamask-safe-transfer",
-        "category": "interoperability",
+        "category": "transaction insights",
         "support": {
           "contact": "mailto:support@scorechain.com",
           "faq": "https://www.scorechain.com/blog/metamask-snap-faq",
@@ -2318,6 +2353,9 @@
         ]
       },
       "versions": {
+        "3.2.0": {
+          "checksum": "buK7AGhd5dFCye3cKZd/07SaCgO9jEn5tGwGj8ow/QU="
+        },
         "3.1.0": {
           "checksum": "jbQaGMSDDCcV4uEbxPf1L5dsI/i706zmX+fEhU5GQBM="
         },
@@ -4059,8 +4097,8 @@
         ]
       },
       "versions": {
-        "0.8.2": {
-          "checksum": "oIZBQ1pqMiZJJvAIDJuYAHRvPR3AIB2Hlt99G27DP+E="
+        "0.9.1": {
+          "checksum": "Ih2eqTo1AaFFuNsxQ6h8iQmd9Yr2jf9VbvtvrtS5nQo="
         }
       }
     },
@@ -4176,8 +4214,8 @@
         ]
       },
       "versions": {
-        "0.1.3": {
-          "checksum": "NnNBE7MNBmHNhLt6W5KmQIG4ngfl9mNHLvF/V/8FjMs="
+        "1.0.1": {
+          "checksum": "IdP6dEHAS46UnQaqAZajBPqJm/pOh1rtMzWHPfeAxkc="
         }
       }
     },
