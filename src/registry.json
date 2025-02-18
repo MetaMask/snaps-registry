@@ -3861,8 +3861,8 @@
         }
       }
     },
-    "npm:@usecapsule/account-snap": {
-      "id": "npm:@usecapsule/account-snap",
+    "npm:@getpara/account-snap-base": {
+      "id": "npm:@getpara/account-snap-base",
       "metadata": {
         "name": "Para",
         "privateCode": true,
@@ -3898,8 +3898,8 @@
         ]
       },
       "versions": {
-        "0.20.0": {
-          "checksum": "RlM47JKcUCYEWssO7bUALpR3mrVBpnOfdx6pylodHgU="
+        "1.0.0": {
+          "checksum": "DhdmwnFXBT/PSmQuefAM+gTKxTqfAqU3sfjIt/N7z4c="
         }
       }
     },
