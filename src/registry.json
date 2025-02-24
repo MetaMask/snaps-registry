@@ -1092,7 +1092,7 @@
         "website": "https://www.scorechain.com/resources/metamask-safe-transfer/",
         "summary": "Protect your crypto transactions",
         "description": "The Scorechain SafeTransfer Snap for MetaMask is an advanced tool designed to enhance the security of your crypto transactions. By integrating directly with your MetaMask wallet, the Snap evaluates the risk level of transaction addresses in real-time using Scorechain's trusted registry of known fraudulent entities. This ensures you have all the necessary insights to make informed decisions before signing a transaction.\n\nWhen you initiate a transaction in MetaMask, the Snap automatically activates and provides a clear risk assessment. The Scorechain Tab appears during the signing process, offering detailed information about potential threats such as scam addresses, suspicious patterns, and other risks. This transparency empowers you to confidently decide whether to proceed with or cancel the transaction.\n\nSafeTransfer prioritizes your privacy and does not collect personal data, wallet addresses, or transaction IDs. It is designed to be accessible to everyone, from newcomers navigating the complexities of blockchain security to experienced users looking to strengthen their protection against sophisticated scams.\n\nSince its inception, Scorechain has been trusted by over 350 compliance and digital asset teams worldwide. The platform has mapped 500 blockchains, scored more than 270,000 wallets, and identified over 1,000 virtual asset service providers (VASPs). This expertise underpins the reliability and accuracy of the SafeTransfer Snap.\n\nTo use the Snap, simply initiate a transaction in MetaMask as usual. The Scorechain Tab will appear automatically, providing detailed insights into the risk level of the transaction. Review the information and decide whether to proceed or cancel.\n\nFor any questions or feedback, you can reach out to the Scorechain support team at support@scorechain.com. Ensure your transactions are secure and informed with the Scorechain SafeTransfer Snap for MetaMask.\n\nYou can find more information here: https://www.scorechain.com/resources/metamask-safe-transfer",
-        "category": "interoperability",
+        "category": "transaction insights",
         "support": {
           "contact": "mailto:support@scorechain.com",
           "faq": "https://www.scorechain.com/blog/metamask-snap-faq",
@@ -1719,14 +1719,11 @@
         ]
       },
       "versions": {
+        "1.3.0": {
+          "checksum": "8URAjwPCrIRShFA7aIRxryil+i8RCtc48pLcpIyD+PU="
+        },
         "1.2.2": {
           "checksum": "0+ZdkgoSljBRrV6JARt/+Z2Amq30jiWb2EItGfihB30="
-        },
-        "1.1.0": {
-          "checksum": "lvNJQRx0yBScxfNkwkCnAtiRKSDkCkDlp3uMVBZXF7A="
-        },
-        "1.0.0": {
-          "checksum": "nVKFpAn6RCNMM8UOH344F+tQUP6pxGjzisRXGBYf550="
         }
       }
     },
@@ -2356,6 +2353,9 @@
         ]
       },
       "versions": {
+        "3.2.0": {
+          "checksum": "buK7AGhd5dFCye3cKZd/07SaCgO9jEn5tGwGj8ow/QU="
+        },
         "3.1.0": {
           "checksum": "jbQaGMSDDCcV4uEbxPf1L5dsI/i706zmX+fEhU5GQBM="
         },
