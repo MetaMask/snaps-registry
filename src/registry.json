@@ -2897,6 +2897,36 @@
         }
       }
     },
+    "npm:@nightlylabs/metamask-move-snap": {
+      "id": "npm:@nightlylabs/metamask-move-snap",
+      "metadata": {
+        "name": "Move Wallet",
+        "author": {
+          "name": "Nightly",
+          "website": "https://nightly.app"
+        },
+        "summary": "Manage tokens and interact with dApps on Movement network.",
+        "description": "Swap, Borrow, Lend, Earn and more with Movement apps using your Metamask.\n\nFull ecosystem support is in progress, and dApp developers can start testing and integrating using the Nightly wallet connector \nA working example is available here: https://movement-web3-template.nightly.app\n\nKey features:\n- Generate and manage Movement addresses securely\n- Interact with Movement based dApp\n- Execute smart contract transactions\n- Change between different Movement networks\n\nUsage:\n- Install the Snap through MetaMask\n-Connect to Movement network automatically\n- Start interacting with Movement dApps",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://github.com/nightly-labs/move-snap/blob/main/audit/nightly_labs_audit_final.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/Kkqq8nahcG",
+          "knowledgeBase": "https://github.com/nightly-labs/move-snap/blob/main/KNOWLEDGE.md",
+          "faq": "https://github.com/nightly-labs/move-snap/blob/main/FAQ.md"
+        },
+        "sourceCode": "https://github.com/nightly-labs/move-snap"
+      },
+      "versions": {
+        "0.1.0": {
+          "checksum": "SXhsFNEi+/LvBBBvccQYhlqtbuQgcADUyWwOcl26WIE="
+        }
+      }
+    },
     "npm:@hashgraph/hedera-wallet-snap": {
       "id": "npm:@hashgraph/hedera-wallet-snap",
       "metadata": {
