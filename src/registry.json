@@ -4198,8 +4198,8 @@
           "website": "https://dotmundo.io/"
         },
         "website": "https://dotmundo.io/dotmundo-snap.php",
-        "summary": "Resolve Dotmundo domains for seamless transactions.",
-        "description": "The Dotmundo Snap allows you to resolve dotmundo domains inside of Metamask, providing a seamless experience for interacting with blockchain domains. With this snap, users can easily translate human-readable domain names into blockchain addresses, simplifying transactions and enhancing the overall user experience within the Metamask wallet.",
+        "summary": "Replace your wallet address with your domain.",
+        "description": "You no longer have to share your long and complex MetaMask wallet address to send and receive crypto assets anymore. With the Dotmundo Snap you can replace your MetaMask wallet addresses with your own easy-to-share Web3 domain.\n\nThe Dotmundo Snap makes it easy for both new and experienced Web3 users to seamlessly resolve their Web3 domain to their MetaMask wallet addresses in a user-friendly way.\n\nAfter installing the Dotmundo Snap, you can immediately send and receive cryptocurrencies with your Web3 domains!\n\nPlease note: the Dotmundo Snap is compatible from MetaMask version 12.0.0 and higher, and with Web3 domains that are registered and minted via official Dotmundo partner registrars. Please check here for more info about our MetaMask Snap and official partners.",
         "category": "name resolution",
         "support": {
           "contact": "https://dotmundo.io/dotmundo-snap.php#contact",
