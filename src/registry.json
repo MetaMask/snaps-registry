@@ -4189,6 +4189,36 @@
         }
       }
     },
+    "npm:@dotmundo-io/dotmundo-resolution-snap": {
+      "id": "npm:@dotmundo-io/dotmundo-resolution-snap",
+      "metadata": {
+        "name": "Dotmundo",
+        "author": {
+          "name": "Dotmundo",
+          "website": "https://dotmundo.io/"
+        },
+        "website": "https://dotmundo.io/dotmundo-snap.php",
+        "summary": "Resolve Dotmundo domains for seamless transactions.",
+        "description": "The Dotmundo Snap allows you to resolve dotmundo domains inside of Metamask, providing a seamless experience for interacting with blockchain domains. With this snap, users can easily translate human-readable domain names into blockchain addresses, simplifying transactions and enhancing the overall user experience within the Metamask wallet.",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://dotmundo.io/dotmundo-snap.php#contact",
+          "faq": "https://dotmundo.io/dotmundo-snap.php#faq",
+          "knowledgeBase": "https://dotmundo.io/dotmundo-snap.php"
+        },
+        "sourceCode": "https://gitlab.com/dotmundo/dotmundo-resolution-snap",
+        "screenshots": [
+          "./images/@dotmundo-io/dotmundo-resolution-snap/1.jpg",
+          "./images/@dotmundo-io/dotmundo-resolution-snap/2.jpg",
+          "./images/@dotmundo-io/dotmundo-resolution-snap/3.jpg"
+        ]
+      },
+      "versions": {
+        "1.0.2": {
+          "checksum": "8Osyrte9YT5RgLf1vtN3PTm49KW2oCMApzJo6EPQSXY="
+        }
+      }
+    },
     "npm:beranames_resolver": {
       "id": "npm:beranames_resolver",
       "metadata": {
