@@ -389,6 +389,9 @@
         },
         "2.2.1": {
           "checksum": "PxNHa0ebJ1qA/LXiY4vTzUsBKNl3rdfbHwg198YtOH4="
+        },
+        "2.3.0": {
+          "checksum": "EYj8a1CyBIrzcSGQ6EY9Ny6Q+azLzobzU7agR7CKisA="
         }
       }
     },
@@ -425,6 +428,9 @@
         },
         "2.1.3": {
           "checksum": "Nb4y6u121k+rnDRGblkG77S7s9IFt1TZTQeSZOXNdyY="
+        },
+        "2.2.0": {
+          "checksum": "7ITCfMBWovBJmXIqrHSIsO+DvhSI52fO07JRevLMIkw="
         }
       }
     },
@@ -665,6 +671,9 @@
         },
         "2.1.3": {
           "checksum": "OYSzxQ1qHApZ2MHWvQ/XYWRwKJptpyVQ5VgyhgFEmmo="
+        },
+        "2.2.0": {
+          "checksum": "vUiybKJcdxY44IuamgNJQadSEl+o9n152JyZ84jGc7w="
         }
       }
     },
@@ -818,6 +827,18 @@
         },
         "2.3.0": {
           "checksum": "vgZf2fdTM9fTAFroi78267SHtaEeTJLTNa/hobO22s0="
+        }
+      }
+    },
+    "npm:@metamask/preferences-example-snap": {
+      "id": "npm:@metamask/preferences-example-snap",
+      "metadata": {
+        "name": "Preferences Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "I256k2BDHu9ZRRnDVfP335n69beXXTqN/7Hlih+Jnqc="
         }
       }
     },
