@@ -917,6 +917,21 @@
         }
       }
     },
+    "npm:@metamask/webpack-plugin-example-snap": {
+      "id": "npm:@metamask/webpack-plugin-example-snap",
+      "metadata": {
+        "name": "Webpack Plugin Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "2.0.0": {
+          "checksum": "CHsW41YUXAecl+03+ViwwQmN1WmK3nVsXOaOjUxJ2QM="
+        },
+        "2.1.3": {
+          "checksum": "YvikqvHw0838qOaBrqjfegOyMSFM4ZwdyOH2qXode5M="
+        }
+      }
+    },
     "npm:@mendi-finance/alert-snap": {
       "id": "npm:@mendi-finance/alert-snap",
       "metadata": {
