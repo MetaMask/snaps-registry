@@ -3270,6 +3270,41 @@
         }
       }
     },
+    "npm:@qubic-lib/qubic-mm-snap": {
+      "id": "npm:@qubic-lib/qubic-mm-snap",
+      "metadata": {
+        "name": "Qubic Connect",
+        "author": {
+          "name": "Qubic",
+          "website": "https://qubic.org"
+        },
+        "website": "https://connect.qubic.world/",
+        "summary": "Basic connector for the Qubic network.",
+        "description": "This Snap enables MetaMask users to interact with Qubic. Currently, it is designed for developers and integrators, with end-user functionality coming soon. To explore and integrate, visit: https://github.com/qubic/qubic-mm-snap/blob/main/FAQ.md",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-qubic/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:joetom@qubic.li",
+          "faq": "https://github.com/qubic/qubic-mm-snap/blob/main/FAQ.md"
+        },
+        "sourceCode": "https://github.com/qubic/qubic-mm-snap",
+        "screenshots": [
+          "./images/@qubic-lib/qubic-mm-snap/1.png",
+          "./images/@qubic-lib/qubic-mm-snap/2.png",
+          "./images/@qubic-lib/qubic-mm-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.0.3": {
+          "checksum": "p2rH2f3N6LNVyz+bqrAqo0RMqY6FmV+/W7IMoVvqZOk="
+        }
+      }
+    },
     "npm:@greymass/eos-wallet": {
       "id": "npm:@greymass/eos-wallet",
       "metadata": {
