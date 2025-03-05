@@ -2389,6 +2389,9 @@
         ]
       },
       "versions": {
+        "3.3.0": {
+          "checksum": "5pDaRBLXqhCauJt6gYW6OY1bsVMNmFwUpo5X4enIrls="
+        },
         "3.2.0": {
           "checksum": "buK7AGhd5dFCye3cKZd/07SaCgO9jEn5tGwGj8ow/QU="
         },
@@ -2397,9 +2400,6 @@
         },
         "3.1.0-staging": {
           "checksum": "FqZpSPhTq0xZ1ak13RTeavyaiDXLeS1pe7F/65wUPTo="
-        },
-        "3.0.0": {
-          "checksum": "0TA+UY6dNz1c7XOLMNpOj6kaCbiPZhd9R2lwJdLbytQ="
         }
       }
     },
