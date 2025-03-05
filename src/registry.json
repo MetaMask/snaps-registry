@@ -389,6 +389,9 @@
         },
         "2.2.1": {
           "checksum": "PxNHa0ebJ1qA/LXiY4vTzUsBKNl3rdfbHwg198YtOH4="
+        },
+        "2.3.0": {
+          "checksum": "EYj8a1CyBIrzcSGQ6EY9Ny6Q+azLzobzU7agR7CKisA="
         }
       }
     },
@@ -425,6 +428,9 @@
         },
         "2.1.3": {
           "checksum": "Nb4y6u121k+rnDRGblkG77S7s9IFt1TZTQeSZOXNdyY="
+        },
+        "2.2.0": {
+          "checksum": "7ITCfMBWovBJmXIqrHSIsO+DvhSI52fO07JRevLMIkw="
         }
       }
     },
@@ -665,6 +671,9 @@
         },
         "2.1.3": {
           "checksum": "OYSzxQ1qHApZ2MHWvQ/XYWRwKJptpyVQ5VgyhgFEmmo="
+        },
+        "2.2.0": {
+          "checksum": "vUiybKJcdxY44IuamgNJQadSEl+o9n152JyZ84jGc7w="
         }
       }
     },
@@ -821,6 +830,18 @@
         }
       }
     },
+    "npm:@metamask/preferences-example-snap": {
+      "id": "npm:@metamask/preferences-example-snap",
+      "metadata": {
+        "name": "Preferences Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "I256k2BDHu9ZRRnDVfP335n69beXXTqN/7Hlih+Jnqc="
+        }
+      }
+    },
     "npm:@metamask/insights-example-snap": {
       "id": "npm:@metamask/insights-example-snap",
       "metadata": {
@@ -893,6 +914,21 @@
         },
         "2.1.4": {
           "checksum": "rNBULIRBi45r+MXpWUNwkSaWog2pNTfG5VYKZ676w6g="
+        }
+      }
+    },
+    "npm:@metamask/webpack-plugin-example-snap": {
+      "id": "npm:@metamask/webpack-plugin-example-snap",
+      "metadata": {
+        "name": "Webpack Plugin Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "2.0.0": {
+          "checksum": "CHsW41YUXAecl+03+ViwwQmN1WmK3nVsXOaOjUxJ2QM="
+        },
+        "2.1.3": {
+          "checksum": "YvikqvHw0838qOaBrqjfegOyMSFM4ZwdyOH2qXode5M="
         }
       }
     },
@@ -3896,15 +3932,15 @@
     "npm:@usecapsule/account-snap": {
       "id": "npm:@usecapsule/account-snap",
       "metadata": {
-        "name": "Capsule",
+        "name": "Para",
         "privateCode": true,
         "author": {
-          "name": "Capsule",
-          "website": "https://usecapsule.com/"
+          "name": "Para",
+          "website": "https://getpara.com/"
         },
-        "website": "http://snap.app.usecapsule.com/",
+        "website": "http://snap.app.getpara.com/",
         "summary": "MPC wallet that can be used anywhere with just an email",
-        "description": "The Capsule Account Management Snap makes it easy to create secure, embedded MPC wallets with an email in the Metamask extension using an authenticator app or passkey. You can also connect to a Capsule wallet created in any other application.",
+        "description": "The Para Account Management Snap makes it easy to create secure, embedded MPC wallets with an email in the Metamask extension using an authenticator app or passkey. You can also connect to a Para wallet created in any other application. A note that Capsule has recently changed our name to Para. However, our npm package remains named @usecapsule/account-snap, and this is still the correct package.",
         "audits": [
           {
             "auditor": "Least Authority",
@@ -3917,21 +3953,21 @@
         ],
         "category": "account management",
         "support": {
-          "faq": "https://docs.usecapsule.com/metamask/faq",
-          "contact": "mailto:support@usecapsule.com",
-          "keyRecovery": "https://github.com/capsule-org/mpc-export"
+          "faq": "https://docs.getpara.com/metamask/faq",
+          "contact": "mailto:support@getpara.com",
+          "keyRecovery": "https://github.com/getpara/mpc-export"
         },
-        "sourceCode": "https://github.com/capsule-org/mm-snap-keyring",
+        "sourceCode": "https://github.com/getpara/mm-snap-keyring",
         "additionalSourceCode": [
           {
             "name": "Multi-Party Sig",
-            "url": "https://github.com/capsule-org/multi-party-sig"
+            "url": "https://github.com/getpara/multi-party-sig"
           }
         ]
       },
       "versions": {
-        "0.20.0": {
-          "checksum": "RlM47JKcUCYEWssO7bUALpR3mrVBpnOfdx6pylodHgU="
+        "1.0.0": {
+          "checksum": "1wurDdau/BhAsdkeL42a+S/CVXwD8AvEV/biMm3ACso="
         }
       }
     },
