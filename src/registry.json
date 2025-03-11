@@ -4290,6 +4290,29 @@
         }
       }
     },
+    "npm:ans-mmsnap": {
+      "id": "npm:ans-mmsnap",
+      "metadata": {
+        "name": "AutonomysNameService",
+        "author": {
+          "name": "Novalink",
+          "website": "https://www.novalink.tech/"
+        },
+        "summary": "A MetaMask Snap for name resolution in Autonomys.",
+        "description": "The AutonomysNameService Snap provides name resolution services for Autonomys Name Service (ANS). It enables users to resolve domain names to Ethereum addresses directly within MetaMask.\n\nEvery user in the Autonomys network can call the `ANS Contract`(0xbdF673bd60232917Ce960AD268a8bF6441CeFDdD) to register  their own ans domain name.\n\nFeatures: \n\n- Resolves domain names to Ethereum addresses\n- Integrates seamlessly with MetaMask\n- Directly interacts with ANS smart contracts through MetaMask for maximum security (no additional network calls)\n- Supports reverse resolution (coming soon).",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://github.com/AetherLinkLabs/ans-mmsnap/issues/new",
+          "knowledgeBase": "https://github.com/AetherLinkLabs/ans-mmsnap/"
+        },
+        "sourceCode": "https://github.com/AetherLinkLabs/ans-mmsnap"
+      },
+      "versions": {
+        "0.1.3": {
+          "checksum": "EczXi0rJR5XaXr804YNz3x326bS6PxJwoMz0ps/rhHc="
+        }
+      }
+    },
     "npm:beranames_resolver": {
       "id": "npm:beranames_resolver",
       "metadata": {
