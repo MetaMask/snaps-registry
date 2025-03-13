@@ -7,8 +7,7 @@ on:
         required: true
       SLACK_WEBHOOK_URL:
         required: true
-      PUBLISH_DOCS_TOKEN:
-        required: true
+
 jobs:
   publish-release:
     permissions:
