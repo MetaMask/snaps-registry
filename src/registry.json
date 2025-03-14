@@ -127,6 +127,9 @@
         "sourceCode": "https://github.com/casper-ecosystem/casper-manager"
       },
       "versions": {
+        "2.0.0": {
+          "checksum": "wNt6SCJZ2/2EMvv22pNJB8Ti0oWkjDll0PNs6Z+Fnmk="
+        },
         "1.0.4": {
           "checksum": "tV4HOIewc7A1oy9cZlJQ6Qn5ekmJmy3Ek6e0tSiUQsA="
         },
