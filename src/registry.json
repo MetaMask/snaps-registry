@@ -2406,7 +2406,7 @@
     "npm:unleashnfts": {
       "id": "npm:unleashnfts",
       "metadata": {
-        "name": "UnleashNFTs",
+        "name": "unleashNFTs",
         "author": {
           "name": "Bitscrunch",
           "website": "https://www.bistcrunch.com/"
