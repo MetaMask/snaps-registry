@@ -1804,6 +1804,29 @@
         }
       }
     },
+    "npm:safe-send": {
+      "id": "npm:safe-send",
+      "metadata": {
+        "name": "Safe Send",
+        "author": {
+          "name": "Blitz Blitz Blitz",
+          "website": "https://github.com/tyleradams"
+        },
+        "summary": "Tools to help people safely send funds",
+        "description": "This Snap enhances transaction insights by performing blockchain checks before a transaction is submitted.\n\nCurrently, it is built specifically for Polymarket, where it:\n- Verifies whether the Polymarket contract was deployed.\n- Checks who deployed the contract.\n- Ensures that users send the correct token to the Polymarket address.\n\nFuture Enhancements:\n\nThe next steps include expanding support to additional services, starting with:\n- Bridges, since users sometimes send funds manually.\n- Advanced security measures, such as:\n- Blocking transactions with potential errors.\n- Requiring manual overrides for high-risk transactions.\n\nThe goal is to help users avoid accidentally sending funds to incorrect or scam addresses, improving both security and usability.",
+        "category": "transaction insights",
+        "support": {
+          "contact": "tyler@blitzblitzblitz.com",
+          "knowledgeBase": "https://www.npmjs.com/package/safe-send"
+        },
+        "sourceCode": "https://github.com/AnChainAI/web3-security-snap"
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "XsZ0F2ZUckrLuadazewO5ZJhe7s7HqXHo8mYaymZ8s0="
+        }
+      }
+    },
     "npm:web3-security-snap": {
       "id": "npm:web3-security-snap",
       "metadata": {
