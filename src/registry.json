@@ -2283,7 +2283,7 @@
     "npm:@reef-chain/reef-snap": {
       "id": "npm:@reef-chain/reef-snap",
       "metadata": {
-        "name": "Reef Wallet",
+        "name": "Reef Chain Wallet",
         "author": {
           "name": "Reef Technology Ltd.",
           "website": "https://www.reef.io/"
