@@ -3091,6 +3091,30 @@
         }
       }
     },
+    "npm:@conft-dev/name-resolver": {
+      "id": "npm:@conft-dev/name-resolver",
+      "metadata": {
+        "name": "CoNFT Name resolver",
+        "author": {
+          "name": "CoLabs",
+          "website": "https://conft.app"
+        },
+        "summary": "Replace cryptic addresses with domain names for easy token transfers in MetaMask.",
+        "description": "coNFT Domain Names Snap integrates coNFT’s domain resolution into MetaMask, enabling users to send tokens to readable domain names rather than cumbersome addresses.\n\n- No more copy-pasting 0x… addresses—simply enter a registered domain like alice.linea or bob.sony.\n- Reduces errors, enhances convenience, and brings user-friendly domain-based transactions right into your MetaMask.\n\nLearn more at conft.app and explore how domain-based transfers can simplify your daily crypto interactions.",
+        "category": "name resolution",
+        "support": {
+          "contact": "mailto:cnftspprt@gmail.com",
+          "faq": "https://docs.google.com/document/d/1ZfXigMXPUPOesCYQpzVfCXhPoBF6uyNLe1A9SaeiFoA/edit?usp=sharing",
+          "knowledgeBase": "https://docs.google.com/document/d/1kBpOoioniHHNKcjZ_JluGqWC5MyHWKtwvSj7_3uj5ps/edit?usp=sharing" 
+        },
+        "sourceCode": "https://github.com/Conft-dev/conft-snap"
+      },
+      "versions": {
+        "0.2.1": {
+          "checksum": "iqUA4X0NzBU+ZVccxYeZoKUOsaZEn8Y8G/CGz/A+h44="
+        }
+      }
+    },
     "npm:@fioprotocol/fio-wallet-snap": {
       "id": "npm:@fioprotocol/fio-wallet-snap",
       "metadata": {
