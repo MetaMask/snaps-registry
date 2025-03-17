@@ -2213,9 +2213,6 @@
         ]
       },
       "versions": {
-        "1.0.13": {
-          "checksum": "5OugKA6eDBETBwiUn9FyMJLtV+8sBekniOVhzF33Y7Q="
-        },
         "1.0.9": {
           "checksum": "CCfVhqwMAZKSm+PH+fULDXhdbaMgT5pKZsQEKXPZ32Q="
         },
@@ -4427,8 +4424,8 @@
         ]
       },
       "versions": {
-        "1.0.3": {
-          "checksum": "caNofQzX5sP01E7hKGKhb4BkMufh+UtAuB1Fy9+b85c="
+        "1.0.4": {
+          "checksum": "Vl5Nhjam2q9rhx5KJNByskVahg/VHQYXFJz8CnQU/I8="
         }
       }
     },
