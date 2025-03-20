@@ -2213,9 +2213,6 @@
         ]
       },
       "versions": {
-        "1.0.13": {
-          "checksum": "5OugKA6eDBETBwiUn9FyMJLtV+8sBekniOVhzF33Y7Q="
-        },
         "1.0.9": {
           "checksum": "CCfVhqwMAZKSm+PH+fULDXhdbaMgT5pKZsQEKXPZ32Q="
         },
@@ -2389,6 +2386,9 @@
         ]
       },
       "versions": {
+        "3.3.0": {
+          "checksum": "5pDaRBLXqhCauJt6gYW6OY1bsVMNmFwUpo5X4enIrls="
+        },
         "3.2.0": {
           "checksum": "buK7AGhd5dFCye3cKZd/07SaCgO9jEn5tGwGj8ow/QU="
         },
@@ -2397,9 +2397,6 @@
         },
         "3.1.0-staging": {
           "checksum": "FqZpSPhTq0xZ1ak13RTeavyaiDXLeS1pe7F/65wUPTo="
-        },
-        "3.0.0": {
-          "checksum": "0TA+UY6dNz1c7XOLMNpOj6kaCbiPZhd9R2lwJdLbytQ="
         }
       }
     },
@@ -3232,8 +3229,8 @@
         ]
       },
       "versions": {
-        "2.0.1": {
-          "checksum": "kTKmgvI4tVr2pcxvOWrmfGYDW4XZFtGIrs7z5EfUSoE="
+        "2.1.1": {
+          "checksum": "miHm/J2za3MaKLLxCThLyHZ2FlTF6KgaAMb2+nM4hJA="
         },
         "1.0.1": {
           "checksum": "SB3s/WQzOn3g7Es76j+2IjNhx3AbxAMAW5M0TRJlXzs="
@@ -3267,6 +3264,41 @@
       "versions": {
         "1.1.4": {
           "checksum": "A1Stf73pE5v9KTJZNo875Gspjnps5j/MhRfc6u9d2H0="
+        }
+      }
+    },
+    "npm:@qubic-lib/qubic-mm-snap": {
+      "id": "npm:@qubic-lib/qubic-mm-snap",
+      "metadata": {
+        "name": "Qubic Connect",
+        "author": {
+          "name": "Qubic",
+          "website": "https://qubic.org"
+        },
+        "website": "https://connect.qubic.world/",
+        "summary": "Basic connector for the Qubic network.",
+        "description": "This Snap enables MetaMask users to interact with Qubic. Currently, it is designed for developers and integrators, with end-user functionality coming soon. To explore and integrate, visit: https://github.com/qubic/qubic-mm-snap/blob/main/FAQ.md",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-qubic/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:joetom@qubic.li",
+          "faq": "https://github.com/qubic/qubic-mm-snap/blob/main/FAQ.md"
+        },
+        "sourceCode": "https://github.com/qubic/qubic-mm-snap",
+        "screenshots": [
+          "./images/@qubic-lib/qubic-mm-snap/1.png",
+          "./images/@qubic-lib/qubic-mm-snap/2.png",
+          "./images/@qubic-lib/qubic-mm-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.0.3": {
+          "checksum": "p2rH2f3N6LNVyz+bqrAqo0RMqY6FmV+/W7IMoVvqZOk="
         }
       }
     },
@@ -4225,6 +4257,36 @@
         }
       }
     },
+    "npm:@dotmundo-io/dotmundo-resolution-snap": {
+      "id": "npm:@dotmundo-io/dotmundo-resolution-snap",
+      "metadata": {
+        "name": "Dotmundo",
+        "author": {
+          "name": "Dotmundo",
+          "website": "https://dotmundo.io/"
+        },
+        "website": "https://dotmundo.io/dotmundo-snap.php",
+        "summary": "Replace your wallet address with your domain.",
+        "description": "You no longer have to share your long and complex MetaMask wallet address to send and receive crypto assets anymore. With the Dotmundo Snap you can replace your MetaMask wallet addresses with your own easy-to-share Web3 domain.\n\nThe Dotmundo Snap makes it easy for both new and experienced Web3 users to seamlessly resolve their Web3 domain to their MetaMask wallet addresses in a user-friendly way.\n\nAfter installing the Dotmundo Snap, you can immediately send and receive cryptocurrencies with your Web3 domains!\n\nPlease note: the Dotmundo Snap is compatible from MetaMask version 12.0.0 and higher, and with Web3 domains that are registered and minted via official Dotmundo partner registrars. Please check here for more info about our MetaMask Snap and official partners.",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://dotmundo.io/dotmundo-snap.php#contact",
+          "faq": "https://dotmundo.io/dotmundo-snap.php#faq",
+          "knowledgeBase": "https://dotmundo.io/dotmundo-snap.php"
+        },
+        "sourceCode": "https://gitlab.com/dotmundo/dotmundo-resolution-snap",
+        "screenshots": [
+          "./images/@dotmundo-io/dotmundo-resolution-snap/1.jpg",
+          "./images/@dotmundo-io/dotmundo-resolution-snap/2.jpg",
+          "./images/@dotmundo-io/dotmundo-resolution-snap/3.jpg"
+        ]
+      },
+      "versions": {
+        "1.0.4": {
+          "checksum": "XzTlsW99C8qaMNNRqAYTysvlzhjZK6kb+6C9fyAHx7E="
+        }
+      }
+    },
     "npm:beranames_resolver": {
       "id": "npm:beranames_resolver",
       "metadata": {
@@ -4337,8 +4399,8 @@
         ]
       },
       "versions": {
-        "1.0.3": {
-          "checksum": "caNofQzX5sP01E7hKGKhb4BkMufh+UtAuB1Fy9+b85c="
+        "1.0.4": {
+          "checksum": "Vl5Nhjam2q9rhx5KJNByskVahg/VHQYXFJz8CnQU/I8="
         }
       }
     },
