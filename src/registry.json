@@ -2403,6 +2403,36 @@
         }
       }
     },
+    "npm:unleashnfts": {
+      "id": "npm:unleashnfts",
+      "metadata": {
+        "name": "unleashNFTs",
+        "author": {
+          "name": "Bitscrunch",
+          "website": "https://www.bistcrunch.com/"
+        },
+        "website": "https://www.unleashnfts.com/snap",
+        "summary": "Evaluate NFTs and stay protected from frauds.",
+        "description": "UnleashNFTs Snap helps you determine the fair value of NFTs. This AI-powered snap detects price manipulation and estimates the true market worth of NFTs.\n\nHow it works:\n\n- Our AI-powered price estimation model evaluates supported NFTs based on past transactions, market sentiment, and rarity to provide an accurate valuation.\n- The NFT wash trade detection feature identifies artificial trading practices that inflate values, helping you avoid overpaying for manipulated assets.",
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:support@bitscrunch.com",
+          "faq": "https://clean-rudbeckia-69f.notion.site/UnleashNFTs-Metamask-FAQs-18884e5ac104803dbf35e0b0348739ab?pvs=4",
+          "knowledgeBase": "https://clean-rudbeckia-69f.notion.site/Metamask-Snaps-UnleashNFTs-13484e5ac10480cc99fef2bc720d48d6?pvs=4"
+        },
+        "sourceCode": "https://github.com/bitsCrunch/unleashnfts-snaps",
+        "screenshots": [
+          "./images/unleashnfts/1.jpg",
+          "./images/unleashnfts/2.jpg",
+          "./images/unleashnfts/3.jpg"
+        ]
+      },
+      "versions": {
+        "0.1.9": {
+          "checksum": "1atGobDPmABseQGCVLV6ffGqRWd5I7dYJrieu9Ncoyc="
+        }
+      }
+    },
     "npm:@web3mq/snap": {
       "id": "npm:@web3mq/snap",
       "metadata": {
