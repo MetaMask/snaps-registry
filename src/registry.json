@@ -4226,6 +4226,30 @@
         }
       }
     },
+    "npm:0xname-resolver-snap": {
+      "id": "npm:0xname-resolver-snap",
+      "metadata": {
+        "name": "0xNAME resolver",
+        "author": {
+          "name": "beast dao",
+          "website": "https://beastdao.org/"
+        },
+        "summary": "Use free 0xNAME instead of Ethereum address in MetaMask.",
+        "description": "The 0xname Resolver Snap enables resolving of web3 names issued via app.0xname.foo. 0xNAME is a public good platform built by BEAST DAO to provide web3 users with free personal names.\n\nThis Snap empowered by the official Snap SDK enhances a MetaMask wallet with a single functionality: to seamlessly resolve any 0xNAME web3 names with any custom suffix like alice@eth, yulia@beast or bob@yourdao etc. to their respective Ethereum addresses.\n\nAnyone can get their 100% free web3 personal names associated with various communities, projects, DAOs, initiatives or even events with 0xNAME. And after installing the Snap, simply type any 0xname like yulia@beast in the MetaMask send flow instead of long, complex wallet addresses.",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://discord.gg/McqF7vyCWx",
+          "faq": "https://github.com/beastdao/0xname-resolver-snap/blob/main/README.md#faq-and-knowledge-base",
+          "knowledgeBase": "https://github.com/beastdao/0xname-resolver-snap/blob/main/README.md#faq-and-knowledge-base"
+        },
+        "sourceCode": "https://github.com/beastdao/0xname-resolver-snap"
+      },
+      "versions": {
+        "0.1.1": {
+          "checksum": "nNTqKGO4qpH/yYAHgK61Ls/iTcbCSmOsADf4ot3SeUY="
+        }
+      }
+    },
     "npm:@dotmundo-io/dotmundo-resolution-snap": {
       "id": "npm:@dotmundo-io/dotmundo-resolution-snap",
       "metadata": {
