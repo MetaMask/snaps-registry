@@ -4249,7 +4249,12 @@
           "faq": "https://github.com/beastdao/0xname-resolver-snap/blob/main/README.md#faq-and-knowledge-base",
           "knowledgeBase": "https://github.com/beastdao/0xname-resolver-snap/blob/main/README.md#faq-and-knowledge-base"
         },
-        "sourceCode": "https://github.com/beastdao/0xname-resolver-snap"
+        "sourceCode": "https://github.com/beastdao/0xname-resolver-snap",
+        "screenshots": [
+          "./images/0xname-resolver-snap/1.png",
+          "./images/0xname-resolver-snap/2.png",
+          "./images/0xname-resolver-snap/3.png"
+        ]
       },
       "versions": {
         "0.1.1": {
