@@ -3957,6 +3957,7 @@
             "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-enya-labs/"
           }
         ],
+        "category": "account management",
         "support": {
           "faq": "https://snap.boba.network",
           "contact": "mailto:kevin@enya.ai",
@@ -3965,6 +3966,9 @@
         "sourceCode": "https://github.com/bobanetwork/snap-account-abstraction-keyring-hc"
       },
       "versions": {
+        "1.1.19": {
+          "checksum": "tGF4m1uHjh48/OZrQgxShsjdv5c7YoawcMsy2G1ktKM="
+        },
         "1.1.13": {
           "checksum": "cpEn6gQpuf78uzl3iRxeKBEUc/f+Y5Si1opHRKEyi/w="
         }
