@@ -4263,6 +4263,35 @@
         }
       }
     },
+    "npm:sonic_resolver": {
+      "id": "npm:sonic_resolver",
+      "metadata": {
+        "name": "Sonic Name Service Resolver",
+        "author": {
+          "name": "Krown Labs",
+          "website": "https://www.krownlabs.app/"
+        },
+        "summary": "Resolve your .s domain names directly within MetaMask to easily send transactions on the Sonic network!",
+        "description": "The Sonic Name Service (SNS) Resolver brings the convenience of human-readable addresses to your MetaMask wallet.\n\nInstead of dealing with complicated hexadecimal addresses like 0x1234...5678, you can simply type a .s domain name (like yourname.s) directly in MetaMask's address field when sending transactions on the Sonic network.\n\nKey Features:\n\nSeamlessly resolve .s domain names to their corresponding wallet addresses\nPerform reverse lookups to see SNS names associated with addresses\nWorks natively within the MetaMask interface\nSupports the Sonic network\n\nThis Snap simplifies your crypto experience by making addresses more human-friendly and reducing the risk of errors when sending transactions. Perfect for anyone using the Sonic network.\n\nSimply install the Snap, and start using .s domains immediately in your MetaMask transactions!",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://discord.com/invite/KTU4krfhrG",
+          "faq": "https://docs.krownlabs.app/krown-labs/sonic-name-service-sns-snap-frequently-asked-questions",
+          "knowledgeBase": "https://docs.krownlabs.app/krown-labs/sonic-name-service/sonic-name-service-sns-snap-knowledge-base"
+        },
+        "sourceCode": "https://github.com/krownlabs/sns-resolution-snap",
+        "screenshots": [
+          "./images/sonic_resolver/1.jpg",
+          "./images/sonic_resolver/2.jpg",
+          "./images/sonic_resolver/3.jpg"
+        ]
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "4iJUL7wlEdt3Nwv/YSI5UU3S8RIM156Njn/BWbVukIA="
+        }
+      }
+    },
     "npm:0xname-resolver-snap": {
       "id": "npm:0xname-resolver-snap",
       "metadata": {
