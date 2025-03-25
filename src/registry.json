@@ -4271,7 +4271,7 @@
           "name": "Krown Labs",
           "website": "https://www.krownlabs.app/"
         },
-        "summary": "Resolve your .s domain names directly within MetaMask to easily send transactions on the Sonic network!",
+        "summary": "Use your .s domain names to easily send transactions on the Sonic network.",
         "description": "The Sonic Name Service (SNS) Resolver brings the convenience of human-readable addresses to your MetaMask wallet.\n\nInstead of dealing with complicated hexadecimal addresses like 0x1234...5678, you can simply type a .s domain name (like yourname.s) directly in MetaMask's address field when sending transactions on the Sonic network.\n\nKey Features:\n\nSeamlessly resolve .s domain names to their corresponding wallet addresses\nPerform reverse lookups to see SNS names associated with addresses\nWorks natively within the MetaMask interface\nSupports the Sonic network\n\nThis Snap simplifies your crypto experience by making addresses more human-friendly and reducing the risk of errors when sending transactions. Perfect for anyone using the Sonic network.\n\nSimply install the Snap, and start using .s domains immediately in your MetaMask transactions!",
         "category": "name resolution",
         "support": {
