@@ -3993,7 +3993,12 @@
           "contact": "mailto:kevin@enya.ai",
           "knowledgeBase": "https://snap.boba.network"
         },
-        "sourceCode": "https://github.com/bobanetwork/snap-account-abstraction-keyring-hc"
+        "sourceCode": "https://github.com/bobanetwork/snap-account-abstraction-keyring-hc",
+        "screenshots": [
+          "./images/@bobanetwork/snap-account-abstraction-keyring-hc/1.jpg",
+          "./images/@bobanetwork/snap-account-abstraction-keyring-hc/2.jpg",
+          "./images/@bobanetwork/snap-account-abstraction-keyring-hc/3.jpg"
+        ]
       },
       "versions": {
         "1.1.19": {
