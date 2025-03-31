@@ -2118,8 +2118,8 @@
         ]
       },
       "versions": {
-        "1.0.8": {
-          "checksum": "F75a65bZNVyLfjS3pwLLyKo9Tqrl00tvYbbZOtMk29Q="
+        "1.0.9": {
+          "checksum": "XCNUyPlOxUXceJXo4ZpGAY6whq/WNuU+VwuGP+xmBP4="
         }
       }
     },
@@ -3262,8 +3262,8 @@
         ]
       },
       "versions": {
-        "2.1.1": {
-          "checksum": "miHm/J2za3MaKLLxCThLyHZ2FlTF6KgaAMb2+nM4hJA="
+        "2.2.4": {
+          "checksum": "1a3JuthQVJNJbNb9wjKjv5AkXf0bR0FtEdcqMsdha4Q="
         },
         "1.0.1": {
           "checksum": "SB3s/WQzOn3g7Es76j+2IjNhx3AbxAMAW5M0TRJlXzs="
@@ -4414,8 +4414,8 @@
           "website": "https://space.id/"
         },
         "website": "https://space.id/metamask/",
-        "summary": "Resolve web3 domains for easy crypto transfers.",
-        "description": "SPACE ID Web3 Domain allows users to resolve their domain names on all EVM-compatible chains, and supports multiple name services, including .bnb, .arb, .eth, .zeta, .mode, .taiko, .mint, .manta, .zkf, .burger, .floki, .cake, .ll, .alien, .ail, .merlin, .tomo. Check the name services supported by SPACE ID at: https://space.id/tld\n\nDownload SPACE ID Snaps to start enjoying simple, secure, and verifiable transactions https://snaps.metamask.io/snap/npm/web3-name-sdk/snap/ \n\nTo download SPACE ID Snap, make sure you have updated the MetaMask extension to the latest version!\n\nCheck out our tutorials:\nUpdate Metamask to the latest version: https://support.metamask.io/managing-my-wallet/using-metamask/how-to-update-the-version-of-metamask/\nRegister a domain on SPACE ID: https://space.id/\nDownload SPACE ID Snaps: https://space.id/metamask\nSPACE ID Snap Knowledge Base: https://docs.space.id/getting-started/using-domain-on-metamask-snap-releasing\n\nJoin our community on:\nX https://x.com/SpaceIDProtocol \nDiscord https://discord.com/invite/spaceid \nLinkedin https://www.linkedin.com/company/spaceidprotocol/ \n\nStay updated on our news https://blog.space.id/.",
+        "summary": "Easily transfer assets using domain names and Payment IDs instead of complex wallet addresses.",
+        "description": "SPACE ID Web3 Domain Snap allows you to easily transfer assets using domain names instead of complex wallet addresses. It resolves top-level  domain names and Payment IDs issued on the SPACE ID platform, significantly simplifying transactions within MetaMask.\n\n- Top-Level Domains (TLDs) names, such as jerry.bnb\n\nSPACE ID Web3 Domain Snap resolves domain names across all EVM-compatible chains in MetaMask, supporting a wide range of domain name services such as .bnb, eth, .ip, .arb, .g, .mph, .wod, .duck, .zeta, .mode, .taiko, .mint, .manta, .zkf, .floki, .cake, .merlin, .tomo, and more (https://space.id/tld). \n\n- Payment ID, such as jerry@binance\n\nUsers can register a Payment ID on SPACE ID and link it to supported CEX addresses on both EVM-compatible chains (Ethereum, BNB Chain, Arbitrum, etc.) and non-EVM networks such as Bitcoin, Solana, TRON, Aptos, and Sui. Additionally, they can associate their Payment ID with frequently used wallets and on-chain addresses. The SPACE ID Web3 Domain Snap allows seamless resolution of all registered Payment IDs within MetaMask, streamlining transactions effortlessly.\n\nGet Started Easily:\n\n- Upgrade your Metamask to the latest version (https://support.metamask.io/configure/wallet/how-to-update-the-version-of-metamask/) to leverage all the features \n- Enable secure & simple transactions: Download SPACE ID Snaps from https://space.id/metamask\n- Register a domain or Payment ID if you haven’t yet: https://space.id\n\nNote: Make sure your MetaMask extension is up to date before downloading the SPACE ID Snap: https://support.metamask.io/managing-my-wallet/using-metamask/how-to-update-the-version-of-metamask/ \n\nHelpful Tutorials:\n\n- Update MetaMask: https://support.metamask.io/\n- Register a domain and a Payment ID: https://space.id/\n- Download SPACE ID Snaps https://space.id/metamask/\n- SPACE ID Snap Knowledge Base: https://docs.space.id/getting-started/using-domain-on-metamask-snap\n\nJoin Our Community:\n\n- X (formerly Twitter): https://x.com/SpaceIDProtocol/\n- Discord: https://discord.com/invite/spaceid/\n- Telegram: https://t.me/spaceid_news/\n- LinkedIn: https://linkedin.com/\n\nStay updated with the latest news on our blog (https://blog.space.id/) and our Youtube channel (https://www.youtube.com/@SPACEID-web3domains/). Unlock the power of decentralized identities, easier on-chain interactions, and secure and simplified payments with SPACE ID!",
         "audits": [
           {
             "auditor": "SlowMist",
@@ -4436,8 +4436,8 @@
         ]
       },
       "versions": {
-        "0.0.6": {
-          "checksum": "fnMzzISMEAnErX8AjOdyJPMiVS7oghJn6+UEYTg8ZBQ="
+        "0.0.7": {
+          "checksum": "xXoZsokWq7tBx+fuqWXZoWG/CcTT+IYbKYFCieRoaEk="
         }
       }
     },
