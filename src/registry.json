@@ -3641,7 +3641,6 @@
         },
         "website": "https://nu.fi/metamask/",
         "summary": "Store, buy, manage ADA, tokens, and NFTs, and access DeFi applications on Cardano.",
-        "summary": "Discover the Cardano universe directly from your MetaMask wallet. Seamlessly store, buy, and manage ADA, Cardano tokens, and NFTs, and access a wide range of DeFi applications.",
         "description": "1. After installing the Snap, visit wallet.nu.fi to connect your MetaMask to the extended wallet. \n2. In the dapp directory, you'll find a list of Cardano dapps that support MetaMask. \n3. Enjoy!",
         "audits": [
           {
@@ -4265,6 +4264,35 @@
       "versions": {
         "0.0.6": {
           "checksum": "qFquENdgWP6N7pRTHMcLDx0Geyljy8WFMzXycHTs2+o="
+        }
+      }
+    },
+    "npm:@snowballmoney/metamask-snap": {
+      "id": "npm:@snowballmoney/metamask-snap",
+      "metadata": {
+        "name": "Modular Naming Service",
+        "author": {
+          "name": "Snowball Money",
+          "website": "https://www.snowball.money/"
+        },
+        "summary": "Easily send and receive assets in MetaMask using MNS names—no more copying long addresses.",
+        "description": "With MNS Snap, users can replace long wallet addresses with easy-to-remember identity names, enhancing transactions and the overall user experience.\n\nTo start using MNS Snap, claim your MNS identity on modular.name, install the MNS Snap from the MetaMask Snaps Directory, and enjoy the convenience of sending and receiving assets effortlessly in MetaMask.\n\nExperience a more intuitive way to manage your digital identity in the decentralized ecosystem with MNS Snap!",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://discord.com/invite/jW4GzbdNBm",
+          "faq": "https://snowball-5.gitbook.io/snowball/modular-naming-service-mns/metamask-snaps/faq",
+          "knowledgeBase": "https://snowball-5.gitbook.io/snowball/modular-naming-service-mns/metamask-snaps/knowledge-base"
+        },
+        "sourceCode": "https://github.com/snowballmoney/metamask-snap",
+        "screenshots": [
+          "./images/@snowballmoney/metamask-snap/1.png",
+          "./images/@snowballmoney/metamask-snap/2.png",
+          "./images/@snowballmoney/metamask-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.4": {
+          "checksum": "R5hh+xSP/4CQl0vKIKDuoJRMG9j+6Gr83LEkkSQgwCs="
         }
       }
     },
