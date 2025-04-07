@@ -3303,6 +3303,37 @@
         }
       }
     },
+    "npm:@ardata-tech/qubic-wallet": {
+      "id": "npm:@ardata-tech/qubic-wallet",
+      "metadata": {
+        "name": "Qubic Wallet",
+        "author": {
+          "name": "AR Data Technology",
+          "website": "https://www.ardata.tech"
+        },
+        "website": "https://connect.qubic.org",
+        "summary": "Secure and streamlined gateway to interacting with the Qubic blockchain.",
+        "description": "Qubic Wallet is a powerful and secure interface designed to enable seamless interactions with the Qubic blockchain ecosystem. Whether you're a developer, enterprise, or individual user, Qubic Connect provides a streamlined gateway for integrating decentralized features into your applications with confidence.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": ""
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://ardata-tech.notion.site/1aefbc8879c7816ca0bcf2127836a712",
+          "faq": "https://ardata-tech.notion.site/Qubic-Connect-FAQs-1affbc8879c78044b387dcea34754e9f",
+          "knowledgeBase": "https://ardata-tech.notion.site/Qubic-Connect-Knowledge-Base-1affbc8879c7802ba998d2388c225b7f"
+        },
+        "sourceCode": "https://github.com/ardata-tech/qubic-wallet"
+      },
+      "versions": {
+        "1.0.5": {
+          "checksum": "9EZkgNvQRxr+M6KCGrcaQ+1cTyxBIdWSt/oZ4Vznppk="
+        }
+      }
+    },
     "npm:@qubic-lib/qubic-mm-snap": {
       "id": "npm:@qubic-lib/qubic-mm-snap",
       "metadata": {
