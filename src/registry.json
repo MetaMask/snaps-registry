@@ -4121,6 +4121,9 @@
         "hidden": true
       },
       "versions": {
+        "2.4.0": {
+          "checksum": "I+kz7pvB5o7oyC/2z5LnURYG7TrTHR9+oWueIcsuDyA="
+        },
         "2.3.0": {
           "checksum": "1sEjG59gm8iGvsIT9oa2WLRjcr7XQz5k6gkNXjBvuPg="
         },
