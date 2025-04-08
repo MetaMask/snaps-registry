@@ -2577,6 +2577,9 @@
         ]
       },
       "versions": {
+        "1.6.1": {
+          "checksum": "VONwyW7mDv4wtak2iBXko7u2WuJ50bC2t1YM/UfftRs="
+        },
         "1.5.4": {
           "checksum": "hr1Az7d5WIshnqbGB5a60DLx52KcDK1jrMNrX/vH9I8="
         },
