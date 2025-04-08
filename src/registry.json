@@ -3326,7 +3326,12 @@
           "faq": "https://ardata-tech.notion.site/Qubic-Connect-FAQs-1affbc8879c78044b387dcea34754e9f",
           "knowledgeBase": "https://ardata-tech.notion.site/Qubic-Connect-Knowledge-Base-1affbc8879c7802ba998d2388c225b7f"
         },
-        "sourceCode": "https://github.com/ardata-tech/qubic-wallet"
+        "sourceCode": "https://github.com/ardata-tech/qubic-wallet",
+        "screenshots": [
+          "./images/@ardata-tech/qubic-wallet/1.png",
+          "./images/@ardata-tech/qubic-wallet/2.png",
+          "./images/@ardata-tech/qubic-wallet/3.png"
+        ]
       },
       "versions": {
         "1.0.5": {
