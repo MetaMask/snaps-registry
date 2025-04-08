@@ -3317,7 +3317,7 @@
         "audits": [
           {
             "auditor": "OtterSec",
-            "report": ""
+            "report": "https://github.com/ardata-tech/qubic-audit/blob/master/ardata_tech_snap_audit.pdf"
           }
         ],
         "category": "interoperability",
