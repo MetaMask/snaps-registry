@@ -2922,8 +2922,8 @@
         "sourceCode": "https://github.com/nightly-labs/move-snap"
       },
       "versions": {
-        "0.1.2": {
-          "checksum": "xy0Xex2+eZN5d4mxJtGytWf7n8AKK0LXoCZtuyDbbXg="
+        "0.1.6": {
+          "checksum": "d4wrUM/VAKV5r5GWKrKF+oIJ0Xd+o8czolSiT2+GIVk="
         }
       }
     },
