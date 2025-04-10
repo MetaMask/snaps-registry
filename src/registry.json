@@ -2919,7 +2919,12 @@
           "knowledgeBase": "https://github.com/nightly-labs/move-snap/blob/main/KNOWLEDGE.md",
           "faq": "https://github.com/nightly-labs/move-snap/blob/main/FAQ.md"
         },
-        "sourceCode": "https://github.com/nightly-labs/move-snap"
+        "sourceCode": "https://github.com/nightly-labs/move-snap",
+        "screenshots": [
+          "./images/@nightlylabs/metamask-move-snap/1.jpg",
+          "./images/@nightlylabs/metamask-move-snap/2.jpg",
+          "./images/@nightlylabs/metamask-move-snap/3.jpg"
+        ]
       },
       "versions": {
         "0.1.6": {
