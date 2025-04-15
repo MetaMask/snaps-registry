@@ -2389,14 +2389,11 @@
         ]
       },
       "versions": {
+        "3.4.0": {
+          "checksum": "FE3fMKA3GZYvw4a2OeCZOKkuOd0oe3zfGUeRukIwjYs="
+        },
         "3.3.0": {
           "checksum": "5pDaRBLXqhCauJt6gYW6OY1bsVMNmFwUpo5X4enIrls="
-        },
-        "3.2.0": {
-          "checksum": "buK7AGhd5dFCye3cKZd/07SaCgO9jEn5tGwGj8ow/QU="
-        },
-        "3.1.0": {
-          "checksum": "jbQaGMSDDCcV4uEbxPf1L5dsI/i706zmX+fEhU5GQBM="
         },
         "3.1.0-staging": {
           "checksum": "FqZpSPhTq0xZ1ak13RTeavyaiDXLeS1pe7F/65wUPTo="
@@ -4120,6 +4117,9 @@
         "hidden": true
       },
       "versions": {
+        "2.4.0": {
+          "checksum": "I+kz7pvB5o7oyC/2z5LnURYG7TrTHR9+oWueIcsuDyA="
+        },
         "2.3.0": {
           "checksum": "1sEjG59gm8iGvsIT9oa2WLRjcr7XQz5k6gkNXjBvuPg="
         },
@@ -4674,8 +4674,8 @@
         ]
       },
       "versions": {
-        "1.0.0": {
-          "checksum": "1d/Fj818HBPbRMC8yn+wVbvTFmpMZ7J6+Tq8+Qr7Rws="
+        "1.0.2": {
+          "checksum": "b6j5wDNI9bb6YNxBeIx7GDhFf8B5DRVILuB/E4xXZFE="
         }
       }
     },
