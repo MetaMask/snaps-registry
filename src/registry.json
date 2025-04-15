@@ -4471,6 +4471,35 @@
         }
       }
     },
+    "npm:zns-connect": {
+      "id": "npm:zns-connect",
+      "metadata": {
+        "name": "zns-connect",
+        "author": {
+          "name": "ZNS Connect",
+          "website": "https://www.znsconnect.io"
+        },
+        "summary": "Resolve ZNS domains like .honey, .hvm, .ink, .poly, and more directly in your wallet across multiple networks.",
+        "description": "ZNS Connect is a powerful MetaMask Snap that brings (ZNS) domain resolution directly to your wallet.\n\nKey Features:\n- Resolve ZNS domains across multiple networks (Polygon, BSC, Ethereum)\n- Support for multiple TLDs including .honey, .cz, and .ink\n- Direct wallet integration for seamless domain resolution\n- Real-time domain validation and checking\n\nHow to Use:\n1. Install the Snap through MetaMask\n2. Enter any ZNS domain (example: mydomain.poly)\n3. Get instant resolution to the corresponding wallet address\n\nThis Snap simplifies blockchain domain resolution by eliminating the need for external resolvers or websites. Perfect for developers, crypto enthusiasts, and anyone working with ZNS domains.",
+        "category": "name resolution",
+        "support": {
+          "contact": "mailto:info@znsconnect.io",
+          "faq": "https://docs.znsconnect.io/user-guide/zns-on-metamask-snap/general-faq",
+          "knowledgeBase": "https://docs.znsconnect.io/user-guide/zns-on-metamask-snap/knowledge-base"
+        },
+        "sourceCode": "https://github.com/xinkin/znsConnect",
+        "screenshots": [
+          "./images/zns-connect/1.png",
+          "./images/zns-connect/2.png",
+          "./images/zns-connect/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.6": {
+          "checksum": "tunq8Xwn0nPdIR1BsMTvc+5V2BktWh/kCEfXgBdr0Yg="
+        }
+      }
+    },
     "npm:freename-resolution-snap": {
       "id": "npm:freename-resolution-snap",
       "metadata": {
