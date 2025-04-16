@@ -4500,6 +4500,29 @@
         }
       }
     },
+    "npm:hln-resolver-snap": {
+      "id": "npm:hln-resolver-snap",
+      "metadata": {
+        "name": "Hyperliquid Names",
+        "author": {
+          "name": "Hyperliquid Names",
+          "website": "https://hlnames.xyz/"
+        },
+        "summary": "Resolve your .hl name on HyperEVM.",
+        "description": "Hyperliquid Names lets users seamlessly use .hl names in place of wallet addresses on HyperEVM. Users can simply type a .hl name in the address field, and the snap will automatically resolve it to the correct wallet address. This snap only runs on HyperEVM (chainId 999) and .hl TLDs.",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://discord.gg/9bTeZgE8E3",
+          "knowledgeBase": "https://hyperliquid-names.gitbook.io/hyperliquid-names/hyperliquid-names-on-metamask"
+        },
+        "sourceCode": "https://github.com/HLnames/hln-resolver-snap"
+      },
+      "versions": {
+        "0.1.3": {
+          "checksum": "OVipIcwmpfxMZrcAaWvjp8ODPE7u5sURjJXNibFS694="
+        }
+      }
+    },
     "npm:@token-kit/tapp-snap": {
       "id": "npm:@token-kit/tapp-snap",
       "metadata": {
