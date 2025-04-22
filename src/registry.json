@@ -917,6 +917,9 @@
         },
         "2.1.4": {
           "checksum": "rNBULIRBi45r+MXpWUNwkSaWog2pNTfG5VYKZ676w6g="
+        },
+        "2.1.5": {
+          "checksum": "wdI83+z6Tq2JRwosE5vlj+gBM1oGo0C0kjZPkJcd9mA="
         }
       }
     },
@@ -1626,6 +1629,9 @@
         ]
       },
       "versions": {
+        "1.0.4": {
+          "checksum": "g7+rMyiiRr/hkxpPCgyF/qKefm/5AT9oUr+G4AhHb4E="
+        },
         "1.0.3": {
           "checksum": "hyw8D7jdrDe4FGohp7hjn7miXCk5JVo7yohV5Q3I2io="
         }
@@ -3300,6 +3306,42 @@
         }
       }
     },
+    "npm:@ardata-tech/qubic-wallet": {
+      "id": "npm:@ardata-tech/qubic-wallet",
+      "metadata": {
+        "name": "Qubic Wallet",
+        "author": {
+          "name": "AR Data Technology",
+          "website": "https://www.ardata.tech"
+        },
+        "website": "https://connect.qubic.org",
+        "summary": "Secure and streamlined gateway to interacting with the Qubic blockchain.",
+        "description": "Qubic Wallet is a powerful and secure interface designed to enable seamless interactions with the Qubic blockchain ecosystem. Whether you're a developer, enterprise, or individual user, Qubic Wallet provides a streamlined gateway for integrating decentralized features into your applications with confidence.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://github.com/ardata-tech/qubic-audit/blob/master/ardata_tech_snap_audit.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://ardata-tech.notion.site/1aefbc8879c7816ca0bcf2127836a712",
+          "faq": "https://ardata-tech.notion.site/Qubic-Connect-FAQs-1affbc8879c78044b387dcea34754e9f",
+          "knowledgeBase": "https://ardata-tech.notion.site/Qubic-Connect-Knowledge-Base-1affbc8879c7802ba998d2388c225b7f"
+        },
+        "sourceCode": "https://github.com/ardata-tech/qubic-wallet",
+        "screenshots": [
+          "./images/@ardata-tech/qubic-wallet/1.png",
+          "./images/@ardata-tech/qubic-wallet/2.png",
+          "./images/@ardata-tech/qubic-wallet/3.png"
+        ]
+      },
+      "versions": {
+        "1.0.7": {
+          "checksum": "CUiQNRISBu/m0w9wZ3lpwkW9jsRaDM1JoH9ptrB1dN0="
+        }
+      }
+    },
     "npm:@qubic-lib/qubic-mm-snap": {
       "id": "npm:@qubic-lib/qubic-mm-snap",
       "metadata": {
@@ -3641,7 +3683,6 @@
         },
         "website": "https://nu.fi/metamask/",
         "summary": "Store, buy, manage ADA, tokens, and NFTs, and access DeFi applications on Cardano.",
-        "summary": "Discover the Cardano universe directly from your MetaMask wallet. Seamlessly store, buy, and manage ADA, Cardano tokens, and NFTs, and access a wide range of DeFi applications.",
         "description": "1. After installing the Snap, visit wallet.nu.fi to connect your MetaMask to the extended wallet. \n2. In the dapp directory, you'll find a list of Cardano dapps that support MetaMask. \n3. Enjoy!",
         "audits": [
           {
@@ -4001,11 +4042,11 @@
         ]
       },
       "versions": {
+        "1.1.22": {
+          "checksum": "9qgo0z8k1RKwxB3+B3a24qN3WnpZPFfRq7qpNmvAfAw="
+        },
         "1.1.19": {
           "checksum": "tGF4m1uHjh48/OZrQgxShsjdv5c7YoawcMsy2G1ktKM="
-        },
-        "1.1.13": {
-          "checksum": "cpEn6gQpuf78uzl3iRxeKBEUc/f+Y5Si1opHRKEyi/w="
         }
       }
     },
@@ -4271,6 +4312,35 @@
         }
       }
     },
+    "npm:@snowballmoney/metamask-snap": {
+      "id": "npm:@snowballmoney/metamask-snap",
+      "metadata": {
+        "name": "Modular Naming Service",
+        "author": {
+          "name": "Snowball Money",
+          "website": "https://www.snowball.money/"
+        },
+        "summary": "Easily send and receive assets in MetaMask using MNS names—no more copying long addresses.",
+        "description": "With MNS Snap, users can replace long wallet addresses with easy-to-remember identity names, enhancing transactions and the overall user experience.\n\nTo start using MNS Snap, claim your MNS identity on modular.name, install the MNS Snap from the MetaMask Snaps Directory, and enjoy the convenience of sending and receiving assets effortlessly in MetaMask.\n\nExperience a more intuitive way to manage your digital identity in the decentralized ecosystem with MNS Snap!",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://discord.com/invite/jW4GzbdNBm",
+          "faq": "https://snowball-5.gitbook.io/snowball/modular-naming-service-mns/metamask-snaps/faq",
+          "knowledgeBase": "https://snowball-5.gitbook.io/snowball/modular-naming-service-mns/metamask-snaps/knowledge-base"
+        },
+        "sourceCode": "https://github.com/snowballmoney/metamask-snap",
+        "screenshots": [
+          "./images/@snowballmoney/metamask-snap/1.png",
+          "./images/@snowballmoney/metamask-snap/2.png",
+          "./images/@snowballmoney/metamask-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.4": {
+          "checksum": "R5hh+xSP/4CQl0vKIKDuoJRMG9j+6Gr83LEkkSQgwCs="
+        }
+      }
+    },
     "npm:sonic_resolver": {
       "id": "npm:sonic_resolver",
       "metadata": {
@@ -4471,6 +4541,35 @@
         }
       }
     },
+    "npm:zns-connect": {
+      "id": "npm:zns-connect",
+      "metadata": {
+        "name": "zns-connect",
+        "author": {
+          "name": "ZNS Connect",
+          "website": "https://www.znsconnect.io"
+        },
+        "summary": "Resolve ZNS domains like .honey, .hvm, .ink, .poly, and more directly in your wallet across multiple networks.",
+        "description": "ZNS Connect is a powerful MetaMask Snap that brings (ZNS) domain resolution directly to your wallet.\n\nKey Features:\n- Resolve ZNS domains across multiple networks (Polygon, BSC, Ethereum)\n- Support for multiple TLDs including .honey, .cz, and .ink\n- Direct wallet integration for seamless domain resolution\n- Real-time domain validation and checking\n\nHow to Use:\n1. Install the Snap through MetaMask\n2. Enter any ZNS domain (example: mydomain.poly)\n3. Get instant resolution to the corresponding wallet address\n\nThis Snap simplifies blockchain domain resolution by eliminating the need for external resolvers or websites. Perfect for developers, crypto enthusiasts, and anyone working with ZNS domains.",
+        "category": "name resolution",
+        "support": {
+          "contact": "mailto:info@znsconnect.io",
+          "faq": "https://docs.znsconnect.io/user-guide/zns-on-metamask-snap/general-faq",
+          "knowledgeBase": "https://docs.znsconnect.io/user-guide/zns-on-metamask-snap/knowledge-base"
+        },
+        "sourceCode": "https://github.com/xinkin/znsConnect",
+        "screenshots": [
+          "./images/zns-connect/1.png",
+          "./images/zns-connect/2.png",
+          "./images/zns-connect/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.6": {
+          "checksum": "tunq8Xwn0nPdIR1BsMTvc+5V2BktWh/kCEfXgBdr0Yg="
+        }
+      }
+    },
     "npm:freename-resolution-snap": {
       "id": "npm:freename-resolution-snap",
       "metadata": {
@@ -4497,6 +4596,29 @@
       "versions": {
         "1.0.6": {
           "checksum": "U/l83hOSMVwBr4Y9AD76Nlm1fNM5s3wNwiyce75IR1Q="
+        }
+      }
+    },
+    "npm:hln-resolver-snap": {
+      "id": "npm:hln-resolver-snap",
+      "metadata": {
+        "name": "Hyperliquid Names",
+        "author": {
+          "name": "Hyperliquid Names",
+          "website": "https://hlnames.xyz/"
+        },
+        "summary": "Resolve your .hl name on HyperEVM.",
+        "description": "Hyperliquid Names lets users seamlessly use .hl names in place of wallet addresses on HyperEVM. Users can simply type a .hl name in the address field, and the snap will automatically resolve it to the correct wallet address. This snap only runs on HyperEVM (chainId 999) and .hl TLDs.",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://discord.gg/9bTeZgE8E3",
+          "knowledgeBase": "https://hyperliquid-names.gitbook.io/hyperliquid-names/hyperliquid-names-on-metamask"
+        },
+        "sourceCode": "https://github.com/HLnames/hln-resolver-snap"
+      },
+      "versions": {
+        "0.1.3": {
+          "checksum": "OVipIcwmpfxMZrcAaWvjp8ODPE7u5sURjJXNibFS694="
         }
       }
     },
