@@ -917,6 +917,9 @@
         },
         "2.1.4": {
           "checksum": "rNBULIRBi45r+MXpWUNwkSaWog2pNTfG5VYKZ676w6g="
+        },
+        "2.1.5": {
+          "checksum": "wdI83+z6Tq2JRwosE5vlj+gBM1oGo0C0kjZPkJcd9mA="
         }
       }
     },
@@ -1626,6 +1629,9 @@
         ]
       },
       "versions": {
+        "1.0.4": {
+          "checksum": "g7+rMyiiRr/hkxpPCgyF/qKefm/5AT9oUr+G4AhHb4E="
+        },
         "1.0.3": {
           "checksum": "hyw8D7jdrDe4FGohp7hjn7miXCk5JVo7yohV5Q3I2io="
         }
@@ -3300,6 +3306,42 @@
         }
       }
     },
+    "npm:@ardata-tech/qubic-wallet": {
+      "id": "npm:@ardata-tech/qubic-wallet",
+      "metadata": {
+        "name": "Qubic Wallet",
+        "author": {
+          "name": "AR Data Technology",
+          "website": "https://www.ardata.tech"
+        },
+        "website": "https://connect.qubic.org",
+        "summary": "Secure and streamlined gateway to interacting with the Qubic blockchain.",
+        "description": "Qubic Wallet is a powerful and secure interface designed to enable seamless interactions with the Qubic blockchain ecosystem. Whether you're a developer, enterprise, or individual user, Qubic Wallet provides a streamlined gateway for integrating decentralized features into your applications with confidence.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://github.com/ardata-tech/qubic-audit/blob/master/ardata_tech_snap_audit.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://ardata-tech.notion.site/1aefbc8879c7816ca0bcf2127836a712",
+          "faq": "https://ardata-tech.notion.site/Qubic-Connect-FAQs-1affbc8879c78044b387dcea34754e9f",
+          "knowledgeBase": "https://ardata-tech.notion.site/Qubic-Connect-Knowledge-Base-1affbc8879c7802ba998d2388c225b7f"
+        },
+        "sourceCode": "https://github.com/ardata-tech/qubic-wallet",
+        "screenshots": [
+          "./images/@ardata-tech/qubic-wallet/1.png",
+          "./images/@ardata-tech/qubic-wallet/2.png",
+          "./images/@ardata-tech/qubic-wallet/3.png"
+        ]
+      },
+      "versions": {
+        "1.0.7": {
+          "checksum": "CUiQNRISBu/m0w9wZ3lpwkW9jsRaDM1JoH9ptrB1dN0="
+        }
+      }
+    },
     "npm:@qubic-lib/qubic-mm-snap": {
       "id": "npm:@qubic-lib/qubic-mm-snap",
       "metadata": {
@@ -3641,7 +3683,6 @@
         },
         "website": "https://nu.fi/metamask/",
         "summary": "Store, buy, manage ADA, tokens, and NFTs, and access DeFi applications on Cardano.",
-        "summary": "Discover the Cardano universe directly from your MetaMask wallet. Seamlessly store, buy, and manage ADA, Cardano tokens, and NFTs, and access a wide range of DeFi applications.",
         "description": "1. After installing the Snap, visit wallet.nu.fi to connect your MetaMask to the extended wallet. \n2. In the dapp directory, you'll find a list of Cardano dapps that support MetaMask. \n3. Enjoy!",
         "audits": [
           {
@@ -4001,11 +4042,11 @@
         ]
       },
       "versions": {
+        "1.1.22": {
+          "checksum": "9qgo0z8k1RKwxB3+B3a24qN3WnpZPFfRq7qpNmvAfAw="
+        },
         "1.1.19": {
           "checksum": "tGF4m1uHjh48/OZrQgxShsjdv5c7YoawcMsy2G1ktKM="
-        },
-        "1.1.13": {
-          "checksum": "cpEn6gQpuf78uzl3iRxeKBEUc/f+Y5Si1opHRKEyi/w="
         }
       }
     },
@@ -4268,6 +4309,35 @@
       "versions": {
         "0.0.6": {
           "checksum": "qFquENdgWP6N7pRTHMcLDx0Geyljy8WFMzXycHTs2+o="
+        }
+      }
+    },
+    "npm:@snowballmoney/metamask-snap": {
+      "id": "npm:@snowballmoney/metamask-snap",
+      "metadata": {
+        "name": "Modular Naming Service",
+        "author": {
+          "name": "Snowball Money",
+          "website": "https://www.snowball.money/"
+        },
+        "summary": "Easily send and receive assets in MetaMask using MNS names—no more copying long addresses.",
+        "description": "With MNS Snap, users can replace long wallet addresses with easy-to-remember identity names, enhancing transactions and the overall user experience.\n\nTo start using MNS Snap, claim your MNS identity on modular.name, install the MNS Snap from the MetaMask Snaps Directory, and enjoy the convenience of sending and receiving assets effortlessly in MetaMask.\n\nExperience a more intuitive way to manage your digital identity in the decentralized ecosystem with MNS Snap!",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://discord.com/invite/jW4GzbdNBm",
+          "faq": "https://snowball-5.gitbook.io/snowball/modular-naming-service-mns/metamask-snaps/faq",
+          "knowledgeBase": "https://snowball-5.gitbook.io/snowball/modular-naming-service-mns/metamask-snaps/knowledge-base"
+        },
+        "sourceCode": "https://github.com/snowballmoney/metamask-snap",
+        "screenshots": [
+          "./images/@snowballmoney/metamask-snap/1.png",
+          "./images/@snowballmoney/metamask-snap/2.png",
+          "./images/@snowballmoney/metamask-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.4": {
+          "checksum": "R5hh+xSP/4CQl0vKIKDuoJRMG9j+6Gr83LEkkSQgwCs="
         }
       }
     },
