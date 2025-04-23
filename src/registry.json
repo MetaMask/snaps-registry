@@ -2414,7 +2414,7 @@
           "name": "Bitscrunch",
           "website": "https://www.bistcrunch.com/"
         },
-        "website": "https://www.unleashnfts.com/snap",
+        "website": "https://unleashnfts.com/metamask-plugin",
         "summary": "Evaluate NFTs and stay protected from frauds.",
         "description": "UnleashNFTs Snap helps you determine the fair value of NFTs. This AI-powered snap detects price manipulation and estimates the true market worth of NFTs.\n\nHow it works:\n\n- Our AI-powered price estimation model evaluates supported NFTs based on past transactions, market sentiment, and rarity to provide an accurate valuation.\n- The NFT wash trade detection feature identifies artificial trading practices that inflate values, helping you avoid overpaying for manipulated assets.",
         "category": "transaction insights",
@@ -3340,7 +3340,7 @@
         },
         "website": "https://connect.qubic.org",
         "summary": "Secure and streamlined gateway to interacting with the Qubic blockchain.",
-        "description": "Qubic Wallet is a powerful and secure interface designed to enable seamless interactions with the Qubic blockchain ecosystem. Whether you're a developer, enterprise, or individual user, Qubic Connect provides a streamlined gateway for integrating decentralized features into your applications with confidence.",
+        "description": "Qubic Wallet is a powerful and secure interface designed to enable seamless interactions with the Qubic blockchain ecosystem. Whether you're a developer, enterprise, or individual user, Qubic Wallet provides a streamlined gateway for integrating decentralized features into your applications with confidence.",
         "audits": [
           {
             "auditor": "OtterSec",
@@ -4066,11 +4066,11 @@
         ]
       },
       "versions": {
+        "1.1.22": {
+          "checksum": "9qgo0z8k1RKwxB3+B3a24qN3WnpZPFfRq7qpNmvAfAw="
+        },
         "1.1.19": {
           "checksum": "tGF4m1uHjh48/OZrQgxShsjdv5c7YoawcMsy2G1ktKM="
-        },
-        "1.1.13": {
-          "checksum": "cpEn6gQpuf78uzl3iRxeKBEUc/f+Y5Si1opHRKEyi/w="
         }
       }
     },
@@ -4565,6 +4565,35 @@
         }
       }
     },
+    "npm:zns-connect": {
+      "id": "npm:zns-connect",
+      "metadata": {
+        "name": "zns-connect",
+        "author": {
+          "name": "ZNS Connect",
+          "website": "https://www.znsconnect.io"
+        },
+        "summary": "Resolve ZNS domains like .honey, .hvm, .ink, .poly, and more directly in your wallet across multiple networks.",
+        "description": "ZNS Connect is a powerful MetaMask Snap that brings (ZNS) domain resolution directly to your wallet.\n\nKey Features:\n- Resolve ZNS domains across multiple networks (Polygon, BSC, Ethereum)\n- Support for multiple TLDs including .honey, .cz, and .ink\n- Direct wallet integration for seamless domain resolution\n- Real-time domain validation and checking\n\nHow to Use:\n1. Install the Snap through MetaMask\n2. Enter any ZNS domain (example: mydomain.poly)\n3. Get instant resolution to the corresponding wallet address\n\nThis Snap simplifies blockchain domain resolution by eliminating the need for external resolvers or websites. Perfect for developers, crypto enthusiasts, and anyone working with ZNS domains.",
+        "category": "name resolution",
+        "support": {
+          "contact": "mailto:info@znsconnect.io",
+          "faq": "https://docs.znsconnect.io/user-guide/zns-on-metamask-snap/general-faq",
+          "knowledgeBase": "https://docs.znsconnect.io/user-guide/zns-on-metamask-snap/knowledge-base"
+        },
+        "sourceCode": "https://github.com/xinkin/znsConnect",
+        "screenshots": [
+          "./images/zns-connect/1.png",
+          "./images/zns-connect/2.png",
+          "./images/zns-connect/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.6": {
+          "checksum": "tunq8Xwn0nPdIR1BsMTvc+5V2BktWh/kCEfXgBdr0Yg="
+        }
+      }
+    },
     "npm:freename-resolution-snap": {
       "id": "npm:freename-resolution-snap",
       "metadata": {
@@ -4589,8 +4618,31 @@
         ]
       },
       "versions": {
-        "1.0.5": {
-          "checksum": "q9c0f1XF7v6FSvQ9UPwnBnVOEsXq7eQ1ih5jFN/8QCA="
+        "1.0.6": {
+          "checksum": "U/l83hOSMVwBr4Y9AD76Nlm1fNM5s3wNwiyce75IR1Q="
+        }
+      }
+    },
+    "npm:hln-resolver-snap": {
+      "id": "npm:hln-resolver-snap",
+      "metadata": {
+        "name": "Hyperliquid Names",
+        "author": {
+          "name": "Hyperliquid Names",
+          "website": "https://hlnames.xyz/"
+        },
+        "summary": "Resolve your .hl name on HyperEVM.",
+        "description": "Hyperliquid Names lets users seamlessly use .hl names in place of wallet addresses on HyperEVM. Users can simply type a .hl name in the address field, and the snap will automatically resolve it to the correct wallet address. This snap only runs on HyperEVM (chainId 999) and .hl TLDs.",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://discord.gg/9bTeZgE8E3",
+          "knowledgeBase": "https://hyperliquid-names.gitbook.io/hyperliquid-names/hyperliquid-names-on-metamask"
+        },
+        "sourceCode": "https://github.com/HLnames/hln-resolver-snap"
+      },
+      "versions": {
+        "0.1.3": {
+          "checksum": "OVipIcwmpfxMZrcAaWvjp8ODPE7u5sURjJXNibFS694="
         }
       }
     },
