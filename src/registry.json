@@ -4852,8 +4852,8 @@
         }
       }
     },
-    "@celestials-id/celestials-snap": {
-      "id": "@celestials-id/celestials-snap",
+    "npm:@celestials-id/celestials-snap": {
+      "id": "npm:@celestials-id/celestials-snap",
       "metadata": {
         "name": "Celestials",
         "author": {
@@ -4870,9 +4870,9 @@
         },
         "sourceCode": "https://github.com/celestials-id/celestials-snap",
         "screenshots": [
-          "./images/@celestials/celestials_snap_1.png",
-          "./images/@celestials/celestials_snap_2.png",
-          "./images/@celestials/celestials_snap_3.png"
+          "./images/@celestials/celestials-snap/1.png",
+          "./images/@celestials/celestials-snap/2.png",
+          "./images/@celestials/celestials-snap/3.png"
         ]
       },
       "versions": {
