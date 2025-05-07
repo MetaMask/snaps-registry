@@ -4868,7 +4868,12 @@
           "faq": "https://api.celestials.id/scalar",
           "knowledgeBase": "https://api.celestials.id/scalar"
         },
-        "sourceCode": "https://github.com/celestials-id/celestials-snap"
+        "sourceCode": "https://github.com/celestials-id/celestials-snap",
+        "screenshots": [
+          "./images/@celestials/celestials_snap_1.png",
+          "./images/@celestials/celestials_snap_2.png",
+          "./images/@celestials/celestials_snap_3.png"
+        ]
       },
       "versions": {
         "1.0.2": {
