@@ -4851,6 +4851,30 @@
           "checksum": "xk7O5itVsuV3Dfldq3rI3WgggHa3z7HX7e17jzheE8w="
         }
       }
+    },
+    "@celestials-id/celestials-snap": {
+      "id": "@celestials-id/celestials-snap",
+      "metadata": {
+        "name": "Celestials",
+        "author": {
+          "name": "Celestials",
+          "website": "https://celestials.id/"
+        },
+        "summary": "Celestials.id resolver for Metamask",
+        "description": "Adds support for verified Celestials \".i\" names to MetaMask.\n\nWhen sending in MetaMask, simply type a Celestials ID like ‘celestials.i’ to automatically resolve it to the linked address on your selected network.\nUse your Celestials ID across different protocols, verify your accounts for airdrops, and easily manage your tokens across all supported networks.",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://discord.gg/celestials",
+          "faq": "https://api.celestials.id/scalar",
+          "knowledgeBase": "https://api.celestials.id/scalar"
+        },
+        "sourceCode": "https://github.com/celestials-id/celestials-snap"
+      },
+      "versions": {
+        "1.0.2": {
+          "checksum": "eqJzfrja04/LPK8lI+7dAlEzAEB/d8DpxGPf2aOwUi0="
+        }
+      }
     }
   },
   "blockedSnaps": [
