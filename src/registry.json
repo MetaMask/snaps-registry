@@ -4851,6 +4851,18 @@
           "checksum": "xk7O5itVsuV3Dfldq3rI3WgggHa3z7HX7e17jzheE8w="
         }
       }
+    },
+    "npm:@metamask/protocol-example-snap": {
+      "id": "npm:@metamask/protocol-example-snap",
+      "metadata": {
+        "name": "Protocol Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "5mGoGgmZ7RhyLQ+aNzd/H2qhQTkiirztWm399vqxPUw="
+        }
+      }
     }
   },
   "blockedSnaps": [
