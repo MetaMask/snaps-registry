@@ -4854,6 +4854,30 @@
           "checksum": "5mGoGgmZ7RhyLQ+aNzd/H2qhQTkiirztWm399vqxPUw="
         }
       }
+    },
+    "npm:getheminames_resolver": {
+      "id": "npm:getheminames_resolver",
+      "metadata": {
+        "name": "getheminames",
+        "author": {
+          "name": "getHemiNames Resolver",
+          "website": "https://unstoppabledomains.com/"
+        },
+        "summary": "Simplify crypto transactions by replacing long wallet addresses with easy-to-read HemiNames for seamless sending and receiving.",
+        "description": "Simplify your cryptocurrency experience with HemiNames, the innovative solution that transforms complex blockchain interactions into user-friendly experiences. HemiNames replaces those intimidating, error-prone 42-character wallet addresses with intuitive, memorable .hemi domains that anyone can easily read, type, and share. This revolutionary naming system allows for seamless sending and receiving of digital assets across the cryptocurrency ecosystem, eliminating the anxiety of potential address errors that could result in lost funds.\n\nBy simply installing the MetaMask Snap, you'll instantly enable .hemi name resolution within your existing send flow, creating a frictionless transaction experience without changing your familiar workflow. HemiNames bridges the gap between technical blockchain complexity and everyday usability, making cryptocurrency accessible to everyone from seasoned traders to complete newcomers.",
+        "category": "name resolution",
+        "support": {
+          "knowledgeBase": "https://explorer.hemi.xyz/",
+          "faq": "https://discord.com/invite/hemixyz",
+          "contact": "https://discord.com/invite/hemixyz"
+        },
+        "sourceCode": "https://github.com/getHemiNames/getHemiNames-resolution-snap"
+      },
+      "versions": {
+        "0.1.3": {
+          "checksum": "qGq6KkKi1lDzr00zoIN4GgDc8CHYsjUhMzaYtY0bKcQ="
+        }
+      }
     }
   },
   "blockedSnaps": [
