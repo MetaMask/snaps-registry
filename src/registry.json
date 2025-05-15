@@ -4570,7 +4570,7 @@
     "npm:zns-connect": {
       "id": "npm:zns-connect",
       "metadata": {
-        "name": "zns-connect",
+        "name": "ZNS Connect Name Service",
         "author": {
           "name": "ZNS Connect Name Service",
           "website": "https://www.znsconnect.io"
