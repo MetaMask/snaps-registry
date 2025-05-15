@@ -4572,7 +4572,7 @@
       "metadata": {
         "name": "zns-connect",
         "author": {
-          "name": "ZNS Connect",
+          "name": "ZNS Connect Name Service",
           "website": "https://www.znsconnect.io"
         },
         "summary": "Resolve ZNS domains like .honey, .hvm, .ink, .poly, and more directly in your wallet across multiple networks.",
