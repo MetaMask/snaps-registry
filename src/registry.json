@@ -4858,7 +4858,7 @@
     "npm:getheminames_resolver": {
       "id": "npm:getheminames_resolver",
       "metadata": {
-        "name": "getheminames",
+        "name": "getHemiNames Resolver",
         "author": {
           "name": "getHemiNames Resolver",
           "website": "https://unstoppabledomains.com/"
