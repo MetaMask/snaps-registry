@@ -4871,7 +4871,12 @@
           "faq": "https://discord.com/invite/hemixyz",
           "contact": "https://discord.com/invite/hemixyz"
         },
-        "sourceCode": "https://github.com/getHemiNames/getHemiNames-resolution-snap"
+        "sourceCode": "https://github.com/getHemiNames/getHemiNames-resolution-snap",
+        "screenshots": [
+          "./images/getheminames/1.png",
+          "./images/getheminames/2.png",
+          "./images/getheminames/3.png"
+        ]
       },
       "versions": {
         "0.1.3": {
