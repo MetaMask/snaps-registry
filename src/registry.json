@@ -148,7 +148,7 @@
         },
         "website": "https://www.walletguard.app/snap",
         "summary": "Protect crypto with transaction insights and proactive security alerts.",
-        "description": "Protect your crypto. Wallet Guard supports transaction simulation and automated approval revoking reminders for you. Stop guessing about your transactions when performing swaps, claims, and mints!",
+        "description": "SUNSET NOTICE: Wallet Guard is now integrated directly with MetaMask. The Wallet Guard Snap is sunset and no longer supported. Learn more here: https://www.walletguard.app/blog/wallet-guard-sunset-notice",
         "audits": [
           {
             "auditor": "Consensys Diligence",
@@ -169,17 +169,8 @@
         ]
       },
       "versions": {
-        "1.1.1": {
-          "checksum": "dsYUYgDXl66od8r0+zTyxScWR0UauZAHn8M+xHUQ0ss="
-        },
-        "1.1.0": {
-          "checksum": "pB87tpEB7Z+iMXWUuSpGEq5cAswLcAOJEDaxQq9Tcz0="
-        },
-        "1.0.2": {
-          "checksum": "2yoyqVvqwRxZSasmeFXqWd2+BZNiIBr1CFM9ZQR2EsM="
-        },
-        "1.0.1": {
-          "checksum": "mv4xJVdaBEdavHcluuEkD5BzFdjT9CzyjtKFAWxP28s="
+        "1.1.2": {
+          "checksum": "N3QYKRJYd4dAVrOs/KDCpzGvEjyCGkkdabfRQHKw0qY="
         }
       }
     },
@@ -3336,8 +3327,8 @@
         "sourceCode": "https://github.com/massalabs/metamask-massa"
       },
       "versions": {
-        "1.1.4": {
-          "checksum": "A1Stf73pE5v9KTJZNo875Gspjnps5j/MhRfc6u9d2H0="
+        "1.2.0": {
+          "checksum": "5EH7a1bOGgdiDGnMJXzH5vu773Ur2gM8wAxUHLxGFdA="
         }
       }
     },
@@ -4581,7 +4572,7 @@
       "metadata": {
         "name": "zns-connect",
         "author": {
-          "name": "ZNS Connect",
+          "name": "ZNS Connect Name Service",
           "website": "https://www.znsconnect.io"
         },
         "summary": "Resolve ZNS domains like .honey, .hvm, .ink, .poly, and more directly in your wallet across multiple networks.",
