@@ -3327,8 +3327,8 @@
         "sourceCode": "https://github.com/massalabs/metamask-massa"
       },
       "versions": {
-        "1.1.4": {
-          "checksum": "A1Stf73pE5v9KTJZNo875Gspjnps5j/MhRfc6u9d2H0="
+        "1.2.0": {
+          "checksum": "5EH7a1bOGgdiDGnMJXzH5vu773Ur2gM8wAxUHLxGFdA="
         }
       }
     },
@@ -4572,7 +4572,7 @@
       "metadata": {
         "name": "zns-connect",
         "author": {
-          "name": "ZNS Connect",
+          "name": "ZNS Connect Name Service",
           "website": "https://www.znsconnect.io"
         },
         "summary": "Resolve ZNS domains like .honey, .hvm, .ink, .poly, and more directly in your wallet across multiple networks.",
@@ -4840,6 +4840,35 @@
         },
         "3.1.1": {
           "checksum": "xk7O5itVsuV3Dfldq3rI3WgggHa3z7HX7e17jzheE8w="
+        }
+      }
+    },
+    "npm:@celestials-id/celestials-snap": {
+      "id": "npm:@celestials-id/celestials-snap",
+      "metadata": {
+        "name": "Celestials",
+        "author": {
+          "name": "Celestials",
+          "website": "https://celestials.id/"
+        },
+        "summary": "Celestials.id resolver for Metamask",
+        "description": "Adds support for verified Celestials \".i\" names to MetaMask.\n\nWhen sending in MetaMask, simply type a Celestials ID like ‘celestials.i’ to automatically resolve it to the linked address on your selected network.\nUse your Celestials ID across different protocols, verify your accounts for airdrops, and easily manage your tokens across all supported networks.",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://discord.gg/celestials",
+          "faq": "https://api.celestials.id/scalar",
+          "knowledgeBase": "https://api.celestials.id/scalar"
+        },
+        "sourceCode": "https://github.com/celestials-id/celestials-snap",
+        "screenshots": [
+          "./images/@celestials/celestials-snap/1.png",
+          "./images/@celestials/celestials-snap/2.png",
+          "./images/@celestials/celestials-snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.0.2": {
+          "checksum": "eqJzfrja04/LPK8lI+7dAlEzAEB/d8DpxGPf2aOwUi0="
         }
       }
     },
