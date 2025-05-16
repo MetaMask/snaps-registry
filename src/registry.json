@@ -4570,7 +4570,7 @@
     "npm:zns-connect": {
       "id": "npm:zns-connect",
       "metadata": {
-        "name": "zns-connect",
+        "name": "ZNS Connect Name Service",
         "author": {
           "name": "ZNS Connect Name Service",
           "website": "https://www.znsconnect.io"
@@ -4591,8 +4591,8 @@
         ]
       },
       "versions": {
-        "0.1.6": {
-          "checksum": "tunq8Xwn0nPdIR1BsMTvc+5V2BktWh/kCEfXgBdr0Yg="
+        "0.1.7": {
+          "checksum": "Wr3nvnhYmtLBRj8WUOw9uHVSEPgER0MycY75N9eE+ZM="
         }
       }
     },
