@@ -148,7 +148,7 @@
         },
         "website": "https://www.walletguard.app/snap",
         "summary": "Protect crypto with transaction insights and proactive security alerts.",
-        "description": "Protect your crypto. Wallet Guard supports transaction simulation and automated approval revoking reminders for you. Stop guessing about your transactions when performing swaps, claims, and mints!",
+        "description": "SUNSET NOTICE: Wallet Guard is now integrated directly with MetaMask. The Wallet Guard Snap is sunset and no longer supported. Learn more here: https://www.walletguard.app/blog/wallet-guard-sunset-notice",
         "audits": [
           {
             "auditor": "Consensys Diligence",
@@ -169,17 +169,8 @@
         ]
       },
       "versions": {
-        "1.1.1": {
-          "checksum": "dsYUYgDXl66od8r0+zTyxScWR0UauZAHn8M+xHUQ0ss="
-        },
-        "1.1.0": {
-          "checksum": "pB87tpEB7Z+iMXWUuSpGEq5cAswLcAOJEDaxQq9Tcz0="
-        },
-        "1.0.2": {
-          "checksum": "2yoyqVvqwRxZSasmeFXqWd2+BZNiIBr1CFM9ZQR2EsM="
-        },
-        "1.0.1": {
-          "checksum": "mv4xJVdaBEdavHcluuEkD5BzFdjT9CzyjtKFAWxP28s="
+        "1.1.2": {
+          "checksum": "N3QYKRJYd4dAVrOs/KDCpzGvEjyCGkkdabfRQHKw0qY="
         }
       }
     },
@@ -3360,8 +3351,8 @@
         "sourceCode": "https://github.com/massalabs/metamask-massa"
       },
       "versions": {
-        "1.1.4": {
-          "checksum": "A1Stf73pE5v9KTJZNo875Gspjnps5j/MhRfc6u9d2H0="
+        "1.2.0": {
+          "checksum": "5EH7a1bOGgdiDGnMJXzH5vu773Ur2gM8wAxUHLxGFdA="
         }
       }
     },
@@ -4603,9 +4594,9 @@
     "npm:zns-connect": {
       "id": "npm:zns-connect",
       "metadata": {
-        "name": "zns-connect",
+        "name": "ZNS Connect Name Service",
         "author": {
-          "name": "ZNS Connect",
+          "name": "ZNS Connect Name Service",
           "website": "https://www.znsconnect.io"
         },
         "summary": "Resolve ZNS domains like .honey, .hvm, .ink, .poly, and more directly in your wallet across multiple networks.",
@@ -4624,8 +4615,8 @@
         ]
       },
       "versions": {
-        "0.1.6": {
-          "checksum": "tunq8Xwn0nPdIR1BsMTvc+5V2BktWh/kCEfXgBdr0Yg="
+        "0.1.7": {
+          "checksum": "Wr3nvnhYmtLBRj8WUOw9uHVSEPgER0MycY75N9eE+ZM="
         }
       }
     },
@@ -4873,6 +4864,76 @@
         },
         "3.1.1": {
           "checksum": "xk7O5itVsuV3Dfldq3rI3WgggHa3z7HX7e17jzheE8w="
+        }
+      }
+    },
+    "npm:@celestials-id/celestials-snap": {
+      "id": "npm:@celestials-id/celestials-snap",
+      "metadata": {
+        "name": "Celestials",
+        "author": {
+          "name": "Celestials",
+          "website": "https://celestials.id/"
+        },
+        "summary": "Celestials.id resolver for Metamask",
+        "description": "Adds support for verified Celestials \".i\" names to MetaMask.\n\nWhen sending in MetaMask, simply type a Celestials ID like ‘celestials.i’ to automatically resolve it to the linked address on your selected network.\nUse your Celestials ID across different protocols, verify your accounts for airdrops, and easily manage your tokens across all supported networks.",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://discord.gg/celestials",
+          "faq": "https://api.celestials.id/scalar",
+          "knowledgeBase": "https://api.celestials.id/scalar"
+        },
+        "sourceCode": "https://github.com/celestials-id/celestials-snap",
+        "screenshots": [
+          "./images/@celestials/celestials-snap/1.png",
+          "./images/@celestials/celestials-snap/2.png",
+          "./images/@celestials/celestials-snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.0.2": {
+          "checksum": "eqJzfrja04/LPK8lI+7dAlEzAEB/d8DpxGPf2aOwUi0="
+        }
+      }
+    },
+    "npm:@metamask/protocol-example-snap": {
+      "id": "npm:@metamask/protocol-example-snap",
+      "metadata": {
+        "name": "Protocol Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "5mGoGgmZ7RhyLQ+aNzd/H2qhQTkiirztWm399vqxPUw="
+        }
+      }
+    },
+    "npm:getheminames_resolver": {
+      "id": "npm:getheminames_resolver",
+      "metadata": {
+        "name": "getHemiNames Resolver",
+        "author": {
+          "name": "getHemiNames Resolver",
+          "website": "https://unstoppabledomains.com/"
+        },
+        "summary": "Simplify crypto transactions by replacing long wallet addresses with easy-to-read HemiNames for seamless sending and receiving.",
+        "description": "Simplify your cryptocurrency experience with HemiNames, the innovative solution that transforms complex blockchain interactions into user-friendly experiences. HemiNames replaces those intimidating, error-prone 42-character wallet addresses with intuitive, memorable .hemi domains that anyone can easily read, type, and share. This revolutionary naming system allows for seamless sending and receiving of digital assets across the cryptocurrency ecosystem, eliminating the anxiety of potential address errors that could result in lost funds.\n\nBy simply installing the MetaMask Snap, you'll instantly enable .hemi name resolution within your existing send flow, creating a frictionless transaction experience without changing your familiar workflow. HemiNames bridges the gap between technical blockchain complexity and everyday usability, making cryptocurrency accessible to everyone from seasoned traders to complete newcomers.",
+        "category": "name resolution",
+        "support": {
+          "knowledgeBase": "https://explorer.hemi.xyz/",
+          "faq": "https://discord.com/invite/hemixyz",
+          "contact": "https://discord.com/invite/hemixyz"
+        },
+        "sourceCode": "https://github.com/getHemiNames/getHemiNames-resolution-snap",
+        "screenshots": [
+          "./images/getheminames/1.png",
+          "./images/getheminames/2.png",
+          "./images/getheminames/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.3": {
+          "checksum": "qGq6KkKi1lDzr00zoIN4GgDc8CHYsjUhMzaYtY0bKcQ="
         }
       }
     }
