@@ -4275,7 +4275,7 @@
         },
         "website": "https://voyager-snap.linea.build/",
         "summary": "Track your collected Linea XP, POH status, and current activations.",
-        "description": "The Linea Voyager Snap allows you to view your collected Linea XP, Linea XP-L, POH status, Linea ENS domain, and current Linea Voyage activations from within MetaMask.\n\nAfter installing the Snap, visit the companion dapp: https://voyager-snap.linea.build/ to connect or watch the account you use on Linea. Then, click on Linea Voyager from the Snaps menu in MetaMask to open the Snap homepage and view your data.\n\nSee our support guide for additional information: https://support.linea.build/linea-voyage/voyager-snap",
+        "description": "The Linea Voyager Snap allows you to view your collected Linea XP, Linea XP-L, POH status, and Linea ENS domain from within MetaMask.\n\nAfter installing the Snap, visit the companion dapp: https://voyager-snap.linea.build/ to connect or watch the account you use on Linea. Then, click on Linea Voyager from the Snaps menu in MetaMask to open the Snap homepage and view your data.\n\nSee our support guide for additional information: https://support.linea.build/linea-voyage/voyager-snap",
         "category": "interoperability",
         "support": {
           "contact": "https://discord.com/invite/linea"
@@ -4288,8 +4288,8 @@
         ]
       },
       "versions": {
-        "0.9.1": {
-          "checksum": "Ih2eqTo1AaFFuNsxQ6h8iQmd9Yr2jf9VbvtvrtS5nQo="
+        "0.9.2": {
+          "checksum": "Z/0zndw7YUWTbYPSZKvG8RaHuA9wLwRe4Zpder6LC24="
         }
       }
     },
