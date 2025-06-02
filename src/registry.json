@@ -428,6 +428,18 @@
         }
       }
     },
+    "npm:@metamask/background-events-example-snap": {
+      "id": "npm:@metamask/background-events-example-snap",
+      "metadata": {
+        "name": "Background Events Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "hErp73GYyo7PY+AZUPmuL94+EgeKfPJeUVq2UURgfQU="
+        }
+      }
+    },
     "npm:@metamask/cronjob-example-snap": {
       "id": "npm:@metamask/cronjob-example-snap",
       "metadata": {
@@ -581,6 +593,12 @@
         },
         "2.2.1": {
           "checksum": "8f7Fo6y40+L0x+KHkDCq2wjEMrkTL+L6e2NSNBZYVLA="
+        },
+        "2.3.0": {
+          "checksum": "7i20r0cCFwMESzBcTMgRNOt82AjwHneiM6LtD7vXCGw="
+        },
+        "2.4.0": {
+          "checksum": "I4+h3lL7U70t4ZHZagAuECK8sYOKcsiqowBM52gLd/8="
         }
       }
     },
@@ -1169,8 +1187,8 @@
         "sourceCode": "https://github.com/airgap-it/tezos-metamask-snap"
       },
       "versions": {
-        "1.0.3": {
-          "checksum": "taycXyBd5naATqCULWXTcZN+KrFTY4bjAnSHvfM+dME="
+        "1.0.4": {
+          "checksum": "8lQKoXUXerFsAYKnVht9WvATbKgO1uRXtTBhkjILH5s="
         }
       }
     },
@@ -3187,6 +3205,30 @@
         }
       }
     },
+    "npm:@colabs-dev/name-resolver": {
+      "id": "npm:@colabs-dev/name-resolver",
+      "metadata": {
+        "name": "Conft Domains",
+        "author": {
+          "name": "CoLabs",
+          "website": "https://conft.app"
+        },
+        "summary": "Replace cryptic addresses with domain names for easy token transfers in MetaMask.",
+        "description": "coNFT Domain Names Snap integrates coNFT’s domain resolution into MetaMask, enabling users to send tokens to readable domain names rather than cumbersome addresses.\n\n- No more copy-pasting 0x… addresses—simply enter a registered domain like alice.linea or bob.sony.\n- Reduces errors, enhances convenience, and brings user-friendly domain-based transactions right into your MetaMask.\n\nLearn more at conft.app and explore how domain-based transfers can simplify your daily crypto interactions.",
+        "category": "name resolution",
+        "support": {
+          "contact": "mailto:cnftspprt@gmail.com",
+          "faq": "https://docs.google.com/document/d/1ZfXigMXPUPOesCYQpzVfCXhPoBF6uyNLe1A9SaeiFoA/edit?usp=sharing",
+          "knowledgeBase": "https://docs.google.com/document/d/1kBpOoioniHHNKcjZ_JluGqWC5MyHWKtwvSj7_3uj5ps/edit?usp=sharing"
+        },
+        "sourceCode": "https://github.com/Conft-dev/conft-snap"
+      },
+      "versions": {
+        "0.3.2": {
+          "checksum": "DuX0bt8FmttcObZ24qtvRB6O4lWFG8auVxG/lLP4rno="
+        }
+      }
+    },
     "npm:@fioprotocol/fio-wallet-snap": {
       "id": "npm:@fioprotocol/fio-wallet-snap",
       "metadata": {
@@ -3358,8 +3400,8 @@
         "sourceCode": "https://github.com/massalabs/metamask-massa"
       },
       "versions": {
-        "1.1.4": {
-          "checksum": "A1Stf73pE5v9KTJZNo875Gspjnps5j/MhRfc6u9d2H0="
+        "1.2.1": {
+          "checksum": "ZP9Nh4+vhw1Lv3ReNrzKUMQfNsK/SRlYXy43C7VyPl4="
         }
       }
     },
@@ -4264,7 +4306,7 @@
         },
         "website": "https://voyager-snap.linea.build/",
         "summary": "Track your collected Linea XP, POH status, and current activations.",
-        "description": "The Linea Voyager Snap allows you to view your collected Linea XP, Linea XP-L, POH status, Linea ENS domain, and current Linea Voyage activations from within MetaMask.\n\nAfter installing the Snap, visit the companion dapp: https://voyager-snap.linea.build/ to connect or watch the account you use on Linea. Then, click on Linea Voyager from the Snaps menu in MetaMask to open the Snap homepage and view your data.\n\nSee our support guide for additional information: https://support.linea.build/linea-voyage/voyager-snap",
+        "description": "The Linea Voyager Snap allows you to view your collected Linea XP, Linea XP-L, POH status, and Linea ENS domain from within MetaMask.\n\nAfter installing the Snap, visit the companion dapp: https://voyager-snap.linea.build/ to connect or watch the account you use on Linea. Then, click on Linea Voyager from the Snaps menu in MetaMask to open the Snap homepage and view your data.\n\nSee our support guide for additional information: https://support.linea.build/linea-voyage/voyager-snap",
         "category": "interoperability",
         "support": {
           "contact": "https://discord.com/invite/linea"
@@ -4277,8 +4319,8 @@
         ]
       },
       "versions": {
-        "0.9.1": {
-          "checksum": "Ih2eqTo1AaFFuNsxQ6h8iQmd9Yr2jf9VbvtvrtS5nQo="
+        "0.9.2": {
+          "checksum": "Z/0zndw7YUWTbYPSZKvG8RaHuA9wLwRe4Zpder6LC24="
         }
       }
     },
@@ -4601,7 +4643,7 @@
     "npm:zns-connect": {
       "id": "npm:zns-connect",
       "metadata": {
-        "name": "zns-connect",
+        "name": "ZNS Connect Name Service",
         "author": {
           "name": "ZNS Connect Name Service",
           "website": "https://www.znsconnect.io"
@@ -4622,8 +4664,8 @@
         ]
       },
       "versions": {
-        "0.1.6": {
-          "checksum": "tunq8Xwn0nPdIR1BsMTvc+5V2BktWh/kCEfXgBdr0Yg="
+        "0.1.7": {
+          "checksum": "Wr3nvnhYmtLBRj8WUOw9uHVSEPgER0MycY75N9eE+ZM="
         }
       }
     },
@@ -4874,6 +4916,35 @@
         }
       }
     },
+    "npm:@celestials-id/celestials-snap": {
+      "id": "npm:@celestials-id/celestials-snap",
+      "metadata": {
+        "name": "Celestials",
+        "author": {
+          "name": "Celestials",
+          "website": "https://celestials.id/"
+        },
+        "summary": "Celestials.id resolver for Metamask",
+        "description": "Adds support for verified Celestials \".i\" names to MetaMask.\n\nWhen sending in MetaMask, simply type a Celestials ID like ‘celestials.i’ to automatically resolve it to the linked address on your selected network.\nUse your Celestials ID across different protocols, verify your accounts for airdrops, and easily manage your tokens across all supported networks.",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://discord.gg/celestials",
+          "faq": "https://api.celestials.id/scalar",
+          "knowledgeBase": "https://api.celestials.id/scalar"
+        },
+        "sourceCode": "https://github.com/celestials-id/celestials-snap",
+        "screenshots": [
+          "./images/@celestials/celestials-snap/1.png",
+          "./images/@celestials/celestials-snap/2.png",
+          "./images/@celestials/celestials-snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.0.2": {
+          "checksum": "eqJzfrja04/LPK8lI+7dAlEzAEB/d8DpxGPf2aOwUi0="
+        }
+      }
+    },
     "npm:@metamask/protocol-example-snap": {
       "id": "npm:@metamask/protocol-example-snap",
       "metadata": {
@@ -4883,6 +4954,35 @@
       "versions": {
         "1.0.0": {
           "checksum": "5mGoGgmZ7RhyLQ+aNzd/H2qhQTkiirztWm399vqxPUw="
+        }
+      }
+    },
+    "npm:getheminames_resolver": {
+      "id": "npm:getheminames_resolver",
+      "metadata": {
+        "name": "getHemiNames Resolver",
+        "author": {
+          "name": "getHemiNames Resolver",
+          "website": "https://unstoppabledomains.com/"
+        },
+        "summary": "Simplify crypto transactions by replacing long wallet addresses with easy-to-read HemiNames for seamless sending and receiving.",
+        "description": "Simplify your cryptocurrency experience with HemiNames, the innovative solution that transforms complex blockchain interactions into user-friendly experiences. HemiNames replaces those intimidating, error-prone 42-character wallet addresses with intuitive, memorable .hemi domains that anyone can easily read, type, and share. This revolutionary naming system allows for seamless sending and receiving of digital assets across the cryptocurrency ecosystem, eliminating the anxiety of potential address errors that could result in lost funds.\n\nBy simply installing the MetaMask Snap, you'll instantly enable .hemi name resolution within your existing send flow, creating a frictionless transaction experience without changing your familiar workflow. HemiNames bridges the gap between technical blockchain complexity and everyday usability, making cryptocurrency accessible to everyone from seasoned traders to complete newcomers.",
+        "category": "name resolution",
+        "support": {
+          "knowledgeBase": "https://explorer.hemi.xyz/",
+          "faq": "https://discord.com/invite/hemixyz",
+          "contact": "https://discord.com/invite/hemixyz"
+        },
+        "sourceCode": "https://github.com/getHemiNames/getHemiNames-resolution-snap",
+        "screenshots": [
+          "./images/getheminames/1.png",
+          "./images/getheminames/2.png",
+          "./images/getheminames/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.3": {
+          "checksum": "qGq6KkKi1lDzr00zoIN4GgDc8CHYsjUhMzaYtY0bKcQ="
         }
       }
     }
