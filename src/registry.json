@@ -2922,7 +2922,7 @@
           "website": "https://www.bitpanda.com"
         },
         "website": "https://app.bitpandacustody.com",
-        "summary": "Connect Trust Vault wallets to Metamask.",
+        "summary": "Connect Trust Vault wallets to MetaMask.",
         "description": "1. Sign in to your Trust Vault account at https://app.bitpandacustody.com/\n2. Visit the Snap management page at https://app.bitpandacustody.com/metamask-snap\n3. Connect the Snap to Trust Vault\n4. Add Subwallets to Metamask",
         "audits": [
           {
