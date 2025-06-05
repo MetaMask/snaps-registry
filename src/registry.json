@@ -2913,6 +2913,37 @@
         }
       }
     },
+    "npm:@bitpandacustody/trust-vault-snap": {
+      "id": "npm:@bitpandacustody/trust-vault-snap",
+      "metadata": {
+        "name": "TrustVault",
+        "author": {
+          "name": "bitpanda",
+          "website": "https://www.bitpanda.com"
+        },
+        "website": "https://app.bitpandacustody.com",
+        "summary": "Connect Trust Vault wallets to MetaMask.",
+        "description": "1. Sign in to your Trust Vault account at https://app.bitpandacustody.com/\n2. Visit the Snap management page at https://app.bitpandacustody.com/metamask-snap\n3. Connect the Snap to Trust Vault\n4. Add Subwallets to MetaMask",
+        "audits": [
+          {
+            "auditor": "Kudelski Security",
+            "report": "https://cdn.bitpanda.com/media/white-label/Kudelski_Security_Bitpanda_Snap_Code_Review_v2.0.pdf"
+          }
+        ],
+        "category": "account management",
+        "support": {
+          "contact": "https://www.bitpanda.com/en/bts-contact-us",
+          "knowledgeBase": "https://custodysupport.bitpanda.com/hc/en-us/articles/18830192748188-TrustVault-MetaMask-Snap-User-Guide",
+          "faq": "https://custodysupport.bitpanda.com/hc/en-us/sections/16398205255196-MetaMask"
+        },
+        "sourceCode": "https://github.com/bitpanda-labs/trust-vault-snap"
+      },
+      "versions": {
+        "0.1.9": {
+          "checksum": "65xiBGOtG77FpB0qwca92QjGAVcu2zjakTrGIhSSeJA="
+        }
+      }
+    },
     "npm:@taxdao/fintax-snap": {
       "id": "npm:@taxdao/fintax-snap",
       "metadata": {
