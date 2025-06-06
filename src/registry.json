@@ -1837,7 +1837,7 @@
           "contact": "tyler@blitzblitzblitz.com",
           "knowledgeBase": "https://www.npmjs.com/package/safe-send"
         },
-        "sourceCode": "https://github.com/AnChainAI/web3-security-snap"
+        "sourceCode": "https://github.com/tyleradams/safe-send"
       },
       "versions": {
         "1.0.2": {
