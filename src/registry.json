@@ -148,7 +148,7 @@
         },
         "website": "https://www.walletguard.app/snap",
         "summary": "Protect crypto with transaction insights and proactive security alerts.",
-        "description": "Protect your crypto. Wallet Guard supports transaction simulation and automated approval revoking reminders for you. Stop guessing about your transactions when performing swaps, claims, and mints!",
+        "description": "SUNSET NOTICE: Wallet Guard is now integrated directly with MetaMask. The Wallet Guard Snap is sunset and no longer supported. Learn more here: https://www.walletguard.app/blog/wallet-guard-sunset-notice",
         "audits": [
           {
             "auditor": "Consensys Diligence",
@@ -169,17 +169,8 @@
         ]
       },
       "versions": {
-        "1.1.1": {
-          "checksum": "dsYUYgDXl66od8r0+zTyxScWR0UauZAHn8M+xHUQ0ss="
-        },
-        "1.1.0": {
-          "checksum": "pB87tpEB7Z+iMXWUuSpGEq5cAswLcAOJEDaxQq9Tcz0="
-        },
-        "1.0.2": {
-          "checksum": "2yoyqVvqwRxZSasmeFXqWd2+BZNiIBr1CFM9ZQR2EsM="
-        },
-        "1.0.1": {
-          "checksum": "mv4xJVdaBEdavHcluuEkD5BzFdjT9CzyjtKFAWxP28s="
+        "1.1.2": {
+          "checksum": "N3QYKRJYd4dAVrOs/KDCpzGvEjyCGkkdabfRQHKw0qY="
         }
       }
     },
@@ -437,6 +428,18 @@
         }
       }
     },
+    "npm:@metamask/background-events-example-snap": {
+      "id": "npm:@metamask/background-events-example-snap",
+      "metadata": {
+        "name": "Background Events Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "hErp73GYyo7PY+AZUPmuL94+EgeKfPJeUVq2UURgfQU="
+        }
+      }
+    },
     "npm:@metamask/cronjob-example-snap": {
       "id": "npm:@metamask/cronjob-example-snap",
       "metadata": {
@@ -590,6 +593,12 @@
         },
         "2.2.1": {
           "checksum": "8f7Fo6y40+L0x+KHkDCq2wjEMrkTL+L6e2NSNBZYVLA="
+        },
+        "2.3.0": {
+          "checksum": "7i20r0cCFwMESzBcTMgRNOt82AjwHneiM6LtD7vXCGw="
+        },
+        "2.4.0": {
+          "checksum": "I4+h3lL7U70t4ZHZagAuECK8sYOKcsiqowBM52gLd/8="
         }
       }
     },
@@ -917,6 +926,9 @@
         },
         "2.1.4": {
           "checksum": "rNBULIRBi45r+MXpWUNwkSaWog2pNTfG5VYKZ676w6g="
+        },
+        "2.1.5": {
+          "checksum": "wdI83+z6Tq2JRwosE5vlj+gBM1oGo0C0kjZPkJcd9mA="
         }
       }
     },
@@ -1175,8 +1187,8 @@
         "sourceCode": "https://github.com/airgap-it/tezos-metamask-snap"
       },
       "versions": {
-        "1.0.3": {
-          "checksum": "taycXyBd5naATqCULWXTcZN+KrFTY4bjAnSHvfM+dME="
+        "1.0.4": {
+          "checksum": "8lQKoXUXerFsAYKnVht9WvATbKgO1uRXtTBhkjILH5s="
         }
       }
     },
@@ -1626,6 +1638,9 @@
         ]
       },
       "versions": {
+        "1.0.4": {
+          "checksum": "g7+rMyiiRr/hkxpPCgyF/qKefm/5AT9oUr+G4AhHb4E="
+        },
         "1.0.3": {
           "checksum": "hyw8D7jdrDe4FGohp7hjn7miXCk5JVo7yohV5Q3I2io="
         }
@@ -2412,14 +2427,11 @@
         ]
       },
       "versions": {
+        "3.4.0": {
+          "checksum": "FE3fMKA3GZYvw4a2OeCZOKkuOd0oe3zfGUeRukIwjYs="
+        },
         "3.3.0": {
           "checksum": "5pDaRBLXqhCauJt6gYW6OY1bsVMNmFwUpo5X4enIrls="
-        },
-        "3.2.0": {
-          "checksum": "buK7AGhd5dFCye3cKZd/07SaCgO9jEn5tGwGj8ow/QU="
-        },
-        "3.1.0": {
-          "checksum": "jbQaGMSDDCcV4uEbxPf1L5dsI/i706zmX+fEhU5GQBM="
         },
         "3.1.0-staging": {
           "checksum": "FqZpSPhTq0xZ1ak13RTeavyaiDXLeS1pe7F/65wUPTo="
@@ -2434,7 +2446,7 @@
           "name": "Bitscrunch",
           "website": "https://www.bistcrunch.com/"
         },
-        "website": "https://www.unleashnfts.com/snap",
+        "website": "https://unleashnfts.com/metamask-plugin",
         "summary": "Evaluate NFTs and stay protected from frauds.",
         "description": "UnleashNFTs Snap helps you determine the fair value of NFTs. This AI-powered snap detects price manipulation and estimates the true market worth of NFTs.\n\nHow it works:\n\n- Our AI-powered price estimation model evaluates supported NFTs based on past transactions, market sentiment, and rarity to provide an accurate valuation.\n- The NFT wash trade detection feature identifies artificial trading practices that inflate values, helping you avoid overpaying for manipulated assets.",
         "category": "transaction insights",
@@ -2924,6 +2936,37 @@
         }
       }
     },
+    "npm:@bitpandacustody/trust-vault-snap": {
+      "id": "npm:@bitpandacustody/trust-vault-snap",
+      "metadata": {
+        "name": "TrustVault",
+        "author": {
+          "name": "bitpanda",
+          "website": "https://www.bitpanda.com"
+        },
+        "website": "https://app.bitpandacustody.com",
+        "summary": "Connect Trust Vault wallets to MetaMask.",
+        "description": "1. Sign in to your Trust Vault account at https://app.bitpandacustody.com/\n2. Visit the Snap management page at https://app.bitpandacustody.com/metamask-snap\n3. Connect the Snap to Trust Vault\n4. Add Subwallets to MetaMask",
+        "audits": [
+          {
+            "auditor": "Kudelski Security",
+            "report": "https://cdn.bitpanda.com/media/white-label/Kudelski_Security_Bitpanda_Snap_Code_Review_v2.0.pdf"
+          }
+        ],
+        "category": "account management",
+        "support": {
+          "contact": "https://www.bitpanda.com/en/bts-contact-us",
+          "knowledgeBase": "https://custodysupport.bitpanda.com/hc/en-us/articles/18830192748188-TrustVault-MetaMask-Snap-User-Guide",
+          "faq": "https://custodysupport.bitpanda.com/hc/en-us/sections/16398205255196-MetaMask"
+        },
+        "sourceCode": "https://github.com/bitpanda-labs/trust-vault-snap"
+      },
+      "versions": {
+        "0.1.11": {
+          "checksum": "VqDQKQSUmSWoh4zVTKver6aGjqrGbVik4Z1QpoS/Liw="
+        }
+      }
+    },
     "npm:@taxdao/fintax-snap": {
       "id": "npm:@taxdao/fintax-snap",
       "metadata": {
@@ -2986,6 +3029,41 @@
       "versions": {
         "0.0.5": {
           "checksum": "uBmE8MJYdM5373rBxbQpzGkIC1mForIVWCUbBUv7eX0="
+        }
+      }
+    },
+    "npm:@nightlylabs/metamask-move-snap": {
+      "id": "npm:@nightlylabs/metamask-move-snap",
+      "metadata": {
+        "name": "Move Wallet",
+        "author": {
+          "name": "Nightly",
+          "website": "https://nightly.app"
+        },
+        "summary": "Manage tokens and interact with dApps on Movement network.",
+        "description": "Swap, Borrow, Lend, Earn and more with Movement apps using your Metamask.\n\nFull ecosystem support is in progress, and dApp developers can start testing and integrating using the Nightly wallet connector \nA working example is available here: https://movement-web3-template.nightly.app\n\nKey features:\n- Generate and manage Movement addresses securely\n- Interact with Movement based dApp\n- Execute smart contract transactions\n- Change between different Movement networks\n\nUsage:\n- Install the Snap through MetaMask\n-Connect to Movement network automatically\n- Start interacting with Movement dApps",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://github.com/nightly-labs/move-snap/blob/main/audit/nightly_labs_audit_final.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/Kkqq8nahcG",
+          "knowledgeBase": "https://github.com/nightly-labs/move-snap/blob/main/KNOWLEDGE.md",
+          "faq": "https://github.com/nightly-labs/move-snap/blob/main/FAQ.md"
+        },
+        "sourceCode": "https://github.com/nightly-labs/move-snap",
+        "screenshots": [
+          "./images/@nightlylabs/metamask-move-snap/1.jpg",
+          "./images/@nightlylabs/metamask-move-snap/2.jpg",
+          "./images/@nightlylabs/metamask-move-snap/3.jpg"
+        ]
+      },
+      "versions": {
+        "0.1.6": {
+          "checksum": "d4wrUM/VAKV5r5GWKrKF+oIJ0Xd+o8czolSiT2+GIVk="
         }
       }
     },
@@ -3147,6 +3225,35 @@
         },
         "0.3.4": {
           "checksum": "Yj5GtWV5+Wu6T4cszpsY26qbxA8+S10lbShM2jKYqbo="
+        }
+      }
+    },
+    "npm:@colabs-dev/name-resolver": {
+      "id": "npm:@colabs-dev/name-resolver",
+      "metadata": {
+        "name": "Conft Domains",
+        "author": {
+          "name": "CoLabs",
+          "website": "https://conft.app"
+        },
+        "summary": "Replace cryptic addresses with domain names for easy token transfers in MetaMask.",
+        "description": "coNFT Domain Names Snap integrates coNFT’s domain resolution into MetaMask, enabling users to send tokens to readable domain names rather than cumbersome addresses.\n\n- No more copy-pasting 0x… addresses—simply enter a registered domain like alice.linea or bob.sony.\n- Reduces errors, enhances convenience, and brings user-friendly domain-based transactions right into your MetaMask.\n\nLearn more at conft.app and explore how domain-based transfers can simplify your daily crypto interactions.",
+        "category": "name resolution",
+        "support": {
+          "contact": "mailto:cnftspprt@gmail.com",
+          "faq": "https://docs.google.com/document/d/1ZfXigMXPUPOesCYQpzVfCXhPoBF6uyNLe1A9SaeiFoA/edit?usp=sharing",
+          "knowledgeBase": "https://docs.google.com/document/d/1kBpOoioniHHNKcjZ_JluGqWC5MyHWKtwvSj7_3uj5ps/edit?usp=sharing"
+        },
+        "sourceCode": "https://github.com/Conft-dev/conft-snap",
+        "screenshots": [
+          "./images/@colabs-dev/snap/1.png",
+          "./images/@colabs-dev/snap/2.png",
+          "./images/@colabs-dev/snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.3.6": {
+          "checksum": "cK4lFDwnXVXWPx/Up70KRwOVSXMLfe86aBLSEX9EIJk="
         }
       }
     },
@@ -3321,8 +3428,44 @@
         "sourceCode": "https://github.com/massalabs/metamask-massa"
       },
       "versions": {
-        "1.1.4": {
-          "checksum": "A1Stf73pE5v9KTJZNo875Gspjnps5j/MhRfc6u9d2H0="
+        "1.2.1": {
+          "checksum": "ZP9Nh4+vhw1Lv3ReNrzKUMQfNsK/SRlYXy43C7VyPl4="
+        }
+      }
+    },
+    "npm:@ardata-tech/qubic-wallet": {
+      "id": "npm:@ardata-tech/qubic-wallet",
+      "metadata": {
+        "name": "Qubic Wallet",
+        "author": {
+          "name": "AR Data Technologies",
+          "website": "https://www.ardata.tech"
+        },
+        "website": "https://connect.qubic.org",
+        "summary": "Secure and streamlined gateway to interacting with the Qubic blockchain.",
+        "description": "Qubic Wallet is a powerful and secure interface designed to enable seamless interactions with the Qubic blockchain ecosystem. Whether you're a developer, enterprise, or individual user, Qubic Wallet provides a streamlined gateway for integrating decentralized features into your applications with confidence.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://github.com/ardata-tech/qubic-audit/blob/master/ardata_tech_snap_audit.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://ardata-tech.notion.site/1aefbc8879c7816ca0bcf2127836a712",
+          "faq": "https://ardata-tech.notion.site/Qubic-Connect-FAQs-1affbc8879c78044b387dcea34754e9f",
+          "knowledgeBase": "https://ardata-tech.notion.site/Qubic-Connect-Knowledge-Base-1affbc8879c7802ba998d2388c225b7f"
+        },
+        "sourceCode": "https://github.com/ardata-tech/qubic-wallet",
+        "screenshots": [
+          "./images/@ardata-tech/qubic-wallet/1.png",
+          "./images/@ardata-tech/qubic-wallet/2.png",
+          "./images/@ardata-tech/qubic-wallet/3.png"
+        ]
+      },
+      "versions": {
+        "1.0.7": {
+          "checksum": "CUiQNRISBu/m0w9wZ3lpwkW9jsRaDM1JoH9ptrB1dN0="
         }
       }
     },
@@ -3411,8 +3554,8 @@
         "sourceCode": "https://github.com/0xAskar/themiraclesnap"
       },
       "versions": {
-        "0.1.4": {
-          "checksum": "2b/TZdYkWRxxOwKb/YqYxrtO9TaLn6hb11xeVoZWhoU="
+        "0.1.5": {
+          "checksum": "WcJJDtL+Bu5uhIM09M0wwor4SzVq35nujZQ4ncFtjsg="
         }
       }
     },
@@ -3496,7 +3639,7 @@
           "website": "https://www.sci.domains"
         },
         "website": "https://sci.domains/#snap",
-        "summary": "Secure transactions and interactions across the web3 ecosystem.",
+        "summary": "Secure your transactions and interactions across the web3 ecosystem with MetaMask and the SCI protocol.",
         "description": "We aim to bolster security measures within the web3 ecosystem by establishing an on-chain registry that allows owners to verify which smart contracts should be allowed to interact with their web domains.\n\nSCI's purpose is to verify that websites are interacting with validated and authorized smart contracts minimizing user risks and exploits.\n\nBy installing the MetaMask SCI Snap, when making any interactions through MetaMask, you will be able to easily verify if the underlying transaction is trusted.",
         "category": "transaction insights",
         "support": {
@@ -3512,8 +3655,8 @@
         ]
       },
       "versions": {
-        "0.0.12": {
-          "checksum": "VPuHH7PdnjTdOUezXMi3NQOeHwBMLRmSBMMcwIirHrs="
+        "0.0.14": {
+          "checksum": "PChbGT2/bzUbrx2tvJ91w102n5CQHlXPZO0h49XxnTE="
         }
       }
     },
@@ -3667,7 +3810,6 @@
         },
         "website": "https://nu.fi/metamask/",
         "summary": "Store, buy, manage ADA, tokens, and NFTs, and access DeFi applications on Cardano.",
-        "summary": "Discover the Cardano universe directly from your MetaMask wallet. Seamlessly store, buy, and manage ADA, Cardano tokens, and NFTs, and access a wide range of DeFi applications.",
         "description": "1. After installing the Snap, visit wallet.nu.fi to connect your MetaMask to the extended wallet. \n2. In the dapp directory, you'll find a list of Cardano dapps that support MetaMask. \n3. Enjoy!",
         "audits": [
           {
@@ -4027,11 +4169,11 @@
         ]
       },
       "versions": {
+        "1.1.22": {
+          "checksum": "9qgo0z8k1RKwxB3+B3a24qN3WnpZPFfRq7qpNmvAfAw="
+        },
         "1.1.19": {
           "checksum": "tGF4m1uHjh48/OZrQgxShsjdv5c7YoawcMsy2G1ktKM="
-        },
-        "1.1.13": {
-          "checksum": "cpEn6gQpuf78uzl3iRxeKBEUc/f+Y5Si1opHRKEyi/w="
         }
       }
     },
@@ -4144,6 +4286,9 @@
         "hidden": true
       },
       "versions": {
+        "2.4.0": {
+          "checksum": "I+kz7pvB5o7oyC/2z5LnURYG7TrTHR9+oWueIcsuDyA="
+        },
         "2.3.0": {
           "checksum": "1sEjG59gm8iGvsIT9oa2WLRjcr7XQz5k6gkNXjBvuPg="
         },
@@ -4189,7 +4334,7 @@
         },
         "website": "https://voyager-snap.linea.build/",
         "summary": "Track your collected Linea XP, POH status, and current activations.",
-        "description": "The Linea Voyager Snap allows you to view your collected Linea XP, Linea XP-L, POH status, Linea ENS domain, and current Linea Voyage activations from within MetaMask.\n\nAfter installing the Snap, visit the companion dapp: https://voyager-snap.linea.build/ to connect or watch the account you use on Linea. Then, click on Linea Voyager from the Snaps menu in MetaMask to open the Snap homepage and view your data.\n\nSee our support guide for additional information: https://support.linea.build/linea-voyage/voyager-snap",
+        "description": "The Linea Voyager Snap allows you to view your collected Linea XP, Linea XP-L, POH status, and Linea ENS domain from within MetaMask.\n\nAfter installing the Snap, visit the companion dapp: https://voyager-snap.linea.build/ to connect or watch the account you use on Linea. Then, click on Linea Voyager from the Snaps menu in MetaMask to open the Snap homepage and view your data.\n\nSee our support guide for additional information: https://support.linea.build/linea-voyage/voyager-snap",
         "category": "interoperability",
         "support": {
           "contact": "https://discord.com/invite/linea"
@@ -4202,8 +4347,8 @@
         ]
       },
       "versions": {
-        "0.9.1": {
-          "checksum": "Ih2eqTo1AaFFuNsxQ6h8iQmd9Yr2jf9VbvtvrtS5nQo="
+        "0.9.2": {
+          "checksum": "Z/0zndw7YUWTbYPSZKvG8RaHuA9wLwRe4Zpder6LC24="
         }
       }
     },
@@ -4291,6 +4436,35 @@
       "versions": {
         "0.0.6": {
           "checksum": "qFquENdgWP6N7pRTHMcLDx0Geyljy8WFMzXycHTs2+o="
+        }
+      }
+    },
+    "npm:@snowballmoney/metamask-snap": {
+      "id": "npm:@snowballmoney/metamask-snap",
+      "metadata": {
+        "name": "Modular Naming Service",
+        "author": {
+          "name": "Snowball Money",
+          "website": "https://www.snowball.money/"
+        },
+        "summary": "Easily send and receive assets in MetaMask using MNS names—no more copying long addresses.",
+        "description": "With MNS Snap, users can replace long wallet addresses with easy-to-remember identity names, enhancing transactions and the overall user experience.\n\nTo start using MNS Snap, claim your MNS identity on modular.name, install the MNS Snap from the MetaMask Snaps Directory, and enjoy the convenience of sending and receiving assets effortlessly in MetaMask.\n\nExperience a more intuitive way to manage your digital identity in the decentralized ecosystem with MNS Snap!",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://discord.com/invite/jW4GzbdNBm",
+          "faq": "https://snowball-5.gitbook.io/snowball/modular-naming-service-mns/metamask-snaps/faq",
+          "knowledgeBase": "https://snowball-5.gitbook.io/snowball/modular-naming-service-mns/metamask-snaps/knowledge-base"
+        },
+        "sourceCode": "https://github.com/snowballmoney/metamask-snap",
+        "screenshots": [
+          "./images/@snowballmoney/metamask-snap/1.png",
+          "./images/@snowballmoney/metamask-snap/2.png",
+          "./images/@snowballmoney/metamask-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.4": {
+          "checksum": "R5hh+xSP/4CQl0vKIKDuoJRMG9j+6Gr83LEkkSQgwCs="
         }
       }
     },
@@ -4494,6 +4668,35 @@
         }
       }
     },
+    "npm:zns-connect": {
+      "id": "npm:zns-connect",
+      "metadata": {
+        "name": "ZNS Connect Name Service",
+        "author": {
+          "name": "ZNS Connect Name Service",
+          "website": "https://www.znsconnect.io"
+        },
+        "summary": "Resolve ZNS domains like .honey, .hvm, .ink, .poly, and more directly in your wallet across multiple networks.",
+        "description": "ZNS Connect is a powerful MetaMask Snap that brings (ZNS) domain resolution directly to your wallet.\n\nKey Features:\n- Resolve ZNS domains across multiple networks (Polygon, BSC, Ethereum)\n- Support for multiple TLDs including .honey, .cz, and .ink\n- Direct wallet integration for seamless domain resolution\n- Real-time domain validation and checking\n\nHow to Use:\n1. Install the Snap through MetaMask\n2. Enter any ZNS domain (example: mydomain.poly)\n3. Get instant resolution to the corresponding wallet address\n\nThis Snap simplifies blockchain domain resolution by eliminating the need for external resolvers or websites. Perfect for developers, crypto enthusiasts, and anyone working with ZNS domains.",
+        "category": "name resolution",
+        "support": {
+          "contact": "mailto:info@znsconnect.io",
+          "faq": "https://docs.znsconnect.io/user-guide/zns-on-metamask-snap/general-faq",
+          "knowledgeBase": "https://docs.znsconnect.io/user-guide/zns-on-metamask-snap/knowledge-base"
+        },
+        "sourceCode": "https://github.com/xinkin/znsConnect",
+        "screenshots": [
+          "./images/zns-connect/1.png",
+          "./images/zns-connect/2.png",
+          "./images/zns-connect/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.7": {
+          "checksum": "Wr3nvnhYmtLBRj8WUOw9uHVSEPgER0MycY75N9eE+ZM="
+        }
+      }
+    },
     "npm:freename-resolution-snap": {
       "id": "npm:freename-resolution-snap",
       "metadata": {
@@ -4518,8 +4721,31 @@
         ]
       },
       "versions": {
-        "1.0.5": {
-          "checksum": "q9c0f1XF7v6FSvQ9UPwnBnVOEsXq7eQ1ih5jFN/8QCA="
+        "1.0.6": {
+          "checksum": "U/l83hOSMVwBr4Y9AD76Nlm1fNM5s3wNwiyce75IR1Q="
+        }
+      }
+    },
+    "npm:hln-resolver-snap": {
+      "id": "npm:hln-resolver-snap",
+      "metadata": {
+        "name": "Hyperliquid Names",
+        "author": {
+          "name": "Hyperliquid Names",
+          "website": "https://hlnames.xyz/"
+        },
+        "summary": "Resolve your .hl name on HyperEVM.",
+        "description": "Hyperliquid Names lets users seamlessly use .hl names in place of wallet addresses on HyperEVM. Users can simply type a .hl name in the address field, and the snap will automatically resolve it to the correct wallet address. This snap only runs on HyperEVM (chainId 999) and .hl TLDs.",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://discord.gg/9bTeZgE8E3",
+          "knowledgeBase": "https://hyperliquid-names.gitbook.io/hyperliquid-names/hyperliquid-names-on-metamask"
+        },
+        "sourceCode": "https://github.com/HLnames/hln-resolver-snap"
+      },
+      "versions": {
+        "0.1.3": {
+          "checksum": "OVipIcwmpfxMZrcAaWvjp8ODPE7u5sURjJXNibFS694="
         }
       }
     },
@@ -4669,8 +4895,8 @@
         ]
       },
       "versions": {
-        "1.0.0": {
-          "checksum": "1d/Fj818HBPbRMC8yn+wVbvTFmpMZ7J6+Tq8+Qr7Rws="
+        "1.0.2": {
+          "checksum": "b6j5wDNI9bb6YNxBeIx7GDhFf8B5DRVILuB/E4xXZFE="
         }
       }
     },
@@ -4715,6 +4941,76 @@
         },
         "3.1.1": {
           "checksum": "xk7O5itVsuV3Dfldq3rI3WgggHa3z7HX7e17jzheE8w="
+        }
+      }
+    },
+    "npm:@celestials-id/celestials-snap": {
+      "id": "npm:@celestials-id/celestials-snap",
+      "metadata": {
+        "name": "Celestials",
+        "author": {
+          "name": "Celestials",
+          "website": "https://celestials.id/"
+        },
+        "summary": "Celestials.id resolver for Metamask",
+        "description": "Adds support for verified Celestials \".i\" names to MetaMask.\n\nWhen sending in MetaMask, simply type a Celestials ID like ‘celestials.i’ to automatically resolve it to the linked address on your selected network.\nUse your Celestials ID across different protocols, verify your accounts for airdrops, and easily manage your tokens across all supported networks.",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://discord.gg/celestials",
+          "faq": "https://api.celestials.id/scalar",
+          "knowledgeBase": "https://api.celestials.id/scalar"
+        },
+        "sourceCode": "https://github.com/celestials-id/celestials-snap",
+        "screenshots": [
+          "./images/@celestials/celestials-snap/1.png",
+          "./images/@celestials/celestials-snap/2.png",
+          "./images/@celestials/celestials-snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.0.2": {
+          "checksum": "eqJzfrja04/LPK8lI+7dAlEzAEB/d8DpxGPf2aOwUi0="
+        }
+      }
+    },
+    "npm:@metamask/protocol-example-snap": {
+      "id": "npm:@metamask/protocol-example-snap",
+      "metadata": {
+        "name": "Protocol Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "5mGoGgmZ7RhyLQ+aNzd/H2qhQTkiirztWm399vqxPUw="
+        }
+      }
+    },
+    "npm:getheminames_resolver": {
+      "id": "npm:getheminames_resolver",
+      "metadata": {
+        "name": "getHemiNames Resolver",
+        "author": {
+          "name": "getHemiNames Resolver",
+          "website": "https://unstoppabledomains.com/"
+        },
+        "summary": "Simplify crypto transactions by replacing long wallet addresses with easy-to-read HemiNames for seamless sending and receiving.",
+        "description": "Simplify your cryptocurrency experience with HemiNames, the innovative solution that transforms complex blockchain interactions into user-friendly experiences. HemiNames replaces those intimidating, error-prone 42-character wallet addresses with intuitive, memorable .hemi domains that anyone can easily read, type, and share. This revolutionary naming system allows for seamless sending and receiving of digital assets across the cryptocurrency ecosystem, eliminating the anxiety of potential address errors that could result in lost funds.\n\nBy simply installing the MetaMask Snap, you'll instantly enable .hemi name resolution within your existing send flow, creating a frictionless transaction experience without changing your familiar workflow. HemiNames bridges the gap between technical blockchain complexity and everyday usability, making cryptocurrency accessible to everyone from seasoned traders to complete newcomers.",
+        "category": "name resolution",
+        "support": {
+          "knowledgeBase": "https://explorer.hemi.xyz/",
+          "faq": "https://discord.com/invite/hemixyz",
+          "contact": "https://discord.com/invite/hemixyz"
+        },
+        "sourceCode": "https://github.com/getHemiNames/getHemiNames-resolution-snap",
+        "screenshots": [
+          "./images/getheminames/1.png",
+          "./images/getheminames/2.png",
+          "./images/getheminames/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.3": {
+          "checksum": "qGq6KkKi1lDzr00zoIN4GgDc8CHYsjUhMzaYtY0bKcQ="
         }
       }
     }
