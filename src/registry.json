@@ -3616,7 +3616,7 @@
           "website": "https://www.sci.domains"
         },
         "website": "https://sci.domains/#snap",
-        "summary": "Secure transactions and interactions across the web3 ecosystem.",
+        "summary": "Secure your transactions and interactions across the web3 ecosystem with MetaMask and the SCI protocol.",
         "description": "We aim to bolster security measures within the web3 ecosystem by establishing an on-chain registry that allows owners to verify which smart contracts should be allowed to interact with their web domains.\n\nSCI's purpose is to verify that websites are interacting with validated and authorized smart contracts minimizing user risks and exploits.\n\nBy installing the MetaMask SCI Snap, when making any interactions through MetaMask, you will be able to easily verify if the underlying transaction is trusted.",
         "category": "transaction insights",
         "support": {
@@ -3632,8 +3632,8 @@
         ]
       },
       "versions": {
-        "0.0.12": {
-          "checksum": "VPuHH7PdnjTdOUezXMi3NQOeHwBMLRmSBMMcwIirHrs="
+        "0.0.14": {
+          "checksum": "PChbGT2/bzUbrx2tvJ91w102n5CQHlXPZO0h49XxnTE="
         }
       }
     },
