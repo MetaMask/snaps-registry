@@ -4952,6 +4952,7 @@
           "name": "Celestials",
           "website": "https://celestials.id/"
         },
+        "website": "https://celestials.id/snap",
         "summary": "Celestials.id resolver for Metamask",
         "description": "Adds support for verified Celestials \".i\" names to MetaMask.\n\nWhen sending in MetaMask, simply type a Celestials ID like ‘celestials.i’ to automatically resolve it to the linked address on your selected network.\nUse your Celestials ID across different protocols, verify your accounts for airdrops, and easily manage your tokens across all supported networks.",
         "category": "name resolution",
