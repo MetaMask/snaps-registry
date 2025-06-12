@@ -4958,8 +4958,7 @@
         "category": "name resolution",
         "support": {
           "contact": "https://discord.gg/celestials",
-          "faq": "https://api.celestials.id/scalar",
-          "knowledgeBase": "https://api.celestials.id/scalar"
+          "faq": "https://celestials.id/snap#faq"
         },
         "sourceCode": "https://github.com/celestials-id/celestials-snap",
         "screenshots": [
