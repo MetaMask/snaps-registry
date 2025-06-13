@@ -5020,6 +5020,31 @@
         }
       }
     },
+    "npm:dmail-snap": {
+      "id": "npm:dmail-snap",
+      "metadata": {
+        "name": "Dmail",
+        "author": {
+          "name": "Dmail",
+          "website": "https://dmail.ai/"
+        },
+        "website": "https://dmail.ai/",
+        "summary": "You can receive e-mail notifications from the Dmail network in MetaMask.",
+        "description": "Users in Metamask can receive email alerts and notifications from the Dmail network right in their wallet interface after installing the Dmail Snap.\n\nOnce connected successfully, users will be notified of any new emails sent to their wallet address through the Dmail decentralized email system.\n\nThe notifications can be viewed directly within MetaMask, providing a seamless experience for managing both transactions and decentralized communications in one place.\n\nThis integration brings email functionality natively into MetaMask, making it easier to stay updated on Dmail messages without needing to constantly check the Dmail dApp interface.",
+        "category": "notifications",
+        "support": {
+          "knowledgeBase": "https://dmailnetwork.gitbook.io/dmail-network",
+          "faq": "https://t.me/dmailofficial",
+          "contact": "mailto:contact@mail.dmail.ai"
+        },
+        "sourceCode": "https://github.com/dmail-core/snap"
+      },
+      "versions": {
+        "0.1.6": {
+          "checksum": "pzKVgqs6yZsanDpAUH8zITn1Yk2+XEAfFfmwYsFnKr4="
+        }
+      }
+    },
     "npm:@metamask/cronjob-duration-example-snap": {
       "id": "npm:@metamask/cronjob-duration-example-snap",
       "metadata": {
