@@ -5037,7 +5037,12 @@
           "faq": "https://t.me/dmailofficial",
           "contact": "mailto:contact@mail.dmail.ai"
         },
-        "sourceCode": "https://github.com/dmail-core/snap"
+        "sourceCode": "https://github.com/dmail-core/snap",
+        "screenshots": [
+          "./images/dmail-snap/1.jpg",
+          "./images/dmail-snap/2.jpg",
+          "./images/dmail-snap/3.jpg"
+        ]
       },
       "versions": {
         "0.1.6": {
