@@ -5061,6 +5061,42 @@
           "checksum": "vzzpBIX/vOKbSw6x8JXHzMMeBe8lpOhaZi0KSZk9uOY="
         }
       }
+    },
+    "npm:@chainsafe/webzjs-zcash-snap": {
+      "id": "npm:@chainsafe/webzjs-zcash-snap",
+      "metadata": {
+        "name": "WebZjs Snap",
+        "author": {
+          "name": "WebZjs Snap",
+          "website": "https://webzjs.chainsafe.dev/"
+        },
+        "website": "https://webzjs.chainsafe.dev/",
+        "summary": "WebZjs Zcash Snap is a MetaMask Snap that brings Zcash functionality directly into the MetaMask browser extension. WebZjs is the first JavaScript SDK for Zcash, enabling seamless integration of Zcash privacy features for web users.",
+        "description": "WebZjs Zcash Snap is a MetaMask Snap that integrates full Zcash functionality directly into the MetaMask browser extension. It leverages the WebZjs JavaScript SDK to provide native support for Zcash’s privacy-preserving features in a web environment.\n\nKey features:\n\n- Native support for Zcash’s PCZT transactions\n\n- Secure in-browser syncing with the Zcash blockchain using a gRPC-web lightwallet proxy\n\n- Utilizes WebZjs, the first JavaScript SDK for Zcash, optimized for browser environments\n\nWebZjs uses the Zcash Snap for secure key handling",
+        "audits": [
+          {
+            "auditor": "Hacken",
+            "report": "https://audits.hacken.io/zcash/dapp-zcash-snap-may2025/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://github.com/ChainSafe/WebZjs/tree/main/packages/snap",
+          "faq": "mailto:info@chainsafe.io",
+          "contact": "mailto:colin@chainsafe.io"
+        },
+        "sourceCode": "https://github.com/ChainSafe/WebZjs/tree/main/packages/snap",
+        "screenshots": [
+          "./images/@chainsafe/webzjs-zcash-snap/1.png",
+          "./images/@chainsafe/webzjs-zcash-snap/2.png",
+          "./images/@chainsafe/webzjs-zcash-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.2.3": {
+          "checksum": "2cQaKNl4ouKN6+2be59JvbwHzwD0o6WGYIoui+3miYM="
+        }
+      }
     }
   },
   "blockedSnaps": [
