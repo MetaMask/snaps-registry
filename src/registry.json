@@ -4976,6 +4976,9 @@
       "versions": {
         "1.0.2": {
           "checksum": "eqJzfrja04/LPK8lI+7dAlEzAEB/d8DpxGPf2aOwUi0="
+        },
+        "1.1.0": {
+          "checksum": "QXtzKPW4okQlE1ZX6OgBk+CorzxCXvs5sCRn+UQeDOg="
         }
       }
     },
