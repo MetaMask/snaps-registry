@@ -5065,9 +5065,9 @@
     "npm:@chainsafe/webzjs-zcash-snap": {
       "id": "npm:@chainsafe/webzjs-zcash-snap",
       "metadata": {
-        "name": "WebZjs Snap",
+        "name": "Zcash Shielded Wallet",
         "author": {
-          "name": "WebZjs Snap",
+          "name": "ChainSafe",
           "website": "https://webzjs.chainsafe.dev/"
         },
         "website": "https://webzjs.chainsafe.dev/",
