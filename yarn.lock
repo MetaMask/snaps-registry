@@ -1288,7 +1288,7 @@ __metadata:
     "@metamask/eslint-config-nodejs": ^12.1.0
     "@metamask/eslint-config-typescript": ^12.1.0
     "@metamask/snaps-controllers": ^13.1.0
-    "@metamask/snaps-sdk": ^8.1.0
+    "@metamask/snaps-sdk": ^9.0.0
     "@metamask/snaps-utils": ^10.1.0
     "@metamask/superstruct": ^3.2.1
     "@metamask/utils": ^11.4.0
@@ -1347,6 +1347,19 @@ __metadata:
     "@metamask/superstruct": ^3.2.1
     "@metamask/utils": ^11.4.0
   checksum: 2bddc6ce2a2cc52cb9e29299c8f943ca371cb711580f17036b6cecd0fb48c7ae4497ead547a2c9febd21fa430b55cfd3dc71863bfc35845b40bbf18ab4bd0290
+  languageName: node
+  linkType: hard
+
+"@metamask/snaps-sdk@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "@metamask/snaps-sdk@npm:9.0.0"
+  dependencies:
+    "@metamask/key-tree": ^10.1.1
+    "@metamask/providers": ^22.1.0
+    "@metamask/rpc-errors": ^7.0.2
+    "@metamask/superstruct": ^3.2.1
+    "@metamask/utils": ^11.4.0
+  checksum: b9031414f3ad1f3a7e9c9fb16731f01016bfcd9206f97d6594a78a35a71118c391991a1f73553480de313c31e95bcb8762c998055d7f62a1f86769153ae5e496
   languageName: node
   linkType: hard
 
