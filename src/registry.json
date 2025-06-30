@@ -5068,9 +5068,9 @@
     "npm:@chainsafe/webzjs-zcash-snap": {
       "id": "npm:@chainsafe/webzjs-zcash-snap",
       "metadata": {
-        "name": "WebZjs Snap",
+        "name": "Zcash Shielded Wallet",
         "author": {
-          "name": "WebZjs Snap",
+          "name": "ChainSafe",
           "website": "https://webzjs.chainsafe.dev/"
         },
         "website": "https://webzjs.chainsafe.dev/",
@@ -5096,8 +5096,8 @@
         ]
       },
       "versions": {
-        "0.2.3": {
-          "checksum": "2cQaKNl4ouKN6+2be59JvbwHzwD0o6WGYIoui+3miYM="
+        "0.2.4": {
+          "checksum": "xO5sXGTa5PxZf1GG33xhD0ep5PLontAmeamjM3h+YFA="
         }
       }
     }
