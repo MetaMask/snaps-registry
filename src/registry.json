@@ -3260,6 +3260,9 @@
       "versions": {
         "0.3.6": {
           "checksum": "cK4lFDwnXVXWPx/Up70KRwOVSXMLfe86aBLSEX9EIJk="
+        },
+        "0.3.7": {
+          "checksum": "PAe6xX5jfqaxtRw8/tTxEDkB6lj9FcW2Z/DCttgix7U="
         }
       }
     },
