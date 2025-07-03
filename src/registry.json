@@ -5103,6 +5103,42 @@
           "checksum": "xO5sXGTa5PxZf1GG33xhD0ep5PLontAmeamjM3h+YFA="
         }
       }
+    },
+    "npm:@thewarp/xrpl-snap": {
+      "id": "npm:@thewarp/xrpl-snap",
+      "metadata": {
+        "name": "The Warp",
+        "author": {
+          "name": "The Warp",
+          "website": "https://app.thewarp.ai/"
+        },
+        "website": "https://app.thewarp.ai/",
+        "summary": "The Warp is a Post Fiat community project unlocking Post Fiat node interaction on the XRP Ledger right in your desktop browser.",
+        "description": "The Warp is a community-driven initiative within the Post Fiat ecosystem designed to enable seamless interaction with Post Fiat nodes directly from your desktop browser.\n\nBuilt for accessibility and performance, The Warp brings native support for the XRP Ledger (XRPL), allowing users to manage wallets, sign transactions, and engage with Post Fiat nodes via memo transactions—all without needing to install third-party software or rely on centralized intermediaries.\n\nBy bridging XRPL’s low-latency infrastructure with Post Fiat’s high-agency coordination layer, The Warp empowers individuals to participate in a decentralized internet where trust, identity, and value flow frictionlessly.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-thewarp/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://thewarp.ai/#features",
+          "faq": "https://thewarp.ai/#faq",
+          "contact": "mailto:contact@thewarp.ai"
+        },
+        "sourceCode": "https://github.com/prometheus88/the-warp",
+        "screenshots": [
+          "./images/@thewarp/xrpl-snap/1.png",
+          "./images/@thewarp/xrpl-snap/2.png",
+          "./images/@thewarp/xrpl-snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.0.16": {
+          "checksum": "cRk96D74C0wu7AoIrCo3aSqWq04QAd5+SMvXEP7jG/8="
+        }
+      }
     }
   },
   "blockedSnaps": [
