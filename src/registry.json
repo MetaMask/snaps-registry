@@ -5083,7 +5083,7 @@
       "metadata": {
         "name": "Kadena",
         "author": {
-          "name": "Kadena",
+          "name": "Mindsend",
           "website": "https://snak.mindsend.xyz"
         },
         "website": "https://snak.mindsend.xyz",
@@ -5103,9 +5103,9 @@
         },
         "sourceCode": "https://github.com/mindsend-datatech/kadena-snap",
         "screenshots": [
-          "./images/@kadena/snap/1.png",
-          "./images/@kadena/snap/2.png",
-          "./images/@kadena/snap/3.png"
+          "./images/@mindsend/kadena-snap/1.png",
+          "./images/@mindsend/kadena-snap/2.png",
+          "./images/@mindsend/kadena-snap/3.png"
         ]
       },
       "versions": {
