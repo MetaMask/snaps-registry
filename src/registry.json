@@ -2433,11 +2433,11 @@
         ]
       },
       "versions": {
+        "4.0.0": {
+          "checksum": "8VhnbqdQCpJ8FAvohRrnPYk1J95H/IyG44Cj0k8i51Y="
+        },
         "3.4.0": {
           "checksum": "FE3fMKA3GZYvw4a2OeCZOKkuOd0oe3zfGUeRukIwjYs="
-        },
-        "3.3.0": {
-          "checksum": "5pDaRBLXqhCauJt6gYW6OY1bsVMNmFwUpo5X4enIrls="
         },
         "3.1.0-staging": {
           "checksum": "FqZpSPhTq0xZ1ak13RTeavyaiDXLeS1pe7F/65wUPTo="
@@ -2762,8 +2762,8 @@
         ]
       },
       "versions": {
-        "0.8.1": {
-          "checksum": "Ju0S/uUo1OKd1xvFzBeGRU8i9H7kEb5VkQsbMlVNOHI="
+        "0.9.1": {
+          "checksum": "7668ZwlcG4/X7WBaTRZYmUJFOoewItCkShKhoaeo38o="
         }
       }
     },
@@ -4181,6 +4181,9 @@
         ]
       },
       "versions": {
+        "1.1.26": {
+          "checksum": "RtZsNLxOwozfqKyiaiWPeKxZX47G0a6VHiHUUxd2y/0="
+        },
         "1.1.22": {
           "checksum": "9qgo0z8k1RKwxB3+B3a24qN3WnpZPFfRq7qpNmvAfAw="
         },
