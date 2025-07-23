@@ -5115,6 +5115,37 @@
           "checksum": "xO5sXGTa5PxZf1GG33xhD0ep5PLontAmeamjM3h+YFA="
         }
       }
+    },
+    "npm:quai-snap": {
+      "id": "npm:quai-snap",
+      "metadata": {
+        "name": "Quai Wallet",
+        "author": {
+          "name": "Dominant Strategies",
+          "website": "https://dominantstrategies.io/"
+        },
+        "website": "https://dominantstrategies.io/",
+        "summary": "The Quai Wallet snap allows Metamask users to send and receive QUAI tokens on Quai mainnet. It will also enable Quai dApps to interact with Metamask users who have the snap installed.",
+        "description": "Quai Wallet is a snap that allows Metamask users to interact with Quai Network mainnet. After installation, the wallet can be accessed as follows: \n- Open the Metamask extension. \n- Click the three dashed lines at the top right of the Metamask window.\n- Click on Snaps in the dropdown list. \n- Click on Quai Wallet in the list. If you do not see Quai Wallet in the list, ensure you have installed the snap from the Snaps Directory (https://snaps.metamask.io) \n- Wait for the snap to generate you a Quai wallet. This will take a few seconds. \n- There is no need to write down a seed phrase because the wallet is generated from your Metamask keys. That means that as long as you have your Metamask keys, you will always generate the same Quai address when you install the Quai Wallet Snap. \n- With the wallet, you can send QUAI tokens and receive QUAI tokens to your address. You will be able to interact with Quai dApps when support for those dApps is added. \n",
+        "audits": [
+          {
+            "auditor": "Hacken",
+            "report": "https://drive.google.com/file/d/1qnQDt0D_zPyRwhAkDvO72_yVSB2reZt1/view?usp=sharing"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "http://docs.qu.ai/guides/wallet/metamask-snap",
+          "faq": "http://docs.qu.ai/guides/wallet/metamask-snap",
+          "contact": "https://discord.gg/quai"
+        },
+        "sourceCode": "https://github.com/dominant-strategies/quai-snap"
+      },
+      "versions": {
+        "0.1.7": {
+          "checksum": "1LGJpubQykoIdbPwBg/0uJt5qCgSauCKf6MHYH0nxhI="
+        }
+      }
     }
   },
   "blockedSnaps": [
