@@ -1461,6 +1461,9 @@
         },
         "2.2.0": {
           "checksum": "5tlM5E71Fbeid7I3F0oQURWL7/+0620wplybtklBCHQ="
+        },
+        "2.3.0": {
+          "checksum": "s2CUQ+L8GuVTLahEgApRNp8gEdH3Fv7TAvu+9+Mmx54="
         }
       }
     },
@@ -2830,6 +2833,9 @@
         ]
       },
       "versions": {
+        "0.8.5": {
+          "checksum": "Qf2AILs2sOJggiV2xWdLfEuS/wkyaY/YeysZ6bqAMf0="
+        },
         "0.8.4": {
           "checksum": "SoaG/3rijtC5asZQ1O2CIscHJ2Eqb9kW4wIqEAhUue8="
         },

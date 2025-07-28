@@ -1,6 +1,6 @@
 # Lines starting with '#' are comments.
 # Each line is a file pattern followed by one or more owners.
 
-*                                    @MetaMask/snaps-devs
-src/images/*                         @MetaMask/snaps-devs @Montoya
-src/registry.json                    @MetaMask/snaps-devs @Montoya
+*                                    @MetaMask/core-platform
+src/images/*                         @MetaMask/core-platform @Montoya
+src/registry.json                    @MetaMask/core-platform @Montoya
