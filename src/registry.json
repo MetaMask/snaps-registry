@@ -5151,6 +5151,37 @@
       }
     }
   },
+  "npm:@bitfinding/unblind-second-factor-snap": {
+    "id": "npm:@bitfinding/unblind-second-factor-snap",
+    "metadata": {
+      "name": "Unblind Second Factor",
+      "author": {
+        "name": "Bitfinding",
+        "website": "https://bitfinding.com/"
+      },
+      "website": "https://unblind.app/",
+      "summary": "Get Telegram notifications with human-readable information of what you are about to sign.",
+      "description": "This snap sends human-readable transaction summaries to your Telegram before you sign.\nIt simulates each transaction and delivers a plain-English summary to your account. This lets you clearly see asset movements and contract interactions, helping you spot potential risks like wallet drainers or unexpected token transfers.\n\nHow to Use:\n\n1.  Install the Snap and connect it to your Telegram account.\n2.  When you start a transaction, a summary will appear in your Telegram chat.\n3.  Review the details, then confirm the transaction in MetaMask.\n\nSecurity & Privacy:\n\nThe snap has read-only access to transaction data to generate explanations. It cannot access your private keys, sign transactions, or modify your assets.\n",
+      "audits": [],
+      "category": "transaction insights",
+      "support": {
+        "knowledgeBase": "https://unblind.app",
+        "faq": "https://unblind.app",
+        "contact": "hello@bitfinding.com"
+      },
+      "sourceCode": "https://github.com/BitFinding/unblind-second-factor-snap",
+      "screenshots": [
+        "./images/@bitfinding/unblind-second-factor/1.png",
+        "./images/@bitfinding/unblind-second-factor/2.png",
+        "./images/@bitfinding/unblind-second-factor/3.png"
+      ]
+    },
+    "versions": {
+      "0.3.0": {
+        "checksum": "TFShtGXesoy/yC1unUADT5KCt6jSwXG8wwXskWC0tZ4="
+      }
+    }
+  },
   "blockedSnaps": [
     {
       "id": "npm:@consensys/starknet-snap",
