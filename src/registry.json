@@ -2271,41 +2271,6 @@
         }
       }
     },
-    "npm:@kadena/snap": {
-      "id": "npm:@kadena/snap",
-      "metadata": {
-        "name": "Kadena",
-        "author": {
-          "name": "Kadena",
-          "website": "https://www.kadena.io/"
-        },
-        "website": "https://metamask.kadena.io/",
-        "summary": "Securely send and receive KDA across all 20 Kadena chains with your MetaMask wallet.",
-        "description": "The Kadena Snap allows interaction with the Kadena blockchain via MetaMask, enabling users to manage Kadena accounts and sign transactions from the familiarity of their MetaMask wallet.\n\nCross-chain transfers allow users to seamlessly move their $KDA tokens across Kadena’s multi-chains. Learn more about Kadena’s multi-chain architecture: https://www.kadena.io/chainweb.\nLedger support enables users to use their Ledger hardware wallet for additional security.\n\nAfter installing the Kadena Snap, visit https://metamask.kadena.io to start using your MetaMask wallet with Kadena.",
-        "audits": [
-          {
-            "auditor": "Veridise",
-            "report": "https://veridise.com/wp-content/uploads/2024/10/VAR_Kadena_240909_kadena_snap_V3.pdf"
-          }
-        ],
-        "support": {
-          "knowledgeBase": "https://kadenateam.notion.site/Kadena-Metamask-Snap-10ee868b6878805bb2a8e28be2f49c7e?pvs=4",
-          "faq": "https://www.notion.so/kadenateam/FAQ-s-10ee868b687880648aade19ac7135f39",
-          "contact": "https://discord.com/channels/502858632178958377/631965054778212362"
-        },
-        "sourceCode": "https://github.com/kadena-community/kadena.js/tree/main/packages/libs/snap",
-        "screenshots": [
-          "./images/@kadena/snap/1.png",
-          "./images/@kadena/snap/2.png",
-          "./images/@kadena/snap/3.png"
-        ]
-      },
-      "versions": {
-        "1.0.3": {
-          "checksum": "sVG18jeqBlhj+LgGEJr2w+tQmSPSxXUXp2Gy3cYNu5o="
-        }
-      }
-    },
     "npm:@xrpname/snap": {
       "id": "npm:@xrpname/snap",
       "metadata": {
@@ -5147,6 +5112,42 @@
       "versions": {
         "0.1.7": {
           "checksum": "1LGJpubQykoIdbPwBg/0uJt5qCgSauCKf6MHYH0nxhI="
+        }
+      }
+    },
+    "npm:@mindsend/kadena-snap": {
+      "id": "npm:@mindsend/kadena-snap",
+      "metadata": {
+        "name": "Kadena",
+        "author": {
+          "name": "Mindsend",
+          "website": "https://snak.mindsend.xyz"
+        },
+        "website": "https://snak.mindsend.xyz",
+        "summary": "Securely send and receive KDA with your MetaMask wallet",
+        "description": "The Kadena Snap enables interaction with the Kadena blockchain via MetaMask, allowing users to manage Kadena accounts and sign transactions from the familiarity of their MetaMask wallet.\n Cross-chain transfers allow users to seamlessly move their KDA tokens across Kadena’s multi-chains. Learn more about Kadena’s multi-chain architecture: https://www.kadena.io/chainweb.\nLedger support enables users to use their Ledger hardware wallet for additional security.\nAfter installing the Kadena Snap, visit https://snak.mindsend.xyz/ to start using your MetaMask wallet with Kadena.\nThe snaK browser wallet supports:\n - Creating and managing Kadena accounts\n - Signing and sending KDA transactions\n - Switching between networks (mainnet/testnet/custom)\n - Using hardware wallets like Ledger\nFully documented and packaged as an npm Snap.\nSee https://docs.snak.mindsend.xyz for usage.",
+        "audits": [
+          {
+            "auditor": "Veridise",
+            "report": "https://veridise.com/wp-content/uploads/2024/10/VAR_Kadena_240909_kadena_snap_V3.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.com/invite/zBAuJcu3eC",
+          "faq": "https://docs.snak.mindsend.xyz/faqs.html",
+          "knowledgeBase": "https://docs.snak.mindsend.xyz/"
+        },
+        "sourceCode": "https://github.com/mindsend-datatech/kadena-snap",
+        "screenshots": [
+          "./images/@mindsend/kadena-snap/1.png",
+          "./images/@mindsend/kadena-snap/2.png",
+          "./images/@mindsend/kadena-snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.0.7": {
+          "checksum": "cJcquQhDsvEpUc7EvHSwJ4UHMeqpiuJ7JO+G2pNu85w="
         }
       }
     }
