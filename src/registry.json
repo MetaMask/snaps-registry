@@ -1637,7 +1637,6 @@
             "report": "https://consensys.io/diligence/audits/2023/08/solflare-metamask-snaps-solflare-sui-aptos/"
           }
         ],
-        "category": "interoperability",
         "support": {
           "contact": "https://academy.solflare.com/guides",
           "faq": "https://solflare.com/metamask"
@@ -2023,7 +2022,6 @@
             "report": "https://ottersec.notion.site/Drift-Snap-8575cd9031ae466d87d3b6a1c0afa028"
           }
         ],
-        "category": "interoperability",
         "support": {
           "contact": "https://discord.com/invite/fMcZBH8ErM"
         },
