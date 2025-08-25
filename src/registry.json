@@ -5198,6 +5198,29 @@
           "checksum": "wZmm7zb+sGEEet9C4XHHVlRDA1pym4CLBH+V1bege6M="
         }
       }
+    },
+    "npm:know-your-transaction": {
+      "id": "npm:know-your-transaction",
+      "metadata": {
+        "name": "Know Your Transaction",
+        "author": {
+          "name": "bitsCrunch",
+          "website": "https://bitscrunch.com/"
+        },
+        "summary": "Real-time transaction scores and summaries powered by AI",
+        "description": "Stay Safe with Every Transaction\n\nThe KYT MetaMask Snap by bitsCrunch brings Know Your Transaction (KYT) protection directly to your MetaMask wallet. With real time transaction scores and summaries, our AI-powered Snap helps shield you from phishing, scams, and other malicious on-chain activities.\n\nHow It Protects You\n\nThe bitsCrunch KYT Snap uses advanced AI algorithms to flag:\n\n- Wallets involved in illicit or suspicious activities.\n- Smart contracts with wallet-draining functionality.\n- Duplicate or counterfeit tokens mimicking legitimate assets.\n- Token approvals that could potentially drain your funds.\n\nHow It Works\n\nOur AI analyzes historical address activity such as transaction volume, nature of interactions, and asset holdings to assign a transaction score and generate a concise summary inside your MetaMask wallet. This helps you quickly identify malicious or high-risk addresses before you proceed.\n\nHow to Use\n\n- Install the bitsCrunch Snap for MetaMask.\n- When making a transaction, open the bitsCrunch tab inside your MetaMask wallet.\n- Review the transaction score and summary before confirming to ensure you're not falling victim to phishing or scams.",
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:support@bitscrunch.com",
+          "knowledgeBase": "https://clean-rudbeckia-69f.notion.site/KYT-MetaMask-Snap-by-bitsCrunch-1fb84e5ac1048010b02fcf91c75ff9ff"
+        },
+        "sourceCode": "https://github.com/bitscrunch-protocol/Know-Your-Transaction"
+      },
+      "versions": {
+        "0.1.1": {
+          "checksum": "t/E7x9g6nSoIPjmjhM2TebIlkZ9WM8b/k98+H6r8IVQ="
+        }
+      }
     }
   },
   "blockedSnaps": [
