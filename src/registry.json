@@ -5190,7 +5190,12 @@
           "contact": "mailto:support@bitscrunch.com",
           "knowledgeBase": "https://clean-rudbeckia-69f.notion.site/KYT-MetaMask-Snap-by-bitsCrunch-1fb84e5ac1048010b02fcf91c75ff9ff"
         },
-        "sourceCode": "https://github.com/bitscrunch-protocol/Know-Your-Transaction"
+        "sourceCode": "https://github.com/bitscrunch-protocol/Know-Your-Transaction",
+        "screenshots": [
+          "./images/know-your-transaction/1.png",
+          "./images/know-your-transaction/2.png",
+          "./images/know-your-transaction/3.png"
+        ]
       },
       "versions": {
         "0.1.1": {
