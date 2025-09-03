@@ -1044,7 +1044,7 @@
           "name": "Kleros",
           "website": "https://kleros.io/"
         },
-        "website": "https://docs.kleros.io/products/curate/kleros-scout-metamask-snaps",
+        "website": "https://klerosscout.eth.limo",
         "summary": "Pull contract metadata from Kleros' community curated registries to provide smart contract insights.",
         "description": "This Snap pulls contract metadata from Kleros's decentralized token curated registries to provide insights to the contract you are interacting with. \nAfter installing the Snap, you will see it in the transaction confirmation window.",
         "audits": [
@@ -1055,7 +1055,7 @@
         ],
         "category": "transaction insights",
         "support": {
-          "contact": "https://t.me/KlerosCurate",
+          "contact": "mailto:contact@kleros.io",
           "faq": "https://docs.kleros.io/products/curate/kleros-scout-metamask-snaps/faqs",
           "knowledgeBase": "https://docs.kleros.io/products/curate/kleros-scout-metamask-snaps/knowledge-base"
         },
@@ -1067,8 +1067,8 @@
         ]
       },
       "versions": {
-        "1.3.8": {
-          "checksum": "j/r2uYX9VjmbmsLWgKQ0TNeuemmmfK4M+E8S8jcPSjo="
+        "1.3.9": {
+          "checksum": "ayOxQ97u42HLTny+ivrIjLTsq/hQnctZYM2lO5jG6o8="
         }
       }
     },
