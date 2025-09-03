@@ -5226,6 +5226,36 @@
           "checksum": "wZmm7zb+sGEEet9C4XHHVlRDA1pym4CLBH+V1bege6M="
         }
       }
+    },
+    "npm:@liquidlink-lab/iota-metamask-snap": {
+      "id": "npm:@liquidlink-lab/iota-metamask-snap",
+      "metadata": {
+        "name": "Iota",
+        "author": {
+          "name": "LiquidLink",
+          "website": "https://www.liquidlink.io/"
+        },
+        "website": "https://snap.liquidlink.io/",
+        "summary": "Interact with IOTA on-chain assets and perform digital signatures",
+        "description": "After installing the Snap, you can visit the IOTA Snap website https://snap.liquidlink.io/ and generate an IOTA address directly using MetaMask. Then, you can receive, send, and manage assets, as well as interact with DeFi protocols on the IOTA network.\n\nDevelopers can use the IOTA Snap SDK to integrate with the frontend, enabling existing web interfaces to support MetaMask-based signing.\n\nDemo video: https://www.youtube.com/watch?v=pi5QiGYrE08",
+        "category": "interoperability",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-liquidlink/"
+          }
+        ],
+        "support": {
+          "contact": "mailto:liquidlink.io@gmail.com",
+          "faq": "https://github.com/Liquidlink-Lab/iota-snap-package-main/blob/main/FAQ.md"
+        },
+        "sourceCode": "https://github.com/Liquidlink-Lab/iota-metamask-snap"
+      },
+      "versions": {
+        "0.0.8": {
+          "checksum": "NMMaC9gYtSgSoTe9rlR1eMpYtq4DSt8ueEPDNfn+goU="
+        }
+      }
     }
   },
   "blockedSnaps": [
