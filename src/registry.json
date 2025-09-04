@@ -1044,7 +1044,7 @@
           "name": "Kleros",
           "website": "https://kleros.io/"
         },
-        "website": "https://docs.kleros.io/products/curate/kleros-scout-metamask-snaps",
+        "website": "https://klerosscout.eth.limo",
         "summary": "Pull contract metadata from Kleros' community curated registries to provide smart contract insights.",
         "description": "This Snap pulls contract metadata from Kleros's decentralized token curated registries to provide insights to the contract you are interacting with. \nAfter installing the Snap, you will see it in the transaction confirmation window.",
         "audits": [
@@ -1055,7 +1055,7 @@
         ],
         "category": "transaction insights",
         "support": {
-          "contact": "https://t.me/KlerosCurate",
+          "contact": "mailto:contact@kleros.io",
           "faq": "https://docs.kleros.io/products/curate/kleros-scout-metamask-snaps/faqs",
           "knowledgeBase": "https://docs.kleros.io/products/curate/kleros-scout-metamask-snaps/knowledge-base"
         },
@@ -1067,8 +1067,8 @@
         ]
       },
       "versions": {
-        "1.3.8": {
-          "checksum": "j/r2uYX9VjmbmsLWgKQ0TNeuemmmfK4M+E8S8jcPSjo="
+        "1.3.9": {
+          "checksum": "ayOxQ97u42HLTny+ivrIjLTsq/hQnctZYM2lO5jG6o8="
         }
       }
     },
@@ -1160,6 +1160,9 @@
         ]
       },
       "versions": {
+        "1.0.8": {
+          "checksum": "pmaH2obJBb4R4HpgxF3ktjtJ/39KhIpQBLtJRhdwvu8="
+        },
         "1.0.6": {
           "checksum": "QYe6poOqWPfgF5aKTFNKvRQMj1Uju/4mVM61bzsqWYA="
         }
@@ -1634,7 +1637,6 @@
             "report": "https://consensys.io/diligence/audits/2023/08/solflare-metamask-snaps-solflare-sui-aptos/"
           }
         ],
-        "category": "interoperability",
         "support": {
           "contact": "https://academy.solflare.com/guides",
           "faq": "https://solflare.com/metamask"
@@ -2020,7 +2022,6 @@
             "report": "https://ottersec.notion.site/Drift-Snap-8575cd9031ae466d87d3b6a1c0afa028"
           }
         ],
-        "category": "interoperability",
         "support": {
           "contact": "https://discord.com/invite/fMcZBH8ErM"
         },
@@ -2268,41 +2269,6 @@
         },
         "1.0.0": {
           "checksum": "sALq4aMfg09UKOAcC8f/P0EC36vihVjLxkQX2y3BP3c="
-        }
-      }
-    },
-    "npm:@kadena/snap": {
-      "id": "npm:@kadena/snap",
-      "metadata": {
-        "name": "Kadena",
-        "author": {
-          "name": "Kadena",
-          "website": "https://www.kadena.io/"
-        },
-        "website": "https://metamask.kadena.io/",
-        "summary": "Securely send and receive KDA across all 20 Kadena chains with your MetaMask wallet.",
-        "description": "The Kadena Snap allows interaction with the Kadena blockchain via MetaMask, enabling users to manage Kadena accounts and sign transactions from the familiarity of their MetaMask wallet.\n\nCross-chain transfers allow users to seamlessly move their $KDA tokens across Kadena’s multi-chains. Learn more about Kadena’s multi-chain architecture: https://www.kadena.io/chainweb.\nLedger support enables users to use their Ledger hardware wallet for additional security.\n\nAfter installing the Kadena Snap, visit https://metamask.kadena.io to start using your MetaMask wallet with Kadena.",
-        "audits": [
-          {
-            "auditor": "Veridise",
-            "report": "https://veridise.com/wp-content/uploads/2024/10/VAR_Kadena_240909_kadena_snap_V3.pdf"
-          }
-        ],
-        "support": {
-          "knowledgeBase": "https://kadenateam.notion.site/Kadena-Metamask-Snap-10ee868b6878805bb2a8e28be2f49c7e?pvs=4",
-          "faq": "https://www.notion.so/kadenateam/FAQ-s-10ee868b687880648aade19ac7135f39",
-          "contact": "https://discord.com/channels/502858632178958377/631965054778212362"
-        },
-        "sourceCode": "https://github.com/kadena-community/kadena.js/tree/main/packages/libs/snap",
-        "screenshots": [
-          "./images/@kadena/snap/1.png",
-          "./images/@kadena/snap/2.png",
-          "./images/@kadena/snap/3.png"
-        ]
-      },
-      "versions": {
-        "1.0.3": {
-          "checksum": "sVG18jeqBlhj+LgGEJr2w+tQmSPSxXUXp2Gy3cYNu5o="
         }
       }
     },
@@ -5145,8 +5111,119 @@
         "sourceCode": "https://github.com/dominant-strategies/quai-snap"
       },
       "versions": {
-        "0.1.7": {
-          "checksum": "1LGJpubQykoIdbPwBg/0uJt5qCgSauCKf6MHYH0nxhI="
+        "0.1.8": {
+          "checksum": "cVEIXTwG1rrkVRzRl7GQo5NN90YYbJQY9Sr50O4GEag="
+        }
+      }
+    },
+    "npm:@mindsend/kadena-snap": {
+      "id": "npm:@mindsend/kadena-snap",
+      "metadata": {
+        "name": "Kadena",
+        "author": {
+          "name": "Mindsend",
+          "website": "https://snak.mindsend.xyz"
+        },
+        "website": "https://snak.mindsend.xyz",
+        "summary": "Securely send and receive KDA with your MetaMask wallet",
+        "description": "The Kadena Snap enables interaction with the Kadena blockchain via MetaMask, allowing users to manage Kadena accounts and sign transactions from the familiarity of their MetaMask wallet.\n Cross-chain transfers allow users to seamlessly move their KDA tokens across Kadena’s multi-chains. Learn more about Kadena’s multi-chain architecture: https://www.kadena.io/chainweb.\nLedger support enables users to use their Ledger hardware wallet for additional security.\nAfter installing the Kadena Snap, visit https://snak.mindsend.xyz/ to start using your MetaMask wallet with Kadena.\nThe snaK browser wallet supports:\n - Creating and managing Kadena accounts\n - Signing and sending KDA transactions\n - Switching between networks (mainnet/testnet/custom)\n - Using hardware wallets like Ledger\nFully documented and packaged as an npm Snap.\nSee https://docs.snak.mindsend.xyz for usage.",
+        "audits": [
+          {
+            "auditor": "Veridise",
+            "report": "https://veridise.com/wp-content/uploads/2024/10/VAR_Kadena_240909_kadena_snap_V3.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.com/invite/zBAuJcu3eC",
+          "faq": "https://docs.snak.mindsend.xyz/faqs.html",
+          "knowledgeBase": "https://docs.snak.mindsend.xyz/"
+        },
+        "sourceCode": "https://github.com/mindsend-datatech/kadena-snap",
+        "screenshots": [
+          "./images/@mindsend/kadena-snap/1.png",
+          "./images/@mindsend/kadena-snap/2.png",
+          "./images/@mindsend/kadena-snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.0.7": {
+          "checksum": "cJcquQhDsvEpUc7EvHSwJ4UHMeqpiuJ7JO+G2pNu85w="
+        }
+      }
+    },
+    "npm:wise-signer-snap": {
+      "id": "npm:wise-signer-snap",
+      "metadata": {
+        "name": "Wise Signer",
+        "author": {
+          "name": "patrickalphac",
+          "website": "https://cyfrin.io/"
+        },
+        "summary": "Debug and describe transactions with Claude AI",
+        "description": "Use AI to explain what your transactions are doing!\n\nThis snap can identify address poisoning, malicious tokens, and other types of attacks! Of course, the AI can make mistakes, so be sure to do your own due diligence as well.\n\nHow to use\n\n1. Get a Claude API Key: https://console.anthropic.com/settings/workspaces/default/keys\n\n2. Configure the Snap:\n - Click on the Snap in MetaMask (Menu → Snaps → AI Transaction Explainer)\n - Paste your Claude API key and click 'Save API Key'\n - Choose your preferred model:\n -- Claude Opus 4: Most capable, best for complex transactions\n -- Claude Sonnet 4: Balanced performance and speed\n -- Claude Sonnet 3.7: Fastest responses\n- Toggle 'Auto-Explain' based on your preference\n\nAnd boom! Now the next transaction you make, you can have your MetaMask AI try to figure out what your transaction is doing.\n\nWatch this demo video for an in-depth explanation: https://youtu.be/jcFhv8AM2pU",
+        "category": "transaction insights",
+        "support": {
+          "contact": "https://discord.gg/sccXzKDVJp",
+          "faq": "https://github.com/PatrickAlphaC/wise-signer-snap/blob/main/FAQ.md"
+        },
+        "sourceCode": "https://github.com/PatrickAlphaC/wise-signer-snap"
+      },
+      "versions": {
+        "0.0.6": {
+          "checksum": "NoH023QOfvuux+k46mM8haUg3Mg5uNrAc3mU+RJFl0Y="
+        }
+      }
+    },
+    "npm:know-your-transaction": {
+      "id": "npm:know-your-transaction",
+      "metadata": {
+        "name": "Know your transaction",
+        "author": {
+          "name": "bitsCrunch",
+          "website": "https://bitscrunch.com/"
+        },
+        "summary": "Real-time transaction scores and summaries powered by AI",
+        "description": "Stay Safe with Every Transaction\n\nThe KYT MetaMask Snap by bitsCrunch brings Know Your Transaction (KYT) protection directly to your MetaMask wallet. With real time transaction scores and summaries, our AI-powered Snap helps shield you from phishing, scams, and other malicious on-chain activities.\n\nHow It Protects You\n\nThe bitsCrunch KYT Snap uses advanced AI algorithms to flag:\n\n- Wallets involved in illicit or suspicious activities.\n- Smart contracts with wallet-draining functionality.\n- Duplicate or counterfeit tokens mimicking legitimate assets.\n- Token approvals that could potentially drain your funds.\n\nHow It Works\n\nOur AI analyzes historical address activity such as transaction volume, nature of interactions, and asset holdings to assign a transaction score and generate a concise summary inside your MetaMask wallet. This helps you quickly identify malicious or high-risk addresses before you proceed.\n\nHow to Use\n\n- Install the bitsCrunch Snap for MetaMask.\n- When making a transaction, open the bitsCrunch tab inside your MetaMask wallet.\n- Review the transaction score and summary before confirming to ensure you're not falling victim to phishing or scams.",
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:support@bitscrunch.com",
+          "knowledgeBase": "https://clean-rudbeckia-69f.notion.site/KYT-MetaMask-Snap-by-bitsCrunch-1fb84e5ac1048010b02fcf91c75ff9ff"
+        },
+        "sourceCode": "https://github.com/bitscrunch-protocol/Know-Your-Transaction",
+        "screenshots": [
+          "./images/know-your-transaction/1.png",
+          "./images/know-your-transaction/2.png",
+          "./images/know-your-transaction/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.1": {
+          "checksum": "t/E7x9g6nSoIPjmjhM2TebIlkZ9WM8b/k98+H6r8IVQ="
+        }
+      }
+    },
+    "npm:@ututrust/utu-metamask-snap": {
+      "id": "npm:@ututrust/utu-metamask-snap",
+      "metadata": {
+        "name": "UTU Trust",
+        "author": {
+          "name": "UTU Technologies",
+          "website": "https://utu.io/"
+        },
+        "website": "https://app.utu.io/snap",
+        "summary": "View and leave signals on any address or asset",
+        "description": "The UTU Trust Snap integrates the full review and reputation capabilities of UTU Protocol into your MetaMask wallet. This allows you to view feedback (star ratings, badges, text and video reviews, and UTU Trust Token (UTT) endorsements) about on-chain addresses from social networks (Telegram, X, and GitHub so far) in real-time as you browse the web, directly in your MetaMask, giving you a layer of 'social security' on top of any technical trust tools like smart contract analyzers that you may use.\n\nThe UTU Trust Snap also enables you to leave signals (star ratings, badges, text and video reviews, and UTT endorsements) about on-chain addresses directly from your MetaMask. When your UTT endorsements help future users find things they end up liking, you earn rewards in reputation (UTT) and cash ($UTU).",
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:support@utu.io",
+          "knowledgeBase": "https://docs.utu.io/04-faq/faq.html#id2"
+        },
+        "sourceCode": "https://gitlab.com/ututrust/utu-metamask-snap"
+      },
+      "versions": {
+        "1.10.13": {
+          "checksum": "wZmm7zb+sGEEet9C4XHHVlRDA1pym4CLBH+V1bege6M="
         }
       }
     },
