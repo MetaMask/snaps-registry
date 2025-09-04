@@ -5250,6 +5250,37 @@
           "checksum": "zjRaFlkR6sj+z6vFp8mFU2x4KYCzfLxaxlfrLsXfgNk="
         }
       }
+    },
+    "npm:@hiveio/metamask-snap": {
+      "id": "npm:@hiveio/metamask-snap",
+      "metadata": {
+        "name": "Hive Wallet",
+        "author": {
+          "name": "thebeedevs",
+          "website": "https://blog.openhive.network/@thebeedevs"
+        },
+        "website": "https://auth.openhive.network/",
+        "summary": "Enables secure Hive blockchain interactions directly through your MetaMask wallet.",
+        "description": "Features supported by this Snap include:\n- Preparation of Hive account creation request, next encoded into URL link to be shared with existing Hive user who should execute it\n- Seamless process specific to associating generated public keys to the existing Hive account\n- Derive Hive keys from MetaMask wallet\n- Sign Hive transactions securely\n- Encode / decode buffer using derived Hive keys\n- No private key exposure",
+        "audits": [
+          {
+            "auditor": "Hacken",
+            "report": "https://github.com/openhive-network/metamask-snap/wiki/assets/documents/Hacken_Hive_dApp_Hive_Snap_Audit_May2025.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://github.com/openhive-network/metamask-snap/wiki/KB",
+          "faq": "https://github.com/openhive-network/metamask-snap/wiki/FAQ",
+          "contact": "https://github.com/openhive-network/metamask-snap/issues/new"
+        },
+        "sourceCode": "https://github.com/openhive-network/metamask-snap"
+      },
+      "versions": {
+        "1.6.0": {
+          "checksum": "Gi/COgu8L73LLMFQGrpbDZII8igqYpVTUWTyBdKWAtA="
+        }
+      }
     }
   },
   "blockedSnaps": [
