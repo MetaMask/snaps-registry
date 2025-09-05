@@ -5272,7 +5272,7 @@
         "audits": [
           {
             "auditor": "Cure53",
-            "report": "https://github.com/paulfears/StellarSnap/tree/main/audits"
+            "report": "https://cure53.de/pentest-report_kyraview-stellar-snap.pdf"
           }
         ],
         "category": "interoperability",
