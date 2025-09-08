@@ -5232,7 +5232,8 @@
       "checksum": "A83r5/ZIcKuKwuAnQHHByVFCuofj7jGK5hOStmHY6A0="
     },
     {
-      "id": "npm:onthis-snap"
+      "id": "npm:onthis-snap",
+      "versionRange": "<1.4.1"
     }
   ]
 }
