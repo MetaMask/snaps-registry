@@ -3641,42 +3641,6 @@
         }
       }
     },
-    "npm:onthis-snap": {
-      "id": "npm:onthis-snap",
-      "metadata": {
-        "name": "Onthis",
-        "author": {
-          "name": "Onthis",
-          "website": "onthis.xyz"
-        },
-        "website": "https://www.onthis.xyz/snap",
-        "summary": "Gain insights for Onthis contracts.",
-        "description": "Onthis Snap makes it easy to view contract details of your transaction before confirming. Ensuring peace of mind when interacting with any contracts deployed by Onthis.",
-        "audits": [
-          {
-            "auditor": "Veridise",
-            "report": "https://f8t2x8b2.rocketcdn.me/wp-content/uploads/2024/03/VAR_Onthis-V2.pdf"
-          }
-        ],
-        "category": "transaction insights",
-        "support": {
-          "contact": "mailto:admin@onthis.xyz",
-          "knowledgeBase": "https://docs.onthis.xyz/overview/shortcuts/metamask-snap",
-          "faq": "https://www.onthis.xyz/snap"
-        },
-        "sourceCode": "https://github.com/onthisxyz/snap",
-        "screenshots": [
-          "./images/onthis-snap/1.png",
-          "./images/onthis-snap/2.png",
-          "./images/onthis-snap/3.png"
-        ]
-      },
-      "versions": {
-        "1.4.0": {
-          "checksum": "Z20DrSs6yFCHS6jjQD7ZCnoPy3Q0VcF00aL6AgT8swg="
-        }
-      }
-    },
     "npm:@vital-wallet/neo-snap": {
       "id": "npm:@vital-wallet/neo-snap",
       "metadata": {
@@ -5266,6 +5230,9 @@
     },
     {
       "checksum": "A83r5/ZIcKuKwuAnQHHByVFCuofj7jGK5hOStmHY6A0="
+    },
+    {
+      "id": "npm:onthis-snap"
     }
   ]
 }
