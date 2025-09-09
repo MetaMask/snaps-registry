@@ -5221,6 +5221,37 @@
           "checksum": "Gi/COgu8L73LLMFQGrpbDZII8igqYpVTUWTyBdKWAtA="
         }
       }
+    },
+    "npm:stellar-snap": {
+      "id": "npm:stellar-snap",
+      "metadata": {
+        "name": "Stellar",
+        "author": {
+          "name": "Paul Fears",
+          "website": "https://github.com/paulfears"
+        },
+        "website": "https://stellar-wallet-demo.vercel.app",
+        "summary": "Send, receive, and interact with Stellar tokens and contracts.",
+        "description": "Stellar Wallet\n\nThis Snap allows you to manage, send, and receive stellar tokens, as well as interact with soroban smart contracts.\n\n- Full Soroban Support\n- Full Testnet Support\n- Multiple Accounts\n- Documentation https://stellar-wallet-demo.vercel.app/docs\n- Internal Stellar/Soroban Transaction parsing",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://cure53.de/pentest-report_kyraview-stellar-snap.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://stellar-wallet-demo.vercel.app/docs",
+          "faq": "https://stellar-wallet-demo.vercel.app/faq",
+          "contact": "mailto:paulrfears@gmail.com"
+        },
+        "sourceCode": "https://github.com/paulfears/StellarSnap"
+      },
+      "versions": {
+        "1.0.9": {
+          "checksum": "ZBO5amqeB4r5rjui+CDr3mpSE33h9KmOvkav6GM9w+k="
+        }
+      }
     }
   },
   "blockedSnaps": [
