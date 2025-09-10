@@ -2402,11 +2402,11 @@
         ]
       },
       "versions": {
+        "4.1.0": {
+          "checksum": "/l6vY9Yc8aofvPw+lxdmtldrEiMGBMTJz17TNAixJpM="
+        },
         "4.0.0": {
           "checksum": "8VhnbqdQCpJ8FAvohRrnPYk1J95H/IyG44Cj0k8i51Y="
-        },
-        "3.4.0": {
-          "checksum": "FE3fMKA3GZYvw4a2OeCZOKkuOd0oe3zfGUeRukIwjYs="
         },
         "3.1.0-staging": {
           "checksum": "FqZpSPhTq0xZ1ak13RTeavyaiDXLeS1pe7F/65wUPTo="
@@ -3638,42 +3638,6 @@
       "versions": {
         "0.0.14": {
           "checksum": "PChbGT2/bzUbrx2tvJ91w102n5CQHlXPZO0h49XxnTE="
-        }
-      }
-    },
-    "npm:onthis-snap": {
-      "id": "npm:onthis-snap",
-      "metadata": {
-        "name": "Onthis",
-        "author": {
-          "name": "Onthis",
-          "website": "onthis.xyz"
-        },
-        "website": "https://www.onthis.xyz/snap",
-        "summary": "Gain insights for Onthis contracts.",
-        "description": "Onthis Snap makes it easy to view contract details of your transaction before confirming. Ensuring peace of mind when interacting with any contracts deployed by Onthis.",
-        "audits": [
-          {
-            "auditor": "Veridise",
-            "report": "https://f8t2x8b2.rocketcdn.me/wp-content/uploads/2024/03/VAR_Onthis-V2.pdf"
-          }
-        ],
-        "category": "transaction insights",
-        "support": {
-          "contact": "mailto:admin@onthis.xyz",
-          "knowledgeBase": "https://docs.onthis.xyz/overview/shortcuts/metamask-snap",
-          "faq": "https://www.onthis.xyz/snap"
-        },
-        "sourceCode": "https://github.com/onthisxyz/snap",
-        "screenshots": [
-          "./images/onthis-snap/1.png",
-          "./images/onthis-snap/2.png",
-          "./images/onthis-snap/3.png"
-        ]
-      },
-      "versions": {
-        "1.4.0": {
-          "checksum": "Z20DrSs6yFCHS6jjQD7ZCnoPy3Q0VcF00aL6AgT8swg="
         }
       }
     },
@@ -5256,6 +5220,68 @@
           "checksum": "NMMaC9gYtSgSoTe9rlR1eMpYtq4DSt8ueEPDNfn+goU="
         }
       }
+    },
+    "npm:@hiveio/metamask-snap": {
+      "id": "npm:@hiveio/metamask-snap",
+      "metadata": {
+        "name": "Hive Wallet",
+        "author": {
+          "name": "thebeedevs",
+          "website": "https://blog.openhive.network/@thebeedevs"
+        },
+        "website": "https://auth.openhive.network/",
+        "summary": "Enables secure Hive blockchain interactions directly through your MetaMask wallet.",
+        "description": "Features supported by this Snap include:\n- Preparation of Hive account creation request, next encoded into URL link to be shared with existing Hive user who should execute it\n- Seamless process specific to associating generated public keys to the existing Hive account\n- Derive Hive keys from MetaMask wallet\n- Sign Hive transactions securely\n- Encode / decode buffer using derived Hive keys\n- No private key exposure",
+        "audits": [
+          {
+            "auditor": "Hacken",
+            "report": "https://github.com/openhive-network/metamask-snap/wiki/assets/documents/Hacken_Hive_dApp_Hive_Snap_Audit_May2025.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://github.com/openhive-network/metamask-snap/wiki/KB",
+          "faq": "https://github.com/openhive-network/metamask-snap/wiki/FAQ",
+          "contact": "https://github.com/openhive-network/metamask-snap/issues/new"
+        },
+        "sourceCode": "https://github.com/openhive-network/metamask-snap"
+      },
+      "versions": {
+        "1.6.0": {
+          "checksum": "Gi/COgu8L73LLMFQGrpbDZII8igqYpVTUWTyBdKWAtA="
+        }
+      }
+    },
+    "npm:stellar-snap": {
+      "id": "npm:stellar-snap",
+      "metadata": {
+        "name": "Stellar",
+        "author": {
+          "name": "Paul Fears",
+          "website": "https://github.com/paulfears"
+        },
+        "website": "https://stellar-wallet-demo.vercel.app",
+        "summary": "Send, receive, and interact with Stellar tokens and contracts.",
+        "description": "Stellar Wallet\n\nThis Snap allows you to manage, send, and receive stellar tokens, as well as interact with soroban smart contracts.\n\n- Full Soroban Support\n- Full Testnet Support\n- Multiple Accounts\n- Documentation https://stellar-wallet-demo.vercel.app/docs\n- Internal Stellar/Soroban Transaction parsing",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://cure53.de/pentest-report_kyraview-stellar-snap.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://stellar-wallet-demo.vercel.app/docs",
+          "faq": "https://stellar-wallet-demo.vercel.app/faq",
+          "contact": "mailto:paulrfears@gmail.com"
+        },
+        "sourceCode": "https://github.com/paulfears/StellarSnap"
+      },
+      "versions": {
+        "1.0.9": {
+          "checksum": "ZBO5amqeB4r5rjui+CDr3mpSE33h9KmOvkav6GM9w+k="
+        }
+      }
     }
   },
   "blockedSnaps": [
@@ -5265,6 +5291,10 @@
     },
     {
       "checksum": "A83r5/ZIcKuKwuAnQHHByVFCuofj7jGK5hOStmHY6A0="
+    },
+    {
+      "id": "npm:onthis-snap",
+      "versionRange": "<1.4.1"
     }
   ]
 }
