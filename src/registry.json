@@ -5044,6 +5044,9 @@
         ]
       },
       "versions": {
+        "0.2.6": {
+          "checksum": "8Nspw4PiDnqHYCS32Dwpz7Ubo0J0ocBhXYPAvXM4Kew="
+        },
         "0.2.4": {
           "checksum": "xO5sXGTa5PxZf1GG33xhD0ep5PLontAmeamjM3h+YFA="
         }
