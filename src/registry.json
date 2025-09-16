@@ -5249,6 +5249,34 @@
           "checksum": "ZBO5amqeB4r5rjui+CDr3mpSE33h9KmOvkav6GM9w+k="
         }
       }
+    },
+    "npm:@postfiat/pftl-snap": {
+      "id": "npm:@postfiat/pftl-snap",
+      "metadata": {
+        "name": "PFTL",
+        "author": {
+          "name": "Post Fiat",
+          "website": "https://postfiat.org/"
+        },
+        "summary": "Connect to the Post Fiat blockchain.",
+        "description": "If you have a MetaMask wallet now you have an PFTL one. Securely manage your PFT and interact with PFTL-based dapps directly from MetaMask.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-thewarp/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.com/channels/1061800464045310053/1245342277229088768"
+        },
+        "sourceCode": "https://github.com/postfiatorg/pftl-snap"
+      },
+      "versions": {
+        "1.1.5": {
+          "checksum": "54X1+6twNRyYEgWygzpnfYrb1VyOxk3+5i3SLmxev40="
+        }
+      }
     }
   },
   "blockedSnaps": [
