@@ -5270,7 +5270,12 @@
         "support": {
           "contact": "https://discord.gg/T4G78kveD5"
         },
-        "sourceCode": "https://github.com/postfiatorg/pftl-snap"
+        "sourceCode": "https://github.com/postfiatorg/pftl-snap",
+        "screenshots": [
+          "./images/@postfiat/pftl-snap/1.png",
+          "./images/@postfiat/pftl-snap/2.png",
+          "./images/@postfiat/pftl-snap/3.png"
+        ]
       },
       "versions": {
         "1.1.5": {
