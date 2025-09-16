@@ -138,42 +138,6 @@
         }
       }
     },
-    "npm:wallet-guard-snap": {
-      "id": "npm:wallet-guard-snap",
-      "metadata": {
-        "name": "Wallet Guard",
-        "author": {
-          "name": "Wallet Guard",
-          "website": "https://www.walletguard.app/"
-        },
-        "website": "https://www.walletguard.app/snap",
-        "summary": "Protect crypto with transaction insights and proactive security alerts.",
-        "description": "SUNSET NOTICE: Wallet Guard is now integrated directly with MetaMask. The Wallet Guard Snap is sunset and no longer supported. Learn more here: https://www.walletguard.app/blog/wallet-guard-sunset-notice",
-        "audits": [
-          {
-            "auditor": "Consensys Diligence",
-            "report": "https://consensys.io/diligence/audits/2023/07/wallet-guard/"
-          }
-        ],
-        "category": "transaction insights",
-        "support": {
-          "contact": "https://discord.com/invite/mvbtaJzXDP",
-          "faq": "https://walletguard.notion.site/Wallet-Guard-Snap-Frequently-Asked-Questions-FAQ-4e732cf0892846368048ed6e5f53a51a",
-          "knowledgeBase": "https://walletguard.notion.site/Wallet-Guard-Snap-Knowledge-Base-8839534090e444d792e1b3aa86e0a762"
-        },
-        "sourceCode": "https://github.com/wallet-guard/wallet-guard-snap",
-        "screenshots": [
-          "./images/wallet-guard-snap/1.png",
-          "./images/wallet-guard-snap/2.png",
-          "./images/wallet-guard-snap/3.png"
-        ]
-      },
-      "versions": {
-        "1.1.2": {
-          "checksum": "N3QYKRJYd4dAVrOs/KDCpzGvEjyCGkkdabfRQHKw0qY="
-        }
-      }
-    },
     "npm:@pushprotocol/snap": {
       "id": "npm:@pushprotocol/snap",
       "metadata": {
@@ -5047,6 +5011,9 @@
         ]
       },
       "versions": {
+        "0.2.6": {
+          "checksum": "8Nspw4PiDnqHYCS32Dwpz7Ubo0J0ocBhXYPAvXM4Kew="
+        },
         "0.2.4": {
           "checksum": "xO5sXGTa5PxZf1GG33xhD0ep5PLontAmeamjM3h+YFA="
         }
@@ -5194,6 +5161,36 @@
         }
       }
     },
+    "npm:@liquidlink-lab/iota-metamask-snap": {
+      "id": "npm:@liquidlink-lab/iota-metamask-snap",
+      "metadata": {
+        "name": "Iota",
+        "author": {
+          "name": "LiquidLink",
+          "website": "https://www.liquidlink.io/"
+        },
+        "website": "https://snap.liquidlink.io/",
+        "summary": "Interact with IOTA on-chain assets and perform digital signatures",
+        "description": "After installing the Snap, you can visit the IOTA Snap website https://snap.liquidlink.io/ and generate an IOTA address directly using MetaMask. Then, you can receive, send, and manage assets, as well as interact with DeFi protocols on the IOTA network.\n\nDevelopers can use the IOTA Snap SDK to integrate with the frontend, enabling existing web interfaces to support MetaMask-based signing.\n\nDemo video: https://www.youtube.com/watch?v=pi5QiGYrE08",
+        "category": "interoperability",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-liquidlink/"
+          }
+        ],
+        "support": {
+          "contact": "mailto:liquidlink.io@gmail.com",
+          "faq": "https://github.com/Liquidlink-Lab/iota-snap-package-main/blob/main/FAQ.md"
+        },
+        "sourceCode": "https://github.com/Liquidlink-Lab/iota-metamask-snap"
+      },
+      "versions": {
+        "0.0.8": {
+          "checksum": "NMMaC9gYtSgSoTe9rlR1eMpYtq4DSt8ueEPDNfn+goU="
+        }
+      }
+    },
     "npm:@hiveio/metamask-snap": {
       "id": "npm:@hiveio/metamask-snap",
       "metadata": {
@@ -5268,6 +5265,10 @@
     {
       "id": "npm:onthis-snap",
       "versionRange": "<1.4.1"
+    },
+    {
+      "id": "npm:wallet-guard-snap",
+      "versionRange": "<1.1.3"
     }
   ]
 }
