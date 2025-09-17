@@ -5072,12 +5072,15 @@
         },
         "sourceCode": "https://github.com/mindsend-datatech/kadena-snap",
         "screenshots": [
-          "./images/@mindsend/kadena-snap/1.png",
+          "./images/@mindsend/kadena-snap/1.jpg",
           "./images/@mindsend/kadena-snap/2.png",
           "./images/@mindsend/kadena-snap/3.png"
         ]
       },
       "versions": {
+        "1.0.8": {
+          "checksum": "suin9Czu4rPMzho6A3LHgqTkdlUhHmlDg0ZwBOnYDbY="
+        },
         "1.0.7": {
           "checksum": "cJcquQhDsvEpUc7EvHSwJ4UHMeqpiuJ7JO+G2pNu85w="
         }
