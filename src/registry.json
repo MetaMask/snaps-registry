@@ -5101,7 +5101,7 @@
           "website": "https://cyfrin.io/"
         },
         "summary": "Debug and describe transactions with Claude AI",
-        "description": "Use AI to explain what your transactions are doing!\n\nThis snap can identify address poisoning, malicious tokens, and other types of attacks! Of course, the AI can make mistakes, so be sure to do your own due diligence as well.\n\nHow to use\n\n1. Get a Claude API Key: https://console.anthropic.com/settings/workspaces/default/keys\n\n2. Configure the Snap:\n - Click on the Snap in MetaMask (Menu → Snaps → AI Transaction Explainer)\n - Paste your Claude API key and click 'Save API Key'\n - Choose your preferred model:\n -- Claude Opus 4: Most capable, best for complex transactions\n -- Claude Sonnet 4: Balanced performance and speed\n -- Claude Sonnet 3.7: Fastest responses\n- Toggle 'Auto-Explain' based on your preference\n\nAnd boom! Now the next transaction you make, you can have your MetaMask AI try to figure out what your transaction is doing.\n\nWatch this demo video for an in-depth explanation: https://youtu.be/jcFhv8AM2pU",
+        "description": "Use AI to explain what your transactions are doing!\n\nThis Snap can identify address poisoning, malicious tokens, and other types of attacks! Of course, the AI can make mistakes, so be sure to do your own due diligence as well.\n\nFeatures\n\n1. Built-in buttons to quickly send transaction/signature context to your AI of choice\n2. EIP-712 hash calculation directly in MetaMask\n3. Auto-explain mode for seamless transaction analysis\n4. Buttons to bring your hex data to an ABI decoding site for further inspection\n\nThese buttons directly in MetaMask will help give context to AIs quickly.\n\nFor using the 'auto-explain' feature:\n1. Get a Claude API Key: https://console.anthropic.com/settings/workspaces/default/keys\n\n2. Configure the Snap:\n - Click on the Snap in MetaMask (Menu → Snaps → AI Transaction Explainer)\n - Paste your Claude API key and click 'Save API Key'\n - Choose your preferred model:\n -- Claude Opus 4: Most capable, best for complex transactions\n -- Claude Sonnet 4: Balanced performance and speed\n -- Claude Sonnet 3.7: Fastest responses\n- Toggle 'Auto-Explain' based on your preference\n\nAnd boom! Now the next transaction you make, you can have your MetaMask AI try to figure out what your transaction is doing.\n\nWatch this demo video for an in-depth explanation: https://youtu.be/jcFhv8AM2pU",
         "category": "transaction insights",
         "support": {
           "contact": "https://discord.gg/sccXzKDVJp",
@@ -5110,6 +5110,9 @@
         "sourceCode": "https://github.com/PatrickAlphaC/wise-signer-snap"
       },
       "versions": {
+        "0.0.8": {
+          "checksum": "tMZlRlqkvRRu/9t3TKVUVDK0JYZdusbxD7G5LycyNgo="
+        },
         "0.0.6": {
           "checksum": "NoH023QOfvuux+k46mM8haUg3Mg5uNrAc3mU+RJFl0Y="
         }
