@@ -2798,23 +2798,8 @@
         ]
       },
       "versions": {
-        "1.0.1": {
-          "checksum": "QNmQtBBfoCMJmJaF96QzH44s2obm3k2Ct0t3Lje0Bog="
-        },
-        "0.8.5": {
-          "checksum": "Qf2AILs2sOJggiV2xWdLfEuS/wkyaY/YeysZ6bqAMf0="
-        },
-        "0.8.4": {
-          "checksum": "SoaG/3rijtC5asZQ1O2CIscHJ2Eqb9kW4wIqEAhUue8="
-        },
-        "0.8.3": {
-          "checksum": "cGKt6nNCMN6tJAyXdCH/6Pw2J9l2IvsY2uTjsIJiitk="
-        },
-        "0.7.3": {
-          "checksum": "tKTO2/Dru/fEinbw1Ag63I+wLT2aE/XX4XMHwzfS3ow="
-        },
-        "0.6.1": {
-          "checksum": "HbPS0L0HN5om/cXvYdWMoGn+hGfeS2dPqJ113OTjNH8="
+        "1.0.2": {
+          "checksum": "Q2AaPpeWKRY9bVboSZ03WfRTUb3oRDtebqzX89LbiX4="
         }
       }
     },
