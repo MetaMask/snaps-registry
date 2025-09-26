@@ -138,42 +138,6 @@
         }
       }
     },
-    "npm:wallet-guard-snap": {
-      "id": "npm:wallet-guard-snap",
-      "metadata": {
-        "name": "Wallet Guard",
-        "author": {
-          "name": "Wallet Guard",
-          "website": "https://www.walletguard.app/"
-        },
-        "website": "https://www.walletguard.app/snap",
-        "summary": "Protect crypto with transaction insights and proactive security alerts.",
-        "description": "SUNSET NOTICE: Wallet Guard is now integrated directly with MetaMask. The Wallet Guard Snap is sunset and no longer supported. Learn more here: https://www.walletguard.app/blog/wallet-guard-sunset-notice",
-        "audits": [
-          {
-            "auditor": "Consensys Diligence",
-            "report": "https://consensys.io/diligence/audits/2023/07/wallet-guard/"
-          }
-        ],
-        "category": "transaction insights",
-        "support": {
-          "contact": "https://discord.com/invite/mvbtaJzXDP",
-          "faq": "https://walletguard.notion.site/Wallet-Guard-Snap-Frequently-Asked-Questions-FAQ-4e732cf0892846368048ed6e5f53a51a",
-          "knowledgeBase": "https://walletguard.notion.site/Wallet-Guard-Snap-Knowledge-Base-8839534090e444d792e1b3aa86e0a762"
-        },
-        "sourceCode": "https://github.com/wallet-guard/wallet-guard-snap",
-        "screenshots": [
-          "./images/wallet-guard-snap/1.png",
-          "./images/wallet-guard-snap/2.png",
-          "./images/wallet-guard-snap/3.png"
-        ]
-      },
-      "versions": {
-        "1.1.2": {
-          "checksum": "N3QYKRJYd4dAVrOs/KDCpzGvEjyCGkkdabfRQHKw0qY="
-        }
-      }
-    },
     "npm:@pushprotocol/snap": {
       "id": "npm:@pushprotocol/snap",
       "metadata": {
@@ -3230,11 +3194,14 @@
         ]
       },
       "versions": {
-        "0.3.6": {
-          "checksum": "cK4lFDwnXVXWPx/Up70KRwOVSXMLfe86aBLSEX9EIJk="
+        "0.3.8": {
+          "checksum": "6IkxDk97x3m3oqwFfD6xhjv+oWm3eew1To2qNKF9qsk="
         },
         "0.3.7": {
           "checksum": "PAe6xX5jfqaxtRw8/tTxEDkB6lj9FcW2Z/DCttgix7U="
+        },
+        "0.3.6": {
+          "checksum": "cK4lFDwnXVXWPx/Up70KRwOVSXMLfe86aBLSEX9EIJk="
         }
       }
     },
@@ -5044,6 +5011,9 @@
         ]
       },
       "versions": {
+        "0.2.6": {
+          "checksum": "8Nspw4PiDnqHYCS32Dwpz7Ubo0J0ocBhXYPAvXM4Kew="
+        },
         "0.2.4": {
           "checksum": "xO5sXGTa5PxZf1GG33xhD0ep5PLontAmeamjM3h+YFA="
         }
@@ -5105,12 +5075,15 @@
         },
         "sourceCode": "https://github.com/mindsend-datatech/kadena-snap",
         "screenshots": [
-          "./images/@mindsend/kadena-snap/1.png",
+          "./images/@mindsend/kadena-snap/1.jpg",
           "./images/@mindsend/kadena-snap/2.png",
           "./images/@mindsend/kadena-snap/3.png"
         ]
       },
       "versions": {
+        "1.0.8": {
+          "checksum": "suin9Czu4rPMzho6A3LHgqTkdlUhHmlDg0ZwBOnYDbY="
+        },
         "1.0.7": {
           "checksum": "cJcquQhDsvEpUc7EvHSwJ4UHMeqpiuJ7JO+G2pNu85w="
         }
@@ -5125,7 +5098,7 @@
           "website": "https://cyfrin.io/"
         },
         "summary": "Debug and describe transactions with Claude AI",
-        "description": "Use AI to explain what your transactions are doing!\n\nThis snap can identify address poisoning, malicious tokens, and other types of attacks! Of course, the AI can make mistakes, so be sure to do your own due diligence as well.\n\nHow to use\n\n1. Get a Claude API Key: https://console.anthropic.com/settings/workspaces/default/keys\n\n2. Configure the Snap:\n - Click on the Snap in MetaMask (Menu → Snaps → AI Transaction Explainer)\n - Paste your Claude API key and click 'Save API Key'\n - Choose your preferred model:\n -- Claude Opus 4: Most capable, best for complex transactions\n -- Claude Sonnet 4: Balanced performance and speed\n -- Claude Sonnet 3.7: Fastest responses\n- Toggle 'Auto-Explain' based on your preference\n\nAnd boom! Now the next transaction you make, you can have your MetaMask AI try to figure out what your transaction is doing.\n\nWatch this demo video for an in-depth explanation: https://youtu.be/jcFhv8AM2pU",
+        "description": "Use AI to explain what your transactions are doing!\n\nThis Snap can identify address poisoning, malicious tokens, and other types of attacks! Of course, the AI can make mistakes, so be sure to do your own due diligence as well.\n\nFeatures\n\n1. Built-in buttons to quickly send transaction/signature context to your AI of choice\n2. EIP-712 hash calculation directly in MetaMask\n3. Auto-explain mode for seamless transaction analysis\n4. Buttons to bring your hex data to an ABI decoding site for further inspection\n\nThese buttons directly in MetaMask will help give context to AIs quickly.\n\nFor using the 'auto-explain' feature:\n1. Get a Claude API Key: https://console.anthropic.com/settings/workspaces/default/keys\n\n2. Configure the Snap:\n - Click on the Snap in MetaMask (Menu → Snaps → AI Transaction Explainer)\n - Paste your Claude API key and click 'Save API Key'\n - Choose your preferred model:\n -- Claude Opus 4: Most capable, best for complex transactions\n -- Claude Sonnet 4: Balanced performance and speed\n -- Claude Sonnet 3.7: Fastest responses\n- Toggle 'Auto-Explain' based on your preference\n\nAnd boom! Now the next transaction you make, you can have your MetaMask AI try to figure out what your transaction is doing.\n\nWatch this demo video for an in-depth explanation: https://youtu.be/jcFhv8AM2pU",
         "category": "transaction insights",
         "support": {
           "contact": "https://discord.gg/sccXzKDVJp",
@@ -5134,6 +5107,9 @@
         "sourceCode": "https://github.com/PatrickAlphaC/wise-signer-snap"
       },
       "versions": {
+        "0.0.8": {
+          "checksum": "tMZlRlqkvRRu/9t3TKVUVDK0JYZdusbxD7G5LycyNgo="
+        },
         "0.0.6": {
           "checksum": "NoH023QOfvuux+k46mM8haUg3Mg5uNrAc3mU+RJFl0Y="
         }
@@ -5215,6 +5191,36 @@
         }
       }
     },
+    "npm:@liquidlink-lab/iota-metamask-snap": {
+      "id": "npm:@liquidlink-lab/iota-metamask-snap",
+      "metadata": {
+        "name": "Iota",
+        "author": {
+          "name": "LiquidLink",
+          "website": "https://www.liquidlink.io/"
+        },
+        "website": "https://snap.liquidlink.io/",
+        "summary": "Interact with IOTA on-chain assets and perform digital signatures",
+        "description": "After installing the Snap, you can visit the IOTA Snap website https://snap.liquidlink.io/ and generate an IOTA address directly using MetaMask. Then, you can receive, send, and manage assets, as well as interact with DeFi protocols on the IOTA network.\n\nDevelopers can use the IOTA Snap SDK to integrate with the frontend, enabling existing web interfaces to support MetaMask-based signing.\n\nDemo video: https://www.youtube.com/watch?v=pi5QiGYrE08",
+        "category": "interoperability",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-liquidlink/"
+          }
+        ],
+        "support": {
+          "contact": "mailto:liquidlink.io@gmail.com",
+          "faq": "https://github.com/Liquidlink-Lab/iota-snap-package-main/blob/main/FAQ.md"
+        },
+        "sourceCode": "https://github.com/Liquidlink-Lab/iota-metamask-snap"
+      },
+      "versions": {
+        "0.0.8": {
+          "checksum": "NMMaC9gYtSgSoTe9rlR1eMpYtq4DSt8ueEPDNfn+goU="
+        }
+      }
+    },
     "npm:@hiveio/metamask-snap": {
       "id": "npm:@hiveio/metamask-snap",
       "metadata": {
@@ -5245,6 +5251,68 @@
           "checksum": "Gi/COgu8L73LLMFQGrpbDZII8igqYpVTUWTyBdKWAtA="
         }
       }
+    },
+    "npm:stellar-snap": {
+      "id": "npm:stellar-snap",
+      "metadata": {
+        "name": "Stellar",
+        "author": {
+          "name": "Paul Fears",
+          "website": "https://github.com/paulfears"
+        },
+        "website": "https://stellar-wallet-demo.vercel.app",
+        "summary": "Send, receive, and interact with Stellar tokens and contracts.",
+        "description": "Stellar Wallet\n\nThis Snap allows you to manage, send, and receive stellar tokens, as well as interact with soroban smart contracts.\n\n- Full Soroban Support\n- Full Testnet Support\n- Multiple Accounts\n- Documentation https://stellar-wallet-demo.vercel.app/docs\n- Internal Stellar/Soroban Transaction parsing",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://cure53.de/pentest-report_kyraview-stellar-snap.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://stellar-wallet-demo.vercel.app/docs",
+          "faq": "https://stellar-wallet-demo.vercel.app/faq",
+          "contact": "mailto:paulrfears@gmail.com"
+        },
+        "sourceCode": "https://github.com/paulfears/StellarSnap"
+      },
+      "versions": {
+        "1.0.9": {
+          "checksum": "ZBO5amqeB4r5rjui+CDr3mpSE33h9KmOvkav6GM9w+k="
+        }
+      }
+    },
+    "npm:@bitfinding/unblind-second-factor-snap": {
+      "id": "npm:@bitfinding/unblind-second-factor-snap",
+      "metadata": {
+        "name": "Unblind Second Factor",
+        "author": {
+          "name": "Bitfinding",
+          "website": "https://bitfinding.com/"
+        },
+        "website": "https://unblind.app/",
+        "summary": "Get Telegram notifications with human-readable information of what you are about to sign.",
+        "description": "This Snap sends human-readable transaction summaries to your Telegram before you sign.\nIt simulates each transaction and delivers a plain-English summary to your account. This lets you clearly see asset movements and contract interactions, helping you spot potential risks like wallet drainers or unexpected token transfers.\n\nHow to Use:\n\n1.  Install the Snap and connect it to your Telegram account.\n2.  When you start a transaction, a summary will appear in your Telegram chat.\n3.  Review the details, then confirm the transaction in MetaMask.\n\nSecurity & Privacy:\n\nThe Snap has read-only access to transaction data to generate explanations. It cannot access your private keys, sign transactions, or modify your assets.\n",
+        "audits": [],
+        "category": "transaction insights",
+        "support": {
+          "knowledgeBase": "https://unblind.app",
+          "faq": "https://unblind.app",
+          "contact": "hello@bitfinding.com"
+        },
+        "sourceCode": "https://github.com/BitFinding/unblind-second-factor-snap",
+        "screenshots": [
+          "./images/@bitfinding/unblind-second-factor-snap/1.png",
+          "./images/@bitfinding/unblind-second-factor-snap/2.png",
+          "./images/@bitfinding/unblind-second-factor-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.3.0": {
+          "checksum": "TFShtGXesoy/yC1unUADT5KCt6jSwXG8wwXskWC0tZ4="
+        }
+      }
     }
   },
   "blockedSnaps": [
@@ -5258,6 +5326,10 @@
     {
       "id": "npm:onthis-snap",
       "versionRange": "<1.4.1"
+    },
+    {
+      "id": "npm:wallet-guard-snap",
+      "versionRange": "<1.1.3"
     }
   ]
 }
