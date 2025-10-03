@@ -5273,8 +5273,6 @@
         "audits": [],
         "category": "transaction insights",
         "support": {
-          "knowledgeBase": "https://unblind.app",
-          "faq": "https://unblind.app",
           "contact": "mailto:hello@bitfinding.com"
         },
         "sourceCode": "https://github.com/BitFinding/unblind-second-factor-snap",
