@@ -2798,20 +2798,8 @@
         ]
       },
       "versions": {
-        "0.8.5": {
-          "checksum": "Qf2AILs2sOJggiV2xWdLfEuS/wkyaY/YeysZ6bqAMf0="
-        },
-        "0.8.4": {
-          "checksum": "SoaG/3rijtC5asZQ1O2CIscHJ2Eqb9kW4wIqEAhUue8="
-        },
-        "0.8.3": {
-          "checksum": "cGKt6nNCMN6tJAyXdCH/6Pw2J9l2IvsY2uTjsIJiitk="
-        },
-        "0.7.3": {
-          "checksum": "tKTO2/Dru/fEinbw1Ag63I+wLT2aE/XX4XMHwzfS3ow="
-        },
-        "0.6.1": {
-          "checksum": "HbPS0L0HN5om/cXvYdWMoGn+hGfeS2dPqJ113OTjNH8="
+        "1.0.2": {
+          "checksum": "Q2AaPpeWKRY9bVboSZ03WfRTUb3oRDtebqzX89LbiX4="
         }
       }
     },
@@ -4116,6 +4104,9 @@
         },
         "1.1.6": {
           "checksum": "P2BbaJn6jb7+ecBF6mJJnheQ4j8dtEZ8O4FLqLv8e8M="
+        },
+        "2.0.0": {
+          "checksum": "bFMN5hlkguPBHNaiusJPWZh6yhFnTShcY1mu0Ko5YMM="
         }
       }
     },
@@ -5269,11 +5260,11 @@
         },
         "website": "https://unblind.app/",
         "summary": "Get Telegram notifications with human-readable information of what you are about to sign.",
-        "description": "This Snap sends human-readable transaction summaries to your Telegram before you sign.\nIt simulates each transaction and delivers a plain-English summary to your account. This lets you clearly see asset movements and contract interactions, helping you spot potential risks like wallet drainers or unexpected token transfers.\n\nHow to Use:\n\n1.  Install the Snap and connect it to your Telegram account.\n2.  When you start a transaction, a summary will appear in your Telegram chat.\n3.  Review the details, then confirm the transaction in MetaMask.\n\nSecurity & Privacy:\n\nThe Snap has read-only access to transaction data to generate explanations. It cannot access your private keys, sign transactions, or modify your assets.\n",
+        "description": "This Snap sends human-readable transaction summaries to your Telegram before you sign.\nIt simulates each transaction and delivers a plain-English summary to your account. This lets you clearly see asset movements and contract interactions, helping you spot potential risks like wallet drainers or unexpected token transfers.\n\nHow to Use:\n\n1.  Install the Snap and connect it to your Telegram account.\n2.  When you start a transaction, a summary will appear in your Telegram chat.\n3.  Review the details, then confirm the transaction in MetaMask.\n\nSecurity & Privacy:\n\nThe Snap has read-only access to transaction data to generate explanations. It cannot access your private keys, sign transactions, or modify your assets.",
         "audits": [],
         "category": "transaction insights",
         "support": {
-          "contact": "hello@bitfinding.com"
+          "contact": "mailto:hello@bitfinding.com"
         },
         "sourceCode": "https://github.com/BitFinding/unblind-second-factor-snap",
         "screenshots": [
@@ -5285,6 +5276,35 @@
       "versions": {
         "0.3.0": {
           "checksum": "TFShtGXesoy/yC1unUADT5KCt6jSwXG8wwXskWC0tZ4="
+        }
+      }
+    },
+    "npm:@obsidia/xnap": {
+      "id": "npm:@obsidia/xnap",
+      "metadata": {
+        "name": "Xnap: Nano Wallet",
+        "author": {
+          "name": "Obsidia",
+          "website": "https://obsidia.io/"
+        },
+        "website": "https://xnap.xyz/",
+        "summary": "Manage, send and receive Nano (XNO) in MetaMask",
+        "description": "Xnap lets you securely manage and transact with Nano (XNO) in MetaMask using your existing SRP. You can also approve dapp requests for transactions and message signing, which enables features like online micropayments and signing into applications.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://github.com/user-attachments/files/22505890/obsidia_xnap_audit_final.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:contact@obsidia.io"
+        },
+        "sourceCode": "https://github.com/ObsidiaHQ/xnap"
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "QB+pPN18cdO++DaUNIzbJHVNv28zMbiBmE1J/nXcEgs="
         }
       }
     },
@@ -5302,10 +5322,6 @@
           {
             "auditor": "Sayfer",
             "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-hathor/"
-          }
-        ],
-        "category": "interoperability",
-        "support": {
           "knowledgeBase": "https://docs.hathor.network/explanations/features/metamask-snap",
           "contact": "https://discord.com/invite/35mFEhk"
         },
