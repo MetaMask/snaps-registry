@@ -5322,6 +5322,10 @@
           {
             "auditor": "Sayfer",
             "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-hathor/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
           "knowledgeBase": "https://docs.hathor.network/explanations/features/metamask-snap",
           "contact": "https://discord.com/invite/35mFEhk"
         },
