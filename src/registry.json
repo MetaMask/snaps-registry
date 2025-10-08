@@ -3339,7 +3339,7 @@
           "website": "https://polkagate.xyz/"
         },
         "website": "https://apps.polkagate.xyz/",
-        "summary": "Manage accounts, connect to Polkadot dapps, and sign transactions.",
+        "summary": "Explore Polkadot dapps and manage your tokens using MetaMask.",
         "description": "Enables MetaMask to interact with tokens within the Polkadot ecosystem, including Polkadot, Kusama, and more.\n\nAfter installing the Snap, visit https://apps.polkagate.xyz/ to manage transactions such as fund transfers, staking, participating in crowdloans, and more.",
         "audits": [
           {
@@ -3361,11 +3361,8 @@
         ]
       },
       "versions": {
-        "2.2.4": {
-          "checksum": "1a3JuthQVJNJbNb9wjKjv5AkXf0bR0FtEdcqMsdha4Q="
-        },
-        "1.0.1": {
-          "checksum": "SB3s/WQzOn3g7Es76j+2IjNhx3AbxAMAW5M0TRJlXzs="
+        "2.3.1": {
+          "checksum": "VVLtY35DJ21xf19BNA+gxSI3NDBQUpk1FPYnSzS1op0="
         }
       }
     },
