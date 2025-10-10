@@ -2407,6 +2407,36 @@
         }
       }
     },
+    "npm:vaulta-wallet": {
+      "id": "npm:vaulta-wallet",
+      "metadata": {
+        "name": "Vaulta Wallet",
+        "author": {
+          "name": "Greymass, Inc.",
+          "website": "https://greymass.com"
+        },
+        "website": "https://unicove.com",
+        "summary": "Create a Vaulta account, sign transactions and interact with Vaulta smart contracts.",
+        "description": "The Vaulta Wallet enables you to create a Vaulta account, sign transactions and interact with Vaulta smart contracts. After installing the Vaulta Wallet, visit the companion dapp, Unicove, to create and manage your Vaulta account. On Unicove you can stake Vaulta, participate in the RAM market and more. Dapp compatibility is expected to grow, which will expand access to the Vaulta Ecosystem.\n\nNeed any additional information or support? Feel free to visit our knowledge base or reach out to our support team (support@greymass.com). If you're a developer and would like to support MetaMask in your Vaulta application, please check out Wharf and the MetaMask Wallet Plugin.\n\nLinks:\nUnicove: https://unicove.com\nKnowledge Base: https://greymass.freshdesk.com/support/solutions/categories/72000352473/\nWharf: https://wharfkit.com/\nMetaMask Wallet Plugin: https://github.com/wharfkit/wallet-plugin-metamask",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://cure53.de/pentest-report_antelope-snap.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:support@greymass.com",
+          "knowledgeBase": "https://greymass.freshdesk.com/support/solutions/categories/72000352473"
+        },
+        "sourceCode": "https://github.com/greymass/antelope-snap/tree/vaulta"
+      },
+      "versions": {
+        "1.1.1": {
+          "checksum": "bbqcKS92PhHJ1PwE+e1IP/JL8SQT1ZwVLOFNdzs7G80="
+        }
+      }
+    },
     "npm:@web3mq/snap": {
       "id": "npm:@web3mq/snap",
       "metadata": {
