@@ -2922,6 +2922,9 @@
         "sourceCode": "https://github.com/bitpanda-labs/trust-vault-snap"
       },
       "versions": {
+        "1.0.0": {
+          "checksum": "RYAYosxly2V4GWk1KBOvZWOcl8t5iFw0Mkyi+vVqwVU="
+        },
         "0.1.11": {
           "checksum": "VqDQKQSUmSWoh4zVTKver6aGjqrGbVik4Z1QpoS/Liw="
         }
