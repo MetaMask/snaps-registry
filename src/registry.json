@@ -2407,6 +2407,36 @@
         }
       }
     },
+    "npm:vaulta-wallet": {
+      "id": "npm:vaulta-wallet",
+      "metadata": {
+        "name": "Vaulta Wallet",
+        "author": {
+          "name": "Greymass, Inc.",
+          "website": "https://greymass.com"
+        },
+        "website": "https://unicove.com",
+        "summary": "Create a Vaulta account, sign transactions and interact with Vaulta smart contracts.",
+        "description": "The Vaulta Wallet enables you to create a Vaulta account, sign transactions and interact with Vaulta smart contracts. After installing the Vaulta Wallet, visit the companion dapp, Unicove, to create and manage your Vaulta account. On Unicove you can stake Vaulta, participate in the RAM market and more. Dapp compatibility is expected to grow, which will expand access to the Vaulta Ecosystem.\n\nNeed any additional information or support? Feel free to visit our knowledge base or reach out to our support team (support@greymass.com). If you're a developer and would like to support MetaMask in your Vaulta application, please check out Wharf and the MetaMask Wallet Plugin.\n\nLinks:\nUnicove: https://unicove.com\nKnowledge Base: https://greymass.freshdesk.com/support/solutions/categories/72000352473/\nWharf: https://wharfkit.com/\nMetaMask Wallet Plugin: https://github.com/wharfkit/wallet-plugin-metamask",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://cure53.de/pentest-report_antelope-snap.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:support@greymass.com",
+          "knowledgeBase": "https://greymass.freshdesk.com/support/solutions/categories/72000352473"
+        },
+        "sourceCode": "https://github.com/greymass/antelope-snap/tree/vaulta"
+      },
+      "versions": {
+        "1.1.1": {
+          "checksum": "bbqcKS92PhHJ1PwE+e1IP/JL8SQT1ZwVLOFNdzs7G80="
+        }
+      }
+    },
     "npm:@web3mq/snap": {
       "id": "npm:@web3mq/snap",
       "metadata": {
@@ -2798,20 +2828,8 @@
         ]
       },
       "versions": {
-        "0.8.5": {
-          "checksum": "Qf2AILs2sOJggiV2xWdLfEuS/wkyaY/YeysZ6bqAMf0="
-        },
-        "0.8.4": {
-          "checksum": "SoaG/3rijtC5asZQ1O2CIscHJ2Eqb9kW4wIqEAhUue8="
-        },
-        "0.8.3": {
-          "checksum": "cGKt6nNCMN6tJAyXdCH/6Pw2J9l2IvsY2uTjsIJiitk="
-        },
-        "0.7.3": {
-          "checksum": "tKTO2/Dru/fEinbw1Ag63I+wLT2aE/XX4XMHwzfS3ow="
-        },
-        "0.6.1": {
-          "checksum": "HbPS0L0HN5om/cXvYdWMoGn+hGfeS2dPqJ113OTjNH8="
+        "1.0.3": {
+          "checksum": "AHgbUp1j76tTsoLLDTm3l3A+y0+qrYtGr3gCU+H/zHg="
         }
       }
     },
@@ -3194,11 +3212,14 @@
         ]
       },
       "versions": {
-        "0.3.6": {
-          "checksum": "cK4lFDwnXVXWPx/Up70KRwOVSXMLfe86aBLSEX9EIJk="
+        "0.3.8": {
+          "checksum": "6IkxDk97x3m3oqwFfD6xhjv+oWm3eew1To2qNKF9qsk="
         },
         "0.3.7": {
           "checksum": "PAe6xX5jfqaxtRw8/tTxEDkB6lj9FcW2Z/DCttgix7U="
+        },
+        "0.3.6": {
+          "checksum": "cK4lFDwnXVXWPx/Up70KRwOVSXMLfe86aBLSEX9EIJk="
         }
       }
     },
@@ -3318,7 +3339,7 @@
           "website": "https://polkagate.xyz/"
         },
         "website": "https://apps.polkagate.xyz/",
-        "summary": "Manage accounts, connect to Polkadot dapps, and sign transactions.",
+        "summary": "Explore Polkadot dapps and manage your tokens using MetaMask.",
         "description": "Enables MetaMask to interact with tokens within the Polkadot ecosystem, including Polkadot, Kusama, and more.\n\nAfter installing the Snap, visit https://apps.polkagate.xyz/ to manage transactions such as fund transfers, staking, participating in crowdloans, and more.",
         "audits": [
           {
@@ -3340,11 +3361,8 @@
         ]
       },
       "versions": {
-        "2.2.4": {
-          "checksum": "1a3JuthQVJNJbNb9wjKjv5AkXf0bR0FtEdcqMsdha4Q="
-        },
-        "1.0.1": {
-          "checksum": "SB3s/WQzOn3g7Es76j+2IjNhx3AbxAMAW5M0TRJlXzs="
+        "2.3.1": {
+          "checksum": "VVLtY35DJ21xf19BNA+gxSI3NDBQUpk1FPYnSzS1op0="
         }
       }
     },
@@ -4113,6 +4131,9 @@
         },
         "1.1.6": {
           "checksum": "P2BbaJn6jb7+ecBF6mJJnheQ4j8dtEZ8O4FLqLv8e8M="
+        },
+        "2.0.0": {
+          "checksum": "bFMN5hlkguPBHNaiusJPWZh6yhFnTShcY1mu0Ko5YMM="
         }
       }
     },
@@ -4729,13 +4750,13 @@
     "npm:social-names-snap": {
       "id": "npm:social-names-snap",
       "metadata": {
-        "name": "Social Names",
+        "name": "Farcaster Names",
         "author": {
           "name": "Christian Montoya",
           "website": "https://github.com/Montoya"
         },
-        "summary": "Use Farcaster and Lens usernames.",
-        "description": "Adds support for Farcaster and Lens handles to MetaMask.\n\nIn the MetaMask send flow, type a Lens handle like m0nt0y4.lens or a Farcaster username like farcaster:m0nt0y4 or fc:m0nt0y4 to resolve to the associated Ethereum address.\n\nYou will also see suggested Farcaster and Lens handles when interacting with addresses in MetaMask.",
+        "summary": "Use Farcaster names (fnames) in MetaMask",
+        "description": "Adds support for Farcaster names to MetaMask.\n\nIn the MetaMask send flow, type a Farcaster username like dwr.fcast.id or v.farcaster to resolve to their Farcaster wallet addresses and verified addresses.\n\nYou will also see suggested Farcaster names when interacting with addresses in MetaMask.",
         "category": "name resolution",
         "support": {
           "contact": "https://github.com/Montoya/social-names-snap/issues"
@@ -4748,8 +4769,8 @@
         ]
       },
       "versions": {
-        "0.1.3": {
-          "checksum": "ACPnWAXyf2A/qkemSFnWJWdesyYJ7sXGcugPX3cvwhs="
+        "0.3.0": {
+          "checksum": "8/GfXWzWfCCCuKeEmqnExFPK2rPYd+IsVSn1d0rmHxM="
         }
       }
     },
@@ -5072,12 +5093,15 @@
         },
         "sourceCode": "https://github.com/mindsend-datatech/kadena-snap",
         "screenshots": [
-          "./images/@mindsend/kadena-snap/1.png",
+          "./images/@mindsend/kadena-snap/1.jpg",
           "./images/@mindsend/kadena-snap/2.png",
           "./images/@mindsend/kadena-snap/3.png"
         ]
       },
       "versions": {
+        "1.0.8": {
+          "checksum": "suin9Czu4rPMzho6A3LHgqTkdlUhHmlDg0ZwBOnYDbY="
+        },
         "1.0.7": {
           "checksum": "cJcquQhDsvEpUc7EvHSwJ4UHMeqpiuJ7JO+G2pNu85w="
         }
@@ -5092,7 +5116,7 @@
           "website": "https://cyfrin.io/"
         },
         "summary": "Debug and describe transactions with Claude AI",
-        "description": "Use AI to explain what your transactions are doing!\n\nThis snap can identify address poisoning, malicious tokens, and other types of attacks! Of course, the AI can make mistakes, so be sure to do your own due diligence as well.\n\nHow to use\n\n1. Get a Claude API Key: https://console.anthropic.com/settings/workspaces/default/keys\n\n2. Configure the Snap:\n - Click on the Snap in MetaMask (Menu → Snaps → AI Transaction Explainer)\n - Paste your Claude API key and click 'Save API Key'\n - Choose your preferred model:\n -- Claude Opus 4: Most capable, best for complex transactions\n -- Claude Sonnet 4: Balanced performance and speed\n -- Claude Sonnet 3.7: Fastest responses\n- Toggle 'Auto-Explain' based on your preference\n\nAnd boom! Now the next transaction you make, you can have your MetaMask AI try to figure out what your transaction is doing.\n\nWatch this demo video for an in-depth explanation: https://youtu.be/jcFhv8AM2pU",
+        "description": "Use AI to explain what your transactions are doing!\n\nThis Snap can identify address poisoning, malicious tokens, and other types of attacks! Of course, the AI can make mistakes, so be sure to do your own due diligence as well.\n\nFeatures\n\n1. Built-in buttons to quickly send transaction/signature context to your AI of choice\n2. EIP-712 hash calculation directly in MetaMask\n3. Auto-explain mode for seamless transaction analysis\n4. Buttons to bring your hex data to an ABI decoding site for further inspection\n\nThese buttons directly in MetaMask will help give context to AIs quickly.\n\nFor using the 'auto-explain' feature:\n1. Get a Claude API Key: https://console.anthropic.com/settings/workspaces/default/keys\n\n2. Configure the Snap:\n - Click on the Snap in MetaMask (Menu → Snaps → AI Transaction Explainer)\n - Paste your Claude API key and click 'Save API Key'\n - Choose your preferred model:\n -- Claude Opus 4: Most capable, best for complex transactions\n -- Claude Sonnet 4: Balanced performance and speed\n -- Claude Sonnet 3.7: Fastest responses\n- Toggle 'Auto-Explain' based on your preference\n\nAnd boom! Now the next transaction you make, you can have your MetaMask AI try to figure out what your transaction is doing.\n\nWatch this demo video for an in-depth explanation: https://youtu.be/jcFhv8AM2pU",
         "category": "transaction insights",
         "support": {
           "contact": "https://discord.gg/sccXzKDVJp",
@@ -5101,6 +5125,9 @@
         "sourceCode": "https://github.com/PatrickAlphaC/wise-signer-snap"
       },
       "versions": {
+        "0.0.8": {
+          "checksum": "tMZlRlqkvRRu/9t3TKVUVDK0JYZdusbxD7G5LycyNgo="
+        },
         "0.0.6": {
           "checksum": "NoH023QOfvuux+k46mM8haUg3Mg5uNrAc3mU+RJFl0Y="
         }
@@ -5183,8 +5210,8 @@
         "sourceCode": "https://github.com/Liquidlink-Lab/iota-metamask-snap"
       },
       "versions": {
-        "0.0.8": {
-          "checksum": "NMMaC9gYtSgSoTe9rlR1eMpYtq4DSt8ueEPDNfn+goU="
+        "0.0.13": {
+          "checksum": "1bEBFwHDL6ceclWaXT31Gn6ton8Upfuqi9HuLmnmrK4="
         }
       }
     },
@@ -5247,6 +5274,64 @@
       "versions": {
         "1.0.9": {
           "checksum": "ZBO5amqeB4r5rjui+CDr3mpSE33h9KmOvkav6GM9w+k="
+        }
+      }
+    },
+    "npm:@bitfinding/unblind-second-factor-snap": {
+      "id": "npm:@bitfinding/unblind-second-factor-snap",
+      "metadata": {
+        "name": "Unblind Second Factor",
+        "author": {
+          "name": "Bitfinding",
+          "website": "https://bitfinding.com/"
+        },
+        "website": "https://unblind.app/",
+        "summary": "Get Telegram notifications with human-readable information of what you are about to sign.",
+        "description": "This Snap sends human-readable transaction summaries to your Telegram before you sign.\nIt simulates each transaction and delivers a plain-English summary to your account. This lets you clearly see asset movements and contract interactions, helping you spot potential risks like wallet drainers or unexpected token transfers.\n\nHow to Use:\n\n1.  Install the Snap and connect it to your Telegram account.\n2.  When you start a transaction, a summary will appear in your Telegram chat.\n3.  Review the details, then confirm the transaction in MetaMask.\n\nSecurity & Privacy:\n\nThe Snap has read-only access to transaction data to generate explanations. It cannot access your private keys, sign transactions, or modify your assets.",
+        "audits": [],
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:hello@bitfinding.com"
+        },
+        "sourceCode": "https://github.com/BitFinding/unblind-second-factor-snap",
+        "screenshots": [
+          "./images/@bitfinding/unblind-second-factor-snap/1.png",
+          "./images/@bitfinding/unblind-second-factor-snap/2.png",
+          "./images/@bitfinding/unblind-second-factor-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.3.0": {
+          "checksum": "TFShtGXesoy/yC1unUADT5KCt6jSwXG8wwXskWC0tZ4="
+        }
+      }
+    },
+    "npm:@obsidia/xnap": {
+      "id": "npm:@obsidia/xnap",
+      "metadata": {
+        "name": "Xnap: Nano Wallet",
+        "author": {
+          "name": "Obsidia",
+          "website": "https://obsidia.io/"
+        },
+        "website": "https://xnap.xyz/",
+        "summary": "Manage, send and receive Nano (XNO) in MetaMask",
+        "description": "Xnap lets you securely manage and transact with Nano (XNO) in MetaMask using your existing SRP. You can also approve dapp requests for transactions and message signing, which enables features like online micropayments and signing into applications.",
+        "audits": [
+          {
+            "auditor": "OtterSec",
+            "report": "https://github.com/user-attachments/files/22505890/obsidia_xnap_audit_final.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:contact@obsidia.io"
+        },
+        "sourceCode": "https://github.com/ObsidiaHQ/xnap"
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "QB+pPN18cdO++DaUNIzbJHVNv28zMbiBmE1J/nXcEgs="
         }
       }
     },
