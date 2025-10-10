@@ -4750,13 +4750,13 @@
     "npm:social-names-snap": {
       "id": "npm:social-names-snap",
       "metadata": {
-        "name": "Social Names",
+        "name": "Farcaster Names",
         "author": {
           "name": "Christian Montoya",
           "website": "https://github.com/Montoya"
         },
-        "summary": "Use Farcaster and Lens usernames.",
-        "description": "Adds support for Farcaster and Lens handles to MetaMask.\n\nIn the MetaMask send flow, type a Lens handle like m0nt0y4.lens or a Farcaster username like farcaster:m0nt0y4 or fc:m0nt0y4 to resolve to the associated Ethereum address.\n\nYou will also see suggested Farcaster and Lens handles when interacting with addresses in MetaMask.",
+        "summary": "Use Farcaster names (fnames) in MetaMask",
+        "description": "Adds support for Farcaster names to MetaMask.\n\nIn the MetaMask send flow, type a Farcaster username like dwr.fcast.id or v.farcaster to resolve to their Farcaster wallet addresses and verified addresses.\n\nYou will also see suggested Farcaster names when interacting with addresses in MetaMask.",
         "category": "name resolution",
         "support": {
           "contact": "https://github.com/Montoya/social-names-snap/issues"
@@ -4769,8 +4769,8 @@
         ]
       },
       "versions": {
-        "0.1.3": {
-          "checksum": "ACPnWAXyf2A/qkemSFnWJWdesyYJ7sXGcugPX3cvwhs="
+        "0.3.0": {
+          "checksum": "8/GfXWzWfCCCuKeEmqnExFPK2rPYd+IsVSn1d0rmHxM="
         }
       }
     },
