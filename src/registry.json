@@ -2407,6 +2407,36 @@
         }
       }
     },
+    "npm:vaulta-wallet": {
+      "id": "npm:vaulta-wallet",
+      "metadata": {
+        "name": "Vaulta Wallet",
+        "author": {
+          "name": "Greymass, Inc.",
+          "website": "https://greymass.com"
+        },
+        "website": "https://unicove.com",
+        "summary": "Create a Vaulta account, sign transactions and interact with Vaulta smart contracts.",
+        "description": "The Vaulta Wallet enables you to create a Vaulta account, sign transactions and interact with Vaulta smart contracts. After installing the Vaulta Wallet, visit the companion dapp, Unicove, to create and manage your Vaulta account. On Unicove you can stake Vaulta, participate in the RAM market and more. Dapp compatibility is expected to grow, which will expand access to the Vaulta Ecosystem.\n\nNeed any additional information or support? Feel free to visit our knowledge base or reach out to our support team (support@greymass.com). If you're a developer and would like to support MetaMask in your Vaulta application, please check out Wharf and the MetaMask Wallet Plugin.\n\nLinks:\nUnicove: https://unicove.com\nKnowledge Base: https://greymass.freshdesk.com/support/solutions/categories/72000352473/\nWharf: https://wharfkit.com/\nMetaMask Wallet Plugin: https://github.com/wharfkit/wallet-plugin-metamask",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://cure53.de/pentest-report_antelope-snap.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:support@greymass.com",
+          "knowledgeBase": "https://greymass.freshdesk.com/support/solutions/categories/72000352473"
+        },
+        "sourceCode": "https://github.com/greymass/antelope-snap/tree/vaulta"
+      },
+      "versions": {
+        "1.1.1": {
+          "checksum": "bbqcKS92PhHJ1PwE+e1IP/JL8SQT1ZwVLOFNdzs7G80="
+        }
+      }
+    },
     "npm:@web3mq/snap": {
       "id": "npm:@web3mq/snap",
       "metadata": {
@@ -2798,8 +2828,8 @@
         ]
       },
       "versions": {
-        "1.0.2": {
-          "checksum": "Q2AaPpeWKRY9bVboSZ03WfRTUb3oRDtebqzX89LbiX4="
+        "1.0.3": {
+          "checksum": "AHgbUp1j76tTsoLLDTm3l3A+y0+qrYtGr3gCU+H/zHg="
         }
       }
     },
@@ -2892,6 +2922,9 @@
         "sourceCode": "https://github.com/bitpanda-labs/trust-vault-snap"
       },
       "versions": {
+        "1.0.0": {
+          "checksum": "RYAYosxly2V4GWk1KBOvZWOcl8t5iFw0Mkyi+vVqwVU="
+        },
         "0.1.11": {
           "checksum": "VqDQKQSUmSWoh4zVTKver6aGjqrGbVik4Z1QpoS/Liw="
         }
@@ -3309,7 +3342,7 @@
           "website": "https://polkagate.xyz/"
         },
         "website": "https://apps.polkagate.xyz/",
-        "summary": "Manage accounts, connect to Polkadot dapps, and sign transactions.",
+        "summary": "Explore Polkadot dapps and manage your tokens using MetaMask.",
         "description": "Enables MetaMask to interact with tokens within the Polkadot ecosystem, including Polkadot, Kusama, and more.\n\nAfter installing the Snap, visit https://apps.polkagate.xyz/ to manage transactions such as fund transfers, staking, participating in crowdloans, and more.",
         "audits": [
           {
@@ -3331,11 +3364,8 @@
         ]
       },
       "versions": {
-        "2.2.4": {
-          "checksum": "1a3JuthQVJNJbNb9wjKjv5AkXf0bR0FtEdcqMsdha4Q="
-        },
-        "1.0.1": {
-          "checksum": "SB3s/WQzOn3g7Es76j+2IjNhx3AbxAMAW5M0TRJlXzs="
+        "2.3.1": {
+          "checksum": "VVLtY35DJ21xf19BNA+gxSI3NDBQUpk1FPYnSzS1op0="
         }
       }
     },
@@ -4723,13 +4753,13 @@
     "npm:social-names-snap": {
       "id": "npm:social-names-snap",
       "metadata": {
-        "name": "Social Names",
+        "name": "Farcaster Names",
         "author": {
           "name": "Christian Montoya",
           "website": "https://github.com/Montoya"
         },
-        "summary": "Use Farcaster and Lens usernames.",
-        "description": "Adds support for Farcaster and Lens handles to MetaMask.\n\nIn the MetaMask send flow, type a Lens handle like m0nt0y4.lens or a Farcaster username like farcaster:m0nt0y4 or fc:m0nt0y4 to resolve to the associated Ethereum address.\n\nYou will also see suggested Farcaster and Lens handles when interacting with addresses in MetaMask.",
+        "summary": "Use Farcaster names (fnames) in MetaMask",
+        "description": "Adds support for Farcaster names to MetaMask.\n\nIn the MetaMask send flow, type a Farcaster username like dwr.fcast.id or v.farcaster to resolve to their Farcaster wallet addresses and verified addresses.\n\nYou will also see suggested Farcaster names when interacting with addresses in MetaMask.",
         "category": "name resolution",
         "support": {
           "contact": "https://github.com/Montoya/social-names-snap/issues"
@@ -4742,8 +4772,8 @@
         ]
       },
       "versions": {
-        "0.1.3": {
-          "checksum": "ACPnWAXyf2A/qkemSFnWJWdesyYJ7sXGcugPX3cvwhs="
+        "0.3.0": {
+          "checksum": "8/GfXWzWfCCCuKeEmqnExFPK2rPYd+IsVSn1d0rmHxM="
         }
       }
     },
@@ -5305,6 +5335,39 @@
       "versions": {
         "1.0.0": {
           "checksum": "QB+pPN18cdO++DaUNIzbJHVNv28zMbiBmE1J/nXcEgs="
+        }
+      }
+    },
+    "npm:@postfiat/pftl-snap": {
+      "id": "npm:@postfiat/pftl-snap",
+      "metadata": {
+        "name": "PFTL",
+        "author": {
+          "name": "Post Fiat",
+          "website": "https://postfiat.org/"
+        },
+        "summary": "Connect to the Post Fiat blockchain.",
+        "description": "If you have a MetaMask wallet now you have an PFTL one. Securely manage your PFT and interact with PFTL-based dapps directly from MetaMask.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-thewarp/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/T4G78kveD5"
+        },
+        "sourceCode": "https://github.com/postfiatorg/pftl-snap",
+        "screenshots": [
+          "./images/@postfiat/pftl-snap/1.png",
+          "./images/@postfiat/pftl-snap/2.png",
+          "./images/@postfiat/pftl-snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.1.5": {
+          "checksum": "54X1+6twNRyYEgWygzpnfYrb1VyOxk3+5i3SLmxev40="
         }
       }
     },
