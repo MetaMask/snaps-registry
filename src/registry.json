@@ -5370,6 +5370,40 @@
           "checksum": "54X1+6twNRyYEgWygzpnfYrb1VyOxk3+5i3SLmxev40="
         }
       }
+    },
+    "npm:@hathor/snap": {
+      "id": "npm:@hathor/snap",
+      "metadata": {
+        "name": "Hathor Wallet",
+        "author": {
+          "name": "Hathor Labs",
+          "website": "https://hathor.network/"
+        },
+        "summary": "View and sign transactions on Hathor Network, and interact with dapps built with Nano Contracts.",
+        "description": "Features: \n\n - Send and receive HTR and custom tokens \n - Create Token \n - Create Nano Contract \n - View your balance \n - View addresses and get new address \n\nExpect many new features soon!",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-hathor/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://docs.hathor.network/explanations/features/metamask-snap",
+          "contact": "https://discord.com/invite/35mFEhk"
+        },
+        "sourceCode": "https://github.com/HathorNetwork/hathor-rpc-lib",
+        "screenshots": [
+          "./images/@hathor/snap/1.jpg",
+          "./images/@hathor/snap/2.jpg",
+          "./images/@hathor/snap/3.jpg"
+        ]
+      },
+      "versions": {
+        "0.1.0": {
+          "checksum": "yAUQ+DAfX+0AgqZGrDSyi9sonZNa2qcc/+ykDvU2SMY="
+        }
+      }
     }
   },
   "blockedSnaps": [
