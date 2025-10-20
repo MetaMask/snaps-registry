@@ -5372,6 +5372,28 @@
           "checksum": "yAUQ+DAfX+0AgqZGrDSyi9sonZNa2qcc/+ykDvU2SMY="
         }
       }
+    },
+    "npm:metamask-aura-connect-snap": {
+      "id": "npm:metamask-aura-connect-snap",
+      "metadata": {
+        "name": "Aura Connect",
+        "author": {
+          "name": "Thomas McMillan",
+          "website": "https://github.com/tomm696"
+        },
+        "summary": "Personalized DeFi insights through Aura's AI agent services",
+        "description": "Aura Connect is an unofficial, community-built, and fully open-source MetaMask Snap that integrates AdEx Aura — an AI-driven DeFi recommendation engine.\n\nIt enables MetaMask users to explore personalized DeFi strategies, insights, and wallet-based recommendations powered by Aura’s public APIs.\n\nWhat is AdEx Aura?\nAdEx Aura is a personal AI agent framework that generates secure, high-impact DeFi strategy recommendations.\n\nLearn more about AdEx Aura at https://www.adex.network\n\nWith Aura Connect, users can:\n\nConnect their MetaMask wallet to Aura seamlessly.\n\nView real-time strategy suggestions tailored to their on-chain activity for each of their accounts.\n\nExplore actionable DeFi opportunities directly within MetaMask.\n\nNo private keys or user data leave MetaMask — all data is fetched securely via public Aura endpoints.\n\nThis Snap is developed and maintained by the community, not officially affiliated with AdEx or MetaMask.",
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://github.com/tomm696/metamask-aura-snap/blob/master/FAQ.md"
+        },
+        "sourceCode": "https://github.com/tomm696/metamask-aura-snap"
+      },
+      "versions": {
+        "0.1.3": {
+          "checksum": "6cTbPF+lwg+I5220cEdchHMz4UA9lQz4KFXv7Ouy1II="
+        }
+      }
     }
   },
   "blockedSnaps": [
