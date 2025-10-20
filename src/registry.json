@@ -1550,6 +1550,9 @@
         ]
       },
       "versions": {
+        "2.0.0": {
+          "checksum": "wkW7IjpfJtBGGkFDJNqsZvovlqC20TPFqn+POnbrK0g="
+        },
         "1.0.2": {
           "checksum": "mlWGyqeOgzYwnAsDYlSptuZX0GJHH+idXVA9rvuDnRI="
         }
