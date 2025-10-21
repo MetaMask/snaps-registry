@@ -18,13 +18,16 @@ on:
         required: false
         type: string
         default: 'MetaMask bot'
+      environment:
+        required: true
+        type: string
     secrets:
       REGISTRY_PRIVATE_KEY:
         required: true
       SLACK_WEBHOOK_URL:
         required: false
       REPUBLISH_DIRECTORY_TOKEN:
-        required: true
+        required: false
 
 jobs:
   check-updated:
@@ -48,7 +51,7 @@ jobs:
   announce-publish-registry:
     name: Announce registry publish
     needs: check-updated
-    if: ${{ needs.check-updated.outputs.UPDATED == 'true' }}
+    if: ${{ inputs.environment == 'deploy-prod' && needs.check-updated.outputs.UPDATED == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout and setup environment
@@ -93,9 +96,8 @@ jobs:
 
   publish-registry:
     name: Deploy registry to remote storage
-    # It's not possible to set the env using input variables - https://github.com/actions/runner/issues/998
-    # Hardcoded for now
-    environment: deploy-prod
+    environment:
+      name: ${{ inputs.environment }}
     needs:
       - announce-publish-registry
       - check-updated
@@ -134,6 +136,7 @@ jobs:
 
   republish-directory:
     name: Republish directory
+    if: ${{ inputs.environment == 'deploy-prod' }}
     needs:
       - publish-registry
     runs-on: ubuntu-latest
