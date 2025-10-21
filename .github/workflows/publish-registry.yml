@@ -51,7 +51,7 @@ jobs:
   announce-publish-registry:
     name: Announce registry publish
     needs: check-updated
-    if: ${{ inputs.environment == 'deploy-prod' && needs.check-updated.outputs.UPDATED == 'true' }}
+    if: ${{ needs.check-updated.outputs.UPDATED == 'true' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout and setup environment
