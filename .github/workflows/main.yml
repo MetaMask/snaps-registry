@@ -80,6 +80,7 @@ jobs:
       environment: deploy-prod
     secrets:
       REGISTRY_PRIVATE_KEY: ${{ secrets.REGISTRY_PRIVATE_KEY }}
+      REGISTRY_PUBLIC_KEY: ${{ secrets.REGISTRY_PUBLIC_KEY }}
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
       REPUBLISH_DIRECTORY_TOKEN: ${{ secrets.REPUBLISH_DIRECTORY_TOKEN }}
 
