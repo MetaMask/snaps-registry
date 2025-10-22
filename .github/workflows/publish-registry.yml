@@ -24,6 +24,8 @@ on:
     secrets:
       REGISTRY_PRIVATE_KEY:
         required: true
+      REGISTRY_PUBLIC_KEY:
+        required: true
       SLACK_WEBHOOK_URL:
         required: false
       REPUBLISH_DIRECTORY_TOKEN:
