@@ -96,6 +96,7 @@ jobs:
       environment: deploy-dev
     secrets:
       REGISTRY_PRIVATE_KEY: ${{ secrets.REGISTRY_PRIVATE_KEY }}
+      REGISTRY_PUBLIC_KEY: ${{ secrets.REGISTRY_PUBLIC_KEY }}
 
   is-release:
     # Filtering by `push` events ensures that we only release from the `main` branch, which is a
