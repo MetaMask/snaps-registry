@@ -1550,6 +1550,9 @@
         ]
       },
       "versions": {
+        "2.0.0": {
+          "checksum": "wkW7IjpfJtBGGkFDJNqsZvovlqC20TPFqn+POnbrK0g="
+        },
         "1.0.2": {
           "checksum": "mlWGyqeOgzYwnAsDYlSptuZX0GJHH+idXVA9rvuDnRI="
         }
@@ -2407,6 +2410,36 @@
         }
       }
     },
+    "npm:vaulta-wallet": {
+      "id": "npm:vaulta-wallet",
+      "metadata": {
+        "name": "Vaulta Wallet",
+        "author": {
+          "name": "Greymass, Inc.",
+          "website": "https://greymass.com"
+        },
+        "website": "https://unicove.com",
+        "summary": "Create a Vaulta account, sign transactions and interact with Vaulta smart contracts.",
+        "description": "The Vaulta Wallet enables you to create a Vaulta account, sign transactions and interact with Vaulta smart contracts. After installing the Vaulta Wallet, visit the companion dapp, Unicove, to create and manage your Vaulta account. On Unicove you can stake Vaulta, participate in the RAM market and more. Dapp compatibility is expected to grow, which will expand access to the Vaulta Ecosystem.\n\nNeed any additional information or support? Feel free to visit our knowledge base or reach out to our support team (support@greymass.com). If you're a developer and would like to support MetaMask in your Vaulta application, please check out Wharf and the MetaMask Wallet Plugin.\n\nLinks:\nUnicove: https://unicove.com\nKnowledge Base: https://greymass.freshdesk.com/support/solutions/categories/72000352473/\nWharf: https://wharfkit.com/\nMetaMask Wallet Plugin: https://github.com/wharfkit/wallet-plugin-metamask",
+        "audits": [
+          {
+            "auditor": "Cure53",
+            "report": "https://cure53.de/pentest-report_antelope-snap.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:support@greymass.com",
+          "knowledgeBase": "https://greymass.freshdesk.com/support/solutions/categories/72000352473"
+        },
+        "sourceCode": "https://github.com/greymass/antelope-snap/tree/vaulta"
+      },
+      "versions": {
+        "1.1.1": {
+          "checksum": "bbqcKS92PhHJ1PwE+e1IP/JL8SQT1ZwVLOFNdzs7G80="
+        }
+      }
+    },
     "npm:@web3mq/snap": {
       "id": "npm:@web3mq/snap",
       "metadata": {
@@ -2798,8 +2831,8 @@
         ]
       },
       "versions": {
-        "1.0.2": {
-          "checksum": "Q2AaPpeWKRY9bVboSZ03WfRTUb3oRDtebqzX89LbiX4="
+        "1.0.3": {
+          "checksum": "AHgbUp1j76tTsoLLDTm3l3A+y0+qrYtGr3gCU+H/zHg="
         }
       }
     },
@@ -2892,6 +2925,9 @@
         "sourceCode": "https://github.com/bitpanda-labs/trust-vault-snap"
       },
       "versions": {
+        "1.0.0": {
+          "checksum": "RYAYosxly2V4GWk1KBOvZWOcl8t5iFw0Mkyi+vVqwVU="
+        },
         "0.1.11": {
           "checksum": "VqDQKQSUmSWoh4zVTKver6aGjqrGbVik4Z1QpoS/Liw="
         }
@@ -3309,7 +3345,7 @@
           "website": "https://polkagate.xyz/"
         },
         "website": "https://apps.polkagate.xyz/",
-        "summary": "Manage accounts, connect to Polkadot dapps, and sign transactions.",
+        "summary": "Explore Polkadot dapps and manage your tokens using MetaMask.",
         "description": "Enables MetaMask to interact with tokens within the Polkadot ecosystem, including Polkadot, Kusama, and more.\n\nAfter installing the Snap, visit https://apps.polkagate.xyz/ to manage transactions such as fund transfers, staking, participating in crowdloans, and more.",
         "audits": [
           {
@@ -3331,11 +3367,8 @@
         ]
       },
       "versions": {
-        "2.2.4": {
-          "checksum": "1a3JuthQVJNJbNb9wjKjv5AkXf0bR0FtEdcqMsdha4Q="
-        },
-        "1.0.1": {
-          "checksum": "SB3s/WQzOn3g7Es76j+2IjNhx3AbxAMAW5M0TRJlXzs="
+        "2.3.1": {
+          "checksum": "VVLtY35DJ21xf19BNA+gxSI3NDBQUpk1FPYnSzS1op0="
         }
       }
     },
@@ -3492,41 +3525,6 @@
       "versions": {
         "0.1.5": {
           "checksum": "WcJJDtL+Bu5uhIM09M0wwor4SzVq35nujZQ4ncFtjsg="
-        }
-      }
-    },
-    "npm:@harbour-fi/ramp-snap": {
-      "id": "npm:@harbour-fi/ramp-snap",
-      "metadata": {
-        "name": "Magic Ramp",
-        "author": {
-          "name": "Harbour Technologies Limited",
-          "website": "https://www.harbour.fi"
-        },
-        "website": "https://snap.harbour.fi/",
-        "summary": "Experience seamless transfers between bank accounts and your wallet.",
-        "description": "Transfer assets between your existing bank accounts and MetaMask wallet instantly, with one click. And save on fees at the same time.\n\nWith the Magic Ramp you get your own unique Magic IBAN, in your name, linked to your MetaMask wallet. Simply make a normal bank transfer to your Magic IBAN and seconds later receive stablecoins on your MetaMask wallet.\n\nTo offramp, simply sign a transaction in your MetaMask Wallet and seconds later, receive EUR in your everyday bank account.\n\nSimple, fast, effective.",
-        "audits": [
-          {
-            "auditor": "Sayfer",
-            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-harbour/"
-          }
-        ],
-        "category": "interoperability",
-        "support": {
-          "contact": "mailto:help@harbour.fi",
-          "faq": "https://docs.google.com/document/d/1Dn05rJsfivX7rXhuy14OdzzQbb_qzMaRxuBYc1hUgR0/edit?usp=sharing"
-        },
-        "sourceCode": "https://github.com/harbour-tech/app-web-ramp",
-        "screenshots": [
-          "./images/@harbour-fi/ramp-snap/1.png",
-          "./images/@harbour-fi/ramp-snap/2.png",
-          "./images/@harbour-fi/ramp-snap/3.png"
-        ]
-      },
-      "versions": {
-        "0.1.6": {
-          "checksum": "0+k9OKzJmyCRm/eSxE88kRCbQmhx6Xo6/xCqNc5zLA0="
         }
       }
     },
@@ -4723,13 +4721,13 @@
     "npm:social-names-snap": {
       "id": "npm:social-names-snap",
       "metadata": {
-        "name": "Social Names",
+        "name": "Farcaster Names",
         "author": {
           "name": "Christian Montoya",
           "website": "https://github.com/Montoya"
         },
-        "summary": "Use Farcaster and Lens usernames.",
-        "description": "Adds support for Farcaster and Lens handles to MetaMask.\n\nIn the MetaMask send flow, type a Lens handle like m0nt0y4.lens or a Farcaster username like farcaster:m0nt0y4 or fc:m0nt0y4 to resolve to the associated Ethereum address.\n\nYou will also see suggested Farcaster and Lens handles when interacting with addresses in MetaMask.",
+        "summary": "Use Farcaster names (fnames) in MetaMask",
+        "description": "Adds support for Farcaster names to MetaMask.\n\nIn the MetaMask send flow, type a Farcaster username like dwr.fcast.id or v.farcaster to resolve to their Farcaster wallet addresses and verified addresses.\n\nYou will also see suggested Farcaster names when interacting with addresses in MetaMask.",
         "category": "name resolution",
         "support": {
           "contact": "https://github.com/Montoya/social-names-snap/issues"
@@ -4742,8 +4740,8 @@
         ]
       },
       "versions": {
-        "0.1.3": {
-          "checksum": "ACPnWAXyf2A/qkemSFnWJWdesyYJ7sXGcugPX3cvwhs="
+        "0.3.0": {
+          "checksum": "8/GfXWzWfCCCuKeEmqnExFPK2rPYd+IsVSn1d0rmHxM="
         }
       }
     },
@@ -5207,8 +5205,8 @@
         "sourceCode": "https://github.com/Liquidlink-Lab/iota-metamask-snap"
       },
       "versions": {
-        "0.0.13": {
-          "checksum": "1bEBFwHDL6ceclWaXT31Gn6ton8Upfuqi9HuLmnmrK4="
+        "0.0.14": {
+          "checksum": "3UCnqaTEozFtbLCeQEI0vdF62N6ShDpYrcev+Gk/arI="
         }
       }
     },
@@ -5329,6 +5327,95 @@
       "versions": {
         "1.0.0": {
           "checksum": "QB+pPN18cdO++DaUNIzbJHVNv28zMbiBmE1J/nXcEgs="
+        }
+      }
+    },
+    "npm:@postfiat/pftl-snap": {
+      "id": "npm:@postfiat/pftl-snap",
+      "metadata": {
+        "name": "PFTL",
+        "author": {
+          "name": "Post Fiat",
+          "website": "https://postfiat.org/"
+        },
+        "summary": "Connect to the Post Fiat blockchain.",
+        "description": "If you have a MetaMask wallet now you have an PFTL one. Securely manage your PFT and interact with PFTL-based dapps directly from MetaMask.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-thewarp/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.gg/T4G78kveD5"
+        },
+        "sourceCode": "https://github.com/postfiatorg/pftl-snap",
+        "screenshots": [
+          "./images/@postfiat/pftl-snap/1.png",
+          "./images/@postfiat/pftl-snap/2.png",
+          "./images/@postfiat/pftl-snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.1.5": {
+          "checksum": "54X1+6twNRyYEgWygzpnfYrb1VyOxk3+5i3SLmxev40="
+        }
+      }
+    },
+    "npm:@hathor/snap": {
+      "id": "npm:@hathor/snap",
+      "metadata": {
+        "name": "Hathor Wallet",
+        "author": {
+          "name": "Hathor Labs",
+          "website": "https://hathor.network/"
+        },
+        "summary": "View and sign transactions on Hathor Network, and interact with dapps built with Nano Contracts.",
+        "description": "Features: \n\n - Send and receive HTR and custom tokens \n - Create Token \n - Create Nano Contract \n - View your balance \n - View addresses and get new address \n\nExpect many new features soon!",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://sayfer.io/audits/metamask-snap-audit-report-for-hathor/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://docs.hathor.network/explanations/features/metamask-snap",
+          "contact": "https://discord.com/invite/35mFEhk"
+        },
+        "sourceCode": "https://github.com/HathorNetwork/hathor-rpc-lib",
+        "screenshots": [
+          "./images/@hathor/snap/1.jpg",
+          "./images/@hathor/snap/2.jpg",
+          "./images/@hathor/snap/3.jpg"
+        ]
+      },
+      "versions": {
+        "0.1.0": {
+          "checksum": "yAUQ+DAfX+0AgqZGrDSyi9sonZNa2qcc/+ykDvU2SMY="
+        }
+      }
+    },
+    "npm:metamask-aura-connect-snap": {
+      "id": "npm:metamask-aura-connect-snap",
+      "metadata": {
+        "name": "Aura Connect",
+        "author": {
+          "name": "Thomas McMillan",
+          "website": "https://github.com/tomm696"
+        },
+        "summary": "Personalized DeFi insights through Aura's AI agent services",
+        "description": "Aura Connect is an unofficial, community-built, and fully open-source MetaMask Snap that integrates AdEx Aura — an AI-driven DeFi recommendation engine.\n\nIt enables MetaMask users to explore personalized DeFi strategies, insights, and wallet-based recommendations powered by Aura’s public APIs.\n\nWhat is AdEx Aura?\nAdEx Aura is a personal AI agent framework that generates secure, high-impact DeFi strategy recommendations.\n\nLearn more about AdEx Aura at https://www.adex.network\n\nWith Aura Connect, users can:\n\nConnect their MetaMask wallet to Aura seamlessly.\n\nView real-time strategy suggestions tailored to their on-chain activity for each of their accounts.\n\nExplore actionable DeFi opportunities directly within MetaMask.\n\nNo private keys or user data leave MetaMask — all data is fetched securely via public Aura endpoints.\n\nThis Snap is developed and maintained by the community, not officially affiliated with AdEx or MetaMask.",
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://github.com/tomm696/metamask-aura-snap/blob/master/FAQ.md"
+        },
+        "sourceCode": "https://github.com/tomm696/metamask-aura-snap"
+      },
+      "versions": {
+        "0.1.3": {
+          "checksum": "6cTbPF+lwg+I5220cEdchHMz4UA9lQz4KFXv7Ouy1II="
         }
       }
     }

@@ -2,7 +2,9 @@ name: Main
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+      - test
   pull_request:
 
 jobs:
@@ -66,8 +68,8 @@ jobs:
           fi
 
   publish-registry:
-    # Filtering by `push` events ensures that we only release from the `main` branch.
-    if: github.event_name == 'push'
+    name: Publish registry
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     needs: all-jobs-pass
     permissions:
       contents: read
@@ -75,10 +77,26 @@ jobs:
     uses: ./.github/workflows/publish-registry.yml
     with:
       slack-subteam: S05RL9W7H54 # @metamask-snaps-publishers
+      environment: deploy-prod
     secrets:
       REGISTRY_PRIVATE_KEY: ${{ secrets.REGISTRY_PRIVATE_KEY }}
+      REGISTRY_PUBLIC_KEY: ${{ secrets.REGISTRY_PUBLIC_KEY }}
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
       REPUBLISH_DIRECTORY_TOKEN: ${{ secrets.REPUBLISH_DIRECTORY_TOKEN }}
+
+  publish-test-registry:
+    name: Publish test registry
+    if: github.event_name == 'push' && github.ref == 'refs/heads/test'
+    needs: all-jobs-pass
+    permissions:
+      contents: read
+      id-token: write # Required for requesting the OIDC JWT for cloud access token
+    uses: ./.github/workflows/publish-registry.yml
+    with:
+      environment: deploy-dev
+    secrets:
+      REGISTRY_PRIVATE_KEY: ${{ secrets.REGISTRY_PRIVATE_KEY }}
+      REGISTRY_PUBLIC_KEY: ${{ secrets.REGISTRY_PUBLIC_KEY }}
 
   is-release:
     # Filtering by `push` events ensures that we only release from the `main` branch, which is a
@@ -86,7 +104,7 @@ jobs:
     # The commit author should always be 'github-actions' for releases created by the
     # 'create-release-pr' workflow, so we filter by that as well to prevent accidentally
     # triggering a release.
-    if: github.event_name == 'push' && startsWith(github.event.head_commit.author.name, 'github-actions')
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && startsWith(github.event.head_commit.author.name, 'github-actions')
     needs: all-jobs-pass
     outputs:
       IS_RELEASE: ${{ steps.is-release.outputs.IS_RELEASE }}
