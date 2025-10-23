@@ -178,12 +178,9 @@ async function verifySnap(snap: VerifiedSnap) {
  * Verify all snaps that are different from the main registry.
  */
 async function diff() {
-  const url = `https://raw.githubusercontent.com/MetaMask/snaps-registry/${REGISTRY_BRANCH}/src/registry.json`;
-
-  console.log(`Fetching registry from "${url}".`);
-  const mainRegistry = await fetch(url).then(async (response) =>
-    response.json(),
-  );
+  const mainRegistry = await fetch(
+    `https://raw.githubusercontent.com/MetaMask/snaps-registry/${REGISTRY_BRANCH}/src/registry.json`,
+  ).then(async (response) => response.json());
 
   for (const snap of Object.values(registry.verifiedSnaps)) {
     if (!deepEqual(mainRegistry.verifiedSnaps[snap.id], snap)) {
