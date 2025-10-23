@@ -25,7 +25,7 @@ type VerifiedSnap = Infer<typeof VerifiedSnapStruct>;
  */
 // Intentionally using `||` instead of `??` to treat empty strings as unset.
 // eslint-disable-next-line @typescript-eslint/prefer-nullish-coalescing
-const REGISTRY_BRANCH = process.env.GITHUB_BASE_REF || 'main';
+const REGISTRY_BRANCH = process.env.REGISTRY_BRANCH || 'main';
 
 /**
  * Verify a snap version. This checks that the snap exists and that the
