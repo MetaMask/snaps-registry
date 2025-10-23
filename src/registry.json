@@ -5166,7 +5166,7 @@
           "name": "COTI",
           "website": "https://coti.io"
         },
-        "website": "https://snap.coti.io",
+        "website": "https://metamask.coti.io/",
         "summary": "Onboard your network AES and use it to encrypt and decrypt network data",
         "description": "1. AES Key Management: Securely store and manage AES keys in MetaMask\n2. Confidential Tokens: View and manage confidential ERC-20 tokens\n3. NFT Support: Handle confidential NFTs with metadata\n4. Token Operations: Transfer and deposit tokens\n5. Secure Storage: Encrypted storage within MetaMask's secure environment\n6. COTI Network: Native support for COTI's confidential blockchain",
         "category": "interoperability",
@@ -5177,8 +5177,8 @@
         "sourceCode": "https://github.com/coti-io/coti-snap"
       },
       "versions": {
-        "1.0.10-352de1": {
-          "checksum": "zjRaFlkR6sj+z6vFp8mFU2x4KYCzfLxaxlfrLsXfgNk="
+        "1.0.19-8ac5b7": {
+          "checksum": "wDTIPDrIKcHDWSKwZwJ6v8sUE5OUtmTMFcurappFqXM="
         }
       }
     },
