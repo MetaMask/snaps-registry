@@ -18,13 +18,18 @@ on:
         required: false
         type: string
         default: 'MetaMask bot'
+      environment:
+        required: true
+        type: string
     secrets:
       REGISTRY_PRIVATE_KEY:
+        required: true
+      REGISTRY_PUBLIC_KEY:
         required: true
       SLACK_WEBHOOK_URL:
         required: false
       REPUBLISH_DIRECTORY_TOKEN:
-        required: true
+        required: false
 
 jobs:
   check-updated:
@@ -93,9 +98,8 @@ jobs:
 
   publish-registry:
     name: Deploy registry to remote storage
-    # It's not possible to set the env using input variables - https://github.com/actions/runner/issues/998
-    # Hardcoded for now
-    environment: deploy-prod
+    environment:
+      name: ${{ inputs.environment }}
     needs:
       - announce-publish-registry
       - check-updated
@@ -113,7 +117,7 @@ jobs:
       - name: Verify registry
         run: yarn verify
         env:
-          PUBLIC_KEY_PATH: ./secp256k1-key.pub
+          REGISTRY_PUBLIC_KEY: ${{ secrets.REGISTRY_PUBLIC_KEY }}
           REGISTRY_PATH: ./src/registry.json
           SIGNATURE_PATH: ./src/signature.json
       - run: |
@@ -130,10 +134,14 @@ jobs:
         run: |
           aws s3 cp ./dist s3://${{ vars.AWS_BUCKET_NAME }}/latest --recursive --acl private
           aws cloudfront create-invalidation --distribution-id ${{ vars.AWS_CF_DISTRIBUTION_ID }} --paths "/latest/*"
+      - name: Invalidate secondary cache
+        if: ${{ vars.AWS_CF_SECONDARY_DISTRIBUTION_ID != '' }}
+        run: |
           aws cloudfront create-invalidation --distribution-id ${{ vars.AWS_CF_SECONDARY_DISTRIBUTION_ID }} --paths "/latest/*"
 
   republish-directory:
     name: Republish directory
+    if: ${{ inputs.environment == 'deploy-prod' }}
     needs:
       - publish-registry
     runs-on: ubuntu-latest

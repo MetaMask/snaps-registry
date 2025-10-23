@@ -128,3 +128,5 @@ jobs:
           is-high-risk-environment: false
       - run: yarn build
       - run: yarn verify-snaps --diff
+        env:
+          GITHUB_BASE_REF: ${{ github.event.pull_request.base.ref || github.ref_name }}
