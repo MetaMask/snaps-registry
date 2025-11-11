@@ -830,6 +830,18 @@
           "checksum": "3U9+Lvmmdc9JRmaHLcwGgi9lpnaj25joBF9+zXY4644="
         }
       }
+    },
+    "npm:@metamask/preinstalled-example-snap": {
+      "id": "npm:@metamask/preinstalled-example-snap",
+      "metadata": {
+        "name": "Preinstalled Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "0.7.2": {
+          "checksum": "51eEppJ2pU3rQkhrYzNHe5mfpIm1y7E63Q15sqeXZ0E="
+        }
+      }
     }
   },
   "blockedSnaps": [
