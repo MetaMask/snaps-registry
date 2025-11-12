@@ -125,7 +125,7 @@ describe('Snaps Registry', () => {
     expect(() => assert(registryDb, SnapsRegistryDatabaseStruct)).not.toThrow();
   });
 
-it('supports client versions', () => {
+  it('supports client versions', () => {
     /* eslint-disable @typescript-eslint/naming-convention */
     const registryDb: SnapsRegistryDatabase = {
       verifiedSnaps: {
@@ -139,8 +139,8 @@ it('supports client versions', () => {
               checksum: 'A83r5/ZIcKeKw3An13HBeV4CAofj7jGK5hOStmHY6A0=',
               clientVersions: {
                 extension: '>=13.9.0',
-                mobile: '>=5.9.0'
-              }
+                mobile: '>=5.9.0',
+              },
             },
           },
         },

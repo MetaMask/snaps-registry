@@ -25,10 +25,12 @@ const NpmIdStruct = refine(string(), 'Npm ID', (value) =>
 
 const VerifiedSnapVersionStruct = object({
   checksum: ChecksumStruct,
-  clientVersions: optional(object({
-    extension: optional(VersionRangeStruct),
-    mobile: optional(VersionRangeStruct),
-  }))
+  clientVersions: optional(
+    object({
+      extension: optional(VersionRangeStruct),
+      mobile: optional(VersionRangeStruct),
+    }),
+  ),
 });
 
 export const AuthorStruct = object({
