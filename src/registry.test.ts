@@ -138,8 +138,8 @@ describe('Snaps Registry', () => {
             ['0.1.0' as SemVerVersion]: {
               checksum: 'A83r5/ZIcKeKw3An13HBeV4CAofj7jGK5hOStmHY6A0=',
               clientVersions: {
-                extension: '>=13.9.0',
-                mobile: '>=5.9.0',
+                extension: '>=13.9.0' as SemVerRange,
+                mobile: '>=5.9.0' as SemVerRange,
               },
             },
           },
