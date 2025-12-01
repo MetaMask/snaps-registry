@@ -5418,6 +5418,18 @@
           "checksum": "6cTbPF+lwg+I5220cEdchHMz4UA9lQz4KFXv7Ouy1II="
         }
       }
+    },
+    "npm:@metamask/bitcoin-wallet-snap": {
+      "id": "npm:@metamask/bitcoin-wallet-snap",
+      "metadata": {
+        "name": "Bitcoin",
+        "hidden": true
+      },
+      "versions": {
+        "1.8.0": {
+          "checksum": "YA+qmj7Q3fB1UcO5A2d3UekTzVHuY/YuMhrmfynHg20="
+        }
+      }
     }
   },
   "blockedSnaps": [
