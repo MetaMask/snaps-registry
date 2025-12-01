@@ -5420,7 +5420,7 @@
       }
     },
     "npm:@metamask/snap-bitcoin-wallet": {
-      "id": "@metamask/snap-bitcoin-wallet",
+      "id": "npm:@metamask/snap-bitcoin-wallet",
       "metadata": {
         "name": "Bitcoin",
         "hidden": true
