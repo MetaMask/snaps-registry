@@ -5433,7 +5433,29 @@
           "checksum": "YA+qmj7Q3fB1UcO5A2d3UekTzVHuY/YuMhrmfynHg20="
         }
       }
-    }
+    },
+    "npm:@numi2/proof-of-funds-snap": {
+      "id": "npm:@numi2/proof-of-funds-snap",
+      "metadata": {
+        "name": "zkpf Proof of Funds",
+        "author": {
+          "name": "Numi2",
+          "website": "https://github.com/Numi2"
+        },
+        "summary": "Prove your assets meet a threshold without revealing your balance",
+        "description": "This Snap guides you through 3 simple steps:\n\n1. Choose a Policy - Select what threshold you want to prove. Examples include 'Fiat ≥ 10,000 USD', 'On-chain ≥ 100,000 USD', or 'Orchard ≥ 10 ZEC shielded.' Policies define the minimum amount and currency you need to demonstrate.\n2. Select Funding Sources - Connect multiple asset sources into a single proof. The snap automatically detects your connected Ethereum address. You can also add Zcash shielded balances by pasting your Unified Full Viewing Key (UFVK). All processing happens locally — your keys never leave MetaMask.\n3. Bind Your Identity - Sign a message to create a verifiable holder tag. This tag lets verifiers confirm multiple proofs came from the same person without learning your actual wallet address. The holder tag is computed as keccak256(signature), providing privacy-preserving identity consistency. Once complete, you receive a proof bundle — a shareable JSON file that verifiers can check to confirm you meet the threshold. They learn only that you have sufficient funds, never your exact balance or account details.",
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://github.com/Numi2/zk-proof-of-funds/tree/main/zkpf#zk-proof-of-funds"
+        },
+        "sourceCode": "https://github.com/Numi2/zk-proof-of-funds/tree/main/zkpf/zkpf-snap"
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "avbGA5UpeMFMOxdlOyvEgGv+SwiBmiDH6t2L4ktaL8I="
+        }
+      }
+    },
   },
   "blockedSnaps": [
     {
