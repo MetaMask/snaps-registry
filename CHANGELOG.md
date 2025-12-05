@@ -9,14 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [4.0.0]
 
-### Uncategorized
+### Changed
 
-- perf!: Use async crypto digest API for hashing ([#1400](https://github.com/MetaMask/snaps-registry/pull/1400))
-- chore!: Drop support for Node 18 ([#1401](https://github.com/MetaMask/snaps-registry/pull/1401))
-- chore: Bump interactive UI example Snap ([#1397](https://github.com/MetaMask/snaps-registry/pull/1397))
-- Add Bitcoin wallet snap metadata to registry ([#1396](https://github.com/MetaMask/snaps-registry/pull/1396))
-- Update Tezos Wallet ([#1395](https://github.com/MetaMask/snaps-registry/pull/1395))
-- Update Tezos Wallet ([#1393](https://github.com/MetaMask/snaps-registry/pull/1393))
+- **BREAKING:** Use async crypto digest API for hashing ([#1400](https://github.com/MetaMask/snaps-registry/pull/1400))
+  - The exported `verify` function is now async.
+- **BREAKING:** Drop support for Node 18 ([#1401](https://github.com/MetaMask/snaps-registry/pull/1401))
 
 ## [3.3.0]
 
