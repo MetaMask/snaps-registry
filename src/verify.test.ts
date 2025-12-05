@@ -34,7 +34,7 @@ const MOCK_SHORT_SIGNATURE = {
 describe('verify', () => {
   it('verifies a valid signature', async () => {
     expect(
-      verify({
+      await verify({
         registry: MOCK_REGISTRY,
         signature: MOCK_SIGNATURE,
         publicKey: MOCK_PUBLIC_KEY,
@@ -44,7 +44,7 @@ describe('verify', () => {
 
   it('verifies a valid signature with a longer format', async () => {
     expect(
-      verify({
+      await verify({
         registry: MOCK_LONG_REGISTRY,
         signature: MOCK_LONG_SIGNATURE,
         publicKey: MOCK_LONG_PUBLIC_KEY,
@@ -54,7 +54,7 @@ describe('verify', () => {
 
   it('verifies a valid signature with a shorter format', async () => {
     expect(
-      verify({
+      await verify({
         registry: MOCK_SHORT_REGISTRY,
         signature: MOCK_SHORT_SIGNATURE,
         publicKey: MOCK_SHORT_PUBLIC_KEY,
@@ -64,7 +64,7 @@ describe('verify', () => {
 
   it('rejects an invalid signature', async () => {
     expect(
-      verify({
+      await verify({
         registry: MOCK_REGISTRY,
         signature: {
           ...MOCK_SIGNATURE,
@@ -77,7 +77,7 @@ describe('verify', () => {
   });
 
   it('throws an error if the signature format is invalid', async () => {
-    expect(() =>
+    await expect(async () =>
       verify({
         registry: MOCK_REGISTRY,
         signature: {
@@ -86,7 +86,7 @@ describe('verify', () => {
         },
         publicKey: MOCK_PUBLIC_KEY,
       }),
-    ).toThrow(
+    ).rejects.toThrow(
       'Invalid signature object: At path: signature -- Expected a string, but received: undefined.',
     );
   });

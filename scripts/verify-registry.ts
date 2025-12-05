@@ -56,7 +56,7 @@ async function main() {
   assertStruct(signature, SignatureStruct);
   const registry = await fs.readFile(registryPath, 'utf-8');
 
-  const isValid = verify({ registry, signature, publicKey });
+  const isValid = await verify({ registry, signature, publicKey });
   if (!isValid) {
     console.error('Signature is invalid.');
     // eslint-disable-next-line n/no-process-exit
