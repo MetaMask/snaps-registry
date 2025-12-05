@@ -102,7 +102,6 @@ describe('verify', () => {
     expect(nobleSpy).toHaveBeenCalled();
   });
 
-
   it('rejects an invalid signature', async () => {
     expect(
       await verify({
