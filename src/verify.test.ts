@@ -1,3 +1,5 @@
+import * as nobleHashes from '@noble/hashes/sha256';
+
 import { verify } from './verify';
 
 const MOCK_REGISTRY = `test\n`;
@@ -34,7 +36,7 @@ const MOCK_SHORT_SIGNATURE = {
 describe('verify', () => {
   it('verifies a valid signature', async () => {
     expect(
-      verify({
+      await verify({
         registry: MOCK_REGISTRY,
         signature: MOCK_SIGNATURE,
         publicKey: MOCK_PUBLIC_KEY,
@@ -44,7 +46,7 @@ describe('verify', () => {
 
   it('verifies a valid signature with a longer format', async () => {
     expect(
-      verify({
+      await verify({
         registry: MOCK_LONG_REGISTRY,
         signature: MOCK_LONG_SIGNATURE,
         publicKey: MOCK_LONG_PUBLIC_KEY,
@@ -54,7 +56,7 @@ describe('verify', () => {
 
   it('verifies a valid signature with a shorter format', async () => {
     expect(
-      verify({
+      await verify({
         registry: MOCK_SHORT_REGISTRY,
         signature: MOCK_SHORT_SIGNATURE,
         publicKey: MOCK_SHORT_PUBLIC_KEY,
@@ -62,9 +64,47 @@ describe('verify', () => {
     ).toBe(true);
   });
 
+  it('falls back to noble when digest function is unavailable', async () => {
+    const nobleSpy = jest.spyOn(nobleHashes, 'sha256');
+
+    Object.defineProperty(globalThis.crypto.subtle, 'digest', {
+      value: undefined,
+      writable: true,
+    });
+
+    expect(
+      await verify({
+        registry: MOCK_REGISTRY,
+        signature: MOCK_SIGNATURE,
+        publicKey: MOCK_PUBLIC_KEY,
+      }),
+    ).toBe(true);
+
+    expect(nobleSpy).toHaveBeenCalled();
+  });
+
+  it('falls back to noble when subtle APIs are unavailable', async () => {
+    const nobleSpy = jest.spyOn(nobleHashes, 'sha256');
+
+    Object.defineProperty(globalThis.crypto, 'subtle', {
+      value: undefined,
+      writable: true,
+    });
+
+    expect(
+      await verify({
+        registry: MOCK_REGISTRY,
+        signature: MOCK_SIGNATURE,
+        publicKey: MOCK_PUBLIC_KEY,
+      }),
+    ).toBe(true);
+
+    expect(nobleSpy).toHaveBeenCalled();
+  });
+
   it('rejects an invalid signature', async () => {
     expect(
-      verify({
+      await verify({
         registry: MOCK_REGISTRY,
         signature: {
           ...MOCK_SIGNATURE,
@@ -77,7 +117,7 @@ describe('verify', () => {
   });
 
   it('throws an error if the signature format is invalid', async () => {
-    expect(() =>
+    await expect(async () =>
       verify({
         registry: MOCK_REGISTRY,
         signature: {
@@ -86,7 +126,7 @@ describe('verify', () => {
         },
         publicKey: MOCK_PUBLIC_KEY,
       }),
-    ).toThrow(
+    ).rejects.toThrow(
       'Invalid signature object: At path: signature -- Expected a string, but received: undefined.',
     );
   });

@@ -9,7 +9,7 @@ import {
   hexToBytes,
 } from '@metamask/utils';
 import { secp256k1 } from '@noble/curves/secp256k1';
-import { sha256 } from '@noble/hashes/sha256';
+import { sha256 as nobleSha256 } from '@noble/hashes/sha256';
 
 export const SignatureStruct = object({
   signature: StrictHexStruct,
@@ -26,6 +26,28 @@ type VerifyArgs = {
 };
 
 /**
+ * Compute a SHA-256 digest for a given byte array.
+ *
+ * Uses the native crypto implementation and falls back to noble.
+ *
+ * @param bytes - A byte array.
+ * @returns The SHA-256 hash as a byte array.
+ */
+async function sha256(bytes: Uint8Array): Promise<Uint8Array> {
+  // Use crypto.subtle.digest whenever possible as it is faster.
+  if (
+    'crypto' in globalThis &&
+    typeof globalThis.crypto === 'object' &&
+    // eslint-disable-next-line no-restricted-globals
+    crypto.subtle?.digest
+  ) {
+    // eslint-disable-next-line no-restricted-globals
+    return new Uint8Array(await crypto.subtle.digest('SHA-256', bytes));
+  }
+  return nobleSha256(bytes);
+}
+
+/**
  * Verifies that the Snap Registry is properly signed using a cryptographic key.
  *
  * @param options - Parameters for signing.
@@ -35,18 +57,16 @@ type VerifyArgs = {
  * the signature to.
  * @returns Whether the signature is valid.
  */
-export function verify({
+export async function verify({
   registry,
   signature,
   publicKey,
-}: VerifyArgs): boolean {
+}: VerifyArgs): Promise<boolean> {
   assertStruct(signature, SignatureStruct, 'Invalid signature object');
 
   const publicKeyBytes = hexToBytes(publicKey);
 
-  return secp256k1.verify(
-    remove0x(signature.signature),
-    sha256(stringToBytes(registry)),
-    publicKeyBytes,
-  );
+  const hash = await sha256(stringToBytes(registry));
+
+  return secp256k1.verify(remove0x(signature.signature), hash, publicKeyBytes);
 }
