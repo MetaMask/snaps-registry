@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [4.0.0]
+### Changed
+- **BREAKING:** Use async crypto digest API for hashing ([#1400](https://github.com/MetaMask/snaps-registry/pull/1400))
+  - The exported `verify` function is now async.
+- **BREAKING:** Drop support for Node 18 ([#1401](https://github.com/MetaMask/snaps-registry/pull/1401))
+
+## [3.3.0]
+### Added
+- Allow specifying `clientVersions` ([#1388](https://github.com/MetaMask/snaps-registry/pull/1388))
+
 ## [3.2.3]
 ### Changed
 - Bump `@metamask/utils` from `^10.0.0` to `^11.0.1` ([#996](https://github.com/MetaMask/snaps-registry/pull/996))
@@ -94,7 +104,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/MetaMask/snaps-registry/compare/v3.2.3...HEAD
+[Unreleased]: https://github.com/MetaMask/snaps-registry/compare/v4.0.0...HEAD
+[4.0.0]: https://github.com/MetaMask/snaps-registry/compare/v3.3.0...v4.0.0
+[3.3.0]: https://github.com/MetaMask/snaps-registry/compare/v3.2.3...v3.3.0
 [3.2.3]: https://github.com/MetaMask/snaps-registry/compare/v3.2.2...v3.2.3
 [3.2.2]: https://github.com/MetaMask/snaps-registry/compare/v3.2.1...v3.2.2
 [3.2.1]: https://github.com/MetaMask/snaps-registry/compare/v3.2.0...v3.2.1
