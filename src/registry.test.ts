@@ -94,7 +94,7 @@ describe('Snaps Registry', () => {
     expect(() => assert(registryDb, SnapsRegistryDatabaseStruct)).not.toThrow();
   });
 
-  it('has a only mandatory fields', () => {
+  it('has only mandatory fields', () => {
     /* eslint-disable @typescript-eslint/naming-convention */
     const registryDb: SnapsRegistryDatabase = {
       verifiedSnaps: {
@@ -106,6 +106,41 @@ describe('Snaps Registry', () => {
           versions: {
             ['0.1.0' as SemVerVersion]: {
               checksum: 'A83r5/ZIcKeKw3An13HBeV4CAofj7jGK5hOStmHY6A0=',
+            },
+          },
+        },
+      },
+      blockedSnaps: [
+        {
+          id: 'npm:example-blocked-snap',
+          versionRange: '^0.1.0' as SemVerRange,
+        },
+        {
+          checksum: 'B3ar53ZIcKeKw3An3aqBeV4CAofj7jGK5hOAAxQY6A0=',
+        },
+      ],
+    };
+    /* eslint-enable @typescript-eslint/naming-convention */
+
+    expect(() => assert(registryDb, SnapsRegistryDatabaseStruct)).not.toThrow();
+  });
+
+  it('supports client versions', () => {
+    /* eslint-disable @typescript-eslint/naming-convention */
+    const registryDb: SnapsRegistryDatabase = {
+      verifiedSnaps: {
+        'npm:example-snap': {
+          id: 'npm:example-snap',
+          metadata: {
+            name: 'Example Snap',
+          },
+          versions: {
+            ['0.1.0' as SemVerVersion]: {
+              checksum: 'A83r5/ZIcKeKw3An13HBeV4CAofj7jGK5hOStmHY6A0=',
+              clientVersions: {
+                extension: '>=13.9.0' as SemVerRange,
+                mobile: '>=5.9.0' as SemVerRange,
+              },
             },
           },
         },

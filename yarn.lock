@@ -1277,7 +1277,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/snaps-registry@^3.2.3, @metamask/snaps-registry@workspace:.":
+"@metamask/snaps-registry@npm:^3.2.3":
+  version: 3.3.0
+  resolution: "@metamask/snaps-registry@npm:3.3.0"
+  dependencies:
+    "@metamask/superstruct": ^3.2.1
+    "@metamask/utils": ^11.4.0
+    "@noble/curves": ^1.2.0
+    "@noble/hashes": ^1.3.2
+  checksum: 87f3f9c756bb7671ea0173a550f0e4e47e372b3dc822a6e75626ddec0be59d1bf7c8abe345ff88255de4fa2224ede826d78c1d46109050b5b68d3c26481157a0
+  languageName: node
+  linkType: hard
+
+"@metamask/snaps-registry@workspace:.":
   version: 0.0.0-use.local
   resolution: "@metamask/snaps-registry@workspace:."
   dependencies:
