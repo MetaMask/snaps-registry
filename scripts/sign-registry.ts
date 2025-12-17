@@ -68,9 +68,7 @@ async function main() {
 
   const hash = await sha256(new Uint8Array(registry));
 
-  const signature = add0x(
-    secp256k1.sign(hash, privateKeyBytes).toDERHex(),
-  );
+  const signature = add0x(secp256k1.sign(hash, privateKeyBytes).toDERHex());
 
   const signatureObject = format(
     JSON.stringify({
