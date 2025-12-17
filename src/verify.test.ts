@@ -1,5 +1,3 @@
-import * as nobleHashes from '@noble/hashes/sha256';
-
 import { verify } from './verify';
 
 const MOCK_REGISTRY = `test\n`;
@@ -62,44 +60,6 @@ describe('verify', () => {
         publicKey: MOCK_SHORT_PUBLIC_KEY,
       }),
     ).toBe(true);
-  });
-
-  it('falls back to noble when digest function is unavailable', async () => {
-    const nobleSpy = jest.spyOn(nobleHashes, 'sha256');
-
-    Object.defineProperty(globalThis.crypto.subtle, 'digest', {
-      value: undefined,
-      writable: true,
-    });
-
-    expect(
-      await verify({
-        registry: MOCK_REGISTRY,
-        signature: MOCK_SIGNATURE,
-        publicKey: MOCK_PUBLIC_KEY,
-      }),
-    ).toBe(true);
-
-    expect(nobleSpy).toHaveBeenCalled();
-  });
-
-  it('falls back to noble when subtle APIs are unavailable', async () => {
-    const nobleSpy = jest.spyOn(nobleHashes, 'sha256');
-
-    Object.defineProperty(globalThis.crypto, 'subtle', {
-      value: undefined,
-      writable: true,
-    });
-
-    expect(
-      await verify({
-        registry: MOCK_REGISTRY,
-        signature: MOCK_SIGNATURE,
-        publicKey: MOCK_PUBLIC_KEY,
-      }),
-    ).toBe(true);
-
-    expect(nobleSpy).toHaveBeenCalled();
   });
 
   it('rejects an invalid signature', async () => {

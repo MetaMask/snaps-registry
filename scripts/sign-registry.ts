@@ -4,9 +4,9 @@ import {
   bytesToHex,
   hexToBytes,
   isHexString,
+  sha256,
 } from '@metamask/utils';
 import { secp256k1 } from '@noble/curves/secp256k1';
-import { sha256 } from '@noble/hashes/sha256';
 import * as dotenv from 'dotenv';
 import { promises as fs } from 'fs';
 import path from 'path';
@@ -66,9 +66,9 @@ async function main() {
 
   const registry = await fs.readFile(registryPath);
 
-  const signature = add0x(
-    secp256k1.sign(sha256(registry), privateKeyBytes).toDERHex(),
-  );
+  const hash = await sha256(new Uint8Array(registry));
+
+  const signature = add0x(secp256k1.sign(hash, privateKeyBytes).toDERHex());
 
   const signatureObject = format(
     JSON.stringify({
