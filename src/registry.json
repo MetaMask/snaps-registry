@@ -5422,6 +5422,33 @@
         }
       }
     },
+    "npm:revel8-snap": {
+      "id": "npm:revel8-snap",
+      "metadata": {
+        "name": "Revel8",
+        "author": {
+          "name": "Revel8",
+          "website": "https://revel8.io/"
+        },
+        "summary": "Trust and reputation data powered by intuition",
+        "description": "Revel8 is a MetaMask Snap that brings human trust signals to blockchain transactions. Powered by the Intuition knowledge graph, Revel8 displays real-time trust and reputation data right before you sign any transaction, helping you make safer decisions when interacting with unknown addresses.\n\nWHAT IT DOES\n\nWhen you're about to send a transaction to an address, Revel8 automatically queries the Intuition knowledge graph and shows you trust insights directly in MetaMask's transaction confirmation screen. You'll see community trust signals, aliases, and stake amounts before you confirm, giving you the context you need to avoid scams and interact with trusted addresses.\n\nKEY FEATURES\n\nTransaction Insights: Revel8 displays trust data automatically during transaction signing using MetaMask's transaction insight API. No manual lookups required—the information appears right when you need it.\n\nTrust Triple Display: See how many people have staked that an address is trustworthy (support) or untrustworthy (oppose). Each position shows the number of stakers and the total economic weight (market cap) behind it.\n\nCommunity Aliases: View community-assigned aliases for addresses, making it easier to identify known entities and avoid impersonators.\n\nSmart Address Detection: Revel8 automatically detects whether an address is an EOA (Externally Owned Account) or a smart contract, and queries trust data in the appropriate format.\n\nYour Position: If you've already staked on an address, Revel8 shows your position so you can see how your trust signal compares to the community.\n\nMulti-Chain Support: Works seamlessly on Intuition Testnet (chain ID: 13579) and Intuition Mainnet (chain ID: 1155).\n\nInteractive Actions: Quick links to create trust triples, add aliases, stake on addresses, or view more details on the Revel8 Explorer.\n\nHOW TO USE IT\n\nAfter installing Revel8 from the MetaMask Snaps Directory, it works automatically. Simply use MetaMask as you normally would:\n\n1. When you initiate a transaction to any address, Revel8 will automatically query trust data\n\n2. Before you confirm the transaction, MetaMask will show you a Revel8 insight panel displaying:\n - Trust signals (support/oppose positions)\n - Community aliases\n - Stake amounts and market cap\n - Your position (if you've staked on this address)\n\n3. Review the trust data and make an informed decision about whether to proceed with the transaction\n\n4. Use the footer links to create trust signals, add aliases, or view more details on https://revel8.io\n\nNo configuration needed—Revel8 works out of the box once installed. The Snap queries the Intuition knowledge graph in real-time, so you always see the latest trust data.\n\nBENEFITS\n\nRevel8 helps you avoid scams by showing community trust signals before you send funds. Instead of blindly trusting addresses, you can see how others have evaluated them. The economic stake behind each trust signal adds weight to the community's assessment, helping you make better decisions.\n\nLearn more about Revel8 at https://revel8.io and explore the Intuition knowledge graph at https://intuition.systems",
+        "category": "transaction insights",
+        "support": {
+          "knowledgeBase": "https://github.com/Revel8-io/intuition-snap/blob/main/docs/USER-KNOWLEDGE-BASE.md"
+        },
+        "sourceCode": "https://github.com/revel8-io/intuition-snap",
+        "screenshots": [
+          "./images/revel8-snap/1.png",
+          "./images/revel8-snap/2.png",
+          "./images/revel8-snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.0.1": {
+          "checksum": "4kdJhL/3CBT6/PvGf/iMz1qugEhpC7Noe4kU6nrj7yo="
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
