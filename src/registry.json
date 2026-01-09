@@ -5433,6 +5433,18 @@
           "checksum": "YA+qmj7Q3fB1UcO5A2d3UekTzVHuY/YuMhrmfynHg20="
         }
       }
+    },
+    "npm:@metamask/solana-wallet-snap": {
+      "id": "npm:@metamask/solana-wallet-snap",
+      "metadata": {
+        "name": "Solana",
+        "hidden": true
+      },
+      "versions": {
+        "2.6.1": {
+          "checksum": "8/IYqvNCMalJSF0AvqP5MaNjrhmC/xOsgKrIlWcwN2s="
+        }
+      }
     }
   },
   "blockedSnaps": [
