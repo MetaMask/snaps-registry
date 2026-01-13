@@ -5428,6 +5428,29 @@
         }
       }
     },
+    "npm:orgon-snap": {
+      "id": "npm:orgon-snap",
+      "metadata": {
+        "name": "Orgon",
+        "author": {
+          "name": "Orgon",
+          "website": "https://orgon.space/"
+        },
+        "summary": "Secure wallet solution for the Orgon blockchain",
+        "description": "Enables secure, direct interaction with the Orgon blockchain. Built with user security and developer extensibility in mind, this Snap provides a seamless and trusted way to connect MetaMask users to the Orgon ecosystem.",
+        "category": "interoperability",
+        "support": {
+          "contact": "https://t.me/orgon_support",
+          "faq": "https://orgon.space/faq"
+        },
+        "sourceCode": "https://github.com/orgon-space/orgon-wallet-snap"
+      },
+      "versions": {
+        "1.0.6": {
+          "checksum": "IEFAA2Xg60lf0lMPsD6PzI2iXEv11HgkF68BHsO70ZI="
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
