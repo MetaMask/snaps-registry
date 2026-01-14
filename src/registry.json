@@ -5428,6 +5428,33 @@
         }
       }
     },
+    "npm:@hivemindhq/snap": {
+      "id": "npm:@hivemindhq/snap",
+      "metadata": {
+        "name": "Hive Mind",
+        "author": {
+          "name": "Hive Mind",
+          "website": "https://hivemindhq.io/"
+        },
+        "summary": "Real-time trust signals powered by the Intuition knowledge graph",
+        "description": "Hive Mind shows you community trust signals from the Intuition knowledge graph before you sign transactions. When you're about to send crypto or interact with a smart contract, you'll see real-time data about the destination address and the dApp you're using. WHAT YOU'LL SEE:\n\n• Trust Signals — How many people have staked that an address is trustworthy (or not)\n• Stake Amounts — The economic weight behind each trust signal in TRUST tokens\n• Your Position — Whether you've already staked on this address\n• Aliases — Community-assigned labels for addresses\n• dApp Trust — Trust data for the dApp origin you're interacting with\n• Trusted Circle — Which of your trusted contacts have staked on this address HOW IT WORKS:\n\nIntuition is a decentralized knowledge graph where users stake cryptocurrency to signal trust or distrust. High stakes on 'trustworthy' mean the community has put real money behind their endorsement. This creates skin-in-the-game reputation that's harder to fake than traditional reviews. The Snap queries Intuition's knowledge graph in real-time and displays the results directly in your MetaMask transaction confirmation screen. No extra steps required — the data appears automatically when you're about to sign. TAKE ACTION:\n\nIf you see an address without trust data, you can click through to create a trust signal yourself.",
+        "category": "transaction insights",
+        "support": {
+          "knowledgeBase": "https://github.com/hivemindhq-io/snap/blob/main/docs/USER-KNOWLEDGE-BASE.md"
+        },
+        "sourceCode": "https://github.com/hivemindhq-io/snap",
+        "screenshots": [
+          "./images/@hivemindhq/snap/1.png",
+          "./images/@hivemindhq/snap/2.png",
+          "./images/@hivemindhq/snap/3.png"
+        ]
+      },
+      "versions": {
+        "1.2.4": {
+          "checksum": "ffdfxK4L0hmiIj8b93NQUVFhLcSqm8PZKpTTWea+0XU="
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
