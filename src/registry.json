@@ -2043,6 +2043,30 @@
         }
       }
     },
+    "npm:genlayer-wallet-plugin": {
+      "id": "npm:genlayer-wallet-plugin",
+      "metadata": {
+        "name": "Genlayer Wallet",
+        "author": {
+          "name": "GenLayer",
+          "website": "https://www.genlayer.com/"
+        },
+        "summary": "Seamless and secure interface to interact with the GenLayer protocol.",
+        "description": "The primary goal of the GenLayer Wallet is to provide users with a seamless and secure interface to interact with the GenLayer protocol through MetaMask Snaps. The wallet extends MetaMask's capabilities to include viewing, managing, and interfacing with GenLayer-specific transactions and assets, ensuring a user-friendly experience while maintaining compatibility with existing blockchain tools and infrastructure.\n\nKey Points:\n- Enhanced User Interaction: Leverage MetaMask Snaps to simplify viewing and managing GenLayer transactions directly within MetaMask.\n- Comprehensive Transaction Management: Provide detailed insights into GenLayer transactions, including the ability to initiate transactions, gas estimation, and transaction details.\n- Seamless Integration: Ensure the wallet integrates smoothly with GenLayerJS, allowing for efficient dApp development and asset management on the GenLayer network.\n- Security and Compatibility: Support hardware wallet integration to enhance security and maintain compatibility with existing blockchain tools and protocols.",
+        "category": "transaction insights",
+        "support": {
+          "contact": "https://discord.gg/8Jm4v89VAu",
+          "faq": "https://docs.google.com/document/d/19S3V3CGNRcymilwjr6D9a2bb12J1ANdopRS3BgC8fnM/edit?usp=sharing",
+          "knowledgeBase": "https://docs.google.com/document/d/1GVP-QcuuplSzsgLqQIddQU3VmdTVyY03DSamCF-0_VU/edit?usp=sharing"
+        },
+        "sourceCode": "https://github.com/yeagerai/genlayer-wallet"
+      },
+      "versions": {
+        "0.1.5": {
+          "checksum": "eu2FRTmleh9p90bpidLL9VcRiV572l2yj+WshsFxroY="
+        }
+      }
+    },
     "npm:@xmtp/snap": {
       "id": "npm:@xmtp/snap",
       "metadata": {
