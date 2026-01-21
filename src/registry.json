@@ -2266,6 +2266,31 @@
         }
       }
     },
+    "npm:@reef-chain/reef-snap": {
+      "id": "npm:@reef-chain/reef-snap",
+      "metadata": {
+        "name": "Reef Chain Wallet",
+        "author": {
+          "name": "Reef Technology Ltd.",
+          "website": "https://www.reef.io/"
+        },
+        "website": "https://app.reef.io",
+        "summary": "Manage Reef-based accounts, and connect to Reef apps with MetaMask.",
+        "description": "Manage Reef-based accounts, and connect to Reef apps with MetaMask.\nAfter installing the Snap, visit the website to connect and manage your Reef accounts.",
+        "category": "interoperability",
+        "support": {
+          "knowledgeBase": "https://docs.xrplsnap.com/",
+          "faq": "https://snap.xrplevm.org/#faq",
+          "contact": "https://discord.gg/xrplevm"
+        },
+        "sourceCode": "https://github.com/reef-chain/metamask-snap"
+      },
+      "versions": {
+        "0.1.1": {
+          "checksum": "ZDVOXXi+GbmBGTcbFrUXAFyzjlGHfFzTztAsza0guaw="
+        }
+      }
+    },
     "npm:xrpl-snap": {
       "id": "npm:xrpl-snap",
       "metadata": {
