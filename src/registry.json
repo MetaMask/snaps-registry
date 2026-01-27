@@ -728,6 +728,18 @@
         }
       }
     },
+    "npm:@metamask/multichain-provider-example-snap": {
+      "id": "npm:@metamask/multichain-provider-example-snap",
+      "metadata": {
+        "name": "Multichain Provider Example Snap",
+        "hidden": true
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "jfHLDvDp6aQQ0dIfa6J0oSMURJ+8qwMMC2VoLrYTEWQ="
+        }
+      }
+    },
     "npm:@metamask/network-example-snap": {
       "id": "npm:@metamask/network-example-snap",
       "metadata": {
