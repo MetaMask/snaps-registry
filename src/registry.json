@@ -3705,14 +3705,8 @@
         "sourceCode": "https://github.com/hashdit/metamask-snap"
       },
       "versions": {
-        "1.0.1": {
-          "checksum": "bCF44WwxTY+jJhr+FOdeFwgFloVyiDp8DrkBRcEdhZ0="
-        },
-        "0.5.2": {
-          "checksum": "Snwc7QQczF56spaKEpAxTWlobwHOL2Wuq6YzCTaEoOg="
-        },
-        "0.2.1": {
-          "checksum": "dKhAW+kMEErpOUCnSH7jfLSYyoCH8DE+GvLcj63iBYM="
+        "1.0.2": {
+          "checksum": "WQpKP4qbE4GvmOc4PuO1yadpIOfEr/IU0E9lxmDUGa8="
         }
       }
     },
