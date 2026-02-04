@@ -5467,6 +5467,33 @@
         }
       }
     },
+    "npm:@0sum/pepu-snap": {
+      "id": "npm:@0sum/pepu-snap",
+      "metadata": {
+        "name": "PEPE Unchained",
+        "author": {
+          "name": "PEPE Unchained",
+          "website": "https://pepeunchained.com/"
+        },
+        "summary": "Bring PEPU Notifications to MetaMask",
+        "description": "Stay up to date with PEPU ecosystem. Read important notifications directly into your MetaMask wallet. Get news directly from the PEPU team, when tokens are bonded on pumppad and community notifications on HolderRadar.\n\n- News\n- Pumppad\n- HolderRadar",
+        "category": "notifications",
+        "support": {
+          "contact": "mailto:leon@0sum.io"
+        },
+        "sourceCode": "https://github.com/0sum-io/pepu-snap",
+        "screenshots": [
+          "./images/@0sum/pepu-snap/1.png",
+          "./images/@0sum/pepu-snap/2.png",
+          "./images/@0sum/pepu-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.5": {
+          "checksum": "MSS3MNr8B2gklT23eJffSuBCMamaRbKtxwpvuqGZ4K0="
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
