@@ -1046,6 +1046,9 @@
         ]
       },
       "versions": {
+        "1.4.1": {
+          "checksum": "dLpYpqbP53gfOkceWC7tNFpnftJv0qriT5muEMtH8gc="
+        },
         "1.3.9": {
           "checksum": "ayOxQ97u42HLTny+ivrIjLTsq/hQnctZYM2lO5jG6o8="
         }
@@ -1172,8 +1175,8 @@
         "sourceCode": "https://github.com/airgap-it/tezos-metamask-snap"
       },
       "versions": {
-        "1.0.6": {
-          "checksum": "SSHyB8dWReq3A2QnwRSisbLWosI2Ed2ev9A7UHZAhB0="
+        "1.0.7": {
+          "checksum": "AidXQY04oresSzTw0awcl1fLtn1lIpANF/z99bqnBJw="
         }
       }
     },
@@ -5049,8 +5052,8 @@
         "sourceCode": "https://github.com/dominant-strategies/quai-snap"
       },
       "versions": {
-        "0.1.8": {
-          "checksum": "cVEIXTwG1rrkVRzRl7GQo5NN90YYbJQY9Sr50O4GEag="
+        "0.1.9": {
+          "checksum": "FQjjUGvt7d6SgqBNiuTTJUPtMGlKie4VOmxzsviZmbc="
         }
       }
     },
