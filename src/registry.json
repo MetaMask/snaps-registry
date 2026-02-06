@@ -5475,6 +5475,18 @@
           "checksum": "YA+qmj7Q3fB1UcO5A2d3UekTzVHuY/YuMhrmfynHg20="
         }
       }
+    },
+    "npm:@metamask/tron-wallet-snap": {
+      "id": "npm:@metamask/tron-wallet-snap",
+      "metadata": {
+        "name": "Tron",
+        "hidden": true
+      },
+      "versions": {
+        "1.21.1": {
+          "checksum": "z4+3fdZhAyzb6R94sNJYeTuW/t7H48Qyuc3t72eraXw="
+        }
+      }
     }
   },
   "blockedSnaps": [
