@@ -2387,11 +2387,8 @@
         ]
       },
       "versions": {
-        "4.1.0": {
-          "checksum": "/l6vY9Yc8aofvPw+lxdmtldrEiMGBMTJz17TNAixJpM="
-        },
-        "4.0.0": {
-          "checksum": "8VhnbqdQCpJ8FAvohRrnPYk1J95H/IyG44Cj0k8i51Y="
+        "4.2.0": {
+          "checksum": "TV3uoZzP0GFvDHXpFlfoMlOmyI4CESVZtN+znkRjxxA="
         },
         "3.1.0-staging": {
           "checksum": "FqZpSPhTq0xZ1ak13RTeavyaiDXLeS1pe7F/65wUPTo="
