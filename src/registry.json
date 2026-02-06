@@ -5015,6 +5015,9 @@
         ]
       },
       "versions": {
+        "0.3.0": {
+          "checksum": "WOy/9JeJPJ346afb8ZQnvY0N6fX58ci737rwSSfjtLs="
+        },
         "0.2.6": {
           "checksum": "8Nspw4PiDnqHYCS32Dwpz7Ubo0J0ocBhXYPAvXM4Kew="
         },
