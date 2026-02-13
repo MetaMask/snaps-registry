@@ -5158,7 +5158,7 @@
           "name": "UTU Technologies",
           "website": "https://utu.io/"
         },
-        "website": "https://app.utu.io/snap",
+        "website": "https://app.utu.io/dashboard?source=snap",
         "summary": "View and leave signals on any address or asset",
         "description": "The UTU Trust Snap integrates the full review and reputation capabilities of UTU Protocol into your MetaMask wallet. This allows you to view feedback (star ratings, badges, text and video reviews, and UTU Trust Token (UTT) endorsements) about on-chain addresses from social networks (Telegram, X, and GitHub so far) in real-time as you browse the web, directly in your MetaMask, giving you a layer of 'social security' on top of any technical trust tools like smart contract analyzers that you may use.\n\nThe UTU Trust Snap also enables you to leave signals (star ratings, badges, text and video reviews, and UTT endorsements) about on-chain addresses directly from your MetaMask. When your UTT endorsements help future users find things they end up liking, you earn rewards in reputation (UTT) and cash ($UTU).",
         "category": "transaction insights",
@@ -5169,6 +5169,9 @@
         "sourceCode": "https://gitlab.com/ututrust/utu-metamask-snap"
       },
       "versions": {
+        "1.10.15": {
+          "checksum": "TzjIsdUK6/KwJ9oM1dfbUsLGU1fhgGTsZ2Fs4CBWVJg="
+        },
         "1.10.13": {
           "checksum": "wZmm7zb+sGEEet9C4XHHVlRDA1pym4CLBH+V1bege6M="
         }
