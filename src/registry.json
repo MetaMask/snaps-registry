@@ -4246,34 +4246,6 @@
         }
       }
     },
-    "npm:@consensys/linea-voyager": {
-      "id": "npm:@consensys/linea-voyager",
-      "metadata": {
-        "name": "Linea Voyager",
-        "author": {
-          "name": "Consensys",
-          "website": "https://consensys.io/"
-        },
-        "website": "https://voyager-snap.linea.build/",
-        "summary": "Track your collected Linea XP, POH status, and current activations.",
-        "description": "The Linea Voyager Snap allows you to view your collected Linea XP, Linea XP-L, POH status, and Linea ENS domain from within MetaMask.\n\nAfter installing the Snap, visit the companion dapp: https://voyager-snap.linea.build/ to connect or watch the account you use on Linea. Then, click on Linea Voyager from the Snaps menu in MetaMask to open the Snap homepage and view your data.\n\nSee our support guide for additional information: https://support.linea.build/linea-voyage/voyager-snap",
-        "category": "interoperability",
-        "support": {
-          "contact": "https://discord.com/invite/linea"
-        },
-        "sourceCode": "https://github.com/Consensys/linea-voyager-snap",
-        "screenshots": [
-          "./images/@consensys/linea-voyager/1.png",
-          "./images/@consensys/linea-voyager/2.png",
-          "./images/@consensys/linea-voyager/3.png"
-        ]
-      },
-      "versions": {
-        "0.9.2": {
-          "checksum": "Z/0zndw7YUWTbYPSZKvG8RaHuA9wLwRe4Zpder6LC24="
-        }
-      }
-    },
     "npm:@avail-project/avail-snap": {
       "id": "npm:@avail-project/avail-snap",
       "metadata": {
