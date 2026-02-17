@@ -5442,6 +5442,28 @@
         }
       }
     },
+    "npm:@taker007/crypto-guardian-snap": {
+      "id": "npm:@taker007/crypto-guardian-snap",
+      "metadata": {
+        "name": "Crypto Guardian",
+        "author": {
+          "name": "HAJ Solutions, Inc",
+          "website": "https://github.com/taker007/crypto-guardian"
+        },
+        "summary": "Shows on-chain risk signals for Ethereum tokens so users can make informed decisions before proceeding. Advisory only.",
+        "description": "Crypto Guardian is an advisory-only MetaMask Snap that provides on-chain risk signals for Ethereum tokens before a user proceeds with an interaction. The Snap analyzes publicly available on-chain data related to a token or contract and presents a simple risk summary to the user using a confirmation dialog. It is designed to help users make more informed decisions, not to enforce or automate any action. Crypto Guardian does NOT sign transactions, send transactions, block transactions, read wallet balances, estimate gas, or move funds. It does not have access to private keys, seed phrases, or signing material. All analysis is read-only. How it works: When triggered, the Snap requests a risk assessment for the selected Ethereum token or contract. The result is displayed to the user as an informational dialog showing a risk level and supporting context. The user remains fully in control and may choose to proceed or stop on their own. Backend usage: Risk analysis is performed via a read-only backend service. Only the minimum information required to analyze on-chain risk is sent (such as a token or contract identifier). No personal data, wallet secrets, or transaction signing payloads are transmitted. Graceful degradation: If the backend service is unreachable or unavailable, Crypto Guardian does not fail silently. Instead, it displays a warning dialog and defaults the assessment to a high-risk, unverified state, allowing the user to decide how to proceed. Crypto Guardian is intended as an informational safety tool. It provides signals and context only and should not be considered financial advice or an automated security enforcement mechanism.",
+        "category": "transaction insights",
+        "support": {
+          "knowledgeBase": "https://github.com/taker007/crypto-guardian/blob/main/packages/snap/README.md"
+        },
+        "sourceCode": "https://github.com/taker007/crypto-guardian"
+      },
+      "versions": {
+        "1.0.4": {
+          "checksum": "QvPrlI+oJpn4O/C53+KEmRQLZXd0u76mTIW091r6zCM="
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
