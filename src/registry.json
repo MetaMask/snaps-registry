@@ -2387,11 +2387,8 @@
         ]
       },
       "versions": {
-        "4.1.0": {
-          "checksum": "/l6vY9Yc8aofvPw+lxdmtldrEiMGBMTJz17TNAixJpM="
-        },
-        "4.0.0": {
-          "checksum": "8VhnbqdQCpJ8FAvohRrnPYk1J95H/IyG44Cj0k8i51Y="
+        "4.2.0": {
+          "checksum": "TV3uoZzP0GFvDHXpFlfoMlOmyI4CESVZtN+znkRjxxA="
         },
         "3.1.0-staging": {
           "checksum": "FqZpSPhTq0xZ1ak13RTeavyaiDXLeS1pe7F/65wUPTo="
@@ -4249,34 +4246,6 @@
         }
       }
     },
-    "npm:@consensys/linea-voyager": {
-      "id": "npm:@consensys/linea-voyager",
-      "metadata": {
-        "name": "Linea Voyager",
-        "author": {
-          "name": "Consensys",
-          "website": "https://consensys.io/"
-        },
-        "website": "https://voyager-snap.linea.build/",
-        "summary": "Track your collected Linea XP, POH status, and current activations.",
-        "description": "The Linea Voyager Snap allows you to view your collected Linea XP, Linea XP-L, POH status, and Linea ENS domain from within MetaMask.\n\nAfter installing the Snap, visit the companion dapp: https://voyager-snap.linea.build/ to connect or watch the account you use on Linea. Then, click on Linea Voyager from the Snaps menu in MetaMask to open the Snap homepage and view your data.\n\nSee our support guide for additional information: https://support.linea.build/linea-voyage/voyager-snap",
-        "category": "interoperability",
-        "support": {
-          "contact": "https://discord.com/invite/linea"
-        },
-        "sourceCode": "https://github.com/Consensys/linea-voyager-snap",
-        "screenshots": [
-          "./images/@consensys/linea-voyager/1.png",
-          "./images/@consensys/linea-voyager/2.png",
-          "./images/@consensys/linea-voyager/3.png"
-        ]
-      },
-      "versions": {
-        "0.9.2": {
-          "checksum": "Z/0zndw7YUWTbYPSZKvG8RaHuA9wLwRe4Zpder6LC24="
-        }
-      }
-    },
     "npm:@avail-project/avail-snap": {
       "id": "npm:@avail-project/avail-snap",
       "metadata": {
@@ -5018,6 +4987,9 @@
         ]
       },
       "versions": {
+        "0.3.0": {
+          "checksum": "WOy/9JeJPJ346afb8ZQnvY0N6fX58ci737rwSSfjtLs="
+        },
         "0.2.6": {
           "checksum": "8Nspw4PiDnqHYCS32Dwpz7Ubo0J0ocBhXYPAvXM4Kew="
         },
@@ -5158,7 +5130,7 @@
           "name": "UTU Technologies",
           "website": "https://utu.io/"
         },
-        "website": "https://app.utu.io/snap",
+        "website": "https://app.utu.io/dashboard?source=snap",
         "summary": "View and leave signals on any address or asset",
         "description": "The UTU Trust Snap integrates the full review and reputation capabilities of UTU Protocol into your MetaMask wallet. This allows you to view feedback (star ratings, badges, text and video reviews, and UTU Trust Token (UTT) endorsements) about on-chain addresses from social networks (Telegram, X, and GitHub so far) in real-time as you browse the web, directly in your MetaMask, giving you a layer of 'social security' on top of any technical trust tools like smart contract analyzers that you may use.\n\nThe UTU Trust Snap also enables you to leave signals (star ratings, badges, text and video reviews, and UTT endorsements) about on-chain addresses directly from your MetaMask. When your UTT endorsements help future users find things they end up liking, you earn rewards in reputation (UTT) and cash ($UTU).",
         "category": "transaction insights",
@@ -5169,6 +5141,9 @@
         "sourceCode": "https://gitlab.com/ututrust/utu-metamask-snap"
       },
       "versions": {
+        "1.10.15": {
+          "checksum": "TzjIsdUK6/KwJ9oM1dfbUsLGU1fhgGTsZ2Fs4CBWVJg="
+        },
         "1.10.13": {
           "checksum": "wZmm7zb+sGEEet9C4XHHVlRDA1pym4CLBH+V1bege6M="
         }
@@ -5503,6 +5478,18 @@
       "versions": {
         "1.8.0": {
           "checksum": "YA+qmj7Q3fB1UcO5A2d3UekTzVHuY/YuMhrmfynHg20="
+        }
+      }
+    },
+    "npm:@metamask/tron-wallet-snap": {
+      "id": "npm:@metamask/tron-wallet-snap",
+      "metadata": {
+        "name": "Tron",
+        "hidden": true
+      },
+      "versions": {
+        "1.21.1": {
+          "checksum": "z4+3fdZhAyzb6R94sNJYeTuW/t7H48Qyuc3t72eraXw="
         }
       }
     }
