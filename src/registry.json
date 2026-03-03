@@ -5491,6 +5491,9 @@
         "hidden": true
       },
       "versions": {
+        "1.22.1": {
+          "checksum": "7Lq5bCUwPBKAiNcLQnCK1ucdLJxXIwQe6jSxH953iqU="
+        },
         "1.21.1": {
           "checksum": "z4+3fdZhAyzb6R94sNJYeTuW/t7H48Qyuc3t72eraXw="
         }
