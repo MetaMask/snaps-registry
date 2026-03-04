@@ -5472,6 +5472,34 @@
         }
       }
     },
+    "npm:@ans-abstract-name-service/ans-snap": {
+      "id": "npm:@ans-abstract-name-service/ans-snap",
+      "metadata": {
+        "name": "ANS | Abstract Name Service",
+        "author": {
+          "name": "ANS | Abstract Name Service",
+          "website": "https://absnameservice.xyz/"
+        },
+        "summary": "Resolve .abs names on Abstract mainnet.",
+        "description": "ANS | Abstract Name Service enables native .abs name resolution inside MetaMask on Abstract (chain ID 2741). Features:\n\n- Forward lookup: resolves name.abs -> address using ANS V2 records.\n- Reverse lookup: resolves address -> primary .abs name when available.\n- Owner fallback: if no resolver record exists, falls back to ANS ownership data.\n\nHow to use:\n1. Connect wallet on the companion site.\n2. Install the Snap.\n3. In MetaMask, send assets using a .abs name (for example: shroomy.abs).\n\nNetwork scope:\n- Abstract mainnet only (eip155:2741).",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://discord.gg/5jXUqCSR7Q",
+          "knowledgeBase": "https://absnameservice.xyz/docs/metamask-snap"
+        },
+        "sourceCode": "https://github.com/0xShroomy/ans-snap",
+        "screenshots": [
+          "./images/@ans-abstract-name-service/ans-snap/1.png",
+          "./images/@ans-abstract-name-service/ans-snap/2.png",
+          "./images/@ans-abstract-name-service/ans-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "j6SVSNX3osBpAPtBKdf795r9WjJTRjX1fHYlrLRdJOs="
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
