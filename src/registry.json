@@ -1365,39 +1365,6 @@
         }
       }
     },
-    "npm:@forta-network/metamask-snap": {
-      "id": "npm:@forta-network/metamask-snap",
-      "metadata": {
-        "name": "Forta",
-        "author": {
-          "name": "Forta Network",
-          "website": "https://forta.org/"
-        },
-        "website": "https://docs.forta.network/en/latest/Forta-for-Metamask/",
-        "summary": "Scan addresses in pre-signed transactions against Forta's database of known scammers, showing risk warnings.",
-        "description": "Forta protects users from scams by highlighting the risk of a user-initiated transaction before the transaction is approved.\n\nAbout Forta\n\nForta is the largest network of security intelligence in Web3. The network provides real-time intelligence about scams, exploits and other suspicious activity to 100+ teams, including DeFi protocols, centralized exchanges, Web3 wallets, security tools and crypto compliance platforms.\n\nAbout Forta Snap\n\nOnce installed, Forta Snap automatically scans the addresses in a user's pre-signed transaction against Forta's database of known scammers. Based on the results, the Snap will display a 'high-risk' or 'low-risk' warning message to the user before a transaction is approved. At this stage, the user can reject the transaction based on the risk assessment. Some of the scam types covered by the Forta Snap include:\n\n- Token impersonation\n- Pig butchering\n- Gas minting\n- Sleep minting\n- Hard and soft rug Pulls\n- NFT wash trading\n\nForta Snap Security\n\n- Access to keys or user assets - No\n- Access to create/update/modify transactions - No\nAccess to read transactions - Yes\n\nForta Snap does not have access to users' keys or assets. Forta Snap access is limited to reading the transactions and displaying the risk rating. Audit Status - Forta Snap has been audited by OtterSec and the audit link can be found above.\n\nHow to Install\n\nA user can install Forta Snap by clicking on 'Add to MetaMask' button above. During installation, the Snap will request the access required for the Snap to perform.\n\nHow to use\n\nOnce installed, the Snap will automatically scan a user's pre-signed transactions and flag any scammer addresses involved. Warning messages will appear in the 'Forta' tab in the Metamask transaction flow.\n\nQuestions?\n\nIf you have questions or encounter any issues with the Forta Snap, please contact us: info@forta.org. You can also contact the Forta Snap team via Github to report problems and provide feedback - https://github.com/forta-network/metamask-snap",
-        "audits": [
-          {
-            "auditor": "OtterSec",
-            "report": "https://ottersec.notion.site/Forta-Metamask-Snap-7e6e171e836b40adb1465cf2ae090e4d"
-          }
-        ],
-        "category": "transaction insights",
-        "support": {
-          "contact": "https://discord.gg/nFAqfz4SH7",
-          "knowledgeBase": "https://docs.forta.network/en/latest/Forta-for-Metamask/"
-        },
-        "sourceCode": "https://github.com/forta-network/metamask-snap"
-      },
-      "versions": {
-        "0.1.3": {
-          "checksum": "469DK2JBX0fSBVhcwRSai5AHDXFaKL5EWuBokMoEWFY="
-        },
-        "0.1.2": {
-          "checksum": "FTwRj3N+NpVeq0WO7zmRY9tXjWZBoEcOANgnQ8i+Y38="
-        }
-      }
-    },
     "npm:@metamask/get-locale-example-snap": {
       "id": "npm:@metamask/get-locale-example-snap",
       "metadata": {
@@ -5512,6 +5479,10 @@
     {
       "id": "npm:wallet-guard-snap",
       "versionRange": "<1.1.3"
+    },
+    {
+      "id": "npm:@forta-network/metamask-snap",
+      "versionRange": "<=0.1.3"
     }
   ]
 }
