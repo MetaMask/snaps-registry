@@ -5199,6 +5199,9 @@
         "sourceCode": "https://github.com/openhive-network/metamask-snap"
       },
       "versions": {
+        "1.7.0": {
+          "checksum": "G+5qsDlLbzhKCGqIYUkovutGZKZvLdlQQdpyPFhMHbc="
+        },
         "1.6.0": {
           "checksum": "Gi/COgu8L73LLMFQGrpbDZII8igqYpVTUWTyBdKWAtA="
         }
