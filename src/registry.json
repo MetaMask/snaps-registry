@@ -5138,6 +5138,9 @@
         "sourceCode": "https://github.com/coti-io/coti-snap"
       },
       "versions": {
+        "1.0.46-0a9f13": {
+          "checksum": "JlM8Sdy5U7WZi4QEDTKIS+qup9xEjVLzvd6TP6bmIxY="
+        },
         "1.0.19-8ac5b7": {
           "checksum": "wDTIPDrIKcHDWSKwZwJ6v8sUE5OUtmTMFcurappFqXM="
         }
@@ -5199,6 +5202,9 @@
         "sourceCode": "https://github.com/openhive-network/metamask-snap"
       },
       "versions": {
+        "1.7.0": {
+          "checksum": "G+5qsDlLbzhKCGqIYUkovutGZKZvLdlQQdpyPFhMHbc="
+        },
         "1.6.0": {
           "checksum": "Gi/COgu8L73LLMFQGrpbDZII8igqYpVTUWTyBdKWAtA="
         }
