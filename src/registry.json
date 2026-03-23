@@ -1365,39 +1365,6 @@
         }
       }
     },
-    "npm:@forta-network/metamask-snap": {
-      "id": "npm:@forta-network/metamask-snap",
-      "metadata": {
-        "name": "Forta",
-        "author": {
-          "name": "Forta Network",
-          "website": "https://forta.org/"
-        },
-        "website": "https://docs.forta.network/en/latest/Forta-for-Metamask/",
-        "summary": "Scan addresses in pre-signed transactions against Forta's database of known scammers, showing risk warnings.",
-        "description": "Forta protects users from scams by highlighting the risk of a user-initiated transaction before the transaction is approved.\n\nAbout Forta\n\nForta is the largest network of security intelligence in Web3. The network provides real-time intelligence about scams, exploits and other suspicious activity to 100+ teams, including DeFi protocols, centralized exchanges, Web3 wallets, security tools and crypto compliance platforms.\n\nAbout Forta Snap\n\nOnce installed, Forta Snap automatically scans the addresses in a user's pre-signed transaction against Forta's database of known scammers. Based on the results, the Snap will display a 'high-risk' or 'low-risk' warning message to the user before a transaction is approved. At this stage, the user can reject the transaction based on the risk assessment. Some of the scam types covered by the Forta Snap include:\n\n- Token impersonation\n- Pig butchering\n- Gas minting\n- Sleep minting\n- Hard and soft rug Pulls\n- NFT wash trading\n\nForta Snap Security\n\n- Access to keys or user assets - No\n- Access to create/update/modify transactions - No\nAccess to read transactions - Yes\n\nForta Snap does not have access to users' keys or assets. Forta Snap access is limited to reading the transactions and displaying the risk rating. Audit Status - Forta Snap has been audited by OtterSec and the audit link can be found above.\n\nHow to Install\n\nA user can install Forta Snap by clicking on 'Add to MetaMask' button above. During installation, the Snap will request the access required for the Snap to perform.\n\nHow to use\n\nOnce installed, the Snap will automatically scan a user's pre-signed transactions and flag any scammer addresses involved. Warning messages will appear in the 'Forta' tab in the Metamask transaction flow.\n\nQuestions?\n\nIf you have questions or encounter any issues with the Forta Snap, please contact us: info@forta.org. You can also contact the Forta Snap team via Github to report problems and provide feedback - https://github.com/forta-network/metamask-snap",
-        "audits": [
-          {
-            "auditor": "OtterSec",
-            "report": "https://ottersec.notion.site/Forta-Metamask-Snap-7e6e171e836b40adb1465cf2ae090e4d"
-          }
-        ],
-        "category": "transaction insights",
-        "support": {
-          "contact": "https://discord.gg/nFAqfz4SH7",
-          "knowledgeBase": "https://docs.forta.network/en/latest/Forta-for-Metamask/"
-        },
-        "sourceCode": "https://github.com/forta-network/metamask-snap"
-      },
-      "versions": {
-        "0.1.3": {
-          "checksum": "469DK2JBX0fSBVhcwRSai5AHDXFaKL5EWuBokMoEWFY="
-        },
-        "0.1.2": {
-          "checksum": "FTwRj3N+NpVeq0WO7zmRY9tXjWZBoEcOANgnQ8i+Y38="
-        }
-      }
-    },
     "npm:@metamask/get-locale-example-snap": {
       "id": "npm:@metamask/get-locale-example-snap",
       "metadata": {
@@ -3382,6 +3349,9 @@
         ]
       },
       "versions": {
+        "2.5.1": {
+          "checksum": "rGhTb7iYMQcVBoNjnBAHe1G6djpL4TR6V2r7Jfl3PSM="
+        },
         "2.3.2": {
           "checksum": "TwSx2jjvpNOaM04mhoI2HbR43ZmIm0xA6AKGPeukHxw="
         }
@@ -4243,34 +4213,6 @@
         },
         "1.2.1": {
           "checksum": "3U9+Lvmmdc9JRmaHLcwGgi9lpnaj25joBF9+zXY4644="
-        }
-      }
-    },
-    "npm:@consensys/linea-voyager": {
-      "id": "npm:@consensys/linea-voyager",
-      "metadata": {
-        "name": "Linea Voyager",
-        "author": {
-          "name": "Consensys",
-          "website": "https://consensys.io/"
-        },
-        "website": "https://voyager-snap.linea.build/",
-        "summary": "Track your collected Linea XP, POH status, and current activations.",
-        "description": "The Linea Voyager Snap allows you to view your collected Linea XP, Linea XP-L, POH status, and Linea ENS domain from within MetaMask.\n\nAfter installing the Snap, visit the companion dapp: https://voyager-snap.linea.build/ to connect or watch the account you use on Linea. Then, click on Linea Voyager from the Snaps menu in MetaMask to open the Snap homepage and view your data.\n\nSee our support guide for additional information: https://support.linea.build/linea-voyage/voyager-snap",
-        "category": "interoperability",
-        "support": {
-          "contact": "https://discord.com/invite/linea"
-        },
-        "sourceCode": "https://github.com/Consensys/linea-voyager-snap",
-        "screenshots": [
-          "./images/@consensys/linea-voyager/1.png",
-          "./images/@consensys/linea-voyager/2.png",
-          "./images/@consensys/linea-voyager/3.png"
-        ]
-      },
-      "versions": {
-        "0.9.2": {
-          "checksum": "Z/0zndw7YUWTbYPSZKvG8RaHuA9wLwRe4Zpder6LC24="
         }
       }
     },
@@ -5196,6 +5138,9 @@
         "sourceCode": "https://github.com/coti-io/coti-snap"
       },
       "versions": {
+        "1.0.46-0a9f13": {
+          "checksum": "JlM8Sdy5U7WZi4QEDTKIS+qup9xEjVLzvd6TP6bmIxY="
+        },
         "1.0.19-8ac5b7": {
           "checksum": "wDTIPDrIKcHDWSKwZwJ6v8sUE5OUtmTMFcurappFqXM="
         }
@@ -5257,6 +5202,9 @@
         "sourceCode": "https://github.com/openhive-network/metamask-snap"
       },
       "versions": {
+        "1.7.0": {
+          "checksum": "G+5qsDlLbzhKCGqIYUkovutGZKZvLdlQQdpyPFhMHbc="
+        },
         "1.6.0": {
           "checksum": "Gi/COgu8L73LLMFQGrpbDZII8igqYpVTUWTyBdKWAtA="
         }
@@ -5492,6 +5440,83 @@
         }
       }
     },
+    "npm:@taker007/crypto-guardian-snap": {
+      "id": "npm:@taker007/crypto-guardian-snap",
+      "metadata": {
+        "name": "Crypto Guardian",
+        "author": {
+          "name": "HAJ Solutions, Inc",
+          "website": "https://github.com/taker007/crypto-guardian"
+        },
+        "summary": "Shows on-chain risk signals for Ethereum tokens so users can make informed decisions before proceeding. Advisory only.",
+        "description": "Crypto Guardian is an advisory-only MetaMask Snap that provides on-chain risk signals for Ethereum tokens before a user proceeds with an interaction. The Snap analyzes publicly available on-chain data related to a token or contract and presents a simple risk summary to the user using a confirmation dialog. It is designed to help users make more informed decisions, not to enforce or automate any action. Crypto Guardian does NOT sign transactions, send transactions, block transactions, read wallet balances, estimate gas, or move funds. It does not have access to private keys, seed phrases, or signing material. All analysis is read-only. How it works: When triggered, the Snap requests a risk assessment for the selected Ethereum token or contract. The result is displayed to the user as an informational dialog showing a risk level and supporting context. The user remains fully in control and may choose to proceed or stop on their own. Backend usage: Risk analysis is performed via a read-only backend service. Only the minimum information required to analyze on-chain risk is sent (such as a token or contract identifier). No personal data, wallet secrets, or transaction signing payloads are transmitted. Graceful degradation: If the backend service is unreachable or unavailable, Crypto Guardian does not fail silently. Instead, it displays a warning dialog and defaults the assessment to a high-risk, unverified state, allowing the user to decide how to proceed. Crypto Guardian is intended as an informational safety tool. It provides signals and context only and should not be considered financial advice or an automated security enforcement mechanism.",
+        "category": "transaction insights",
+        "support": {
+          "knowledgeBase": "https://github.com/taker007/crypto-guardian/blob/main/packages/snap/README.md"
+        },
+        "sourceCode": "https://github.com/taker007/crypto-guardian"
+      },
+      "versions": {
+        "1.1.1": {
+          "checksum": "cNlMbl70B1usNJxalMQiLdWUUULHHxxPWZPAi6Boyvo="
+        }
+      }
+    },
+    "npm:@0sum/pepu-snap": {
+      "id": "npm:@0sum/pepu-snap",
+      "metadata": {
+        "name": "PEPE Unchained",
+        "author": {
+          "name": "PEPE Unchained",
+          "website": "https://pepeunchained.com/"
+        },
+        "summary": "Bring PEPU Notifications to MetaMask",
+        "description": "Stay up to date with PEPU ecosystem. Read important notifications directly into your MetaMask wallet. Get news directly from the PEPU team, when tokens are bonded on pumppad and community notifications on HolderRadar.\n\n- News\n- Pumppad\n- HolderRadar",
+        "category": "notifications",
+        "support": {
+          "contact": "mailto:leon@0sum.io"
+        },
+        "sourceCode": "https://github.com/0sum-io/pepu-snap",
+        "screenshots": [
+          "./images/@0sum/pepu-snap/1.png",
+          "./images/@0sum/pepu-snap/2.png",
+          "./images/@0sum/pepu-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.5": {
+          "checksum": "MSS3MNr8B2gklT23eJffSuBCMamaRbKtxwpvuqGZ4K0="
+        }
+      }
+    },
+    "npm:@ans-abstract-name-service/ans-snap": {
+      "id": "npm:@ans-abstract-name-service/ans-snap",
+      "metadata": {
+        "name": "ANS | Abstract Name Service",
+        "author": {
+          "name": "ANS | Abstract Name Service",
+          "website": "https://absnameservice.xyz/"
+        },
+        "summary": "Resolve .abs names on Abstract mainnet.",
+        "description": "ANS | Abstract Name Service enables native .abs name resolution inside MetaMask on Abstract (chain ID 2741). Features:\n\n- Forward lookup: resolves name.abs -> address using ANS V2 records.\n- Reverse lookup: resolves address -> primary .abs name when available.\n- Owner fallback: if no resolver record exists, falls back to ANS ownership data.\n\nHow to use:\n1. Connect wallet on the companion site.\n2. Install the Snap.\n3. In MetaMask, send assets using a .abs name (for example: shroomy.abs).\n\nNetwork scope:\n- Abstract mainnet only (eip155:2741).",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://discord.gg/5jXUqCSR7Q",
+          "knowledgeBase": "https://absnameservice.xyz/docs/metamask-snap"
+        },
+        "sourceCode": "https://github.com/0xShroomy/ans-snap",
+        "screenshots": [
+          "./images/@ans-abstract-name-service/ans-snap/1.png",
+          "./images/@ans-abstract-name-service/ans-snap/2.png",
+          "./images/@ans-abstract-name-service/ans-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.3": {
+          "checksum": "nPqrzsM7u3H68Gt60vAEkUmSFouWWktgPAeO2LDEBOU="
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
@@ -5532,6 +5557,10 @@
     {
       "id": "npm:wallet-guard-snap",
       "versionRange": "<1.1.3"
+    },
+    {
+      "id": "npm:@forta-network/metamask-snap",
+      "versionRange": "<=0.1.3"
     }
   ]
 }
