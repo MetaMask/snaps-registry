@@ -5494,13 +5494,13 @@
     "npm:@kenostod/utl-snap": {
       "id": "npm:@kenostod/utl-snap",
       "metadata": {
-        "name": "UTL Fee Rewards",
+        "name": "UTL Protocol — Fee X-Ray & Passive Income",
         "author": {
           "name": "Kenostod Blockchain Academy LLC",
-          "website": "https://kenostodblockchain.com"
+          "website": "https://kenostod-blockchain.onrender.com/utl-dashboard.html"
         },
-        "summary": "Track UTL fee rewards and staking tier inside MetaMask on BNB Smart Chain.",
-        "description": "Universal Transaction Layer (UTL) captures 0.1% of cross-chain transaction fees and redistributes 60% to stakers. This Snap displays your earning tier, fee contribution totals, and reward estimates natively inside MetaMask. Actual staking and reward claims happen via the UTL smart contracts on BNB Smart Chain — this Snap provides read-only insight and in-wallet notifications.",
+        "summary": "See MEV risk and hidden fee extraction before signing. Earn passive income from every UTL transaction on BSC. Flash Arbitrage alerts inside MetaMask.",
+        "description": "The UTL MetaMask Snap adds Fee X-Ray analysis to every BNB Smart Chain transaction — revealing MEV risk, UTL protocol toll breakdown, and fee distribution before you sign. Earn passive USDC income: 60% of all captured fees goes to KENO stakers. Flash Arbitrage Loan (FAL™) alerts notify you of profitable arbitrage opportunities inside MetaMask. Build your Loyalty Tier (Bronze → Diamond) through accumulated protocol interactions, unlocking higher reward multipliers and on-chain governance voting power. Graduate credentials from Kenostod Blockchain Academy LLC are stored and verifiable inside your MetaMask wallet. All features are powered by 5 live UTL smart contracts on BNB Smart Chain.",
         "category": "interoperability",
         "tags": [
           "defi",
@@ -5508,11 +5508,15 @@
           "staking",
           "rewards",
           "bsc",
-          "cross-chain"
+          "cross-chain",
+          "fee-redistribution",
+          "arbitrage",
+          "governance",
+          "education"
         ],
         "audits": [],
         "support": {
-          "contact": "https://kenostodblockchain.com"
+          "contact": "https://kenostod-blockchain.onrender.com"
         },
         "sourceCode": "https://github.com/Keno2121/utl-metamask-snap"
       },
