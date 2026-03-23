@@ -5523,6 +5523,9 @@
       "versions": {
         "1.0.2": {
           "checksum": "eiXsRHsgbgYNNzDZyOjWg1A3PZ5qX/1r5FjknJTYUNg="
+        },
+        "2.0.0": {
+          "checksum": "AlVAKX7DhCxknrr/5fdb/Qsmee6oAnkvZK4eFmv5Z64="
         }
       }
     }
