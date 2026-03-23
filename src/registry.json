@@ -5514,7 +5514,12 @@
           "governance",
           "education"
         ],
-        "audits": [],
+        "audits": [
+          {
+            "auditor": "Hashlock",
+            "report": "https://audit.hashlock.com/audit/0a13e701-ff4f-4583-93ce-d79c62a841f8"
+          }
+        ],
         "support": {
           "contact": "https://kenostod-blockchain.onrender.com"
         },
