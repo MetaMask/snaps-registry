@@ -5418,6 +5418,28 @@
         }
       }
     },
+    "npm:@nodefortress/cc-snap": {
+      "id": "npm:@nodefortress/cc-snap",
+      "metadata": {
+        "name": "CC by Node Fortress",
+        "author": {
+          "name": "Node Fortress",
+          "website": "https://nodefortress.io/"
+        },
+        "summary": "Manage Canton Network accounts and assets.",
+        "description": "After installing the app, visit the companion app at https://ccsnap.io to deploy your account.",
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:wallet@nodefortress.io"
+        },
+        "sourceCode": "https://github.com/nodefortress/cc-snap"
+      },
+      "versions": {
+        "0.1.14": {
+          "checksum": "zmCRkePVLGVlbdBjof52OQqh14qum8XUq/I2y407rHE="
+        }
+      }
+    },
     "npm:@taker007/crypto-guardian-snap": {
       "id": "npm:@taker007/crypto-guardian-snap",
       "metadata": {
