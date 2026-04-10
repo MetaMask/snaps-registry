@@ -5517,6 +5517,29 @@
         }
       }
     },
+    "npm:@yigitkara/chain-guardian": {
+      "id": "npm:@yigitkara/chain-guardian",
+      "metadata": {
+        "name": "Chain Guardian",
+        "author": {
+          "name": "YigitKara",
+          "website": "https://chain-guardian-site.vercel.app/"
+        },
+        "summary": "Never send crypto to the wrong chain again.",
+        "description": "Chain Guardian protects your crypto transactions from one of the most common and costly mistakes in web3: sending funds to an address on the wrong blockchain network. HOW IT WORKS\n\nEvery time you send a transaction in MetaMask, Chain Guardian automatically analyzes the destination address and checks if it is compatible with the network you are currently on. The result appears directly in your transaction confirmation screen before you click confirm. WHAT IT DETECTS\n\nChain Guardian currently detects address format mismatches for the following networks:\n- EVM chains (Ethereum, Polygon, BNB Smart Chain, Avalanche, Optimism, Arbitrum, Base, and more)\n- Solana\n- Bitcoin (Legacy, SegWit, and Bech32 formats)\n- Tron\n- XRP / Ripple\n- Litecoin\n- Cardano\n- Cosmos\n- Polkadot\n- Stellar WHAT YOU SEE\n\nGreen checkmark: The destination address format is compatible with your current network. Safe to proceed.\n\nRed warning: The destination address looks like it belongs to a different blockchain. Your funds would be permanently lost if you proceed. Chain Guardian will also suggest bridges you can use to send your funds to the correct network. Yellow warning: The address format is unrecognized. Proceed only if you are certain the address is correct. HOW TO USE IT\n\nInstall Chain Guardian and it works automatically. No configuration needed. Every transaction you initiate in MetaMask will be analyzed instantly. Source code: https://github.com/YigitKara/chain-guardian\nPackage: https://www.npmjs.com/package/@yigitkara/chain-guardian",
+        "category": "transaction insights",
+        "support": {
+          "contact": "https://github.com/YigitKara/chain-guardian/issues",
+          "knowledgeBase": "https://github.com/YigitKara/chain-guardian/blob/main/packages/snap/README.md"
+        },
+        "sourceCode": "https://github.com/YigitKara/chain-guardian"
+      },
+      "versions": {
+        "0.1.3": {
+          "checksum": "z1Z5zz7zI8qpGLFErKa+xvx+fHaO60ny8CTY5WI+rvU="
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
