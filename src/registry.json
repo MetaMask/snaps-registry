@@ -5499,9 +5499,9 @@
           "name": "Kenostod Blockchain Academy LLC",
           "website": "https://kenostodblockchain.com/utl-dashboard.html"
         },
-        "summary": "See MEV risk and hidden fee extraction before signing. Earn passive income from every UTL transaction on BSC. Flash Arbitrage alerts inside MetaMask.",
-        "description": "The UTL MetaMask Snap adds Fee X-Ray analysis to every BNB Smart Chain transaction — revealing MEV risk, UTL protocol toll breakdown, and fee distribution before you sign. Earn passive USDC income: 60% of all captured fees goes to KENO stakers. Flash Arbitrage Loan (FAL™) alerts notify you of profitable arbitrage opportunities inside MetaMask. Build your Loyalty Tier (Bronze → Diamond) through accumulated protocol interactions, unlocking higher reward multipliers and on-chain governance voting power. Graduate credentials from Kenostod Blockchain Academy LLC are stored and verifiable inside your MetaMask wallet. All features are powered by 5 live UTL smart contracts on BNB Smart Chain.",
-        "category": "transaction-insights",
+        "summary": "Analyze MEV risk and UTL fee breakdown before signing any BNB Smart Chain transaction. View your KENO staking tier and protocol reward estimates inside MetaMask.",
+        "description": "The UTL MetaMask Snap adds Fee X-Ray analysis to BNB Smart Chain transactions — revealing MEV risk, UTL protocol fee breakdown, and distribution split before you sign. View your KENO staking tier (Bronze through Diamond) and accumulated reward estimates from UTL protocol fee flow. Flash Arbitrage Loan (FAL) alerts display real-time arbitrage data from the UTL protocol. Kenostod Blockchain Academy credentials are verifiable inside your MetaMask wallet. All features read on-chain state from 5 live UTL smart contracts on BNB Smart Chain — no funds are moved by the snap directly.",
+        "category": "transaction insights",
         "tags": [
           "defi",
           "passive-income",
