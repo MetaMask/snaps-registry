@@ -5543,6 +5543,28 @@
         }
       }
     },
+    "npm:@txfort/snap": {
+      "id": "npm:@txfort/snap",
+      "metadata": {
+        "name": "TxFort: Security Shield",
+        "author": {
+          "name": "TxFort",
+          "website": "https://txfort.com/"
+        },
+        "summary": "Real-time transaction analysis, safety warnings, and clear descriptions before you sign.",
+        "description": "TxFort: Security Shield is a professional transaction analysis tool designed to bring clarity and security to your MetaMask experience. Our goal is to empower users with human-readable insights, ensuring you know exactly what a transaction does before you sign it.\n\nBy providing a clear breakdown of smart contract interactions, TxFort helps prevent mistakes and protects your digital assets across multiple blockchain networks.\n\nKey Features:\n\n1. Clear Transaction Descriptions\nTxFort transforms complex blockchain data into plain English. Whether you are swapping tokens, interacting with a DeFi protocol, or minting an NFT, we provide a natural language summary of the transaction's purpose and its expected outcome.\n\n2. Comprehensive Security Insights\nOur analysis engine identifies potential risks within the transaction data. TxFort highlights dangerous contract permissions—such as broad token approvals—and provides warnings for suspicious transaction patterns that could lead to asset loss.\n\n3. Token and Permission Tracking\nSee exactly which assets are involved in a transaction. TxFort explicitly calls out token transfers and permission requests, ensuring you never inadvertently grant control of your wallet to an unverified contract.\n\n4. Seamless Multi-Chain Coverage\nSecurity should be consistent across all your activities. TxFort supports a wide range of EVM-compatible chains, including Ethereum, Polygon, Arbitrum, Optimism, and more, offering the same level of protection regardless of the network.\n\n5. Integrated User Experience\nTxFort insights are displayed directly within your MetaMask wallet. There is no need to visit external websites or use separate tools; your security analysis is available right where you need it most—at the moment of signing.\n\nHow to Use:\n\n1. Install the Snap: Add TxFort: Security Shield to your MetaMask wallet.\n2. Activate your Profile: Visit https://txfort.com/metamask to connect and initialize your account.\n3. Transact Securely: Every time you initiate a transaction, the TxFort tab in MetaMask will automatically provide you with detailed analysis and security indicators.\n\nProtect your assets and gain confidence in your blockchain interactions with TxFort. Visit https://txfort.com for support and more information.",
+        "category": "transaction insights",
+        "support": {
+          "contact": "https://www.txfort.com/contact"
+        },
+        "sourceCode": "https://github.com/txfort/txfort-snap"
+      },
+      "versions": {
+        "1.0.4": {
+          "checksum": "Kw9QHUASDr8/dwY3ciZ+rG7bIPISDYZ0CGnApeNXs4E="
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
