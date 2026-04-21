@@ -4808,6 +4808,9 @@
         },
         "3.1.1": {
           "checksum": "xk7O5itVsuV3Dfldq3rI3WgggHa3z7HX7e17jzheE8w="
+        },
+        "3.1.2": {
+          "checksum": "SRmLTMVKJvWHyVH5H3HhvMz0iQOWn4St4/9xX8Sv1EM="
         }
       }
     },
@@ -5138,6 +5141,9 @@
         "sourceCode": "https://github.com/coti-io/coti-snap"
       },
       "versions": {
+        "1.0.46-0a9f13": {
+          "checksum": "JlM8Sdy5U7WZi4QEDTKIS+qup9xEjVLzvd6TP6bmIxY="
+        },
         "1.0.19-8ac5b7": {
           "checksum": "wDTIPDrIKcHDWSKwZwJ6v8sUE5OUtmTMFcurappFqXM="
         }
@@ -5199,6 +5205,9 @@
         "sourceCode": "https://github.com/openhive-network/metamask-snap"
       },
       "versions": {
+        "1.7.0": {
+          "checksum": "G+5qsDlLbzhKCGqIYUkovutGZKZvLdlQQdpyPFhMHbc="
+        },
         "1.6.0": {
           "checksum": "Gi/COgu8L73LLMFQGrpbDZII8igqYpVTUWTyBdKWAtA="
         }
@@ -5355,8 +5364,8 @@
         ]
       },
       "versions": {
-        "0.3.0": {
-          "checksum": "jElN00ss8XPpcCoAAgAw+42WwL5gez40nqqRRJPBLkA="
+        "0.4.2": {
+          "checksum": "P5zK+T8afxLRSILibyFCD8RnkeoD3U1mrtaIQ7UDupw="
         }
       }
     },
@@ -5409,6 +5418,50 @@
         },
         "1.2.4": {
           "checksum": "ffdfxK4L0hmiIj8b93NQUVFhLcSqm8PZKpTTWea+0XU="
+        }
+      }
+    },
+    "npm:@nodefortress/cc-snap": {
+      "id": "npm:@nodefortress/cc-snap",
+      "metadata": {
+        "name": "CC by Node Fortress",
+        "author": {
+          "name": "Node Fortress",
+          "website": "https://nodefortress.io/"
+        },
+        "summary": "Manage Canton Network accounts and assets.",
+        "description": "After installing the app, visit the companion app at https://ccsnap.io to deploy your account.",
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:wallet@nodefortress.io"
+        },
+        "sourceCode": "https://github.com/nodefortress/cc-snap"
+      },
+      "versions": {
+        "0.1.14": {
+          "checksum": "zmCRkePVLGVlbdBjof52OQqh14qum8XUq/I2y407rHE="
+        }
+      }
+    },
+    "npm:@taker007/crypto-guardian-snap": {
+      "id": "npm:@taker007/crypto-guardian-snap",
+      "metadata": {
+        "name": "Crypto Guardian",
+        "author": {
+          "name": "HAJ Solutions, Inc",
+          "website": "https://github.com/taker007/crypto-guardian"
+        },
+        "summary": "Shows on-chain risk signals for Ethereum tokens so users can make informed decisions before proceeding. Advisory only.",
+        "description": "Crypto Guardian is an advisory-only MetaMask Snap that provides on-chain risk signals for Ethereum tokens before a user proceeds with an interaction. The Snap analyzes publicly available on-chain data related to a token or contract and presents a simple risk summary to the user using a confirmation dialog. It is designed to help users make more informed decisions, not to enforce or automate any action. Crypto Guardian does NOT sign transactions, send transactions, block transactions, read wallet balances, estimate gas, or move funds. It does not have access to private keys, seed phrases, or signing material. All analysis is read-only. How it works: When triggered, the Snap requests a risk assessment for the selected Ethereum token or contract. The result is displayed to the user as an informational dialog showing a risk level and supporting context. The user remains fully in control and may choose to proceed or stop on their own. Backend usage: Risk analysis is performed via a read-only backend service. Only the minimum information required to analyze on-chain risk is sent (such as a token or contract identifier). No personal data, wallet secrets, or transaction signing payloads are transmitted. Graceful degradation: If the backend service is unreachable or unavailable, Crypto Guardian does not fail silently. Instead, it displays a warning dialog and defaults the assessment to a high-risk, unverified state, allowing the user to decide how to proceed. Crypto Guardian is intended as an informational safety tool. It provides signals and context only and should not be considered financial advice or an automated security enforcement mechanism.",
+        "category": "transaction insights",
+        "support": {
+          "knowledgeBase": "https://github.com/taker007/crypto-guardian/blob/main/packages/snap/README.md"
+        },
+        "sourceCode": "https://github.com/taker007/crypto-guardian"
+      },
+      "versions": {
+        "1.1.1": {
+          "checksum": "cNlMbl70B1usNJxalMQiLdWUUULHHxxPWZPAi6Boyvo="
         }
       }
     },
@@ -5490,6 +5543,51 @@
         }
       }
     },
+    "npm:@yigitkara/chain-guardian": {
+      "id": "npm:@yigitkara/chain-guardian",
+      "metadata": {
+        "name": "Chain Guardian",
+        "author": {
+          "name": "YigitKara",
+          "website": "https://chain-guardian-site.vercel.app/"
+        },
+        "summary": "Never send crypto to the wrong chain again.",
+        "description": "Chain Guardian protects your crypto transactions from one of the most common and costly mistakes in web3: sending funds to an address on the wrong blockchain network. HOW IT WORKS\n\nEvery time you send a transaction in MetaMask, Chain Guardian automatically analyzes the destination address and checks if it is compatible with the network you are currently on. The result appears directly in your transaction confirmation screen before you click confirm. WHAT IT DETECTS\n\nChain Guardian currently detects address format mismatches for the following networks:\n- EVM chains (Ethereum, Polygon, BNB Smart Chain, Avalanche, Optimism, Arbitrum, Base, and more)\n- Solana\n- Bitcoin (Legacy, SegWit, and Bech32 formats)\n- Tron\n- XRP / Ripple\n- Litecoin\n- Cardano\n- Cosmos\n- Polkadot\n- Stellar WHAT YOU SEE\n\nGreen checkmark: The destination address format is compatible with your current network. Safe to proceed.\n\nRed warning: The destination address looks like it belongs to a different blockchain. Your funds would be permanently lost if you proceed. Chain Guardian will also suggest bridges you can use to send your funds to the correct network. Yellow warning: The address format is unrecognized. Proceed only if you are certain the address is correct. HOW TO USE IT\n\nInstall Chain Guardian and it works automatically. No configuration needed. Every transaction you initiate in MetaMask will be analyzed instantly. Source code: https://github.com/YigitKara/chain-guardian\nPackage: https://www.npmjs.com/package/@yigitkara/chain-guardian",
+        "category": "transaction insights",
+        "support": {
+          "contact": "https://github.com/YigitKara/chain-guardian/issues",
+          "knowledgeBase": "https://github.com/YigitKara/chain-guardian/blob/main/packages/snap/README.md"
+        },
+        "sourceCode": "https://github.com/YigitKara/chain-guardian"
+      },
+      "versions": {
+        "0.1.3": {
+          "checksum": "z1Z5zz7zI8qpGLFErKa+xvx+fHaO60ny8CTY5WI+rvU="
+        }
+      }
+    },
+    "npm:@txfort/snap": {
+      "id": "npm:@txfort/snap",
+      "metadata": {
+        "name": "TxFort: Security Shield",
+        "author": {
+          "name": "TxFort",
+          "website": "https://txfort.com/"
+        },
+        "summary": "Real-time transaction analysis, safety warnings, and clear descriptions before you sign.",
+        "description": "TxFort: Security Shield is a professional transaction analysis tool designed to bring clarity and security to your MetaMask experience. Our goal is to empower users with human-readable insights, ensuring you know exactly what a transaction does before you sign it.\n\nBy providing a clear breakdown of smart contract interactions, TxFort helps prevent mistakes and protects your digital assets across multiple blockchain networks.\n\nKey Features:\n\n1. Clear Transaction Descriptions\nTxFort transforms complex blockchain data into plain English. Whether you are swapping tokens, interacting with a DeFi protocol, or minting an NFT, we provide a natural language summary of the transaction's purpose and its expected outcome.\n\n2. Comprehensive Security Insights\nOur analysis engine identifies potential risks within the transaction data. TxFort highlights dangerous contract permissions—such as broad token approvals—and provides warnings for suspicious transaction patterns that could lead to asset loss.\n\n3. Token and Permission Tracking\nSee exactly which assets are involved in a transaction. TxFort explicitly calls out token transfers and permission requests, ensuring you never inadvertently grant control of your wallet to an unverified contract.\n\n4. Seamless Multi-Chain Coverage\nSecurity should be consistent across all your activities. TxFort supports a wide range of EVM-compatible chains, including Ethereum, Polygon, Arbitrum, Optimism, and more, offering the same level of protection regardless of the network.\n\n5. Integrated User Experience\nTxFort insights are displayed directly within your MetaMask wallet. There is no need to visit external websites or use separate tools; your security analysis is available right where you need it most—at the moment of signing.\n\nHow to Use:\n\n1. Install the Snap: Add TxFort: Security Shield to your MetaMask wallet.\n2. Activate your Profile: Visit https://txfort.com/metamask to connect and initialize your account.\n3. Transact Securely: Every time you initiate a transaction, the TxFort tab in MetaMask will automatically provide you with detailed analysis and security indicators.\n\nProtect your assets and gain confidence in your blockchain interactions with TxFort. Visit https://txfort.com for support and more information.",
+        "category": "transaction insights",
+        "support": {
+          "contact": "https://www.txfort.com/contact"
+        },
+        "sourceCode": "https://github.com/txfort/txfort-snap"
+      },
+      "versions": {
+        "1.0.4": {
+          "checksum": "Kw9QHUASDr8/dwY3ciZ+rG7bIPISDYZ0CGnApeNXs4E="
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
@@ -5511,6 +5609,13 @@
       "versions": {
         "1.21.1": {
           "checksum": "z4+3fdZhAyzb6R94sNJYeTuW/t7H48Qyuc3t72eraXw="
+        },
+        "1.25.0": {
+          "checksum": "RUgbv0GaqjyNwcbChml5Jg7ZvylzNZSGKPDBCN9MWVE=",
+          "clientVersions": {
+            "extension": ">=13.23.0",
+            "mobile": ">=7.70.0"
+          }
         }
       }
     }
