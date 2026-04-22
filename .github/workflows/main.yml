@@ -80,7 +80,7 @@ jobs:
       - all-jobs-completed
       - check-skip-merge-queue
     env:
-      PASSED: ${{ needs.all-jobs-complete.outputs.passed == 'true' || needs.check-skip-merge-queue.outputs.skip-merge-queue == 'true' }}
+      PASSED: ${{ needs.all-jobs-completed.outputs.passed == 'true' || needs.check-skip-merge-queue.outputs.skip-merge-queue == 'true' }}
     steps:
       - name: Check that all jobs have passed
         run: |
