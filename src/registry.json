@@ -2948,6 +2948,9 @@
         ]
       },
       "versions": {
+        "0.1.5": {
+          "checksum": "oipnBy/oZ5Beu1hJ20uASyk9rdscPn9+KsiadsRaqM4="
+        },
         "0.1.4": {
           "checksum": "dMNPliBnqJJ3Rb+O9Xz4/7nXSetXsk4w6lJwf7du5K8="
         }
@@ -5143,11 +5146,8 @@
         "sourceCode": "https://github.com/coti-io/coti-snap"
       },
       "versions": {
-        "1.0.46-0a9f13": {
-          "checksum": "JlM8Sdy5U7WZi4QEDTKIS+qup9xEjVLzvd6TP6bmIxY="
-        },
-        "1.0.19-8ac5b7": {
-          "checksum": "wDTIPDrIKcHDWSKwZwJ6v8sUE5OUtmTMFcurappFqXM="
+        "1.0.52-eeccdb": {
+          "checksum": "frm3bxp1Wf6YRW+fNZo8MaF/DkpV2bAjyB3qwHZN6/Y="
         }
       }
     },
