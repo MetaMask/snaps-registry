@@ -1633,8 +1633,8 @@
         }
       }
     },
-    "npm:@qtumproject/qtum-wallet": {
-      "id": "npm:@qtumproject/qtum-wallet",
+    "npm:qtum-snap": {
+      "id": "npm:qtum-snap",
       "metadata": {
         "name": "Qtum Wallet",
         "author": {
@@ -1655,9 +1655,9 @@
         },
         "sourceCode": "https://github.com/qtumproject/qtum-extension-wallet",
         "screenshots": [
-          "./images/@qtumproject/qtum-wallet/1.png",
-          "./images/@qtumproject/qtum-wallet/2.png",
-          "./images/@qtumproject/qtum-wallet/3.png"
+          "./images/qtum-snap/1.png",
+          "./images/qtum-snap/2.png",
+          "./images/qtum-snap/3.png"
         ]
       },
       "versions": {
