@@ -66,11 +66,11 @@ jobs:
       - analyse-code
       - build-lint-test
     outputs:
-      PASSED: ${{ steps.set-output.outputs.PASSED }}
+      passed: ${{ steps.set-output.outputs.passed }}
     steps:
-      - name: Set PASSED output
+      - name: Set passed output
         id: set-output
-        run: echo "PASSED=true" >> "$GITHUB_OUTPUT"
+        run: echo "passed=true" >> "$GITHUB_OUTPUT"
 
   all-jobs-pass:
     name: All jobs pass
