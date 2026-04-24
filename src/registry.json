@@ -1641,6 +1641,7 @@
           "name": "Qtum",
           "website": "https://qtum.info/"
         },
+        "website": "https://snap.qtum.org/",
         "summary": "Seamlessly connect to the Qtum network, enabling dapp interactions through an easy-to-use adapter.",
         "description": "The Qtum MetaMask Snap is an extension for MetaMask that enables users to manage Qtum tokens, including QRC20 variants, and interact seamlessly with Qtum decentralized applications (dapps) directly within their MetaMask wallet. The Snap supports core wallet functionalities and is designed for easy integration into existing Ethereum Virtual Machine (EVM) dapps, allowing developers to leverage Qtum effectively.",
         "audits": [
