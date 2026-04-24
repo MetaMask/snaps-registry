@@ -2516,10 +2516,9 @@
       "metadata": {
         "name": "Filecoin Wallet",
         "author": {
-          "name": "Protocol Labs",
-          "website": "https://protocol.ai/"
+          "name": "Filecoin Foundation",
+          "website": "https://fil.org/"
         },
-        "website": "https://filsnap.dev",
         "summary": "Manage Filecoin accounts, send FIL to Native and FEVM accounts, and enable FEVM transaction insights.",
         "description": "Connect to Filecoin dapps using MetaMask. Manage Filecoin accounts, send FIL to Native and FEVM accounts and enable FEVM transaction insights.\n\nEnhances MetaMask with native Filecoin address support (e.g. f1 addresses). (Not needed for the Filecoin EVM.)\n\nAfter installing the Snap, visit the website to connect with MetaMask and start using the Snap.",
         "audits": [
@@ -2540,6 +2539,9 @@
         ]
       },
       "versions": {
+        "1.10.3": {
+          "checksum": "3bfToqdHv7n4Ya42gWJGo+ZPkHOi/4jPs74fq1Ew/JI="
+        },
         "1.6.1": {
           "checksum": "VONwyW7mDv4wtak2iBXko7u2WuJ50bC2t1YM/UfftRs="
         },
@@ -2943,6 +2945,9 @@
         ]
       },
       "versions": {
+        "0.1.5": {
+          "checksum": "oipnBy/oZ5Beu1hJ20uASyk9rdscPn9+KsiadsRaqM4="
+        },
         "0.1.4": {
           "checksum": "dMNPliBnqJJ3Rb+O9Xz4/7nXSetXsk4w6lJwf7du5K8="
         }
@@ -5138,11 +5143,8 @@
         "sourceCode": "https://github.com/coti-io/coti-snap"
       },
       "versions": {
-        "1.0.46-0a9f13": {
-          "checksum": "JlM8Sdy5U7WZi4QEDTKIS+qup9xEjVLzvd6TP6bmIxY="
-        },
-        "1.0.19-8ac5b7": {
-          "checksum": "wDTIPDrIKcHDWSKwZwJ6v8sUE5OUtmTMFcurappFqXM="
+        "1.0.52-eeccdb": {
+          "checksum": "frm3bxp1Wf6YRW+fNZo8MaF/DkpV2bAjyB3qwHZN6/Y="
         }
       }
     },
