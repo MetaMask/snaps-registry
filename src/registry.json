@@ -5522,6 +5522,29 @@
         }
       }
     },
+    "npm:@quantumshield-js/snap": {
+      "id": "npm:@quantumshield-js/snap",
+      "metadata": {
+        "name": "QuantumShield PQC",
+        "author": {
+          "name": "QuantumShield",
+          "website": "https://quantumshield.xyz/"
+        },
+        "summary": "Generates post-quantum key pairs and creates ECDSA + ML-DSA-65 hybrid signatures for QuantumShield L2",
+        "description": "QuantumShield PQC Snap brings post-quantum cryptography to MetaMask. It implements ML-DSA-65 (NIST FIPS 204, Security Level 3) — a lattice-based digital signature algorithm standardized by NIST in August 2024 to resist attacks from both classical and quantum computers. Quantum computers running Shor's algorithm will eventually break the ECDSA signatures that secure every Ethereum wallet today. QuantumShield prepares users for this threat by adding a second, quantum-resistant signature layer on top of the existing ECDSA infrastructure.\n\nWhat this Snap does:\nKey Generation — Generates ML-DSA-65 key pairs (1,952-byte public key, 4,032-byte private key) inside the Snap's isolated storage. Private keys never leave the Snap environment. Users can generate multiple labeled key pairs and manage them independently.\nHybrid Signing — Creates dual signatures that combine ECDSA (classical) and ML-DSA-65 (post-quantum) into a single 3,375-byte payload. A transaction is only valid when both signatures verify. This means security is maintained even if either algorithm is compromised individually.\nPQC-Only Signing — For scenarios where ECDSA is considered compromised, the Snap can produce ML-DSA-65-only signatures (3,310 bytes) that bypass ECDSA entirely.\nSignature Verification — Verifies the ML-DSA-65 component of both hybrid and PQC-only signatures locally within the Snap.\nKey Management — List, inspect, export, and delete key pairs. Key import is supported with automatic integrity verification (sign-and-verify check on import). Public key export enables on-chain registration with QuantumShield L2 smart accounts.\n\nThis Snap is designed for use with QuantumShield L2, an OP Stack-based Layer 2 that includes an on-chain ML-DSA-65 verification precompile. However, the key generation and signing functionality works independently — any dApp can integrate post-quantum signatures by calling the Snap's RPC methods.\n\nPermissions used:\nsnap_dialog (user confirmation before key generation, signing, and export), snap_manageState (encrypted key storage), snap_notify (operation notifications), endowment:rpc (dApp communication).\n\nNo network access is required. All cryptographic operations are performed locally using the @noble/post-quantum library, a JavaScript implementation audited and maintained by Paul Miller.",
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:develop@superlabs.studio",
+          "knowledgeBase": "https://quantumshield.xyz/snap"
+        },
+        "sourceCode": "https://github.com/quantumshield-xyz/snap"
+      },
+      "versions": {
+        "0.1.5": {
+          "checksum": "b9iaMZN7D9Bv2hUqTv7+/Hfn/5K0YRXMKyegKoXPtSM="
+        }
+      }
+    },
     "npm:@yigitkara/chain-guardian": {
       "id": "npm:@yigitkara/chain-guardian",
       "metadata": {
