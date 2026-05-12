@@ -5585,6 +5585,29 @@
         }
       }
     },
+    "npm:@kurslog/metamask-snap": {
+      "id": "npm:@kurslog/metamask-snap",
+      "metadata": {
+        "name": "Kurslog Rate Tracker",
+        "author": {
+          "name": "Kurslog",
+          "website": "https://kurslog.com/en"
+        },
+        "summary": "Compare OTC exchange rates from 100+ exchangers and find the best cash-out rate in your city. Get real-time rate insights when swapping tokens on Uniswap, SushiSwap, 1inch, and PancakeSwap.",
+        "description": "Kurslog Rate Tracker helps you find the best OTC exchange rates for crypto cash-out directly inside MetaMask.\n\nTransaction Insight: When you swap tokens on Uniswap, SushiSwap, 1inch, or PancakeSwap, Kurslog shows you the best cash-out rates (Card UAH, Cash UAH, Cash USD) right on the transaction confirmation screen. See how much you would get if you sell your crypto directly through an OTC exchanger instead.\n\nHome Page: Browse popular exchange directions with real-time rates from 100+ exchangers. Check rates for any currency pair.\n\nRate Check: Select from 190+ currencies organized by category (Crypto, UAH, USD, EUR, and more). Compare rates from trusted exchangers with trust scores.\n\nMulti-country: Supports 98 countries and 285 cities. Cash rates are shown for your selected city. Card rates work globally.\n\nMulti-language: Ukrainian, Russian, and English. Language is auto-detected from your MetaMask settings.\n\nSupported DEXs: Uniswap V2/V3, Universal Router, SushiSwap, 1inch v5/v6, PancakeSwap, QuickSwap.\n\nSupported networks: Ethereum, Polygon, BSC.",
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:support@kurslog.com",
+          "knowledgeBase": "https://kurslog.com/en/info/metamask-snap"
+        },
+        "sourceCode": "https://github.com/kurslog/kurslog-metamask-snap"
+      },
+      "versions": {
+        "1.0.2": {
+          "checksum": "OkAjkpv19JYsVYR/v+bEZOw46kdk6ILAXRrAEqkdqPg="
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
