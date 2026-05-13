@@ -5585,6 +5585,28 @@
         }
       }
     },
+    "npm:smartsentinels-alerts": {
+      "id": "npm:smartsentinels-alerts",
+      "metadata": {
+        "name": "SmartSentinels Alerts",
+        "author": {
+          "name": "SmartSentinels",
+          "website": "https://smartsentinels.net/"
+        },
+        "summary": "Real-time campaign alerts, airdrop notifications, and reward tracking directly in MetaMask.",
+        "description": "SmartSentinels Alerts brings real-time campaign notifications, airdrop alerts, and reward tracking directly into your MetaMask wallet.\n\nFeatures:\n- Campaign Notifications: Receive push notifications every 30 minutes about new campaigns, airdrops, and rewards relevant to your connected wallet.\n- Homepage: Browse all active campaigns from within MetaMask. View campaign details including titles, descriptions, and action links without leaving your wallet.\n- One-Click Actions: Each campaign includes an action button that takes you directly to claim rewards, join airdrops, or participate in partner offers.\n- Automatic Wallet Registration: On install, your wallet is registered with SmartSentinels so you receive campaigns targeted to your address.\n- Multi-Wallet Support: Connect multiple wallets and receive consolidated campaign feeds across all your addresses.\n\nHow to use:\n1. Install SmartSentinels Alerts from the MetaMask Snaps Directory.\n2. When prompted, connect your wallet to allow the Snap to fetch campaigns for your address.\n3. Open the Snap homepage from the MetaMask menu to browse active campaigns.\n4. You will automatically receive in-app notifications about new campaigns every 30 minutes.\n5. Click through on any campaign to claim rewards or learn more.\n\nYou can also install the Snap from our benefits hub at https://smartsentinels.net/hub/benefits\n\nFor support, contact us at office@smartsentinels.net\n\nLearn more at https://smartsentinels.net\n\nSource code: https://github.com/C00K1E-dev/SmartSentinelsSnap",
+        "category": "notifications",
+        "support": {
+          "contact": "mailto:office@smartsentinels.net"
+        },
+        "sourceCode": "https://github.com/C00K1E-dev/SmartSentinelsSnap"
+      },
+      "versions": {
+        "0.1.1": {
+          "checksum": "AH4tfCMwR4yY5lfltena3XBZqeH+S8E3FTAFnOZk4NY="
+        }
+      }
+    },
     "npm:@kurslog/metamask-snap": {
       "id": "npm:@kurslog/metamask-snap",
       "metadata": {
