@@ -5630,6 +5630,30 @@
         }
       }
     },
+    "npm:tranzguard-shield-snap": {
+      "id": "npm:tranzguard-shield-snap",
+      "metadata": {
+        "name": "TranzGuard Shield",
+        "author": {
+          "name": "TranzGuard",
+          "website": "https://tranzguard.com/"
+        },
+        "website": "https://tranzguard.com/install-snap",
+        "summary": "FREE-forever, real-time crypto transaction protection powered by Guardian v3.0",
+        "description": "TranzGuard Shield is a FREE real-time crypto security layer powered by Guardian v3.0, protecting your wallet at the device, network, and cloud level without ever touching your private key, seed phrase, or funds.\n\nWHAT IT PROTECTS AGAINST\n\nAddress Poisoning: Detects visually similar wallet addresses designed to trick you into sending funds to an attacker. Checks first and last characters against known poisoning patterns.\n\nMalicious Signing Requests: Scans incoming dApp signing requests before you confirm. Detects hidden MAX_UINT256 unlimited spend approvals and flags them in plain language.\n\nKnown Drainer Addresses: Every destination address is checked against 44 real-time threat intelligence feeds including CISA Known Exploited Vulnerabilities, OFAC US Treasury sanctions list, Chainalysis blockchain intelligence, and the TranzGuard proprietary threat database.\n\nHOW IT WORKS\n\nWhen you initiate a transaction in MetaMask, TranzGuard Shield intercepts the unsigned transaction payload and checks the destination address against our threat intelligence feeds. The result appears in the MetaMask confirmation window before you click confirm. Green means safe. Red means stop.\n\nWHAT WE SEE vs NEVER TOUCH\n\nWe see: Public wallet address, incoming signing requests from dapps.\n\nWe never touch: Your private key, seed phrase, crypto balance, wallet password, or any ability to move your funds. TranzGuard has zero custody of your assets.\n\nSUPPORTED CHAINS\n\nEthereum and ERC-20 tokens, Bitcoin, Solana and SPL tokens, Polygon and MATIC tokens, Arbitrum, Optimism, Avalanche, BNB Chain, Base.\n\nTHREAT INTELLIGENCE SOURCES\n\n44 real-time feeds updated continuously including US Government CISA KEV, OFAC Treasury sanctions, EU sanctions list, Chainalysis blockchain data, URLhaus malware URLs, ThreatFox IOCs, GreyNoise IP intelligence, and the TranzGuard proprietary threat database covering 3.6 million malicious URLs.\n\nPRIVACY\n\nTranzGuard Shield only reads public wallet addresses and signing request data. We never access your private key, seed phrase, or account data. All checks are performed via our public API at tranzguard.com. Full privacy policy at https://tranzguard.com/privacy.\n\nFREE FOREVER\n\nTranzGuard Shield is completely free for individual users. Enterprise plans are available for banks and financial institutions at tranzguard.com. Patent pending USPTO 64/024,006. Built by TranzGuard Inc., Edison NJ, USA.",
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:vinay@tranzguard.com",
+          "knowledgeBase": "https://tranzguard.com/crypto-shield"
+        },
+        "sourceCode": "https://github.com/vinayr1973-sudo/tranzguard-snap/tree/master"
+      },
+      "versions": {
+        "1.0.6": {
+          "checksum": "UHGPm+6POLEGlJww8xDyAfwgG4uk86jT1iN7jV7dli4="
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
