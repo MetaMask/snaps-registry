@@ -1633,15 +1633,15 @@
         }
       }
     },
-    "npm:@qtumproject/qtum-wallet": {
-      "id": "npm:@qtumproject/qtum-wallet",
+    "npm:qtum-snap": {
+      "id": "npm:qtum-snap",
       "metadata": {
         "name": "Qtum Wallet",
         "author": {
           "name": "Qtum",
           "website": "https://qtum.info/"
         },
-        "website": "https://www.qtum.org/developers/snap/",
+        "website": "https://snap.qtum.org/",
         "summary": "Seamlessly connect to the Qtum network, enabling dapp interactions through an easy-to-use adapter.",
         "description": "The Qtum MetaMask Snap is an extension for MetaMask that enables users to manage Qtum tokens, including QRC20 variants, and interact seamlessly with Qtum decentralized applications (dapps) directly within their MetaMask wallet. The Snap supports core wallet functionalities and is designed for easy integration into existing Ethereum Virtual Machine (EVM) dapps, allowing developers to leverage Qtum effectively.",
         "audits": [
@@ -1652,20 +1652,18 @@
         ],
         "category": "interoperability",
         "support": {
-          "contact": "mailto:support@qtum.info",
-          "faq": "https://github.com/qtumproject/qtum-extension-wallet?tab=readme-ov-file#qtum-wallet-faq",
-          "knowledgeBase": "https://github.com/qtumproject/qtum-extension-wallet?tab=readme-ov-file#qtum-wallet-knowledge-doc"
+          "contact": "mailto:support@qtum.info"
         },
         "sourceCode": "https://github.com/qtumproject/qtum-extension-wallet",
         "screenshots": [
-          "./images/@qtumproject/qtum-wallet/1.png",
-          "./images/@qtumproject/qtum-wallet/2.png",
-          "./images/@qtumproject/qtum-wallet/3.png"
+          "./images/qtum-snap/1.png",
+          "./images/qtum-snap/2.png",
+          "./images/qtum-snap/3.png"
         ]
       },
       "versions": {
-        "0.2.0": {
-          "checksum": "SB/fFdS7jmrx1Fp/c98Gx2RQzo0+nbBOXeplPvYc6VU="
+        "1.0.0": {
+          "checksum": "bjR4kKJdKNKlD4+bwl80QtybIXpgjBmaBRkbrO5whtA="
         }
       }
     },
