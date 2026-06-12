@@ -1744,47 +1744,6 @@
         }
       }
     },
-    "npm:@leapwallet/metamask-cosmos-snap": {
-      "id": "npm:@leapwallet/metamask-cosmos-snap",
-      "metadata": {
-        "name": "Cosmos Wallet",
-        "author": {
-          "name": "Leap",
-          "website": "https://www.leapwallet.io/"
-        },
-        "website": "https://cosmos.leapwallet.io/snaps",
-        "summary": "Securely manage keys, connect to Cosmos dapps, and sign transactions.",
-        "description": "Securely manage keys, connect to Cosmos dapps, and sign transactions.\n\nAfter installing the Snap, visit the website to connect with MetaMask and start using the Snap.",
-        "audits": [
-          {
-            "auditor": "Sayfer",
-            "report": "https://github.com/MetaMask/snaps-registry/files/12544468/Sayfer.-.2023-08.Penetration.Testing.Report.for.LeapWallet.Snap.-.Updated.pdf"
-          }
-        ],
-        "category": "interoperability",
-        "support": {
-          "contact": "https://leapwallet.notion.site/Leap-Cosmos-Wallet-Support-ba1da3c05d3341eaa44a1850ed3260ee",
-          "faq": "https://leapwallet.notion.site/Leap-Cosmos-Wallet-Support-ba1da3c05d3341eaa44a1850ed3260ee#b9f076f6aeb947818b449a058cd2967b"
-        },
-        "sourceCode": "https://github.com/leapwallet/cosmos-metamask-snap",
-        "screenshots": [
-          "./images/@leapwallet/metamask-cosmos-snap/1.png",
-          "./images/@leapwallet/metamask-cosmos-snap/2.png",
-          "./images/@leapwallet/metamask-cosmos-snap/3.png"
-        ]
-      },
-      "versions": {
-        "0.1.21": {
-          "checksum": "O8AnRrDyQolfSUSxK7uZyf8GEK3KmF4+UE3Gx1uAr4M="
-        },
-        "0.1.18": {
-          "checksum": "zwTU57HXUX94fMIYhLMfYxAK/pGRwI0Dqao76/BqWZk="
-        },
-        "0.1.17": {
-          "checksum": "CLwZocaUEbDErtQAsybaudZDJq65a8AwlEFgkGUpmAQ="
-        }
-      }
-    },
     "npm:safe-send": {
       "id": "npm:safe-send",
       "metadata": {
