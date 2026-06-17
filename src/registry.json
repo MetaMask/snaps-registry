@@ -1656,9 +1656,9 @@
         },
         "sourceCode": "https://github.com/qtumproject/qtum-extension-wallet",
         "screenshots": [
-          "./images/qtum-snap/1.png",
-          "./images/qtum-snap/2.png",
-          "./images/qtum-snap/3.png"
+          "./images/@qtumproject/qtum-wallet/1.png",
+          "./images/@qtumproject/qtum-wallet/2.png",
+          "./images/@qtumproject/qtum-wallet/3.png"
         ]
       },
       "versions": {
