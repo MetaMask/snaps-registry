@@ -5614,6 +5614,30 @@
         }
       }
     },
+    "npm:ins-snap-resolver": {
+      "id": "npm:ins-snap-resolver",
+      "metadata": {
+        "name": "INS - Igra Name Service",
+        "author": {
+          "name": "INS - Igra Name Service",
+          "website": "https://insdomains.org/"
+        },
+        "website": "https://insdomains.org/snap",
+        "summary": "Resolve .igra names natively — no copy-paste, no extension switching",
+        "description": "INS (Igra Name Service) maps human-readable names to wallet addresses on Igra Network, the L2 built on Kaspa. Once installed, this Snap lets you type any .igra name (like alice.igra) directly into the MetaMask recipient field and it resolves natively — no copy-pasting addresses, no switching extensions, no need to also own a .eth name. Forward resolution (name to address) and reverse resolution (address to primary .igra name) both work out of the box. The Snap calls the public INS REST API (insdomains.org/api/resolve and /api/reverse), which unions reads across INS V1 and V2 registries on Igra L2 (chain ID 38833). All requests are read-only — the Snap never signs, never accesses keys, never manages accounts. Currently enabled on Ethereum Mainnet (chain ID 1) and Igra L2 (chain ID 38833). The Snap bundle is 1.3 KB minified. Source is MIT-licensed and fully open on GitHub.\n\nUse cases:\n- Send tokens to a friend by their .igra name on either chain\n- See who owns a wallet at a glance via reverse lookup \n- Integrate INS resolution into any dapp without adding a separate SDK.",
+        "category": "name resolution",
+        "support": {
+          "contact": "mailto:goonboycrypto@gmail.com",
+          "knowledgeBase": "https://insdomains.org/snap-help"
+        },
+        "sourceCode": "https://github.com/ItsGoonBoyCrypto/INSdomains/tree/main/snap"
+      },
+      "versions": {
+        "0.1.0": {
+          "checksum": "eR30Sd3707bsrGo7O99TXs/qdpreDwxy8BgmT54ShnE="
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
