@@ -5668,6 +5668,30 @@
           }
         }
       }
+    },
+    "npm:@norionsoft/w2qr-snap": {
+      "id": "npm:@norionsoft/w2qr-snap",
+      "metadata": {
+        "name": "Wallet2QR Connect",
+        "type": "account",
+        "author": {
+          "name": "NorionSoft",
+          "website": "https://w2qr.com"
+        },
+        "website": "https://w2qr.com",
+        "summary": "Use your honey-encrypted QR backup as a virtual hardware wallet.",
+        "description": "Wallet2QR Connect turns your encrypted QR seed backup into an external signer for MetaMask — like a Ledger or Trezor, but your QR code replaces the USB device.\n\nScan your encrypted QR, enter your password to start a time-limited signing session, and sign transactions through MetaMask as usual. Your mnemonic is never imported into MetaMask — it stays in memory only for the session duration.\n\nFeatures:\n• Honey encryption — every password produces a valid mnemonic, so brute-force attacks are useless\n• Argon2id key derivation (64 MB, 3 iterations) via WebAssembly\n• Time-limited signing sessions with automatic expiry\n• Supports legacy and EIP-1559 transactions",
+        "category": "account management",
+        "support": {
+          "contact": "mailto:alex@vir-tec.net"
+        },
+        "sourceCode": "https://github.com/alexvirtech/w2qr-mm"
+      },
+      "versions": {
+        "1.0.0": {
+          "checksum": "/weRj4fUCOtLuKrGrTLQQCGYdKHwp1S0Ek0NX15PYFs="
+        }
+      }
     }
   },
   "blockedSnaps": [
