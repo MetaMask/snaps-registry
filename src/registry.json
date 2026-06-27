@@ -5686,6 +5686,8 @@
           "contact": "mailto:alex@vir-tec.net"
         },
         "sourceCode": "https://github.com/alexvirtech/w2qr-mm",
+        "privacyPolicy": "https://w2qr.com/privacy",
+        "termsOfUse": "https://w2qr.com/terms",
         "screenshots": [
           "./images/@norionsoft/w2qr-snap/1.png",
           "./images/@norionsoft/w2qr-snap/2.png",
