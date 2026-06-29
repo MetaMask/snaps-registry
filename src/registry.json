@@ -5019,6 +5019,9 @@
         "sourceCode": "https://github.com/PatrickAlphaC/wise-signer-snap"
       },
       "versions": {
+        "0.0.9": {
+          "checksum": "ScUIfzCnhmoKvJvrk0CioBO2WZr0NK7Si/RNm/sy2oE="
+        },
         "0.0.8": {
           "checksum": "tMZlRlqkvRRu/9t3TKVUVDK0JYZdusbxD7G5LycyNgo="
         },
