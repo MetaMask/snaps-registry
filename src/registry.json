@@ -5641,6 +5641,30 @@
         }
       }
     },
+    "npm:@gainjar/skillwallet-snap": {
+      "id": "npm:@gainjar/skillwallet-snap",
+      "metadata": {
+        "name": "SkillWallet",
+        "author": {
+          "name": "Gainjar",
+          "website": "https://skillwallet-snap.vercel.app/"
+        },
+        "website": "https://skillwallet-snap.vercel.app/",
+        "summary": "Installs and executes AI-powered DCA (Dollar-Cost Averaging) skills for automated on-chain token swaps with market analysis and custom scheduling",
+        "description": "SkillWallet enables automated on-chain DCA (Dollar-Cost Averaging) through installable skills executed by your smart account.\n\nFeatures:\n- AI-Powered DCA: Uses AI market analysis and crypto news sentiment before each swap to optimize entry timing.\n- Custom Cron DCA: Set your own schedule with standard cron expressions (e.g., every weekday at 9 AM).\n - USDC Inbound DCA: Automatically swaps USDC when funds arrive, supporting fixed amounts or percentage-based spending.\n - Daily Spend Limits: Configure maximum USDC spending per day for safety.\n - Scoped Delegation: Each skill defines allowed targets, function selectors, and spending limits before execution.\n\nHow it works : -Install SkillWallet Snap in MetaMask and approve the required permissions.\n Connect your wallet and deploy a smart account for automated execution.\n Choose a skill and configure parameters like output token, amount, and schedule.\n Enable the skill to start automated DCA execution.\n Track execution history and AI market context in the snap UI.\n\nLearn more: https://github.com/GainJar-Payroll/skillwallet-snap",
+        "category": "interoperability",
+        "support": {
+          "contact": "https://github.com/GainJar-Payroll/skillwallet-snap/discussions",
+          "knowledgeBase": "https://skillwallet-snap.vercel.app/"
+        },
+        "sourceCode": "https://github.com/GainJar-Payroll/skillwallet-snap"
+      },
+      "versions": {
+        "0.1.1": {
+          "checksum": "/YUpwYlbESarQvQm43B/ivG6LI8Aw/sV9zZqn5eeH8Q="
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
