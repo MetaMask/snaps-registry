@@ -5359,11 +5359,12 @@
           "name": "Hive Mind",
           "website": "https://hivemindhq.io/"
         },
-        "summary": "Real-time trust signals powered by the Intuition knowledge graph",
-        "description": "Hive Mind shows you community trust signals from the Intuition knowledge graph before you sign transactions. When you're about to send crypto or interact with a smart contract, you'll see real-time data about the destination address and the dApp you're using. WHAT YOU'LL SEE:\n\n• Trust Signals — How many people have staked that an address is trustworthy (or not)\n• Stake Amounts — The economic weight behind each trust signal in TRUST tokens\n• Your Position — Whether you've already staked on this address\n• Aliases — Community-assigned labels for addresses\n• dApp Trust — Trust data for the dApp origin you're interacting with\n• Trusted Circle — Which of your trusted contacts have staked on this address HOW IT WORKS:\n\nIntuition is a decentralized knowledge graph where users stake cryptocurrency to signal trust or distrust. High stakes on 'trustworthy' mean the community has put real money behind their endorsement. This creates skin-in-the-game reputation that's harder to fake than traditional reviews. The Snap queries Intuition's knowledge graph in real-time and displays the results directly in your MetaMask transaction confirmation screen. No extra steps required — the data appears automatically when you're about to sign. TAKE ACTION:\n\nIf you see an address without trust data, you can click through to create a trust signal yourself.",
+        "summary": "Community Notes for your transactions. Scam and risk warnings on the addresses and contracts you're about to interact with.",
+        "description": "Hive Mind is Community Notes for your transactions.\n\nBefore you sign, Hive Mind shows what the community knows about the address or contract you're about to interact with — scam and risk warnings, plus reputation from the people you trust — right inside MetaMask.\n\nWHAT YOU GET\n• Scam and risk warnings on addresses and contracts before you approve\n• Community reputation and context on who you're transacting with\n• See what your trusted circle — and their wider network — have vouched for or flagged\n• Personalized to your wallet's social graph, surfaced automatically in the transaction window\n\nHOW IT WORKS\n1. Install the Snap and transact normally.\n2. When you're about to sign, Hive Mind surfaces relevant warnings and reputation for the destination.\n3. Review the signal, then approve or reject — every transaction stays in your control.\n\nPRIVACY\n• Hive Mind reads only the transaction you're reviewing, to look up public reputation.\n• No tracking. No selling your data.\n• Every transaction needs your explicit approval — Hive Mind never acts for you.\n\nWANT TO CONTRIBUTE?\nVouch for the good, flag the bad, and build your own reputation with the Hive Mind browser extension. Learn more at https://hivemindhq.io\n\nHive Mind is in beta and improving fast. Powered by Intuition.",
         "category": "transaction insights",
         "support": {
-          "knowledgeBase": "https://github.com/hivemindhq-io/snap/blob/main/docs/USER-KNOWLEDGE-BASE.md"
+          "knowledgeBase": "https://github.com/hivemindhq-io/snap/blob/main/docs/USER-KNOWLEDGE-BASE.md",
+          "contact": "https://discord.com/invite/SDMzQqBa9Q"
         },
         "sourceCode": "https://github.com/hivemindhq-io/snap",
         "screenshots": [
@@ -5373,6 +5374,9 @@
         ]
       },
       "versions": {
+        "2.0.0": {
+          "checksum": "OyiYyR7C5l/XIZbo0GCbJ/7bHXFzVQpFrS/znIpKoi4="
+        },
         "1.3.1": {
           "checksum": "SU005Ag236ZhGi7A98hvfLt2540oJ/vSN8p+06BWrl4="
         },
