@@ -5645,6 +5645,28 @@
         }
       }
     },
+    "npm:@aim-predict/snap": {
+      "id": "npm:@aim-predict/snap",
+      "metadata": {
+        "name": "AimPredict",
+        "author": {
+          "name": "AimPredict",
+          "website": "https://www.aimpredict.com/"
+        },
+        "summary": "Receive and display message notifications from AimPredict",
+        "description": "AimPredict Snap brings prediction market alerts directly into MetaMask. It connects your wallet to your AimPredict account and delivers in-app notifications when something important happens in the markets you follow.\n\nFeatures:\n\n- Wallet push notifications for followed prediction markets on AimPredict\n- Alerts for price moves, volume spikes, market closing, and other account notifications\n- Background polling every minute while your wallet is unlocked\n- Expandable notification details with links back to the relevant event on AimPredict\n- Automatic sync when you link or update wallet addresses in your AimPredict account\n\nHow to get started:\n\n1. Sign in at https://www.aimpredict.com/\n2. Link your MetaMask wallet address in User Center\n3. Enable Wallet push in your notification settings\n4. Click Install AimPredict Snap and approve the requested permissions in MetaMask\n5. The Snap will begin checking for new alerts and show notifications inside MetaMask\n\nYou can also install the Snap from any compatible dapp that supports MetaMask Snaps. After installation, the dapp calls configure to set the AimPredict API endpoint and request account access. The Snap then polls https://www.aimpredict.com/api/snap/messages for unread messages tied to your linked wallet addresses. The Snap only reads your connected Ethereum addresses, stores a small local polling state (last message ID and known addresses), and sends network requests to the AimPredict API you configure. It does not manage private keys, sign transactions, or move funds. Learn more at https://www.aimpredict.com/",
+        "category": "notifications",
+        "support": {
+          "contact": "https://t.me/+FfgaQMityUYxMjdk"
+        },
+        "sourceCode": "https://github.com/qieman/aimpredict-snap"
+      },
+      "versions": {
+        "0.1.0": {
+          "checksum": "b4IG9F6AVJFjTUcVgR6kiF52GOHCUTRU18asYIP0/iM="
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
