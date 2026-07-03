@@ -5645,6 +5645,33 @@
         }
       }
     },
+    "npm:@basis-protocol/snap": {
+      "id": "npm:@basis-protocol/snap",
+      "metadata": {
+        "name": "Basis Risk Intelligence",
+        "author": {
+          "name": "Basis Protocol",
+          "website": "https://basisprotocol.xyz/"
+        },
+        "summary": "Asset quality scores and wallet risk profiles at the point of transaction",
+        "description": "Basis Risk Intelligence shows you the risk profile of every stablecoin and counterparty wallet before you sign a transaction.\n\nAt transaction time:\n\n- Stablecoin Integrity Index (SII) score with category breakdowns (peg stability, liquidity, flows, distribution, structural)\n- Counterparty wallet risk assessment (concentration, coverage quality, dominant asset exposure)\n- Protocol Safety Index (PSI) for known DeFi protocols (Aave, Compound, Uniswap, Lido, Curve, Morpho, EigenLayer, Spark)\n- Composed Quality Index (CQI) when both asset and protocol risk data are available\n- Critical severity warnings when scores drop below configurable thresholds\n\nOn the home page (Snaps menu):\n\n- Your wallet's full risk profile with holdings breakdown\n- SII leaderboard for top stablecoins\n- 30-day risk score history\n\nBackground monitoring:\n- Score cache refreshes every 6 hours\n- In-app notifications when a stablecoin drops below your warning threshold\n\nAll data is read-only from the public Basis API. No private keys are accessed. Open methodology at https://basisprotocol.xyz/",
+        "category": "transaction insights",
+        "support": {
+          "contact": "mailto:shlok@basisprotocol.xyz"
+        },
+        "sourceCode": "https://github.com/basis-protocol/basis-snap/tree/master/basis-snap",
+        "screenshots": [
+          "./images/@basis-protocol/snap/1.png",
+          "./images/@basis-protocol/snap/2.png",
+          "./images/@basis-protocol/snap/3.png"
+        ]
+      },
+      "versions": {
+        "2.0.1": {
+          "checksum": "Lrdnbz4YRRV9zkCW60qKXC8Zs4HZzgxlCQkQpkodFjU="
+        }
+      }
+    },
     "npm:@aim-predict/snap": {
       "id": "npm:@aim-predict/snap",
       "metadata": {
