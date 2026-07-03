@@ -5667,6 +5667,29 @@
         }
       }
     },
+    "npm:@dexignation/snap": {
+      "id": "npm:@dexignation/snap",
+      "metadata": {
+        "name": "DEXignation",
+        "author": {
+          "name": "DEXignation",
+          "website": "https://dexignation.com/"
+        },
+        "summary": "Resolve .dex domains to chain-specific addresses and reverse-resolve wallet addresses to primary .dex names",
+        "description": "DEXignation adds .dex name resolution to MetaMask. It provides custom name lookup for .dex domains using MetaMask's name lookup entry point. The Snap resolves .dex domains to chain-specific addresses and supports reverse lookup from wallet addresses to primary .dex names when MetaMask invokes address-based lookup. The Snap is read-only. It calls the public DEXignation API at https://www.dexignation.com/api/v1 and does not hold private keys, manage accounts, sign transactions, or submit transactions. Supported chains include Ethereum, Polygon, Optimism, BNB Chain, Base, Arbitrum, Bitcoin, Solana, and Tron. Users install DEXignation in MetaMask. After installation, supported MetaMask flows can use the Snap to resolve .dex names or display primary .dex names for addresses. Official website: https://www.dexignation.com",
+        "category": "name resolution",
+        "support": {
+          "contact": "mailto:roy@bukcs.com",
+          "knowledgeBase": "https://github.com/DEXignation/dexignation-snap#readme"
+        },
+        "sourceCode": "https://github.com/DEXignation/dexignation-snap"
+      },
+      "versions": {
+        "0.1.1": {
+          "checksum": "https://github.com/DEXignation/dexignation-snap"
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
