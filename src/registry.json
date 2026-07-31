@@ -5698,6 +5698,30 @@
         }
       }
     },
+    "npm:@donnoh/gwei-name-service-snap": {
+      "id": "npm:@donnoh/gwei-name-service-snap",
+      "metadata": {
+        "name": "Gwei Name Service",
+        "author": {
+          "name": "Gwei Name Service",
+          "website": "https://gwei.domains"
+        },
+        "website": "https://gwei.domains",
+        "summary": "Resolve .gwei names and addresses natively in MetaMask.",
+        "description": "Gwei Name Service maps human-readable .gwei names to Ethereum addresses. The Snap lets users enter names such as alice.gwei directly in MetaMask recipient fields and returns forward-confirmed primary .gwei names for reverse lookups. It supports Ethereum mainnet and Sepolia. The Snap reads the immutable GNS NameNFT contracts through MetaMask's own Ethereum provider. It does not call external APIs or RPC endpoints, access accounts or keys, request network access, store data, sign transactions, or submit transactions. The published runtime has no dependencies. Source is MIT-licensed and fully open on GitHub.",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://github.com/lucadonnoh/gwei-names/issues",
+          "knowledgeBase": "https://github.com/lucadonnoh/gwei-names/tree/main/snap#readme"
+        },
+        "sourceCode": "https://github.com/lucadonnoh/gwei-names/tree/main/snap"
+      },
+      "versions": {
+        "0.1.0": {
+          "checksum": "msxpU9suBlS4btUwM5DftmDiSn7xcaODHketk9bXoTE="
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
