@@ -5722,6 +5722,35 @@
         }
       }
     },
+    "npm:@ducat-unit/wallet-snap": {
+      "id": "npm:@ducat-unit/wallet-snap",
+      "metadata": {
+        "name": "Ducat",
+        "author": {
+          "name": "Ducat Protocol Inc.",
+          "website": "https://www.ducatprotocol.com/"
+        },
+        "summary": "Sign Bitcoin Taproot vault transactions for the Ducat protocol.",
+        "description": "Ducat brings Bitcoin-native lending to your wallet. It lets the Ducat protocol app derive your Bitcoin accounts and request signatures for vault actions, while your private keys never leave the wallet.\n\nThe core of Ducat is the vault: a Bitcoin Taproot output secured by a 2-of-2 cosign between you and a Ducat guardian. When you take an action in the Ducat app — open a vault, borrow UNIT against your BTC, repay, deposit more collateral, or withdraw — the app builds the transaction and Ducat signs only your half of the cosign. The guardian co-signs the second half, so no single party can move your funds alone.\n\nFeatures:\nBitcoin account discovery (BTC, UNIT, and vault addresses).\nTaproot vault signing with full review of every action, amount, recipient, and fee before you approve.\nMessage signing (BIP322) for authenticating to the Ducat app.\nSimple BTC transfers.\nA home screen showing your balances and current vault health.\n\nHow to use it: connect your wallet at https://app.ducatprotocol.com and follow the in-app flow to create a vault and borrow against your Bitcoin. Each signing request opens a confirmation in your wallet that shows exactly what you are approving — the action, the amounts leaving your wallet, the recipients, and the fee — all derived from the transaction itself, not from anything the app claims.\n\nYour keys stay in the wallet at all times. Ducat only ever signs transactions you explicitly approve.",
+        "audits": [
+          {
+            "auditor": "Sayfer",
+            "report": "https://github.com/user-attachments/files/30761679/Sayfer___2026_07_Metamask_Snap_Audit_for_Ducat.pdf"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "mailto:info@ducatprotocol.com",
+          "faq": "https://github.com/DUCAT-UNIT/ducat-snap/blob/main/FAQ.md"
+        },
+        "sourceCode": "https://github.com/DUCAT-UNIT/ducat-snap"
+      },
+      "versions": {
+        "0.2.3": {
+          "checksum": "Z9YYJeUbOlSXvGmppZ2Ogu19wtqE5ZFAd4kieFzWI6Q="
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
