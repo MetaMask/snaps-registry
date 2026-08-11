@@ -5080,11 +5080,8 @@
         "sourceCode": "https://gitlab.com/ututrust/utu-metamask-snap"
       },
       "versions": {
-        "1.10.15": {
-          "checksum": "TzjIsdUK6/KwJ9oM1dfbUsLGU1fhgGTsZ2Fs4CBWVJg="
-        },
-        "1.10.13": {
-          "checksum": "wZmm7zb+sGEEet9C4XHHVlRDA1pym4CLBH+V1bege6M="
+        "1.12.0": {
+          "checksum": "Fq01AvnFikO6119+4a1jL/90SX21Eo8kEOmR4D6ddqI="
         }
       }
     },
