@@ -5667,6 +5667,9 @@
         "sourceCode": "https://github.com/qieman/aimpredict-snap"
       },
       "versions": {
+        "0.1.1": {
+          "checksum": "L1Obe/QOfsV1LDT5Dih9wOrMC3U2VMjWPIU+8NHzY1o="
+        },
         "0.1.0": {
           "checksum": "b4IG9F6AVJFjTUcVgR6kiF52GOHCUTRU18asYIP0/iM="
         }
