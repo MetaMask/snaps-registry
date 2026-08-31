@@ -5746,11 +5746,16 @@
           "contact": "mailto:info@ducatprotocol.com",
           "faq": "https://github.com/DUCAT-UNIT/ducat-snap/blob/main/FAQ.md"
         },
-        "sourceCode": "https://github.com/DUCAT-UNIT/ducat-snap"
+        "sourceCode": "https://github.com/DUCAT-UNIT/ducat-snap",
+        "screenshots": [
+          "./images/@ducat-unit/wallet-snap/1.png",
+          "./images/@ducat-unit/wallet-snap/2.png",
+          "./images/@ducat-unit/wallet-snap/3.png"
+        ]
       },
       "versions": {
-        "0.2.3": {
-          "checksum": "Z9YYJeUbOlSXvGmppZ2Ogu19wtqE5ZFAd4kieFzWI6Q="
+        "0.3.0": {
+          "checksum": "UF0uxQW26LtQZqdRSfULx6AQWWhKMtZO+UFQL33E0a0="
         }
       }
     },
