@@ -5765,6 +5765,33 @@
         }
       }
     },
+    "npm:@namebase.io/metamask": {
+      "id": "npm:@namebase.io/metamask",
+      "metadata": {
+        "name": "Namebase",
+        "author": {
+          "name": "Namebase",
+          "website": "https://namebase.io/"
+        },
+        "summary": "Resolves Namebase decentralized domains in the send field.",
+        "description": "Namebase decentralized domains are Handshake names minted onto Ethereum as ERC-721 tokens that never expire. MetaMask resolves names through the ENS registry, which has no record of them, so they show as unresolvable in the send field. \n\n This resolves them by reading the Namebase registry contract on Ethereum directly. Type a domain into the To field and it resolves to the address its holder is paid at. \n\n Resolution makes two read-only calls through your own MetaMask provider. There is no server, no API and no network access permission, so nothing outside Ethereum can affect where a payment goes, and it keeps working whether or not Namebase is reachable. \n\n A name resolves to whoever currently holds the token. When a domain is sold, it pays the new holder immediately, with no transaction from anyone. \n\n Learn more at https://namebase.io",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://discord.gg/td2AVFZjvN"
+        },
+        "sourceCode": "https://git.eskimo.dev/namebase/metamask",
+        "screenshots": [
+          "./images/@namebase.io/metamask/1.png",
+          "./images/@namebase.io/metamask/2.png",
+          "./images/@namebase.io/metamask/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.1": {
+          "checksum": "FWoRKTN/csXGg7tCXRyoLltTBgFWO5UO6tjyUjDFlWU="
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
