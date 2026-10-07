@@ -5792,6 +5792,34 @@
         }
       }
     },
+    "npm:@zkp2p/peer-cash-snap": {
+      "id": "npm:@zkp2p/peer-cash-snap",
+      "metadata": {
+        "name": "Peer Cash",
+        "author": {
+          "name": "Peer",
+          "website": "https://peer.xyz/"
+        },
+        "website": "https://peer-cash-snap.vercel.app/",
+        "summary": "Cash out Base USDC to fiat without a custodian.",
+        "description": "Peer Cash turns your wallet into an off-ramp for Base USDC. Pick an amount and a payout rail. Your USDC is escrowed in the ZKP2P protocol at the live Chainlink oracle rate, with zero spread and no custodian holding your funds. A buyer signals an intent, pays you on the rail you chose, and proves the payment with TEE-TLS. The protocol then releases the USDC to them. Anything that never matches is withdrawable at any time. Rails include Revolut, Wise, Zelle, and Chime, covering USD, EUR, GBP and more. Every mutation is approved twice. Peer Cash shows you the amount, rail, payee, and a live estimate before it builds anything, then hands back unsigned transactions that your wallet asks you to confirm one by one. It holds no keys and never signs. Orders appear on the home page, refresh in the background every five minutes, and notify you when a buyer matches, when a payout is delivered, and when unmatched funds come back. Venmo, Cash App, and PayPal are not offered here. Those rails need an access policy only first-party Peer surfaces can configure, and the Snap refuses them with a pointer to Peer rather than failing later.",
+        "category": "interoperability",
+        "support": {
+          "contact": "https://support.peer.xyz"
+        },
+        "sourceCode": "https://github.com/zkp2p/peer-cash-snap",
+        "screenshots": [
+          "./images/@zkp2p/peer-cash-snap/1.png",
+          "./images/@zkp2p/peer-cash-snap/2.png",
+          "./images/@zkp2p/peer-cash-snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.1": {
+          "checksum": "3ykr2Eg14vXKEVOBTW7pX2ew8O9NPIEiqlcVGEq+nfo="
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
