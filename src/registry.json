@@ -5792,6 +5792,35 @@
         }
       }
     },
+    "npm:@zcashcommunitygrants/webzjs-zcash-snap": {
+      "id": "npm:@zcashcommunitygrants/webzjs-zcash-snap",
+      "metadata": {
+        "name": "Zcash WebZjs Wallet",
+        "author": {
+          "name": "Zcash Community Grants",
+          "website": "https://zcashcommunitygrants.org/"
+        },
+        "website": "https://webzjs.red.dev/",
+        "summary": "Use Zcash privately in MetaMask.",
+        "description": "Zcash WebZjs Wallet integrates full Zcash functionality directly into MetaMask. It leverages the WebZjs JavaScript SDK to provide native support for Zcash's privacy-preserving features in a web environment.\n\nKey features:\n- Native support for Zcash's PCZT transactions\n- Secure in-browser syncing with the Zcash blockchain using a gRPC-web lightwallet proxy\n- Utilizes WebZjs, the first JavaScript SDK for Zcash, optimized for browser environments WebZjs uses the Zcash WebZjs Wallet for secure key handling.",
+        "audits": [
+          {
+            "auditor": "Hacken",
+            "report": "https://hacken.io/audits/zcash/dapp-zcash-snap-may2025/"
+          }
+        ],
+        "category": "interoperability",
+        "support": {
+          "contact": "https://discord.com/invite/zcash"
+        },
+        "sourceCode": "https://github.com/ZcashCommunityGrants/WebZjs"
+      },
+      "versions": {
+        "1.0.2": {
+          "checksum": "omUMy4M7iFO0+mqcG6rGv5/bnDvRbhZaC+qRvX0D22I="
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
