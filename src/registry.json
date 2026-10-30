@@ -5792,6 +5792,29 @@
         }
       }
     },
+    "npm:rensa-name-resolver": {
+      "id": "npm:rensa-name-resolver",
+      "metadata": {
+        "name": "Rensa Name Resolver",
+        "author": {
+          "name": "Rensa",
+          "website": "https://rensalabs.xyz/"
+        },
+        "summary": "Resolve .rns names on Robinhood Chain directly in send fields.",
+        "description": "Rensa Name Resolver adds .rns name resolution for Robinhood Chain Mainnet. After installation, users can enter a name such as rensa.rns directly in MetaMask recipient fields instead of typing a hexadecimal address. The resolver supports Robinhood Chain Mainnet (chain ID 4663) and uses Rensa’s public read-only resolver API at rensalabs.xyz. It does not access private keys or seed phrases, manage accounts, sign transactions, or broadcast transactions.",
+        "category": "name resolution",
+        "support": {
+          "contact": "https://github.com/project-rensa/rensa-name-resolver/issues",
+          "knowledgeBase": "https://github.com/project-rensa/rensa-name-resolver#readme"
+        },
+        "sourceCode": "https://github.com/project-rensa/rensa-name-resolver"
+      },
+      "versions": {
+        "0.1.0": {
+          "checksum": "Irld4eEQpPWnUqtXgQIT/10gJKNhdMe/lHfHsxTqFxI="
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
