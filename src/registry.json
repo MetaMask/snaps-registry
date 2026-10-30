@@ -5792,6 +5792,34 @@
         }
       }
     },
+    "npm:@agtnames/snap": {
+      "id": "npm:@agtnames/snap",
+      "metadata": {
+        "name": "AGT Names",
+        "author": {
+          "name": "AGT DOMAINS LLC (agtnames)",
+          "website": "https://agtnames.com/"
+        },
+        "summary": "Type a .agt agent name in the send field and pay its on-chain address.",
+        "description": ".agt names are on-chain identities for AI agents and the people who run them, registered on Polygon. With this Snap you type a name such as launchpad.agt in the send field and MetaMask fills in the address the name's owner published. On Polygon, the owner's payment wallet, with the owner account as a second labelled option when it differs. On Ethereum, Base, Arbitrum, Optimism, BNB Chain and Avalanche, the address the owner set for that network, or the owner account when it is a plain key-controlled account (contract accounts are never reused across chains). Lapsed names, names without address records, and any lookup that cannot be completed show nothing rather than a guess. Resolution reads the registry directly over public Polygon JSON-RPC through the open-source @agtnames/resolver library. It works without an account or any setup, stores nothing, and sends no telemetry.",
+        "category": "name resolution",
+        "support": {
+          "contact": "mailto:support@agtnames.com",
+          "knowledgeBase": "https://agtnames.com/docs/guides/metamask-send"
+        },
+        "sourceCode": "https://github.com/agtnames/agt/tree/snap-v0.1.2/packages/snap",
+        "screenshots": [
+          "./images/@agtnames/snap/1.png",
+          "./images/@agtnames/snap/2.png",
+          "./images/@agtnames/snap/3.png"
+        ]
+      },
+      "versions": {
+        "0.1.2": {
+          "checksum": "F5GDSB9E/Tx60P0J4LopDWHg0SGUpmfcKpJUQpdMNMc="
+        }
+      }
+    },
     "npm:@metamask/bitcoin-wallet-snap": {
       "id": "npm:@metamask/bitcoin-wallet-snap",
       "metadata": {
