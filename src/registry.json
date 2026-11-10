@@ -5858,6 +5858,13 @@
             "extension": ">=13.23.0",
             "mobile": ">=7.70.0"
           }
+        },
+        "4.4.1": {
+          "checksum": "6utZnFuKIcTKzQewn4or+Bt5AISVF5/tKvSWrMEs82U=",
+          "clientVersions": {
+            "extension": ">=13.55.0",
+            "mobile": ">=8.18.0"
+          }
         }
       }
     }
